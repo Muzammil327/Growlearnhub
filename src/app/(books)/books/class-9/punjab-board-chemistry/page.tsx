@@ -11,13 +11,26 @@ const data = {
   title: "Class 9th Punjab Board Chemistry Books",
   description:
     "Main purpose of Codebloglab is to empowering through education and technical skills. Dive into study and technical work for personal and professional growth.",
-    canonical: "/books/class-9/punjab-board-chemistry/",
-    index: true,
+  canonical: "/books/class-9/punjab-board-chemistry/",
+  index: true,
   follow: true,
   image: "/opengraph-image.jpg",
   url: "https://growlearnhub.com/books/class-9/punjab-board-chemistry/",
   keywords: ["growlearnhub quiz", "quiz"],
 };
+
+const punjabBoard: vu_Book[] = [
+  {
+    id: 0,
+    title: "English Medium Books",
+    link: "/books/class-9/punjab-board-chemistry/english/",
+  },
+  {
+    id: 1,
+    title: "Urdu Medium Books",
+    link: "/books/class-9/punjab-board-chemistry/urdu/",
+  },
+];
 
 export default function page() {
   return (
@@ -27,7 +40,7 @@ export default function page() {
         <div className="grid lg:grid-cols-11 gap-2 mb-12">
           <div className="col-span-8">
             <div className="grid gap-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 my-2">
-              {punjabBoard_Medium.map((data: vu_Book) => {
+              {punjabBoard.map((data: vu_Book) => {
                 return (
                   <Card2 key={data.id} title={data.title} link={data.link} />
                 );
@@ -43,19 +56,6 @@ export default function page() {
     </div>
   );
 }
-
- const punjabBoard_Medium: vu_Book[] = [
-  {
-    id: 0,
-    title: "English Medium Books",
-    link: "/books/class-9/punjab-board-chemistry/english/",
-  },
-  {
-    id: 1,
-    title: "Urdu Medium Books",
-    link: "/books/class-9/punjab-board-chemistry/urdu/",
-  },
-];
 
 export const metadata: Metadata = {
   title: data.title,
