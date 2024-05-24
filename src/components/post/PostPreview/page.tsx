@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import ImageComponent from "../../elements/ImageComponent/page";
 
 export interface Article {
   tagslug: string;
@@ -24,7 +23,6 @@ export default function PostCard({ datas }: Iprops) {
   return (
     <div className="postcard">
       <div className="img">
-        <ImageComponent src={datas.image} alt="hjkh" width={500} height={500} />
         <div className="cat">
           <a href={`/catgeory/${datas.catslug}`}>{datas.cat}</a>
         </div>
