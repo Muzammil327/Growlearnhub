@@ -9,11 +9,11 @@ const data = {
   title: "CS-201 Introducing to Programming Chapter 2",
   description:
     "Main purpose of Codebloglab is to empowering through education and technical skills. Dive into study and technical work for personal and professional growth.",
-  canonical: "/study-material/",
+  canonical: "/",
   index: true,
   follow: true,
   image: "/opengraph-image.jpg",
-  url: "https://growlearnhub.com/study-material/",
+  url: "https://growlearnhub.com/",
   keywords: ["growlearnhub quiz", "quiz"],
 };
 
