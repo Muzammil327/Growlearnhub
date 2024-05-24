@@ -44,7 +44,7 @@ export default function page() {
   );
 }
 
-export const punjabBoard_Medium: vu_Book[] = [
+ const punjabBoard_Medium: vu_Book[] = [
   {
     id: 0,
     title: "English Medium Books",
