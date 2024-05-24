@@ -2,7 +2,6 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import Markdown from "markdown-to-jsx";
-import RightPost from "@/src/components/post/rightPost/page";
 import Image from "next/image";
 // import BannerImageComponent from "@/src/components/elements/BannerImageComponent/page";
 import Container from "@/src/components/element/container";
@@ -72,7 +71,6 @@ const PostPage = (props: any) => {
             </div>
 
             <div className="md:col-span-2">
-              <RightPost />
             </div>
           </div>
         </Container>
