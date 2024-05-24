@@ -40,7 +40,7 @@ export default function page() {
       <Container>
         <div className="grid lg:grid-cols-11 gap-2 mb-12">
           <div className="col-span-8">
-            <div className="grid gap-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 my-2">
+          <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
               {punjabBoard.map((data: vu_Book) => {
                 return (
                   <Card2 key={data.id} title={data.title} link={data.link} />

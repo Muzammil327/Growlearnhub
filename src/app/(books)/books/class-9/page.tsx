@@ -33,7 +33,7 @@ export default function page() {
                   <h2 className="text-xl font-semibold py-2">
                     {data.name} Class 9 Books
                   </h2>
-                  <div className="grid gap-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 my-2">
+                  <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
                     {data.list.map((item: any) => (
                       <Card2
                         key={item.id}
