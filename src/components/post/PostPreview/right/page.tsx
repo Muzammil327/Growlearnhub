@@ -1,10 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { PostCard } from "@/src/types/post/page";
 
 interface Iprops {
-  datas: PostCard;
+  datas: any;
 }
 
 export default function RHeroPostPreview({ datas }: Iprops) {
