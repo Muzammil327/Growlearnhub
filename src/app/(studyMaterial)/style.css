@@ -1,0 +1,21 @@
+.studyMateriala {
+  @apply grid lg:grid-cols-11 gap-5 mb-12;
+}
+.studyMateriala .c1 {
+  @apply col-span-8;
+}
+.studyMateriala .c1 .semestertitle {
+  @apply text-xl font-bold text-indigo-500;
+}
+.studyMateriala .c1 .col {
+  @apply grid gap-4 md:grid-cols-2 grid-cols-1 my-10;
+}
+.studyMateriala .c2 {
+  @apply col-span-3;
+}
+p {
+  @apply text-gray-500;
+}
+a {
+  @apply text-indigo-600 underline hover:no-underline transition-all;
+}

@@ -1,0 +1,12 @@
+.studyMaterial {
+  @apply grid lg:grid-cols-11 gap-5 mb-12;
+}
+.studyMaterial .c1 {
+  @apply col-span-8;
+}
+.studyMaterial .c1 .col {
+  @apply grid gap-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 my-10;
+}
+.studyMaterial .c2 {
+  @apply col-span-3;
+}

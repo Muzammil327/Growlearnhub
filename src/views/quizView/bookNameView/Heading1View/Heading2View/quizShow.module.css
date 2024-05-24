@@ -1,0 +1,21 @@
+.quiz {
+  box-shadow: 0 20px 63px -60px #000000;
+  @apply rounded-md pt-5 mt-0 mx-auto md:px-5 mb-14 pb-2 overflow-y-hidden bg-[];
+}
+.link {
+  @apply lg:text-2xl text-xl font-semibold py-2 hover:text-indigo-500;
+}
+
+.optionli {
+  @apply rounded list-none md:py-3 py-2 md:my-4 my-3 md:mx-3 mx-2 md:px-4 px-3 hover:border-indigo-500 transition-all;
+  background: aliceblue;
+  border: 1px solid #84c5fe;
+}
+
+
+.span1 {
+  @apply lg:text-2xl text-xl py-2 text-indigo-500;
+}
+.span2 {
+  @apply text-lg pt-3 font-semibold text-indigo-500;
+}

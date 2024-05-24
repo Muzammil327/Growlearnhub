@@ -1,0 +1,37 @@
+.navbarFixed {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.headerScrolled {
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menubutton {
+  @apply flex lg:hidden mr-4;
+}
+.button {
+  @apply inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 bg-gray-200;
+}
+
+.menu {
+  @apply hidden lg:flex lg:gap-x-12;
+}
+
+.a {
+  @apply text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600;
+}
+
+.navbar {
+  @apply absolute inset-x-0 top-0 z-50;
+}
+.nav {
+  @apply flex items-center justify-between lg:py-1 py-2;
+}

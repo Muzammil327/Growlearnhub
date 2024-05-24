@@ -1,0 +1,187 @@
+.card {
+  box-shadow:
+    0px 3px 6px rgba(0, 0, 0, 0.05),
+    0px 8px 15px rgba(0, 0, 0, 0.1),
+    0 0 0 1px rgba(255, 255, 255, 0.1);
+  transition: box-shadow 0.25s;
+  @apply bg-gray-900 cursor-pointer rounded-md relative pt-4 px-4 pb-4;
+}
+.card::before {
+  content: '';
+  background-color: rgba(255, 255, 255, 0.015);
+  @apply absolute inset-0 rounded-md;
+}
+
+.span {
+  z-index: 2;
+  margin: 12px 0 4px 0;
+  @apply text-white text-lg leading-8 font-semibold relative border p-2 rounded-md;
+}
+
+.h4 {
+  z-index: 2;
+  margin: 12px 0 4px 0;
+  @apply text-white text-lg leading-8 font-semibold relative capitalize;
+}
+
+.shine {
+  border-radius: inherit;
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.shine::before {
+  content: '';
+  width: 150%;
+  padding-bottom: 150%;
+  border-radius: 50%;
+  filter: blur(35px);
+  opacity: 0.1;
+  transform: translateX(-50%);
+  background-image: conic-gradient(
+    from 205deg at 50% 50%,
+    rgba(16, 185, 129, 0) 0deg,
+    #ff80b5 25deg,
+    rgba(52, 211, 153, 0.18) 295deg,
+    rgba(16, 185, 129, 0) 360deg
+  );
+  @apply absolute left-1/2 bottom-[55%];
+}
+
+.background {
+  border-radius: inherit;
+  mask-image: radial-gradient(
+    circle at 60% 5%,
+    black 0%,
+    black 15%,
+    transparent 60%
+  );
+  @apply absolute inset-0 overflow-hidden;
+}
+
+/* line */
+.line {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.35s;
+}
+.line::before,
+.line::after {
+  content: '';
+  position: absolute;
+  background-color: #2a2b2c;
+  transition: transform 0.35s;
+}
+
+.line::before {
+  left: 0;
+  right: 0;
+  height: 1px;
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+}
+
+.line::after {
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  transform-origin: 50% 0;
+  transform: scaleY(0);
+}
+/* line 1 */
+.line1::before {
+  top: 10%;
+}
+
+.line1::after {
+  left: 22.5%;
+}
+
+.line1::before,
+.line1::after {
+  transition-delay: 0.3s;
+}
+/* line 2 */
+.line2::before {
+  top: 32.5%;
+}
+
+.line2:after {
+  left: 50%;
+}
+
+.line2:before,
+.line2:after {
+  transition-delay: 0.15s;
+}
+/* line 3 */
+.line3::before {
+  top: 55%;
+}
+
+.line3::after {
+  right: 22.5%;
+}
+/* hover card */
+.card:hover {
+  box-shadow:
+    0px 3px 6px rgba(0, 0, 0, 0.04),
+    0px 15px 25px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(255, 255, 255, 0.2);
+}
+.card:hover .shine {
+  opacity: 1;
+  transition-duration: 0.5s;
+  transition-delay: 0s;
+}
+/* tile hover */
+.card:hover.background .tiles {
+  opacity: 1;
+  transition-delay: 0.25s;
+}
+.card:hover .background .tile {
+  animation-name: tile;
+}
+@keyframes tile {
+  0%,
+  12.5%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  82.5% {
+    opacity: 0;
+  }
+}
+/* line hover */
+.card:hover .line {
+  opacity: 1;
+  transition-duration: 0.15s;
+}
+.card:hover .line::before {
+  transform: scaleX(1);
+}
+
+.card:hover .line::after {
+  transform: scaleY(1);
+}
+/* line 1 2 3 hover */
+.card:hover .line .line1::before,
+.card:hover .line .line1::after {
+  transition-delay: 0s;
+}
+
+.card:hover .line .line2::before,
+.card:hover .line .line2::after {
+  transition-delay: 0.15s;
+}
+
+.card:hover .line .line3::before,
+.card:hover .line .line3::after {
+  transition-delay: 0.3s;
+}

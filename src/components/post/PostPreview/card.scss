@@ -1,0 +1,111 @@
+.card {
+  @apply border relative p-1 rounded-md shadow-sm bg-white;
+
+  .img {
+
+    img {
+      @apply rounded-md w-full h-full;
+    }
+
+    .tag {
+      @apply absolute top-4 right-4 bg1 rounded px-2;
+
+      a {
+        @apply text-sm t5;
+      }
+    }
+
+    .cat {
+      @apply absolute top-4 left-4 bg1 rounded px-2 capitalize;
+
+      a {
+        @apply text-sm;
+      }
+    }
+  }
+
+
+  .content {
+    @apply py-2;
+
+    a {
+      @apply f text-xl font-semibold t1 hover:t2;
+    }
+
+    p {
+      @apply t6;
+    }
+
+    .inner {
+      @apply flex items-center gap-4 py-2;
+
+      a {
+        @apply t2 text-sm;
+
+        span {
+          @apply t4 text-sm;
+        }
+      }
+
+      span {
+        @apply t4 text-sm;
+      }
+    }
+
+  }
+}
+
+
+.postcard {
+  @apply border relative rounded-md bg-white;
+
+  .img {
+    img {
+      @apply rounded-md ;
+    }
+
+    .tag {
+      @apply absolute top-4 right-4 rounded px-2;
+
+      a {
+        @apply text-sm bg-red-500 py-1 px-2 rounded text-white capitalize;
+      }
+    }
+
+    .cat {
+      @apply absolute top-4 left-4 rounded px-2 capitalize;
+
+      a {
+        @apply text-sm bg-red-500 py-1 px-2 rounded text-white capitalize;
+      }
+    }
+  }
+
+  .content {
+    @apply p-2;
+
+    a {
+      @apply text-xl sm:text-2xl font-semibold inline-block hover:text-red-600 transition duration-500 ease-in-out;
+    }
+
+    p {
+      @apply text-gray-700 text-base leading-6;
+    }
+
+    .inner {
+      @apply flex items-center gap-4 py-2;
+
+      a {
+        @apply;
+
+        span {
+          @apply text-sm;
+        }
+      }
+
+      span {
+        @apply text-sm;
+      }
+    }
+  }
+}

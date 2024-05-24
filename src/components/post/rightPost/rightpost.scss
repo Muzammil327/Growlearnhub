@@ -1,0 +1,116 @@
+.rightpost {
+	@apply relative lg:my-8 md:my-6 my-4;
+
+	.title {
+		@apply b relative h-7 mb-7;
+
+		h3 {
+			@apply h-7 px-3 py-1 uppercase relative w-auto bg2 font-semibold text-sm;
+		}
+
+		&::before {
+			content: "";
+			@apply absolute right-0 h-[2px] w-full bg1 top-2/4;
+			transform: translateY(-50%);
+		}
+	}
+
+	.follow {
+		ul {
+			@apply grid grid-cols-2 b gap-2;
+
+			li {
+
+				a {
+					@apply b h-8 overflow-hidden text-white font-normal text-base;
+
+					.icon {
+						@apply c w-8 h-full bg3 flex-shrink-0;
+					}
+
+					.text {
+						@apply text-sm px-4;
+					}
+				}
+			}
+		}
+	}
+
+	.tag {
+		ul {
+			@apply flex flex-wrap;
+
+			li {
+				@apply mt-1 mr-2;
+
+				a {
+					@apply hover:bg1 font-normal text-sm px-3 h-7 bg2 flex items-center t1 hover:text-white transition-all rounded;
+				}
+			}
+		}
+	}
+
+	.catgeory {
+		ul {
+			li {
+				a {
+					@apply pb-4 b t1 hover:text-red-500 transition-all;
+				}
+			}
+		}
+	}
+
+	.ads {
+		@apply c t4 h-16 text-sm bg2 italic;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.course-card {
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+	transition: 0.25s ease-in-out;
+
+	&-img {
+		border-radius: 25px 25px 0px 0px;
+
+		& .main {
+			object-fit: cover;
+			z-index: 1;
+			transition: 0.25s ease-in-out;
+		}
+
+		& .layered {
+			height: 120px;
+			width: 130px;
+			position: absolute;
+			filter: blur(19px);
+			transition: 0.25s ease-in-out;
+		}
+	}
+
+
+	&:hover {
+		transform: scale(1.05);
+
+		.course-card-img {
+			& .main {
+				transform: scale(1.1);
+			}
+
+			& .layered {
+				filter: blur(19);
+				transform: scale(1.5);
+			}
+		}
+	}
+}
