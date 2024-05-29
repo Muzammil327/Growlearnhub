@@ -124,7 +124,7 @@ export const class_9_book = [
       {
         title: "computer science Book",
         link: "/books/class-9/",
-        filter: "punjab-board-computer science",
+        filter: "punjab-board-computer-science",
         keyword: [
           "computer science book",
           "punjab board",
@@ -135,7 +135,7 @@ export const class_9_book = [
         medium: [
           {
             title: "English Medium Book",
-            link: "/books/class-9/punjab-board-computer science/",
+            link: "/books/class-9/punjab-board-computer-science/",
             filter: "english",
             fileId: "1o5fPLG7_lTK2sAs5smLAgJEopLTf8fsR",
             keyword: [
@@ -149,7 +149,7 @@ export const class_9_book = [
           },
           {
             title: "Urdu Medium Book",
-            link: "/books/class-9/punjab-board-computer science/",
+            link: "/books/class-9/punjab-board-computer-science/",
             filter: "urdu",
             fileId: "1dSyB9KxtY59L541KRu55BmWEVbmy6rnz",
             keyword: [
@@ -245,7 +245,7 @@ export const class_9_book = [
             title: "English Medium Book",
             link: "/books/class-9/punjab-board-pak-study/",
             filter: "english",
-            fileId: "/1RKP3pOE6fY4C7i0eCdDSYZcB38TEZ62E",
+            fileId: "1RKP3Z62EpOE6fY4C7i0eCdDSYZcB38TE",
             keyword: [
               "class 9",
               "class 9 pak study book",
@@ -259,7 +259,7 @@ export const class_9_book = [
             title: "Urdu Medium Book",
             link: "/books/class-9/punjab-board-pak-study/",
             filter: "urdu",
-            fileId: "13Y8JmTqRvSsKUTCk6muXFG2ql-ef_AbZ",
+            fileId: "1H4DK2mlhoPcIAb7PywX0-5PWcqNr7VqU",
             keyword: [
               "class 9",
               "class 9 pak study book",

@@ -34,16 +34,26 @@ export const Class9_BookDatas: class_Book[] = [
         title: "Math Books",
         link: "/books/class-9/punjab-board-math",
       },
-      // {
-      //   id: 4,
-      //   title: "General Math Books",
-      //   link: "/books/class-9/punjab-board-general-math",
-      // },
-      // {
-      //   id: 5,
-      //   title: "Computer Science Books",
-      //   link: "/books/class-9/punjab-board-computer-science",
-      // },
+      {
+        id: 4,
+        title: "General Math Books",
+        link: "/books/class-9/punjab-board-general-math",
+      },
+      {
+        id: 5,
+        title: "Computer Science Books",
+        link: "/books/class-9/punjab-board-computer-science",
+      },
+      {
+        id: 6,
+        title: "Urdu Books",
+        link: "/books/class-9/punjab-board-urdu",
+      },
+      {
+        id: 7,
+        title: "Pak Study Books",
+        link: "/books/class-9/punjab-board-pak-study",
+      },
     ],
   },
 ];
@@ -480,5 +490,3 @@ export const VU_BookDatas: vu_Book[] = [
 //     ],
 //   },
 // ];
-
-
