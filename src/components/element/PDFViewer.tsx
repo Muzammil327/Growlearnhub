@@ -3,30 +3,24 @@ import React, { useState, useEffect } from "react";
 import LoadingPdf from "./Loading/LoadingPdf";
 
 const PDFViewer: React.FC<{ pdfUrl: string }> = ({ pdfUrl }) => {
-  const [showIframe, setShowIframe] = useState(false);
+  const [iframeLoaded, setIframeLoaded] = useState(false);
 
-  useEffect(() => {
-    // Delay the showing of the iframe for 1 second
-    const timer = setTimeout(() => {
-      setShowIframe(true);
-    }, 1000);
-
-    // Cleanup the timer to prevent memory leaks
-    return () => clearTimeout(timer);
-  }, []);
+  const handleIframeLoad = () => {
+    // Set the iframeLoaded state to true when the iframe has finished loading
+    setIframeLoaded(true);
+  };
 
   return (
     <div className="mt-5">
-      {showIframe && (
-        <iframe
-          src={`https://drive.google.com/file/d/${pdfUrl}/preview`}
-          width="100%"
-          height="800px"
-          title="PDF Viewer"
-          style={{ border: "none" }}
-        />
-      )}
-      {!showIframe && (
+      <iframe
+        src={`https://drive.google.com/file/d/${pdfUrl}/preview`}
+        width="100%"
+        height="800px"
+        title="PDF Viewer"
+        style={{ border: "none", display: iframeLoaded ? "block" : "none" }}
+        onLoad={handleIframeLoad}
+      />
+      {!iframeLoaded && (
         <>
           <LoadingPdf />
           <LoadingPdf />

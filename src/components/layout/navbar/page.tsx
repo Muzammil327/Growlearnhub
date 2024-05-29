@@ -12,10 +12,10 @@ import { NavbarIpropsSlug } from "./type";
 const navigation: NavbarIpropsSlug[] = [
   { name: "Home", href: "/" },
   { name: "Books", href: "/books/" },
-  { name: "Quiz", href: "/" },
-  { name: "Notes", href: "/" },
+  { name: "Quiz", href: "/quiz/" },
+  { name: "Notes", href: "/notes/" },
   { name: "Online Test", href: "/" },
-  { name: "Pairing Scheme", href: "/" },
+  { name: "Pairing Scheme", href: "/pairing-scheme/" },
 ];
 
 export default function Navbar() {
