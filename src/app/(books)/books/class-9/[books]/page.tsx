@@ -1,13 +1,10 @@
-"use client";
 import React from "react";
 import Card2 from "@/src/components/card2/page";
 import Container from "@/src/components/element/container";
 import Form from "@/src/components/element/form/page";
 import Sidebar from "@/src/components/element/sidebar";
 import SubHeader from "@/src/components/layout/header/subheader/page";
-import { vu_Book } from "@/src/app/(books)/type";
-import { useParams } from "next/navigation";
-import { class_9_quiz } from "../data";
+import { class_9_book } from "../data";
 
 const data = {
   title: "Class 9th Punjab Board Biology Quiz",
@@ -21,12 +18,10 @@ const data = {
   keywords: ["growlearnhub quiz", "quiz"],
 };
 
-export default function Page() {
-  const { books } = useParams();
-
-  const filteredBooks = class_9_quiz.map((data) => {
-    return data.books.filter((book) => {
-      return book.filter === books;
+export default function Page({ params }: { params: { books: string } }) {
+  const filteredBooks = class_9_book.map((data: any) => {
+    return data.books.filter((book: any) => {
+      return book.filter === params.books;
     });
   });
 
@@ -44,7 +39,7 @@ export default function Page() {
                       " " +
                       datas.filter.replace(/-/g, " ") +
                       " " +
-                      "Quiz"
+                      "Book"
                     }
                   />
                   <Container>
@@ -55,10 +50,10 @@ export default function Page() {
                             " " +
                             datas.filter.replace(/-/g, " ") +
                             " " +
-                            "Quiz"}
+                            "Book"}
                         </h1>
                         <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-4">
-                          {datas.chapter.map((item: any) => (
+                          {datas.medium.map((item: any) => (
                             <Card2
                               key={item.id}
                               title={item.title}
@@ -81,4 +76,56 @@ export default function Page() {
       })}
     </>
   );
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { books: string };
+}) {
+  const slug = params.books;
+
+  function capitalize(str: string) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  }
+
+  let textWithoutHyphens = slug.replace(/-/g, " ");
+
+  const title = capitalize(textWithoutHyphens);
+  const title2 = "Class 9" + " " + title + " " + "Book";
+  return {
+    title: title2,
+    // description: post?.data.para,
+    // keywords: data.keywords,
+    alternates: {
+      canonical: `books/class-9/${slug}`,
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+      },
+    },
+    openGraph: {
+      title: title2,
+      //   // description: post?.data.para,
+      url: `books/class-9/${slug}`,
+      //   images: [
+      //     {
+      //       // url: data.image,
+      alt: title2,
+      //     },
+      //   ],
+    },
+    twitter: {
+      title: title2,
+      // description: post?.data.para,
+      images: {
+        // url: data.image,
+        alt: title2,
+      },
+    },
+  };
 }
