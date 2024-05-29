@@ -62,7 +62,7 @@ export default function Page({
               <div className="grid lg:grid-cols-11 gap-4 mb-12">
                 <div className="col-span-8">
                   <div className=" my-4">
-                    <h1 className="text-2xl font-bold my-4">
+                    <h2 className="text-2xl font-bold my-4">
                       {"Class 9" +
                         " " +
                         data2 +
@@ -70,13 +70,17 @@ export default function Page({
                         datas.filter.replace(/-/g, " ") +
                         " " +
                         "Medium"}{" "}
-                    </h1>
+                    </h2>
                   </div>
                   <PDFViewer pdfUrl={datas.fileId} />
                   <Form url={data.url} />
                 </div>
                 <div className="col-span-3">
-                  <Sidebar title={data.title} url={data.url} />
+                  <Sidebar
+                    title={data.title}
+                    url={data.url}
+                    list={datas.list}
+                  />
                 </div>
               </div>
             </Container>

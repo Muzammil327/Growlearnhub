@@ -80,7 +80,9 @@ const Sidebar: React.FC<SidebarProps> = ({ title, videoId, url, list }) => {
         )}
       </div>
       <div className="menu mt-4">
-        <span className="text-lg font-semibold my-2">Useful Links</span>
+        <div className="title">
+          <h3> Useful Links:</h3>
+        </div>
         <ul className="pt-3">
           {list &&
             list.map((data: Iprops) => {

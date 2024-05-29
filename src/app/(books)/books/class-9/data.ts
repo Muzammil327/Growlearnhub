@@ -66,6 +66,40 @@ export const class_9_book = [
               "class 9 chemistry book english medium punjab board",
             ],
             description: "",
+            list: [
+              {
+                title: "Class 9 Punjab Chemistry Book Urdu Medium",
+                link: "/books/class-9/punjab-board-chemistry/urdu/",
+              },
+              {
+                title: "Class 9 Punjab Biology Book English Medium",
+                link: "/books/class-9/punjab-board-biology/english/",
+              },
+              {
+                title: "Class 9 Punjab Physics Book English Medium",
+                link: "/books/class-9/punjab-board-physics/english/",
+              },
+              {
+                title: "Class 9 Punjab English Book",
+                link: "/books/class-9/punjab-board-english/english/",
+              },
+              {
+                title: "Class 9 Punjab Urdu Book",
+                link: "/books/class-9/punjab-board-urdu/urdu/",
+              },
+              {
+                title: "Class 10 Punjab Chemistry Book English Medium",
+                link: "/books/class-10/punjab-board-chemistry/english/",
+              },
+              {
+                title: "Class 11 Punjab Chemistry Book English Medium",
+                link: "/books/class-11/punjab-board-chemistry/english/",
+              },
+              {
+                title: "Class 12 Punjab Chemistry Book English Medium",
+                link: "/books/class-12/punjab-board-chemistry/english/",
+              },
+            ],
           },
           {
             title: "Urdu Medium Book",
@@ -80,6 +114,40 @@ export const class_9_book = [
               "class 9 chemistry book english medium punjab board",
             ],
             description: "",
+            list: [
+              {
+                title: "Class 9 Punjab Chemistry Book English Medium",
+                link: "/books/class-9/punjab-board-chemistry/english/",
+              },
+              {
+                title: "Class 9 Punjab Biology Book English Medium",
+                link: "/books/class-9/punjab-board-biology/english/",
+              },
+              {
+                title: "Class 9 Punjab Physics Book English Medium",
+                link: "/books/class-9/punjab-board-physics/english/",
+              },
+              {
+                title: "Class 9 Punjab English Book",
+                link: "/books/class-9/punjab-board-english/english/",
+              },
+              {
+                title: "Class 9 Punjab Urdu Book",
+                link: "/books/class-9/punjab-board-urdu/urdu/",
+              },
+              {
+                title: "Class 10 Punjab Chemistry Book Urdu Medium",
+                link: "/books/class-10/punjab-board-chemistry/urdu/",
+              },
+              {
+                title: "Class 11 Punjab Chemistry Book Urdu Medium",
+                link: "/books/class-11/punjab-board-chemistry/urdu/",
+              },
+              {
+                title: "Class 12 Punjab Chemistry Book Urdu Medium",
+                link: "/books/class-12/punjab-board-chemistry/urdu/",
+              },
+            ],
           },
         ],
       },
@@ -191,11 +259,7 @@ export const class_9_book = [
         title: "math Book",
         link: "/books/class-9/",
         filter: "punjab-board-math",
-        keyword: [
-          "math book",
-          "punjab board",
-          "punjab board math book",
-        ],
+        keyword: ["math book", "punjab board", "punjab board math book"],
         description:
           "Here you can download class 9 punjab board math book and other related books like mathematics, mathematics. ",
         medium: [
