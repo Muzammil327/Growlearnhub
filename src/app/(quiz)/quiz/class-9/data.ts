@@ -73,6 +73,7 @@ export const class_9_quiz = [
             title: "Chapter 1: ",
             link: "/quiz/class-9/punjab-board-chemistry/",
             filter: "chapter-1",
+            fileId: "1DCfFYaSvcHnN_b4s4eHdQTonZ8OeCpu7PhD6gDJFuFA",
           },
           {
             title: "Chapter 2: ",
