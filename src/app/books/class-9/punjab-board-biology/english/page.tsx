@@ -28,20 +28,6 @@ const data = {
     "class 9 book biology english medium",
     "download class 9 book biology english medium",
   ],
-  medium: [
-    {
-      title: "Class 9 Biology Punjab Board English Medium Book",
-      link: "/books/class-9/punjab-board-biology/english/",
-      description: "",
-      image: "",
-    },
-    {
-      title: "Class 9 Biology Punjab Board Urdu Medium Book",
-      link: "/books/class-9/punjab-board-biology/urdu/",
-      description: "",
-      image: "",
-    },
-  ],
 };
 
 export default function page() {
@@ -54,6 +40,8 @@ export default function page() {
       b2="Class 9"
       b2Link="/books/class-9/"
       b3="Punjab Board Biology"
+      b3Link="/books/class-9/punjab-board-biology/"
+      b4="English Medium"
     >
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,

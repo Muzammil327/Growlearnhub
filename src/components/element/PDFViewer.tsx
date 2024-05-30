@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import LoadingPdf from "./Loading/LoadingPdf";
 
 const PDFViewer: React.FC<{ pdfUrl: string }> = ({ pdfUrl }) => {
@@ -10,6 +10,10 @@ const PDFViewer: React.FC<{ pdfUrl: string }> = ({ pdfUrl }) => {
     setIframeLoaded(true);
   };
 
+  const handleDownloadClick = () => {
+    window.location.href =
+      `https://drive.usercontent.google.com/u/0/uc?id=${pdfUrl}&export=download`;
+  };
   return (
     <div className="mt-5">
       <iframe
@@ -26,6 +30,7 @@ const PDFViewer: React.FC<{ pdfUrl: string }> = ({ pdfUrl }) => {
           <LoadingPdf />
         </>
       )}
+      <button onClick={handleDownloadClick} className="bg-blue-500 w-full py-3 rounded my-3 text-white">Download PDF</button>
     </div>
   );
 };

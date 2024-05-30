@@ -33,13 +33,15 @@ const data = {
 export default function page() {
   return (
     <BookWrapper
-      title={data.title}
-      url={data.url}
-      b1="Books"
-      b1Link="/books/"
-      b2="Class 9"
-      b2Link="/books/class-9/"
-      b3="Punjab Board Chemistry"
+    title={data.title}
+    url={data.url}
+    b1="Books"
+    b1Link="/books/"
+    b2="Class 9"
+    b2Link="/books/class-9/"
+    b3="Punjab Board Chemistry"
+    b3Link="/books/class-9/punjab-board-chemistry/"
+    b4="Urdu Medium"
     >
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,

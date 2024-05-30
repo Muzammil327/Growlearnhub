@@ -40,6 +40,8 @@ export default function page() {
       b2="Class 9"
       b2Link="/books/class-9/"
       b3="Punjab Board Chemistry"
+      b3Link="/books/class-9/punjab-board-chemistry/"
+      b4="English Medium"
     >
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,

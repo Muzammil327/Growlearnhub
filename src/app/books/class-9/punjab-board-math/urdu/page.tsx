@@ -10,23 +10,23 @@ import { class_Book } from "@/src/app/books/type";
 import { Class9_Book } from "@/src/app/books/class-9/data";
 
 const data = {
-  title: "Class 9 English Urdu Medium Biology Book Punjab Board",
+  title: "Class 9 English Urdu Medium Math Book Punjab Board",
   description:
-    "Here you can download Class 9 Biology Book Punjab Board in urdu medium. other books of class 9 punjab board available in this platform.",
-  canonical: "/books/class-9/punjab-board-biology/urdu/",
+    "Here you can download Class 9 Math Book Punjab Board in urdu medium. other books of class 9 punjab board available in this platform.",
+  canonical: "/books/class-9/punjab-board-math/urdu/",
   index: true,
   follow: true,
   image: "/9th/book/biology/Download-Punjab-Board-Biology-Book.webp",
-  url: "https://growlearnhub.com/books/class-9/punjab-board-biology/urdu/",
-  urdu_medium: "1ty3cPG8aWvjPla3xJAT4F__bLNJHKiZv",
+  url: "https://growlearnhub.com/books/class-9/punjab-board-math/urdu/",
+  urdu_medium: "13Y8JmTqRvSsKUTCk6muXFG2ql-ef_AbZ",
   keywords: [
-    "growlearnhub class 9 biology books urdu medium",
-    "growlearnhub class 9 books biology urdu medium",
-    "class 9 biology book urdu medium",
-    "class 9 biology urdu medium",
-    "class 9 biology book urdu medium",
-    "class 9 book biology urdu medium",
-    "download class 9 book biology urdu medium",
+    "growlearnhub class 9 math books urdu medium",
+    "growlearnhub class 9 books math urdu medium",
+    "class 9 math book urdu medium",
+    "class 9 math urdu medium",
+    "class 9 math book urdu medium",
+    "class 9 book math urdu medium",
+    "download class 9 book math urdu medium",
   ],
 };
 
@@ -39,8 +39,8 @@ export default function page() {
       b1Link="/books/"
       b2="Class 9"
       b2Link="/books/class-9/"
-      b3="Punjab Board Biology"
-      b3Link="/books/class-9/punjab-board-biology/"
+      b3="Punjab Board Math"
+      b3Link="/books/class-9/punjab-board-math/"
       b4="Urdu Medium"
     >
       <p>

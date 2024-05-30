@@ -39,8 +39,8 @@ export default function page() {
       b1Link="/books/"
       b2="Class 9"
       b2Link="/books/class-9/"
-      b3="Punjab Board Computer Science"
-      b3Link="/books/class-9/punjab-board-computer-science/"
+      b3="Punjab Board Physics"
+      b3Link="/books/class-9/punjab-board-physics/"
       b4="Urdu Medium"
     >
       <p>

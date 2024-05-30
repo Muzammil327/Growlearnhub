@@ -10,23 +10,23 @@ import { class_Book } from "@/src/app/books/type";
 import { Class9_Book } from "@/src/app/books/class-9/data";
 
 const data = {
-  title: "Class 9 English Urdu Medium Biology Book Punjab Board",
+  title: "Class 9 Urdu Medium Pak Study Book Punjab Board",
   description:
-    "Here you can download Class 9 Biology Book Punjab Board in urdu medium. other books of class 9 punjab board available in this platform.",
-  canonical: "/books/class-9/punjab-board-biology/urdu/",
+    "Here you can download Class 9 Pak Study Book Punjab Board in Urdu medium. other books of class 9 punjab board available in this platform.",
+  canonical: "/books/class-9/punjab-board-pak-study/urdu/",
   index: true,
   follow: true,
   image: "/9th/book/biology/Download-Punjab-Board-Biology-Book.webp",
   url: "https://growlearnhub.com/books/class-9/punjab-board-biology/urdu/",
-  urdu_medium: "1ty3cPG8aWvjPla3xJAT4F__bLNJHKiZv",
+  urdu_medium: "1H4DK2mlhoPcIAb7PywX0-5PWcqNr7VqU",
   keywords: [
-    "growlearnhub class 9 biology books urdu medium",
-    "growlearnhub class 9 books biology urdu medium",
-    "class 9 biology book urdu medium",
-    "class 9 biology urdu medium",
-    "class 9 biology book urdu medium",
-    "class 9 book biology urdu medium",
-    "download class 9 book biology urdu medium",
+    "growlearnhub class 9 Pak Study books Urdu medium",
+    "growlearnhub class 9 books Pak Study Urdu medium",
+    "class 9 Pak Study book Urdu medium",
+    "class 9 Pak Study Urdu medium",
+    "class 9 Pak Study book Urdu medium",
+    "class 9 book Pak Study Urdu medium",
+    "download class 9 book Pak Study Urdu medium",
   ],
 };
 
@@ -39,7 +39,7 @@ export default function page() {
       b1Link="/books/"
       b2="Class 9"
       b2Link="/books/class-9/"
-      b3="Punjab Board Biology"
+      b3="Punjab Board Pak Study"
       b3Link="/books/class-9/punjab-board-biology/"
       b4="Urdu Medium"
     >
@@ -64,8 +64,7 @@ export default function page() {
         mollitia expedita qui magnam voluptates. Cumque recusandae, quas
         sapiente commodi eius repellat.
       </p>
-
-      <h3>Download Class 9 Urdu Urdu Biology Punjab Board</h3>
+      <h2>Download Class 9 Urdu Medium Pak Study Punjab Board</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
         nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat

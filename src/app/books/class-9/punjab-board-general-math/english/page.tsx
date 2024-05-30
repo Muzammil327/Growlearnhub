@@ -10,23 +10,23 @@ import { class_Book } from "@/src/app/books/type";
 import { Class9_Book } from "@/src/app/books/class-9/data";
 
 const data = {
-  title: "Class 9 English Urdu Medium Biology Book Punjab Board",
+  title: "Class 9 English Medium Biology Book Punjab Board",
   description:
-    "Here you can download Class 9 Biology Book Punjab Board in urdu medium. other books of class 9 punjab board available in this platform.",
-  canonical: "/books/class-9/punjab-board-biology/urdu/",
+    "Here you can download Class 9 Biology Book Punjab Board in english medium. other books of class 9 punjab board available in this platform.",
+  canonical: "/books/class-9/punjab-board-biology/english/",
   index: true,
   follow: true,
   image: "/9th/book/biology/Download-Punjab-Board-Biology-Book.webp",
-  url: "https://growlearnhub.com/books/class-9/punjab-board-biology/urdu/",
-  urdu_medium: "1ty3cPG8aWvjPla3xJAT4F__bLNJHKiZv",
+  url: "https://growlearnhub.com/books/class-9/punjab-board-biology/english/",
+  english_medium: "1GLuEwJZ05noDPB3TaendOazBHvDOZ6Cs",
   keywords: [
-    "growlearnhub class 9 biology books urdu medium",
-    "growlearnhub class 9 books biology urdu medium",
-    "class 9 biology book urdu medium",
-    "class 9 biology urdu medium",
-    "class 9 biology book urdu medium",
-    "class 9 book biology urdu medium",
-    "download class 9 book biology urdu medium",
+    "growlearnhub class 9 biology books english medium",
+    "growlearnhub class 9 books biology english medium",
+    "class 9 biology book english medium",
+    "class 9 biology english medium",
+    "class 9 biology book english medium",
+    "class 9 book biology english medium",
+    "download class 9 book biology english medium",
   ],
 };
 
@@ -41,7 +41,7 @@ export default function page() {
       b2Link="/books/class-9/"
       b3="Punjab Board Biology"
       b3Link="/books/class-9/punjab-board-biology/"
-      b4="Urdu Medium"
+      b4="English Medium"
     >
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
@@ -64,15 +64,14 @@ export default function page() {
         mollitia expedita qui magnam voluptates. Cumque recusandae, quas
         sapiente commodi eius repellat.
       </p>
-
-      <h3>Download Class 9 Urdu Urdu Biology Punjab Board</h3>
+      <h2>Download Class 9 English Medium Biology Punjab Board</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
         nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
         mollitia expedita qui magnam voluptates. Cumque recusandae, quas
         sapiente commodi eius repellat.
       </p>
-      <PDFViewer pdfUrl={data.urdu_medium} />
+      <PDFViewer pdfUrl={data.english_medium} />
 
       {Class9_Book.map((data: class_Book) => {
         return (

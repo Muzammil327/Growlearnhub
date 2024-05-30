@@ -18,7 +18,7 @@ const data = {
   follow: true,
   image: "/9th/book/biology/Download-Punjab-Board-Biology-Book.webp",
   url: "https://growlearnhub.com/books/class-9/punjab-board-biology/urdu/",
-  urdu_medium: "1ty3cPG8aWvjPla3xJAT4F__bLNJHKiZv",
+  urdu_medium: "1UC6ijj0pKUgZFP3-QIX2JpCoP6CbMGIO",
   keywords: [
     "growlearnhub class 9 biology books urdu medium",
     "growlearnhub class 9 books biology urdu medium",
