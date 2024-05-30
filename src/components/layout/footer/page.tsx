@@ -2,14 +2,16 @@ import React from "react";
 import Newsletter from "@/src/components/layout/footer/newsletter";
 import FooterMenu from "@/src/components/layout/footer/menu";
 import Container from "../../element/container";
+import Social from "./social";
+import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32">
+    <footer className="relative isolate overflow-hidden bg-gray-900 ">
       <Container>
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2 py-16 sm:py-24 lg:py-32">
           <div className="max-w-xl lg:max-w-lg">
-            <h4 className="font-bold tracking-tight text-white lg:text-4xl md:text-3xl sm:text-2xl text-xl">
+            <h4 className="font-bold tracking-tight text-white lg:text-4xl md:text-3xl text-2xl">
               Subscribe to our newsletter.
             </h4>
             <p className="mt-4 md:text-lg sm:text-base text-sm md:leading-8 leading-6 text-gray-300">
@@ -18,12 +20,23 @@ export default function Footer() {
               updates from us.
             </p>
             <Newsletter />
+            <Social />
           </div>
-          <div className="grid grid-cols-2 gap-x-8 md:gap-y-6 gap-y-10 lg:pt-2">
-            <FooterMenu />
+          <div>
+            <div className="grid grid-cols-2 gap-x-8 md:gap-y-6 gap-y-10 lg:pt-2">
+              <FooterMenu />
+            </div>
+            <Link href="/sharp-brain" className="mt-5 block w-full items-center justify-center rounded-md bg-white/5 p-2 mr-5 ring-1 ring-indigo-600 text-white text-center">
+            Sharp Your Brain with growlearnhub
+            </Link>
           </div>
         </div>
       </Container>
+      <div className="copyright border-t border-gray-600 text-white py-3 text-center">
+        <Container>
+          <span>© GrowLearnHub. All Rights Reserved.</span>{" "}
+        </Container>
+      </div>
       <div
         className="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6"
         aria-hidden="true"

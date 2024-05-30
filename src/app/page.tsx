@@ -14,7 +14,19 @@ const data = {
   follow: true,
   image: "/opengraph-image.jpg",
   url: "https://growlearnhub.com/",
-  keywords: ["growlearnhub quiz", "quiz"],
+  keywords: [
+    "growlearnhub",
+    "growlearnhub class 9",
+    "growlearnhub class 10",
+    "growlearnhub class 11",
+    "growlearnhub class 12",
+    "growlearnhub vu",
+    "growlearnhub mcqs",
+    "growlearnhub books",
+    "growlearnhub online test",
+    "growlearnhub past paper",
+    "growlearnhub pairing scheme",
+  ],
 };
 
 export default function Home() {

@@ -160,7 +160,46 @@ export const VU_BookDatas: vu_Book[] = [
 //     title: "Semester 1",
 //     child: [
 
-
+//       {
+//         id: 1,
+//         title: "ENG101 English Comprehension",
+//         link: "/vu/books/computer-science/eng101-handout/",
+//       },
+//       {
+//         id: 2,
+//         title: "ETH-202 Ethics (for Non-Muslims)",
+//         link: "/vu/books/computer-science/eth-202-handout/",
+//       },
+//       {
+//         id: 3,
+//         title: "ISL202 Islamic Studies",
+//         link: "/vu/books/computer-science/isl-202-handout/",
+//       },
+//       {
+//         id: 4,
+//         title: "MTH100 General Mathematics",
+//         link: "/vu/books/computer-science/mth100-handout/",
+//       },
+//       {
+//         id: 5,
+//         title: "MTH-101 Calculus And Analytical Geometry",
+//         link: "/vu/books/computer-science/mth-101-handout/",
+//       },
+//       {
+//         id: 6,
+//         title: "PAK-301 Pakistan Studies",
+//         link: "/vu/books/computer-science/pak-301-handout/",
+//       },
+//       {
+//         id: 7,
+//         title: "PHY-101 Physics",
+//         link: "/vu/books/computer-science/phy-101-handout/",
+//       },
+//       {
+//         id: 8,
+//         title: "PHY-301 Circuit Theory",
+//         link: "/vu/books/computer-science/phy-301-handout/",
+//       },
 //     ],
 //   },
 //   {

@@ -57,12 +57,12 @@ export default function Form(props: { url: string }) {
         />
       </div>
       <div className="mx-auto max-w-2xl text-center">
-        <h3 className=" font-bold tracking-tight text-gray-900 lg:text-4xl md:text-3xl text-2xl">
+        <h3 className=" font-bold tracking-tight text-gray-900 lg:text-4xl md:text-3xl text-2xl text-center">
           Comment Here
         </h3>
-        <p className="mt-2 md:text-lg sm:text-base text-sm md:leading-8 leading-7 text-gray-600">
+        <span className="mt-3 md:text-lg sm:text-base text-sm md:leading-8 leading-7 text-gray-600 text-center">
           Any Correctness in website. plz comment below.
-        </p>
+        </span>
       </div>
 
       <form className="mt-16 sm:mt-20" onSubmit={SubmitHandle}>
@@ -129,7 +129,6 @@ export default function Form(props: { url: string }) {
                   setCommentForm({ ...commentForm, url: e.target.value })
                 }
               />
-
             </div>
           </div>
 

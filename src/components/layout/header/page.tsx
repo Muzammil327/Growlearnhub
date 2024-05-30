@@ -8,9 +8,9 @@ export default function Header(props: { title: string }) {
     <section className='bg-white'>
       <Container>
         <div className={`px-6 pt-14 ${style.hero}`}>
-          <div className={style.bg1} aria-hidden='true'>
+          {/* <div className={style.bg1} aria-hidden='true'>
             <div className={style.icon} />
-          </div>
+          </div> */}
           <div className='mx-auto max-w-3xl py-24 sm:py-36'>
             {/* <HeaderUpper /> */}
             <div className='text-center mt-4'>

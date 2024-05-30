@@ -19,12 +19,12 @@ interface SidebarProps {
 interface Iprops {
   id: number;
   title: string;
-  slug: string;
+  link: string;
 }
 const Sidebar: React.FC<SidebarProps> = ({ title, videoId, url, list }) => {
   return (
     <aside>
-      <div className="joinsocials">
+      <div className="joinsocials mb-5">
         <div className="title">
           <h3>Join Us:</h3>
         </div>
@@ -79,26 +79,24 @@ const Sidebar: React.FC<SidebarProps> = ({ title, videoId, url, list }) => {
           />
         )}
       </div>
-      <div className="menu mt-4">
+      <div className="menu my-5">
         <div className="title">
-          <h3> Useful Links:</h3>
+          <h3>Related Links:</h3>
         </div>
-        <ul className="pt-3">
+        <ul className="">
           {list &&
             list.map((data: Iprops) => {
               return (
-                <>
-                  <li className="flex flex-col gap-y-4" key={data.id}>
-                    <Link
-                      href={`${process.env.NEXT_PUBLIC_FRONTEND_URL}${data.slug}`}
-                      title={data.title}
-                      className="text-indigo-600 transition-all mb-3"
-                      aria-label={data.title}
-                    >
-                      {data.title}
-                    </Link>
-                  </li>
-                </>
+                <li className="flex flex-col gap-y-4" key={data.title}>
+                  <Link
+                    href={`${data.link}`}
+                    title={data.title}
+                    className="text-indigo-600 hover:underline transition-all mb-3"
+                    aria-label={data.title}
+                  >
+                    {data.title}
+                  </Link>
+                </li>
               );
             })}
         </ul>
@@ -108,7 +106,7 @@ const Sidebar: React.FC<SidebarProps> = ({ title, videoId, url, list }) => {
         <div className="title">
           <h3>Share it with Friends:</h3>
         </div>
-        <div className="pt-1 flex gap-3">
+        <div className="flex gap-3">
           <FacebookShareButton
             url={url}
             quote={title}
@@ -126,26 +124,3 @@ const Sidebar: React.FC<SidebarProps> = ({ title, videoId, url, list }) => {
 };
 
 export default Sidebar;
-
-const menu: Iprops[] = [
-  {
-    id: 0,
-    title: "General Knowledge Mcqs",
-    slug: "/quiz/general-knowledge/",
-  },
-  {
-    id: 1,
-    title: "Geography Mcqs",
-    slug: "/quiz/general-knowledge/geography/",
-  },
-  {
-    id: 2,
-    title: "Geography Dams Mcqs",
-    slug: "/quiz/general-knowledge/geography/dams/",
-  },
-  {
-    id: 3,
-    title: "Geography Rivers Mcqs",
-    slug: "/quiz/general-knowledge/geography/rivers/",
-  },
-];

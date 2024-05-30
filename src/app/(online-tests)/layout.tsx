@@ -1,5 +1,6 @@
 import Footer from '@/src/components/layout/footer/page';
 import Navbar from '@/src/components/layout/navbar/page';
+import './style.scss'
 
 export default function RootLayout({
   children,

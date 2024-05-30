@@ -1,22 +1,44 @@
 import React from "react";
 import Link from "next/link";
 import FaReadme from "@/src/components/layout/footer/FaReadme";
-import FaPeopleArrows from "@/src/components/layout/footer/FaPeopleArrows";
 import QuestionMarkCircleIcon from "@/src/components/layout/footer/QuestionMarkCircleIcon";
 import BookOpenIcon from "@/src/components/layout/footer/BookOpenIcon";
-import Newsletter from "@/src/components/layout/footer/newsletter";
 
 const footer = [
   {
     id: 0,
-    name: "Quiz",
-    link: "/quiz",
+    name: "Books",
+    link: "/books/",
     icon: QuestionMarkCircleIcon,
   },
   {
     id: 1,
-    name: "Books",
-    link: "/books",
+    name: "Quiz's",
+    link: "/quiz/",
+    icon: BookOpenIcon,
+  },
+  {
+    id: 2,
+    name: "Notes",
+    link: "/notes/",
+    icon: BookOpenIcon,
+  },
+  {
+    id: 3,
+    name: "Online Tests",
+    link: "/online-tests/",
+    icon: BookOpenIcon,
+  },
+  {
+    id: 4,
+    name: "Past Papers",
+    link: "/past-papers/",
+    icon: BookOpenIcon,
+  },
+  {
+    id: 5,
+    name: "Pairing Schemes",
+    link: "/pairing-schemes/",
     icon: BookOpenIcon,
   },
 ];

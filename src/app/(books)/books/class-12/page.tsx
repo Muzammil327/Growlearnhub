@@ -7,24 +7,25 @@ import { Metadata } from "next";
 import { class_Book } from "@/src/app/(books)/type";
 import Form from "@/src/components/element/form/page";
 import BreadCrumb from "@/src/components/element/breadcrumb";
+import Table from "@/src/components/element/table";
 
 const data = {
-  title: "Books Class 9",
+  title: "Books Class 12",
   description:
-    "Here you can download books of class 9 in english and urdu medium of physics, chemistry, biology, math, english etc.",
-  canonical: "/books/class-9/",
+    "Here you can download books of class 12 in english and urdu medium of physics, chemistry, biology, math, english etc.",
+  canonical: "/books/class-12/",
   index: true,
   follow: true,
   image: "/opengraph-image.jpg",
-  url: "https://growlearnhub.com/books/class-9/",
+  url: "https://growlearnhub.com/books/class-12/",
   keywords: [
-    "growlearnhub class 9 books",
-    "class 9 books",
-    "class 9 physics books",
-    "class 9 chemistry books",
-    "class 9 biology books",
-    "class 9 math books",
-    "class 9 english books",
+    "growlearnhub class 12 books",
+    "class 12 books",
+    "class 12 physics books",
+    "class 12 chemistry books",
+    "class 12 biology books",
+    "class 12 math books",
+    "class 12 english books",
   ],
   list: [
     {
@@ -54,22 +55,39 @@ const data = {
     },
     {
       id: 4,
+      title: "Class 9 Books",
+      link: "/books/class-9/",
+    },
+    {
+      id: 5,
       title: "Class 10 Books",
       link: "/books/class-10/",
     },
     {
-      id: 5,
+      id: 6,
       title: "Class 11 Books",
       link: "/books/class-11/",
-    },
-    {
-      id: 6,
-      title: "Class 12 Books",
-      link: "/books/class-12/",
     },
   ],
 };
 
+const Table_1 = {
+  tabletd1: ["Biology", "Class 12 Medical Books (English Medium)"],
+  tabletd2: ["Physics", "Class 12 Medical Books (English Medium)"],
+  tabletd3: ["Chemistry", "Class 12 Medical Books (English Medium)"],
+  tabletd4: ["English", "Class 12 Medical Books (English Medium)"],
+  tabletd5: ["Urdu", "Class 12 Medical Books  (Urdu Medium)"],
+  tabletd6: ["Pak Study", "Class 12 Medical Books (English and Urdu Medium)"],
+};
+
+const Table_2 = {
+  tabletd1: ["Math", "Class 12 Medical Books (English Medium)"],
+  tabletd2: ["Physics", "Class 12 Medical Books (English Medium)"],
+  tabletd3: ["Chemistry", "Class 12 Medical Books (English Medium)"],
+  tabletd4: ["English", "Class 12 Medical Books (English Medium)"],
+  tabletd5: ["Urdu", "Class 12 Medical Books  (Urdu Medium)"],
+  tabletd6: ["Pak Study", "Class 12 Medical Books (English and Urdu Medium)"],
+};
 export default function page() {
   return (
     <div>
@@ -77,7 +95,8 @@ export default function page() {
       <Container>
         <div className="book">
           <div className="c1">
-            <BreadCrumb b1="Books" b2="Class 9" b1Link="/books/" />
+            <BreadCrumb b1="Books" b2="Class 12" b1Link="/books/" />
+
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
               dolorum, nesciunt vel distinctio quibusdam, saepe, ducimus
@@ -88,7 +107,7 @@ export default function page() {
               return (
                 <div key={data.name}>
                   <h2 className="text-xl font-semibold py-2">
-                    {data.name} Class 9 Books
+                    {data.name} Class 12 Books
                   </h2>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -122,16 +141,19 @@ export default function page() {
               recusandae, quas sapiente commodi eius repellat.
             </p>
             <h2 className="text-xl font-semibold py-2">
-              Class 9 Biology Science Books
+              Class 12 Medical Books
             </h2>
+
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
               dolorum, nesciunt vel distinctio quibusdam, saepe, ducimus
               aspernatur quaerat mollitia expedita qui magnam voluptates. Cumque
               recusandae, quas sapiente commodi eius repellat.
             </p>
+            <Table data={Table_1} />
+
             <h2 className="text-xl font-semibold py-2">
-              Class 9 Computer Science Books
+              Class 12 Non-Medical Books
             </h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
@@ -139,7 +161,9 @@ export default function page() {
               aspernatur quaerat mollitia expedita qui magnam voluptates. Cumque
               recusandae, quas sapiente commodi eius repellat.
             </p>
-            <h2 className="text-xl font-semibold py-2">Class 9 Arts Books</h2>
+            <Table data={Table_2} />
+
+            <h2 className="text-xl font-semibold py-2"> Class 12 ICS Books</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
               dolorum, nesciunt vel distinctio quibusdam, saepe, ducimus
@@ -164,67 +188,62 @@ export const Class9_BookDatas: class_Book[] = [
       {
         id: 0,
         title: "Physics Books",
-        link: "/books/class-9/punjab-board-physics",
+        link: "/books/class-12/punjab-board-physics",
       },
       {
         id: 1,
         title: "Biology Books",
-        link: "/books/class-9/punjab-board-biology",
+        link: "/books/class-12/punjab-board-biology",
       },
       {
         id: 2,
         title: "Chemistry Books",
-        link: "/books/class-9/punjab-board-chemistry",
+        link: "/books/class-12/punjab-board-chemistry",
       },
       {
         id: 3,
         title: "Math Books",
-        link: "/books/class-9/punjab-board-math",
+        link: "/books/class-12/punjab-board-math",
       },
       {
         id: 4,
         title: "English Books",
-        link: "/books/class-9/punjab-board-english",
+        link: "/books/class-12/punjab-board-english",
       },
       {
         id: 5,
         title: "Urdu Books",
-        link: "/books/class-9/punjab-board-urdu",
+        link: "/books/class-12/punjab-board-urdu",
       },
       {
         id: 6,
-        title: "Pak Study Books",
-        link: "/books/class-9/punjab-board-pak-study",
+        title: "Islamiat Books",
+        link: "/books/class-12/punjab-board-islamiat",
       },
       {
         id: 7,
-        title: "Islamiat Books",
-        link: "/books/class-9/punjab-board-islamiat",
+        title: "Civics Books",
+        link: "/books/class-12/punjab-board-civics",
       },
       {
         id: 8,
-        title: "General Math Books",
-        link: "/books/class-9/punjab-board-general-math",
+        title: "Computer Science Books",
+        link: "/books/class-12/punjab-board-computer-science",
       },
       {
         id: 9,
-        title: "Computer Science Books",
-        link: "/books/class-9/punjab-board-computer-science",
+        title: "Economics Books",
+        link: "/books/class-12/punjab-board-economics",
       },
       {
         id: 10,
-        title: "Economics Books",
-        link: "/books/class-9/punjab-board-economics",
+        title: "Tarjuma tul Quran Books",
+        link: "/books/class-12/punjab-board-tarjuma-tul-quran",
       },
       {
         id: 11,
-        title: "Tarjuma tul Quran Books",
-        link: "/books/class-9/punjab-board-tarjuma-tul-quran",
-      },
-      {
-        id: 12,
-        title: "Ikhlaqiat Books",
-        link: "/books/class-9/punjab-board-ikhlaqiat",
+        title: "Statics Books",
+        link: "/books/class-12/punjab-board-statics",
       },
     ],
   },

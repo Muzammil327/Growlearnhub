@@ -7,24 +7,24 @@ import { Metadata } from "next";
 import { class_Book } from "@/src/app/(books)/type";
 import Form from "@/src/components/element/form/page";
 import BreadCrumb from "@/src/components/element/breadcrumb";
+import { VU_Books } from "./data";
 
 const data = {
-  title: "Books Class 9",
+  title: "Handouts Virtual University",
   description:
-    "Here you can download books of class 9 in english and urdu medium of physics, chemistry, biology, math, english etc.",
-  canonical: "/books/class-9/",
+    "Here you can download Handouts of vu of all semester cs101, cs201, cs301, cs401 etc.",
+  canonical: "/books/vu/",
   index: true,
   follow: true,
   image: "/opengraph-image.jpg",
-  url: "https://growlearnhub.com/books/class-9/",
+  url: "https://growlearnhub.com/books/vu/",
   keywords: [
-    "growlearnhub class 9 books",
-    "class 9 books",
-    "class 9 physics books",
-    "class 9 chemistry books",
-    "class 9 biology books",
-    "class 9 math books",
-    "class 9 english books",
+    "growlearnhub vu books",
+    "vu books",
+    "vu cs101 books",
+    "vu cs201 books",
+    "vu cs301 books",
+    "vu cs401 books",
   ],
   list: [
     {
@@ -54,16 +54,21 @@ const data = {
     },
     {
       id: 4,
+      title: "Class 9 Books",
+      link: "/books/class-9/",
+    },
+    {
+      id: 5,
       title: "Class 10 Books",
       link: "/books/class-10/",
     },
     {
-      id: 5,
+      id: 6,
       title: "Class 11 Books",
       link: "/books/class-11/",
     },
     {
-      id: 6,
+      id: 7,
       title: "Class 12 Books",
       link: "/books/class-12/",
     },
@@ -77,18 +82,19 @@ export default function page() {
       <Container>
         <div className="book">
           <div className="c1">
-            <BreadCrumb b1="Books" b2="Class 9" b1Link="/books/" />
+            <BreadCrumb b1="Books" b1Link="/books/" b2="vu" />
+
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
               dolorum, nesciunt vel distinctio quibusdam, saepe, ducimus
               aspernatur quaerat mollitia expedita qui magnam voluptates. Cumque
               recusandae, quas sapiente commodi eius repellat.
             </p>
-            {Class9_BookDatas.map((data: class_Book) => {
+            {VU_Books.map((data: class_Book) => {
               return (
                 <div key={data.name}>
                   <h2 className="text-xl font-semibold py-2">
-                    {data.name} Class 9 Books
+                    {data.name} Handouts
                   </h2>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -121,31 +127,6 @@ export default function page() {
               aspernatur quaerat mollitia expedita qui magnam voluptates. Cumque
               recusandae, quas sapiente commodi eius repellat.
             </p>
-            <h2 className="text-xl font-semibold py-2">
-              Class 9 Biology Science Books
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-              dolorum, nesciunt vel distinctio quibusdam, saepe, ducimus
-              aspernatur quaerat mollitia expedita qui magnam voluptates. Cumque
-              recusandae, quas sapiente commodi eius repellat.
-            </p>
-            <h2 className="text-xl font-semibold py-2">
-              Class 9 Computer Science Books
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-              dolorum, nesciunt vel distinctio quibusdam, saepe, ducimus
-              aspernatur quaerat mollitia expedita qui magnam voluptates. Cumque
-              recusandae, quas sapiente commodi eius repellat.
-            </p>
-            <h2 className="text-xl font-semibold py-2">Class 9 Arts Books</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-              dolorum, nesciunt vel distinctio quibusdam, saepe, ducimus
-              aspernatur quaerat mollitia expedita qui magnam voluptates. Cumque
-              recusandae, quas sapiente commodi eius repellat.
-            </p>
             <Form url={data.url} />
           </div>
           <div className="c2">
@@ -156,79 +137,6 @@ export default function page() {
     </div>
   );
 }
-
-export const Class9_BookDatas: class_Book[] = [
-  {
-    name: "Punjab Board",
-    list: [
-      {
-        id: 0,
-        title: "Physics Books",
-        link: "/books/class-9/punjab-board-physics",
-      },
-      {
-        id: 1,
-        title: "Biology Books",
-        link: "/books/class-9/punjab-board-biology",
-      },
-      {
-        id: 2,
-        title: "Chemistry Books",
-        link: "/books/class-9/punjab-board-chemistry",
-      },
-      {
-        id: 3,
-        title: "Math Books",
-        link: "/books/class-9/punjab-board-math",
-      },
-      {
-        id: 4,
-        title: "English Books",
-        link: "/books/class-9/punjab-board-english",
-      },
-      {
-        id: 5,
-        title: "Urdu Books",
-        link: "/books/class-9/punjab-board-urdu",
-      },
-      {
-        id: 6,
-        title: "Pak Study Books",
-        link: "/books/class-9/punjab-board-pak-study",
-      },
-      {
-        id: 7,
-        title: "Islamiat Books",
-        link: "/books/class-9/punjab-board-islamiat",
-      },
-      {
-        id: 8,
-        title: "General Math Books",
-        link: "/books/class-9/punjab-board-general-math",
-      },
-      {
-        id: 9,
-        title: "Computer Science Books",
-        link: "/books/class-9/punjab-board-computer-science",
-      },
-      {
-        id: 10,
-        title: "Economics Books",
-        link: "/books/class-9/punjab-board-economics",
-      },
-      {
-        id: 11,
-        title: "Tarjuma tul Quran Books",
-        link: "/books/class-9/punjab-board-tarjuma-tul-quran",
-      },
-      {
-        id: 12,
-        title: "Ikhlaqiat Books",
-        link: "/books/class-9/punjab-board-ikhlaqiat",
-      },
-    ],
-  },
-];
 
 export const metadata: Metadata = {
   title: data.title,
