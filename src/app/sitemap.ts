@@ -4,6 +4,14 @@ const URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   try {
+    const routes: MetadataRoute.Sitemap = route.map((product: any) => ({
+      url: `${
+        process.env.NEXT_PUBLIC_FRONTEND_URL
+      }/${convertToLowercaseWithHyphen(product)}`,
+      lastModified: new Date().toISOString(),
+      priority: 0.6,
+      changeFrequency: "daily",
+    }));
     // // response 1
     // const response1 = await fetch(`${URL}/api/get/allmcqs`, {
     //   cache: "no-store", // This will bypass cache
@@ -77,164 +85,46 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 1,
         changeFrequency: "daily",
       },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-physics/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-physics/english/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-physics/urdu/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-biology/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-biology/english/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-biology/urdu/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-chemistry/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-chemistry/english/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-chemistry/urdu/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-math/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-math/english/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-math/urdu/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-general-math/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-general-math/english/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-general-math/urdu/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-computer-science/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-computer-science/english/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-computer-science/urdu/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-urdu/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-urdu/urdu/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-pak-study/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-pak-study/english/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
-      {
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/books/class-9/punjab-board-pak-study/urdu/`,
-        lastModified: new Date().toISOString(),
-        priority: 1,
-        changeFrequency: "daily",
-      },
       // ...bookroutes,
       // ...heading1routes,
       // ...heading2routes,
       // ...mcqsroutes,
+      ...routes,
     ];
   } catch (error) {
     console.error("Error", error);
-    // Returning an empty array as a fallback
     return [];
   }
 }
+
+const route = [
+  "books/",
+  "books/class-9/",
+  "books/class-9/punjab-board-physics/",
+  "books/class-9/punjab-board-physics/english/",
+  "books/class-9/punjab-board-physics/urdu/",
+  "books/class-9/punjab-board-biology/",
+  "books/class-9/punjab-board-biology/english/",
+  "books/class-9/punjab-board-biology/urdu/",
+  "books/class-9/punjab-board-chemistry/",
+  "books/class-9/punjab-board-chemistry/english/",
+  "books/class-9/punjab-board-chemistry/urdu/",
+  "books/class-9/punjab-board-math/",
+  "books/class-9/punjab-board-math/english/",
+  "books/class-9/punjab-board-math/urdu/",
+  "books/class-9/punjab-board-general-math/",
+  "books/class-9/punjab-board-general-math/english/",
+  "books/class-9/punjab-board-general-math/urdu/",
+  "books/class-9/punjab-board-computer-science/",
+  "books/class-9/punjab-board-computer-science/english/",
+  "books/class-9/punjab-board-computer-science/urdu/",
+  "books/class-9/punjab-board-pak-study/",
+  "books/class-9/punjab-board-pak-study/english/",
+  "books/class-9/punjab-board-pak-study/urdu/",
+  "books/class-9/punjab-board-general-urdu/",
+  "books/class-9/punjab-board-general-urdu/urdu/",
+
+  "books/class-10/",
+  "books/class-11/",
+  "books/class-12/",
+];

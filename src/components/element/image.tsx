@@ -7,6 +7,7 @@ interface Irops {
   class: string;
   height: number;
   width: number;
+  priority?: boolean;
 }
 
 export default function ImageContainer(data: Irops) {
@@ -19,7 +20,7 @@ export default function ImageContainer(data: Irops) {
         height={data.height}
         width={data.width}
         className={`object-contain w-full relative ${data.class}`}
-        layout="responsive"
+        priority={data.priority}
       />
     </div>
   );

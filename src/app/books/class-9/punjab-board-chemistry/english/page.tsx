@@ -28,20 +28,6 @@ const data = {
     "class 9 book chemistry english medium",
     "download class 9 book chemistry english medium",
   ],
-  medium: [
-    {
-      title: "Class 9 Chemistry Punjab Board English Medium Book",
-      link: "/books/class-9/punjab-board-chemistry/english/",
-      description: "",
-      image: "",
-    },
-    {
-      title: "Class 9 Chemistry Punjab Board Urdu Medium Book",
-      link: "/books/class-9/punjab-board-chemistry/urdu/",
-      description: "",
-      image: "",
-    },
-  ],
 };
 
 export default function page() {

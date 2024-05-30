@@ -2,9 +2,9 @@
 import { Fragment, useState } from "react";
 import { Dialog, Popover, Tab, Transition } from "@headlessui/react";
 import Link from "next/link";
-import Image from "next/image";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Container from "../../element/container";
+import ImageContainer from "../../element/image";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -90,13 +90,13 @@ export default function Navbar() {
                 <FaBars />
               </button>
               <Link href="/" className="-m-1.5 p-1.5 max-w-full relative">
-                <Image
-                  src="/growlearnhub.png"
-                  alt="Logo"
+                <ImageContainer
+                  image="/growlearnhub.png"
+                  title="GrowLearnHub"
+                  class=""
                   width={300}
                   height={80}
-                  priority
-                  className="md:w-[300px] w-[250px] "
+                  priority={true}
                 />
               </Link>
 

@@ -10,37 +10,23 @@ import { class_Book } from "@/src/app/books/type";
 import { Class9_Book } from "@/src/app/books/class-9/data";
 
 const data = {
-  title: "Class 9 English Medium Chemistry Book Punjab Board",
+  title: "Class 9 Urdu Medium Chemistry Book Punjab Board",
   description:
-    "Here you can download Class 9 Chemistry Book Punjab Board in english medium. other books of class 9 punjab board available in this platform.",
-  canonical: "/books/class-9/punjab-board-chemistry/english/",
+    "Here you can download Class 9 Chemistry Book Punjab Board in urdu medium. other books of class 9 punjab board available in this platform.",
+  canonical: "/books/class-9/punjab-board-chemistry/urdu/",
   index: true,
   follow: true,
   image: "/9th/book/biology/Download-Punjab-Board-Biology-Book.webp",
-  url: "https://growlearnhub.com/books/class-9/punjab-board-chemistry/english/",
+  url: "https://growlearnhub.com/books/class-9/punjab-board-chemistry/urdu/",
   urdu_medium: "14GOV_BVtoIoE8SlNNnxDgLAvrwAMdhU4",
   keywords: [
-    "growlearnhub class 9 chemistry books english medium",
-    "growlearnhub class 9 books chemistry english medium",
-    "class 9 chemistry book english medium",
-    "class 9 chemistry english medium",
-    "class 9 chemistry book english medium",
-    "class 9 book chemistry english medium",
-    "download class 9 book chemistry english medium",
-  ],
-  medium: [
-    {
-      title: "Class 9 Chemistry Punjab Board English Medium Book",
-      link: "/books/class-9/punjab-board-chemistry/english/",
-      description: "",
-      image: "",
-    },
-    {
-      title: "Class 9 Chemistry Punjab Board Urdu Medium Book",
-      link: "/books/class-9/punjab-board-chemistry/urdu/",
-      description: "",
-      image: "",
-    },
+    "growlearnhub class 9 chemistry books urdu medium",
+    "growlearnhub class 9 books chemistry urdu medium",
+    "class 9 chemistry book urdu medium",
+    "class 9 chemistry urdu medium",
+    "class 9 chemistry book urdu medium",
+    "class 9 book chemistry urdu medium",
+    "download class 9 book chemistry urdu medium",
   ],
 };
 
