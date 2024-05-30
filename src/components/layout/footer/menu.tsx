@@ -54,7 +54,7 @@ export default function FooterMenu() {
           <Link
             href={footer.link}
             title={footer.name}
-            className="font-semibold text-white"
+            className="md:font-semibold font-normal md:text-base text-sm text-white"
           >
             {footer.name}
           </Link>
