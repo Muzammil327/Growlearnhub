@@ -15,7 +15,7 @@ const PDFViewer: React.FC<{ pdfUrl: string }> = ({ pdfUrl }) => {
       <iframe
         src={`https://drive.google.com/file/d/${pdfUrl}/preview`}
         width="100%"
-        height="800px"
+        height="600px"
         title="PDF Viewer"
         style={{ border: "none", display: iframeLoaded ? "block" : "none" }}
         onLoad={handleIframeLoad}
