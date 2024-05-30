@@ -5,7 +5,6 @@ import Card3 from "@/src/components/card2/card3";
 import ImageContainer from "@/src/components/element/image";
 import BookWrapper from "@/src/app/books/BookWrapper";
 import PDFViewer from "@/src/components/element/PDFViewer";
-import Card2 from "@/src/components/card2/page";
 
 import { class_Book } from "@/src/app/books/type";
 import { Class9_Book } from "@/src/app/books/class-9/data";
@@ -29,14 +28,6 @@ const data = {
     "class 9 urdu book",
     "class 9 book urdu",
     "download class 9 book urdu",
-  ],
-  medium: [
-    {
-      title: "Class 9 Urdu Punjab Board Urdu Medium Book",
-      link: "/books/class-9/punjab-board-urdu/urdu/",
-      description: "",
-      image: "",
-    },
   ],
 };
 
@@ -73,7 +64,7 @@ export default function page() {
         sapiente commodi eius repellat.
       </p>
 
-      <h3>Download Class 9 Urdu Medium Urdu Punjab Board</h3>
+      <h3>Download Class 9 Urdu Punjab Board</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
         nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
@@ -82,11 +73,6 @@ export default function page() {
       </p>
       <PDFViewer pdfUrl={data.urdu_medium} />
 
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {data.medium.map((data: any) => {
-          return <Card2 key={data.title} title={data.title} link={data.link} />;
-        })}
-      </div>
       {Class9_Book.map((data: class_Book) => {
         return (
           <div key={data.name}>

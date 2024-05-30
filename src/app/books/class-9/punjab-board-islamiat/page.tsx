@@ -5,7 +5,6 @@ import Card3 from "@/src/components/card2/card3";
 import ImageContainer from "@/src/components/element/image";
 import BookWrapper from "@/src/app/books/BookWrapper";
 import PDFViewer from "@/src/components/element/PDFViewer";
-import Card2 from "@/src/components/card2/page";
 
 import { class_Book } from "@/src/app/books/type";
 import { Class9_Book } from "@/src/app/books/class-9/data";
@@ -28,14 +27,6 @@ const data = {
     "class 9 Islamiat book",
     "class 9 book Islamiat",
     "download class 9 book Islamiat",
-  ],
-  medium: [
-    {
-      title: "Class 9 Islamiat Punjab Board Urdu Medium Book",
-      link: "/books/class-9/punjab-board-islamiat/urdu/",
-      description: "",
-      image: "",
-    },
   ],
 };
 
@@ -80,11 +71,6 @@ export default function page() {
       </p>
       <PDFViewer pdfUrl={data.urdu_medium} />
 
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {data.medium.map((data: any) => {
-          return <Card2 key={data.title} title={data.title} link={data.link} />;
-        })}
-      </div>
       {Class9_Book.map((data: class_Book) => {
         return (
           <div key={data.name}>

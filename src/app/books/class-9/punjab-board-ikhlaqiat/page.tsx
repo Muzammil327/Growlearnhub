@@ -12,7 +12,7 @@ import { Class9_Book } from "@/src/app/books/class-9/data";
 const data = {
   title: "Download Class 9 ikhlaqiat Book Punjab Board",
   description:
-    "Here you can download Class 9 Tarjuma Tul Quran Book Punjab Board. Other books of class 9 punjab board available in this platform.",
+    "Here you can download Class 9 ikhlaqiat Book Punjab Board. Other books of class 9 punjab board available in this platform.",
   canonical: "/books/class-9/punjab-board-ikhlaqiat/",
   index: true,
   follow: true,

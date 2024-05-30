@@ -128,18 +128,13 @@ const route = [
   "books/class-9/punjab-board-pak-study/",
   "books/class-9/punjab-board-pak-study/english/",
   "books/class-9/punjab-board-pak-study/urdu/",
-  
+
   "books/class-9/punjab-board-urdu/",
-  "books/class-9/punjab-board-urdu/urdu/",
-
   "books/class-9/punjab-board-english/",
-  "books/class-9/punjab-board-english/english/",
-  
   "books/class-9/punjab-board-islamiat/",
-  
   "books/class-9/punjab-board-economics/",
-
   "books/class-9/punjab-board-tarjuma-tul-quran/",
+  "books/class-9/punjab-board-ikhlaqiat/",
 
   "books/class-10/",
   "books/class-11/",

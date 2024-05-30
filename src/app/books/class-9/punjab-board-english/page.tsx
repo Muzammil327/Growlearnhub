@@ -29,14 +29,6 @@ const data = {
     "class 9 book english",
     "download class 9 book english",
   ],
-  medium: [
-    {
-      title: "Class 9 English Punjab Board English Medium Book",
-      link: "/books/class-9/punjab-board-english/english/",
-      description: "",
-      image: "",
-    },
-  ],
 };
 
 export default function page() {
@@ -72,7 +64,7 @@ export default function page() {
         sapiente commodi eius repellat.
       </p>
 
-      <h3>Download Class 9 English Book Medium English Punjab Board</h3>
+      <h3>Download Class 9 English Book Punjab Board</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
         nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
@@ -81,11 +73,6 @@ export default function page() {
       </p>
       <PDFViewer pdfUrl={data.english_medium} />
 
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {data.medium.map((data: any) => {
-          return <Card2 key={data.title} title={data.title} link={data.link} />;
-        })}
-      </div>
       {Class9_Book.map((data: class_Book) => {
         return (
           <div key={data.name}>
