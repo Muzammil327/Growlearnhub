@@ -12,7 +12,7 @@ export default function SubHeader(props: { title: string }) {
     >
       {" "}
       <Container>
-        <div className={`px-6 pt-8 ${style.hero}`}>
+        <div className={` pt-8 ${style.hero}`}>
           <div className={style.bg1} aria-hidden="true">
             <div className={style.icon} />
           </div>
