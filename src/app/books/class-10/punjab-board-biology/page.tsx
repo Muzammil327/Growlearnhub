@@ -1,150 +1,139 @@
 import React from "react";
-import Card2 from "@/src/components/card2/page";
-import Container from "@/src/components/element/container";
-import Sidebar from "@/src/components/element/sidebar";
-import SubHeader from "@/src/components/layout/header/subheader/page";
 import { Metadata } from "next";
-import { class_Book } from "@/src/app/books/type";
-import Form from "@/src/components/element/form/page";
-import BreadCrumb from "@/src/components/element/breadcrumb";
-import PDFViewer from "@/src/components/element/PDFViewer";
-import { Class9_Book } from "../data";
 
+import Card3 from "@/src/components/card2/card3";
+import ImageContainer from "@/src/components/element/image";
+import BookWrapper from "@/src/app/books/BookWrapper";
+import PDFViewer from "@/src/components/element/PDFViewer";
+import Card2 from "@/src/components/card2/page";
+
+import { class_Book } from "@/src/app/books/type";
+import { Class10_Book } from "@/src/app/books/class-10/data";
 const data = {
   title: "Class 10 Biology Book Punjab Board",
   description:
-    "Here you can download Handouts OF ENG101 English Comprehension of vu of all semester cs101, cs201, cs301, cs401 etc.",
-  canonical: "/books/vu/eng101-handout/",
+    "Here you can download Class 10 Biology Book Punjab Board in english and urdu medium. other books of class 10 punjab board available in this platform.",
+  canonical: "/books/class-10/punjab-board-biology/",
   index: true,
   follow: true,
-  image: "/opengraph-image.jpg",
-  url: "https://growlearnhub.com/books/vu/eng101-handout/",
+  image: "/9th/book/biology/Download-Punjab-Board-Biology-Book.webp",
+  url: "https://growlearnhub.com/books/class-10/punjab-board-biology/",
+  english_medium: "1FJYKKe3zakdzvKo9T6-74J1ARXKjmsDp",
+  urdu_medium: "1ChK6r_BOfV-p8QLEdh58srQ_QwNgQUne",
   keywords: [
-    "growlearnhub vu books",
-    "vu books",
-    "vu handouts",
-    "vu eng101 books",
-    "vu eng101 handouts",
-    "download eng101 handouts",
-    "download vu eng101 handouts",
+    "growlearnhub class 10 biology books",
+    "growlearnhub class 10 books biology",
+    "class 10 biology",
+    "class 10 biology english medium",
+    "class 10 biology urdu medium",
+    "class 10 biology book",
+    "class 10 book biology",
+    "download class 10 book biology",
   ],
-  list: [
+  medium: [
     {
-      id: 0,
-      title: "Notes",
-      link: "/notes/",
+      title: "Class 10 Biology Punjab Board English Medium Book",
+      link: "/books/class-10/punjab-board-biology/english/",
+      description: "",
+      image: "",
     },
     {
-      id: 1,
-      title: "Past Papers",
-      link: "/past-papers/",
-    },
-    {
-      id: 2,
-      title: "Quiz",
-      link: "/quiz/",
-    },
-    {
-      id: 3,
-      title: "Online Tests",
-      link: "/online-tests/",
-    },
-    {
-      id: 3,
-      title: "Pairing Schemes",
-      link: "/pairing-schemes/",
-    },
-    {
-      id: 4,
-      title: "Class 9 Books",
-      link: "/books/class-9/",
-    },
-    {
-      id: 5,
-      title: "Class 10 Books",
-      link: "/books/class-10/",
-    },
-    {
-      id: 6,
-      title: "Class 11 Books",
-      link: "/books/class-11/",
-    },
-    {
-      id: 7,
-      title: "Class 12 Books",
-      link: "/books/class-12/",
+      title: "Class 10 Biology Punjab Board Urdu Medium Book",
+      link: "/books/class-10/punjab-board-biology/urdu/",
+      description: "",
+      image: "",
     },
   ],
 };
 
 export default function page() {
   return (
-    <div>
-      <SubHeader title={data.title} />
-      <Container>
-        <div className="book">
-          <div className="c1">
-            <BreadCrumb
-              b1="Books"
-              b1Link="/books/"
-              b2="class 10"
-              b2Link="/books/class-10/"
-              b3="Punjab Board Biology Book"
-            />
+    <BookWrapper
+      title={data.title}
+      url={data.url}
+      b1="Books"
+      b1Link="/books/"
+      b2="Class 10"
+      b2Link="/books/class-10/"
+      b3="Punjab Board Biology"
+    >
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
+        nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
+        mollitia expedita qui magnam voluptates. Cumque recusandae, quas
+        sapiente commodi eius repellat.
+      </p>
 
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-              dolorum, nesciunt vel distinctio quibusdam, saepe, ducimus
-              aspernatur quaerat mollitia expedita qui magnam voluptates. Cumque
-              recusandae, quas sapiente commodi eius repellat.
-            </p>
-            {Class9_Book.map((data: class_Book) => {
-              return (
-                <div key={data.name}>
-                  <h2 className="text-xl font-semibold py-2">
-                    Download Class 10 Punjab Board Biology Book
-                  </h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ipsam dolorum, nesciunt vel distinctio quibusdam, saepe,
-                    ducimus aspernatur quaerat mollitia expedita qui magnam
-                    voluptates. Cumque recusandae, quas sapiente commodi eius
-                    repellat.
-                  </p>
-                  <PDFViewer pdfUrl={"14GOV_BVtoIoE8SlNNnxDgLAvrwAMdhU4"} />
+      <ImageContainer
+        image={data.image}
+        title={data.title}
+        class="my-4"
+        height={720}
+        width={1280}
+      />
 
-                  <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-                    {data.list.map((item: any) => (
-                      <Card2
-                        key={item.id}
-                        title={item.title}
-                        link={item.link}
-                      />
-                    ))}
-                  </div>
-                </div>
-              );
-            })}
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
+        nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
+        mollitia expedita qui magnam voluptates. Cumque recusandae, quas
+        sapiente commodi eius repellat.
+      </p>
+      <h2>Download Class 10 English Medium Biology Punjab Board</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
+        nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
+        mollitia expedita qui magnam voluptates. Cumque recusandae, quas
+        sapiente commodi eius repellat.
+      </p>
+      <PDFViewer pdfUrl={data.english_medium} />
+
+      <h3>Download Class 10 Urdu Medium Biology Punjab Board</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
+        nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
+        mollitia expedita qui magnam voluptates. Cumque recusandae, quas
+        sapiente commodi eius repellat.
+      </p>
+      <PDFViewer pdfUrl={data.urdu_medium} />
+
+      <div className="grid md:gap-4 md:grid-cols-2 grid-cols-1 my-10">
+        {data.medium.map((data: any) => {
+          return <Card2 key={data.title} title={data.title} link={data.link} />;
+        })}
+      </div>
+      {Class10_Book.map((data: class_Book) => {
+        return (
+          <div key={data.name}>
+            <h3 className="text-xl font-semibold py-2">
+              {data.name} Class 10 Books
+            </h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
               dolorum, nesciunt vel distinctio quibusdam, saepe, ducimus
               aspernatur quaerat mollitia expedita qui magnam voluptates. Cumque
               recusandae, quas sapiente commodi eius repellat.
             </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-              dolorum, nesciunt vel distinctio quibusdam, saepe, ducimus
-              aspernatur quaerat mollitia expedita qui magnam voluptates. Cumque
-              recusandae, quas sapiente commodi eius repellat.
-            </p>
-            <Form url={data.url} />
+            <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
+              {data.list.map((item: any) => (
+                <Card3 key={item.id} title={item.title} link={item.link} />
+              ))}
+            </div>
           </div>
-          <div className="c2">
-            <Sidebar title={data.title} url={data.url} list={data.list} />
-          </div>
-        </div>
-      </Container>
-    </div>
+        );
+      })}
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
+        nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
+        mollitia expedita qui magnam voluptates. Cumque recusandae, quas
+        sapiente commodi eius repellat.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
+        nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
+        mollitia expedita qui magnam voluptates. Cumque recusandae, quas
+        sapiente commodi eius repellat.
+      </p>
+    </BookWrapper>
   );
 }
 
