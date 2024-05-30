@@ -10,23 +10,23 @@ import { class_Book } from "@/src/app/books/type";
 import { Class9_Book } from "@/src/app/books/class-9/data";
 
 const data = {
-  title: "Class 9 English Urdu Medium Biology Book Punjab Board",
+  title: "Class 9 English Urdu Medium General Math Book Punjab Board",
   description:
-    "Here you can download Class 9 Biology Book Punjab Board in urdu medium. other books of class 9 punjab board available in this platform.",
-  canonical: "/books/class-9/punjab-board-biology/urdu/",
+    "Here you can download Class 9 General Math Book Punjab Board in urdu medium. other books of class 9 punjab board available in this platform.",
+  canonical: "/books/class-9/punjab-board-general-math/urdu/",
   index: true,
   follow: true,
   image: "/9th/book/biology/Download-Punjab-Board-Biology-Book.webp",
-  url: "https://growlearnhub.com/books/class-9/punjab-board-biology/urdu/",
+  url: "https://growlearnhub.com/books/class-9/punjab-board-general-math/urdu/",
   urdu_medium: "1UC6ijj0pKUgZFP3-QIX2JpCoP6CbMGIO",
   keywords: [
-    "growlearnhub class 9 biology books urdu medium",
-    "growlearnhub class 9 books biology urdu medium",
-    "class 9 biology book urdu medium",
-    "class 9 biology urdu medium",
-    "class 9 biology book urdu medium",
-    "class 9 book biology urdu medium",
-    "download class 9 book biology urdu medium",
+    "growlearnhub class 9 General Math books urdu medium",
+    "growlearnhub class 9 books General Math urdu medium",
+    "class 9 General Math book urdu medium",
+    "class 9 General Math urdu medium",
+    "class 9 General Math book urdu medium",
+    "class 9 book General Math urdu medium",
+    "download class 9 book General Math urdu medium",
   ],
 };
 
@@ -39,8 +39,8 @@ export default function page() {
       b1Link="/books/"
       b2="Class 9"
       b2Link="/books/class-9/"
-      b3="Punjab Board Biology"
-      b3Link="/books/class-9/punjab-board-biology/"
+      b3="Punjab Board General Math"
+      b3Link="/books/class-9/punjab-board-general-math/"
       b4="Urdu Medium"
     >
       <p>
@@ -65,7 +65,7 @@ export default function page() {
         sapiente commodi eius repellat.
       </p>
 
-      <h3>Download Class 9 Urdu Urdu Biology Punjab Board</h3>
+      <h3>Download Class 9 Urdu Urdu General Math Punjab Board</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
         nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
