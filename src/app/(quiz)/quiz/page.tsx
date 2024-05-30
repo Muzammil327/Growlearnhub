@@ -5,7 +5,7 @@ import Sidebar from "@/src/components/element/sidebar";
 import SubHeader from "@/src/components/layout/header/subheader/page";
 import { BookDatas } from "../data";
 import { Metadata } from "next";
-import { Books } from "@/src/app/(books)/type";
+import { Books } from "@/src/app/books/type";
 
 const data = {
   title: "Quiz Grow Learn Hub",

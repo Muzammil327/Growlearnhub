@@ -6,7 +6,7 @@ import SubHeader from "@/src/components/layout/header/subheader/page";
 import { Class9_BookDatas } from "../../data";
 import Form from "@/src/components/element/form/page";
 import { Metadata } from "next";
-import { class_Book } from "@/src/app/(books)/type";
+import { class_Book } from "@/src/app/books/type";
 
 const data = {
   title: "Class 9 Quiz",

@@ -5,7 +5,7 @@ import Container from "@/src/components/element/container";
 import Form from "@/src/components/element/form/page";
 import Sidebar from "@/src/components/element/sidebar";
 import SubHeader from "@/src/components/layout/header/subheader/page";
-import { vu_Book } from "@/src/app/(books)/type";
+import { vu_Book } from "@/src/app/books/type";
 import { useParams } from "next/navigation";
 import { class_9_quiz } from "../../data";
 import PDFViewer from "@/src/components/element/PDFViewer";

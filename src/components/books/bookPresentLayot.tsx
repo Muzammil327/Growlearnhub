@@ -113,7 +113,7 @@ export default function BookPresentLayout({ data }: Iprops) {
           </div>
 
           <div className="md:col-span-2">
-            <Sidebar title={data.title} url={data.url} list={data.list} />
+            <Sidebar title={data.title} url={data.url} />
           </div>
         </div>
       </Container>

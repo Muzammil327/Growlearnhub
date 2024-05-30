@@ -42,14 +42,12 @@ export default function Newsletter() {
         className="my-2 flex max-w-md md:gap-x-4 gap-x-2"
         onSubmit={SubmitHandle}
       >
-        <label htmlFor="email-address" className="sr-only">
+        <label htmlFor="email" className="sr-only">
           Email address
         </label>
         <input
-          id="email-address"
-          name="email"
+          id="email"
           type="email"
-          autoComplete="email"
           className="input"
           placeholder="Enter your email"
           value={newsletter.email}

@@ -17,7 +17,6 @@ interface SidebarProps {
   url: string;
 }
 interface Iprops {
-  id: number;
   title: string;
   link: string;
 }

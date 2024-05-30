@@ -1,4 +1,4 @@
-import { Books, class_Book, vu_Book } from "@/src/app/(books)/type";
+import { Books, class_Book, vu_Book } from "@/src/app/books/type";
 
 // --------------------------------- Books --------------------
 export const BookDatas: Books[] = [

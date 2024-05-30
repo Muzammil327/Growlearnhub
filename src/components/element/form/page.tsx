@@ -68,11 +68,12 @@ export default function Form(props: { url: string }) {
       <form className="mt-16 sm:mt-20" onSubmit={SubmitHandle}>
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2 mb-2">
           <div>
-            <label htmlFor="first-name" className={style.label}>
+            <label htmlFor="fname" className={style.label}>
               First name
             </label>
             <div className="mt-2.5">
               <input
+                id="fname"
                 type="text"
                 className={style.input}
                 placeholder="Enter First Name"
@@ -84,11 +85,12 @@ export default function Form(props: { url: string }) {
             </div>
           </div>
           <div>
-            <label htmlFor="last-name" className={style.label}>
+            <label htmlFor="lname" className={style.label}>
               Last name
             </label>
             <div className="mt-2.5">
               <input
+                id="lname"
                 type="text"
                 className={style.input}
                 placeholder="Enter Last Name"
@@ -105,6 +107,7 @@ export default function Form(props: { url: string }) {
             </label>
             <div className="mt-2.5">
               <input
+                id="email"
                 type="email"
                 className={style.input}
                 placeholder="Enter Email"
@@ -121,6 +124,7 @@ export default function Form(props: { url: string }) {
             </label>
             <div className="mt-2.5">
               <input
+                id="url"
                 type="url"
                 disabled
                 className={style.input}
@@ -138,6 +142,7 @@ export default function Form(props: { url: string }) {
             </label>
             <div className="mt-2.5">
               <textarea
+                id="message"
                 rows={4}
                 placeholder="Enter your Message"
                 maxLength={1000}
