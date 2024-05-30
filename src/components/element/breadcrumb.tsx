@@ -9,6 +9,7 @@ interface Iprops {
   b1Link?: string | undefined;
   b2Link?: string | undefined;
   b3Link?: string | undefined;
+  b4Link?: string | undefined;
 }
 
 export default function BreadCrumb({
@@ -19,6 +20,7 @@ export default function BreadCrumb({
   b1Link,
   b2Link,
   b3Link,
+  b4Link,
 }: Iprops) {
   return (
     <section
@@ -61,6 +63,12 @@ export default function BreadCrumb({
           <li className="inline-flex items-center gap-2">
             {!b3Link && <WithoutLinks title={b3} />}
             {b3Link && <Links Link={b3Link} title={b3} />}
+          </li>
+        )}
+        {b4 && (
+          <li className="inline-flex items-center gap-2">
+            {!b4Link && <WithoutLinks title={b4} />}
+            {b4Link && <Links Link={b3Link} title={b4} />}
           </li>
         )}
       </ol>
