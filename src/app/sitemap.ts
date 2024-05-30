@@ -99,30 +99,47 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
 const route = [
   "books/",
+
   "books/class-9/",
   "books/class-9/punjab-board-physics/",
   "books/class-9/punjab-board-physics/english/",
   "books/class-9/punjab-board-physics/urdu/",
+
   "books/class-9/punjab-board-biology/",
   "books/class-9/punjab-board-biology/english/",
   "books/class-9/punjab-board-biology/urdu/",
+
   "books/class-9/punjab-board-chemistry/",
   "books/class-9/punjab-board-chemistry/english/",
   "books/class-9/punjab-board-chemistry/urdu/",
+
   "books/class-9/punjab-board-math/",
   "books/class-9/punjab-board-math/english/",
   "books/class-9/punjab-board-math/urdu/",
+
   "books/class-9/punjab-board-general-math/",
   "books/class-9/punjab-board-general-math/english/",
   "books/class-9/punjab-board-general-math/urdu/",
+
   "books/class-9/punjab-board-computer-science/",
   "books/class-9/punjab-board-computer-science/english/",
   "books/class-9/punjab-board-computer-science/urdu/",
+
   "books/class-9/punjab-board-pak-study/",
   "books/class-9/punjab-board-pak-study/english/",
   "books/class-9/punjab-board-pak-study/urdu/",
-  "books/class-9/punjab-board-general-urdu/",
-  "books/class-9/punjab-board-general-urdu/urdu/",
+  
+  "books/class-9/punjab-board-urdu/",
+  "books/class-9/punjab-board-urdu/urdu/",
+
+  "books/class-9/punjab-board-english/",
+  "books/class-9/punjab-board-english/english/",
+  
+  "books/class-9/punjab-board-islamiat/",
+  
+  "books/class-9/punjab-board-economics/",
+
+  "books/class-9/punjab-board-tarjuma-tul-quran/",
 
   "books/class-10/",
   "books/class-11/",
