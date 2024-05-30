@@ -24,17 +24,17 @@ export default function BreadCrumb({
 }: Iprops) {
   return (
     <section
-      className="flex px-5 py-3 text-gray-700 border border-gray-200 rounded-lg bg-gray-50"
+      className="flex md:px-5 px-3 md:py-3 py-2 text-gray-700 border border-gray-200 rounded-lg bg-gray-50"
       aria-label="Breadcrumb"
     >
-      <ol className="flex flex-row items-center space-x-2 rtl:space-x-reverse">
-        <li className="inline-flex items-center gap-2">
+      <ol className="flex sm:flex-row flex-col sm:items-center sm:space-x-2 rtl:space-x-reverse">
+        <li className="inline-flex items-center gap-2 sm:mb-0 mb-2">
           <Link
             href="/"
             className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600"
           >
             <svg
-              className="w-3 h-3 me-2.5"
+              className="w-3 h-3 me-2.5 sm:block hidden"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -48,25 +48,25 @@ export default function BreadCrumb({
         </li>
         {/* second  */}
         {b1 && (
-          <li className="inline-flex items-center gap-2">
+          <li className="inline-flex items-center gap-2 sm:mb-0 mb-2">
             {!b1Link && <WithoutLinks title={b1} />}
             {b1Link && <Links Link={b1Link} title={b1} />}
           </li>
         )}
         {b2 && (
-          <li className="inline-flex items-center gap-2">
+          <li className="inline-flex items-center gap-2 sm:mb-0 mb-2">
             {!b2Link && <WithoutLinks title={b2} />}
             {b2Link && <Links Link={b2Link} title={b2} />}
           </li>
         )}
         {b3 && (
-          <li className="inline-flex items-center gap-2">
+          <li className="inline-flex items-center gap-2 sm:mb-0 mb-2">
             {!b3Link && <WithoutLinks title={b3} />}
             {b3Link && <Links Link={b3Link} title={b3} />}
           </li>
         )}
         {b4 && (
-          <li className="inline-flex items-center gap-2">
+          <li className="inline-flex items-center gap-2 sm:mb-0 mb-2">
             {!b4Link && <WithoutLinks title={b4} />}
             {b4Link && <Links Link={b3Link} title={b4} />}
           </li>

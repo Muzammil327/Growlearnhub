@@ -97,7 +97,7 @@ export default function page() {
       </p>
       <PDFViewer pdfUrl={data.urdu_medium} />
 
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
+      <div className="grid md:gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {data.medium.map((data: any) => {
           return <Card2 key={data.title} title={data.title} link={data.link} />;
         })}
