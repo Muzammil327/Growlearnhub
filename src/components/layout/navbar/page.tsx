@@ -128,7 +128,7 @@ const navigation = {
     { name: "Books", href: "/books/" },
     { name: "Quiz", href: "/quiz/" },
     { name: "Notes", href: "/notes/" },
-    { name: "Online Tests", href: "/notes/" },
+    { name: "Online Tests", href: "/online-tests/" },
     { name: "Past Papers", href: "/past-papers/" },
     { name: "Pairing Schemes", href: "/pairing-schemes/" },
   ],

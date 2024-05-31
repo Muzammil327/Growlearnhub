@@ -2,6 +2,8 @@ export interface Books {
   id: number;
   title: string;
   link: string;
+  para?: string;
+  image?: string;
 }
 
 export interface List {

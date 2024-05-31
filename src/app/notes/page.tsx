@@ -8,50 +8,51 @@ import { Books } from "@/src/app/books/type";
 import Accordation from "@/src/components/element/accordion";
 
 const data = {
-  title: "Sharp Brain With Grow Learn Hub",
+  title: "Notes Grow Learn Hub",
   description:
-    "Here you download Pairing Schemes of class 9 to 12 Pairing Schemes in english and urdu medium and virtual university Pairing Schemes of all semester available in this platform.",
-  canonical: "/sharp-brain/",
+    "Here you download notes of class 9 to 12 books in english medium and virtual university notes of all semester available in this platform.",
+  canonical: "/notes/",
   index: true,
   follow: true,
-  image: "/sharp-brain/sharp_brain_growlearnhub.webp",
-  url: "https://growlearnhub.com/sharp-brain/",
+  image: "/notes/notes_growlearnhub.webp",
+  url: "https://growlearnhub.com/notes/",
   keywords: [
-    "growlearnhub Pairing Schemes",
-    "Pairing Schemes",
-    "class 9 Pairing Schemes",
-    "class 10 Pairing Schemes",
-    "class 11 Pairing Schemes",
-    "class 12 Pairing Schemes",
+    "growlearnhub notes",
+    "notes",
+    "class 9 notes",
+    "class 10 notes",
+    "class 11 notes",
+    "class 12 notes",
+    "vu notes",
   ],
   BookDatas: [
     {
       id: 0,
-      title: "Physics",
-      link: "/sharp-brain/physics/",
-      para: "Here you can access the topic wise physics books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/physics_sharp_brain.webp",
+      title: "Class 9 Notes",
+      link: "/notes/class-9/",
+      para: "Here you can download the class 9 all notes of different boards.",
+      image: "/notes/class_9_notes.webp",
     },
     {
       id: 1,
-      title: "Chemistry",
-      link: "/sharp-brain/chemistry/",
-      para: "Here you can access the topic wise chemistry books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/chemistry_sharp_brain.webp",
+      title: "Class 10 Notes",
+      link: "/notes/class-10/",
+      para: "Here you can download the class 10 all notes of different boards.",
+      image: "/notes/class_10_notes.webp",
     },
     {
       id: 2,
-      title: "Biology",
-      link: "/sharp-brain/biology/",
-      para: "Here you can access the topic wise biology books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/biology_sharp_brain.webp",
+      title: "Class 11 Notes",
+      link: "/notes/class-11/",
+      para: "Here you can download the class 11 all notes of different boards.",
+      image: "/notes/class_11_notes.webp",
     },
     {
       id: 3,
-      title: "Math",
-      link: "/sharp-brain/math/",
-      para: "Here you can access the topic wise math books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/math_sharp_brain.webp",
+      title: "Class 12 Notes",
+      link: "/notes/class-12/",
+      para: "Here you can download the class 12 all notes of different boards.",
+      image: "/notes/class_12_notes.webp",
     },
   ],
   link1: "/",
@@ -62,18 +63,18 @@ export default function page() {
     <BookWrapper
       title={data.title}
       url={data.url}
-      b1="Sharp Brain"
-      title1="Sharp Brain"
+      b1="Notes"
+      title1="Notes"
       image={data.image}
       link1={data.link1}
     >
-      <h2>📚 Pairing Schemes Store</h2>
-      <p>You can download punjab and sindh board of all Pairing Schemes.</p>
+      <h2>📚 Notes Store</h2>
+      <p>You can download punjab and sindh board of all notes.</p>
       <ul>
-        <li>Physics Pairing Schemes</li>
-        <li>Chemistry Pairing Schemes</li>
-        <li>Biology Pairing Schemes</li>
-        <li>Math Pairing Schemes</li>
+        <li>Physics Notes</li>
+        <li>Chemistry Notes</li>
+        <li>Biology Notes</li>
+        <li>Math Notes</li>
       </ul>
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
         {data.BookDatas.map((data: Books) => (

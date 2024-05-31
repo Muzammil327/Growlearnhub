@@ -99,6 +99,9 @@ body {
   }
   p {
     @apply my-1 text-lg text-justify font-normal text-gray-800 leading-relaxed;
+    white-space: normal !important;
+    word-spacing: 2px;
+    line-height: 30px;
   }
 }
 

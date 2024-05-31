@@ -8,14 +8,14 @@ import { Books } from "@/src/app/books/type";
 import Accordation from "@/src/components/element/accordion";
 
 const data = {
-  title: "Sharp Brain With Grow Learn Hub",
+  title: "Pairing Schemes Grow Learn Hub",
   description:
     "Here you download Pairing Schemes of class 9 to 12 Pairing Schemes in english and urdu medium and virtual university Pairing Schemes of all semester available in this platform.",
-  canonical: "/sharp-brain/",
+  canonical: "/pairing-schemes/",
   index: true,
   follow: true,
-  image: "/sharp-brain/sharp_brain_growlearnhub.webp",
-  url: "https://growlearnhub.com/sharp-brain/",
+  image: "/pairing-schemes/pairing_schemes_growlearnhub.webp",
+  url: "https://growlearnhub.com/pairing-schemes/",
   keywords: [
     "growlearnhub Pairing Schemes",
     "Pairing Schemes",
@@ -27,31 +27,31 @@ const data = {
   BookDatas: [
     {
       id: 0,
-      title: "Physics",
-      link: "/sharp-brain/physics/",
-      para: "Here you can access the topic wise physics books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/physics_sharp_brain.webp",
+      title: "Class 9 Pairing Schemes",
+      link: "/pairing-schemes/class-9/",
+      para: "Here you can download the class 9 all Pairing Schemes of different boards.",
+      image: "/pairing-schemes/class_9_pairing_schemes.webp",
     },
     {
       id: 1,
-      title: "Chemistry",
-      link: "/sharp-brain/chemistry/",
-      para: "Here you can access the topic wise chemistry books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/chemistry_sharp_brain.webp",
+      title: "Class 10 Pairing Schemes",
+      link: "/pairing-schemes/class-10/",
+      para: "Here you can download the class 10 all Pairing Schemes of different boards.",
+      image: "/pairing-schemes/class_10_pairing_schemes.webp",
     },
     {
       id: 2,
-      title: "Biology",
-      link: "/sharp-brain/biology/",
-      para: "Here you can access the topic wise biology books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/biology_sharp_brain.webp",
+      title: "Class 11 Pairing Schemes",
+      link: "/pairing-schemes/class-11/",
+      para: "Here you can download the class 11 all Pairing Schemes of different boards.",
+      image: "/pairing-schemes/class_11_pairing_schemes.webp",
     },
     {
       id: 3,
-      title: "Math",
-      link: "/sharp-brain/math/",
-      para: "Here you can access the topic wise math books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/math_sharp_brain.webp",
+      title: "Class 12 Pairing Schemes",
+      link: "/pairing-schemes/class-12/",
+      para: "Here you can download the class 12 all Pairing Schemes of different boards.",
+      image: "/pairing-schemes/class_12_pairing_schemes.webp",
     },
   ],
   link1: "/",
@@ -62,8 +62,8 @@ export default function page() {
     <BookWrapper
       title={data.title}
       url={data.url}
-      b1="Sharp Brain"
-      title1="Sharp Brain"
+      b1="Pairing Schemes"
+      title1="Pairing Schemes"
       image={data.image}
       link1={data.link1}
     >

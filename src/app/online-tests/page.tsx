@@ -8,50 +8,51 @@ import { Books } from "@/src/app/books/type";
 import Accordation from "@/src/components/element/accordion";
 
 const data = {
-  title: "Sharp Brain With Grow Learn Hub",
+  title: "Online Test Grow Learn Hub",
   description:
-    "Here you download Pairing Schemes of class 9 to 12 Pairing Schemes in english and urdu medium and virtual university Pairing Schemes of all semester available in this platform.",
-  canonical: "/sharp-brain/",
+    "Here you download online test of class 9 to 12 online test in english and urdu medium and virtual university online test of all semester available in this platform.",
+  canonical: "/online-test/",
   index: true,
   follow: true,
-  image: "/sharp-brain/sharp_brain_growlearnhub.webp",
-  url: "https://growlearnhub.com/sharp-brain/",
+  image: "/online-tests/online_tests_growlearnhub.webp",
+  url: "https://growlearnhub.com/online-test/",
   keywords: [
-    "growlearnhub Pairing Schemes",
-    "Pairing Schemes",
-    "class 9 Pairing Schemes",
-    "class 10 Pairing Schemes",
-    "class 11 Pairing Schemes",
-    "class 12 Pairing Schemes",
+    "growlearnhub online test",
+    "online test",
+    "class 9 online test",
+    "class 10 online test",
+    "class 11 online test",
+    "class 12 online test",
+    "vu online test",
   ],
   BookDatas: [
     {
       id: 0,
-      title: "Physics",
-      link: "/sharp-brain/physics/",
-      para: "Here you can access the topic wise physics books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/physics_sharp_brain.webp",
+      title: "Class 9 online test",
+      link: "/online-tests/class-9/",
+      para: "Here you can download the class 9 all online test of different boards.",
+      image: "/online-tests/class_9_online_tests.webp",
     },
     {
       id: 1,
-      title: "Chemistry",
-      link: "/sharp-brain/chemistry/",
-      para: "Here you can access the topic wise chemistry books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/chemistry_sharp_brain.webp",
+      title: "Class 10 online test",
+      link: "/online-tests/class-10/",
+      para: "Here you can download the class 10 all online test of different boards.",
+      image: "/online-tests/class_10_online_tests.webp",
     },
     {
       id: 2,
-      title: "Biology",
-      link: "/sharp-brain/biology/",
-      para: "Here you can access the topic wise biology books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/biology_sharp_brain.webp",
+      title: "Class 11 online test",
+      link: "/online-tests/class-11/",
+      para: "Here you can download the class 11 all online test of different boards.",
+      image: "/online-tests/class_11_online_tests.webp",
     },
     {
       id: 3,
-      title: "Math",
-      link: "/sharp-brain/math/",
-      para: "Here you can access the topic wise math books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/math_sharp_brain.webp",
+      title: "Class 12 online test",
+      link: "/online-tests/class-12/",
+      para: "Here you can download the class 12 all online test of different boards.",
+      image: "/online-tests/class_12_online_tests.webp",
     },
   ],
   link1: "/",
@@ -62,18 +63,18 @@ export default function page() {
     <BookWrapper
       title={data.title}
       url={data.url}
-      b1="Sharp Brain"
-      title1="Sharp Brain"
+      b1="Online Test"
+      title1="Online Test"
       image={data.image}
       link1={data.link1}
     >
-      <h2>📚 Pairing Schemes Store</h2>
-      <p>You can download punjab and sindh board of all Pairing Schemes.</p>
+      <h2>📚 Online Test Store</h2>
+      <p>You can download punjab and sindh board of all Online Test.</p>
       <ul>
-        <li>Physics Pairing Schemes</li>
-        <li>Chemistry Pairing Schemes</li>
-        <li>Biology Pairing Schemes</li>
-        <li>Math Pairing Schemes</li>
+        <li>Physics Online Test</li>
+        <li>Chemistry Online Test</li>
+        <li>Biology Online Test</li>
+        <li>Math Online Test</li>
       </ul>
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
         {data.BookDatas.map((data: Books) => (

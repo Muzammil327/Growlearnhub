@@ -8,50 +8,51 @@ import { Books } from "@/src/app/books/type";
 import Accordation from "@/src/components/element/accordion";
 
 const data = {
-  title: "Sharp Brain With Grow Learn Hub",
+  title: "Past Paper Grow Learn Hub",
   description:
-    "Here you download Pairing Schemes of class 9 to 12 Pairing Schemes in english and urdu medium and virtual university Pairing Schemes of all semester available in this platform.",
-  canonical: "/sharp-brain/",
+    "Here you download past paper of class 9 to 12 past paper in english and urdu medium and virtual university past paper of all semester available in this platform.",
+  canonical: "/past-paper/",
   index: true,
   follow: true,
-  image: "/sharp-brain/sharp_brain_growlearnhub.webp",
-  url: "https://growlearnhub.com/sharp-brain/",
+  image: "/past-paper/past_paper_growlearnhub.webp",
+  url: "https://growlearnhub.com/past-paper/",
   keywords: [
-    "growlearnhub Pairing Schemes",
-    "Pairing Schemes",
-    "class 9 Pairing Schemes",
-    "class 10 Pairing Schemes",
-    "class 11 Pairing Schemes",
-    "class 12 Pairing Schemes",
+    "growlearnhub past paper",
+    "past paper",
+    "class 9 past paper",
+    "class 10 past paper",
+    "class 11 past paper",
+    "class 12 past paper",
+    "vu past paper",
   ],
   BookDatas: [
     {
       id: 0,
-      title: "Physics",
-      link: "/sharp-brain/physics/",
-      para: "Here you can access the topic wise physics books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/physics_sharp_brain.webp",
+      title: "Class 9 Past Paper",
+      link: "/past-paper/class-9/",
+      para: "Here you can download the class 9 all past paper of different boards.",
+      image: "/past-paper/class_9_past_paper.webp",
     },
     {
       id: 1,
-      title: "Chemistry",
-      link: "/sharp-brain/chemistry/",
-      para: "Here you can access the topic wise chemistry books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/chemistry_sharp_brain.webp",
+      title: "Class 10 Past Paper",
+      link: "/past-paper/class-10/",
+      para: "Here you can download the class 10 all past paper of different boards.",
+      image: "/past-paper/class_10_past_paper.webp",
     },
     {
       id: 2,
-      title: "Biology",
-      link: "/sharp-brain/biology/",
-      para: "Here you can access the topic wise biology books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/biology_sharp_brain.webp",
+      title: "Class 11 Past Paper",
+      link: "/past-paper/class-11/",
+      para: "Here you can download the class 11 all past paper of different boards.",
+      image: "/past-paper/class_11_past_paper.webp",
     },
     {
       id: 3,
-      title: "Math",
-      link: "/sharp-brain/math/",
-      para: "Here you can access the topic wise math books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/math_sharp_brain.webp",
+      title: "Class 12 Past Paper",
+      link: "/past-paper/class-12/",
+      para: "Here you can download the class 12 all past paper of different boards.",
+      image: "/past-paper/class_12_past_paper.webp",
     },
   ],
   link1: "/",
@@ -62,18 +63,18 @@ export default function page() {
     <BookWrapper
       title={data.title}
       url={data.url}
-      b1="Sharp Brain"
-      title1="Sharp Brain"
+      b1="Past Paper"
+      title1="Past Paper"
       image={data.image}
       link1={data.link1}
     >
-      <h2>📚 Pairing Schemes Store</h2>
-      <p>You can download punjab and sindh board of all Pairing Schemes.</p>
+      <h2>📚 Past Paper Store</h2>
+      <p>You can download punjab and sindh board of all past paper.</p>
       <ul>
-        <li>Physics Pairing Schemes</li>
-        <li>Chemistry Pairing Schemes</li>
-        <li>Biology Pairing Schemes</li>
-        <li>Math Pairing Schemes</li>
+        <li>Physics Past Paper</li>
+        <li>Chemistry Past Paper</li>
+        <li>Biology Past Paper</li>
+        <li>Math Past Paper</li>
       </ul>
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
         {data.BookDatas.map((data: Books) => (

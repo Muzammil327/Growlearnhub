@@ -8,50 +8,51 @@ import { Books } from "@/src/app/books/type";
 import Accordation from "@/src/components/element/accordion";
 
 const data = {
-  title: "Sharp Brain With Grow Learn Hub",
+  title: "Quiz Grow Learn Hub",
   description:
-    "Here you download Pairing Schemes of class 9 to 12 Pairing Schemes in english and urdu medium and virtual university Pairing Schemes of all semester available in this platform.",
-  canonical: "/sharp-brain/",
+    "Here you download quiz of class 9 to 12 quiz in english medium and virtual university quiz of all semester available in this platform.",
+  canonical: "/quiz/",
   index: true,
   follow: true,
-  image: "/sharp-brain/sharp_brain_growlearnhub.webp",
-  url: "https://growlearnhub.com/sharp-brain/",
+  image: "/quiz/quiz_growlearnhub.webp",
+  url: "https://growlearnhub.com/quiz/",
   keywords: [
-    "growlearnhub Pairing Schemes",
-    "Pairing Schemes",
-    "class 9 Pairing Schemes",
-    "class 10 Pairing Schemes",
-    "class 11 Pairing Schemes",
-    "class 12 Pairing Schemes",
+    "growlearnhub quiz",
+    "quiz",
+    "class 9 quiz",
+    "class 10 quiz",
+    "class 11 quiz",
+    "class 12 quiz",
+    "vu quiz",
   ],
   BookDatas: [
     {
       id: 0,
-      title: "Physics",
-      link: "/sharp-brain/physics/",
-      para: "Here you can access the topic wise physics books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/physics_sharp_brain.webp",
+      title: "Class 9 Quiz",
+      link: "/quiz/class-9/",
+      para: "Here you can download the class 9 all quiz of different boards.",
+      image: "/quiz/class_9_quiz.webp",
     },
     {
       id: 1,
-      title: "Chemistry",
-      link: "/sharp-brain/chemistry/",
-      para: "Here you can access the topic wise chemistry books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/chemistry_sharp_brain.webp",
+      title: "Class 10 Quiz",
+      link: "/quiz/class-10/",
+      para: "Here you can download the class 10 all quiz of different boards.",
+      image: "/quiz/class_10_quiz.webp",
     },
     {
       id: 2,
-      title: "Biology",
-      link: "/sharp-brain/biology/",
-      para: "Here you can access the topic wise biology books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/biology_sharp_brain.webp",
+      title: "Class 11 Quiz",
+      link: "/quiz/class-11/",
+      para: "Here you can download the class 11 all quiz of different boards.",
+      image: "/quiz/class_11_quiz.webp",
     },
     {
       id: 3,
-      title: "Math",
-      link: "/sharp-brain/math/",
-      para: "Here you can access the topic wise math books full concepts with mind map, question and mcqs.",
-      image: "/sharp-brain/math_sharp_brain.webp",
+      title: "Class 12 Quiz",
+      link: "/quiz/class-12/",
+      para: "Here you can download the class 12 all quiz of different boards.",
+      image: "/quiz/class_12_quiz.webp",
     },
   ],
   link1: "/",
@@ -62,18 +63,18 @@ export default function page() {
     <BookWrapper
       title={data.title}
       url={data.url}
-      b1="Sharp Brain"
-      title1="Sharp Brain"
+      b1="Quiz"
+      title1="Quiz"
       image={data.image}
       link1={data.link1}
     >
-      <h2>📚 Pairing Schemes Store</h2>
-      <p>You can download punjab and sindh board of all Pairing Schemes.</p>
+      <h2>📚 Quiz Store</h2>
+      <p>You can download punjab and sindh board of all quiz.</p>
       <ul>
-        <li>Physics Pairing Schemes</li>
-        <li>Chemistry Pairing Schemes</li>
-        <li>Biology Pairing Schemes</li>
-        <li>Math Pairing Schemes</li>
+        <li>Physics Quiz</li>
+        <li>Chemistry Quiz</li>
+        <li>Biology Quiz</li>
+        <li>Math Quiz</li>
       </ul>
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
         {data.BookDatas.map((data: Books) => (
