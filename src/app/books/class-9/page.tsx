@@ -7,6 +7,7 @@ import BookWrapper from "@/src/app/books/BookWrapper";
 
 import { class_Book } from "@/src/app/books/type";
 import { Class9_Book } from "@/src/app/books/class-9/data";
+import Link from "next/link";
 
 const data = {
   title: "Books Class 9",
@@ -71,18 +72,63 @@ export default function page() {
           </div>
         );
       })}
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
-        nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
-        mollitia expedita qui magnam voluptates. Cumque recusandae, quas
-        sapiente commodi eius repellat.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
-        nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
-        mollitia expedita qui magnam voluptates. Cumque recusandae, quas
-        sapiente commodi eius repellat.
-      </p>
+
+      <ul>
+        <span>
+          Here you can access the <b>class 9 Punjab Board Notes</b>:
+        </span>
+        <li>
+          <Link href="/notes/class-9/punjab-board-physics/">
+            Class 9 Physics Book Notes
+          </Link>
+        </li>
+        <li>
+          <Link href="/notes/class-9/punjab-board-chemistry/">
+            Class 9 Chemistry Book Notes
+          </Link>
+        </li>
+        <li>
+          <Link href="/notes/class-9/punjab-board-biology/">
+            Class 9 Biology Book Notes
+          </Link>
+        </li>
+        <li>
+          <Link href="/notes/class-9/punjab-board-math/">
+            Class 9 Math Book Notes
+          </Link>
+        </li>
+      </ul>
+      <ul>
+        <span>
+          Here you can access the <b>class 9 Pairing Schemes</b>:
+        </span>
+        <li>
+          <Link href="/pairing-schemes/class-9/punjab-board-physics/">
+            Class 9 Physics Book Pairing Schemes
+          </Link>
+        </li>
+        <li>
+          <Link href="/pairing-schemes/class-9/punjab-board-chemistry/">
+            Class 9 Chemistry Book Pairing Schemes
+          </Link>
+        </li>
+        <li>
+          <Link href="/pairing-schemes/class-9/punjab-board-biology/">
+            Class 9 Biology Book Pairing Schemes
+          </Link>
+        </li>
+        <li>
+          <Link href="/pairing-schemes/class-9/punjab-board-math/">
+            Class 9 Math Book Pairing Schemes
+          </Link>
+        </li>
+      </ul>
+      <span>
+        Here you can access the <b>class 9 Online Test</b>:
+      </span>
+      <span>
+        Here you can access the <b>class 9 Past Paper</b>:
+      </span>
     </BookWrapper>
   );
 }

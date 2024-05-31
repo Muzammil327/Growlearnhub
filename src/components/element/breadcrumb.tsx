@@ -34,7 +34,7 @@ export default function BreadCrumb({
             className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600"
           >
             <svg
-              className="w-3 h-3 me-2.5 sm:block hidden"
+              className="w-3 h-3 me-2.5 sm:block hidden t1"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -79,7 +79,7 @@ export default function BreadCrumb({
 function Arrow() {
   return (
     <svg
-      className="w-3 h-3 me-2.5"
+      className="w-3 h-3 me-2.5 t1"
       aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
       fill="none"

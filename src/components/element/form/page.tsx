@@ -61,21 +61,21 @@ export default function Form(props: { url: string }) {
           Comment Here
         </h3>
         <span className="mt-3 md:text-lg sm:text-base text-sm md:leading-8 leading-7 text-gray-600 text-center">
-          Any Correctness in website. plz comment below.
+          Plz comment below.
         </span>
       </div>
 
       <form className="mt-16 sm:mt-20" onSubmit={SubmitHandle}>
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2 mb-2">
           <div>
-            <label htmlFor="fname" className={style.label}>
+            <label htmlFor="fname" className="label">
               First name
             </label>
             <div className="mt-2.5">
               <input
                 id="fname"
                 type="text"
-                className={style.input}
+                className="input"
                 placeholder="Enter First Name"
                 value={commentForm.fname}
                 onChange={(e) =>
@@ -85,14 +85,14 @@ export default function Form(props: { url: string }) {
             </div>
           </div>
           <div>
-            <label htmlFor="lname" className={style.label}>
+            <label htmlFor="lname" className="label">
               Last name
             </label>
             <div className="mt-2.5">
               <input
                 id="lname"
                 type="text"
-                className={style.input}
+                className="input"
                 placeholder="Enter Last Name"
                 value={commentForm.lname}
                 onChange={(e) =>
@@ -102,14 +102,14 @@ export default function Form(props: { url: string }) {
             </div>
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="email" className={style.label}>
+            <label htmlFor="email" className="label">
               Email
             </label>
             <div className="mt-2.5">
               <input
                 id="email"
                 type="email"
-                className={style.input}
+                className="input"
                 placeholder="Enter Email"
                 value={commentForm.email}
                 onChange={(e) =>
@@ -120,7 +120,7 @@ export default function Form(props: { url: string }) {
             </div>
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="url" className={style.label}>
+            <label htmlFor="url" className="label">
               Url
             </label>
             <div className="mt-2.5">
@@ -128,7 +128,7 @@ export default function Form(props: { url: string }) {
                 id="url"
                 type="url"
                 disabled
-                className={style.input}
+                className="input"
                 value={props.url}
                 onChange={(e) =>
                   setCommentForm({ ...commentForm, url: e.target.value })
@@ -138,7 +138,7 @@ export default function Form(props: { url: string }) {
           </div>
 
           <div className="sm:col-span-2">
-            <label htmlFor="message" className={style.label}>
+            <label htmlFor="message" className="label">
               Message
             </label>
             <div className="mt-2.5">
@@ -147,7 +147,7 @@ export default function Form(props: { url: string }) {
                 rows={4}
                 placeholder="Enter your Message"
                 maxLength={1000}
-                className={style.input}
+                className="input"
                 value={commentForm.message}
                 onChange={(e) =>
                   setCommentForm({ ...commentForm, message: e.target.value })

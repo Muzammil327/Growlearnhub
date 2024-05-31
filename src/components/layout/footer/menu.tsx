@@ -48,7 +48,7 @@ export default function FooterMenu() {
     <>
       {footer.map((footer) => (
         <div className="flex items-center" key={footer.name}>
-          <div className="rounded-md bg-white/5 p-2 mr-5 ring-1 ring-indigo-600">
+          <div className="rounded-md bg-white/5 p-2 mr-5 h-10 w-10 ring-1 ring-gray-600 flex items-center justify-center text-white">
             <footer.icon className="h-6 w-6 text-white" aria-hidden="true" />
           </div>
           <Link

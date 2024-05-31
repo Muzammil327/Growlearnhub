@@ -7,7 +7,6 @@ import BreadCrumb from "@/src/components/element/breadcrumb";
 import Footer from "@/src/components/layout/footer/page";
 import Navbar from "@/src/components/layout/navbar/page";
 import "./style.scss";
-import Link from "next/link";
 import ImageContainer from "@/src/components/element/image";
 
 export default function BookWrapper(data: {
@@ -44,45 +43,22 @@ export default function BookWrapper(data: {
                 b3Link={data.b3Link}
               />
               <p>
-                Are you looking for {data.title1}? You&apos;re in the right
-                place! Our website offers a comprehensive collection of
-                textbooks and study materials, all available for free download.
-                Prepare for your exams using our extensive resources.
+                Welcome to our Educational Hub, an innovative platform designed
+                for high school student in Class 9 to 12, Chartered Accountancy
+                (CA), and Virtual University learners to fulfil academic needs.
+                Our mission is to provide a one-stop solution for all your
+                educational requirements, empowering you to achieve excellence
+                in your studies and professional goals.
               </p>
-
-              {/* { title: "Past Papers", link: "/past-papers/" },
-  { title: "Quiz", link: "/quiz/" }, */}
-              <h2>What We Offer:</h2>
+              {/* <h2>What We Offer:</h2>
               <ul>
-                <li>
-                  <b>Free Textbooks:</b> Access the latest books of class 9 to
-                  12.
-                </li>
-                <li>
-                  <b>
-                    Subject <Link href={`/notes${data.link1}`}>Notes</Link>:
-                  </b>{" "}
-                  Detailed notes for each subject to help you grasp key
-                  concepts.
-                </li>
-                <li>
-                  <b>
-                    <Link href={`/pairing-schemes${data.link1}`}>
-                      Pairing Schemes
-                    </Link>
-                    :
-                  </b>{" "}
-                  Useful guides to understand the exam patterns.
-                </li>
-                <li>
-                  <b>
-                    <Link href={`/online-mcqs${data.link1}`}>Online MCQ</Link>
-                    Tests:
-                  </b>{" "}
-                  Practice and test your knowledge with our multiple-choice
-                  questions.
-                </li>
-              </ul>
+                <li>Free Textbooks</li>
+                <li>Subject Notes</li>
+                <li>Pairing Schemes</li>
+                <li>Online MCQ Tests</li>
+                <li>Quiz</li>
+                <li>Past Papers</li>
+              </ul> */}
               <ImageContainer
                 image={`${data.image}`}
                 title={data.title}
@@ -92,62 +68,7 @@ export default function BookWrapper(data: {
                 priority
               />
               {data.children}
-              <ul>
-                <span>
-                  Here you can access the <b>class 9 Punjab Board Notes</b>:
-                </span>
-                <li>
-                  <Link href="/notes/class-9/punjab-board-physics/">
-                    Class 9 Physics Book Notes
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/notes/class-9/punjab-board-chemistry/">
-                    Class 9 Chemistry Book Notes
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/notes/class-9/punjab-board-biology/">
-                    Class 9 Biology Book Notes
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/notes/class-9/punjab-board-math/">
-                    Class 9 Math Book Notes
-                  </Link>
-                </li>
-              </ul>
-              <ul>
-                <span>
-                  Here you can access the <b>class 9 Pairing Schemes</b>:
-                </span>
-                <li>
-                  <Link href="/pairing-schemes/class-9/punjab-board-physics/">
-                    Class 9 Physics Book Pairing Schemes
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/pairing-schemes/class-9/punjab-board-chemistry/">
-                    Class 9 Chemistry Book Pairing Schemes
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/pairing-schemes/class-9/punjab-board-biology/">
-                    Class 9 Biology Book Pairing Schemes
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/pairing-schemes/class-9/punjab-board-math/">
-                    Class 9 Math Book Pairing Schemes
-                  </Link>
-                </li>
-              </ul>
-              <span>
-                Here you can access the <b>class 9 Online Test</b>:
-              </span>
-              <span>
-                Here you can access the <b>class 9 Past Paper</b>:
-              </span>
+
               <p>
                 You can give your opinion or any question you have to ask below
                 in the comment section area.

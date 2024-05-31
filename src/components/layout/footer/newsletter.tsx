@@ -37,7 +37,7 @@ export default function Newsletter() {
   };
 
   return (
-    <div className="relative mt-4">
+    <div className="relative m-4">
       <form
         className="my-2 flex max-w-md md:gap-x-4 gap-x-2"
         onSubmit={SubmitHandle}

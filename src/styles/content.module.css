@@ -29,6 +29,6 @@
     @apply bg-slate-600 text-white border border-solid p-3 w-full my-3 rounded-md;
 }
 
-.btn {
+/* .btn {
     @apply bg-indigo-600 py-2 px-4 rounded-md text-white;
-}
+} */

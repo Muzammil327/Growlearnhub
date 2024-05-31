@@ -14,19 +14,13 @@ html {
 
 input,
 textarea {
-  @apply outline-none;
+  @apply outline-none border-none;
 }
 
 body {
   @apply font-sans;
 }
 
-.input {
-  @apply min-w-0 outline-none flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6;
-}
-.btn {
-  @apply rounded-md md:px-3.5 px-3 md:py-2.5 py-2 text-sm font-semibold text-white shadow-sm !bg-indigo-600 hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600;
-}
 .icon {
   @apply h-5 w-5 text-white;
 }
@@ -77,7 +71,7 @@ p {
 
 .title:before {
   content: "";
-  background-color: #f63a3a;
+  @apply bg1;
   position: absolute;
   right: 0;
   top: 50%;
@@ -98,8 +92,44 @@ p {
   content: "";
   z-index: -1;
   opacity: 0.9; /* Adjust the opacity as needed */
-  background: linear-gradient(45deg, #9089fc 0%, #ff80b5 100%);
+  @apply bg1;
 }
 .link {
   @apply border-b border-indigo-500 hover:border-none hover:transition-all text-indigo-500;
+}
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+}
+
+@layer components {
+  .bg1 {
+    @apply bg-teal-500;
+  }
+  .bg-1outline {
+    background: #1eb2a6;
+  }
+  .t1 {
+    color: #1eb2a6;
+  }
+  .r1 {
+    @apply ring-1 focus:ring-2 focus:ring-inset focus:ring-teal-500;
+  }
+  .btn {
+    @apply bg1 hover:bg-none border-teal-500 rounded-md border-[1px] md:px-3.5 px-3 md:py-3 py-2 text-sm font-semibold text-white hover:text-emerald-500 transition-all hover:transition-all shadow-sm;
+  }
+  .btn:hover {
+    @apply bg-transparent;
+  }
+  .label {
+    @apply block text-sm font-semibold leading-6 text-gray-900;
+  }
+  .input {
+    @apply block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#1bb1a4d9] sm:text-sm sm:leading-6;
+  }
 }

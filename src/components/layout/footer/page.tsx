@@ -26,8 +26,11 @@ export default function Footer() {
             <div className="grid grid-cols-2 gap-x-8 md:gap-y-6 gap-y-10 lg:pt-2">
               <FooterMenu />
             </div>
-            <Link href="/sharp-brain" className="mt-5 block w-full items-center justify-center rounded-md bg-white/5 p-2 mr-5 ring-1 ring-indigo-600 text-white text-center">
-            Sharp Your Brain with growlearnhub
+            <Link
+              href="/sharp-brain"
+              className="mt-5 block w-full  rounded-md bg-white/5 p-2 mr-5 h-10 ring-1 ring-gray-600  items-center justify-center text-white text-center"
+            >
+              Sharp Your Brain with growlearnhub
             </Link>
           </div>
         </div>
