@@ -24,7 +24,7 @@ export default function BreadCrumb({
 }: Iprops) {
   return (
     <section
-      className="flex md:px-5 px-3 md:py-3 py-2 text-gray-700 border border-gray-200 rounded-lg bg-gray-50"
+      className="flex md:px-5 px-3 mb-4 md:py-3 py-2 text-gray-700 border border-gray-200 rounded-lg bg-gray-50"
       aria-label="Breadcrumb"
     >
       <ol className="flex sm:flex-row flex-col sm:items-center sm:space-x-2 rtl:space-x-reverse">

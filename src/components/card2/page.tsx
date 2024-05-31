@@ -21,7 +21,7 @@ export default function Card2(props: {
             className="rounded-tl-md rounded-tr-md"
           />
           <div className="px-4">
-            <h3 className={`t1 ${style.h4}`}>{props.title}</h3>
+            <h3>{props.title}</h3>
             <p>{props.para}</p>
           </div>
         </div>

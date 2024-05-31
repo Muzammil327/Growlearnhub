@@ -27,7 +27,3 @@
     74.1% 44.1%
   );
 }
-
-.h1 {
-  @apply lg:text-4xl text-3xl font-bold tracking-tight text-white capitalize;
-}
