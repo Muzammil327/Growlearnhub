@@ -100,10 +100,13 @@ p {
 
 @layer base {
   h1 {
-    @apply text-2xl;
+    @apply md:text-4xl sm:text-3xl text-2xl md:font-bold font-semibold tracking-tight text-white capitalize;
   }
   h2 {
-    @apply text-xl;
+    @apply md:text-3xl text-2xl;
+  }
+  h3 {
+    @apply md:text-2xl text-xl;
   }
 }
 
