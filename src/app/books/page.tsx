@@ -25,13 +25,43 @@ const data = {
     "vu handout",
   ],
   BookDatas: [
-    { id: 0, title: "Class 9", link: "/books/class-9/" },
-    { id: 1, title: "Class 10", link: "/books/class-10/" },
-    { id: 2, title: "Class 11", link: "/books/class-11/" },
-    { id: 3, title: "Class 12", link: "/books/class-12/" },
-    { id: 4, title: "virtual University", link: "/books/vu/" },
+    {
+      id: 0,
+      title: "Class 9",
+      link: "/books/class-9/",
+      para: "Here you can download the class 9 all books of different boards.",
+      image: "/9th/book/biology/Download-Punjab-Board-Biology-Book.webp",
+    },
+    {
+      id: 1,
+      title: "Class 10",
+      link: "/books/class-10/",
+      para: "Here you can download the class 10 all books of different boards.",
+      image: "/9th/book/biology/Download-Punjab-Board-Biology-Book.webp",
+    },
+    {
+      id: 2,
+      title: "Class 11",
+      link: "/books/class-11/",
+      para: "Here you can download the class 11 all books of different boards.",
+      image: "/9th/book/biology/Download-Punjab-Board-Biology-Book.webp",
+    },
+    {
+      id: 3,
+      title: "Class 12",
+      link: "/books/class-12/",
+      para: "Here you can download the class 12 all books of different boards.",
+      image: "/9th/book/biology/Download-Punjab-Board-Biology-Book.webp",
+    },
+    {
+      id: 4,
+      title: "virtual University",
+      link: "/books/vu/",
+      para: "Here you can download the virtual university all semester books.",
+      image: "/9th/book/biology/Download-Punjab-Board-Biology-Book.webp",
+    },
   ],
-  link1:"/"
+  link1: "/",
 };
 
 export default function page() {
@@ -45,15 +75,21 @@ export default function page() {
       link1={data.link1}
     >
       <h2>📚 Books Store</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
-        nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
+      {/* <p>
+        Loreunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
         mollitia expedita qui magnam voluptates. Cumque recusandae, quas
-        sapiente commodi eius repellat.
-      </p>
+        sapiente commodi eius repellat.m ipsum dolor sit amet consectetur
+        adipisicing elit. Ipsam dolorum, nesci
+      </p> */}
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
         {data.BookDatas.map((data: Books) => (
-          <Card2 key={data.id} title={data.title} link={data.link} />
+          <Card2
+            key={data.id}
+            title={data.title}
+            link={data.link}
+            para={data.para}
+            image={data.image}
+          />
         ))}
       </div>
     </BookWrapper>

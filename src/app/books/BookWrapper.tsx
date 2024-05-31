@@ -49,6 +49,9 @@ export default function BookWrapper(data: {
                 textbooks and study materials, all available for free download.
                 Prepare for your exams using our extensive resources.
               </p>
+
+              {/* { title: "Past Papers", link: "/past-papers/" },
+  { title: "Quiz", link: "/quiz/" }, */}
               <h2>What We Offer:</h2>
               <ul>
                 <li>
@@ -86,6 +89,7 @@ export default function BookWrapper(data: {
                 class="my-4"
                 height={720}
                 width={1280}
+                priority
               />
               {data.children}
               <ul>
@@ -161,12 +165,6 @@ export default function BookWrapper(data: {
   );
 }
 const clist = [
-  { title: "Notes", link: "/notes/" },
-  { title: "Past Papers", link: "/past-papers/" },
-  { title: "Quiz", link: "/quiz/" },
-  { title: "Online Tests", link: "/online-tests/" },
-  { title: "Pairing Schemes", link: "/pairing-schemes/" },
-
   { title: "Class 9 Books", link: "/books/class-9/" },
   {
     title: "Class 9 Physics Books Punjab",
