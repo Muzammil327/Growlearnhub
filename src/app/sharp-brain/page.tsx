@@ -6,10 +6,11 @@ import ImageContainer from "@/src/components/element/image";
 import BookWrapper from "@/src/app/books/BookWrapper";
 
 import { Books } from "@/src/app/books/type";
-import Link from "next/link";
+import Card3 from "@/src/components/card2/card3";
+import { class_Book } from "./type";
 
 const data = {
-  title: "Books Grow Learn Hub",
+  title: "Sharp Brain with Grow Learn Hub",
   description:
     "Here you download books of class 9 to 12 books in english and urdu medium and virtual university books of all semester available in this platform.",
   canonical: "/books/",
@@ -33,34 +34,74 @@ const data = {
     { id: 3, title: "Class 12", link: "/books/class-12/" },
     { id: 4, title: "virtual University", link: "/books/vu/" },
   ],
-  link1:"/"
 };
 
 export default function page() {
   return (
-    <BookWrapper
-      title={data.title}
-      url={data.url}
-      b1="Books"
-      title1="Book"
-      image={data.image}
-      link1={data.link1}
-    >
-      <h2>📚 Books Store</h2>
+    <BookWrapper title={data.title} url={data.url} b1="Sharp Brain">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
         nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
         mollitia expedita qui magnam voluptates. Cumque recusandae, quas
         sapiente commodi eius repellat.
       </p>
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
-        {data.BookDatas.map((data: Books) => (
-          <Card2 key={data.id} title={data.title} link={data.link} />
-        ))}
-      </div>
+      <ImageContainer
+        image={data.image}
+        title={data.title}
+        class="my-4"
+        height={720}
+        width={1280}
+      />
+      <h2>Sharp Brain</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
+        nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
+        mollitia expedita qui magnam voluptates. Cumque recusandae, quas
+        sapiente commodi eius repellat.
+      </p>
+      {Class9_Book.map((data: any) => {
+        return (
+          <div key={data.name}>
+            <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
+              {data.list.map((item: any) => (
+                <Card3 key={item.id} title={item.title} link={item.link} />
+              ))}
+            </div>
+          </div>
+        );
+      })}
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
+        nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
+        mollitia expedita qui magnam voluptates. Cumque recusandae, quas
+        sapiente commodi eius repellat.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
+        nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
+        mollitia expedita qui magnam voluptates. Cumque recusandae, quas
+        sapiente commodi eius repellat.
+      </p>
     </BookWrapper>
   );
 }
+
+export const Class9_Book = [
+  {
+    list: [
+      {
+        id: 1,
+        title: "Biology Books",
+        link: "/sharp-brain/biology/",
+      },
+      {
+        id: 2,
+        title: "Math Books",
+        link: "/sharp-brain/math/",
+      },
+    ],
+  },
+];
 
 export const metadata: Metadata = {
   title: data.title,
