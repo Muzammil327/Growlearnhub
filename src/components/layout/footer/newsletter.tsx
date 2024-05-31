@@ -51,6 +51,7 @@ export default function Newsletter() {
           className="input"
           placeholder="Enter your email"
           value={newsletter.email}
+          autoComplete="email"
           onChange={(e) =>
             setNewsletter({ ...newsletter, email: e.target.value })
           }

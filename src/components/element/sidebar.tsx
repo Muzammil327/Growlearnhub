@@ -30,7 +30,7 @@ const Sidebar: React.FC<SidebarProps> = ({ title, videoId, url, list }) => {
         <div className="flex gap-3">
           <ul className="flex gap-2 items-center">
             <li className="bg-[#1877F2] p-2 rounded-md text-white">
-              <Link href="https://web.facebook.com/growlearnhub/">
+              <Link href="https://web.facebook.com/growlearnhub/" aria-label="Facebook page">
                 <svg
                   fill="#fff"
                   width="20px"
@@ -48,6 +48,7 @@ const Sidebar: React.FC<SidebarProps> = ({ title, videoId, url, list }) => {
               <Link
                 href="https://youtube.com/@growlearnhub?si=_zzC-f6q-1FKTRbH?sub_confirmation=1"
                 target="_blank"
+                aria-label="youtube channel"
               >
                 <svg
                   width="20px"

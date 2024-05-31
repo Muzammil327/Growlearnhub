@@ -115,6 +115,7 @@ export default function Form(props: { url: string }) {
                 onChange={(e) =>
                   setCommentForm({ ...commentForm, email: e.target.value })
                 }
+                autoComplete="email"
               />
             </div>
           </div>

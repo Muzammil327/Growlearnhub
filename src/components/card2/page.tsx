@@ -5,12 +5,12 @@ import Link from "next/link";
 export default function Card2(props: { title: string; link: string }) {
   return (
     <>
-      <Link href={`${props.link}`}>
+      <Link href={`${props.link}`} aria-label={props.link}>
         <div className={style.card}>
           <Image
             src="/9th/book/biology/Download-Punjab-Board-Biology-Book.webp"
-            alt="{data.title}"
-            title="{data.title}"
+            alt={props.title}
+            title={props.title}
             height={720}
             width={1280}
             className="rounded-tl-md rounded-tr-md"

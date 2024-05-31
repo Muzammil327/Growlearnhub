@@ -2,11 +2,9 @@ import React from "react";
 import { Metadata } from "next";
 
 import Card2 from "@/src/components/card2/page";
-import ImageContainer from "@/src/components/element/image";
 import BookWrapper from "@/src/app/books/BookWrapper";
 
 import { Books } from "@/src/app/books/type";
-import Link from "next/link";
 
 const data = {
   title: "Books Grow Learn Hub",

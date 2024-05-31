@@ -88,62 +88,62 @@ export default function BookWrapper(data: {
                 width={1280}
               />
               {data.children}
-              <p>
-                Here you can access the <b>class 9 Punjab Board Notes</b>:
-                <ul>
-                  <li>
-                    <Link href="/notes/class-9/punjab-board-physics/">
-                      Class 9 Physics Book Notes
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/notes/class-9/punjab-board-chemistry/">
-                      Class 9 Chemistry Book Notes
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/notes/class-9/punjab-board-biology/">
-                      Class 9 Biology Book Notes
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/notes/class-9/punjab-board-math/">
-                      Class 9 Math Book Notes
-                    </Link>
-                  </li>
-                </ul>
-              </p>
-              <p>
-                Here you can access the <b>class 9 Pairing Schemes</b>:
-                <ul>
-                  <li>
-                    <Link href="/pairing-schemes/class-9/punjab-board-physics/">
-                      Class 9 Physics Book Pairing Schemes
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/pairing-schemes/class-9/punjab-board-chemistry/">
-                      Class 9 Chemistry Book Pairing Schemes
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/pairing-schemes/class-9/punjab-board-biology/">
-                      Class 9 Biology Book Pairing Schemes
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/pairing-schemes/class-9/punjab-board-math/">
-                      Class 9 Math Book Pairing Schemes
-                    </Link>
-                  </li>
-                </ul>
-              </p>
-              <p>
+              <ul>
+                <span>
+                  Here you can access the <b>class 9 Punjab Board Notes</b>:
+                </span>
+                <li>
+                  <Link href="/notes/class-9/punjab-board-physics/">
+                    Class 9 Physics Book Notes
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/notes/class-9/punjab-board-chemistry/">
+                    Class 9 Chemistry Book Notes
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/notes/class-9/punjab-board-biology/">
+                    Class 9 Biology Book Notes
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/notes/class-9/punjab-board-math/">
+                    Class 9 Math Book Notes
+                  </Link>
+                </li>
+              </ul>
+              <ul>
+                <span>
+                  Here you can access the <b>class 9 Pairing Schemes</b>:
+                </span>
+                <li>
+                  <Link href="/pairing-schemes/class-9/punjab-board-physics/">
+                    Class 9 Physics Book Pairing Schemes
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/pairing-schemes/class-9/punjab-board-chemistry/">
+                    Class 9 Chemistry Book Pairing Schemes
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/pairing-schemes/class-9/punjab-board-biology/">
+                    Class 9 Biology Book Pairing Schemes
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/pairing-schemes/class-9/punjab-board-math/">
+                    Class 9 Math Book Pairing Schemes
+                  </Link>
+                </li>
+              </ul>
+              <span>
                 Here you can access the <b>class 9 Online Test</b>:
-              </p>
-              <p>
+              </span>
+              <span>
                 Here you can access the <b>class 9 Past Paper</b>:
-              </p>
+              </span>
               <p>
                 You can give your opinion or any question you have to ask below
                 in the comment section area.
