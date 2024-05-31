@@ -35,7 +35,7 @@ const data = {
 
 export default function page() {
   return (
-    <BookWrapper title={data.title} url={data.url} b1="Sharp Brain">
+    <BookWrapper title={data.title} url={data.url} b1="Sharp Brain" title1={""} image={""} link1={""}>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
         nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat

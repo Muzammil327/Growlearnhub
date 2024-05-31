@@ -12,10 +12,10 @@ import ImageContainer from "@/src/components/element/image";
 
 export default function BookWrapper(data: {
   title: string;
-  title1: string;
-  image: string;
+  title1?: string;
+  image?: string | undefined;
   url: string;
-  link1: string;
+  link1?: string;
   children: React.ReactNode;
   b1: string;
   b1Link?: string;
@@ -52,10 +52,8 @@ export default function BookWrapper(data: {
               <h2>What We Offer:</h2>
               <ul>
                 <li>
-                  <b>
-                    Free Textbooks:
-                  </b>{" "}
-                  Access the latest books of class 9 to 12.
+                  <b>Free Textbooks:</b> Access the latest books of class 9 to
+                  12.
                 </li>
                 <li>
                   <b>
@@ -83,7 +81,7 @@ export default function BookWrapper(data: {
                 </li>
               </ul>
               <ImageContainer
-                image={data.image}
+                image={`${data.image}`}
                 title={data.title}
                 class="my-4"
                 height={720}
