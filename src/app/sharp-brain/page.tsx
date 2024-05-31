@@ -34,6 +34,18 @@ const data = {
     { id: 3, title: "Class 12", link: "/books/class-12/" },
     { id: 4, title: "virtual University", link: "/books/vu/" },
   ],
+  list: [
+    {
+      id: 1,
+      title: "Biology Books",
+      link: "/sharp-brain/biology/",
+    },
+    {
+      id: 2,
+      title: "Math Books",
+      link: "/sharp-brain/math/",
+    },
+  ],
 };
 
 export default function page() {
@@ -59,17 +71,13 @@ export default function page() {
         mollitia expedita qui magnam voluptates. Cumque recusandae, quas
         sapiente commodi eius repellat.
       </p>
-      {Class9_Book.map((data: any) => {
-        return (
-          <div key={data.name}>
-            <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-              {data.list.map((item: any) => (
-                <Card3 key={item.id} title={item.title} link={item.link} />
-              ))}
-            </div>
-          </div>
-        );
-      })}
+
+      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
+        {data.list.map((item: any) => (
+          <Card3 key={item.id} title={item.title} link={item.link} />
+        ))}
+      </div>
+
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
         nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
@@ -85,23 +93,6 @@ export default function page() {
     </BookWrapper>
   );
 }
-
-export const Class9_Book = [
-  {
-    list: [
-      {
-        id: 1,
-        title: "Biology Books",
-        link: "/sharp-brain/biology/",
-      },
-      {
-        id: 2,
-        title: "Math Books",
-        link: "/sharp-brain/math/",
-      },
-    ],
-  },
-];
 
 export const metadata: Metadata = {
   title: data.title,
