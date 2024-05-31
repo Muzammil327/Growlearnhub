@@ -77,8 +77,8 @@ export default function page() {
     <BookWrapper
       title={data.title}
       url={data.url}
-      b1="Books"
-      title1="Book"
+      b1="Class 9"
+      title1="Class 9"
       image={data.image}
       link1={data.link1}
     >
