@@ -30,8 +30,21 @@ function VideoPlayer({ videoId }: VideoPlayerProps) {
   }, [videoId]);
 
   return (
-    <div ref={playerRef} style={{ width: "100%", height: "100%" }}>
-      {/* This div will be replaced by the YouTube player */}
+    <div
+      style={{ position: "relative", width: "100%", paddingBottom: "56.25%" }}
+    >
+      <div
+        ref={playerRef}
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+        }}
+      >
+        {/* This div will be replaced by the YouTube player */}
+      </div>
     </div>
   );
 }

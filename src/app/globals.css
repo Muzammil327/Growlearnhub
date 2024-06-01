@@ -21,10 +21,6 @@ body {
   @apply font-sans;
 }
 
-.icon {
-  @apply h-5 w-5 text-white;
-}
-
 .card {
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.05), 0px 8px 15px rgba(0, 0, 0, 0.1),
     0 0 0 1px rgba(255, 255, 255, 0.1);
@@ -83,13 +79,10 @@ body {
   opacity: 0.9; /* Adjust the opacity as needed */
   @apply bg1;
 }
-.link {
-  @apply border-b border-indigo-500 hover:border-none hover:transition-all text-indigo-500;
-}
 
 @layer base {
   h1 {
-    @apply md:text-4xl sm:text-3xl text-2xl md:font-bold font-semibold tracking-tight text-white capitalize;
+    @apply md:text-5xl sm:text-4xl text-3xl py-2 md:font-bold font-semibold tracking-tight capitalize;
   }
   h2 {
     @apply md:text-3xl text-2xl;
@@ -98,10 +91,13 @@ body {
     @apply md:text-2xl text-xl t1 my-2;
   }
   p {
-    @apply my-1 text-lg text-justify font-normal text-gray-800 leading-relaxed;
+    @apply my-1 text-lg text-justify font-normal tb leading-relaxed;
     white-space: normal !important;
     word-spacing: 2px;
     line-height: 30px;
+  }
+  a {
+    @apply hover:transition-all;
   }
 }
 
@@ -109,25 +105,34 @@ body {
   .bg1 {
     @apply bg-teal-500;
   }
-  .bg-1outline {
-    background: #1eb2a6;
+  .tw {
+    @apply text-white;
+  }
+  .tb {
+    @apply text-gray-900;
   }
   .t1 {
-    color: #1eb2a6;
+    @apply text-teal-500;
+  }
+  .b1 {
+    @apply border-teal-500;
   }
   .r1 {
     @apply ring-1 focus:ring-2 focus:ring-inset focus:ring-teal-500;
   }
   .btn {
-    @apply bg1 hover:bg-none border-teal-500 rounded-md border-[1px] md:px-3.5 px-3 md:py-3 py-2 text-sm font-semibold text-white hover:text-emerald-500 transition-all hover:transition-all shadow-sm;
+    @apply bg1 hover:bg-none b1 rounded-md border-[1px] md:px-3.5 px-3 md:py-3 py-2 text-sm font-semibold tw hover:text-emerald-500 transition-all hover:transition-all shadow-sm;
   }
   .btn:hover {
     @apply bg-transparent;
   }
   .label {
-    @apply block text-sm font-semibold leading-6 text-gray-900;
+    @apply block text-sm font-semibold leading-6 tb;
   }
   .input {
-    @apply block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#1bb1a4d9] sm:text-sm sm:leading-6;
+    @apply block w-full rounded-md border-0 px-3.5 py-2 tb shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 r1 sm:text-sm sm:leading-6;
+  }
+  .icon {
+    @apply h-5 w-5 text-white;
   }
 }
