@@ -8,65 +8,57 @@ import { Books } from "@/src/app/books/type";
 import Accordation from "@/src/components/element/accordion";
 
 const data = {
-  title: "Class 9 Grow Learn Hub",
+  title: "Class 12 Grow Learn Hub",
   description:
     "Here you download books of class 9 to 12 books in english and urdu medium and virtual university books of all semester available in this platform.",
-  canonical: "/class-9/",
+  canonical: "/class-12/",
   index: true,
   follow: true,
-  image: "/class_9.webp",
-  url: "https://growlearnhub.com/class-9/",
-  keywords: [
-    "growlearnhub books",
-    "books",
-    "class 9 books",
-    "class 10 books",
-    "class 11 books",
-    "class 12 books",
-    "vu handout",
-  ],
+  image: "/class_12.webp",
+  url: "https://growlearnhub.com/class-12/",
+  keywords: ["growlearnhub books", "12th class", "class 12", "vu handout"],
   BookDatas: [
     {
       id: 0,
-      title: "Class 9 Books",
-      link: "/books/class-9/",
-      para: "Here you can download the class 9 all books of different boards.",
-      image: "/books/class_9_books.webp",
+      title: "Class 12 Books",
+      link: "/books/class-12/",
+      para: "Here you can download the class 12 all books of different boards.",
+      image: "/books/class_12_books.webp",
     },
     {
       id: 1,
-      title: "Class 9 Notes",
-      link: "/notes/class-9/",
-      para: "Here you can download the class 9 all notes of different boards.",
-      image: "/notes/class_9_notes.webp",
+      title: "Class 12 Notes",
+      link: "/notes/class-12/",
+      para: "Here you can download the class 12 all notes of different boards.",
+      image: "/notes/class_11_notes.webp",
     },
     {
       id: 2,
-      title: "Class 9 Past Paper",
-      link: "/past-papers/class-9/",
-      para: "Here you can download the class 9 all past paper of different boards.",
-      image: "/past-paper/class_9_past_paper.webp",
+      title: "Class 12 Past Paper",
+      link: "/past-papers/class-12/",
+      para: "Here you can download the class 12 all past paper of different boards.",
+      image: "/past-paper/class_12_past_paper.webp",
     },
     {
       id: 3,
-      title: "Class 9 Quiz",
-      link: "/quiz/class-9/",
-      para: "Here you can download the class 9 all quiz of different boards.",
-      image: "/quiz/class_9_quiz.webp",
+      title: "Class 12 Quiz",
+      link: "/quiz/class-12/",
+      para: "Here you can download the class 12 all quiz of different boards.",
+      image: "/quiz/class_12_quiz.webp",
     },
     {
       id: 4,
-      title: "Class 9 Online Tests",
-      link: "/online-tests/class-9/",
-      para: "Here you can download the class 9 all online tests of different boards.",
-      image: "/online-tests/class_9_online_tests.webp",
+      title: "Class 12 Online Tests",
+      link: "/online-tests/class-12/",
+      para: "Here you can download the class 12 all online tests of different boards.",
+      image: "/online-tests/class_12_online_tests.webp",
     },
     {
       id: 5,
-      title: "Class 9 Pairing Schemes",
-      link: "/pairing-schemes/class-9/",
-      para: "Here you can download the class 9 all pairing schemes of different boards.",
-      image: "/pairing-schemes/class_9_pairing_schemes.webp",
+      title: "Class 12 Pairing Schemes",
+      link: "/pairing-schemes/class-12/",
+      para: "Here you can download the class 12 all pairing schemes of different boards.",
+      image: "/pairing-schemes/class_12_pairing_schemes.webp",
     },
   ],
   link1: "/",
@@ -77,8 +69,8 @@ export default function page() {
     <BookWrapper
       title={data.title}
       url={data.url}
-      b1="Class 9"
-      title1="Class 9"
+      b1="Class 12"
+      title1="Class 12"
       image={data.image}
       link1={data.link1}
     >

@@ -99,6 +99,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
 const route = [
   "books/",
+  "quiz/",
+  "notes/",
+  "online-tests/",
+  "pairing-schemes/",
+  "past-papers/",
+  "sharp-brain/",
+
+  "class-9/",
+  "class-10/",
+  "class-11/",
+  "class-12/",
+  "vu/",
 
   "books/class-9/",
   "books/class-9/punjab-board-physics/",
