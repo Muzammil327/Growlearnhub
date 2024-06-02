@@ -14,13 +14,8 @@ import styles from "./quizShow.module.css";
 import axios from "axios";
 import { GetMcqsUser } from "@/src/app/constant";
 
-export default function IdView({
-  bookName,
-  heading1,
-  heading2,
-}: IpropsHeading2) {
+export default function IdView({ bookName, heading1 }: IpropsHeading2) {
   const capitalizedHeading1 = convertToUppercaseWithSpace(heading1);
-  const capitalizedHeading2Params = convertToUppercaseWithSpace(heading2);
   const [fetchUser, setFetchUser] = useState<McqsTypes[]>([]);
 
   const [loading, setLoading] = useState(true);
@@ -43,6 +38,7 @@ export default function IdView({
         const response = await axios.get(
           `${GetMcqsUser}?page=${page}&limit=${limit}`
         );
+
         setPagination(response.data.pagination);
         setFetchUser(response.data.data);
         setLoading(false);
@@ -52,12 +48,9 @@ export default function IdView({
             convertToLowercaseWithHyphen(item.book.title) ===
               convertToLowercaseWithHyphen(bookName) &&
             convertToLowercaseWithHyphen(item.heading1.title) ===
-              convertToLowercaseWithHyphen(heading1) &&
-            convertToLowercaseWithHyphen(item.heading2.title) ===
-              convertToLowercaseWithHyphen(heading2)
+              convertToLowercaseWithHyphen(heading1)
           );
         });
-
         setFetchUser(filteredData);
 
         setPagination({
@@ -72,7 +65,7 @@ export default function IdView({
         setLoading(false);
       }
     },
-    [bookName, heading1, heading2]
+    [bookName, heading1]
   );
 
   useEffect(() => {
@@ -100,11 +93,7 @@ export default function IdView({
 
   return (
     <>
-      <SubHeader
-        title={
-          capitalizedHeading1 + " " + capitalizedHeading2Params + " " + "Quiz"
-        }
-      />
+      <SubHeader title={capitalizedHeading1 + " " + " " + "Quiz"} />
 
       <section>
         <Container>
@@ -124,7 +113,7 @@ export default function IdView({
                         <div className={styles.quiz} key={data._id}>
                           <div className="question">
                             <Link
-                              href={`/mcqs/${data.slug}`}
+                              href={`/quizCenter/${data.slug}`}
                               className={`${styles.link} capitalize`}
                             >
                               {data.title}.
@@ -196,20 +185,14 @@ export default function IdView({
                   ))}
               </div>
               <Form
-                url={`${process.env.NEXT_PUBLIC_FRONTEND_URL}/quiz/${bookName}/${heading1}/${heading2}`}
+                url={`${process.env.NEXT_PUBLIC_FRONTEND_URL}/quiz/${bookName}/${heading1}`}
               />
             </div>
             <div className="col-span-2">
               <Sidebar
-                title={
-                  capitalizedHeading1 +
-                  " " +
-                  capitalizedHeading2Params +
-                  " " +
-                  "Quiz"
-                }
+                title={capitalizedHeading1 + " " + "Quiz"}
                 // videoId="Ko6uaohTe20"
-                url={`https://growlearnhub.com/mcqs/${bookName}/${heading1}/${heading2}`}
+                url={`https://growlearnhub.com/mcqs/${bookName}/${heading1}}`}
               />
             </div>
           </div>
@@ -218,3 +201,4 @@ export default function IdView({
     </>
   );
 }
+

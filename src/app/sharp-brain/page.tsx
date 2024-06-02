@@ -67,14 +67,8 @@ export default function page() {
       image={data.image}
       link1={data.link1}
     >
-      <h2>📚 Pairing Schemes Store</h2>
-      <p>You can download punjab and sindh board of all Pairing Schemes.</p>
-      <ul>
-        <li>Physics Pairing Schemes</li>
-        <li>Chemistry Pairing Schemes</li>
-        <li>Biology Pairing Schemes</li>
-        <li>Math Pairing Schemes</li>
-      </ul>
+      <h2>📚 Master Subjects Store</h2>
+      
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
         {data.BookDatas.map((data: Books) => (
           <Card2
@@ -86,28 +80,7 @@ export default function page() {
           />
         ))}
       </div>
-
-      <h2>Class 9 to 12</h2>
-      <Accordation
-        data={[
-          {
-            title: "Comprehensive Study Materials",
-            para: "Detailed notes, summaries, and explanations for every chapter.",
-          },
-          {
-            title: "Practice Papers and Quizzes",
-            para: "Regular practice tests to evaluate your understanding and track your progress.",
-          },
-          {
-            title: "Subject-Specific Resources",
-            para: "In-depth study materials for Physics, Chemistry, Biology, Mathematics, and Commerce.",
-          },
-          {
-            title: "Exam Preparation Guides",
-            para: "Strategies and tips for excelling in board exams and entrance tests like JEE, NEET, and SAT.",
-          },
-        ]}
-      />
+     
     </BookWrapper>
   );
 }

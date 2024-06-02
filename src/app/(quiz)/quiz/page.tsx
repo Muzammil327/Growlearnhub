@@ -2,7 +2,7 @@ import React from "react";
 import { Metadata } from "next";
 
 import Card2 from "@/src/components/card2/page";
-import BookWrapper from "@/src/app/books/BookWrapper";
+import QuizWrapper from "@/src/app/(quiz)/quiz/QuizWrapper";
 
 import { Books } from "@/src/app/books/type";
 import Accordation from "@/src/components/element/accordion";
@@ -54,13 +54,20 @@ const data = {
       para: "Here you can download the class 12 all quiz of different boards.",
       image: "/quiz/class_12_quiz.webp",
     },
+    {
+      id: 3,
+      title: "Topic Wise Quiz",
+      link: "/quiz/topic-wise/",
+      para: "Here you can download the class 12 all quiz of different boards.",
+      image: "/quiz/class_12_quiz.webp",
+    },
   ],
   link1: "/",
 };
 
 export default function page() {
   return (
-    <BookWrapper
+    <QuizWrapper
       title={data.title}
       url={data.url}
       b1="Quiz"
@@ -87,29 +94,7 @@ export default function page() {
           />
         ))}
       </div>
-
-      <h2>Class 9 to 12</h2>
-      <Accordation
-        data={[
-          {
-            title: "Comprehensive Study Materials",
-            para: "Detailed notes, summaries, and explanations for every chapter.",
-          },
-          {
-            title: "Practice Papers and Quizzes",
-            para: "Regular practice tests to evaluate your understanding and track your progress.",
-          },
-          {
-            title: "Subject-Specific Resources",
-            para: "In-depth study materials for Physics, Chemistry, Biology, Mathematics, and Commerce.",
-          },
-          {
-            title: "Exam Preparation Guides",
-            para: "Strategies and tips for excelling in board exams and entrance tests like JEE, NEET, and SAT.",
-          },
-        ]}
-      />
-    </BookWrapper>
+    </QuizWrapper>
   );
 }
 

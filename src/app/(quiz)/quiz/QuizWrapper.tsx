@@ -6,7 +6,6 @@ import Form from "@/src/components/element/form/page";
 import BreadCrumb from "@/src/components/element/breadcrumb";
 import Footer from "@/src/components/layout/footer/page";
 import Navbar from "@/src/components/layout/navbar/page";
-import "./style.scss";
 import ImageContainer from "@/src/components/element/image";
 
 export default function BookWrapper(data: {
@@ -31,7 +30,7 @@ export default function BookWrapper(data: {
       <main>
         <SubHeader title={data.title} />
         <Container>
-          <div className="book">
+          <div className="quiz">
             <div className="c1">
               <BreadCrumb
                 b1={data.b1}

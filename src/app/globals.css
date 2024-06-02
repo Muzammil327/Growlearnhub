@@ -96,6 +96,12 @@ body {
     word-spacing: 2px;
     line-height: 30px;
   }
+  span {
+    @apply my-1 text-lg text-justify font-normal tb leading-relaxed;
+    white-space: normal !important;
+    word-spacing: 2px;
+    line-height: 30px;
+  }
   a {
     @apply hover:transition-all;
   }

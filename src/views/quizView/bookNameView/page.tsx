@@ -10,7 +10,8 @@ import Form from "@/src/components/element/form/page";
 import Sidebar from "@/src/components/element/sidebar";
 import { Heading1TypesGet, IpropsbookName } from "@/src/types/page";
 import axios from "axios";
-import { GetHeading1 } from "@/src/app/constant";
+import { GetHeading1 } from "@/src/util/constant";
+import Card3 from "@/src/components/card2/card3";
 
 export default function BookNameView({ bookName }: IpropsbookName) {
   const [fetchdata, setFetchData] = useState<Heading1TypesGet[]>([]);
@@ -43,6 +44,7 @@ export default function BookNameView({ bookName }: IpropsbookName) {
     );
   });
 
+
   if (error) {
     return <h1>Error ...</h1>;
   }
@@ -53,7 +55,8 @@ export default function BookNameView({ bookName }: IpropsbookName) {
       <section>
         <Container>
           <div className="grid md:grid-cols-9 md:gap-4">
-            <div className="col-span-7">
+            <div className="col-span-7 mt-5">
+             
               <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 my-5 mb-16">
                 <>
                   {loading ? (
@@ -65,12 +68,12 @@ export default function BookNameView({ bookName }: IpropsbookName) {
                   ) : (
                     <>
                       {filteredData.map((data: Heading1TypesGet) => (
-                        <Card2
+                        <Card3
                           key={data._id}
                           title={data.title}
                           link={`${
                             process.env.NEXT_PUBLIC_FRONTEND_URL
-                          }/quiz/${bookName}/${convertToLowercaseWithHyphen(
+                          }/quiz/topic-wise/${bookName}/${convertToLowercaseWithHyphen(
                             data.title
                           )}`}
                         />

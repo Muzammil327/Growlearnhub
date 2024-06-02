@@ -12,13 +12,13 @@ export default function SubHeader(props: { title: string }) {
     >
       {" "}
       <Container>
-        <div className={` pt-8 ${style.hero}`}>
+        <div className={`pt-8 ${style.hero}`}>
           <div className={style.bg1} aria-hidden="true">
             <div className={style.icon} />
           </div>
           <div className="mx-auto py-8 sm:py-20 md:py-32">
             <div className="md:text-center text-left mt-4">
-              <h1>{props.title}</h1>
+              <h1 className="tw">{props.title}</h1>
             </div>
           </div>
         </div>

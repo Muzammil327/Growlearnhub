@@ -33,7 +33,6 @@ export interface IpropsbookName {
 export interface IpropsHeading2 {
   bookName: string;
   heading1: string;
-  heading2: string;
 }
 // export type Heading2Types = {
 //   _id: string;
@@ -87,7 +86,6 @@ export type Heading2TypesPost = {
 export interface IpropsHeading2 {
   bookName: string;
   heading1: string;
-  heading2: string;
 }
 
 // mcqs ----------------------------------------

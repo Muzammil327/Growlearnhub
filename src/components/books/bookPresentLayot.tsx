@@ -2,7 +2,6 @@ import React from "react";
 import Container from "@/src/components/element/container";
 import Sidebar from "@/src/components/element/sidebar";
 import SubHeader from "@/src/components/layout/header/subheader/page";
-import FileDownloader from "@/src/components/element/FileDownloader";
 import PDFViewer from "@/src/components/element/PDFViewer";
 import Form from "@/src/components/element/form/page";
 import Image from "next/image";
@@ -103,11 +102,7 @@ export default function BookPresentLayout({ data }: Iprops) {
 
             <PDFViewer pdfUrl={data.fileId} />
 
-            <FileDownloader
-              fileId={data.fileId}
-              fileName={data.fileName}
-              buttonText={data.buttontext}
-            />
+        
 
             <Form url={data.url} />
           </div>

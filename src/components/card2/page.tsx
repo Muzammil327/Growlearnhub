@@ -6,7 +6,7 @@ export default function Card2(props: {
   title: string;
   link: string;
   para?: string;
-  image?: string;
+  image?: string | undefined;
 }) {
   return (
     <>
