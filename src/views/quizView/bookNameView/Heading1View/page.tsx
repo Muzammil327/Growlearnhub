@@ -77,7 +77,7 @@ export default function Heading1View({ bookName, heading1 }: IpropsHeading1) {
                           title={data.title}
                           link={`${
                             process.env.NEXT_PUBLIC_FRONTEND_URL
-                          }/quiz/${bookName}/${heading1}/${convertToLowercaseWithHyphen(
+                          }/quiz/subject-wise/${bookName}/${heading1}/${convertToLowercaseWithHyphen(
                             data.title
                           )}`}
                         />

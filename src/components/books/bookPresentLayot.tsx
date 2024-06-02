@@ -102,8 +102,6 @@ export default function BookPresentLayout({ data }: Iprops) {
 
             <PDFViewer pdfUrl={data.fileId} />
 
-        
-
             <Form url={data.url} />
           </div>
 

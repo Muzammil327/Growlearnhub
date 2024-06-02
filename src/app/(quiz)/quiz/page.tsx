@@ -57,7 +57,7 @@ const data = {
     {
       id: 3,
       title: "Topic Wise Quiz",
-      link: "/quiz/topic-wise/",
+      link: "/quiz/subject-wise/",
       para: "Here you can download the class 12 all quiz of different boards.",
       image: "/quiz/class_12_quiz.webp",
     },

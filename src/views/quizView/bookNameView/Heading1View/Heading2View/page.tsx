@@ -6,7 +6,6 @@ import SubHeader from "@/src/components/layout/header/subheader/page";
 import Container from "@/src/components/element/container";
 import Sidebar from "@/src/components/element/sidebar";
 import { IpropsHeading2, McqsTypes, PaginationTypes } from "@/src/types/page";
-import { getMcqsAll } from "@/src/api/mcqs/page";
 import Loading2 from "@/src/components/element/Loading2";
 import { convertToLowercaseWithHyphen } from "@/src/views/function/convertToLowercaseWithHyphen";
 import Link from "next/link";
@@ -16,6 +15,7 @@ import { GetMcqsUser } from "@/src/app/constant";
 
 export default function IdView({ bookName, heading1 }: IpropsHeading2) {
   const capitalizedHeading1 = convertToUppercaseWithSpace(heading1);
+  const capitalizedbookName = convertToUppercaseWithSpace(bookName);
   const [fetchUser, setFetchUser] = useState<McqsTypes[]>([]);
 
   const [loading, setLoading] = useState(true);
@@ -38,18 +38,27 @@ export default function IdView({ bookName, heading1 }: IpropsHeading2) {
         const response = await axios.get(
           `${GetMcqsUser}?page=${page}&limit=${limit}`
         );
-
         setPagination(response.data.pagination);
         setFetchUser(response.data.data);
         setLoading(false);
 
         const filteredData = response.data.data.filter((item: any) => {
-          return (
-            convertToLowercaseWithHyphen(item.book.title) ===
-              convertToLowercaseWithHyphen(bookName) &&
-            convertToLowercaseWithHyphen(item.heading1.title) ===
+          const bookTitle = item.book.title;
+          const keywords = item.keywords.map((keyword: any) => keyword.title);
+
+          // Check if book title matches
+          const bookTitleMatch =
+            convertToLowercaseWithHyphen(bookTitle) ===
+            convertToLowercaseWithHyphen(bookName);
+
+          // Check if any keyword matches heading1
+          const keywordMatch = keywords.some(
+            (keyword: any) =>
+              convertToLowercaseWithHyphen(keyword) ===
               convertToLowercaseWithHyphen(heading1)
           );
+
+          return bookTitleMatch && keywordMatch;
         });
         setFetchUser(filteredData);
 
@@ -93,7 +102,9 @@ export default function IdView({ bookName, heading1 }: IpropsHeading2) {
 
   return (
     <>
-      <SubHeader title={capitalizedHeading1 + " " + " " + "Quiz"} />
+      <SubHeader
+        title={capitalizedHeading1 + " " + capitalizedbookName + " " + "Quiz"}
+      />
 
       <section>
         <Container>
@@ -201,4 +212,3 @@ export default function IdView({ bookName, heading1 }: IpropsHeading2) {
     </>
   );
 }
-

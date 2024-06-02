@@ -73,7 +73,7 @@ export default function BookNameView({ bookName }: IpropsbookName) {
                           title={data.title}
                           link={`${
                             process.env.NEXT_PUBLIC_FRONTEND_URL
-                          }/quiz/topic-wise/${bookName}/${convertToLowercaseWithHyphen(
+                          }/quiz/subject-wise/${bookName}/${convertToLowercaseWithHyphen(
                             data.title
                           )}`}
                         />

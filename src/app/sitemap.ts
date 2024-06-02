@@ -12,52 +12,53 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.6,
       changeFrequency: "daily",
     }));
-    // // response 1
-    // const response1 = await fetch(`${URL}/api/get/allmcqs`, {
-    //   cache: "no-store", // This will bypass cache
-    // });
-    // const data1 = await response1.json();
+    // response 1
 
-    // const mcqsroutes: MetadataRoute.Sitemap = data1.map((product: any) => ({
-    //   url: `${
-    //     process.env.NEXT_PUBLIC_FRONTEND_URL
-    //   }/mcqs/${convertToLowercaseWithHyphen(product.title)}/`,
-    //   lastModified: new Date().toISOString(),
-    //   priority: 0.6,
-    //   changeFrequency: "daily",
-    // }));
+    const response1 = await fetch(`${URL}/api/get/book`, {
+      cache: "no-store", // This will bypass cache
+    });
+    const data1 = await response1.json();
+
+    const bookroutes: MetadataRoute.Sitemap = data1.map((product: any) => ({
+      url: `${
+        process.env.NEXT_PUBLIC_FRONTEND_URL
+      }/quiz/subject-wise/${convertToLowercaseWithHyphen(product.title)}/`,
+      lastModified: new Date().toISOString(),
+      priority: 0.6,
+      changeFrequency: "daily",
+    }));
     // // response 2
 
-    // const response2 = await fetch(`${URL}/api/get/book`, {
-    //   cache: "no-store", // This will bypass cache
-    // });
-    // const data2 = await response2.json();
-
-    // const bookroutes: MetadataRoute.Sitemap = data2.map((product: any) => ({
-    //   url: `${
-    //     process.env.NEXT_PUBLIC_FRONTEND_URL
-    //   }/quiz/${convertToLowercaseWithHyphen(product.title)}/`,
-    //   lastModified: new Date().toISOString(),
-    //   priority: 0.9,
-    //   changeFrequency: "daily",
-    // }));
+    const response2 = await fetch(`${URL}/api/get/heading1`, {
+      cache: "no-store", // This will bypass cache
+    });
+    const data2 = await response2.json();
+    const heading1routes: MetadataRoute.Sitemap = data2.map((product: any) => ({
+      url: `${
+        process.env.NEXT_PUBLIC_FRONTEND_URL
+      }/quiz/subject-wise/${convertToLowercaseWithHyphen(
+        product.book.title
+      )}/${convertToLowercaseWithHyphen(product.title)}/`,
+      lastModified: new Date().toISOString(),
+      priority: 0.9,
+      changeFrequency: "daily",
+    }));
     // // response 3
 
-    // const response3 = await fetch(`${URL}/api/get/heading1`, {
-    //   cache: "no-store", // This will bypass cache
-    // });
-    // const data3 = await response3.json();
-
-    // const heading1routes: MetadataRoute.Sitemap = data3.map((product: any) => ({
-    //   url: `${
-    //     process.env.NEXT_PUBLIC_FRONTEND_URL
-    //   }/quiz/${convertToLowercaseWithHyphen(
-    //     product.book.title
-    //   )}/${convertToLowercaseWithHyphen(product.title)}/`,
-    //   lastModified: new Date().toISOString(),
-    //   priority: 0.9,
-    //   changeFrequency: "daily",
-    // }));
+    const response3 = await fetch(`${URL}/api/get/mcqs`, {
+      cache: "no-store", // This will bypass cache
+    });
+    const data3 = await response3.json();
+    const quizroutes: MetadataRoute.Sitemap = data3.data.map(
+      (product: any) => ({
+        url: `${
+          process.env.NEXT_PUBLIC_FRONTEND_URL
+        }/quizCenter/${convertToLowercaseWithHyphen(product.title)}/`,
+        lastModified: new Date().toISOString(),
+        priority: 0.9,
+        changeFrequency: "daily",
+      })
+    );
     // // response 4
 
     // const response4 = await fetch(`${URL}/api/get/heading2`, {
@@ -85,8 +86,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 1,
         changeFrequency: "daily",
       },
-      // ...bookroutes,
-      // ...heading1routes,
+      ...bookroutes,
+      ...heading1routes,
+      ...quizroutes,
       // ...heading2routes,
       // ...mcqsroutes,
       ...routes,
@@ -186,4 +188,7 @@ const route = [
 
   "books/class-11/",
   "books/class-12/",
+
+  "quiz/",
+  "quiz/subject-wise/",
 ];

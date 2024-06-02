@@ -22,24 +22,24 @@ const data = {
   english_medium: "1MFRZ5yO0SrrfTkAM_ewXBp_Pec4zTOA-",
   urdu_medium: "1ty3cPG8aWvjPla3xJAT4F__bLNJHKiZv",
   keywords: [
-    "growlearnhub class 9 biology books",
-    "growlearnhub class 9 books biology",
-    "class 9 biology",
-    "class 9 biology english medium",
-    "class 9 biology urdu medium",
-    "class 9 biology book",
-    "class 9 book biology",
-    "download class 9 book biology",
+    "biology class 9",
+    "biology books for class 9",
+    "biology class 9 english medium",
+    "9th biology english medium",
+    "biology class 9 new book",
+    "class 9th biology new book",
+    "new book of biology 9th class",
+    "9th class books urdu medium",
   ],
   medium: [
     {
-      title: "Class 9 Biology Punjab Board English Medium Book",
+      title: "9 class Biology Punjab Board English Medium Book",
       link: "/books/class-9/punjab-board-biology/english/",
       description: "",
       image: "",
     },
     {
-      title: "Class 9 Biology Punjab Board Urdu Medium Book",
+      title: "9th class Biology Punjab Board Urdu Medium Book",
       link: "/books/class-9/punjab-board-biology/urdu/",
       description: "",
       image: "",
@@ -54,7 +54,7 @@ export default function page() {
       url={data.url}
       b1="Books"
       b1Link="/books/"
-      b2="Class 9"
+      b2="9th class"
       b2Link="/books/class-9/"
       b3="Punjab Board Biology"
     >
@@ -106,7 +106,7 @@ export default function page() {
         return (
           <div key={data.name}>
             <h3 className="text-xl font-semibold py-2">
-              {data.name} Class 9 Books
+              {data.name} 9th class Books
             </h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
