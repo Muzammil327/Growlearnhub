@@ -10,7 +10,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       }/${convertToLowercaseWithHyphen(product)}`,
       lastModified: new Date().toISOString(),
       priority: 0.6,
-      changeFrequency: "daily",
+      changeFrequency: "hourly",
     }));
     // response 1
 
@@ -25,7 +25,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       }/quiz/subject-wise/${convertToLowercaseWithHyphen(product.title)}/`,
       lastModified: new Date().toISOString(),
       priority: 0.6,
-      changeFrequency: "daily",
+      changeFrequency: "hourly",
     }));
     // // response 2
 
@@ -41,7 +41,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       )}/${convertToLowercaseWithHyphen(product.title)}/`,
       lastModified: new Date().toISOString(),
       priority: 0.9,
-      changeFrequency: "daily",
+      changeFrequency: "hourly",
     }));
     // // response 3
 
@@ -56,7 +56,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         }/quizCenter/${convertToLowercaseWithHyphen(product.title)}/`,
         lastModified: new Date().toISOString(),
         priority: 0.9,
-        changeFrequency: "daily",
+        changeFrequency: "hourly",
       })
     );
     // // response 4
@@ -84,7 +84,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         url: `${process.env.NEXT_PUBLIC_FRONTEND_URL}/`,
         lastModified: new Date().toISOString(),
         priority: 1,
-        changeFrequency: "daily",
+        changeFrequency: "hourly",
       },
       ...bookroutes,
       ...heading1routes,
