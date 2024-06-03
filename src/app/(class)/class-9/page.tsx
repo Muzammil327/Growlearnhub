@@ -28,42 +28,42 @@ const data = {
   BookDatas: [
     {
       id: 0,
-      title: "Class 9 Books",
+      title: "Books",
       link: "/books/class-9/",
       para: "Here you can download the class 9 all books of different boards.",
       image: "/books/class_9_books.webp",
     },
     {
       id: 1,
-      title: "Class 9 Notes",
+      title: "Notes",
       link: "/notes/class-9/",
       para: "Here you can download the class 9 all notes of different boards.",
       image: "/notes/class_9_notes.webp",
     },
     {
       id: 2,
-      title: "Class 9 Past Paper",
+      title: "Past Paper",
       link: "/past-papers/class-9/",
       para: "Here you can download the class 9 all past paper of different boards.",
       image: "/past-paper/class_9_past_paper.webp",
     },
     {
       id: 3,
-      title: "Class 9 Quiz",
+      title: "Quiz",
       link: "/quiz/class-9/",
       para: "Here you can download the class 9 all quiz of different boards.",
       image: "/quiz/class_9_quiz.webp",
     },
     {
       id: 4,
-      title: "Class 9 Online Tests",
+      title: "Online Tests",
       link: "/online-tests/class-9/",
       para: "Here you can download the class 9 all online tests of different boards.",
       image: "/online-tests/class_9_online_tests.webp",
     },
     {
       id: 5,
-      title: "Class 9 Pairing Schemes",
+      title: "Pairing Schemes",
       link: "/pairing-schemes/class-9/",
       para: "Here you can download the class 9 all pairing schemes of different boards.",
       image: "/pairing-schemes/class_9_pairing_schemes.webp",
@@ -81,7 +81,7 @@ export default function page() {
       image={data.image}
       link1={data.link1}
     >
-      <h2>📚 Books Store</h2>
+      <h2>📚 9th class</h2>
       <p>You can download punjab and sindh board of all book.</p>
       <ul>
         <li>Physics Books</li>
@@ -98,6 +98,8 @@ export default function page() {
         <li>Tarjuma tul Quran Books</li>
         <li>Ikhlaqiat Books</li>
       </ul>
+      <h2>Class 9</h2>
+
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
         {data.BookDatas.map((data: Books) => (
           <Card2
@@ -110,7 +112,6 @@ export default function page() {
         ))}
       </div>
 
-      <h2>Class 9 to 12</h2>
       <Accordation
         data={[
           {
