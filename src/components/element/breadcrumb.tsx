@@ -49,6 +49,7 @@ export default function BreadCrumb({
         {/* second  */}
         {b1 && (
           <li className="inline-flex items-center gap-2 sm:mb-0 mb-2">
+            {" "}
             {!b1Link && <WithoutLinks title={b1} />}
             {b1Link && <Links Link={b1Link} title={b1} />}
           </li>
@@ -114,9 +115,9 @@ function Links(Iprops: {
 function WithoutLinks(Iprops: { title: string | undefined }) {
   return (
     <div className="flex items-center">
-      <span className="ms-1 text-sm font-medium text-gray-500 md:ms-2">
+      <strong className="ms-1 text-sm font-medium text-gray-500 md:ms-2">
         {Iprops.title}
-      </span>
+      </strong>
     </div>
   );
 }

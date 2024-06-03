@@ -8,9 +8,9 @@ import { Books } from "@/src/app/books/type";
 import Accordation from "@/src/components/element/accordion";
 
 const data = {
-  title: "Class 9 Grow Learn Hub",
+  title: "Complete Guide to Class 9 | Resources and Tips for 9th Class",
   description:
-    "Here you download books of class 9 to 12 books in english and urdu medium and virtual university books of all semester available in this platform.",
+    "Explore everything you need to know about Class 9 , including syllabus details, study materials, and exam preparation tips for 9th class students.",
   canonical: "/class-9/",
   index: true,
   follow: true,
@@ -78,7 +78,6 @@ export default function page() {
       title={data.title}
       url={data.url}
       b1="Class 9"
-      title1="Class 9"
       image={data.image}
       link1={data.link1}
     >
