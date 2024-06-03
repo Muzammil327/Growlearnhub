@@ -50,15 +50,6 @@ export default function BookWrapper(data: {
                 educational requirements, empowering you to achieve excellence
                 in your studies and professional goals.
               </p>
-              {/* <h2>What We Offer:</h2>
-              <ul>
-                <li>Free Textbooks</li>
-                <li>Subject Notes</li>
-                <li>Pairing Schemes</li>
-                <li>Online MCQ Tests</li>
-                <li>Quiz</li>
-                <li>Past Papers</li>
-              </ul> */}
               <ImageContainer
                 image={`${data.image}`}
                 title={data.title}
@@ -76,7 +67,7 @@ export default function BookWrapper(data: {
               <Form url={data.url} />
             </div>
             <div className="c2">
-              <Sidebar title={data.title} url={data.url} list={clist} />
+              <Sidebar title={data.title} url={data.url} />
             </div>
           </div>
         </Container>
