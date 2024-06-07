@@ -6,7 +6,7 @@ export default function SubHeader(props: { title: string }) {
     <section
       className="py-12 relative z-0 overflow-hidden bg-cover bg-no-repeat md:bg-fixed bg-center overlay"
       style={{
-        backgroundImage: 'url("/bg_3.jpg.webp")',
+        backgroundImage: 'url("/bg_3.webp")',
       }}
       data-stellar-background-ratio="0.5"
     >
