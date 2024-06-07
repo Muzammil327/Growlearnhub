@@ -6,7 +6,7 @@ export default function Card3(props: { title: string; link: string }) {
     <>
       <Link href={`${props.link}`}>
         <div className={style.card}>
-          <h4 className={style.h4}>{props.title}</h4>
+          <h3 className={style.h4}>{props.title}</h3>
           <div className={style.shine}></div>
           <div className={style.background}>
             <div className={`${style.line} ${style.line1}`}></div>

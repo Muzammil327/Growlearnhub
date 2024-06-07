@@ -1,13 +1,13 @@
-import Image from "next/image";
-import React from "react";
+import Image from 'next/image'
+import React from 'react'
 
 interface Irops {
-  image: string;
-  title: string;
-  class: string;
-  height: number;
-  width: number;
-  priority?: boolean;
+  image: string
+  title: string
+  class: string
+  height: number
+  width: number
+  priority?: boolean
 }
 
 export default function ImageContainer(data: Irops) {
@@ -19,9 +19,10 @@ export default function ImageContainer(data: Irops) {
         title={data.title}
         height={data.height}
         width={data.width}
-        className={`object-contain w-full relative ${data.class}`}
+        className={`${data.class}`}
         priority={data.priority}
+        layout="responsive"
       />
     </div>
-  );
+  )
 }

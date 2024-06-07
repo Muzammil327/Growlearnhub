@@ -11,9 +11,9 @@ export default function Footer() {
       <Container>
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2 py-16 sm:py-24 lg:py-32">
           <div className="max-w-xl lg:max-w-lg">
-            <h4 className="font-bold tracking-tight text-white lg:text-4xl md:text-3xl text-2xl">
+            <h5 className="font-bold tracking-tight text-white lg:text-4xl md:text-3xl text-2xl">
               Subscribe to our newsletter.
-            </h4>
+            </h5>
             <p className="mt-4 md:text-lg sm:text-base text-sm md:leading-8 leading-6 text-gray-300">
               Stay in the loop with the latest news, and tips straight to your
               inbox! Don&apos;t miss out on valuable insights and exciting
