@@ -1,15 +1,15 @@
-import React from "react";
-import { Metadata } from "next";
+import React from 'react'
+import { Metadata } from 'next'
 
-import Card3 from "@/src/components/card2/card3";
-import ImageContainer from "@/src/components/element/image";
-import BookWrapper from "@/src/app/books/BookWrapper";
+import Card3 from '@/src/components/card2/card3'
+import ImageContainer from '@/src/components/element/image'
+import BookWrapper from '@/src/app/books/BookWrapper'
 
-import { class_Book } from "@/src/app/books/type";
-import { Class10_Book } from "@/src/app/books/class-10/data";
+import { class_Book } from '@/src/app/books/type'
+import { Class10_Book } from '@/src/app/books/class-10/data'
 
 const data = {
-  title: 'Class 10 Books',
+  title: 'Class 10 Books || GrowLearnHub',
   description:
     'Here you can access class 10 books in english and urdu medium of all subjects like physics, chemistry biology and math available in this website for preparing exams.',
   canonical: '/books/class-10/',
@@ -19,15 +19,10 @@ const data = {
   url: 'https://growlearnhub.com/books/class-10/',
   keywords: [
     'class 10 books',
-    'class 10 book',
     'class 10 textbooks',
-    'class 10 textbook',
     'class 10th books',
-    'class 10th book',
     '10 class books',
-    '10 class book',
     '10th class books',
-    '10th class book',
   ],
 }
 
@@ -44,9 +39,9 @@ export default function page() {
       <p>
         Are you looking for a <strong>Class 10 book</strong>? Here, you can
         access all the books you need for free. Our website offers a complete
-        collection of books for students in Class 9, Class 10, Class 11, and
-        Class 12. Whether you&apos;re preparing for exams or need extra
-        resources, we&apos;ve got you covered.
+        collection of books for students in Class 9, 10, 11, and 12. Whether
+        you&apos;re preparing for exams or need extra resources, we&apos;ve got
+        you covered.
       </p>
       <ImageContainer
         image={data.image}
@@ -54,6 +49,7 @@ export default function page() {
         class="my-4"
         height={720}
         width={1280}
+        priority
       />
       <p>
         Welcome to our Educational Hub, an innovative platform designed for high

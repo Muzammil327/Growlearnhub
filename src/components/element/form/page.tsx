@@ -102,12 +102,12 @@ export default function Form(props: { url: string }) {
             </div>
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="email" className="label">
+            <label htmlFor="emails" className="label">
               Email
             </label>
             <div className="mt-2.5">
               <input
-                id="email"
+                id="emails"
                 type="email"
                 className="input"
                 placeholder="Enter Email"

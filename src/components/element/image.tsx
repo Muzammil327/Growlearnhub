@@ -12,7 +12,7 @@ interface Irops {
 
 export default function ImageContainer(data: Irops) {
   return (
-    <div className="w-full">
+    <div className="w-full h-auto">
       <Image
         src={`${data.image}`}
         alt={data.title}

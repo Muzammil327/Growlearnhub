@@ -9,9 +9,9 @@ import { class_Book } from '@/src/app/books/type'
 import { Class9_Book } from '@/src/app/books/class-9/data'
 
 const data = {
-  title: 'Class 9 Books',
+  title: 'Class 9 Books || GrowLearnHub',
   description:
-    'Here you can access class 9 books in english and urdu medium of all subjects like physics, chemistry biology and math available in this website for preparing exams.',
+    'Here you can access class 9 books in english and urdu medium of all subjects like physics, chemistry biology and math available in this website.',
   canonical: '/books/class-9/',
   index: true,
   follow: true,
@@ -19,15 +19,10 @@ const data = {
   url: 'https://growlearnhub.com/books/class-9/',
   keywords: [
     'class 9 books',
-    'class 9 book',
     'class 9 textbooks',
-    'class 9 textbook',
     'class 9th books',
-    'class 9th book',
     '9 class books',
-    '9 class book',
     '9th class books',
-    '9th class book',
   ],
 }
 
@@ -44,9 +39,9 @@ export default function page() {
       <p>
         Are you looking for a <strong>Class 9 book</strong>? Here, you can
         access all the books you need for free. Our website offers a complete
-        collection of books for students in Class 9, Class 10, Class 11, and
-        Class 12. Whether you&apos;re preparing for exams or need extra
-        resources, we&apos;ve got you covered.
+        collection of books for students in Class 9, 10, 11, and 12. Whether
+        you&apos;re preparing for exams or need extra resources, we&apos;ve got
+        you covered.
       </p>
       <ImageContainer
         image={data.image}
@@ -54,6 +49,7 @@ export default function page() {
         class="my-4"
         height={720}
         width={1280}
+        priority
       />
       <p>
         Welcome to our Educational Hub, an innovative platform designed for high

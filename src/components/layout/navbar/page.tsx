@@ -471,6 +471,7 @@ export default function Navbar() {
                 <Button
                   className="btnIcon block lg:hidden border-2 border-solid duration-300 ease-in"
                   onClick={() => setOpen(true)}
+                  aria-labelledby="Theme Change"
                 >
                   <FaBars size={16} />
                 </Button>
