@@ -111,7 +111,7 @@ export default function page() {
         ))}
       </div>
 
-      <h2>Class 9 to 12</h2>
+      {/* <h2>Class 9 to 12</h2>
       <Accordation
         data={[
           {
@@ -131,7 +131,7 @@ export default function page() {
             para: "Strategies and tips for excelling in board exams and entrance tests like JEE, NEET, and SAT.",
           },
         ]}
-      />
+      /> */}
     </BookWrapper>
   );
 }

@@ -35,7 +35,6 @@ export default function page() {
       b1="Books"
       b2="Class 11"
       b1Link="/books/"
-      image={data.image}
     >
       <p>
         Are you looking for a <strong>Class 11 book</strong>? Here, you can
@@ -85,16 +84,24 @@ export default function page() {
         <h2>Additional Resources Class 11</h2>
         <ul>
           <li>
-            <Link href="/notes/">Class 11 Subject Notes:</Link> Detailed notes
-            for each subject to help you grasp and review important concepts.
+            <Link href="/notes/" className="md:pr-2">
+              Class 11 Subject Notes:
+            </Link>{' '}
+            Detailed notes for each subject to help you grasp and review
+            important concepts.
           </li>
           <li>
-            <Link href="/pairing-schemes/">11th Class Pairing Schemes:</Link>{' '}
+            <Link href="/pairing-schemes/" className="md:pr-2">
+              11th Class Pairing Schemes:
+            </Link>{' '}
             Guides to help you focus on the most crucial topics for your exams.
           </li>
           <li>
-            Class 11 Online MCQ Tests: Practice tests to assess your knowledge
-            and improve your readiness for the exams.
+            <Link href="/online-tests/" className="md:pr-2">
+              Class 11 Online MCQ Tests:
+            </Link>{' '}
+            Practice tests to assess your knowledge and improve your readiness
+            for the exams.
           </li>
         </ul>
       </div>

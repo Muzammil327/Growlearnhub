@@ -7,12 +7,10 @@ import BreadCrumb from '@/src/components/element/breadcrumb'
 import Footer from '@/src/components/layout/footer/page'
 import Navbar from '@/src/components/layout/navbar/page'
 import './style.scss'
-import ImageContainer from '@/src/components/element/image'
 
 export default function BookWrapper(data: {
   title: string
   title1?: string
-  image?: string | undefined
   url: string
   link1?: string
   children: React.ReactNode
