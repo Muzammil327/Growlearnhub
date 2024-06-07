@@ -66,6 +66,13 @@ export default function page() {
             <h2 className="text-xl font-semibold py-2">
               {data.name} Class 9 Textbooks
             </h2>
+            <p>
+              Our collection of Class 9 books encompasses all subjects included
+              Physics, Biology, Chemistry, Math, English, Urdu, Pak Study,
+              Islamiat, General Math, Computer Science, Economics, Tarjuma Tul
+              Quran, Ikhlaqiat, ensuring you have the resources you need to
+              succeed.
+            </p>
             <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
               {data.list.map((item: any) => (
                 <Card3 key={item.id} title={item.title} link={item.link} />
@@ -75,28 +82,19 @@ export default function page() {
         )
       })}
       <div>
-        <h2>9th Class Notes</h2>
-        <p>Here you can access the class 9 Punjab Board Notes:</p>
+        <h2>Additional Resources</h2>
         <ul>
           <li>
-            <Link href="/notes/class-9/punjab-board-physics/">
-              Class 9 Physics Book Notes
-            </Link>
+            <Link href="">Class 9 Subject Notes:</Link> Detailed notes for each
+            subject to help you grasp and review important concepts.
           </li>
           <li>
-            <Link href="/notes/class-9/punjab-board-chemistry/">
-              Class 9 Chemistry Book Notes
-            </Link>
+            <Link href="">9th Class Pairing Schemes:</Link> Guides to help you
+            focus on the most crucial topics for your exams.
           </li>
           <li>
-            <Link href="/notes/class-9/punjab-board-biology/">
-              Class 9 Biology Book Notes
-            </Link>
-          </li>
-          <li>
-            <Link href="/notes/class-9/punjab-board-math/">
-              Class 9 Math Book Notes
-            </Link>
+            Class 9 Online MCQ Tests: Practice tests to assess your knowledge
+            and improve your readiness for the exams.
           </li>
         </ul>
       </div>

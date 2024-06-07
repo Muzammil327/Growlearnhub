@@ -7,6 +7,7 @@ import BookWrapper from '@/src/app/books/BookWrapper'
 
 import { class_Book } from '@/src/app/books/type'
 import { Class10_Book } from '@/src/app/books/class-10/data'
+import Link from 'next/link'
 
 const data = {
   title: 'Class 10 Books || GrowLearnHub',
@@ -46,7 +47,7 @@ export default function page() {
       <ImageContainer
         image={data.image}
         title="Access Class 10 Book of all Subjects"
-        class="my-4"
+        class="my-4 w-full"
         height={720}
         width={1280}
         priority
@@ -65,6 +66,13 @@ export default function page() {
             <h2 className="text-xl font-semibold py-2">
               {data.name} Class 10 Textbooks
             </h2>
+            <p>
+              Our collection of Class 10 books encompasses all subjects included
+              Physics, Biology, Chemistry, Math, English, Urdu, Pak Study,
+              Islamiat, General Math, Computer Science, Economics, Tarjuma Tul
+              Quran, Ikhlaqiat, ensuring you have the resources you need to
+              succeed.
+            </p>
             <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
               {data.list.map((item: any) => (
                 <Card3 key={item.id} title={item.title} link={item.link} />
@@ -74,62 +82,23 @@ export default function page() {
         )
       })}
 
-      {/* <ul>
-        <span>
-          Here you can access the <b>class 9 Punjab Board Notes</b>:
-        </span>
-        <li>
-          <Link href="/notes/class-9/punjab-board-physics/">
-            Class 9 Physics Book Notes
-          </Link>
-        </li>
-        <li>
-          <Link href="/notes/class-9/punjab-board-chemistry/">
-            Class 9 Chemistry Book Notes
-          </Link>
-        </li>
-        <li>
-          <Link href="/notes/class-9/punjab-board-biology/">
-            Class 9 Biology Book Notes
-          </Link>
-        </li>
-        <li>
-          <Link href="/notes/class-9/punjab-board-math/">
-            Class 9 Math Book Notes
-          </Link>
-        </li>
-      </ul>
-      <ul>
-        <span>
-          Here you can access the <b>class 9 Pairing Schemes</b>:
-        </span>
-        <li>
-          <Link href="/pairing-schemes/class-9/punjab-board-physics/">
-            Class 9 Physics Book Pairing Schemes
-          </Link>
-        </li>
-        <li>
-          <Link href="/pairing-schemes/class-9/punjab-board-chemistry/">
-            Class 9 Chemistry Book Pairing Schemes
-          </Link>
-        </li>
-        <li>
-          <Link href="/pairing-schemes/class-9/punjab-board-biology/">
-            Class 9 Biology Book Pairing Schemes
-          </Link>
-        </li>
-        <li>
-          <Link href="/pairing-schemes/class-9/punjab-board-math/">
-            Class 9 Math Book Pairing Schemes
-          </Link>
-        </li>
-      </ul>
-      <span>
-        Here you can access the <b>class 9 Online Test</b>:
-      </span>
-      <span>
-        Here you can access the <b>class 9 Past Paper</b>:
-      </span> */}
+      <div>
+        <h2>Additional Resources</h2>
+        <ul>
+          <li>
+            <Link href="">Class 10 Subject Notes:</Link> Detailed notes for each
+            subject to help you grasp and review important concepts.
+          </li>
+          <li>
+            <Link href="">10th Class Pairing Schemes:</Link> Guides to help you
+            focus on the most crucial topics for your exams.
+          </li>
+          <li>
+            Class 10 Online MCQ Tests: Practice tests to assess your knowledge
+            and improve your readiness for the exams.
+          </li>
+        </ul>
+      </div>
     </BookWrapper>
   )
 }
