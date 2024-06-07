@@ -65,7 +65,6 @@ export default function page() {
       url={data.url}
       b1="Online Test"
       title1="Online Test"
-      image={data.image}
       link1={data.link1}
     >
       <h2>📚 Online Test Store</h2>

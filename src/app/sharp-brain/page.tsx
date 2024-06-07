@@ -64,7 +64,6 @@ export default function page() {
       url={data.url}
       b1="Sharp Brain"
       title1="Sharp Brain"
-      image={data.image}
       link1={data.link1}
     >
       <h2>📚 Master Subjects Store</h2>

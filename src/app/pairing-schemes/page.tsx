@@ -64,7 +64,6 @@ export default function page() {
       url={data.url}
       b1="Pairing Schemes"
       title1="Pairing Schemes"
-      image={data.image}
       link1={data.link1}
     >
       <h2>📚 Pairing Schemes Store</h2>

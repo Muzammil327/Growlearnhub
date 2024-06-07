@@ -65,7 +65,6 @@ export default function page() {
       url={data.url}
       b1="Past Paper"
       title1="Past Paper"
-      image={data.image}
       link1={data.link1}
     >
       <h2>📚 Past Paper Store</h2>

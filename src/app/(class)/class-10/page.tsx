@@ -71,7 +71,6 @@ export default function page() {
       url={data.url}
       b1="Class 10"
       title1="Class 10"
-      image={data.image}
       link1={data.link1}
     >
       <h2>📚 Books Store</h2>

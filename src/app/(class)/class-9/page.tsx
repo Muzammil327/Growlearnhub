@@ -78,7 +78,6 @@ export default function page() {
       title={data.title}
       url={data.url}
       b1="Class 9"
-      image={data.image}
       link1={data.link1}
     >
       <h2>📚 9th class</h2>
