@@ -176,7 +176,7 @@ export default function Navbar() {
             <div className="fixed inset-0 bg-black bg-opacity-25" />
           </Transition.Child>
 
-          <div className="fixed inset-0 z-40 flex" id="open Nav">
+          <div className="fixed inset-0 z-40 flex">
             <Transition.Child
               as={Fragment}
               enter="transition ease-in-out duration-300 transform"
@@ -192,7 +192,7 @@ export default function Navbar() {
                     className={`
                     btnIcon relative -m-2 inline-flex items-center justify-center rounded-md border-2 border-solid duration-300 ease-in`}
                     onClick={() => setOpen(false)}
-                    aria-label="Navbat Close"
+                    text="Navbat Close"
                   >
                     <FaTimes size={16} />
                   </Button>
@@ -305,10 +305,16 @@ export default function Navbar() {
                 <div
                   className={`my-4 flex lg:flex-row flex-col items-center gap-3 text-sm font-medium px-4`}
                 >
-                  <Button className="w-full link duration-300 ease-in my-3">
+                  <Button
+                    className="w-full link duration-300 ease-in my-3"
+                    text="Sign In Button"
+                  >
                     Sign In
                   </Button>
-                  <Button className="btnIcon w-full duration-300 ease-in">
+                  <Button
+                    className="btnIcon w-full duration-300 ease-in"
+                    text="Register Button"
+                  >
                     Register
                   </Button>
                 </div>
@@ -472,7 +478,7 @@ export default function Navbar() {
                 <Button
                   className="btnIcon block lg:hidden border-2 border-solid duration-300 ease-in"
                   onClick={() => setOpen(true)}
-                  aria-labelledby="open Nav"
+                  text="Navbar open"
                 >
                   <FaBars size={16} />
                 </Button>
@@ -481,7 +487,7 @@ export default function Navbar() {
                   onClick={() =>
                     setTheme(currentTheme === 'dark' ? 'light' : 'dark')
                   }
-                  aria-label="Theme Change"
+                  text="Theme Change"
                 >
                   {currentTheme === 'dark' ? (
                     <FaMoon size={16} />

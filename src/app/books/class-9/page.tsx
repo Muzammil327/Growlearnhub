@@ -76,8 +76,8 @@ export default function page() {
       })}
       <div>
         <h2>9th Class Notes</h2>
+        <p>Here you can access the class 9 Punjab Board Notes:</p>
         <ul>
-          <p>Here you can access the class 9 Punjab Board Notes:</p>
           <li>
             <Link href="/notes/class-9/punjab-board-physics/">
               Class 9 Physics Book Notes

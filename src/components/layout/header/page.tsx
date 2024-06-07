@@ -20,7 +20,7 @@ export default function Header(props: { title: string }) {
                 fun quizzes, enlightening books, and empowering knowledge.
                 Let&apos;s explore together for lifelong enrichment!
               </p>
-              <Button className="btnIcon px-12 md:mx-0 mx-auto mt-4 duration-300 ease-in rounded-full flex gap-2 items-center">
+              <Button className="btnIcon px-12 md:mx-0 mx-auto mt-4 duration-300 ease-in rounded-full flex gap-2 items-center" text='About Us'>
                 Learn More About Us
               </Button>
             </div>
