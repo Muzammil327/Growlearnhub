@@ -9,24 +9,27 @@ import { class_Book } from "@/src/app/books/type";
 import { Class10_Book } from "@/src/app/books/class-10/data";
 
 const data = {
-  title: "Books Class 10",
+  title: 'Class 10 Books',
   description:
-    "Here you download books of class 9 to 12 books in english and urdu medium and virtual university books of all semester available in this platform.",
-  canonical: "/books/class-10/",
+    'Here you can access class 10 books in english and urdu medium of all subjects like physics, chemistry biology and math available in this website for preparing exams.',
+  canonical: '/books/class-10/',
   index: true,
   follow: true,
-  image: "/9th/book/biology/Download-Punjab-Board-Biology-Book.webp",
-  url: "https://growlearnhub.com/books/class-10/",
+  image: '/books/class_10_books.webp',
+  url: 'https://growlearnhub.com/books/class-10/',
   keywords: [
-    "growlearnhub class 10 books",
-    "class 10 books",
-    "class 10 physics books",
-    "class 10 chemistry books",
-    "class 10 biology books",
-    "class 10 math books",
-    "class 10 english books",
+    'class 10 books',
+    'class 10 book',
+    'class 10 textbooks',
+    'class 10 textbook',
+    'class 10th books',
+    'class 10th book',
+    '10 class books',
+    '10 class book',
+    '10th class books',
+    '10th class book',
   ],
-};
+}
 
 export default function page() {
   return (
@@ -36,55 +39,103 @@ export default function page() {
       b1="Books"
       b2="Class 10"
       b1Link="/books/"
+      image={data.image}
     >
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
-        nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
-        mollitia expedita qui magnam voluptates. Cumque recusandae, quas
-        sapiente commodi eius repellat.
+        Are you looking for a <strong>Class 10 book</strong>? Here, you can
+        access all the books you need for free. Our website offers a complete
+        collection of books for students in Class 9, Class 10, Class 11, and
+        Class 12. Whether you&apos;re preparing for exams or need extra
+        resources, we&apos;ve got you covered.
       </p>
       <ImageContainer
         image={data.image}
-        title={data.title}
+        title="Access Class 10 Book of all Subjects"
         class="my-4"
         height={720}
         width={1280}
       />
+      <p>
+        Welcome to our Educational Hub, an innovative platform designed for high
+        school student in Class 9 to 12, Chartered Accountancy (CA), and Virtual
+        University learners to fulfil academic needs. Our mission is to provide
+        a one-stop solution for all your educational requirements, empowering
+        you to achieve excellence in your studies and professional goals.
+      </p>
 
       {Class10_Book.map((data: class_Book) => {
         return (
           <div key={data.name}>
             <h2 className="text-xl font-semibold py-2">
-              {data.name} Class 10 Books
+              {data.name} Class 10 Textbooks
             </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-              dolorum, nesciunt vel distinctio quibusdam, saepe, ducimus
-              aspernatur quaerat mollitia expedita qui magnam voluptates. Cumque
-              recusandae, quas sapiente commodi eius repellat.
-            </p>
             <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
               {data.list.map((item: any) => (
                 <Card3 key={item.id} title={item.title} link={item.link} />
               ))}
             </div>
           </div>
-        );
+        )
       })}
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
-        nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
-        mollitia expedita qui magnam voluptates. Cumque recusandae, quas
-        sapiente commodi eius repellat.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
-        nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
-        mollitia expedita qui magnam voluptates. Cumque recusandae, quas
-        sapiente commodi eius repellat.
-      </p>
+
+      {/* <ul>
+        <span>
+          Here you can access the <b>class 9 Punjab Board Notes</b>:
+        </span>
+        <li>
+          <Link href="/notes/class-9/punjab-board-physics/">
+            Class 9 Physics Book Notes
+          </Link>
+        </li>
+        <li>
+          <Link href="/notes/class-9/punjab-board-chemistry/">
+            Class 9 Chemistry Book Notes
+          </Link>
+        </li>
+        <li>
+          <Link href="/notes/class-9/punjab-board-biology/">
+            Class 9 Biology Book Notes
+          </Link>
+        </li>
+        <li>
+          <Link href="/notes/class-9/punjab-board-math/">
+            Class 9 Math Book Notes
+          </Link>
+        </li>
+      </ul>
+      <ul>
+        <span>
+          Here you can access the <b>class 9 Pairing Schemes</b>:
+        </span>
+        <li>
+          <Link href="/pairing-schemes/class-9/punjab-board-physics/">
+            Class 9 Physics Book Pairing Schemes
+          </Link>
+        </li>
+        <li>
+          <Link href="/pairing-schemes/class-9/punjab-board-chemistry/">
+            Class 9 Chemistry Book Pairing Schemes
+          </Link>
+        </li>
+        <li>
+          <Link href="/pairing-schemes/class-9/punjab-board-biology/">
+            Class 9 Biology Book Pairing Schemes
+          </Link>
+        </li>
+        <li>
+          <Link href="/pairing-schemes/class-9/punjab-board-math/">
+            Class 9 Math Book Pairing Schemes
+          </Link>
+        </li>
+      </ul>
+      <span>
+        Here you can access the <b>class 9 Online Test</b>:
+      </span>
+      <span>
+        Here you can access the <b>class 9 Past Paper</b>:
+      </span> */}
     </BookWrapper>
-  );
+  )
 }
 
 export const metadata: Metadata = {
@@ -97,7 +148,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: "https://nextjs.org/og.png",
+        url: 'https://nextjs.org/og.png',
         alt: data.title,
       },
     ],
@@ -117,8 +168,8 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: "https://nextjs.org/og.png",
+      url: 'https://nextjs.org/og.png',
       alt: data.title,
     },
   },
-};
+}
