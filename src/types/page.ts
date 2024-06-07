@@ -87,7 +87,9 @@ export interface IpropsHeading2 {
   bookName: string;
   heading1: string;
 }
-
+/* ----------------------------------------------------------------
+------------- Portfolio COMPONENTS TYPES  start here --------------
+---------------------------------------------------------------- */
 // mcqs ----------------------------------------
 
 export interface IpropsFinal {

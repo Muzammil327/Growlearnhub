@@ -1,9 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
-import HomeView from "@/src/views/homeView/page";
-import Navbar from "@/src/components/layout/navbar/page";
-import Footer from "@/src/components/layout/footer/page";
-import Header from "@/src/components/layout/header/page";
+import HomeView from "@/src/views/homeView";
 
 const data = {
   title: "Grow Learn Hub",
@@ -32,12 +29,8 @@ const data = {
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Header title="Grow Learn Hub." />
-      <main>
+     
         <HomeView />
-      </main>
-      <Footer />
     </>
   );
 }

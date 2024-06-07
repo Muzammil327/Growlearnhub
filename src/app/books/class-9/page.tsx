@@ -1,33 +1,35 @@
-import React from "react";
-import { Metadata } from "next";
+import React from 'react'
+import { Metadata } from 'next'
 
-import Card3 from "@/src/components/card2/card3";
-import ImageContainer from "@/src/components/element/image";
-import BookWrapper from "@/src/app/books/BookWrapper";
+import Card3 from '@/src/components/card2/card3'
+import ImageContainer from '@/src/components/element/image'
+import BookWrapper from '@/src/app/books/BookWrapper'
 
-import { class_Book } from "@/src/app/books/type";
-import { Class9_Book } from "@/src/app/books/class-9/data";
-import Link from "next/link";
+import { class_Book } from '@/src/app/books/type'
+import { Class9_Book } from '@/src/app/books/class-9/data'
 
 const data = {
-  title: "Books Class 9",
+  title: 'Class 9 Books',
   description:
-    "Here you download books of class 9 to 12 books in english and urdu medium and virtual university books of all semester available in this platform.",
-  canonical: "/books/class-9/",
+    'Here you can access class 9 books in english and urdu medium of all subjects like physics, chemistry biology and math available in this website for preparing exams.',
+  canonical: '/books/class-9/',
   index: true,
   follow: true,
-  image: "/9th/book/biology/Download-Punjab-Board-Biology-Book.webp",
-  url: "https://growlearnhub.com/books/class-9/",
+  image: '/books/class_9_books.webp',
+  url: 'https://growlearnhub.com/books/class-9/',
   keywords: [
-    "growlearnhub class 9 books",
-    "class 9 books",
-    "class 9 physics books",
-    "class 9 chemistry books",
-    "class 9 biology books",
-    "class 9 math books",
-    "class 9 english books",
+    'class 9 books',
+    'class 9 book',
+    'class 9 textbooks',
+    'class 9 textbook',
+    'class 9th books',
+    'class 9th book',
+    '9 class books',
+    '9 class book',
+    '9th class books',
+    '9th class book',
   ],
-};
+}
 
 export default function page() {
   return (
@@ -37,43 +39,46 @@ export default function page() {
       b1="Books"
       b2="Class 9"
       b1Link="/books/"
+      image={data.image}
     >
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum,
-        nesciunt vel distinctio quibusdam, saepe, ducimus aspernatur quaerat
-        mollitia expedita qui magnam voluptates. Cumque recusandae, quas
-        sapiente commodi eius repellat.
+        Are you looking for a <strong>Class 9 book</strong>? Here, you can
+        access all the books you need for free. Our website offers a complete
+        collection of books for students in Class 9, Class 10, Class 11, and
+        Class 12. Whether you&apos;re preparing for exams or need extra
+        resources, we&apos;ve got you covered.
       </p>
       <ImageContainer
         image={data.image}
-        title={data.title}
+        title="Access Class 9 Book of all Subjects"
         class="my-4"
         height={720}
         width={1280}
       />
+      <p>
+        Welcome to our Educational Hub, an innovative platform designed for high
+        school student in Class 9 to 12, Chartered Accountancy (CA), and Virtual
+        University learners to fulfil academic needs. Our mission is to provide
+        a one-stop solution for all your educational requirements, empowering
+        you to achieve excellence in your studies and professional goals.
+      </p>
 
       {Class9_Book.map((data: class_Book) => {
         return (
           <div key={data.name}>
             <h2 className="text-xl font-semibold py-2">
-              {data.name} Class 9 Books
+              {data.name} Class 9 Textbooks
             </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-              dolorum, nesciunt vel distinctio quibusdam, saepe, ducimus
-              aspernatur quaerat mollitia expedita qui magnam voluptates. Cumque
-              recusandae, quas sapiente commodi eius repellat.
-            </p>
             <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
               {data.list.map((item: any) => (
                 <Card3 key={item.id} title={item.title} link={item.link} />
               ))}
             </div>
           </div>
-        );
+        )
       })}
 
-      <ul>
+      {/* <ul>
         <span>
           Here you can access the <b>class 9 Punjab Board Notes</b>:
         </span>
@@ -128,9 +133,9 @@ export default function page() {
       </span>
       <span>
         Here you can access the <b>class 9 Past Paper</b>:
-      </span>
+      </span> */}
     </BookWrapper>
-  );
+  )
 }
 
 export const metadata: Metadata = {
@@ -143,7 +148,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: "https://nextjs.org/og.png",
+        url: 'https://nextjs.org/og.png',
         alt: data.title,
       },
     ],
@@ -163,8 +168,8 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: "https://nextjs.org/og.png",
+      url: 'https://nextjs.org/og.png',
       alt: data.title,
     },
   },
-};
+}

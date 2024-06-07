@@ -1,15 +1,15 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react'
+import Link from 'next/link'
 
 interface Iprops {
-  b1: string;
-  b2?: string;
-  b3?: string;
-  b4?: string;
-  b1Link?: string | undefined;
-  b2Link?: string | undefined;
-  b3Link?: string | undefined;
-  b4Link?: string | undefined;
+  b1: string
+  b2?: string
+  b3?: string
+  b4?: string
+  b1Link?: string | undefined
+  b2Link?: string | undefined
+  b3Link?: string | undefined
+  b4Link?: string | undefined
 }
 
 export default function BreadCrumb({
@@ -49,7 +49,7 @@ export default function BreadCrumb({
         {/* second  */}
         {b1 && (
           <li className="inline-flex items-center gap-2 sm:mb-0 mb-2">
-            {" "}
+            {' '}
             {!b1Link && <WithoutLinks title={b1} />}
             {b1Link && <Links Link={b1Link} title={b1} />}
           </li>
@@ -74,7 +74,7 @@ export default function BreadCrumb({
         )}
       </ol>
     </section>
-  );
+  )
 }
 
 function Arrow() {
@@ -94,11 +94,11 @@ function Arrow() {
         d="m1 9 4-4-4-4"
       />
     </svg>
-  );
+  )
 }
 function Links(Iprops: {
-  Link: string | undefined;
-  title: string | undefined;
+  Link: string | undefined
+  title: string | undefined
 }) {
   return (
     <>
@@ -110,14 +110,14 @@ function Links(Iprops: {
       </Link>
       <Arrow />
     </>
-  );
+  )
 }
 function WithoutLinks(Iprops: { title: string | undefined }) {
   return (
     <div className="flex items-center">
-      <strong className="ms-1 text-sm font-medium text-gray-500 md:ms-2">
+      <b className="ms-1 text-sm font-medium text-gray-500 md:ms-2">
         {Iprops.title}
-      </strong>
+      </b>
     </div>
-  );
+  )
 }

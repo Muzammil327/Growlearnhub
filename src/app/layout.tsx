@@ -1,35 +1,36 @@
-import type { Metadata } from "next";
-import { Open_Sans } from "next/font/google";
-import "./globals.css";
-import Script from "next/script";
+import type { Metadata } from 'next'
+import { Open_Sans } from 'next/font/google'
+import './globals.scss'
+import Script from 'next/script'
+import ThemeSwitcher from '../components/provider/ThemeSwitcher'
 
-const inter = Open_Sans({ subsets: ["latin"] });
+const inter = Open_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "growlearnhub",
-  keywords: ["Codebloglab"],
+  title: 'growlearnhub',
+  keywords: ['Codebloglab'],
   openGraph: {
-    title: "growlearnhub",
+    title: 'growlearnhub',
   },
-  metadataBase: new URL("https://growlearnhub.com"),
+  metadataBase: new URL('https://growlearnhub.com'),
   twitter: {
-    title: "growlearnhub",
+    title: 'growlearnhub',
   },
-};
+}
 
 const data = {
-  applicationName: "Next.js",
-  authorName: "Muhammad Muzammil Safdar",
-  domain: "growlearnhub.com",
-};
+  applicationName: 'Next.js',
+  authorName: 'Muhammad Muzammil Safdar',
+  domain: 'growlearnhub.com',
+}
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth dark">
       <head>
         <meta name="application-name" content={data.applicationName} />
         <meta name="author" content={data.authorName} />
@@ -83,7 +84,9 @@ export default function RootLayout({
           content="1VFdWs-EKGhKENv4V6Weuup3qg0kkJGDwoI2gzRryEI"
         />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <ThemeSwitcher>{children}</ThemeSwitcher>
+      </body>
       <Script
         async
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
@@ -97,5 +100,5 @@ export default function RootLayout({
   `}
       </Script>
     </html>
-  );
+  )
 }

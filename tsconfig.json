@@ -22,7 +22,11 @@
     ],
     "paths": {
       "@/*": ["./*"],
-      "@/src*": ["./src*"],
+      "@/app*": ["./src/app*"],
+      "@/view*": ["./src/views*"],
+      "@/types*": ["./src/types*"],
+      "@/components*": ["./src/components*"],
+      "@/sanity*": ["./sanity*"],
       "@/public*": ["./public*"]
     }
   },

@@ -14,7 +14,7 @@ export default function ImageContainer(data: Irops) {
   return (
     <div className="w-full">
       <Image
-        src={data.image}
+        src={`${data.image}`}
         alt={data.title}
         title={data.title}
         height={data.height}
