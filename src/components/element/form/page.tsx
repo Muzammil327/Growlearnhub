@@ -160,7 +160,7 @@ export default function Form(props: { url: string }) {
 
         <button
           type="submit"
-          className="btn !w-full !block mt-3"
+          className="btnIcon !w-full !block mt-3"
           aria-label="Subscribe Newsletter"
         >
           {loadingBtn ? (
