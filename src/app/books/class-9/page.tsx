@@ -74,32 +74,32 @@ export default function page() {
           </div>
         )
       })}
-      <h2>9th Class Notes</h2>
-      <ul>
-        <span>
-          Here you can access the class 9 Punjab Board Notes:
-        </span>
-        <li>
-          <Link href="/notes/class-9/punjab-board-physics/">
-            Class 9 Physics Book Notes
-          </Link>
-        </li>
-        <li>
-          <Link href="/notes/class-9/punjab-board-chemistry/">
-            Class 9 Chemistry Book Notes
-          </Link>
-        </li>
-        <li>
-          <Link href="/notes/class-9/punjab-board-biology/">
-            Class 9 Biology Book Notes
-          </Link>
-        </li>
-        <li>
-          <Link href="/notes/class-9/punjab-board-math/">
-            Class 9 Math Book Notes
-          </Link>
-        </li>
-      </ul>
+      <div>
+        <h2>9th Class Notes</h2>
+        <ul>
+          <p>Here you can access the class 9 Punjab Board Notes:</p>
+          <li>
+            <Link href="/notes/class-9/punjab-board-physics/">
+              Class 9 Physics Book Notes
+            </Link>
+          </li>
+          <li>
+            <Link href="/notes/class-9/punjab-board-chemistry/">
+              Class 9 Chemistry Book Notes
+            </Link>
+          </li>
+          <li>
+            <Link href="/notes/class-9/punjab-board-biology/">
+              Class 9 Biology Book Notes
+            </Link>
+          </li>
+          <li>
+            <Link href="/notes/class-9/punjab-board-math/">
+              Class 9 Math Book Notes
+            </Link>
+          </li>
+        </ul>
+      </div>
     </BookWrapper>
   )
 }

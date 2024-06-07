@@ -176,7 +176,7 @@ export default function Navbar() {
             <div className="fixed inset-0 bg-black bg-opacity-25" />
           </Transition.Child>
 
-          <div className="fixed inset-0 z-40 flex">
+          <div className="fixed inset-0 z-40 flex" id="open Nav">
             <Transition.Child
               as={Fragment}
               enter="transition ease-in-out duration-300 transform"
@@ -192,6 +192,7 @@ export default function Navbar() {
                     className={`
                     btnIcon relative -m-2 inline-flex items-center justify-center rounded-md border-2 border-solid duration-300 ease-in`}
                     onClick={() => setOpen(false)}
+                    aria-label="Navbat Close"
                   >
                     <FaTimes size={16} />
                   </Button>
@@ -471,7 +472,7 @@ export default function Navbar() {
                 <Button
                   className="btnIcon block lg:hidden border-2 border-solid duration-300 ease-in"
                   onClick={() => setOpen(true)}
-                  aria-label="Theme Change"
+                  aria-labelledby="open Nav"
                 >
                   <FaBars size={16} />
                 </Button>
@@ -480,6 +481,7 @@ export default function Navbar() {
                   onClick={() =>
                     setTheme(currentTheme === 'dark' ? 'light' : 'dark')
                   }
+                  aria-label="Theme Change"
                 >
                   {currentTheme === 'dark' ? (
                     <FaMoon size={16} />
