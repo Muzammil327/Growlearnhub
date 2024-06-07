@@ -14,14 +14,14 @@ export default function ImageContainer(data: Irops) {
   return (
     <div className="w-full h-auto">
       <Image
-        src={`${data.image}`}
+        src={data.image}
         alt={data.title}
         title={data.title}
         height={data.height}
         width={data.width}
         className={`${data.class}`}
         priority={data.priority}
-        layout="responsive"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
       />
     </div>
   )

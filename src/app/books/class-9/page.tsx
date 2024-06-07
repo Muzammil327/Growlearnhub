@@ -47,7 +47,7 @@ export default function page() {
       <ImageContainer
         image={data.image}
         title="Access Class 9 Book of all Subjects"
-        class="my-4"
+        class="my-4 w-full"
         height={720}
         width={1280}
         priority
