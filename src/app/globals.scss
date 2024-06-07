@@ -219,7 +219,7 @@ button:focus {
 }
 
 .title h3 {
-  background-color: #eff0f4;
+  @apply bg-gray-100;
   position: relative;
   height: 1.75rem;
   width: auto;
