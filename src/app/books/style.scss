@@ -12,7 +12,7 @@
             @apply list-outside list-decimal;
 
             li {
-                @apply my-2 py-2 pl-5 ml-4 text-lg text-justify font-normal text-gray-800 leading-relaxed;
+                @apply my-2 py-2 pl-5 ml-4 text-lg text-justify font-normal text leading-relaxed;
                 a {
                     @apply underline text-color2 hover:transition-all hover:no-underline;
                 }

@@ -67,11 +67,11 @@ export default function page() {
               {data.name} Class 9 Textbooks
             </h2>
             <p>
-              Our collection of Class 9 books encompasses all subjects included
-              Physics, Biology, Chemistry, Math, English, Urdu, Pak Study,
-              Islamiat, General Math, Computer Science, Economics, Tarjuma Tul
-              Quran, Ikhlaqiat, ensuring you have the resources you need to
-              succeed.
+              Our collection of <strong>Class 9 Textbooks</strong> of Punjab
+              Baord encompasses all subjects included Physics, Biology,
+              Chemistry, Math, English, Urdu, Pak Study, Islamiat, General Math,
+              Computer Science, Economics, Tarjuma Tul Quran, Ikhlaqiat,
+              ensuring you have the resources you need to succeed.
             </p>
             <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
               {data.list.map((item: any) => (
@@ -85,11 +85,11 @@ export default function page() {
         <h2>Additional Resources</h2>
         <ul>
           <li>
-            <Link href="">Class 9 Subject Notes:</Link> Detailed notes for each
+            <Link href="/notes/">Class 9 Subject Notes:</Link> Detailed notes for each
             subject to help you grasp and review important concepts.
           </li>
           <li>
-            <Link href="">9th Class Pairing Schemes:</Link> Guides to help you
+            <Link href="/pairing-schemes/">9th Class Pairing Schemes:</Link> Guides to help you
             focus on the most crucial topics for your exams.
           </li>
           <li>
