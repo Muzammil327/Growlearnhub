@@ -12,7 +12,7 @@ import Link from 'next/link'
 const data = {
   title: 'Class 10 Books || GrowLearnHub',
   description:
-    'Here you can access class 10 books in english and urdu medium of all subjects like physics, chemistry biology and math available in this website for preparing exams.',
+    'Here you can access class 10 books in english and urdu medium of all subjects like physics, chemistry biology and math available in this website.',
   canonical: '/books/class-10/',
   index: true,
   follow: true,
