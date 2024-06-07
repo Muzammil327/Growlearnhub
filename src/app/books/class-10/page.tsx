@@ -83,7 +83,7 @@ export default function page() {
       })}
 
       <div>
-        <h2>Additional Resources</h2>
+        <h2>Additional Resources Class 10</h2>
         <ul>
           <li>
             <Link href="/notes/">Class 10 Subject Notes:</Link> Detailed notes for each
