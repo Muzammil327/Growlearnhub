@@ -16,7 +16,7 @@ const data = {
   canonical: '/books/class-10/punjab-board-computer-science/',
   index: true,
   follow: true,
-  image: '/9th/book/biology/Download-Punjab-Board-Biology-Book.webp',
+  image: '/books/class-10/punjab/class-10-computer-science-book-punjab-board.webp',
   url: 'https://growlearnhub.com/books/class-10/punjab-board-computer-science/',
   english_medium: "1JuxaOzzf9PLqWVwsu8LjAf36VIjZL0_d",
   urdu_medium: "1jRntQuWw_a5oJsTXxEj6yTU4fM7V_4W-",

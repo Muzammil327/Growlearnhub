@@ -17,7 +17,7 @@ const data = {
   canonical: "/books/class-9/punjab-board-computer-science/",
   index: true,
   follow: true,
-  image: "/9th/book/biology/Download-Punjab-Board-Biology-Book.webp",
+  image: '/books/class-9/punjab/class-9-computer-science-book-punjab-board.webp',
   url: "https://growlearnhub.com/books/class-9/punjab-board-computer-science/",
   english_medium: "1o5fPLG7_lTK2sAs5smLAgJEopLTf8fsR",
   urdu_medium: "1dSyB9KxtY59L541KRu55BmWEVbmy6rnz",
@@ -30,20 +30,6 @@ const data = {
     "class 9 computer science book",
     "class 9 book computer science",
     "download class 9 book computer science",
-  ],
-  medium: [
-    {
-      title: "Class 9 Computer Science Punjab Board English Medium Book",
-      link: "/books/class-9/punjab-board-computer-science/english/",
-      description: "",
-      image: "",
-    },
-    {
-      title: "Class 9 Computer Science Punjab Board Urdu Medium Book",
-      link: "/books/class-9/punjab-board-computer-science/urdu/",
-      description: "",
-      image: "",
-    },
   ],
 };
 
@@ -97,11 +83,6 @@ export default function page() {
       </p>
       <PDFViewer pdfUrl={data.urdu_medium} />
 
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {data.medium.map((data: any) => {
-          return <Card2 key={data.title} title={data.title} link={data.link} />;
-        })}
-      </div>
       {Class9_Book.map((data: class_Book) => {
         return (
           <div key={data.name}>

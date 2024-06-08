@@ -16,7 +16,7 @@ const data = {
   canonical: '/books/class-9/punjab-board-islamiat/',
   index: true,
   follow: true,
-  image: '/9th/book/biology/Download-Punjab-Board-Biology-Book.webp',
+  image: '/books/class-9/punjab/class-9-Islamiat-book-punjab-board.webp',
   url: 'https://growlearnhub.com/books/class-9/punjab-board-islamiat/',
   urdu_medium: "1pQBiMwAhDVQZgls4tgV6uL6Ngo-Vo4_a",
   keywords: [
