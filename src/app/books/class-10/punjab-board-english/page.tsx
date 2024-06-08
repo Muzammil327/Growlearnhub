@@ -12,7 +12,7 @@ import { Class10_Book } from '@/src/app/books/class-10/data'
 const data = {
   title: 'Class 10 English Book Punjab Board',
   description:
-    'Here you can access class 10 English Book Punjab Board in english medium available in this website.',
+    'Here you can access class 10 English Book Punjab Board in english and urdu medium available in this website.',
   canonical: '/books/class-10/punjab-board-english/',
   index: true,
   follow: true,
@@ -20,13 +20,13 @@ const data = {
   url: 'https://growlearnhub.com/books/class-10/punjab-board-english/',
   english_medium: '1qYd3gGUAVT1UjHWvc7uDX7_kgTxlzJv_',
   keywords: [
-    'english class 10',
-    'class 10 english book',
-    '10 class book english',
-    'class 10th english book pdf',
-    'class 10 english pdf',
-    'class ten english book',
-    '10th class english book pdf',
+    'English class 10',
+    'class 10 English book',
+    '10 class book English',
+    'class 10th English book pdf',
+    'class 10 English pdf',
+    'class ten English book',
+    '10th class English book pdf',
   ],
 }
 
@@ -36,7 +36,7 @@ export default function page() {
       title={data.title}
       url={data.url}
       b1="Books"
-      b1Link="/boo2ks/"
+      b1Link="/books/"
       b2="10th class TextBook"
       b2Link="/books/class-10/"
       b3="Punjab Board English"
@@ -58,7 +58,7 @@ export default function page() {
       </p>
       <ImageContainer
         image={data.image}
-        title="Access Class 10 English Book of english Medium"
+        title="Access Class 10 English Book of english and Urdu Medium"
         class="my-4 w-full"
         height={720}
         width={1280}

@@ -16,7 +16,7 @@ const data = {
   canonical: '/books/class-10/punjab-board-biology/',
   index: true,
   follow: true,
-  image: '/9th/book/biology/Download-Punjab-Board-Biology-Book.webp',
+  image: '/books/class-10/punjab/class-10-biology-book-punjab-board.webp',
   url: 'https://growlearnhub.com/books/class-10/punjab-board-biology/',
   english_medium: '1FJYKKe3zakdzvKo9T6-74J1ARXKjmsDp',
   urdu_medium: '1ChK6r_BOfV-p8QLEdh58srQ_QwNgQUne',

@@ -12,7 +12,7 @@ import { Class10_Book } from '@/src/app/books/class-10/data'
 const data = {
   title: 'Class 10 Economics Book Punjab Board',
   description:
-    'Here you can access class 10 Economics Book Punjab Board in urdu medium available in this website.',
+    'Here you can access class 10 Economics Book Punjab Board in english and urdu medium available in this website.',
   canonical: '/books/class-10/punjab-board-economics/',
   index: true,
   follow: true,
@@ -20,13 +20,13 @@ const data = {
   url: 'https://growlearnhub.com/books/class-10/punjab-board-economics/',
   urdu_medium: '1PoWPI_ojcRLmk1ZFFYBgKM8g4dMejrOL',
   keywords: [
-    'economics class 10',
-    'class 10 economics book',
-    '10 class book economics',
-    'class 10th economics book pdf',
-    'class 10 economics pdf',
-    'class ten economics book',
-    '10th class economics book pdf',
+    'Economics class 10',
+    'class 10 Economics book',
+    '10 class book Economics',
+    'class 10th Economics book pdf',
+    'class 10 Economics pdf',
+    'class ten Economics book',
+    '10th class Economics book pdf',
   ],
 }
 
@@ -58,7 +58,7 @@ export default function page() {
       </p>
       <ImageContainer
         image={data.image}
-        title="Access Class 10 Economics Book of Urdu Medium"
+        title="Access Class 10 Economics Book of english and Urdu Medium"
         class="my-4 w-full"
         height={720}
         width={1280}

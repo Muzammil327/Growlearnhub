@@ -37,13 +37,13 @@ export default function page() {
       title={data.title}
       url={data.url}
       b1="Books"
-      b1Link="/books/"
-      b2="9th class TextBook"
+      b1Link="/boo2ks/"
+      b2="10th class TextBook"
       b2Link="/books/class-10/"
       b3="Punjab Board Math"
     >
       <p>
-        Are you looking for a <strong>Class 10 math book punjab board</strong>?
+        Are you looking for a <strong>Class 10 Math book punjab board</strong>?
         Here, you can access all the books you need for free. Our website offers
         a complete collection of books for students in Class 9, 10, 11, and 12.
         Whether you&apos;re preparing for exams or need extra resources,
