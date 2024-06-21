@@ -1,68 +1,68 @@
-import React from "react";
-import { Metadata } from "next";
+import React from 'react'
+import { Metadata } from 'next'
 
-import Card2 from "@/src/components/card2/page";
-import BookWrapper from "@/src/app/books/BookWrapper";
+import Card2 from '@/src/components/card2/page'
+import BookWrapper from '@/src/app/(class)/BookWrapper'
 
-import { Books } from "@/src/app/books/type";
-import Accordation from "@/src/components/element/accordion";
+import { Books } from '@/src/app/books/type'
+import Accordation from '@/src/components/element/accordion'
 
 const data = {
-  title: "Class 10 Grow Learn Hub",
+  title: 'Class 10 Grow Learn Hub',
   description:
-    "Here you download books of class 9 to 12 books in english and urdu medium and virtual university books of all semester available in this platform.",
-  canonical: "/class-10/",
+    'Here you download books of class 9 to 12 books in english and urdu medium and virtual university books of all semester available in this platform.',
+  canonical: '/class-10/',
   index: true,
   follow: true,
-  image: "/class_10.webp",
-  url: "https://growlearnhub.com/class-10/",
-  keywords: ["growlearnhub books", "10th class", "class 10", "vu handout"],
+  image: '/class_10.webp',
+  url: 'https://growlearnhub.com/class-10/',
+  keywords: ['growlearnhub books', '10th class', 'class 10', 'vu handout'],
   BookDatas: [
     {
       id: 0,
-      title: "Class 10 Books",
-      link: "/books/class-10/",
-      para: "Here you can download the class 10 all books of different boards.",
-      image: "/books/class_10_books.webp",
+      title: 'Class 10 Books',
+      link: '/books/class-10/',
+      para: 'Here you can download the class 10 all books of different boards.',
+      image: '/books/class_10_books.webp',
     },
     {
       id: 1,
-      title: "Class 10 Notes",
-      link: "/notes/class-10/",
-      para: "Here you can download the class 10 all notes of different boards.",
-      image: "/notes/class_10_notes.webp",
+      title: 'Class 10 Notes',
+      link: '/notes/class-10/',
+      para: 'Here you can download the class 10 all notes of different boards.',
+      image: '/notes/class_10_notes.webp',
     },
     {
       id: 2,
-      title: "Class 10 Past Paper",
-      link: "/past-papers/class-10/",
-      para: "Here you can download the class 10 all past paper of different boards.",
-      image: "/past-paper/class_10_past_paper.webp",
+      title: 'Class 10 Past Paper',
+      link: '/past-papers/class-10/',
+      para: 'Here you can download the class 10 all past paper of different boards.',
+      image: '/past-paper/class_10_past_paper.webp',
     },
     {
       id: 3,
-      title: "Class 10 Quiz",
-      link: "/quiz/class-10/",
-      para: "Here you can download the class 10 all quiz of different boards.",
-      image: "/quiz/class_10_quiz.webp",
+      title: 'Class 10 Quiz',
+      link: '/quiz/class-10/',
+      para: 'Here you can download the class 10 all quiz of different boards.',
+      image: '/quiz/class_10_quiz.webp',
     },
     {
       id: 4,
-      title: "Class 10 Online Tests",
-      link: "/online-tests/class-10/",
-      para: "Here you can download the class 10 all online tests of different boards.",
-      image: "/online-tests/class_10_online_tests.webp",
+      title: 'Class 10 Online Tests',
+      link: '/online-tests/class-10/',
+      para: 'Here you can download the class 10 all online tests of different boards.',
+      image: '/online-tests/class_10_online_tests.webp',
     },
     {
       id: 5,
-      title: "Class 10 Pairing Schemes",
-      link: "/pairing-schemes/class-10/",
-      para: "Here you can download the class 10 all pairing schemes of different boards.",
-      image: "/pairing-schemes/class_10_pairing_schemes.webp",
+      title: 'Class 10 Pairing Schemes',
+      link: '/pairing-schemes/class-10/',
+      para: 'Here you can download the class 10 all pairing schemes of different boards.',
+      image: '/pairing-schemes/class_10_pairing_schemes.webp',
     },
   ],
-  link1: "/",
-};
+  link1: '/',
+}
 
 export default function page() {
   return (
@@ -72,24 +72,9 @@ export default function page() {
       b1="Class 10"
       title1="Class 10"
       link1={data.link1}
+      clist={clist}
     >
-      <h2>📚 Books Store</h2>
-      <p>You can download punjab and sindh board of all book.</p>
-      <ul>
-        <li>Physics Books</li>
-        <li>Chemistry Books</li>
-        <li>Biology Books</li>
-        <li>Math Books</li>
-        <li>General Math Books</li>
-        <li>Urdu Books</li>
-        <li>English Books</li>
-        <li>Islamiat Books</li>
-        <li>Pak Study Books</li>
-        <li>Computer Science Books</li>
-        <li>Economics Books</li>
-        <li>Tarjuma tul Quran Books</li>
-        <li>Ikhlaqiat Books</li>
-      </ul>
+      <h2>📚 10th class</h2>
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
         {data.BookDatas.map((data: Books) => (
           <Card2
@@ -102,29 +87,28 @@ export default function page() {
         ))}
       </div>
 
-      <h2>Class 9 to 12</h2>
-      <Accordation
+      {/* <Accordation
         data={[
           {
-            title: "Comprehensive Study Materials",
-            para: "Detailed notes, summaries, and explanations for every chapter.",
+            title: 'Comprehensive Study Materials',
+            para: 'Detailed notes, summaries, and explanations for every chapter.',
           },
           {
-            title: "Practice Papers and Quizzes",
-            para: "Regular practice tests to evaluate your understanding and track your progress.",
+            title: 'Practice Papers and Quizzes',
+            para: 'Regular practice tests to evaluate your understanding and track your progress.',
           },
           {
-            title: "Subject-Specific Resources",
-            para: "In-depth study materials for Physics, Chemistry, Biology, Mathematics, and Commerce.",
+            title: 'Subject-Specific Resources',
+            para: 'In-depth study materials for Physics, Chemistry, Biology, Mathematics, and Commerce.',
           },
           {
-            title: "Exam Preparation Guides",
-            para: "Strategies and tips for excelling in board exams and entrance tests like JEE, NEET, and SAT.",
+            title: 'Exam Preparation Guides',
+            para: 'Strategies and tips for excelling in board exams and entrance tests like JEE, NEET, and SAT.',
           },
         ]}
-      />
+      /> */}
     </BookWrapper>
-  );
+  )
 }
 
 export const metadata: Metadata = {
@@ -137,7 +121,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: "https://nextjs.org/og.png",
+        url: 'https://nextjs.org/og.png',
         alt: data.title,
       },
     ],
@@ -157,8 +141,34 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: "https://nextjs.org/og.png",
+      url: 'https://nextjs.org/og.png',
       alt: data.title,
     },
   },
-};
+}
+
+const clist = [
+  { title: 'Class 9 Books', link: '/class-9/books/' },
+  { title: 'Class 11 Books', link: '/class-11/books/' },
+  { title: 'Class 12 Books', link: '/class-12/books/' },
+
+  { title: 'Class 9 Quiz', link: '/class-9/quiz/' },
+  { title: 'Class 11 Quiz', link: '/class-11/quiz/' },
+  { title: 'Class 12 Quiz', link: '/class-12/quiz/' },
+
+  { title: 'Class 9 Notes', link: '/class-9/notes/' },
+  { title: 'Class 11 Notes', link: '/class-11/notes/' },
+  { title: 'Class 12 Notes', link: '/class-12/notes/' },
+
+  { title: 'Class 9 Online Tests', link: '/class-9/online-tests/' },
+  { title: 'Class 11 Online Tests', link: '/class-11/online-tests/' },
+  { title: 'Class 12 Online Tests', link: '/class-12/online-tests/' },
+
+  { title: 'Class 9 Past Papers', link: '/class-9/past-papers/' },
+  { title: 'Class 11 Past Papers', link: '/class-11/past-papers/' },
+  { title: 'Class 12 Past Papers', link: '/class-12/past-papers/' },
+
+  { title: 'Class 9 Pairing Schemes', link: '/class-9/pairing-schemes/' },
+  { title: 'Class 11 Pairing Schemes', link: '/class-11/pairing-schemes/' },
+  { title: 'Class 12 Pairing Schemes', link: '/class-12/pairing-schemes/' },
+]

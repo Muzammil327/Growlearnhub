@@ -1,32 +1,34 @@
-import React from "react";
-import Container from "@/src/components/element/container";
-import Sidebar from "@/src/components/element/sidebar";
-import SubHeader from "@/src/components/layout/header/subheader/page";
-import Form from "@/src/components/element/form/page";
-import BreadCrumb from "@/src/components/element/breadcrumb";
-import Footer from "@/src/components/layout/footer/page";
-import Navbar from "@/src/components/layout/navbar/page";
-import "./style.scss";
-import ImageContainer from "@/src/components/element/image";
+import React from 'react'
+import Container from '@/src/components/element/container'
+import Sidebar from '@/src/components/element/sidebar'
+import SubHeader from '@/src/components/layout/header/subheader/page'
+import Form from '@/src/components/element/form/page'
+import BreadCrumb from '@/src/components/element/breadcrumb'
+import Footer from '@/src/components/layout/footer/page'
+import Navbar from '@/src/components/layout/navbar/page'
+import './style.scss'
+import ImageContainer from '@/src/components/element/image'
+import Link from 'next/link'
 
 export default function BookWrapper(data: {
-  title: string;
-  title1?: string;
-  image?: string | undefined;
-  url: string;
-  link1?: string;
-  children: React.ReactNode;
-  b1: string;
-  b1Link?: string;
-  b2?: string;
-  b2Link?: string;
-  b3?: string;
-  b3Link?: string;
-  b4?: string;
+  title: string
+  clist?: any
+  title1?: string
+  image?: string | undefined
+  url: string
+  link1?: string
+  children: React.ReactNode
+  b1: string
+  b1Link?: string
+  b2?: string
+  b2Link?: string
+  b3?: string
+  b3Link?: string
+  b4?: string
 }) {
   return (
     <>
-      {" "}
+      {' '}
       <Navbar />
       <main>
         <SubHeader title={data.title} />
@@ -59,16 +61,41 @@ export default function BookWrapper(data: {
                 <li>Quiz</li>
                 <li>Past Papers</li>
               </ul> */}
-              <ImageContainer
-                image={`${data.image}`}
-                title={data.title}
-                class="my-4"
-                height={720}
-                width={1280}
-                priority
-              />
+              {data.image && (
+                <ImageContainer
+                  image={`${data.image}`}
+                  title={data.title}
+                  class="my-4"
+                  height={720}
+                  width={1280}
+                  priority
+                />
+              )}
               {data.children}
-
+              {/* <div>
+                <h2>Additional Resources Class 9</h2>
+                <ul>
+                  <li>
+                    <strong className="md:pr-2">Class 9 Subject Notes:</strong>{' '}
+                    Detailed notes for each subject to help you grasp and review
+                    important concepts.
+                  </li>
+                  <li>
+                    <strong className="md:pr-2">
+                      9th Class Pairing Schemes:
+                    </strong>{' '}
+                    Guides to help you focus on the most crucial topics for your
+                    exams.
+                  </li>
+                  <li>
+                    <strong className="md:pr-2">
+                      Class 9 Online MCQ Tests:
+                    </strong>{' '}
+                    Practice tests to assess your knowledge and improve your
+                    readiness for the exams.
+                  </li>
+                </ul>
+              </div> */}
               <p>
                 You can give your opinion or any question you have to ask below
                 in the comment section area.
@@ -76,124 +103,14 @@ export default function BookWrapper(data: {
               <Form url={data.url} />
             </div>
             <div className="c2">
-              <Sidebar title={data.title} url={data.url} list={clist} />
+              {data.clist && (
+                <Sidebar title={data.title} url={data.url} list={data.clist} />
+              )}
             </div>
           </div>
         </Container>
       </main>
       <Footer />
     </>
-  );
+  )
 }
-const clist = [
-  { title: "Class 9 Books", link: "/books/class-9/" },
-  {
-    title: "Class 9 Physics Books Punjab",
-    link: "/books/class-9/punjab-board-physics/",
-  },
-  {
-    title: "Class 9 Biology Books Punjab",
-    link: "/books/class-9/punjab-board-biology/",
-  },
-  {
-    title: "Class 9 Chemistry Books Punjab",
-    link: "/books/class-9/punjab-board-chemistry/",
-  },
-  {
-    title: "Class 9 Math Books Punjab",
-    link: "/books/class-9/punjab-board-math/",
-  },
-  {
-    title: "Class 9 English Books Punjab",
-    link: "/books/class-9/punjab-board-english/",
-  },
-  {
-    title: "Class 9 Urdu Books Punjab",
-    link: "/books/class-9/punjab-board-urdu/",
-  },
-  {
-    title: "Class 9 Pak Study Books Punjab",
-    link: "/books/class-9/punjab-board-pak-study/",
-  },
-  {
-    title: "Class 9 Islamiat Books Punjab",
-    link: "/books/class-9/punjab-board-islamiat/",
-  },
-  {
-    title: "Class 9 General Math Books Punjab",
-    link: "/books/class-9/punjab-board-general-math/",
-  },
-  {
-    title: "Class 9 Computer Science Books Punjab",
-    link: "/books/class-9/punjab-board-computer-science/",
-  },
-  {
-    title: "Class 9 Economics Books Punjab",
-    link: "/books/class-9/punjab-board-economics/",
-  },
-  {
-    title: "Class 9 Tarjuma tul Quran Books Punjab",
-    link: "/books/class-9/punjab-board-tarjuma-tul-quran/",
-  },
-  {
-    title: "Class 9 Ikhlaqiat Books Punjab",
-    link: "/books/class-9/punjab-board-ikhlaqiat/",
-  },
-  // class 10
-  { title: "Class 10 Books", link: "/books/class-10/" },
-  {
-    title: "Class 10 Physics Books Punjab",
-    link: "/books/class-10/punjab-board-physics/",
-  },
-  {
-    title: "Class 10 Biology Books Punjab",
-    link: "/books/class-10/punjab-board-biology/",
-  },
-  {
-    title: "Class 10 Chemistry Books Punjab",
-    link: "/books/class-10/punjab-board-chemistry/",
-  },
-  {
-    title: "Class 10 Math Books Punjab",
-    link: "/books/class-10/punjab-board-math/",
-  },
-  {
-    title: "Class 10 English Books Punjab",
-    link: "/books/class-10/punjab-board-english/",
-  },
-  {
-    title: "Class 10 Urdu Books Punjab",
-    link: "/books/class-10/punjab-board-urdu/",
-  },
-  {
-    title: "Class 10 Pak Study Books Punjab",
-    link: "/books/class-10/punjab-board-pak-study/",
-  },
-  {
-    title: "Class 10 Islamiat Books Punjab",
-    link: "/books/class-10/punjab-board-islamiat/",
-  },
-  {
-    title: "Class 10 General Math Books Punjab",
-    link: "/books/class-10/punjab-board-general-math/",
-  },
-  {
-    title: "Class 10 Computer Science Books Punjab",
-    link: "/books/class-10/punjab-board-computer-science/",
-  },
-  {
-    title: "Class 10 Economics Books Punjab",
-    link: "/books/class-10/punjab-board-economics/",
-  },
-  {
-    title: "Class 10 Tarjuma tul Quran Books Punjab",
-    link: "/books/class-10/punjab-board-tarjuma-tul-quran/",
-  },
-  {
-    title: "Class 10 Ikhlaqiat Books Punjab",
-    link: "/books/class-10/punjab-board-ikhlaqiat/",
-  },
-  // class 11
-  { title: "Class 11 Books", link: "/books/class-11/" },
-  { title: "Class 12 Books", link: "/books/class-12/" },
-];
