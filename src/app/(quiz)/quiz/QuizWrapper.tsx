@@ -81,7 +81,7 @@ export default function BookWrapper(data: {
                 title={data.title}
                 url={data.url}
                 list={clist}
-                videoId="HGI3-gVuCig"
+                // videoId="HGI3-gVuCig"
               />
             </div>
           </div>
