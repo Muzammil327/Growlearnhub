@@ -1,24 +1,25 @@
-"use client";
-import React from "react";
-import LiteYouTubeEmbed from "react-lite-youtube-embed";
-import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
+'use client'
+import React from 'react'
+import LiteYouTubeEmbed from 'react-lite-youtube-embed'
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
 import {
   FacebookShareButton,
   WhatsappShareButton,
   WhatsappIcon,
   FacebookIcon,
-} from "next-share";
-import Link from "next/link";
+} from 'next-share'
+import Link from 'next/link'
+import ReactPlayer from 'react-player'
 
 interface SidebarProps {
-  title: string;
-  videoId?: string;
-  list?: Iprops[];
-  url: string;
+  title: string
+  videoId?: string
+  list?: Iprops[]
+  url: string
 }
 interface Iprops {
-  title: string;
-  link: string;
+  title: string
+  link: string
 }
 const Sidebar: React.FC<SidebarProps> = ({ title, videoId, url, list }) => {
   return (
@@ -30,7 +31,10 @@ const Sidebar: React.FC<SidebarProps> = ({ title, videoId, url, list }) => {
         <div className="flex gap-3">
           <ul className="flex gap-2 items-center">
             <li className="bg-[#1877F2] p-2 rounded-md text-white">
-              <Link href="https://web.facebook.com/growlearnhub/" aria-label="Facebook page">
+              <Link
+                href="https://web.facebook.com/growlearnhub/"
+                aria-label="Facebook page"
+              >
                 <svg
                   fill="#fff"
                   width="20px"
@@ -69,13 +73,16 @@ const Sidebar: React.FC<SidebarProps> = ({ title, videoId, url, list }) => {
           </ul>
         </div>
       </div>
-      <div className="vedio">
+      <div className="player-wrapper">
         {videoId && (
-          <LiteYouTubeEmbed
-            id={videoId}
-            title={title}
-            aspectWidth={16}
-            aspectHeight={9}
+          <ReactPlayer
+            url={`https://www.youtube.com/shorts/${videoId}`}
+            // url={videoId}
+            controls={true}
+            playing={true}
+            loop={true}
+            width="100%"
+            // height="100%"
           />
         )}
       </div>
@@ -97,7 +104,7 @@ const Sidebar: React.FC<SidebarProps> = ({ title, videoId, url, list }) => {
                     {data.title}
                   </Link>
                 </li>
-              );
+              )
             })}
         </ul>
       </div>
@@ -110,7 +117,7 @@ const Sidebar: React.FC<SidebarProps> = ({ title, videoId, url, list }) => {
           <FacebookShareButton
             url={url}
             quote={title}
-            hashtag={"#growlearnhub"}
+            hashtag={'#growlearnhub'}
           >
             <FacebookIcon size={40} />
           </FacebookShareButton>
@@ -120,7 +127,7 @@ const Sidebar: React.FC<SidebarProps> = ({ title, videoId, url, list }) => {
         </div>
       </div>
     </aside>
-  );
-};
+  )
+}
 
-export default Sidebar;
+export default Sidebar

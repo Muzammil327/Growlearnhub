@@ -3,10 +3,9 @@ import React, { useEffect, useState } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import styles from '@/src/app/dashboard/form.module.css'
 import SimpleInput from '@/src/app/dashboard/components/Input/simpleInput'
-import { BookTypesPost } from '@/src/types/page'
 import axios from 'axios'
-import { GetSingleBook, UpdateBook } from '@/src/app/constant'
-import { updateBook } from '@/src/api/book/page'
+import { GetSingleTags, UpdateTags } from '@/src/app/constant'
+import slugify from 'slugify'
 
 const KeywordUpdated = () => {
   const router = useRouter()
@@ -21,7 +20,7 @@ const KeywordUpdated = () => {
       try {
         setError(false)
         setLoading(true)
-        const response = await axios.get(`${GetSingleBook}/${id}`)
+        const response = await axios.get(`${GetSingleTags}/${id}`)
         setTitle(response.data.title)
       } catch (error) {
         console.log('error:', error)
@@ -42,12 +41,17 @@ const KeywordUpdated = () => {
     e.preventDefault()
     try {
       setLoadingU(false)
-      const response = await axios.put(
-        `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/update/book/${id}`,
-        {
-          title,
-        }
-      )
+      const response = await axios.put(`${UpdateTags}/${id}`, {
+        title,
+        slug: slugify(title, {
+          replacement: '-', // replace spaces with replacement character, defaults to `-`
+          remove: undefined, // remove characters that match regex, defaults to `undefined`
+          lower: true, // convert to lower case, defaults to `false`
+          strict: false, // strip special characters except replacement, defaults to `false`
+          locale: 'vi', // language code of the locale to use
+          trim: true, // trim leading and trailing replacement chars, defaults to `true`
+        }),
+      })
 
       if (response.data.status === '400' || response.data.status === '500') {
         setErrorU(response.data.message)
@@ -57,7 +61,7 @@ const KeywordUpdated = () => {
 
         setErrorU(response.data.message)
         setTitle('')
-        router.push('/dashboard/addbooks')
+        router.push('/dashboard/addtags')
       }
     } catch (error) {
       setErrorU('Error during Book Updating!')

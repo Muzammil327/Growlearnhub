@@ -1,38 +1,39 @@
 // newsletter
 export interface NewsletterData {
-  email: string;
+  email: string
 }
 export interface NewsletterGet {
-  _id: string;
-  email: string;
+  _id: string
+  email: string
 }
 export interface CommentFormGet {
-  _id: string;
-  fname: string;
-  lname: string;
-  email: string;
-  url: string;
-  message: string;
-  createdAt: string;
+  _id: string
+  fname: string
+  lname: string
+  email: string
+  url: string
+  message: string
+  createdAt: string
 }
 
 interface Heading1Type {
-  title: string;
+  title: string
 }
 interface Heading2Type {
-  title: string;
+  title: string
 }
 // first
 export interface IpropsbookName {
-  bookName: string;
+  bookName: string
 }
 
 // second
 
 // third
 export interface IpropsHeading2 {
-  bookName: string;
-  heading1: string;
+  bookName: string
+  heading1: string
+  heading2: string
 }
 // export type Heading2Types = {
 //   _id: string;
@@ -46,46 +47,46 @@ export interface IpropsHeading2 {
 
 // book  ----------------------------------------
 export type BookTypesGet = {
-  _id: string;
-  title: string;
-};
+  _id: string
+  title: string
+}
 export type BookTypesPost = {
-  title: string;
-};
+  title: string
+}
 export interface IpropsbookName {
-  bookName: string;
+  bookName: string
 }
 
 // heading 1     ----------------------------------------
 export type Heading1TypesGet = {
-  _id: string;
-  title: string;
-  bookId: string;
-};
+  _id: string
+  title: string
+  bookId: string
+}
 export type Heading1TypesPost = {
-  title: string;
-  bookId: string;
-};
+  title: string
+  bookId: string
+}
 export interface IpropsHeading1 {
-  bookName: string;
-  heading1: string;
+  bookName: string
+  heading1: string
 }
 
 // heading 2   ----------------------------------------
 export type Heading2TypesGet = {
-  _id: string;
-  title: string;
-  bookId: string;
-  heading1Id: string;
-};
+  _id: string
+  title: string
+  bookId: string
+  heading1Id: string
+}
 export type Heading2TypesPost = {
-  title: string;
-  bookId: string;
-  heading1Id: string;
-};
+  title: string
+  bookId: string
+  heading1Id: string
+}
 export interface IpropsHeading2 {
-  bookName: string;
-  heading1: string;
+  bookName: string
+  heading1: string
 }
 /* ----------------------------------------------------------------
 ------------- Portfolio COMPONENTS TYPES  start here --------------
@@ -93,37 +94,37 @@ export interface IpropsHeading2 {
 // mcqs ----------------------------------------
 
 export interface IpropsFinal {
-  final: string;
+  final: string
 }
 export type McqsTypes = {
-  _id: string;
-  title: string;
-  slug: string;
-  image: string;
-  description: string;
-  bookId: BookTypesGet;
-  heading1Id: Heading1Type;
-  heading2Id: string;
-  options: string[];
-  relatedId: string[];
-  correctOption: string;
-};
+  _id: string
+  title: string
+  slug: string
+  image: string
+  description: string
+  bookId: BookTypesGet
+  heading1Id: Heading1Type
+  heading2Id: string
+  options: string[]
+  relatedId: string[]
+  correctOption: string
+}
 interface Tag {
-  id: string;
+  id: string
 }
 export type McqsFormTypes = {
-  title: string;
-  bookId: string;
-  description: string;
-  heading1Id: string;
-  image: any;
-  heading2Id: string;
-  options: string[];
-  relatedId: Tag[];
-  correctOption: string;
-};
+  title: string
+  bookId: string
+  description: string
+  heading1Id: string
+  image: any
+  heading2Id: string
+  options: string[]
+  relatedId: Tag[]
+  correctOption: string
+}
 export type PaginationTypes = {
-  totalItems: number;
-  totalPages: number;
-  currentPage: number;
-};
+  totalItems: number
+  totalPages: number
+  currentPage: number
+}

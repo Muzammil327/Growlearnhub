@@ -1,26 +1,25 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import styles from '@/src/app/dashboard/form.module.css'
-import { Heading2TypesGet } from '@/src/types/page'
+import { BookTypesGet } from '@/src/types/page'
 import axios from 'axios'
-import { DeleteHeading2, GetHeading2 } from '../../constant'
+import { DeleteTag, GetTag } from '@/src/app/constant'
 import TableLayout from '@/src/app/dashboard/components/TableLayout'
 
 export default function Page() {
-  const [heading2Data, setHeading2Data] = useState<Heading2TypesGet[]>([])
+  const [booksData, setBooksData] = useState<BookTypesGet[]>([])
 
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(false)
 
-  const fetchHeading1Data = async () => {
+  const fetchBookData = async () => {
     try {
       setError(false)
       setLoading(true)
-      const response = await axios.get(GetHeading2)
-
-      setHeading2Data(response.data)
+      const response = await axios.get(GetTag)
+      setBooksData(response.data)
     } catch (error) {
-      console.log('error:', error)
+      console.error('Error fetching book data:', error)
       setError(true)
     } finally {
       setLoading(false)
@@ -29,15 +28,15 @@ export default function Page() {
 
   const DeleteHandle = async (id: string) => {
     try {
-      await axios.delete(`${DeleteHeading2}/${id}`)
-      await fetchHeading1Data()
+      await axios.delete(`${DeleteTag}/${id}`)
+      await fetchBookData()
     } catch (error) {
-      console.log('Error during Heading 2 Deleting!', error)
+      console.log('Error during Book deleting', error)
     }
   }
 
   useEffect(() => {
-    fetchHeading1Data()
+    fetchBookData()
   }, [])
 
   if (error) {
@@ -58,15 +57,13 @@ export default function Page() {
   return (
     <>
       <TableLayout
-        title="Add Heading 2"
-        titleLink={`/dashboard/heading2/add`}
+        title="Add Tags"
+        titleLink={`/dashboard/addtags/add`}
         c1="Title"
-        c2="Book Name"
-        c3="Heading 1"
         ca="Action"
-        data={heading2Data}
+        data={booksData}
         DeleteHandle={DeleteHandle}
-        updateLink={`/dashboard/heading2`}
+        updateLink={`/dashboard/addtags`}
       />
     </>
   )

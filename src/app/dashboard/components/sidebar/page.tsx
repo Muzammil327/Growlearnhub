@@ -213,11 +213,11 @@ const data = [
     title: 'Add Mcqs',
     url: '/dashboard/addmcqs/',
   },
-  // {
-  //   id: 5,
-  //   title: "Add Keywords",
-  //   url: "/dashboard/keyword/",
-  // },
+  {
+    id: 5,
+    title: "Add Tags",
+    url: "/dashboard/addtags/",
+  },
   {
     id: 6,
     title: 'Comments',

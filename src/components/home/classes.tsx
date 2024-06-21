@@ -100,4 +100,16 @@ const Classe = [
       },
     ],
   },
+  {
+    id: 2,
+    name: 'Virtual University',
+    href: '/vu/',
+    image: '/vu.webp',
+    child: [
+      {
+        name: 'Books',
+        icon: <FaBook />,
+      },
+    ],
+  },
 ]

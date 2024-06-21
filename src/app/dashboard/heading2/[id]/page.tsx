@@ -1,112 +1,132 @@
-"use client";
-import React, { useEffect, useState } from "react";
-import { useRouter, useParams } from "next/navigation";
-import styles from "@/src/app/dashboard/form.module.css";
-import SimpleInput from "@/src/app/dashboard/components/Input/simpleInput";
-import { getBookAll } from "@/src/api/book/page";
-import { getHeading1All } from "@/src/api/heading1/page";
-import { getSingleHeading2, updateHeading2 } from "@/src/api/heading2/page";
-import { BookTypesGet, Heading1TypesGet, Heading2TypesGet, Heading2TypesPost } from "@/src/types/page";
+'use client'
+import React, { useEffect, useState } from 'react'
+import { useRouter, useParams } from 'next/navigation'
+import styles from '@/src/app/dashboard/form.module.css'
+import SimpleInput from '@/src/app/dashboard/components/Input/simpleInput'
+import { getBookAll } from '@/src/api/book/page'
+import { getHeading1All } from '@/src/api/heading1/page'
+import { getSingleHeading2, updateHeading2 } from '@/src/api/heading2/page'
+import { BookTypesGet, Heading1TypesGet } from '@/src/types/page'
+import Dropdown from '../../components/Input/dropdown'
+import axios from 'axios'
+import { GetBook, GetHeading1 } from '@/src/app/constant'
+
+interface DropdownIprops {
+  _id: string
+  title: string
+  book: {
+    _id: string
+    title: string
+  }
+}
 
 const KeywordUpdated = () => {
-  const router = useRouter();
-  const { id } = useParams();
+  const router = useRouter()
+  const { id } = useParams()
 
-  const [fetchHeading2, setFetchHeading2] = useState<Heading2TypesPost>({
-    title: "",
-    bookId: "",
-    heading1Id: "",
-  });
+  const [title, setTitle] = useState<string>('')
+  const [bookId, setBookId] = useState<string>('')
+  const [keywords, setKeywords] = useState<string[]>([])
 
-  const [loadingData, setLoadingData] = useState(true);
-  const [loadingBtn, setLoadingBtn] = useState(false);
-  const [fError, setFError] = useState(false);
-  const [UError, setUError] = useState(false);
+  const [loadingData, setLoadingData] = useState(true)
+  const [loadingBtn, setLoadingBtn] = useState(false)
+  const [fError, setFError] = useState(false)
+  const [UError, setUError] = useState(false)
 
-  const fetchUser1Filter = fetchHeading2.bookId;
-  const [booksData, setBooksData] = useState<BookTypesGet[]>([]);
-  const [heading1Data, setHeading1Data] = useState<Heading1TypesGet[]>([]);
-  // Function to fetch data from the server
+  // book data fetch
+  const [booksData, setBooksData] = useState<BookTypesGet[]>([])
+  const fetchBookData = async () => {
+    try {
+      const response = await axios.get(GetBook)
+      setBooksData(response.data)
+    } catch (error) {
+      console.log('Error during Book Getting!', error)
+    }
+  }
+
+  // heading 1 data fetch
+  const [fetchHeading1, setFetchHeading1] = useState<Heading1TypesGet[]>([])
 
   const fetchHeading1Data = async () => {
     try {
-      const data = await getHeading1All();
-      setHeading1Data(data);
+      const response = await axios.get(GetHeading1)
+      setFetchHeading1(response.data)
     } catch (error) {
-      console.log("Error during Book Getting!", error);
+      console.log('Error during Heading 1 Getting!', error)
     }
-  };
-  const fetchBookData = async () => {
-    try {
-      const data = await getBookAll();
-      setBooksData(data);
-    } catch (error) {
-      console.log("Error during Book Getting!", error);
-    }
-  };
+  }
+  const heading1Filter = fetchHeading1.filter(
+    (data: any) => data.book._id === bookId
+  )
+
   useEffect(() => {
-    fetchBookData();
-    fetchHeading1Data();
-  }, []);
+    fetchBookData()
+    fetchHeading1Data()
+  }, [])
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        setFError(false);
-        setLoadingData(true);
-        const data = await getSingleHeading2(id.toString());
-        setFetchHeading2(data);
-        setLoadingData(false);
+        setFError(false)
+        setLoadingData(true)
+        const response = await getSingleHeading2(id.toString())
+        setTitle(response.title)
+        setBookId(response.book._id)
+        setKeywords(response.heading1)
+        setLoadingData(false)
       } catch (error) {
-        console.log("error:", error);
-        setFError(true);
-        setLoadingData(false);
+        console.log('error:', error)
+        setFError(true)
+        setLoadingData(false)
       }
-    };
-    if (id) {
-      fetchData();
     }
-  }, [id]);
+    if (id) {
+      fetchData()
+    }
+  }, [id])
 
   const SubmitHandle = async (e: React.FormEvent) => {
-    e.preventDefault();
+    e.preventDefault()
     try {
-      setLoadingBtn(false);
-      const data = await updateHeading2(fetchHeading2, id.toString());
-      setLoadingBtn(false);
+      setLoadingBtn(false)
+      const response = await axios.put(
+        `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/update/heading2/${id}`,
+        {
+          title,
+          bookId,
+          keywords,
+        }
+      )
+      setLoadingBtn(false)
 
-      if (data.status === "400" || data.status === "500") {
-        setUError(data.message);
-        setLoadingBtn(false);
+      if (response.data.status === '400' || response.data.status === '500') {
+        setUError(response.data.message)
+        setLoadingBtn(false)
       } else {
-        setLoadingBtn(true);
+        setLoadingBtn(true)
 
-        setUError(data.message);
-        setFetchHeading2({
-          title: "",
-          bookId: "",
-          heading1Id: "",
-        });
-        router.push("/dashboard/heading2");
+        setUError(response.data.message)
+
+        router.push('/dashboard/heading2')
       }
     } catch (error) {
-      console.log(error);
+      console.log(error)
     }
-  };
+  }
 
   if (fError) {
     return (
       <div className={`${styles.form}`}>
         <h1>Error ...</h1>
       </div>
-    );
+    )
   }
   if (loadingData) {
     return (
       <div className={`${styles.form}`}>
         <h1>Loading ...</h1>
       </div>
-    );
+    )
   }
 
   return (
@@ -121,80 +141,95 @@ const KeywordUpdated = () => {
             label="Title"
             type="text"
             htmlFor="title"
-            value={fetchHeading2.title}
+            value={title}
+            onChange={(e) => setTitle(e.target.value)}
             placeholder="Enter Title"
-            onChange={(e) =>
-              setFetchHeading2({ ...fetchHeading2, title: e.target.value })
-            }
           />
 
           {/*  Book Name */}
-          <div className="">
-            <label htmlFor="  Book Name" className={`${styles.label}`}>
-              Book Name
-            </label>
-            <div className="mt-2.5">
-              <select
-                id=" Book Name"
-                name=" Book Name"
-                className={`${styles.select}`}
-                value={fetchHeading2.bookId}
-                onChange={(e) =>
-                  setFetchHeading2({ ...fetchHeading2, bookId: e.target.value })
-                }
-              >
-                <option value="">Select Book Name</option>
-                {booksData.map((data: BookTypesGet) => (
-                  <option key={data._id} value={data._id}>
-                    {data.title}
-                  </option>
-                ))}
-              </select>
-            </div>
-          </div>
+          <Dropdown
+            bookId={bookId}
+            label="Book Name"
+            setBookId={(e: any) => setBookId(e.target.value)}
+            booksData={booksData}
+          />
 
           {/*  Heading 1 */}
-          <div className="">
-            <label htmlFor=" Heading 1" className={`${styles.label}`}>
-              Heading 1
-            </label>
-            <div className="mt-2.5">
-              <select
-                id="Heading1"
-                name="Heading1"
-                className={`${styles.select}`}
-                value={fetchHeading2.heading1Id}
-                onChange={(e) =>
-                  setFetchHeading2({
-                    ...fetchHeading2,
-                    heading1Id: e.target.value,
-                  })
-                }
-              >
-                <option value="">Select Heading 1</option>
-                {heading1Data
-                  .filter((data: Heading1TypesGet) => {
-                    return data.bookId === fetchUser1Filter;
-                  })
-                  .map((data: Heading1TypesGet) => {
-                    return (
-                      <option key={data._id} value={data._id}>
-                        {data.title}
-                      </option>
-                    );
-                  })}
-              </select>
-            </div>
-          </div>
+          <MultiSelectComponent
+            options={heading1Filter}
+            selectedOptions={keywords}
+            setSelectedOptions={(selectedOptions: any) =>
+              setKeywords(selectedOptions)
+            }
+          />
         </div>
         <div className="mt-10">
           <button type="submit" className={`${styles.submitBTN}`}>
-            {loadingBtn ? "Loading ..." : "Submit"}
+            {loadingBtn ? 'Loading ...' : 'Submit'}
           </button>
         </div>
       </form>
     </div>
-  );
-};
+  )
+}
 
-export default KeywordUpdated;
+export default KeywordUpdated
+const MultiSelectComponent = ({
+  options,
+  selectedOptions,
+  setSelectedOptions,
+}: any) => {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggleDropdown = () => setIsOpen(!isOpen)
+
+  const handleSelect = (option: any) => {
+    // Check if option._id already exists in selectedOptions array
+    const optionExists = selectedOptions.some(
+      (item: any) => item._id === option._id
+    )
+
+    if (optionExists) {
+      // Remove option from selectedOptions
+      setSelectedOptions(
+        selectedOptions.filter((item: any) => item._id !== option._id)
+      )
+    } else {
+      // Add option to selectedOptions
+      setSelectedOptions([...selectedOptions, option])
+    }
+  }
+
+  return (
+    <div className="relative">
+      <button
+        type="button"
+        onClick={toggleDropdown}
+        className="bg-white border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+      >
+        Select Heading 1
+      </button>
+      {isOpen && (
+        <div className="absolute z-10 w-full mt-1 bg-white border border-gray-300 rounded shadow-lg grid grid-cols-2">
+          {options.map(
+            (
+              option: any // Ensure 'option' is of the correct type
+            ) => (
+              <div key={option._id} className="flex items-center p-2">
+                <input
+                  type="checkbox"
+                  checked={selectedOptions.some(
+                    (item: any) => item._id === option._id
+                  )}
+                  onChange={() => handleSelect(option)}
+                  className="form-checkbox h-4 w-4 text-blue-600 transition duration-150 ease-in-out"
+                />
+                <label className="ml-2 text-gray-700">{option.title}</label>
+              </div>
+            )
+          )}
+        </div>
+      )}
+    </div>
+  )
+}

@@ -1,12 +1,12 @@
-import React from "react";
-import BookNameView from "@/src/views/quizView/bookNameView/page";
-import { convertToUppercaseWithSpace } from "@/src/views/function/convertToUppercaseWithSpace";
+import React from 'react'
+import BookNameView from '@/src/views/quizView/bookNameView/page'
+import { convertToUppercaseWithSpace } from '@/src/views/function/convertToUppercaseWithSpace'
 
 interface IpropsbookName {
-  bookName: string;
+  bookName: string
 }
 interface Iprops {
-  params: IpropsbookName;
+  params: IpropsbookName
 }
 
 export default function Page({ params }: Iprops) {
@@ -14,12 +14,12 @@ export default function Page({ params }: Iprops) {
     <>
       <BookNameView bookName={params.bookName} />
     </>
-  );
+  )
 }
 
 export async function generateMetadata({ params }: Iprops) {
-  const capitalizedBookName = convertToUppercaseWithSpace(params.bookName);
-  const title = capitalizedBookName + " " + "Quiz";
+  const capitalizedBookName = convertToUppercaseWithSpace(params.bookName)
+  const title = capitalizedBookName + ' ' + 'Quiz'
   return {
     title: title,
     alternates: {
@@ -48,5 +48,5 @@ export async function generateMetadata({ params }: Iprops) {
         alt: title,
       },
     },
-  };
+  }
 }

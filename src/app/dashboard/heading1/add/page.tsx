@@ -13,6 +13,7 @@ export default function Page() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
+  
   const [heading1Data, setHeading1Data] = useState<Heading1TypesPost>({
     title: "",
     bookId: "",
@@ -45,7 +46,6 @@ export default function Page() {
   };
 
   const [booksData, setBooksData] = useState<BookTypesGet[]>([]);
-
   const fetchBookData = async () => {
     try {
       const response = await axios.get(GetBook);

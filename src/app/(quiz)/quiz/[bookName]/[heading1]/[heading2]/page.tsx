@@ -1,23 +1,30 @@
-import React from "react";
-import IdView from "@/src/views/quizView/bookNameView/Heading1View/Heading2View/page";
-import { convertToUppercaseWithSpace } from "@/src/views/function/convertToUppercaseWithSpace";
+import React from 'react'
+import IdView from '@/src/views/quizView/bookNameView/Heading1View/Heading2View/page'
+import { convertToUppercaseWithSpace } from '@/src/views/function/convertToUppercaseWithSpace'
 
 interface IpropsbookName {
-  bookName: string;
-  IdView: string;
+  bookName: string
+  heading1: string
+  heading2: string
 }
 interface Iprops {
-  params: IpropsbookName;
+  params: IpropsbookName
 }
 
 export default async function Page({ params }: Iprops) {
-  return <IdView bookName={params.bookName} heading1={params.IdView} />;
+  return (
+    <IdView
+      bookName={params.bookName}
+      heading1={params.heading1}
+      heading2={params.heading2}
+    />
+  )
 }
 
 export async function generateMetadata({ params }: Iprops) {
-  const capitalizedBookName = convertToUppercaseWithSpace(params.bookName);
-  const capitalizedIdView = convertToUppercaseWithSpace(params.IdView);
-  const title = capitalizedBookName + " " + capitalizedIdView + " " + "Quiz";
+  const capitalizedBookName = convertToUppercaseWithSpace(params.heading1)
+  const capitalizedIdView = convertToUppercaseWithSpace(params.heading2)
+  const title = capitalizedBookName + ' - ' + capitalizedIdView
   return {
     title: title,
     alternates: {
@@ -46,5 +53,5 @@ export async function generateMetadata({ params }: Iprops) {
         alt: title,
       },
     },
-  };
+  }
 }

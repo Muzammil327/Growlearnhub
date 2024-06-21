@@ -59,17 +59,6 @@ export default function FetchFinalView({ final }: IpropsFinal) {
         <>
           {fetchData && (
             <div className={styles.quiz}>
-              <div className="img">
-                <Image
-                  src={`${process.env.NEXT_PUBLIC_BACKEND_URL}/upload/${fetchData.image}`}
-                  alt={fetchData.title}
-                  title={fetchData.title}
-                  height={1280}
-                  className="h-auto w-full"
-                  width={720}
-                  priority
-                />
-              </div>
               <div className="question mt-2">
                 <h2 className={`${styles.span1} capitalize`}>
                   <strong>{fetchData.title}.</strong>{" "}

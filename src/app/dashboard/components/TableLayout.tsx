@@ -1,7 +1,7 @@
-"use client";
-import React from "react";
-import Link from "next/link";
-import styles from "@/src/app/dashboard/form.module.css";
+'use client'
+import React from 'react'
+import Link from 'next/link'
+import styles from '@/src/app/dashboard/form.module.css'
 
 export default function TableLayout({
   title,
@@ -63,7 +63,9 @@ export default function TableLayout({
                 )}
                 {c3 && (
                   <td scope="row" className={`${styles.td}`}>
-                    {data.heading1.title}
+                    {data.heading1.map((data: { title: string }) => (
+                      <span key={data.title} className='ml-2'>{data.title}</span>
+                    ))}
                   </td>
                 )}
                 <td scope="row" className={`${styles.td}`}>
@@ -88,5 +90,5 @@ export default function TableLayout({
         </table>
       </div>
     </>
-  );
+  )
 }

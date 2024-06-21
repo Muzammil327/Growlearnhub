@@ -49,7 +49,7 @@ export default function QuizView() {
                 title={data.title}
                 link={`${
                   process.env.NEXT_PUBLIC_FRONTEND_URL
-                }/quiz/subject-wise/${convertToLowercaseWithHyphen(data.title)}`}
+                }/quiz/${convertToLowercaseWithHyphen(data.title)}`}
               />
             ))}
           </>
