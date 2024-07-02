@@ -51,13 +51,6 @@ export default function page() {
         width={1280}
         priority
       />
-      <p>
-        Welcome to our Educational Hub, an innovative platform designed for high
-        school student in Class 9 to 12, Chartered Accountancy (CA), and Virtual
-        University learners to fulfil academic needs. Our mission is to provide
-        a one-stop solution for all your educational requirements, empowering
-        you to achieve excellence in your studies and professional goals.
-      </p>
 
       {Class11_Notes.map((data: class_Book) => {
         return (
