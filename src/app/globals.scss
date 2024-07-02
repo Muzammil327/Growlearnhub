@@ -263,7 +263,7 @@ button:focus {
 
 .bg-hero {
   background-image: url(/banner-hero.png);
-  @apply bg-cover lg:pb-20 md:pb-10 sm:pb-5 pb-2;
+  @apply bg-cover;
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -281,4 +281,13 @@ button:focus {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.slick-track{
+  display: flex!important;
+@apply gap-4;
+}
+.slick-next,
+.slick-prev {
+  display: none!important ;
 }

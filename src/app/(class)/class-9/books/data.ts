@@ -24,51 +24,51 @@ export const Class9_Book: class_Book[] = [
         title: "Math Books",
         link: "/class-9/books/punjab-board-math/",
       },
-      {
-        id: 4,
-        title: "English Books",
-        link: "/class-9/books/punjab-board-english/",
-      },
-      {
-        id: 5,
-        title: "Urdu Books",
-        link: "/class-9/books/punjab-board-urdu/",
-      },
-      {
-        id: 6,
-        title: "Pak Study Books",
-        link: "/class-9/books/punjab-board-pak-study/",
-      },
-      {
-        id: 7,
-        title: "Islamiat Books",
-        link: "/class-9/books/punjab-board-islamiat/",
-      },
-      {
-        id: 8,
-        title: "General Math Books",
-        link: "/class-9/books/punjab-board-general-math/",
-      },
-      {
-        id: 9,
-        title: "Computer Science Books",
-        link: "/class-9/books/punjab-board-computer-science/",
-      },
-      {
-        id: 10,
-        title: "Economics Books",
-        link: "/class-9/books/punjab-board-economics/",
-      },
-      {
-        id: 11,
-        title: "Tarjuma tul Quran Books",
-        link: "/class-9/books/punjab-board-tarjuma-tul-quran/",
-      },
-      {
-        id: 12,
-        title: "Ikhlaqiat Books",
-        link: "/class-9/books/punjab-board-ikhlaqiat/",
-      },
+      // {
+      //   id: 4,
+      //   title: "English Books",
+      //   link: "/class-9/books/punjab-board-english/",
+      // },
+      // {
+      //   id: 5,
+      //   title: "Urdu Books",
+      //   link: "/class-9/books/punjab-board-urdu/",
+      // },
+      // {
+      //   id: 6,
+      //   title: "Pak Study Books",
+      //   link: "/class-9/books/punjab-board-pak-study/",
+      // },
+      // {
+      //   id: 7,
+      //   title: "Islamiat Books",
+      //   link: "/class-9/books/punjab-board-islamiat/",
+      // },
+      // {
+      //   id: 8,
+      //   title: "General Math Books",
+      //   link: "/class-9/books/punjab-board-general-math/",
+      // },
+      // {
+      //   id: 9,
+      //   title: "Computer Science Books",
+      //   link: "/class-9/books/punjab-board-computer-science/",
+      // },
+      // {
+      //   id: 10,
+      //   title: "Economics Books",
+      //   link: "/class-9/books/punjab-board-economics/",
+      // },
+      // {
+      //   id: 11,
+      //   title: "Tarjuma tul Quran Books",
+      //   link: "/class-9/books/punjab-board-tarjuma-tul-quran/",
+      // },
+      // {
+      //   id: 12,
+      //   title: "Ikhlaqiat Books",
+      //   link: "/class-9/books/punjab-board-ikhlaqiat/",
+      // },
     ],
   },
 ];

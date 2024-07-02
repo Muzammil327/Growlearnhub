@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 
 import Card3 from '@/src/components/card2/card3'
 import ImageContainer from '@/src/components/element/image'
-import BookWrapper from '@/src/app/books/BookWrapper'
+import BookWrapper from '@/src/app/(class)/BookWrapper'
 import PDFViewer from '@/src/components/element/PDFViewer'
 
 import { class_Book } from '@/src/app/books/type'
@@ -41,6 +41,7 @@ export default function page() {
       b2="Books"
       b2Link="/class-9/books/"
       b3="Punjab Board Physics"
+      clist={clist}
     >
       <p>
         Are you looking for a <strong>Class 9 physics book punjab board</strong>
@@ -140,3 +141,58 @@ export const metadata: Metadata = {
     },
   },
 }
+
+const clist = [
+  {
+    title: 'Class 10 Physics Books',
+    link: '/class-10/books/punjab-board-physics/',
+  },
+  {
+    title: 'Class 10th Chemistry Books',
+    link: '/class-10/books/punjab-board-chemistry/',
+  },
+  {
+    title: '10 class Biology Books',
+    link: '/class-10/books/punjab-board-biology/',
+  },
+  {
+    title: '10th class Math Books',
+    link: '/class-10/books/punjab-board-math/',
+  },
+  {
+    title: 'Class 10 English Books',
+    link: '/class-10/books/punjab-board-english/',
+  },
+  {
+    title: 'Class 10th Urdu Books',
+    link: '/class-10/books/punjab-board-urdu/',
+  },
+  {
+    title: '10 class Pak Study Books',
+    link: '/class-10/books/punjab-board-pak-study/',
+  },
+  {
+    title: '10th class Islamiat Books',
+    link: '/class-10/books/punjab-board-islamiyat/',
+  },
+  {
+    title: 'Class 10 General Math Books',
+    link: '/class-10/books/punjab-board-general-math/',
+  },
+  {
+    title: 'Class 10th Computer Science Books',
+    link: '/class-10/books/punjab-board-computer-science/',
+  },
+  {
+    title: '10 class Economics Books',
+    link: '/class-10/books/punjab-board-economics/',
+  },
+  {
+    title: '10th class Tarjuma Tul Quran Books',
+    link: '/class-10/books/punjab-board-tarjuma-tul-quran/',
+  },
+  {
+    title: '10th class Ikhlaqiat Books',
+    link: '/class-10/books/punjab-board-ikhlaqiat/',
+  },
+]

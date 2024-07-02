@@ -16,13 +16,14 @@ const data = {
   image: '/class_9.webp',
   url: 'https://growlearnhub.com/class-9/',
   keywords: [
-    'growlearnhub books',
-    'books',
+    'growlearnhub',
+    'class 9',
     'class 9 books',
-    'class 10 books',
-    'class 11 books',
-    'class 12 books',
-    'vu handout',
+    'class 9 notes',
+    'class 9 Past Paper',
+    'class 9 quiz',
+    'class 9 online test',
+    'class 9 pairing scheme',
   ],
   BookDatas: [
     {
@@ -167,9 +168,9 @@ const clist = [
   { title: 'Class 11 Notes', link: '/class-11/notes/' },
   { title: 'Class 12 Notes', link: '/class-12/notes/' },
 
-  { title: 'Class 10 Online Tests', link: '/class-10/online-tests/' },
-  { title: 'Class 11 Online Tests', link: '/class-11/online-tests/' },
-  { title: 'Class 12 Online Tests', link: '/class-12/online-tests/' },
+  { title: 'Class 10 Online Tests', link: '/class-10/online-test/' },
+  { title: 'Class 11 Online Tests', link: '/class-11/online-test/' },
+  { title: 'Class 12 Online Tests', link: '/class-12/online-test/' },
 
   { title: 'Class 10 Past Papers', link: '/class-10/past-papers/' },
   { title: 'Class 11 Past Papers', link: '/class-11/past-papers/' },

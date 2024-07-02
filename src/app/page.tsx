@@ -1,6 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
-import HomeView from "@/src/views/homeView";
+import HomeView from "@/src/components/home/page";
 
 const data = {
   title: "Grow Learn Hub",
@@ -29,7 +29,6 @@ const data = {
 export default function Home() {
   return (
     <>
-     
         <HomeView />
     </>
   );

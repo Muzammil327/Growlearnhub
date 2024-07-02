@@ -20,3 +20,7 @@ export interface class_Book {
   name: string;
   list: List[];
 }
+export interface class_Note {
+  name: string;
+  list: List[];
+}

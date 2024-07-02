@@ -9,7 +9,7 @@ import { class_Book } from '@/src/app/books/type'
 import { Class9_Book } from '@/src/app/(class)/class-9/books/data'
 
 const data = {
-  title: 'Class 9 Books || GrowLearnHub',
+  title: 'Class 9 Books | GrowLearnHub',
   description:
     'Here you can access class 9 books in english and urdu medium of all subjects like physics, chemistry biology and math available in this website.',
   canonical: '/class-9/books/',
@@ -18,6 +18,7 @@ const data = {
   image: '/books/class_9_books.webp',
   url: 'https://growlearnhub.com/class-9/books/',
   keywords: [
+    'growlearnhub',
     'class 9 books',
     'class 9 textbooks',
     'class 9th books',
@@ -121,27 +122,52 @@ export const metadata: Metadata = {
 }
 
 const clist = [
-  { title: 'Class 10 Books', link: '/class-10/books/' },
-  { title: 'Class 11 Books', link: '/class-11/books/' },
-  { title: 'Class 12 Books', link: '/class-12/books/' },
-
-  { title: 'Class 10 Quiz', link: '/class-10/quiz/' },
-  { title: 'Class 11 Quiz', link: '/class-11/quiz/' },
-  { title: 'Class 12 Quiz', link: '/class-12/quiz/' },
-
-  { title: 'Class 10 Notes', link: '/class-10/notes/' },
-  { title: 'Class 11 Notes', link: '/class-11/notes/' },
-  { title: 'Class 12 Notes', link: '/class-12/notes/' },
-
-  { title: 'Class 10 Online Tests', link: '/class-10/online-tests/' },
-  { title: 'Class 11 Online Tests', link: '/class-11/online-tests/' },
-  { title: 'Class 12 Online Tests', link: '/class-12/online-tests/' },
-
-  { title: 'Class 10 Past Papers', link: '/class-10/past-papers/' },
-  { title: 'Class 11 Past Papers', link: '/class-11/past-papers/' },
-  { title: 'Class 12 Past Papers', link: '/class-12/past-papers/' },
-
-  { title: 'Class 10 Pairing Schemes', link: '/class-10/pairing-schemes/' },
-  { title: 'Class 11 Pairing Schemes', link: '/class-11/pairing-schemes/' },
-  { title: 'Class 12 Pairing Schemes', link: '/class-12/pairing-schemes/' },
+  {
+    title: 'Class 10 Physics Books',
+    link: '/class-10/books/punjab-board-physics/',
+  },
+  {
+    title: 'Class 10th Chemistry Books',
+    link: '/class-10/books/punjab-board-chemistry/',
+  },
+  {
+    title: '10 class Biology Books',
+    link: '/class-10/books/punjab-board-biology/',
+  },
+  {
+    title: '10th class Math Books',
+    link: '/class-10/books/punjab-board-math/',
+  },
+  {
+    title: 'Class 11 Physics Books',
+    link: '/class-11/books/punjab-board-physics/',
+  },
+  {
+    title: 'Class 11th Chemistry Books',
+    link: '/class-11/books/punjab-board-chemistry/',
+  },
+  {
+    title: '11 class Biology Books',
+    link: '/class-11/books/punjab-board-biology/',
+  },
+  {
+    title: '11th class Math Books',
+    link: '/class-11/books/punjab-board-math/',
+  },
+  {
+    title: 'Class 12 Physics Books',
+    link: '/class-12/books/punjab-board-physics/',
+  },
+  {
+    title: 'Class 12th Chemistry Books',
+    link: '/class-12/books/punjab-board-chemistry/',
+  },
+  {
+    title: '12 class Biology Books',
+    link: '/class-12/books/punjab-board-biology/',
+  },
+  {
+    title: '12th class Math Books',
+    link: '/class-12/books/punjab-board-math/',
+  },
 ]

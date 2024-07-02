@@ -4,7 +4,7 @@ import Button from '../../ui/Button'
 
 export default function Header(props: { title: string }) {
   return (
-    <section className="mb-10">
+    <section className="">
       <Container>
         <div className="grid md:grid-cols-5 md:gap-4 py-8 md:justify-between items-center">
           <div className="md:py-24 py-12 md:col-span-3">
