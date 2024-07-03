@@ -106,11 +106,18 @@ const route = [
   'class-12/',
 
   'class-9/books/',
+  'class-9/books/punjab-board-physics/',
+  'class-9/notes/',
+  'class-9/notes/punjab-board-physics/',
+  'class-9/past-papers/',
+  'class-9/quiz/',
+  'class-9/online-test/',
+  'class-9/pairing-schemes/',
+
   'class-10/books/',
   'class-11/books/',
   'class-12/books/',
 
-  'class-9/notes/',
   'class-10/notes/',
   'class-11/notes/',
   'class-12/notes/',
