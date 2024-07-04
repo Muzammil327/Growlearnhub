@@ -3,10 +3,10 @@ import { Metadata } from 'next'
 
 import Card3 from '@/src/components/card2/card3'
 import ImageContainer from '@/src/components/element/image'
-import BookWrapper from '@/src/app/(class)/BookWrapper'
 
 import { class_Book } from '@/src/app/books/type'
 import { Class9_quiz } from './data'
+import QuizWrapper from '../../QuizWrapper'
 
 const data = {
   title: 'Class 9 Quiz | GrowLearnHub',
@@ -28,7 +28,7 @@ const data = {
 
 export default function page() {
   return (
-    <BookWrapper
+    <QuizWrapper
       title={data.title}
       url={data.url}
       b1="9 Class"
@@ -73,7 +73,7 @@ export default function page() {
           </div>
         )
       })}
-    </BookWrapper>
+    </QuizWrapper>
   )
 }
 
@@ -116,50 +116,50 @@ export const metadata: Metadata = {
 const clist = [
   {
     title: 'Class 10 Physics Quiz',
-    link: '/class-10/quiz/punjab-board-physics/',
+    link: '/class-10/quiz/physics/',
   },
   {
     title: 'Class 10th Chemistry Quiz',
-    link: '/class-10/quiz/punjab-board-chemistry/',
+    link: '/class-10/quiz/chemistry/',
   },
   {
     title: '10 class Biology Quiz',
-    link: '/class-10/quiz/punjab-board-biology/',
+    link: '/class-10/quiz/biology/',
   },
   {
     title: '10th class Math Quiz',
-    link: '/class-10/quiz/punjab-board-math/',
+    link: '/class-10/quiz/math/',
   },
   {
     title: 'Class 11 Physics Quiz',
-    link: '/class-11/quiz/punjab-board-physics/',
+    link: '/class-11/quiz/physics/',
   },
   {
     title: 'Class 11th Chemistry Quiz',
-    link: '/class-11/quiz/punjab-board-chemistry/',
+    link: '/class-11/quiz/chemistry/',
   },
   {
     title: '11 class Biology Quiz',
-    link: '/class-11/quiz/punjab-board-biology/',
+    link: '/class-11/quiz/biology/',
   },
   {
     title: '11th class Math Quiz',
-    link: '/class-11/quiz/punjab-board-math/',
+    link: '/class-11/quiz/math/',
   },
   {
     title: 'Class 12 Physics Quiz',
-    link: '/class-12/quiz/punjab-board-physics/',
+    link: '/class-12/quiz/physics/',
   },
   {
     title: 'Class 12th Chemistry Quiz',
-    link: '/class-12/quiz/punjab-board-chemistry/',
+    link: '/class-12/quiz/chemistry/',
   },
   {
     title: '12 class Biology Quiz',
-    link: '/class-12/quiz/punjab-board-biology/',
+    link: '/class-12/quiz/biology/',
   },
   {
     title: '12th class Math Quiz',
-    link: '/class-12/quiz/punjab-board-math/',
+    link: '/class-12/quiz/math/',
   },
 ]

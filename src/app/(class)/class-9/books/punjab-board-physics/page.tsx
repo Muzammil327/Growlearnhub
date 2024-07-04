@@ -156,39 +156,35 @@ const clist = [
     link: '/class-10/books/punjab-board-math/',
   },
   {
-    title: 'Class 10 English Books',
-    link: '/class-10/books/punjab-board-english/',
+    title: 'Class 11 Physics Books',
+    link: '/class-11/books/punjab-board-physics/',
   },
   {
-    title: 'Class 10th Urdu Books',
-    link: '/class-10/books/punjab-board-urdu/',
+    title: 'Class 11th Chemistry Books',
+    link: '/class-11/books/punjab-board-chemistry/',
   },
   {
-    title: '10 class Pak Study Books',
-    link: '/class-10/books/punjab-board-pak-study/',
+    title: '11 class Biology Books',
+    link: '/class-11/books/punjab-board-biology/',
   },
   {
-    title: '10th class Islamiat Books',
-    link: '/class-10/books/punjab-board-islamiyat/',
+    title: '11th class Math Books',
+    link: '/class-11/books/punjab-board-math/',
   },
   {
-    title: 'Class 10 General Math Books',
-    link: '/class-10/books/punjab-board-general-math/',
+    title: 'Class 12 Physics Books',
+    link: '/class-12/books/punjab-board-physics/',
   },
   {
-    title: 'Class 10th Computer Science Books',
-    link: '/class-10/books/punjab-board-computer-science/',
+    title: 'Class 12th Chemistry Books',
+    link: '/class-12/books/punjab-board-chemistry/',
   },
   {
-    title: '10 class Economics Books',
-    link: '/class-10/books/punjab-board-economics/',
+    title: '12 class Biology Books',
+    link: '/class-12/books/punjab-board-biology/',
   },
   {
-    title: '10th class Tarjuma Tul Quran Books',
-    link: '/class-10/books/punjab-board-tarjuma-tul-quran/',
-  },
-  {
-    title: '10th class Ikhlaqiat Books',
-    link: '/class-10/books/punjab-board-ikhlaqiat/',
-  },
+    title: '12th class Math Books',
+    link: '/class-12/books/punjab-board-math/',
+  }
 ]

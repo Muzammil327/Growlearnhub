@@ -3,27 +3,29 @@ import { Metadata } from 'next'
 
 import Card3 from '@/src/components/card2/card3'
 import ImageContainer from '@/src/components/element/image'
-import BookWrapper from '@/src/app/books/BookWrapper'
+import BookWrapper from '@/src/app/(class)/BookWrapper'
 import PDFViewer from '@/src/components/element/PDFViewer'
 
 import { class_Book } from '@/src/app/books/type'
 import { Class9_Book } from '@/src/app/(class)/class-9/books/data'
 
 const data = {
-  title: 'Class 9 Math Book Punjab Board',
+  title: '9th Class Math Book PDF Punjab Board',
   description:
-    'Here you can access class 9 Math Book Punjab Board in english and urdu medium available in this website.',
-  canonical: '/books/class-9/punjab-board-math/',
+    'Here you can access 9th class Biology Book PDF Punjab Board in english and urdu medium available in this website.',
+  canonical: '/class-9/books/punjab-board-math/',
   index: true,
   follow: true,
-  image: '/books/class-9/punjab/class-9-math-book-punjab-board.webp',
-  url: 'https://growlearnhub.com/books/class-9/punjab-board-math/',
+  image: '/books/class-9/punjab/class-9-physics-book-punjab-board.webp',
+  url: 'https://growlearnhub.com/class-9/books/punjab-board-math/',
   english_medium: '1m0c4RwJH1loIwLaWurWOarhBYzncf2lQ',
   urdu_medium: '13Y8JmTqRvSsKUTCk6muXFG2ql-ef_AbZ',
   keywords: [
+    '9 class book math',
+    '9 class math book pdf',
+    '9th class math textbook pdf',
     'phy class 9',
     'class 9 math book',
-    '9 class book math',
     'class 9th math book pdf',
     'class 9 math pdf',
     'class nine math book',
@@ -36,25 +38,19 @@ export default function page() {
     <BookWrapper
       title={data.title}
       url={data.url}
-      b1="Class 9"
+      b1="9 Class"
       b1Link="/class-9/"
       b2="Books"
       b2Link="/class-9/books/"
       b3="Punjab Board Math"
+      clist={clist}
     >
       <p>
-        Are you looking for a <strong>Class 9 math book punjab board</strong>?
+        Are you looking for a <strong>9th Class Math book punjab board</strong>?
         Here, you can access all the books you need for free. Our website offers
         a complete collection of books for students in Class 9, 10, 11, and 12.
         Whether you&apos;re preparing for exams or need extra resources,
         we&apos;ve got you covered.
-      </p>
-      <p>
-        Welcome to our Educational Hub, an innovative platform designed for high
-        school student in Class 9 to 12, Chartered Accountancy (CA), and Virtual
-        University learners to fulfil academic needs. Our mission is to provide
-        a one-stop solution for all your educational requirements, empowering
-        you to achieve excellence in your studies and professional goals.
       </p>
       <ImageContainer
         image={data.image}
@@ -65,7 +61,7 @@ export default function page() {
         priority
       />
 
-      <h2>Download Class 9 Math Book English Medium Punjab Board</h2>
+      <h2>Download 9th Math Book PDF English Medium Punjab Board</h2>
       <p>
         Here, you can download Matric class 9 Math Text Book in PDF Format for
         English Medium. This book is officially published by Punjab Text Book
@@ -73,7 +69,7 @@ export default function page() {
       </p>
       <PDFViewer pdfUrl={data.english_medium} />
 
-      <h3>Download 9th Class Math Textbook Urdu Medium Punjab Board</h3>
+      <h3>Download PDF Class 9 Math Textbook Urdu Medium Punjab Board</h3>
       <p>
         Here, you can download Matric class 9 Math Text Book in PDF Format for
         Urdu Medium. This book is officially published by Punjab Text Book
@@ -87,7 +83,7 @@ export default function page() {
               {data.name} Class 9 Books
             </h3>
             <p>
-              Our collection of <strong>Class 9 Textbooks</strong> of Punjab
+              Our collection of <strong>9 Class Textbooks</strong> of Punjab
               Baord encompasses all subjects included Physics, Biology,
               Chemistry, Math, English, Urdu, Pak Study, Islamiat, General Math,
               Computer Science, Economics, Tarjuma Tul Quran, Ikhlaqiat,
@@ -140,3 +136,54 @@ export const metadata: Metadata = {
     },
   },
 }
+
+const clist = [
+  {
+    title: 'Class 10 Physics Books',
+    link: '/class-10/books/punjab-board-physics/',
+  },
+  {
+    title: 'Class 10th Chemistry Books',
+    link: '/class-10/books/punjab-board-chemistry/',
+  },
+  {
+    title: '10 class Biology Books',
+    link: '/class-10/books/punjab-board-biology/',
+  },
+  {
+    title: '10th class Math Books',
+    link: '/class-10/books/punjab-board-math/',
+  },
+  {
+    title: 'Class 11 Physics Books',
+    link: '/class-11/books/punjab-board-physics/',
+  },
+  {
+    title: 'Class 11th Chemistry Books',
+    link: '/class-11/books/punjab-board-chemistry/',
+  },
+  {
+    title: '11 class Biology Books',
+    link: '/class-11/books/punjab-board-biology/',
+  },
+  {
+    title: '11th class Math Books',
+    link: '/class-11/books/punjab-board-math/',
+  },
+  {
+    title: 'Class 12 Physics Books',
+    link: '/class-12/books/punjab-board-physics/',
+  },
+  {
+    title: 'Class 12th Chemistry Books',
+    link: '/class-12/books/punjab-board-chemistry/',
+  },
+  {
+    title: '12 class Biology Books',
+    link: '/class-12/books/punjab-board-biology/',
+  },
+  {
+    title: '12th class Math Books',
+    link: '/class-12/books/punjab-board-math/',
+  },
+]

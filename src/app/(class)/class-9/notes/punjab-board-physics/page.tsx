@@ -7,7 +7,7 @@ import BookWrapper from '@/src/app/(class)/BookWrapper'
 import PDFViewer from '@/src/components/element/PDFViewer'
 
 import { class_Book } from '@/src/app/books/type'
-import { Class9_Book } from '@/src/app/(class)/class-9/books/data'
+import { Class9_Notes } from '../data'
 import Link from 'next/link'
 
 const data = {
@@ -99,7 +99,7 @@ export default function page() {
         </li>
       </ul>
 
-      {Class9_Book.map((data: class_Book) => {
+      {Class9_Notes.map((data: class_Book) => {
         return (
           <div key={data.name}>
             <h3 className="text-xl font-semibold py-2">
@@ -178,39 +178,35 @@ const clist = [
     link: '/class-10/notes/punjab-board-math/',
   },
   {
-    title: 'Class 10 English Notes',
-    link: '/class-10/notes/punjab-board-english/',
+    title: 'Class 11 Physics Notes',
+    link: '/class-11/notes/punjab-board-physics/',
   },
   {
-    title: 'Class 10th Urdu Notes',
-    link: '/class-10/notes/punjab-board-urdu/',
+    title: 'Class 11th Chemistry Notes',
+    link: '/class-11/notes/punjab-board-chemistry/',
   },
   {
-    title: '10 class Pak Study Notes',
-    link: '/class-10/notes/punjab-board-pak-study/',
+    title: '11 class Biology Notes',
+    link: '/class-11/notes/punjab-board-biology/',
   },
   {
-    title: '10th class Islamiat Notes',
-    link: '/class-10/notes/punjab-board-islamiyat/',
+    title: '11th class Math Notes',
+    link: '/class-11/notes/punjab-board-math/',
   },
   {
-    title: 'Class 10 General Math Notes',
-    link: '/class-10/notes/punjab-board-general-math/',
+    title: 'Class 12 Physics Notes',
+    link: '/class-12/notes/punjab-board-physics/',
   },
   {
-    title: 'Class 10th Computer Science Notes',
-    link: '/class-10/notes/punjab-board-computer-science/',
+    title: 'Class 12th Chemistry Notes',
+    link: '/class-12/notes/punjab-board-chemistry/',
   },
   {
-    title: '10 class Economics Notes',
-    link: '/class-10/notes/punjab-board-economics/',
+    title: '12 class Biology Notes',
+    link: '/class-12/notes/punjab-board-biology/',
   },
   {
-    title: '10th class Tarjuma Tul Quran Notes',
-    link: '/class-10/notes/punjab-board-tarjuma-tul-quran/',
-  },
-  {
-    title: '10th class Ikhlaqiat Notes',
-    link: '/class-10/notes/punjab-board-ikhlaqiat/',
+    title: '12th class Math Notes',
+    link: '/class-12/notes/punjab-board-math/',
   },
 ]

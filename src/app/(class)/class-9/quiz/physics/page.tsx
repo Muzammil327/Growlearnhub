@@ -3,12 +3,11 @@ import { Metadata } from 'next'
 
 import Card3 from '@/src/components/card2/card3'
 import ImageContainer from '@/src/components/element/image'
-import BookWrapper from '@/src/app/(class)/BookWrapper'
-import PDFViewer from '@/src/components/element/PDFViewer'
 
 import { class_Book } from '@/src/app/books/type'
-import { Class9_Book } from '@/src/app/(class)/class-9/books/data'
+import { Class9_quiz } from '../data'
 import Link from 'next/link'
+import QuizWrapper from '../../../QuizWrapper'
 
 const data = {
   title: 'Class 9 Physics Mcqs PDF',
@@ -19,8 +18,6 @@ const data = {
   follow: true,
   image: '/books/class-9/punjab/class-9-physics-book-punjab-board.webp',
   url: 'https://growlearnhub.com/class-9/quiz/physics/',
-  english_medium: '1my_m9qLxXF3LCw4eCFlCJGexOmsazJmg',
-  urdu_medium: '1_cp-urrPMokhCSCExs-B8uEujlIfqDjd',
   keywords: [
     '9 class quiz physics',
     '9 class physics quiz pdf',
@@ -35,7 +32,7 @@ const data = {
 
 export default function page() {
   return (
-    <BookWrapper
+    <QuizWrapper
       title={data.title}
       url={data.url}
       b1="9 Class"
@@ -95,7 +92,7 @@ export default function page() {
         </li>
       </ul>
 
-      {Class9_Book.map((data: class_Book) => {
+      {Class9_quiz.map((data: class_Book) => {
         return (
           <div key={data.name}>
             <h3 className="text-xl font-semibold py-2">
@@ -116,7 +113,7 @@ export default function page() {
           </div>
         )
       })}
-    </BookWrapper>
+    </QuizWrapper>
   )
 }
 
@@ -174,39 +171,35 @@ const clist = [
     link: '/class-10/quiz/math/',
   },
   {
-    title: 'Class 10 English Quiz',
-    link: '/class-10/quiz/english/',
+    title: 'Class 11 Physics Quiz',
+    link: '/class-11/quiz/physics/',
   },
   {
-    title: 'Class 10th Urdu Quiz',
-    link: '/class-10/quiz/urdu/',
+    title: 'Class 11th Chemistry Quiz',
+    link: '/class-11/quiz/chemistry/',
   },
   {
-    title: '10 class Pak Study Quiz',
-    link: '/class-10/quiz/pak-study/',
+    title: '11 class Biology Quiz',
+    link: '/class-11/quiz/biology/',
   },
   {
-    title: '10th class Islamiat Quiz',
-    link: '/class-10/quiz/islamiyat/',
+    title: '11th class Math Quiz',
+    link: '/class-11/quiz/math/',
   },
   {
-    title: 'Class 10 General Math Quiz',
-    link: '/class-10/quiz/general-math/',
+    title: 'Class 12 Physics Quiz',
+    link: '/class-12/quiz/physics/',
   },
   {
-    title: 'Class 10th Computer Science Quiz',
-    link: '/class-10/quiz/computer-science/',
+    title: 'Class 12th Chemistry Quiz',
+    link: '/class-12/quiz/chemistry/',
   },
   {
-    title: '10 class Economics Quiz',
-    link: '/class-10/quiz/economics/',
+    title: '12 class Biology Quiz',
+    link: '/class-12/quiz/biology/',
   },
   {
-    title: '10th class Tarjuma Tul Quran Quiz',
-    link: '/class-10/quiz/tarjuma-tul-quran/',
-  },
-  {
-    title: '10th class Ikhlaqiat Quiz',
-    link: '/class-10/quiz/ikhlaqiat/',
+    title: '12th class Math Quiz',
+    link: '/class-12/quiz/math/',
   },
 ]
