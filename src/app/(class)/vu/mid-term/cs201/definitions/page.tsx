@@ -20,7 +20,7 @@ export default function Page() {
   )
 }
 
-export function Definition({
+ function Definition({
   title,
   para,
   slug,
