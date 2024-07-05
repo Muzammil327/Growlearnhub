@@ -4,7 +4,7 @@ import VUWrapper from '../VUWrapper'
 export default function Page() {
   return (
     <VUWrapper title="VU Mid Term">
-      <div className="grid gap-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 my-5">
+      <div className="grid gap-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 my-20">
         <Card3
           title="CS101 - Introduction to Computing"
           link="/vu/mid-term/cs101/"
