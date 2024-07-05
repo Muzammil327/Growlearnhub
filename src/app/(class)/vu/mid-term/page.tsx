@@ -9,6 +9,14 @@ export default function Page() {
           title="CS101 - Introduction to Computing"
           link="/vu/mid-term/cs101/"
         />
+        <Card3
+          title="CS201 - Introduction to Programming"
+          link="/vu/mid-term/cs201/"
+        />
+        <Card3
+          title="CS302 - Digital Logic Design"
+          link="/vu/mid-term/cs302/"
+        />
       </div>
     </VUWrapper>
   )
