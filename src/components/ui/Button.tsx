@@ -4,7 +4,7 @@ import { text } from 'stream/consumers'
 interface ButtonProps {
   children: React.ReactNode
   className?: string
-  text: string
+  text?: string
   onClick?: () => void
 }
 

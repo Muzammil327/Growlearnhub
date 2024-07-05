@@ -131,4 +131,5 @@ const route = [
   'class-10/notes/',
   'class-11/notes/',
   'class-12/notes/',
+  'vu/mid-mark-calculator/'
 ]
