@@ -131,5 +131,18 @@ const route = [
   'class-10/notes/',
   'class-11/notes/',
   'class-12/notes/',
-  'vu/mid-mark-calculator/'
+
+  'vu/',
+  'vu/mid-term/',
+  'vu/mid-term/cs101/',
+  'vu/mid-term/cs101/abbreviation/',
+  'vu/mid-term/cs101/mcqs/',
+  'vu/mid-term/cs201/',
+  'vu/mid-term/cs201/abbreviation/',
+  'vu/mid-term/cs201/mcqs/',
+  'vu/mid-term/cs201/definitions/',
+  'vu/mid-term/cs302/',
+  'vu/mid-term/cs302/abbreviation/',
+  'vu/mid-term/cs302/mcqs/',
+  'vu/mid-mark-calculator/',
 ]
