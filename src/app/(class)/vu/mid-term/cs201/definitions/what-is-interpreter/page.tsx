@@ -1,44 +1,39 @@
 import VUWrapper from '@/src/app/(class)/vu/VUWrapper'
-import Link from 'next/link'
-
 import { Metadata } from 'next'
 
 const data = {
-  title: 'VU CS201 Mid Term Chapter 3 Mcqs',
+  title: 'What is Interpreter | VU CS201 | Definitions',
   description:
-    'Here you get cs201 mid term chapter 3 mcqs chapter wise, definitions, important  and further more in this platform.',
-  canonical: '/vu/mid-term/cs201/mcqs/chapter-3/',
+    'Interpreters translates the program line by line meaning it reads one line of program and translates it.',
+  canonical: '/vu/mid-term/cs201/definitions/what-is-interpreter/',
   index: true,
   follow: true,
   image: '/books/books_growlearnhub.webp',
-  url: 'https://growlearnhub.com/vu/mid-term/cs201/mcqs/chapter-3/',
+  url: 'https://growlearnhub.com/vu/mid-term/cs201/definitions/what-is-interpreter/',
   keywords: [
     'growlearnhub vu',
     'vu',
     'mid term',
     'vu mid term',
     'cs201',
-    'mcqs',
-    'chapter 3',
-    'cs201 mcqs',
-    'cs201 mcqs chapter 3',
+    'cs201 definitions',
     'mid term cs201',
-    'mid term mcqs cs201',
+    'mid term cs201 definitions',
+    'interpreter',
+    'what is interpreter',
   ],
 }
 
 export default function Page() {
   return (
-    <VUWrapper title="VU CS201 Mid Term MCQ's Chapter 3">
+    <VUWrapper title="What is Interpreters">
       <div className="my-20">
-        <div className="flex justify-between items-center">
-          <Link className="btn" href="/vu/mid-term/cs201/mcqs/chapter-3/">
-            Chapter 3
-          </Link>
-          <Link className="btn" href="/vu/mid-term/cs201/mcqs/">
-            Chapter 4
-          </Link>
-        </div>
+        <h2>What is Interpreter.</h2>
+        <p>
+          Interpreters translates the program line by line meaning it reads one
+          line of program and translates it, then it reads second line,
+          translate it and so on.
+        </p>
       </div>
     </VUWrapper>
   )

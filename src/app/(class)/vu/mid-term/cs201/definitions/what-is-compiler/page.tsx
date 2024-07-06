@@ -1,44 +1,38 @@
 import VUWrapper from '@/src/app/(class)/vu/VUWrapper'
-import Link from 'next/link'
-
 import { Metadata } from 'next'
 
 const data = {
-  title: 'VU CS201 Mid Term Chapter 3 Mcqs',
+  title: 'What is Compiler | VU CS201 | Definitions',
   description:
-    'Here you get cs201 mid term chapter 3 mcqs chapter wise, definitions, important  and further more in this platform.',
-  canonical: '/vu/mid-term/cs201/mcqs/chapter-3/',
+    'Compiler read the whole program and translates it into machine language completely.',
+  canonical: '/vu/mid-term/cs201/definitions/what-is-compiler/',
   index: true,
   follow: true,
   image: '/books/books_growlearnhub.webp',
-  url: 'https://growlearnhub.com/vu/mid-term/cs201/mcqs/chapter-3/',
+  url: 'https://growlearnhub.com/vu/mid-term/cs201/definitions/what-is-compiler/',
   keywords: [
     'growlearnhub vu',
     'vu',
     'mid term',
     'vu mid term',
     'cs201',
-    'mcqs',
-    'chapter 3',
-    'cs201 mcqs',
-    'cs201 mcqs chapter 3',
+    'cs201 definitions',
     'mid term cs201',
-    'mid term mcqs cs201',
+    'mid term cs201 definitions',
+    'compiler',
+    'what is compiler',
   ],
 }
 
 export default function Page() {
   return (
-    <VUWrapper title="VU CS201 Mid Term MCQ's Chapter 3">
+    <VUWrapper title="What is Compiler">
       <div className="my-20">
-        <div className="flex justify-between items-center">
-          <Link className="btn" href="/vu/mid-term/cs201/mcqs/chapter-3/">
-            Chapter 3
-          </Link>
-          <Link className="btn" href="/vu/mid-term/cs201/mcqs/">
-            Chapter 4
-          </Link>
-        </div>
+        <h2>What is Compiler.</h2>
+        <p>
+          Compiler read the whole program and translates it into machine
+          language completely.
+        </p>
       </div>
     </VUWrapper>
   )

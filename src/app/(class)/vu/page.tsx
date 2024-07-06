@@ -1,5 +1,21 @@
 import Card3 from '@/src/components/card2/card3'
 import VUWrapper from './VUWrapper'
+import { Metadata } from 'next'
+
+const data = {
+  title: 'VU Grow Learn Hub',
+  description:
+    'Here you download books of vu of all semster and every book of mid term and final term containing abbreviations, mcqs, definitions.',
+  canonical: '/vu/',
+  index: true,
+  follow: true,
+  image: '/books/books_growlearnhub.webp',
+  url: 'https://growlearnhub.com/vu/',
+  keywords: [
+    'growlearnhub vu',
+    'vu',
+  ],
+}
 
 export default function Page() {
   return (
@@ -10,4 +26,40 @@ export default function Page() {
       </div>
     </VUWrapper>
   )
+}
+
+export const metadata: Metadata = {
+  title: data.title,
+  description: data.description,
+  keywords: data.keywords,
+  openGraph: {
+    title: data.title,
+    description: data.description,
+    url: data.url,
+    images: [
+      {
+        url: 'https://nextjs.org/og.png',
+        alt: data.title,
+      },
+    ],
+  },
+  alternates: {
+    canonical: data.canonical,
+  },
+  robots: {
+    index: data.index,
+    follow: data.follow,
+    googleBot: {
+      index: data.index,
+      follow: data.follow,
+    },
+  },
+  twitter: {
+    title: data.title,
+    description: data.description,
+    images: {
+      url: 'https://nextjs.org/og.png',
+      alt: data.title,
+    },
+  },
 }

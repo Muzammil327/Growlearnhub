@@ -137,16 +137,29 @@ const route = [
 
   'vu/mid-term/cs101/',
   'vu/mid-term/cs101/abbreviation/',
-  'vu/mid-term/cs101/mcqs/',
+  'vu/mid-term/cs101/mcqs/',  
+  'vu/mid-term/cs101/mcqs/chapter-1/',
+  'vu/mid-term/cs101/mcqs/chapter-2/',
+  'vu/mid-term/cs101/mcqs/chapter-3/',
 
   'vu/mid-term/cs201/',
   'vu/mid-term/cs201/abbreviation/',
   'vu/mid-term/cs201/mcqs/',
+  'vu/mid-term/cs201/mcqs/chapter-1/',
+  'vu/mid-term/cs201/mcqs/chapter-2/',
+  'vu/mid-term/cs201/mcqs/chapter-3/',
   'vu/mid-term/cs201/definitions/',
+  'vu/mid-term/cs201/definitions/what-is-pointer/',
+  'vu/mid-term/cs201/definitions/what-is-reference/',
+  'vu/mid-term/cs201/definitions/what-is-interpreter/',
+  'vu/mid-term/cs201/definitions/what-is-compiler/',
   
   'vu/mid-term/cs302/',
   'vu/mid-term/cs302/abbreviation/',
   'vu/mid-term/cs302/mcqs/',
+  'vu/mid-term/cs302/mcqs/chapter-1/',
+  'vu/mid-term/cs302/mcqs/chapter-2/',
+  'vu/mid-term/cs302/mcqs/chapter-3/',
 
   'vu/mid-mark-calculator/',
 ]
