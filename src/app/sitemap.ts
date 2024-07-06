@@ -153,6 +153,7 @@ const route = [
   'vu/mid-term/cs201/definitions/what-is-reference/',
   'vu/mid-term/cs201/definitions/what-is-interpreter/',
   'vu/mid-term/cs201/definitions/what-is-compiler/',
+  'vu/mid-term/cs201/definitions/what-is-program/',
   
   'vu/mid-term/cs302/',
   'vu/mid-term/cs302/abbreviation/',

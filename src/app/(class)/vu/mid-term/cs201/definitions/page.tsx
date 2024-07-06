@@ -28,6 +28,11 @@ export default function Page() {
     <VUWrapper title="VU CS201 Mid Term MCQ's">
       <div className="my-20">
         <Definition
+          title="What is Program."
+          para="A program is a precise sequence of steps to solve a particular problem."
+          slug="/vu/mid-term/cs201/definitions/what-is-program/"
+        />
+        <Definition
           title="What is Compiler."
           para="Compiler read the whole program and translates it into machine language completely."
           slug="/vu/mid-term/cs201/definitions/what-is-compiler/"

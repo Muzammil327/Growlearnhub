@@ -1,43 +1,38 @@
 import VUWrapper from '@/src/app/(class)/vu/VUWrapper'
-import Link from 'next/link'
 import { Metadata } from 'next'
 
 const data = {
-  title: 'VU CS101 Mid Term Chapter 3 Mcqs',
+  title: 'What is Program | VU CS201 | Definitions',
   description:
-    'Here you get cs101 mid term chapter 3 mcqs chapter wise, definitions, important  and further more in this platform.',
-  canonical: '/vu/mid-term/cs101/mcqs/chapter-3/',
+    'A program is a precise sequence of steps to solve a particular problem.',
+  canonical: '/vu/mid-term/cs201/definitions/what-is-program/',
   index: true,
   follow: true,
   image: '/books/books_growlearnhub.webp',
-  url: 'https://growlearnhub.com/vu/mid-term/cs101/mcqs/chapter-3/',
+  url: 'https://growlearnhub.com/vu/mid-term/cs201/definitions/what-is-program/',
   keywords: [
     'growlearnhub vu',
     'vu',
     'mid term',
     'vu mid term',
-    'cs101',
-    'mcqs',
-    'chapter 3',
-    'cs101 mcqs',
-    'cs101 mcqs chapter 3',
-    'mid term cs101',
-    'mid term mcqs cs101',
+    'cs201',
+    'cs201 definitions',
+    'mid term cs201',
+    'mid term cs201 definitions',
+    'program',
+    'what is program',
   ],
 }
 
 export default function Page() {
   return (
-    <VUWrapper title="VU CS101 Mid Term MCQ's Chapter 3">
+    <VUWrapper title="What is Program">
       <div className="my-20">
-        <div className="flex justify-between items-center">
-          <Link className="btn" href="/vu/mid-term/cs101/mcqs/chapter-3/">
-            Chapter 3
-          </Link>
-          <Link className="btn" href="/vu/mid-term/cs101/mcqs/">
-            Chapter 4
-          </Link>
-        </div>
+        <h2>What is Program.</h2>
+        <p>
+          A program is a precise sequence of steps to solve a particular
+          problem.
+        </p>
       </div>
     </VUWrapper>
   )
