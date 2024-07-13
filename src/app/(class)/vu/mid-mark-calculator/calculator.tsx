@@ -19,7 +19,7 @@ export default function Calculator({ url }: { url: string }) {
   const roundedTotalSum = totalSum.toFixed(2) // Round to 2 decimal places
 
   return (
-    <VUWrapper title="VU Marks Calculator">
+    <VUWrapper title="VU Mid Marks Calculator">
       <div className="my-10">
         <h2>Welcome to the Grow Learnhub Mid Term Mark Calculator</h2>
         <p>
