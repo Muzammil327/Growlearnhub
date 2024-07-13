@@ -38,7 +38,7 @@ export default function Calculator({ url }: { url: string }) {
           final, to succeed in the final No problem! Our VU Mark Calculator’s
           user-friendly interface makes it easy for everyone to use.
         </p>
-        <p>I any feature, Plz Comment below, Thanks.</p>
+        <p>If any feature, Plz Comment below, Thanks.</p>
         <QuizPercentage
           calculatedQuiz={calculatedQuiz}
           setCalculatedQuiz={setCalculatedQuiz}
