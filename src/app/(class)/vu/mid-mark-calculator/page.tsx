@@ -2,9 +2,9 @@ import { Metadata } from 'next'
 import Calculator from './calculator'
 
 const data = {
-  title: 'VU Mark Calculator Grow Learn Hub',
+  title: 'VU MID TERM Mark Calculator Grow Learn Hub',
   description:
-    'Here you can calculate mark by mark calculator, which marks are required in final exam to complete the semester.',
+    'Here you can calculate vu mid mark calculator, which marks are required in final exam to complete the semester.',
   canonical: '/vu/mid-mark-calculator/',
   index: true,
   follow: true,
@@ -13,9 +13,12 @@ const data = {
   keywords: [
     'growlearnhub vu',
     'vu',
-    'mid mark calculator',
-    'vu mid term',
-    'calculator',
+    'vu mid',
+    'vu mid term ',
+    'vu mid term mark',
+    'vu mid term mark calculator',
+    'mid term mark calculator',
+    'vu mark calculator',
   ],
 }
 

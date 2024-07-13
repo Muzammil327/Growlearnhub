@@ -20,6 +20,23 @@ export default function Calculator() {
   return (
     <VUWrapper title="VU Marks Calculator">
       <div className="my-10">
+        <h2>Welcome to the Grow Learnhub Mid Term Mark Calculator</h2>
+        <p>
+          Hey there! Welcome to our awesome Mark Calculator, It is created just
+          for the students of Virtual University. This tool helps you track your
+          grades, collecting marks in mid-exams, quizzes, assignments, and GDB.
+          This Mark Calculator is your new best friend for organizing grades and
+          maintaining grades on your academic journey.
+        </p>{' '}
+        <h3>Calculate your marks</h3>
+        <p>
+          It’s got you covered for all subjects and semesters, making it super
+          easy to calculate your marks accurately. Just fill in your scores for
+          assignments, quizzes, midterms, and GDB. It’ll give you your overall
+          percentage. And be aware you how many marks you are required in the
+          final, to succeed in the final No problem! Our VU Mark Calculator’s
+          user-friendly interface makes it easy for everyone to use.
+        </p>
         <QuizPercentage
           calculatedQuiz={calculatedQuiz}
           setCalculatedQuiz={setCalculatedQuiz}

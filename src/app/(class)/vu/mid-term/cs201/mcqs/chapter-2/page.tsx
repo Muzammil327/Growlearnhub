@@ -1,6 +1,7 @@
 import VUWrapper from '@/src/app/(class)/vu/VUWrapper'
 import Link from 'next/link'
 import { Metadata } from 'next'
+import QuizLayout from '@/src/components/element/quiz'
 
 const data = {
   title: 'VU CS201 Mid Term Chapter 2 Mcqs',
@@ -30,9 +31,22 @@ export default function Page() {
   return (
     <VUWrapper title="VU CS201 Mid Term MCQ's Chapter 2">
       <div className="my-20">
+        {datas.map((data: any) => {
+          return (
+            <QuizLayout
+              key={data.questionName}
+              questionName={data.questionName}
+              option1={data.option1}
+              option2={data.option2}
+              option3={data.option3}
+              option4={data.option4}
+              correctOption={data.correctOption}
+            />
+          )
+        })}
         <div className="flex justify-between items-center">
-          <Link className="btn" href="/vu/mid-term/cs201/mcqs/chapter-2/">
-            Chapter 2
+          <Link className="btn" href="/vu/mid-term/cs201/mcqs/chapter-1/">
+            Chapter 1
           </Link>
           <Link className="btn" href="/vu/mid-term/cs201/mcqs/chapter-3/">
             Chapter 3
@@ -78,3 +92,14 @@ export const metadata: Metadata = {
     },
   },
 }
+
+const datas = [
+  {
+    questionName: 'The C language was developed in late 60’s and 70’s in',
+    option1: 'Richards laboratories',
+    option2: 'Microsoft laboratories',
+    option3: 'Bell laboratories',
+    option4: 'IBM laboratries',
+    correctOption: 'Bell laboratories',
+  },
+]

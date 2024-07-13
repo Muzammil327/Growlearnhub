@@ -32,8 +32,8 @@ export default function Page() {
     <VUWrapper title="VU CS201 Mid Term MCQ's Chapter 3">
       <div className="my-20">
         <div className="flex justify-between items-center">
-          <Link className="btn" href="/vu/mid-term/cs201/mcqs/chapter-3/">
-            Chapter 3
+          <Link className="btn" href="/vu/mid-term/cs201/mcqs/chapter-2/">
+            Chapter 2
           </Link>
           <Link className="btn" href="/vu/mid-term/cs201/mcqs/">
             Chapter 4

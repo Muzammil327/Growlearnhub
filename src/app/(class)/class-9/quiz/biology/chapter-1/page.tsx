@@ -5,12 +5,12 @@ import Card3 from '@/src/components/card2/card3'
 import ImageContainer from '@/src/components/element/image'
 
 import { class_Book } from '@/src/app/books/type'
-import { Class9_quiz } from '../data'
-import Link from 'next/link'
-import QuizWrapper from '../../../QuizWrapper'
+import { Class9_quiz } from '../../data'
+import QuizWrapper from '../../../../QuizWrapper'
+import { Quiz } from '@/src/components/home/service'
 
 const data = {
-  title: 'Class 9 Biology Mcqs PDF',
+  title: 'Class 9 Biology Chapter 1 Mcqs',
   description:
     'Here you can access class 9 Biology Mcqs in chapter wise and topic Wise in english and urdu medium available in this website.',
   canonical: '/class-9/quiz/biology/',
@@ -40,11 +40,12 @@ export default function page() {
       b2="Quiz"
       b2Link="/class-9/quiz/"
       b3="Punjab Board Biology"
+      b3Link="/class-9/quiz/biology/"
+      b4="Chapter 1"
       clist={clist}
     >
       <p>
-        Are you looking for a{' '}
-        <strong>9th Class Biology quiz in Chapter Wise and Topic Wise</strong>?
+        Are you looking for a <strong>9th Class Biology quiz in Chapter Wise and Topic Wise</strong>?
         Here, you can access all the quiz you need for free. Our website offers
         a complete collection of quiz for students in Class 9, 10, 11, and 12.
         Whether you&apos;re preparing for exams or need extra resources,
@@ -59,38 +60,8 @@ export default function page() {
         priority
       />
 
-      <h2>9th Class Biology Quiz English Medium</h2>
+      <h2>9th Class Biology Quiz Chapter 1</h2>
       <p>Here, you can read Matric class 9 Biology Mcqs for English Medium.</p>
-
-      <ul>
-        <li>
-          <Link href="/class-9/quiz/biology/chapter-1/">Download PDF Chapter 1</Link>
-        </li>
-        <li>
-          <Link href="/class-9/quiz/biology/chapter-2/">Download PDF Chapter 2</Link>
-        </li>
-        <li>
-          <Link href="/">Download PDF Chapter 3</Link>
-        </li>
-        <li>
-          <Link href="/">Download PDF Chapter 4</Link>
-        </li>
-        <li>
-          <Link href="/">Download PDF Chapter 5</Link>
-        </li>
-        <li>
-          <Link href="/">Download PDF Chapter 6</Link>
-        </li>
-        <li>
-          <Link href="/">Download PDF Chapter 7</Link>
-        </li>
-        <li>
-          <Link href="/">Download PDF Chapter 8</Link>
-        </li>
-        <li>
-          <Link href="/">Download PDF Chapter 9</Link>
-        </li>
-      </ul>
 
       {Class9_quiz.map((data: class_Book) => {
         return (
@@ -98,6 +69,7 @@ export default function page() {
             <h3 className="text-xl font-semibold py-2">
               {data.name} Class 9 Quiz
             </h3>
+            <Quiz />
             <p>
               Our collection of <strong>9 Class Quiz</strong> of Punjab Baord
               encompasses all subjects included Physics, Biology, Chemistry,
@@ -202,4 +174,14 @@ const clist = [
     title: '12th class Math Quiz',
     link: '/class-12/quiz/math/',
   },
+]
+
+const quiz = [
+    {
+        name:"cvhbhfghgf",
+        option1:"option 1",
+        option2:"option 2",
+        option3:"option 3",
+        option4:"option 4",
+    }
 ]
