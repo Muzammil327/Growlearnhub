@@ -23,7 +23,7 @@ const data = {
 }
 
 export default function Page() {
-  return <Calculator />
+  return <Calculator url={data.url} />
 }
 
 export const metadata: Metadata = {

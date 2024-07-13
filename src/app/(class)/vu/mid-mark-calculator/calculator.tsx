@@ -6,8 +6,9 @@ import AssignmentPercentage from './Assignment'
 import { useState } from 'react'
 import Button from '@/src/components/ui/Button'
 import VUWrapper from '../VUWrapper'
+import Form from '@/src/components/element/form/page'
 
-export default function Calculator() {
+export default function Calculator({ url }: { url: string }) {
   const [calculatedAssignment, setCalculatedAssignment] = useState<number>(0)
   const [calculatedQuiz, setCalculatedQuiz] = useState<number>(0)
   const [calculatedGDB, setCalculatedGDB] = useState<number>(0)
@@ -37,6 +38,7 @@ export default function Calculator() {
           final, to succeed in the final No problem! Our VU Mark Calculator’s
           user-friendly interface makes it easy for everyone to use.
         </p>
+        <p>I any feature, Plz Comment below, Thanks.</p>
         <QuizPercentage
           calculatedQuiz={calculatedQuiz}
           setCalculatedQuiz={setCalculatedQuiz}
@@ -54,6 +56,7 @@ export default function Calculator() {
           setCalculatedMid={setCalculatedMid}
         />
         <Button className={'btn w-full mt-5'}>{roundedTotalSum}</Button>
+        <Form url={url} />
       </div>
     </VUWrapper>
   )
