@@ -63,7 +63,9 @@ export default function Calculator({ url }: { url: string }) {
           calculatedMid={calculatedMid}
           setCalculatedMid={setCalculatedMid}
         />
-        <Button className={'btn w-full mt-5'}>{roundedTotalSum}</Button>
+        <Button className="btn w-full mt-5">
+          <i>Here, You calculate total Mid Term Marks:</i> {roundedTotalSum}
+        </Button>
         <Form url={url} />
       </div>
     </VUWrapper>
