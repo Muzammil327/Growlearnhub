@@ -1,6 +1,7 @@
 import Card3 from '@/src/components/card2/card3'
 import VUWrapper from '@/src/app/(class)/vu/VUWrapper'
 import { Metadata } from 'next'
+import PDFViewer from '@/src/components/element/PDFViewer'
 
 const data = {
   title: 'VU CS201 Mid Term Mcqs',
@@ -11,6 +12,7 @@ const data = {
   follow: true,
   image: '/books/books_growlearnhub.webp',
   url: 'https://growlearnhub.com/vu/mid-term/cs201/mcqs/',
+  pdf: '1SYMr3x5KcwPF6Ugkj5en9u99gYgGwhEhgseBcdDr-rw',
   keywords: [
     'growlearnhub vu',
     'vu',
@@ -28,6 +30,7 @@ export default function Page() {
   return (
     <VUWrapper title="VU CS201 Mid Term MCQ's">
       <div className="grid gap-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 my-20">
+      <PDFViewer pdfUrl={data.pdf} />
         <Card3
           title="CS201 - Chapter 1 MCQ's"
           link="/vu/mid-term/cs201/mcqs/chapter-1/"

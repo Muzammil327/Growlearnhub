@@ -7,6 +7,7 @@ import { useState } from 'react'
 import Button from '@/src/components/ui/Button'
 import VUWrapper from '../VUWrapper'
 import Form from '@/src/components/element/form/page'
+import Image from 'next/image'
 
 export default function Calculator({ url }: { url: string }) {
   const [calculatedAssignment, setCalculatedAssignment] = useState<number>(0)
@@ -26,10 +27,17 @@ export default function Calculator({ url }: { url: string }) {
           Hey there! Welcome to our awesome Mark Calculator, It is created just
           for the students of Virtual University. This tool helps you track your
           grades, collecting marks in mid-exams, quizzes, assignments, and GDB.
-          This Mark Calculator is your new best friend for organizing grades and
-          maintaining grades on your academic journey.
+          This <strong>VU Mid Mark Calculator</strong> is your new best friend
+          for organizing grades and maintaining grades on your academic journey.
         </p>{' '}
-        <h3>Calculate your marks</h3>
+        <Image
+          src="/vu/vu_mid_mark_calculator.png"
+          alt="VU Mid Marks Calculator"
+          title="VU Mid Marks Calculator"
+          height="720"
+          width="1280"
+        />
+        <h3>Calculate your mid marks</h3>
         <p>
           It’s got you covered for all subjects and semesters, making it super
           easy to calculate your marks accurately. Just fill in your scores for
