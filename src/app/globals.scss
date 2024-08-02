@@ -128,7 +128,7 @@ button:focus {
   }
 
   h3 {
-    @apply md:text-2xl text-xl t1 my-2;
+    @apply md:text-2xl text-xl t1 mb-2 mt-3 capitalize;
   }
 
   p {

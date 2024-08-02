@@ -9,13 +9,16 @@ export default function VUWrapper(data: {
   children: React.ReactNode
 }) {
   return (
-    <>
+    <main>
       <Navbar />
-      <main>
-        <SubHeader title={data.title} />
-        <Container>{data.children}</Container>
-      </main>
+      <SubHeader title={data.title} />
+      <div className="grid md:grid-cols-8 gap-4">
+        <section className="col-span-6">
+          <Container>{data.children}</Container>
+        </section>
+        <aside className="col-span-2"></aside>
+      </div>
       <Footer />
-    </>
+    </main>
   )
 }

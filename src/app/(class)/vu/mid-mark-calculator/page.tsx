@@ -8,7 +8,7 @@ const data = {
   canonical: '/vu/mid-mark-calculator/',
   index: true,
   follow: true,
-  image: '/books/books_growlearnhub.webp',
+  image: '/vu/vu_mid_mark_calculator.png',
   url: 'https://growlearnhub.com/vu/mid-mark-calculator/',
   keywords: [
     'growlearnhub vu',

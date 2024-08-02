@@ -1,28 +1,29 @@
-import Card3 from '@/src/components/card2/card3'
 import VUWrapper from '@/src/app/(class)/vu/VUWrapper'
 import { Metadata } from 'next'
 import Form from '@/src/components/element/form/page'
 import Image from 'next/image'
+import PDFViewer from '@/src/components/element/PDFViewer'
 
 const data = {
-  title: 'Virtual University Grow Learn Hub',
+  title: 'VU CS101 Handouts Grow Learn Hub',
   description:
     'Here you download books of vu of all semster and every book of mid term and final term containing abbreviations, mcqs, definitions.',
-  canonical: '/vu/',
+  canonical: '/vu/handouts/cs101/',
   index: true,
   follow: true,
   image: '/books/books_growlearnhub.webp',
-  url: 'https://growlearnhub.com/vu/',
+  url: 'https://growlearnhub.com/vu/handouts/cs101/',
   keywords: ['growlearnhub vu', 'vu'],
+  english_medium: '18dIWS9OYq2p-k_8c019Wve5miBUj6yX8',
 }
 
 export default function Page() {
   return (
-    <VUWrapper title="Virtual University">
+    <VUWrapper title="VU CS101 Handouts">
       <div className="my-10">
-        <h2>Welcome to the Virtual University Grow Learnhub</h2>
+        <h2>Welcome to the VU CS101 Handouts Grow Learnhub</h2>
         <p>
-          Are you looking for a <strong>Virtual University</strong>? Here, you
+          Are you looking for a <strong>VU CS101 Handouts</strong>? Here, you
           can access all the handouts you need for free. Our website offers a
           complete collection of handouts for students of Virtual University.
           Whether you&apos;re preparing for exams or need extra resources like
@@ -31,8 +32,8 @@ export default function Page() {
         </p>
         <Image
           src="/vu/vu_mid_mark_calculator.png"
-          alt="Virtual University"
-          title="Virtual University"
+          alt="VU CS101 Handouts"
+          title="VU CS101 Handouts"
           height="720"
           width="1280"
         />
@@ -44,19 +45,16 @@ export default function Page() {
           empowering you to achieve excellence in your studies and professional
           goals.
         </p>
-        <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-          <Card3
-            title="VU Mid Marks Calculator"
-            link="/vu/mid-mark-calculator/"
-          />
-          <Card3 title="VU Handouts" link="/vu/handouts/" />
-          <Card3 title="VU Assignment" link="/vu/" />
-          <Card3 title="VU GDB" link="/vu/" />
-          <Card3 title="VU Past Paper" link="/vu/" />
-          <Card3 title="VU Mid Grand Quiz" link="/vu/" />
-          <Card3 title="VU Final Grand Quiz" link="/vu/" />
-        </div>
-
+        <h2 className="mt-5">Welcome to the VU CS101 Handouts Grow Learnhub</h2>
+        <p>
+          Download handouts of <strong>VU CS101 Handouts</strong> in free. Here
+          you can get other handouts of all semester.
+        </p>
+        <PDFViewer pdfUrl={data.english_medium} />
+        <p>
+          Here, you can download all handouts in PDF Format for English Medium.
+          This book is officially published by Virtual University.
+        </p>
         <Form url={data.url} />
       </div>
     </VUWrapper>

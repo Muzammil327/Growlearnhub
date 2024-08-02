@@ -71,7 +71,7 @@ export default function RootLayout({
         />
 
         {/* -- Twitter -- */}
-        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@growlearnhub" />
         <meta property="twitter:domain" content={data.domain} />
 

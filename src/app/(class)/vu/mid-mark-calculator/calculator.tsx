@@ -43,10 +43,11 @@ export default function Calculator({ url }: { url: string }) {
           easy to calculate your marks accurately. Just fill in your scores for
           assignments, quizzes, midterms, and GDB. It’ll give you your overall
           percentage. And be aware you how many marks you are required in the
-          final, to succeed in the final No problem! Our VU Mark Calculator’s
+          final, to succeed in the final No problem! Our{' '}
+          <i>VU Mid Mark Calculator’s</i>
           user-friendly interface makes it easy for everyone to use.
         </p>
-        <p>If any feature, Plz Comment below, Thanks.</p>
+        <p>If any features more, Plz Comment below, Thanks.</p>
         <QuizPercentage
           calculatedQuiz={calculatedQuiz}
           setCalculatedQuiz={setCalculatedQuiz}
