@@ -116,11 +116,13 @@ const route = [
   'class-9/notes/punjab-board-chemistry/',
   'class-9/notes/punjab-board-biology/',
   'class-9/past-papers/',
-  'class-9/quiz/',
-  'class-9/quiz/physics/',
-  'class-9/quiz/math/',
-  'class-9/quiz/chemistry/',
-  'class-9/quiz/biology/',
+
+  'class-9/mcqs/',
+  'class-9/mcqs/physics/',
+  'class-9/mcqs/math/',
+  'class-9/mcqs/chemistry/',
+  'class-9/mcqs/biology/',
+  
   'class-9/online-test/',
   'class-9/pairing-schemes/',
 

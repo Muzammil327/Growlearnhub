@@ -5,24 +5,26 @@ import Card3 from '@/src/components/card2/card3'
 import ImageContainer from '@/src/components/element/image'
 
 import { class_Book } from '@/src/app/books/type'
-import { Class9_quiz } from './data'
-import QuizWrapper from '../../QuizWrapper'
+import { Class9_quiz } from '@/src/app/(class)/class-9/mcqs/data'
+import QuizWrapper from '@/src/components/Wrapper/QuizWrapper'
 
 const data = {
-  title: 'Class 9 Quiz | GrowLearnHub',
+  title: '9th class Solved Mcqs Chapter Wise',
   description:
     'Here you can access class 9 quiz in english medium of all subjects like physics, chemistry biology and math available in this website.',
-  canonical: '/class-9/quiz/',
+  canonical: '/class-9/mcqs/',
   index: true,
   follow: true,
-  image: '/books/class_9_books.webp',
-  url: 'https://growlearnhub.com/class-9/quiz/',
+  image: '/class/class-9/mcqs/9th-solved-mcqs-chapter-wise.webp',
+  url: 'https://growlearnhub.com/class-9/mcqs/',
   keywords: [
-    'growlearnhub',
-    'class 9 quiz',
-    'class 9th quiz',
-    '9 class quiz',
-    '9th class quiz',
+    'mcqs',
+    'class 9 mcqs',
+    'class 9th mcqs',
+    '9th class mcqs',
+    '9th class chapter wise mcqs',
+    'mcqs for class 9',
+    'mcqs class 9',
   ],
 }
 
@@ -31,10 +33,9 @@ export default function page() {
     <QuizWrapper
       title={data.title}
       url={data.url}
-      b1="9 Class"
-      b2="Quiz"
+      b1="9th Class"
       b1Link="/class-9/"
-      clist={clist}
+      b2="Mcqs"
     >
       <p>
         Are you looking for a <strong>9 Class Quiz</strong>? Here, you can
@@ -87,7 +88,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: data.image,
         alt: data.title,
       },
     ],
@@ -107,59 +108,8 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: 'https://nextjs.org/og.png',
+      url: data.image,
       alt: data.title,
     },
   },
 }
-
-const clist = [
-  {
-    title: 'Class 10 Physics Quiz',
-    link: '/class-10/quiz/physics/',
-  },
-  {
-    title: 'Class 10th Chemistry Quiz',
-    link: '/class-10/quiz/chemistry/',
-  },
-  {
-    title: '10 class Biology Quiz',
-    link: '/class-10/quiz/biology/',
-  },
-  {
-    title: '10th class Math Quiz',
-    link: '/class-10/quiz/math/',
-  },
-  {
-    title: 'Class 11 Physics Quiz',
-    link: '/class-11/quiz/physics/',
-  },
-  {
-    title: 'Class 11th Chemistry Quiz',
-    link: '/class-11/quiz/chemistry/',
-  },
-  {
-    title: '11 class Biology Quiz',
-    link: '/class-11/quiz/biology/',
-  },
-  {
-    title: '11th class Math Quiz',
-    link: '/class-11/quiz/math/',
-  },
-  {
-    title: 'Class 12 Physics Quiz',
-    link: '/class-12/quiz/physics/',
-  },
-  {
-    title: 'Class 12th Chemistry Quiz',
-    link: '/class-12/quiz/chemistry/',
-  },
-  {
-    title: '12 class Biology Quiz',
-    link: '/class-12/quiz/biology/',
-  },
-  {
-    title: '12th class Math Quiz',
-    link: '/class-12/quiz/math/',
-  },
-]

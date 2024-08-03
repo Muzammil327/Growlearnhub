@@ -1,16 +1,17 @@
 import React from 'react'
 import { Metadata } from 'next'
 
-import Card3 from '@/src/components/card2/card3'
+import Card3, { CardQuiz } from '@/src/components/card2/card3'
 import ImageContainer from '@/src/components/element/image'
 
 import { class_Book } from '@/src/app/books/type'
-import { Class9_quiz } from '../data'
-import Link from 'next/link'
-import QuizWrapper from '../../../QuizWrapper'
+import { Class9_quiz } from '../../../data'
+import QuizWrapper from '../../../../../QuizWrapper'
+import { Quiz } from '@/src/components/home/service'
+import { IntroductionToBiology } from '../data'
 
 const data = {
-  title: 'Class 9 Biology Mcqs PDF',
+  title: 'Class 9 Biology Chapter 1 Mcqs',
   description:
     'Here you can access class 9 Biology Mcqs in chapter wise and topic Wise in english and urdu medium available in this website.',
   canonical: '/class-9/quiz/biology/',
@@ -40,7 +41,8 @@ export default function page() {
       b2="Quiz"
       b2Link="/class-9/quiz/"
       b3="Punjab Board Biology"
-      clist={clist}
+      b3Link="/class-9/quiz/biology/"
+      b4="Chapter 1"
     >
       <p>
         Are you looking for a{' '}
@@ -59,39 +61,20 @@ export default function page() {
         priority
       />
 
-      <h2>9th Class Biology Quiz English Medium</h2>
+      <h2>9th Class Biology Quiz Chapter 1</h2>
       <p>Here, you can read Matric class 9 Biology Mcqs for English Medium.</p>
-
-      <ul>
-        <li>
-          <Link href="/class-9/quiz/biology/chapter-1/">Download PDF Chapter 1</Link>
-        </li>
-        <li>
-          <Link href="/class-9/quiz/biology/chapter-2/">Download PDF Chapter 2</Link>
-        </li>
-        <li>
-          <Link href="/">Download PDF Chapter 3</Link>
-        </li>
-        <li>
-          <Link href="/">Download PDF Chapter 4</Link>
-        </li>
-        <li>
-          <Link href="/">Download PDF Chapter 5</Link>
-        </li>
-        <li>
-          <Link href="/">Download PDF Chapter 6</Link>
-        </li>
-        <li>
-          <Link href="/">Download PDF Chapter 7</Link>
-        </li>
-        <li>
-          <Link href="/">Download PDF Chapter 8</Link>
-        </li>
-        <li>
-          <Link href="/">Download PDF Chapter 9</Link>
-        </li>
-      </ul>
-
+      <div className="grid gap-4 grid-cols-1">
+        {IntroductionToBiology.map((item: any) => (
+          <CardQuiz
+            key={item.id}
+            title={item.questionName}
+            correctOption={item.correctOption}
+            link={item.slug}
+            list={item.options || ''}
+            className=""
+          />
+        ))}
+      </div>
       {Class9_quiz.map((data: class_Book) => {
         return (
           <div key={data.name}>
@@ -152,54 +135,3 @@ export const metadata: Metadata = {
     },
   },
 }
-
-const clist = [
-  {
-    title: 'Class 10 Physics Quiz',
-    link: '/class-10/quiz/physics/',
-  },
-  {
-    title: 'Class 10th Chemistry Quiz',
-    link: '/class-10/quiz/chemistry/',
-  },
-  {
-    title: '10 class Biology Quiz',
-    link: '/class-10/quiz/biology/',
-  },
-  {
-    title: '10th class Math Quiz',
-    link: '/class-10/quiz/math/',
-  },
-  {
-    title: 'Class 11 Physics Quiz',
-    link: '/class-11/quiz/physics/',
-  },
-  {
-    title: 'Class 11th Chemistry Quiz',
-    link: '/class-11/quiz/chemistry/',
-  },
-  {
-    title: '11 class Biology Quiz',
-    link: '/class-11/quiz/biology/',
-  },
-  {
-    title: '11th class Math Quiz',
-    link: '/class-11/quiz/math/',
-  },
-  {
-    title: 'Class 12 Physics Quiz',
-    link: '/class-12/quiz/physics/',
-  },
-  {
-    title: 'Class 12th Chemistry Quiz',
-    link: '/class-12/quiz/chemistry/',
-  },
-  {
-    title: '12 class Biology Quiz',
-    link: '/class-12/quiz/biology/',
-  },
-  {
-    title: '12th class Math Quiz',
-    link: '/class-12/quiz/math/',
-  },
-]

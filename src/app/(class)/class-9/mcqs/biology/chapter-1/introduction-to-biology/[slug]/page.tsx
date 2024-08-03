@@ -1,13 +1,14 @@
+'use client'
 import React from 'react'
 import { Metadata } from 'next'
-
-import Card3 from '@/src/components/card2/card3'
+import { useParams } from 'next/navigation'
+import Card3, { CardQuiz } from '@/src/components/card2/card3'
 import ImageContainer from '@/src/components/element/image'
 
 import { class_Book } from '@/src/app/books/type'
-import { Class9_quiz } from '../../data'
-import QuizWrapper from '../../../../QuizWrapper'
-import { Quiz } from '@/src/components/home/service'
+import { Class9_quiz } from '../../../../data'
+import QuizWrapper from '../../../../../../QuizWrapper'
+import { IntroductionToBiology } from '../../data'
 
 const data = {
   title: 'Class 9 Biology Chapter 1 Mcqs',
@@ -30,7 +31,12 @@ const data = {
   ],
 }
 
-export default function page() {
+export default function Page() {
+  const param = useParams()
+  const filterdData = IntroductionToBiology.filter(
+    (data) => data.slug === param.slug
+  )
+  const datas = filterdData[0]
   return (
     <QuizWrapper
       title={data.title}
@@ -42,10 +48,10 @@ export default function page() {
       b3="Punjab Board Biology"
       b3Link="/class-9/quiz/biology/"
       b4="Chapter 1"
-      clist={clist}
     >
       <p>
-        Are you looking for a <strong>9th Class Biology quiz in Chapter Wise and Topic Wise</strong>?
+        Are you looking for a{' '}
+        <strong>9th Class Biology quiz in Chapter Wise and Topic Wise</strong>?
         Here, you can access all the quiz you need for free. Our website offers
         a complete collection of quiz for students in Class 9, 10, 11, and 12.
         Whether you&apos;re preparing for exams or need extra resources,
@@ -62,14 +68,20 @@ export default function page() {
 
       <h2>9th Class Biology Quiz Chapter 1</h2>
       <p>Here, you can read Matric class 9 Biology Mcqs for English Medium.</p>
-
+      <CardQuiz
+        key={datas.id}
+        title={datas.questionName}
+        correctOption={datas.correctOption}
+        link={datas.slug}
+        list={datas.options || ''}
+        className=""
+      />
       {Class9_quiz.map((data: class_Book) => {
         return (
           <div key={data.name}>
             <h3 className="text-xl font-semibold py-2">
               {data.name} Class 9 Quiz
             </h3>
-            <Quiz />
             <p>
               Our collection of <strong>9 Class Quiz</strong> of Punjab Baord
               encompasses all subjects included Physics, Biology, Chemistry,
@@ -124,64 +136,3 @@ export const metadata: Metadata = {
     },
   },
 }
-
-const clist = [
-  {
-    title: 'Class 10 Physics Quiz',
-    link: '/class-10/quiz/physics/',
-  },
-  {
-    title: 'Class 10th Chemistry Quiz',
-    link: '/class-10/quiz/chemistry/',
-  },
-  {
-    title: '10 class Biology Quiz',
-    link: '/class-10/quiz/biology/',
-  },
-  {
-    title: '10th class Math Quiz',
-    link: '/class-10/quiz/math/',
-  },
-  {
-    title: 'Class 11 Physics Quiz',
-    link: '/class-11/quiz/physics/',
-  },
-  {
-    title: 'Class 11th Chemistry Quiz',
-    link: '/class-11/quiz/chemistry/',
-  },
-  {
-    title: '11 class Biology Quiz',
-    link: '/class-11/quiz/biology/',
-  },
-  {
-    title: '11th class Math Quiz',
-    link: '/class-11/quiz/math/',
-  },
-  {
-    title: 'Class 12 Physics Quiz',
-    link: '/class-12/quiz/physics/',
-  },
-  {
-    title: 'Class 12th Chemistry Quiz',
-    link: '/class-12/quiz/chemistry/',
-  },
-  {
-    title: '12 class Biology Quiz',
-    link: '/class-12/quiz/biology/',
-  },
-  {
-    title: '12th class Math Quiz',
-    link: '/class-12/quiz/math/',
-  },
-]
-
-const quiz = [
-    {
-        name:"cvhbhfghgf",
-        option1:"option 1",
-        option2:"option 2",
-        option3:"option 3",
-        option4:"option 4",
-    }
-]
