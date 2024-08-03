@@ -7,7 +7,7 @@ import Image from 'next/image'
 const data = {
   title: 'VU Handouts Grow Learn Hub',
   description:
-    'Here you download books of vu of all semster and every book of mid term and final term containing abbreviations, mcqs, definitions.',
+    'Here you download handouts of vu of all semster containing cs101, cs201, cs301, mth104, mth301 etc..',
   canonical: '/vu/handouts/',
   index: true,
   follow: true,
@@ -46,6 +46,12 @@ export default function Page() {
         </p>
         <div className="grid gap-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 my-10">
           <Card3 title="CS101 Handout" link="/vu/handouts/cs101/" />
+          <Card3 title="CS201 Handout" link="/vu/handouts/cs201/" />
+          <Card3 title="CS302 Handout" link="/vu/handouts/cs302/" />
+          <Card3 title="ENG201 Handout" link="/vu/handouts/eng201/" />
+          <Card3 title="MGT211 Handout" link="/vu/handouts/mgt211/" />
+          <Card3 title="MTH104 Handout" link="/vu/handouts/mth104/" />
+          <Card3 title="MTH301 Handout" link="/vu/handouts/mth301/" />
         </div>
         <p>
           Here, you can download all handouts in PDF Format for English Medium.

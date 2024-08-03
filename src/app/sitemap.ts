@@ -135,6 +135,12 @@ const route = [
   'vu/',
   'vu/handouts/',
   'vu/handouts/cs101/',
+  'vu/handouts/cs201/',
+  'vu/handouts/cs302/',
+  'vu/handouts/eng201/',
+  'vu/handouts/mgt211/',
+  'vu/handouts/mth104/',
+  'vu/handouts/mth301/',
   'vu/mid-term/',
 
   'vu/mid-term/cs101/',
