@@ -20,7 +20,7 @@ export const Class9_quiz: any[] = [
       {
         id: 3,
         title: 'Math Mcqs',
-        link: '/class-9/quiz/math/',
+        link: '/class-9/mcqs/math/',
       },
     ],
   },

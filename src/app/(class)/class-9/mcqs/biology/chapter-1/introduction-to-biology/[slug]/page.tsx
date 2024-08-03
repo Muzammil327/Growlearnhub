@@ -1,46 +1,29 @@
-'use client'
 import React from 'react'
-import { Metadata } from 'next'
-import { useParams } from 'next/navigation'
-import Card3, { CardQuiz } from '@/src/components/card2/card3'
-import ImageContainer from '@/src/components/element/image'
+import { CardQuiz } from '@/src/components/card2/card3'
 
-import { class_Book } from '@/src/app/books/type'
-import { Class9_quiz } from '../../../../data'
 import QuizWrapper from '../../../../../../QuizWrapper'
-import { IntroductionToBiology } from '../../data'
+import { IntroductionToBiology } from '../data'
+import { Metadata } from 'next'
 
-const data = {
-  title: 'Class 9 Biology Chapter 1 Mcqs',
-  description:
-    'Here you can access class 9 Biology Mcqs in chapter wise and topic Wise in english and urdu medium available in this website.',
-  canonical: '/class-9/quiz/biology/',
-  index: true,
-  follow: true,
-  image: '/books/class-9/punjab/class-9-physics-book-punjab-board.webp',
-  url: 'https://growlearnhub.com/class-9/quiz/biology/',
-  keywords: [
-    '9 class quiz biology',
-    '9 class biology quiz pdf',
-    'phy class 9',
-    'class 9 biology quiz',
-    'class 9th biology quiz pdf',
-    'class 9 biology pdf',
-    'class nine biology quiz',
-    '9th class biology quiz pdf',
-  ],
+interface Iprops {
+  params: {
+    slug: string
+  }
 }
 
-export default function Page() {
-  const param = useParams()
+const image =
+  '/class/class-9/mcqs/biology/chapter-1/introduction-to-biology.webp'
+
+export default function Page({ params }: Iprops) {
   const filterdData = IntroductionToBiology.filter(
-    (data) => data.slug === param.slug
+    (data) => data.slug === params.slug
   )
   const datas = filterdData[0]
+
   return (
     <QuizWrapper
-      title={data.title}
-      url={data.url}
+      title={datas.questionName}
+      url={`https://growlearnhub.com/class-9/mcqs/biology/chapter-1/introduction-to-biology/${datas.slug}`}
       b1="9 Class"
       b1Link="/class-9/"
       b2="Quiz"
@@ -49,25 +32,6 @@ export default function Page() {
       b3Link="/class-9/quiz/biology/"
       b4="Chapter 1"
     >
-      <p>
-        Are you looking for a{' '}
-        <strong>9th Class Biology quiz in Chapter Wise and Topic Wise</strong>?
-        Here, you can access all the quiz you need for free. Our website offers
-        a complete collection of quiz for students in Class 9, 10, 11, and 12.
-        Whether you&apos;re preparing for exams or need extra resources,
-        we&apos;ve got you covered.
-      </p>
-      <ImageContainer
-        image={data.image}
-        title="Access 9th Class Biology Mcqs of english Medium"
-        class="my-4 w-full"
-        height={720}
-        width={1280}
-        priority
-      />
-
-      <h2>9th Class Biology Quiz Chapter 1</h2>
-      <p>Here, you can read Matric class 9 Biology Mcqs for English Medium.</p>
       <CardQuiz
         key={datas.id}
         title={datas.questionName}
@@ -76,63 +40,56 @@ export default function Page() {
         list={datas.options || ''}
         className=""
       />
-      {Class9_quiz.map((data: class_Book) => {
-        return (
-          <div key={data.name}>
-            <h3 className="text-xl font-semibold py-2">
-              {data.name} Class 9 Quiz
-            </h3>
-            <p>
-              Our collection of <strong>9 Class Quiz</strong> of Punjab Baord
-              encompasses all subjects included Physics, Biology, Chemistry,
-              Math, English, Urdu, Pak Study, Islamiat, General Math, Computer
-              Science, Economics, Tarjuma Tul Quran, Ikhlaqiat, ensuring you
-              have the resources you need to succeed.
-            </p>
-            <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-              {data.list.map((item: any) => (
-                <Card3 key={item.id} title={item.title} link={item.link} />
-              ))}
-            </div>
-          </div>
-        )
-      })}
     </QuizWrapper>
   )
 }
 
-export const metadata: Metadata = {
-  title: data.title,
-  description: data.description,
-  keywords: data.keywords,
-  openGraph: {
-    title: data.title,
-    description: data.description,
-    url: data.url,
-    images: [
-      {
-        url: 'https://nextjs.org/og.png',
-        alt: data.title,
+export async function generateMetadata({ params }: Iprops): Promise<Metadata> {
+  const filteredData = IntroductionToBiology.filter(
+    (data) => data.slug === params.slug
+  )
+
+  if (filteredData.length === 0) {
+    return {
+      title: 'Not Found',
+      description: 'The requested data was not found.',
+    }
+  }
+
+  const datas = filteredData[0]
+
+  return {
+    title: datas.questionName,
+    description: datas.description,
+    alternates: {
+      canonical: `class-9/mcqs/biology/chapter-1/introduction-to-biology/${datas.slug}`,
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
       },
-    ],
-  },
-  alternates: {
-    canonical: data.canonical,
-  },
-  robots: {
-    index: data.index,
-    follow: data.follow,
-    googleBot: {
-      index: data.index,
-      follow: data.follow,
     },
-  },
-  twitter: {
-    title: data.title,
-    description: data.description,
-    images: {
-      url: 'https://nextjs.org/og.png',
-      alt: data.title,
+    openGraph: {
+      title: datas.questionName,
+      description: datas.description,
+      url: `https://growlearnhub.com/class-9/mcqs/biology/chapter-1/introduction-to-biology/${datas.slug}`,
+      images: [
+        {
+          url: image,
+
+          alt: datas.questionName,
+        },
+      ],
     },
-  },
+    twitter: {
+      title: datas.questionName,
+      images: {
+        url: image,
+        alt: datas.questionName,
+      },
+    },
+  }
 }

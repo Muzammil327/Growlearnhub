@@ -2,11 +2,8 @@ import React from 'react'
 import { Metadata } from 'next'
 import Link from 'next/link'
 
-import Card3 from '@/src/components/card2/card3'
 import ImageContainer from '@/src/components/element/image'
 
-import { class_Book } from '@/src/app/books/type'
-import { Class9_quiz } from '@/src/app/(class)/class-9/mcqs/data'
 import QuizWrapper from '@/src/components/Wrapper/QuizWrapper'
 
 const data = {
@@ -16,7 +13,7 @@ const data = {
   canonical: '/class-9/mcqs/physics/',
   index: true,
   follow: true,
-  image: '/class/class-9/mcqs/9th-math-solved-physics-chapter-wise.webp',
+  image: '/class/class-9/mcqs/9th-physics-solved-mcqs-chapter-wise.webp',
   url: 'https://growlearnhub.com/class-9/mcqs/physics/',
   keywords: [
     'mcqs of physics for class 9',
@@ -75,28 +72,6 @@ export default function page() {
           )
         })}
       </ul>
-
-      {Class9_quiz.map((data: class_Book) => {
-        return (
-          <div key={data.name}>
-            <h3 className="text-xl font-semibold py-2">
-              {data.name} Class 9 Solved Mcqs
-            </h3>
-            <p>
-              Our collection of <strong>9th Class Solved Quiz</strong>{' '}
-              encompasses all subjects included Physics, Biology, Chemistry,
-              Math, English, Urdu, Pak Study, Islamiat, General Math, Computer
-              Science, Economics, Tarjuma Tul Quran, Ikhlaqiat, ensuring you
-              have the resources you need to succeed.
-            </p>
-            <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-              {data.list.map((item: any) => (
-                <Card3 key={item.id} title={item.title} link={item.link} />
-              ))}
-            </div>
-          </div>
-        )
-      })}
     </QuizWrapper>
   )
 }

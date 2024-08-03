@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next'
 import { convertToLowercaseWithHyphen } from '../views/function/convertToLowercaseWithHyphen'
 const URL = process.env.NEXT_PUBLIC_BACKEND_URL
+import { IntroductionToBiology } from '@/src/app/(class)/class-9/mcqs/biology/chapter-1/introduction-to-biology/data'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   try {
@@ -14,19 +15,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }))
     // response 1
 
-    // const response1 = await fetch(`${URL}/api/get/book`, {
-    //   cache: "no-store", // This will bypass cache
-    // });
-    // const data1 = await response1.json();
-
-    // const bookroutes: MetadataRoute.Sitemap = data1.map((product: any) => ({
-    //   url: `${
-    //     process.env.NEXT_PUBLIC_FRONTEND_URL
-    //   }/quiz/subject-wise/${convertToLowercaseWithHyphen(product.title)}/`,
-    //   lastModified: new Date().toISOString(),
-    //   priority: 0.6,
-    //   changeFrequency: "hourly",
-    // }));
+    const IntroductionToBiologyRoutes: MetadataRoute.Sitemap = IntroductionToBiology.map(
+      (product: any) => ({
+        url: `${
+          process.env.NEXT_PUBLIC_FRONTEND_URL
+        }/class-9/mcqs/biology/chapter-1/introduction-to-biology/${convertToLowercaseWithHyphen(product.slug)}/`,
+        lastModified: new Date().toISOString(),
+        priority: 0.6,
+        changeFrequency: 'weekly',
+      })
+    )
     // // response 2
 
     // const response2 = await fetch(`${URL}/api/get/heading1`, {
@@ -86,12 +84,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 1,
         changeFrequency: 'hourly',
       },
-      // ...bookroutes,
+      ...routes,
+      ...IntroductionToBiologyRoutes,
       // ...heading1routes,
       // ...quizroutes,
       // ...heading2routes,
       // ...mcqsroutes,
-      ...routes,
     ]
   } catch (error) {
     console.error('Error', error)
@@ -122,7 +120,11 @@ const route = [
   'class-9/mcqs/math/',
   'class-9/mcqs/chemistry/',
   'class-9/mcqs/biology/',
-  
+  'class-9/mcqs/biology/chapter-1/',
+  'class-9/mcqs/biology/chapter-1/introduction-to-biology/',
+  'class-9/mcqs/biology/chapter-1/levels-of-organization/',
+  'class-9/mcqs/biology/chapter-1/muslim-scientists/',
+
   'class-9/online-test/',
   'class-9/pairing-schemes/',
 
@@ -147,7 +149,7 @@ const route = [
 
   'vu/mid-term/cs101/',
   'vu/mid-term/cs101/abbreviation/',
-  'vu/mid-term/cs101/mcqs/',  
+  'vu/mid-term/cs101/mcqs/',
   'vu/mid-term/cs101/mcqs/chapter-1/',
   'vu/mid-term/cs101/mcqs/chapter-2/',
   'vu/mid-term/cs101/mcqs/chapter-3/',
@@ -164,7 +166,7 @@ const route = [
   'vu/mid-term/cs201/definitions/what-is-interpreter/',
   'vu/mid-term/cs201/definitions/what-is-compiler/',
   'vu/mid-term/cs201/definitions/what-is-program/',
-  
+
   'vu/mid-term/cs302/',
   'vu/mid-term/cs302/abbreviation/',
   'vu/mid-term/cs302/mcqs/',
