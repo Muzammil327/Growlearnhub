@@ -8,7 +8,7 @@
 
 # testing
 /coverage
-/src/app/dashboard
+/src/app/dashboard/
 
 # next.js
 /.next/
