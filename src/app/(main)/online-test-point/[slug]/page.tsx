@@ -1,5 +1,5 @@
 import React from 'react'
-import SlugWrapper from '@/src/components/Wrapper/SlugWrapper'
+import SlugWrapper from '@/src/components/McqsPoint/MPSubjectSlug/SlugWrapper'
 
 interface Iprops {
   params: {

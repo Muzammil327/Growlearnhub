@@ -1,65 +1,78 @@
-'use client'
-import React, { useEffect, useState } from 'react'
-import { supabase } from '@/src/util/db'
-import Card3 from '@/src/components/card2/card3'
-import McqsWrapper from '@/src/components/Wrapper/McqsWrapper'
+import React from 'react'
+import MPSubject from '@/src/components/McqsPoint/MPSubject/page'
+import { Metadata } from 'next'
 
-interface Book {
-  id: string
+interface Subject {
+  id: number
   name: string
   slug: string
 }
 
+const data = {
+  title: 'Chemistry Solved Mcqs Topic Wise',
+  description:
+    'Here you can get solved mcqs topic wise of chemistry like physical, analytical, biochemistry, organic and inorganic chemistry.',
+  canonical: '/mcqs-point/chemistry/',
+  index: true,
+  follow: true,
+  image: '/opengraph-image.jpg',
+  url: 'https://growlearnhub.com/mcqs-point/chemistry/',
+  keywords: ['mcqs', 'mcqs chemistry'],
+}
+
 export default function Page() {
-  const [books, setBooks] = useState<Book[]>([])
-  const [error, setError] = useState<string>('')
-
-  useEffect(() => {
-    const fetchBooks = async () => {
-      try {
-        const { data: book, error } = await supabase.from('catgeory').select(`
-            id,
-            name,
-            slug,
-            book:bookId (
-              name
-            )
-          `)
-        if (error) {
-          throw new Error('Error fetching books: ' + error.message)
-        } else {
-          const filterByBook = book.filter(
-            (data: any) => data.book.name === 'chemistry'
-          )
-
-          setBooks(filterByBook as any)
-        }
-      } catch (error: any) {
-        setError(error.message)
-      }
-    }
-
-    fetchBooks()
-  }, [])
   return (
-    <McqsWrapper
-      title="Chemistry Solved Mcqs Topic Wise"
-      url={`/mcqs-point/chemistry/`}
+    <MPSubject
+      BookSubjectData={BookSubjectData}
+      title={data.title}
+      url={data.canonical}
       b1="Mcqs Point"
       b1Link="/mcqs-point/"
       b2="Chemistry"
-    >
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {error
-          ? 'Error Fetching Books'
-          : books.map((book) => (
-              <Card3
-                key={book.id}
-                title={book.name}
-                link={`/mcqs-point/chemistry/${book.slug}`}
-              />
-            ))}
-      </div>
-    </McqsWrapper>
+    />
   )
 }
+
+export const metadata: Metadata = {
+  title: data.title,
+  description: data.description,
+  keywords: data.keywords,
+  openGraph: {
+    title: data.title,
+    description: data.description,
+    url: data.url,
+    images: [
+      {
+        url: 'https://nextjs.org/og.png',
+        alt: data.title,
+      },
+    ],
+  },
+  alternates: {
+    canonical: data.canonical,
+  },
+  robots: {
+    index: data.index,
+    follow: data.follow,
+    googleBot: {
+      index: data.index,
+      follow: data.follow,
+    },
+  },
+  twitter: {
+    title: data.title,
+    description: data.description,
+    images: {
+      url: 'https://nextjs.org/og.png',
+      alt: data.title,
+    },
+  },
+}
+
+const BookSubjectData: Subject[] = [
+  {
+    id: 0,
+    name: 'Physics',
+    slug: 'physics',
+  },
+]

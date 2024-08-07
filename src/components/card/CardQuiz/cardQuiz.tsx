@@ -1,26 +1,5 @@
-import { list } from 'postcss'
-import './card.scss'
+import './cardQuiz.scss'
 import Link from 'next/link'
-
-export default function Card3(props: {
-  title: string
-  link: string
-  className?: string
-}) {
-  return (
-    <Link href={`${props.link}`} className={props.className}>
-      <div className="card">
-        <h3>{props.title}</h3>
-        <div className="shine"></div>
-        <div className="background">
-          <div className="line line1"></div>
-          <div className="line line2"></div>
-          <div className="line line3"></div>
-        </div>
-      </div>
-    </Link>
-  )
-}
 
 interface CardQuizProps {
   title: string
@@ -93,7 +72,10 @@ export const CardQuizWithoutLink: React.FC<CardQuizProps2> = ({
         The correct option is: {correctOption}
       </span>
       {description && (
-        <div dangerouslySetInnerHTML={{ __html: description }} className='description'></div>
+        <div
+          dangerouslySetInnerHTML={{ __html: description }}
+          className="description"
+        ></div>
       )}
       <div className="shine"></div>
       <div className="background">

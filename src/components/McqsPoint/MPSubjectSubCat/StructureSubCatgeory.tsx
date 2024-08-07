@@ -1,21 +1,41 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import { supabase } from '@/src/util/db'
-import { CardQuiz } from '@/src/components/card2/card3'
-import SubCatgeoryWrapper from '@/src/components/Wrapper/SubCatgeoryWrapper'
-import CatgeorySidebar from './sidebar'
+import { CardQuiz } from '@/src/components/card/CardQuiz/cardQuiz'
+// import CatgeorySidebar from './sidebar'
+import McqsPointSubjectSubCatWrapper from '@/src/components/McqsPoint/MPSubjectSubCat/MPSubjectSubCatWrapper'
 
 interface Iprops {
-  params: {
-    catgeory: string
-    subCatgeory: string
-  }
+  bookId: string
+  catgeoryId: string
+  subCatgeory: string
+  title: string
+  b1: string
+  b2: string
+  b3: string
+  b4: string
+  url: string
+  b1Link: string
+  b2Link: string
+  b3Link: string
 }
 
-export default function Page({ params }: Iprops) {
+export default function StructureSubCatgeory({
+  subCatgeory,
+  bookId,
+  catgeoryId,
+  title,
+  b1,
+  b2,
+  b3,
+  b4,
+  url,
+  b1Link,
+  b2Link,
+  b3Link,
+}: Iprops) {
   const [mcqs, setMcqs] = useState<any[]>([])
   const [error, setError] = useState<string>('')
-  const [sidebar, setSidebar] = useState<any[]>([])
 
   useEffect(() => {
     const fetchChapters = async () => {
@@ -39,9 +59,9 @@ export default function Page({ params }: Iprops) {
         } else {
           const data = fetchedChapterBooksTopic.filter(
             (item: any) =>
-              item.bookId.includes('general-knowledge') &&
-              item.catgeoryId.includes(params.catgeory) &&
-              item.subCatgeoryId.includes(params.subCatgeory)
+              item.bookId.includes(bookId) &&
+              item.catgeoryId.includes(catgeoryId) &&
+              item.subCatgeoryId.includes(subCatgeory)
           )
           setMcqs(data as any)
         }
@@ -52,18 +72,19 @@ export default function Page({ params }: Iprops) {
       }
     }
     fetchChapters()
-  }, [params.catgeory, params.subCatgeory])
+  }, [bookId, catgeoryId, subCatgeory])
 
   return (
-    <SubCatgeoryWrapper
-      title={`${params.catgeory} ${params.subCatgeory} General Knowledge Solved Mcqs`}
-      b1="General Knowledge"
-      b1Link="/mcqs-point/general-knowledge/"
-      b2={`${params.catgeory}`}
-      b2Link={`/mcqs-point/general-knowledge/${params.catgeory}`}
-      b3={`${params.subCatgeory}`}
-      url={`/mcqs-point/general-knowledge/${params.catgeory}/${params.subCatgeory}`}
-      clist={sidebar}
+    <McqsPointSubjectSubCatWrapper
+      title={title}
+      b1={b1}
+      b1Link={b1Link}
+      b2={b2}
+      b2Link={b2Link}
+      b3={b3}
+      b3Link={b3Link}
+      b4={b4}
+      url={url}
     >
       <div className="grid gap-4 grid-cols-1 my-10">
         {error
@@ -78,7 +99,6 @@ export default function Page({ params }: Iprops) {
               />
             ))}
       </div>
-      <CatgeorySidebar mcqs={mcqs} setSidebar={setSidebar} />
-    </SubCatgeoryWrapper>
+    </McqsPointSubjectSubCatWrapper>
   )
 }

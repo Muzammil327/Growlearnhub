@@ -1,24 +1,18 @@
+'use client'
 import React from 'react'
 import Container from '@/src/components/element/container'
-import Sidebar from '@/src/components/element/sidebar'
 import SubHeader from '@/src/components/layout/header/subheader/page'
 import Form from '@/src/components/element/form/page'
 import BreadCrumb from '@/src/components/element/breadcrumb'
 import Footer from '@/src/components/layout/footer/page'
 import Navbar from '@/src/components/layout/navbar/page'
-import './style.scss'
-import ImageContainer from '@/src/components/element/image'
-import Link from 'next/link'
+import '@/src/styles/Wrapper/style.scss'
+import Sidebar from '@/src/components/sidebar/page'
 
-import Card3 from '../card2/card3'
-
-export default function SlugWrapper(data: {
+export default function MPSubjectCatWrapper(data: {
   title: string
   clist?: any
-  title1?: string
-  image?: string | undefined
   url: string
-  link1?: string
   children: React.ReactNode
   b1: string
   b1Link?: string
@@ -29,8 +23,7 @@ export default function SlugWrapper(data: {
   b4?: string
 }) {
   return (
-    <>
-      {' '}
+    <React.Fragment>
       <Navbar />
       <main>
         <SubHeader title={data.title} />
@@ -54,16 +47,6 @@ export default function SlugWrapper(data: {
                 educational requirements, empowering you to achieve excellence
                 in your studies and professional goals.
               </p>
-              {data.image && (
-                <ImageContainer
-                  image={`${data.image}`}
-                  title={data.title}
-                  class="my-4"
-                  height={720}
-                  width={1280}
-                  priority
-                />
-              )}
               {data.children}
               <p>
                 You can give your opinion or any question you have to ask below
@@ -80,6 +63,6 @@ export default function SlugWrapper(data: {
         </Container>
       </main>
       <Footer />
-    </>
+    </React.Fragment>
   )
 }

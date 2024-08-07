@@ -11,8 +11,6 @@ interface OptionType {
 }
 
 export default function SubCatgeory({
-  selectedOption2,
-  selectedOption5,
   selectedOption6,
   setSelectedOption6,
 }: any) {
@@ -29,9 +27,7 @@ export default function SubCatgeory({
             `
           id,
           name,
-          slug,
-          book:bookId(name),
-          catgeory:catgeoryId(name)
+          slug
        `
           )
 
@@ -41,40 +37,20 @@ export default function SubCatgeory({
           return
         }
 
-        if (selectedOption2 && selectedOption5) {
-          // Filter the class based on the extracted values
-          const extractedValues = selectedOption2?.map(
-            (option: { label: string }) => option.label
-          )
-
-          const FilterBook = fetchSubCatgeory.filter((book: any) =>
-            extractedValues.includes(book.book.name)
-          )
-
-          // Filter the class based on the extracted values
-          const extractedValues2 = selectedOption5?.map(
-            (option: { label: string }) => option.label
-          )
-
-          const FilterBook2 = FilterBook.filter((book: any) =>
-            extractedValues2.includes(book.catgeory.name)
-          )
-
-          // Map data to the format required by react-select
-          setClasses(
-            FilterBook2.map((item: { slug: string; name: string }) => ({
-              value: item.slug,
-              label: item.name,
-            }))
-          )
-        }
+        // Map data to the format required by react-select
+        setClasses(
+          fetchSubCatgeory.map((item: { slug: string; name: string }) => ({
+            value: item.slug,
+            label: item.name,
+          }))
+        )
       } catch (error: any) {
         setError(error.message)
       }
     }
 
     fetchClass()
-  }, [selectedOption2, selectedOption5])
+  }, [])
 
   return (
     <div className="my-4">

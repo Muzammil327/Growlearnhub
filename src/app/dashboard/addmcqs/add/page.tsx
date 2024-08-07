@@ -16,8 +16,8 @@ import Topic from '../../../../components/dashboard/mcqs/add/topic'
 import Catgeory from '../../../../components/dashboard/mcqs/add/catgeory'
 import SubCatgeory from '../../../../components/dashboard/mcqs/add/subcatgeory'
 import Items from '../../../../components/dashboard/mcqs/add/item'
-import dynamic from 'next/dynamic';
-const ReactQuill = dynamic(() => import('react-quill'), { ssr: false });
+import dynamic from 'next/dynamic'
+const ReactQuill = dynamic(() => import('react-quill'), { ssr: false })
 
 export default function Page() {
   const [loading, setLoading] = useState(false)
@@ -210,12 +210,9 @@ export default function Page() {
 
           <Catgeory
             selectedOption5={selectedOption5}
-            selectedOption2={selectedOption2}
             setSelectedOption5={setSelectedOption5}
           />
           <SubCatgeory
-            selectedOption2={selectedOption2}
-            selectedOption5={selectedOption5}
             selectedOption6={selectedOption6}
             setSelectedOption6={setSelectedOption6}
           />

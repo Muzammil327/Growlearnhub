@@ -10,11 +10,7 @@ interface OptionType {
   label: string
 }
 
-export default function Catgeory({
-  selectedOption2,
-  selectedOption5,
-  setSelectedOption5,
-}: any) {
+export default function Catgeory({ selectedOption5, setSelectedOption5 }: any) {
   const [classes, setClasses] = useState<OptionType[]>([]) // Explicitly set the state type
   const [error, setError] = useState<string | null>(null)
 
@@ -28,8 +24,7 @@ export default function Catgeory({
             `
           id,
           name,
-          slug,
-          book:bookId(name)
+          slug
        `
           )
 
@@ -39,31 +34,20 @@ export default function Catgeory({
           return
         }
 
-        if (selectedOption2) {
-          // Filter the class based on the extracted values
-          const extractedValues = selectedOption2?.map(
-            (option: { label: string }) => option.label
-          )
-
-          const FilterBook = fetchCatgeory.filter((book: any) =>
-            extractedValues.includes(book.book.name)
-          )
-
-          // Map data to the format required by react-select
-          setClasses(
-            FilterBook.map((item: { slug: string; name: string }) => ({
-              value: item.slug,
-              label: item.name,
-            }))
-          )
-        }
+        // Map data to the format required by react-select
+        setClasses(
+          fetchCatgeory.map((item: { slug: string; name: string }) => ({
+            value: item.slug,
+            label: item.name,
+          }))
+        )
       } catch (error: any) {
         setError(error.message)
       }
     }
 
     fetchClass()
-  }, [selectedOption2])
+  }, [])
 
   return (
     <div className="my-4">

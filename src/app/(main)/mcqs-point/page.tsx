@@ -1,55 +1,62 @@
-'use client'
-import React, { useEffect, useState } from 'react'
-import { supabase } from '@/src/util/db'
-import Card3 from '@/src/components/card2/card3'
-import McqsWrapper from '@/src/components/Wrapper/McqsWrapper'
+import React from 'react'
+import { Metadata } from 'next'
+import McqsPoint from '@/src/components/McqsPoint/page'
 
-interface Book {
-  id: string
-  name: string
-  slug: string
+const data = {
+  title: 'Solved Mcqs Topic Wise',
+  description:
+    'Here you can get solved mcqs topic wise of physics, chemistry, biology general knowledge of ppsc, css etc.',
+  canonical: '/mcqs-point/',
+  index: true,
+  follow: true,
+  image: '/opengraph-image.jpg',
+  url: 'https://growlearnhub.com/mcqs-point/',
+  keywords: [
+    'mcqs',
+    'mcqs point',
+    'mcqs physics',
+    'mcqs biology',
+    'mcqs chemistry',
+    'mcqs general knowledge',
+  ],
 }
 
-export default function Page() {
-  const [books, setBooks] = useState<Book[]>([])
-  const [error, setError] = useState<string>('')
+export default function page() {
+  return <McqsPoint />
+}
 
-  useEffect(() => {
-    const fetchBooks = async () => {
-      try {
-        const { data: book, error } = await supabase
-          .from('book')
-          .select('name, id, slug')
-        if (error) {
-          throw new Error('Error fetching books: ' + error.message)
-        }
-        if (book) {
-          setBooks(book)
-        }
-      } catch (error: any) {
-        setError(error.message)
-      }
-    }
-
-    fetchBooks()
-  }, [])
-  return (
-    <McqsWrapper
-      title="Solved Mcqs Topic Wise"
-      url={`/mcqs-point/`}
-      b1="Mcqs Point"
-    >
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {error
-          ? 'Error Fetching Books'
-          : books.map((book) => (
-              <Card3
-                key={book.id}
-                title={book.name}
-                link={`/mcqs-point/${book.slug}`}
-              />
-            ))}
-      </div>
-    </McqsWrapper>
-  )
+export const metadata: Metadata = {
+  title: data.title,
+  description: data.description,
+  keywords: data.keywords,
+  openGraph: {
+    title: data.title,
+    description: data.description,
+    url: data.url,
+    images: [
+      {
+        url: 'https://nextjs.org/og.png',
+        alt: data.title,
+      },
+    ],
+  },
+  alternates: {
+    canonical: data.canonical,
+  },
+  robots: {
+    index: data.index,
+    follow: data.follow,
+    googleBot: {
+      index: data.index,
+      follow: data.follow,
+    },
+  },
+  twitter: {
+    title: data.title,
+    description: data.description,
+    images: {
+      url: 'https://nextjs.org/og.png',
+      alt: data.title,
+    },
+  },
 }
