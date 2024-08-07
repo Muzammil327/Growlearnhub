@@ -6,7 +6,7 @@ import SimpleInput from '@/src/app/dashboard/components/Input/simpleInput'
 import { BookTypesPost } from '@/src/types/page'
 import axios from 'axios'
 import { GetSingleBook, UpdateBook } from '@/src/app/constant'
-import { updateBook } from '@/src/views/api/book/page'
+// import { updateBook } from '@/src/views/api/book/page'
 
 const KeywordUpdated = () => {
   const router = useRouter()

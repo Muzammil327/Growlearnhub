@@ -1,7 +1,6 @@
 'use client'
 import { ChangeEvent, useState } from 'react'
 import style from './form.module.css'
-import { postCommentForm } from '@/src/views/api/comment/page'
 import LoaderIcon from '../LoaderIcon'
 import Label from '../../ui/Label'
 import Input from '../../ui/Input'
@@ -23,20 +22,20 @@ export default function Form(props: { url: string }) {
     try {
       setLoadingBtn(true)
       setError(false)
-      const data = await postCommentForm(commentForm)
+      // const data = await postCommentForm(commentForm)
 
-      if (data.status === '400' || data.status === '500') {
-        setError(data.message)
-      } else {
-        setError(data.message)
-        setCommentForm({
-          fname: '',
-          lname: '',
-          email: '',
-          url: props.url,
-          message: '',
-        })
-      }
+      // if (data.status === '400' || data.status === '500') {
+      //   setError(data.message)
+      // } else {
+      //   setError(data.message)
+      //   setCommentForm({
+      //     fname: '',
+      //     lname: '',
+      //     email: '',
+      //     url: props.url,
+      //     message: '',
+      //   })
+      // }
     } catch (error) {
       console.log(error)
       setError(true)

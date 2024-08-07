@@ -1,6 +1,5 @@
 import React from "react";
 import Container from "@/src/components/element/container";
-import Sidebar from "@/src/components/element/sidebar";
 import SubHeader from "@/src/components/layout/header/subheader/page";
 import PDFViewer from "@/src/components/element/PDFViewer";
 import Form from "@/src/components/element/form/page";
@@ -106,7 +105,6 @@ export default function BookPresentLayout({ data }: Iprops) {
           </div>
 
           <div className="md:col-span-2">
-            <Sidebar title={data.title} url={data.url} />
           </div>
         </div>
       </Container>

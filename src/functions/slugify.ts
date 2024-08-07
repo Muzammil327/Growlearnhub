@@ -45,3 +45,6 @@ export function convertToUppercaseAndReplaceHyphens(inputString: string) {
   }
   return inputString.toUpperCase().replace(/-/g, ' ')
 }
+export const convertToLowercaseWithHyphen = (text: string) => {
+  return text.toLowerCase().replace(/\s+/g, '-');
+};

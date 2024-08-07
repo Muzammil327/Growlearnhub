@@ -3,9 +3,9 @@ import React, { useEffect, useState } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import styles from '@/src/app/dashboard/form.module.css'
 import SimpleInput from '@/src/app/dashboard/components/Input/simpleInput'
-import { getBookAll } from '@/src/views/api/book/page'
-import { getHeading1All } from '@/src/views/api/heading1/page'
-import { getSingleHeading2, updateHeading2 } from '@/src/views/api/heading2/page'
+// import { getBookAll } from '@/src/views/api/book/page'
+// import { getHeading1All } from '@/src/views/api/heading1/page'
+// import { getSingleHeading2, updateHeading2 } from '@/src/views/api/heading2/page'
 import { BookTypesGet, Heading1TypesGet } from '@/src/types/page'
 import Dropdown from '../../components/Input/dropdown'
 import axios from 'axios'
@@ -69,10 +69,10 @@ const KeywordUpdated = () => {
       try {
         setFError(false)
         setLoadingData(true)
-        const response = await getSingleHeading2(id.toString())
-        setTitle(response.title)
-        setBookId(response.book._id)
-        setKeywords(response.heading1)
+        // const response = await getSingleHeading2(id.toString())
+        // setTitle(response.title)
+        // setBookId(response.book._id)
+        // setKeywords(response.heading1)
         setLoadingData(false)
       } catch (error) {
         console.log('error:', error)

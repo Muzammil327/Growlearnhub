@@ -1,6 +1,6 @@
 "use client";
-import { getCommentFormAll } from "@/src/views/api/comment/page";
-import { getNewsletterAll } from "@/src/views/api/newsletter/page";
+// import { getCommentFormAll } from "@/src/views/api/comment/page";
+// import { getNewsletterAll } from "@/src/views/api/newsletter/page";
 import React, { useEffect, useState } from "react";
 
 export default function Page() {
@@ -8,12 +8,12 @@ export default function Page() {
   const [comment, setComment] = useState([]);
 
   const fetchNewsletter = async () => {
-    const data = await getNewsletterAll();
-    setNewsletter(data);
+    // const data = await getNewsletterAll();
+    // setNewsletter(data);
   };
   const fetchComment = async () => {
-    const data = await getCommentFormAll();
-    setComment(data);
+    // const data = await getCommentFormAll();
+    // setComment(data);
   };
 
   useEffect(() => {

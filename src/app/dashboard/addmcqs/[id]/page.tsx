@@ -7,7 +7,7 @@ import axios from 'axios'
 import TagsInput from 'react-tagsinput'
 import 'react-tagsinput/react-tagsinput.css'
 import Dropdown from '../../components/Input/dropdown'
-import { getMcqs } from '@/src/views/api/mcqs/page'
+// import { getMcqs } from '@/src/views/api/mcqs/page'
 import slugify from 'slugify'
 import Select from 'react-select'
 import MultiSelectComponent from '../../../../components/dashboard/MultiSelectComponent'
@@ -41,8 +41,8 @@ export default function Page() {
   useEffect(() => {
     const fetchMcqsData = async () => {
       try {
-        const mcqs = await getMcqs()
-        setData(mcqs) // Setting only the options to the relatedId state
+        // const mcqs = await getMcqs()
+        // setData(mcqs) // Setting only the options to the relatedId state
       } catch (error) {
         console.log('Error fetching MCQs:', error)
       }

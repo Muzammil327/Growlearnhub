@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next'
-import { convertToLowercaseWithHyphen } from '../views/function/convertToLowercaseWithHyphen'
 import { supabase } from '@/src/util/db'
+import { convertToLowercaseWithHyphen } from '../functions/slugify'
 
 // Assuming SitemapFile is the correct type
 type SitemapFile = {

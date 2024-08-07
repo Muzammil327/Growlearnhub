@@ -1,6 +1,5 @@
 import React from 'react'
 import Container from '@/src/components/element/container'
-import Sidebar from '@/src/components/element/sidebar'
 import SubHeader from '@/src/components/layout/header/subheader/page'
 import Form from '@/src/components/element/form/page'
 import BreadCrumb from '@/src/components/element/breadcrumb'
@@ -8,9 +7,6 @@ import Footer from '@/src/components/layout/footer/page'
 import Navbar from '@/src/components/layout/navbar/page'
 import './style.scss'
 import ImageContainer from '@/src/components/element/image'
-import Link from 'next/link'
-
-import Card3 from '../card2/card3'
 
 export default function SubCatgeoryWrapper(data: {
   title: string
@@ -74,9 +70,7 @@ export default function SubCatgeoryWrapper(data: {
               <Form url={`https://growlearnhub.com${data.url}`} />
             </div>
             <div className="c2">
-              {data.clist && (
-                <Sidebar title={data.title} url={data.url} list={data.clist} />
-              )}
+              
             </div>
           </div>
         </Container>
