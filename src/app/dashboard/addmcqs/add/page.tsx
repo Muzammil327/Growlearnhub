@@ -12,18 +12,6 @@ import MainSelect from './main/page'
 import { SingleValue } from 'react-select'
 import Label from '@/src/components/ui/Label'
 
-interface DropdownIprops {
-  _id: string
-  title: string
-  book: {
-    _id: string
-    title: string
-  }
-}
-interface OptionType {
-  value: string
-  label: string
-}
 export default function Page() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
