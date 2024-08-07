@@ -17,14 +17,18 @@ export default function Page() {
   useEffect(() => {
     const fetchBooks = async () => {
       try {
-        const { data: book, error } = await supabase
+        const { data: fetchedBooks, error } = await supabase
           .from('book')
-          .select('name, id, slug')
+          .select('name, id, slug, class:classId (slug)')
         if (error) {
           throw new Error('Error fetching books: ' + error.message)
         }
-        if (book) {
-          setBooks(book)
+        if (fetchedBooks) {
+          // Filter data based on book name
+          const filteredBooks = fetchedBooks?.filter(
+            (item: any) => item.class.slug === 'class-9'
+          )
+          setBooks(filteredBooks)
         }
       } catch (error: any) {
         setError(error.message)
