@@ -1,12 +1,10 @@
-import mongoose from 'mongoose'
+// lib/supabaseClient.ts
+import { createClient, SupabaseClient } from '@supabase/supabase-js'
 
-const connectDB = async () => {
-  try {
-    const conn = await mongoose.connect(process.env.MONGO_URL as string)
-    console.log(`Conneted To Mongodb Databse ${conn.connection.host}`)
-  } catch (error) {
-    console.log(`Errro in Mongodb error`)
-  }
-}
+const supabaseUrl: string = process.env.NEXT_PUBLIC_SUPABASE_URL!
+const supabaseAnonKey: string = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
 
-export default connectDB
+export const supabase: SupabaseClient = createClient(
+  supabaseUrl,
+  supabaseAnonKey
+)

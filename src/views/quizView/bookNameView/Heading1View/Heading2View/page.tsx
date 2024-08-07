@@ -8,7 +8,7 @@ import Link from 'next/link'
 import styles from './quizShow.module.css'
 import axios from 'axios'
 import { GetMcqsUser } from '@/src/app/constant'
-import QuizWrapper from '@/src/app/(quiz)/quiz/QuizWrapper'
+import SimpleWrapper from '@/src/components/Wrapper/SimpleWrapper'
 
 export default function IdView({
   bookName,
@@ -105,7 +105,7 @@ export default function IdView({
   const url = `https://growlearnhub.com/quiz/${bookName}/${heading1}/${heading2}/`
   return (
     <>
-      <QuizWrapper
+      <SimpleWrapper
         title={title}
         url={url}
         b1="Quiz"
@@ -202,7 +202,7 @@ export default function IdView({
               </button>
             ))}
         </div>
-      </QuizWrapper>
+      </SimpleWrapper>
     </>
   )
 }

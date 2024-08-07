@@ -3,8 +3,8 @@ import React, { useEffect, useState } from "react";
 import { useRouter, useParams } from "next/navigation";
 import styles from "@/src/app/dashboard/form.module.css";
 import SimpleInput from "@/src/app/dashboard/components/Input/simpleInput";
-import { getBookAll } from "@/src/api/book/page";
-import { getSingleHeading1, updateHeading1 } from "@/src/api/heading1/page";
+import { getBookAll } from "@/src/views/api/book/page";
+import { getSingleHeading1, updateHeading1 } from "@/src/views/api/heading1/page";
 import { BookTypesGet, Heading1TypesPost } from "@/src/types/page";
 
 const KeywordUpdated = () => {

@@ -1,7 +1,7 @@
 'use client'
 import { ChangeEvent, useState } from 'react'
 import style from './form.module.css'
-import { postCommentForm } from '@/src/api/comment/page'
+import { postCommentForm } from '@/src/views/api/comment/page'
 import LoaderIcon from '../LoaderIcon'
 import Label from '../../ui/Label'
 import Input from '../../ui/Input'

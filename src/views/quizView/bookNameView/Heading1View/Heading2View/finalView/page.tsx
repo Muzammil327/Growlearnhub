@@ -2,7 +2,7 @@ import React from 'react'
 import FetchFinalView from './FetchFinalView'
 import { convertToUppercaseWithSpace } from '@/src/views/function/convertToUppercaseWithSpace'
 import { IpropsFinal } from '@/src/types/page'
-import QuizWrapper from '@/src/app/(quiz)/quiz/QuizWrapper'
+import SimpleWrapper from '@/src/components/Wrapper/SimpleWrapper'
 
 export default function FinalView({ final }: IpropsFinal) {
   const capitalizedfinalParams = convertToUppercaseWithSpace(final)
@@ -10,7 +10,7 @@ export default function FinalView({ final }: IpropsFinal) {
 
   return (
     <>
-      <QuizWrapper
+      <SimpleWrapper
         title={capitalizedfinalParams}
         url={url}
         b1="Quiz"
@@ -19,7 +19,7 @@ export default function FinalView({ final }: IpropsFinal) {
         title1="Quiz"
       >
         <FetchFinalView final={final} />{' '}
-      </QuizWrapper>
+      </SimpleWrapper>
     </>
   )
 }

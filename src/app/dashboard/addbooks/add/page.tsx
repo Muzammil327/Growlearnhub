@@ -1,45 +1,49 @@
-"use client";
-import React, { useState } from "react";
-import { useRouter } from "next/navigation";
-import styles from "@/src/app/dashboard/form.module.css";
-import SimpleInput from "@/src/app/dashboard/components/Input/simpleInput";
-import { BookTypesPost } from "@/src/types/page";
-import { PostBook } from "@/src/app/constant";
-import axios from "axios";
+'use client'
+import React, { useState } from 'react'
+import styles from '@/src/app/dashboard/form.module.css'
+import SimpleInput from '@/src/app/dashboard/components/Input/simpleInput'
+import slugify from 'slugify'
+import { supabase } from '@/src/util/db'
 
 export default function Page() {
-  const navigate = useRouter();
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState('')
+  const [message, setMessage] = useState('')
 
-  const [booksData, setBooksData] = useState<BookTypesPost>({
-    title: "",
-  });
-  // submit data
+  const [name, setName] = useState('')
+
   const SubmitHandle = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
+    e.preventDefault()
 
     try {
-      setLoading(false);
-      const response = await axios.post(PostBook, booksData);
+      setLoading(true)
 
-      if (response.data.status === "400" || response.data.status === "500") {
-        setError(response.data.message);
-        setLoading(false);
+      const slug = slugify(name, {
+        replacement: '-',
+        lower: false,
+        strict: false,
+        locale: 'vi',
+        trim: true,
+      })
+
+      const { data, error } = await supabase
+        .from('book')
+        .insert({ name, slug })
+
+      if (error) {
+        console.error('Supabase Error:', error)
+        setMessage(`Error: ${error.message}`)
       } else {
-        setLoading(true);
-        setError(response.data.message);
-        setBooksData({
-          title: "",
-        });
-
-        navigate.push("/dashboard/addbooks");
-        setLoading(false);
+        setMessage('Data successfully posted!')
+        setName('')
       }
     } catch (error) {
-      setError("Error during Book Posting!");
+      console.error('Catch Error:', error)
+      setError('Error during Book Posting!')
+    } finally {
+      setLoading(false)
     }
-  };
+  }
 
   return (
     <div className="mb-8 mt-24">
@@ -50,23 +54,22 @@ export default function Page() {
           {/* Title */}
           <div className="sm:col-span-2">
             <SimpleInput
-              label="Title"
+              label="Name"
               type="text"
               htmlFor="title"
-              value={booksData.title}
-              placeholder="Enter Title"
-              onChange={(e) =>
-                setBooksData({ ...booksData, title: e.target.value })
-              }
-            />{" "}
+              value={name}
+              placeholder="Enter Book Name"
+              onChange={(e) => setName(e.target.value)}
+            />{' '}
           </div>
         </div>
         <div className="mt-10">
           <button type="submit" className={`${styles.submitBTN}`}>
-            {loading ? "Loading ..." : "Submit"}
+            {loading ? 'Loading ...' : 'Submit'}
           </button>
         </div>
       </form>
+      {message && <p>{message}</p>}
     </div>
-  );
+  )
 }

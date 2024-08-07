@@ -1,5 +1,5 @@
 import { list } from 'postcss'
-import style from './card3Component.module.css'
+import './card.scss'
 import Link from 'next/link'
 
 export default function Card3(props: {
@@ -9,13 +9,13 @@ export default function Card3(props: {
 }) {
   return (
     <Link href={`${props.link}`} className={props.className}>
-      <div className={style.card}>
-        <h3 className={style.h4}>{props.title}</h3>
-        <div className={style.shine}></div>
-        <div className={style.background}>
-          <div className={`${style.line} ${style.line1}`}></div>
-          <div className={`${style.line} ${style.line2}`}></div>
-          <div className={`${style.line} ${style.line3}`}></div>
+      <div className="card">
+        <h3>{props.title}</h3>
+        <div className="shine"></div>
+        <div className="background">
+          <div className="line line1"></div>
+          <div className="line line2"></div>
+          <div className="line line3"></div>
         </div>
       </div>
     </Link>
@@ -26,8 +26,16 @@ interface CardQuizProps {
   title: string
   link: string
   className?: string
-  list?: string[]
+  option: string[]
   correctOption: string
+  description?: string
+}
+interface CardQuizProps2 {
+  title: string
+  className?: string
+  option: string[]
+  correctOption: string
+  description?: string
 }
 
 export const CardQuiz: React.FC<CardQuizProps> = ({
@@ -35,27 +43,64 @@ export const CardQuiz: React.FC<CardQuizProps> = ({
   link,
   correctOption,
   className = '',
-  list = [],
+  option,
+  description,
 }) => {
   return (
     <Link href={link} className={className}>
-      <div className={style.card}>
-        <h3 className={style.h4}>{title}</h3>
+      <div className="card">
+        <h3>
+          <div dangerouslySetInnerHTML={{ __html: title }}></div>
+        </h3>
         <ul>
-          {list.map((data, index) => (
-            <li key={index} className={style.li}>
-              {data}
-            </li>
-          ))}
+          {option.map((index: any) => {
+            return <li key={index}>{index}</li>
+          })}
         </ul>
-        <span className={style.span}>The correct option is: {correctOption}</span>
-        <div className={style.shine}></div>
-        <div className={style.background}>
-          <div className={`${style.line} ${style.line1}`}></div>
-          <div className={`${style.line} ${style.line2}`}></div>
-          <div className={`${style.line} ${style.line3}`}></div>
+        <span className="correctOption">
+          The correct option is: {correctOption}
+        </span>
+        {description && (
+          <div dangerouslySetInnerHTML={{ __html: description }}></div>
+        )}
+        <div className="shine"></div>
+        <div className="background">
+          <div className="line line1"></div>
+          <div className="line line2"></div>
+          <div className="line line3"></div>
         </div>
       </div>
     </Link>
+  )
+}
+
+export const CardQuizWithoutLink: React.FC<CardQuizProps2> = ({
+  title,
+  correctOption,
+  className = '',
+  option,
+  description,
+}) => {
+  return (
+    <div className="card">
+      <h3>{title}</h3>
+      <ul>
+        {option.map((index: any) => {
+          return <li key={index}>{index}</li>
+        })}
+      </ul>
+      <span className="correctOption">
+        The correct option is: {correctOption}
+      </span>
+      {description && (
+        <div dangerouslySetInnerHTML={{ __html: description }} className='description'></div>
+      )}
+      <div className="shine"></div>
+      <div className="background">
+        <div className="line line1"></div>
+        <div className="line line2"></div>
+        <div className="line line3"></div>
+      </div>
+    </div>
   )
 }

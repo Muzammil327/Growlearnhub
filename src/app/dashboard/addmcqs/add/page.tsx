@@ -1,23 +1,17 @@
 'use client'
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import TagsInput from 'react-tagsinput'
 import 'react-tagsinput/react-tagsinput.css'
-import { useRouter } from 'next/navigation'
-import { getMcqs } from '@/src/api/mcqs/page'
-import { getBookAll } from '@/src/api/book/page'
 import SimpleInput from '../../components/Input/simpleInput'
 import styles from '@/src/app/dashboard/form.module.css'
-import Dropdown from '../../components/Input/dropdown'
-import { BookTypesGet, Heading1TypesGet } from '@/src/types/page'
-import axios from 'axios'
-import { GetHeading1, GetHeading2, GetTag } from '@/src/app/constant'
 import slugify from 'slugify'
-import Select from 'react-select'
+import { supabase } from '@/src/util/db'
+import ReactQuill from 'react-quill'
+import 'react-quill/dist/quill.snow.css'
+import MainSelect from './main/page'
+import { SingleValue } from 'react-select'
+import Label from '@/src/components/ui/Label'
 
-interface Tag {
-  id: string
-  text: string
-}
 interface DropdownIprops {
   _id: string
   title: string
@@ -26,430 +20,198 @@ interface DropdownIprops {
     title: string
   }
 }
+interface OptionType {
+  value: string
+  label: string
+}
 export default function Page() {
-  const navigate = useRouter()
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
-  const [data, setData] = useState([])
+  const [message, setMessage] = useState('')
 
   const [title, setTitle] = useState<string>('')
   const [description, setDescription] = useState<string>('')
-
-  const [options, setOption] = useState<string[]>([])
+  const [options, setOptions] = useState<string[]>([])
   const [correctOption, setCorrectOption] = useState<string>('')
 
-  const [bookId, setBookId] = useState<string>('')
-  const [keywords, setKeywords] = useState<string[]>([])
-  const [keywords2, setKeywords2] = useState<string[]>([])
-  const [keywords3, setKeywords3] = useState<string[]>([])
-  const [relatedId, setRelatedId] = useState<Tag[]>([])
- 
+  const [selectedOption1, setSelectedOption1] = useState<SingleValue<any>>(null)
+  const [selectedOption2, setSelectedOption2] = useState<SingleValue<any>>(null)
+  const [selectedOption3, setSelectedOption3] = useState<SingleValue<any>>(null)
+  const [selectedOption4, setSelectedOption4] = useState<SingleValue<any>>(null)
+  const [selectedOption5, setSelectedOption5] = useState<SingleValue<any>>(null)
+  const [selectedOption6, setSelectedOption6] = useState<SingleValue<any>>(null)
+  const [selectedOption7, setSelectedOption7] = useState<SingleValue<any>>(null)
+
   const handleTagsChange = (tag: string[]) => {
-    setOption(tag)
+    setOptions(tag)
   }
-  
-  const handleSelectChange = (selectedOptions: any) => {
-    setRelatedId(selectedOptions)
+  const modules = {
+    toolbar: [
+      [
+        { header: '1' },
+        { header: '2' },
+        { header: '3' },
+        { header: '4' },
+        { font: [] },
+      ],
+      [{ list: 'ordered' }, { list: 'bullet' }],
+      ['bold', 'italic', 'underline', 'strike', 'blockquote'],
+      [{ script: 'sub' }, { script: 'super' }], // superscript/subscript
+      [{ color: [] }, { background: [] }], // dropdown with defaults from theme
+      [{ align: [] }],
+      ['link', 'image', 'video'],
+      ['code-block'],
+      [{ indent: '-1' }, { indent: '+1' }], // outdent/indent
+      [{ direction: 'rtl' }], // text direction
+      [{ size: ['small', false, 'large', 'huge'] }], // custom dropdown
+      ['clean'], // remove formatting button
+      ['formula'], // Add formula support
+    ],
   }
+
   // submit data
   const SubmitHandle = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault() // Prevent form submission
-    const mappedRelatedIds: any[] = relatedId.map((data: any) => data.value)
+    setLoading(true)
+    setMessage('')
+    setError('')
+
+    const slug = slugify(title, {
+      replacement: '-',
+      lower: true,
+      strict: true,
+      locale: 'vi',
+      trim: true,
+    })
 
     try {
-      setLoading(true)
-      const response = await axios.post(
-        `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/post/mcqs`,
-        {
-          title,
-          description,
-          correctOption,
-          bookId,
-          options,
-          keywords,
-          keywords2,
-          keywords3,
-          relatedId: mappedRelatedIds,
-          slug: slugify(title, {
-            replacement: '-', // replace spaces with replacement character, defaults to `-`
-            remove: undefined, // remove characters that match regex, defaults to `undefined`
-            lower: true, // convert to lower case, defaults to `false`
-            strict: false, // strip special characters except replacement, defaults to `false`
-            locale: 'vi', // language code of the locale to use
-            trim: true, // trim leading and trailing replacement chars, defaults to `true`
-          }),
-        }
-      )
+      const { data, error } = await supabase.from('mcqs').insert({
+        name: title,
+        slug,
+        correct_option: correctOption,
+        description,
+        option: options,
+        classId: selectedOption1?.map((data: any) => data.value) || [],
+        bookId: selectedOption2?.map((data: any) => data.value) || [],
+        chapterId: selectedOption3?.map((data: any) => data.value) || [],
+        topicId: selectedOption4?.map((data: any) => data.value) || [],
+        catgeoryId: selectedOption5?.map((data: any) => data.value) || [],
+        subCatgeoryId: selectedOption6?.map((data: any) => data.value) || [],
+        tags: selectedOption7?.map((data: any) => data.value) || [],
+      })
 
-      if (response.data.status === '400' || response.data.status === '500') {
-        setError(response.data.message)
+      if (error) {
+        setError(`Error: ${error.message}`)
       } else {
-        setError(response.data.message)
-
+        setMessage('Data successfully posted!')
         setTitle('')
         setDescription('')
-
         setCorrectOption('')
-        setOption([])
-        setRelatedId([])
-
-        setBookId('')
-
-        setLoading(false)
-
-        navigate.push('/dashboard/addmcqs')
+        setOptions([])
+        setSelectedOption1(null)
+        setSelectedOption2(null)
+        setSelectedOption3(null)
+        setSelectedOption4(null)
+        setSelectedOption5(null)
+        setSelectedOption6(null)
+        setSelectedOption7(null)
       }
     } catch (error) {
-      setLoading(false) // Set loading state to false in case of an error
       setError('Error during Category Update')
-    }
-  }
-  // fetch Book Data
-  const [booksData, setBooksData] = useState<BookTypesGet[]>([])
-  const fetchBookData = async () => {
-    try {
-      const data = await getBookAll()
-      setBooksData(data)
-    } catch (error) {
-      console.log('Error during Book Getting!', error)
+    } finally {
+      setLoading(false)
     }
   }
 
-  // set Fetch Heading 1
-  const [fetchHeading1, setFetchHeading1] = useState<Heading1TypesGet[]>([])
-  const heading1Filter = fetchHeading1.filter(
-    (data: any) => data.book._id === bookId
-  )
-  const fetchHeading1Data = async () => {
-    try {
-      const response = await axios.get(GetHeading1)
-      setFetchHeading1(response.data)
-    } catch (error) {
-      console.log('Error during Heading 1 Getting!', error)
-    }
-  }
-
-  // set Fetch Heading 2
-  const [fetchHeading2, setFetchHeading2] = useState<Heading1TypesGet[]>([])
-  const heading2Filter = fetchHeading2.filter(
-    (data: any) => data.book._id === bookId
-  )
-  const fetchHeading2Data = async () => {
-    try {
-      const response = await axios.get(GetHeading2)
-      setFetchHeading2(response.data)
-    } catch (error) {
-      console.log('Error during Heading 1 Getting!', error)
-    }
-  }
-
-  // set Fetch Tags
-  const [fetchTags, setFetchTags] = useState<Heading1TypesGet[]>([])
-
-  const fetchTags2Data = async () => {
-    try {
-      const response = await axios.get(GetTag)
-      setFetchTags(response.data)
-    } catch (error) {
-      console.log('Error during Heading 1 Getting!', error)
-    }
-  }
-
-  useEffect(() => {
-    fetchBookData()
-    fetchHeading1Data()
-    fetchHeading2Data()
-    fetchTags2Data()
-  }, [])
-
-  // suggestions
-  useEffect(() => {
-    const fetchMcqsData = async () => {
-      try {
-        const mcqs = await getMcqs()
-        setData(mcqs)
-      } catch (error) {
-        console.log('Error fetching MCQs:', error)
-      }
-    }
-
-    fetchMcqsData()
-  }, [])
   return (
     <div className="mb-8 mt-24">
       <h2 className={`${styles.heading}`}>Mcqs Add Here</h2>
       <form onSubmit={SubmitHandle} className="mt-16 mx-8 sm:mt-20">
-        {error && <span className="text-indigo-500">{error}</span>}
+        {error && <span className="text-red-500">{error}</span>}
+        {message && <span className="text-indigo-500">{message}</span>}
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
-          {/* Title */}
-          <SimpleInput
-            label="Title"
-            type="text"
-            htmlFor="title"
-            value={title}
-            placeholder="Enter Title"
-            onChange={(e) => setTitle(e.target.value)}
-          />
+        {/* Title */}
+        <SimpleInput
+          label="Title"
+          type="text"
+          htmlFor="title"
+          value={title}
+          placeholder="Enter Title"
+          onChange={(e) => setTitle(e.target.value)}
+        />
 
-          {/* book name  */}
-          <Dropdown
-            bookId={bookId}
-            label="Book Name"
-            setBookId={(e: React.ChangeEvent<HTMLSelectElement>) =>
-              setBookId(e.target.value)
-            }
-            booksData={booksData}
-          />
-
-          {/*  Option Correct */}
-          <div className="">
-            <label htmlFor=" Option Correct" className={`${styles.label}`}>
-              Option Correct
-            </label>
-            <div className="mt-2.5">
-              <select
-                id="Option Correct"
-                name="Option Correct"
-                className={`${styles.select}`}
-                value={correctOption}
-                onChange={(e) => setCorrectOption(e.target.value)}
-              >
-                <option value="">Select Correct Option</option>
-                {options.map((option, index) => (
-                  <option key={index} value={option}>
-                    {option}
-                  </option>
-                ))}
-              </select>
-            </div>
+        {/*  Option Correct */}
+        <div className="mt-4">
+          <Label label="Option Correct" htmlFor="OptionCorrect" />
+          <div className="mt-2.5">
+            <select
+              id="OptionCorrect"
+              name="OptionCorrect"
+              className={`${styles.select}`}
+              value={correctOption}
+              onChange={(e) => setCorrectOption(e.target.value)}
+            >
+              <option value="">Select Correct Option</option>
+              {options.map((option, index) => (
+                <option key={index} value={option}>
+                  {option}
+                </option>
+              ))}
+            </select>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-x-8 gap-y-6 mt-3">
-          <div className="my-5">
-            <label
-              htmlFor="description"
-              className="block text-sm font-semibold leading-6 text-gray-900"
-            >
-              Description
-            </label>
-            <textarea
-              name=""
-              id=""
-              className="mt-2 block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-              value={description}
-              placeholder="Enter Description"
-              onChange={(e) => setDescription(e.target.value)}
-            ></textarea>
-          </div>
 
-          {/* heading 1 */}
-          <MultiSelectHeadng1
-            options={heading1Filter}
-            selectedOptions={keywords}
-            setSelectedOptions={(selectedOptions: any) =>
-              setKeywords(selectedOptions)
-            }
+        {/* Options */}
+        <div className="mt-4">
+          <Label label="Options" htmlFor="tags" />
+
+          <TagsInput
+            value={options}
+            onChange={handleTagsChange}
+            inputProps={{ id: 'tags' }}
           />
-
-          {/* heading 2 */}
-          <MultiSelectHeadng2
-            options={heading2Filter}
-            selectedOptions={keywords2}
-            setSelectedOptions={(selectedOptions: any) =>
-              setKeywords2(selectedOptions)
-            }
-          />
-
-          {/* Tags */}
-          <MultiSelectTags
-            options={fetchTags}
-            selectedOptions={keywords3}
-            setSelectedOptions={(selectedOptions: any) =>
-              setKeywords3(selectedOptions)
-            }
-          />
-
-          {/*  Options */}
-          <div>
-            <label htmlFor="tags" className={`${styles.label}`}>
-              Options
-            </label>
-            <TagsInput
-              value={options}
-              onChange={handleTagsChange}
-              inputProps={{ id: 'tags' }}
-            />
-          </div>
-
-          {/* related mcqs */}
-          <div className="mb-6">
-            <label
-              htmlFor="productId"
-              className="block text-base font-medium text-gray-700 mb-2"
-            >
-              Related Product
-            </label>
-            <Select
-              isMulti
-              options={
-                data.map(({ _id, title }: any) => ({
-                  value: _id,
-                  label: title,
-                })) as any[]
-              }
-              onChange={handleSelectChange}
-              value={relatedId}
-            />
-          </div>
         </div>
-        <div className="mt-10">
-          <button type="submit" className={`${styles.submitBTN}`}>
-            {loading ? 'Submit' : 'Loading ...'}
+
+        {/* Long Description */}
+        <div className="mt-4">
+          <Label label="Long Description" htmlFor="ldescription" />
+
+          <ReactQuill
+            theme="snow"
+            value={description}
+            modules={modules}
+            onChange={setDescription}
+            className="border border-dashed border-gray-900/25 rounded-md mt-2"
+          />
+        </div>
+
+        {/* Variant */}
+        <MainSelect
+          setSelectedOption1={setSelectedOption1}
+          selectedOption1={selectedOption1}
+          setSelectedOption2={setSelectedOption2}
+          selectedOption2={selectedOption2}
+          setSelectedOption3={setSelectedOption3}
+          selectedOption3={selectedOption3}
+          setSelectedOption4={setSelectedOption4}
+          selectedOption4={selectedOption4}
+          setSelectedOption5={setSelectedOption5}
+          selectedOption5={selectedOption5}
+          setSelectedOption6={setSelectedOption6}
+          selectedOption6={selectedOption6}
+          setSelectedOption7={setSelectedOption7}
+          selectedOption7={selectedOption7}
+        />
+        <div className="mt-5">
+          <button
+            type="submit"
+            className={`${styles.submitBTN}`}
+            disabled={loading}
+          >
+            {loading ? 'Loading ...' : 'Submit'}
           </button>
         </div>
       </form>
-    </div>
-  )
-}
-
-const MultiSelectHeadng1 = ({
-  options,
-  selectedOptions,
-  setSelectedOptions,
-}: any) => {
-  const [isOpen, setIsOpen] = useState(false)
-
-  const toggleDropdown = () => setIsOpen(!isOpen)
-
-  const handleSelect = (option: any) => {
-    if (selectedOptions.includes(option)) {
-      setSelectedOptions(selectedOptions.filter((item: any) => item !== option))
-    } else {
-      setSelectedOptions([...selectedOptions, option])
-    }
-  }
-
-  return (
-    <div className="relative">
-      <button
-        type="button"
-        onClick={toggleDropdown}
-        className="bg-white border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-      >
-        Select Heading 1
-      </button>
-      {isOpen && (
-        <div className="absolute z-10 w-full mt-1 bg-white border border-gray-300 rounded shadow-lg grid grid-cols-2">
-          {options.map((option: DropdownIprops) => (
-            <div key={option._id} className="flex items-center p-2">
-              <input
-                type="checkbox"
-                checked={selectedOptions.includes(option._id)}
-                onChange={() => handleSelect(option._id)}
-                className="form-checkbox h-4 w-4 text-blue-600 transition duration-150 ease-in-out"
-              />
-              <label className="ml-2 text-gray-700">
-                <option>{option.title}</option>
-              </label>
-            </div>
-          ))}
-        </div>
-      )}
-    </div>
-  )
-}
-
-const MultiSelectHeadng2 = ({
-  options,
-  selectedOptions,
-  setSelectedOptions,
-}: any) => {
-  const [isOpen, setIsOpen] = useState(false)
-
-  const toggleDropdown = () => setIsOpen(!isOpen)
-
-  const handleSelect = (option: any) => {
-    if (selectedOptions.includes(option)) {
-      setSelectedOptions(selectedOptions.filter((item: any) => item !== option))
-    } else {
-      setSelectedOptions([...selectedOptions, option])
-    }
-  }
-
-  return (
-    <div className="relative">
-      <button
-        type="button"
-        onClick={toggleDropdown}
-        className="bg-white border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-      >
-        Select Heading 2
-      </button>
-      {isOpen && (
-        <div className="absolute z-10 w-full mt-1 bg-white border border-gray-300 rounded shadow-lg grid grid-cols-2">
-          {options.map((option: DropdownIprops) => (
-            <div key={option._id} className="flex items-center p-2">
-              <input
-                type="checkbox"
-                checked={selectedOptions.includes(option._id)}
-                onChange={() => handleSelect(option._id)}
-                className="form-checkbox h-4 w-4 text-blue-600 transition duration-150 ease-in-out"
-              />
-              <label className="ml-2 text-gray-700">
-                <option>{option.title}</option>
-              </label>
-            </div>
-          ))}
-        </div>
-      )}
-    </div>
-  )
-}
-
-const MultiSelectTags = ({
-  options,
-  selectedOptions,
-  setSelectedOptions,
-}: any) => {
-  const [isOpen, setIsOpen] = useState(false)
-
-  const toggleDropdown = () => setIsOpen(!isOpen)
-
-  const handleSelect = (option: any) => {
-    if (selectedOptions.includes(option)) {
-      setSelectedOptions(selectedOptions.filter((item: any) => item !== option))
-    } else {
-      setSelectedOptions([...selectedOptions, option])
-    }
-  }
-
-  return (
-    <div className="relative">
-      <button
-        type="button"
-        onClick={toggleDropdown}
-        className="bg-white border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-      >
-        Select Tags
-      </button>
-      {isOpen && (
-        <div className="absolute z-10 w-full mt-1 bg-white border border-gray-300 rounded shadow-lg grid grid-cols-2">
-          {options.map((option: DropdownIprops) => (
-            <div key={option._id} className="flex items-center p-2">
-              <input
-                type="checkbox"
-                checked={selectedOptions.includes(option._id)}
-                onChange={() => handleSelect(option._id)}
-                className="form-checkbox h-4 w-4 text-blue-600 transition duration-150 ease-in-out"
-              />
-              <label className="ml-2 text-gray-700">
-                <option>{option.title}</option>
-              </label>
-            </div>
-          ))}
-        </div>
-      )}
     </div>
   )
 }

@@ -12,7 +12,7 @@ import { Heading1TypesGet, IpropsbookName } from '@/src/types/page'
 import axios from 'axios'
 import { GetHeading1 } from '@/src/util/constant'
 import Card3 from '@/src/components/card2/card3'
-import QuizWrapper from '@/src/app/(quiz)/quiz/QuizWrapper'
+import SimpleWrapper from '@/src/components/Wrapper/SimpleWrapper'
 
 export default function BookNameView({ bookName }: IpropsbookName) {
   const [fetchdata, setFetchData] = useState<Heading1TypesGet[]>([])
@@ -50,7 +50,7 @@ export default function BookNameView({ bookName }: IpropsbookName) {
   const title = `${convertToUppercaseWithSpace(bookName)} Quiz`
   const url = `https://growlearnhub.com/quiz/${bookName}/`
   return (
-    <QuizWrapper
+    <SimpleWrapper
       title={title}
       url={url}
       b1="Quiz"
@@ -83,6 +83,6 @@ export default function BookNameView({ bookName }: IpropsbookName) {
           )}
         </>
       </div>
-    </QuizWrapper>
+    </SimpleWrapper>
   )
 }

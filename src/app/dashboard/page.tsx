@@ -1,6 +1,6 @@
 "use client";
-import { getCommentFormAll } from "@/src/api/comment/page";
-import { getNewsletterAll } from "@/src/api/newsletter/page";
+import { getCommentFormAll } from "@/src/views/api/comment/page";
+import { getNewsletterAll } from "@/src/views/api/newsletter/page";
 import React, { useEffect, useState } from "react";
 
 export default function Page() {

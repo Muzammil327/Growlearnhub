@@ -18,7 +18,7 @@ interface SidebarProps {
   url: string
 }
 interface Iprops {
-  title: string
+  name: string
   link: string
 }
 const Sidebar: React.FC<SidebarProps> = ({ title, videoId, url, list }) => {
@@ -94,14 +94,14 @@ const Sidebar: React.FC<SidebarProps> = ({ title, videoId, url, list }) => {
           {list &&
             list.map((data: Iprops) => {
               return (
-                <li className="flex flex-col gap-y-4" key={data.title}>
+                <li className="flex flex-col gap-y-4" key={data.name}>
                   <Link
-                    href={`${data.link}`}
-                    title={data.title}
-                    className="text-indigo-600 hover:underline transition-all mb-3"
-                    aria-label={data.title}
+                    href="/"
+                    title={data.name}
+                    className="text-indigo-600 hover:underline transition-all mb-3 capitalize"
+                    aria-label={data.name}
                   >
-                    {data.title}
+                    {data.name}
                   </Link>
                 </li>
               )
