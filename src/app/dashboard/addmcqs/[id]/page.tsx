@@ -10,7 +10,7 @@ import Dropdown from '../../components/Input/dropdown'
 import { getMcqs } from '@/src/views/api/mcqs/page'
 import slugify from 'slugify'
 import Select from 'react-select'
-import MultiSelectComponent from '../MultiSelectComponent'
+import MultiSelectComponent from '../../../../components/dashboard/MultiSelectComponent'
 import { GetTag } from '@/src/app/constant'
 import { Heading1TypesGet } from '@/src/types/page'
 

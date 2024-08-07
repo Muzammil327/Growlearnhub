@@ -6,11 +6,18 @@ import SimpleInput from '../../components/Input/simpleInput'
 import styles from '@/src/app/dashboard/form.module.css'
 import slugify from 'slugify'
 import { supabase } from '@/src/util/db'
-import ReactQuill from 'react-quill'
 import 'react-quill/dist/quill.snow.css'
-import MainSelect from './main/page'
 import { SingleValue } from 'react-select'
 import Label from '@/src/components/ui/Label'
+import Class from '../../../../components/dashboard/mcqs/add/class'
+import Book from '../../../../components/dashboard/mcqs/add/book'
+import Chapter from '../../../../components/dashboard/mcqs/add/chapter'
+import Topic from '../../../../components/dashboard/mcqs/add/topic'
+import Catgeory from '../../../../components/dashboard/mcqs/add/catgeory'
+import SubCatgeory from '../../../../components/dashboard/mcqs/add/subcatgeory'
+import Items from '../../../../components/dashboard/mcqs/add/item'
+import dynamic from 'next/dynamic';
+const ReactQuill = dynamic(() => import('react-quill'), { ssr: false });
 
 export default function Page() {
   const [loading, setLoading] = useState(false)
@@ -33,6 +40,7 @@ export default function Page() {
   const handleTagsChange = (tag: string[]) => {
     setOptions(tag)
   }
+
   const modules = {
     toolbar: [
       [
@@ -174,22 +182,48 @@ export default function Page() {
         </div>
 
         {/* Variant */}
-        <MainSelect
-          setSelectedOption1={setSelectedOption1}
-          selectedOption1={selectedOption1}
-          setSelectedOption2={setSelectedOption2}
-          selectedOption2={selectedOption2}
-          setSelectedOption3={setSelectedOption3}
-          selectedOption3={selectedOption3}
-          setSelectedOption4={setSelectedOption4}
-          selectedOption4={selectedOption4}
-          setSelectedOption5={setSelectedOption5}
-          selectedOption5={selectedOption5}
-          setSelectedOption6={setSelectedOption6}
-          selectedOption6={selectedOption6}
-          setSelectedOption7={setSelectedOption7}
-          selectedOption7={selectedOption7}
-        />
+        <div>
+          <Class
+            selectedOption1={selectedOption1}
+            setSelectedOption1={setSelectedOption1}
+          />
+          <Book
+            selectedOption1={selectedOption1}
+            selectedOption2={selectedOption2}
+            setSelectedOption2={setSelectedOption2}
+          />
+
+          <Chapter
+            selectedOption1={selectedOption1}
+            selectedOption2={selectedOption2}
+            selectedOption3={selectedOption3}
+            setSelectedOption3={setSelectedOption3}
+          />
+
+          <Topic
+            selectedOption1={selectedOption1}
+            selectedOption2={selectedOption2}
+            selectedOption3={selectedOption3}
+            selectedOption4={selectedOption4}
+            setSelectedOption4={setSelectedOption4}
+          />
+
+          <Catgeory
+            selectedOption5={selectedOption5}
+            selectedOption2={selectedOption2}
+            setSelectedOption5={setSelectedOption5}
+          />
+          <SubCatgeory
+            selectedOption2={selectedOption2}
+            selectedOption5={selectedOption5}
+            selectedOption6={selectedOption6}
+            setSelectedOption6={setSelectedOption6}
+          />
+          <Items
+            selectedOption7={selectedOption7}
+            setSelectedOption7={setSelectedOption7}
+          />
+        </div>
         <div className="mt-5">
           <button
             type="submit"

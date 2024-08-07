@@ -10,7 +10,7 @@ interface OptionType {
   label: string
 }
 
-export default function Catgeory({
+export default function SubCatgeory({
   selectedOption2,
   selectedOption5,
   selectedOption6,
