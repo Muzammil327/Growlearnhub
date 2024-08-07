@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import BookWrapper from '@/src/components/Wrapper/BookWrapper'
 import { supabase } from '@/src/util/db'
-import Card3 from '@/src/components/card2/card3'
+import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 
 interface Iprops {
   params: {
@@ -61,7 +61,7 @@ export default function Page({ params }: Iprops) {
         {error
           ? 'Error Fetching Books'
           : chapterBooks.map((book) => (
-              <Card3
+              <CardSmall
                 key={book.id}
                 title={`${book.name} ${params.books} Solved Mcqs`}
                 link={`/class-9/mcqs/${params.books}/${book.slug}`}

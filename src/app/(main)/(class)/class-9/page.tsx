@@ -1,6 +1,6 @@
 import React from 'react'
 import SimpleWrapper from '@/src/components/Wrapper/SimpleWrapper'
-import Card3 from '@/src/components/card2/card3'
+import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 
 export default function Page() {
   return (
@@ -12,7 +12,7 @@ export default function Page() {
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {mainData.map((data: any) => {
           return (
-            <Card3
+            <CardSmall
               key={data.name}
               title={data.name}
               link={`/class-9/${data.slug}`}

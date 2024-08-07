@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { supabase } from '@/src/util/db'
 import TopicWrapper from '@/src/components/Wrapper/TopicWrapper'
 import { convertHyphensToSpaces } from '@/src/functions/slugify'
-import Card3, { CardQuiz } from '@/src/components/card2/card3'
+import { CardQuiz } from '@/src/components/card/CardQuiz/cardQuiz'
 
 interface Iprops {
   params: {

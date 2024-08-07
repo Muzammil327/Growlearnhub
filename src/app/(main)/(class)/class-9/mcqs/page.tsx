@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import McqsWrapper from '@/src/components/Wrapper/McqsWrapper'
 import { supabase } from '@/src/util/db'
-import Card3 from '@/src/components/card2/card3'
+import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 
 interface Book {
   id: string
@@ -49,7 +49,7 @@ export default function Page() {
         {error
           ? 'Error Fetching Books'
           : books.map((book) => (
-              <Card3
+              <CardSmall
                 key={book.id}
                 title={book.name}
                 link={`/class-9/mcqs/${book.slug}`}

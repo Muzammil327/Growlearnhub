@@ -2,8 +2,8 @@
 import React, { useEffect, useState } from 'react'
 import ChapterWrapper from '@/src/components/Wrapper/ChapterWrapper'
 import { supabase } from '@/src/util/db'
-import Card3 from '@/src/components/card2/card3'
 import { convertHyphensToSpaces } from '@/src/functions/slugify'
+import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 
 interface Iprops {
   params: {
@@ -67,7 +67,7 @@ export default function Page({ params }: Iprops) {
         {error
           ? 'Error Fetching Books'
           : chapterBooksTopic.map((book) => (
-              <Card3
+              <CardSmall
                 key={book.id}
                 title={`${params.books} ${convertHyphensToSpaces(params.chapter)}: ${book.name} Solved Mcqs`}
                 link={`/class-9/mcqs/${params.books}/${params.chapter}/${book.slug}`}
