@@ -2,19 +2,24 @@
 import React, { useEffect, useState } from 'react'
 import { supabase } from '@/src/util/db'
 
-export default function CatgeorySidebar({ mcqs, setSidebar }: any) {
+export default function QuizSlugSidebar({ setSidebar, mcqs }: any) {
   const [error, setError] = useState<string>('')
 
   useEffect(() => {
     const fetchTags = async () => {
       try {
-        const { data: fetchedTags } = await supabase.from('tag').select(`
+        const { data: fetchedTags } = await supabase
+          .from('tag')
+          .select(
+            `
             id,
             name,
             slug,
             book:bookId(slug),
             subCatgeory:subCatgeoryId(slug)
-            `)
+            `
+          )
+          .limit(15)
         if (error) {
           console.error('Error fetching data:', error)
           return
@@ -37,7 +42,7 @@ export default function CatgeorySidebar({ mcqs, setSidebar }: any) {
       }
     }
     fetchTags()
-  }, [error, mcqs, setSidebar])
+  }, [error, mcqs, mcqs.subCatgeoryId, setSidebar])
 
   return <aside>{error}</aside>
 }

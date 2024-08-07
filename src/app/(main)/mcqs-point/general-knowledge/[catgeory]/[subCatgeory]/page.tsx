@@ -16,7 +16,7 @@ export default function Page({ params }: Iprops) {
   const [mcqs, setMcqs] = useState<any[]>([])
   const [error, setError] = useState<string>('')
   const [sidebar, setSidebar] = useState<any[]>([])
-  console.log('sidebar:', sidebar)
+
   useEffect(() => {
     const fetchChapters = async () => {
       try {
@@ -78,7 +78,7 @@ export default function Page({ params }: Iprops) {
               />
             ))}
       </div>
-      <CatgeorySidebar params={params} setSidebar={setSidebar} />
+      <CatgeorySidebar mcqs={mcqs} setSidebar={setSidebar} />
     </SubCatgeoryWrapper>
   )
 }

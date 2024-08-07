@@ -114,10 +114,8 @@ function Links(Iprops: {
 }
 function WithoutLinks(Iprops: { title: string | undefined }) {
   return (
-    <div className="flex items-center">
-      <b className="ms-1 text-sm font-medium text-gray-500 md:ms-2">
-        {Iprops.title}
-      </b>
-    </div>
+    <h2 className="ms-1 !text-sm font-medium text-gray-500 md:ms-2">
+      {Iprops.title}
+    </h2>
   )
 }

@@ -17,6 +17,7 @@ export async function generateMetadata({ params }: Iprops) {
 
   return {
     title: resultString,
+    description: resultString,
     alternates: {
       canonical: `mcqs-point/${params.slug}`,
     },
@@ -30,6 +31,7 @@ export async function generateMetadata({ params }: Iprops) {
     },
     openGraph: {
       title: resultString,
+      description: resultString,
       url: `https://growlearnhub.com/mcqs-point/${params.slug}`,
       images: [
         {
@@ -39,6 +41,8 @@ export async function generateMetadata({ params }: Iprops) {
     },
     twitter: {
       title: resultString,
+      description: resultString,
+
       images: {
         alt: resultString,
       },

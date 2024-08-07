@@ -2,12 +2,17 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { supabase } from '@/src/util/db'
 import SlugWrapper from '@/src/components/Wrapper/SlugWrapper'
-import { convertHyphensToSpaces } from '@/src/functions/slugify'
+import {
+  convertHyphensToSpaces,
+  convertToUppercaseAndReplaceHyphens,
+} from '@/src/functions/slugify'
 import { CardQuiz, CardQuizWithoutLink } from '@/src/components/card2/card3'
+import QuizSlugSidebar from './sidebar'
 
 export default function StructureQuizDetail({ params }: any) {
   const [mcqs, setMcqs] = useState<any[]>([])
   const [error, setError] = useState<string>('')
+  const [sidebar, setSidebar] = useState<any[]>([])
   useEffect(() => {
     const fetchChapters = async () => {
       try {
@@ -22,7 +27,9 @@ export default function StructureQuizDetail({ params }: any) {
             option,
             correct_option,
             tags,
-            description
+            description,
+            bookId,
+            subCatgeoryId
        `
           )
           .eq('slug', params.slug)
@@ -44,11 +51,12 @@ export default function StructureQuizDetail({ params }: any) {
 
   return (
     <SlugWrapper
-      title={`${params.slug}`}
+      title={`${convertToUppercaseAndReplaceHyphens(params.slug)}`}
       b1="Mcqs Point"
       b1Link="/mcqs-point"
       b2={`${convertHyphensToSpaces(params.slug)}`}
       url={`/mcqs-point/${params.slug}`}
+      clist={sidebar}
     >
       <div className="grid gap-4 grid-cols-1 my-10">
         {error
@@ -63,6 +71,7 @@ export default function StructureQuizDetail({ params }: any) {
               />
             ))}
       </div>
+      <QuizSlugSidebar setSidebar={setSidebar} mcqs={mcqs} />
     </SlugWrapper>
   )
 }
