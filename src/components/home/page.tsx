@@ -15,15 +15,17 @@ import BookSection2 from './section2/book'
 
 export default function HomeView() {
   return (
-    <>
+    <React.Fragment>
       <header className="bg-hero bg-hero-2">
         <Navbar />
         <Header title="Innovative Education Academic Platform for Your Career." />
       </header>
-      <ServiceSection1 />
-      <BookSection2 />
-      <BlogSection3 />
+      <main>
+        <ServiceSection1 />
+        <BookSection2 />
+        <BlogSection3 />
+      </main>
       <Footer />
-    </>
+    </React.Fragment>
   )
 }
