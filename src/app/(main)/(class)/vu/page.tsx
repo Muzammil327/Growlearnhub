@@ -4,33 +4,27 @@ import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 
 const data = {
-  title: 'Complete Guide to Class 9 | Resources and Tips for 9th Class',
+  title: 'Virtual University| Resources and Tips for Vu',
   description:
-    'Comprehensive Class 9 page featuring MCQs, online tests, and essential books for efficient learning and thorough subject mastery.',
-  canonical: '/class-9/',
+    'Virtual University resources and tips page offering study materials, exam guides, and effective learning strategies for VU students.',
+  canonical: '/vu/',
   index: true,
   follow: true,
   image: '/opengraph-image.jpg',
-  url: 'https://growlearnhub.com/class-9/',
-  keywords: [
-    'growlearnhub',
-    'growlearnhub class 9',
-    'class 9',
-    '9th class',
-    '9th class growlearnhub',
-  ],
+  url: 'https://growlearnhub.com/vu/',
+  keywords: ['growlearnhub', 'growlearnhub vu', 'vu', 'virtual university'],
 }
 
 export default function Page() {
   return (
-    <Wrapper title={data.title} url={data.canonical} b1="9th Class">
+    <Wrapper title={data.title} url={data.canonical} b1="Virtual University">
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {mainData.map((data: any) => {
           return (
             <CardSmall
               key={data.name}
               title={data.name}
-              link={`/class-9/${data.slug}`}
+              link={`/vu/${data.slug}`}
             />
           )
         })}
@@ -41,16 +35,16 @@ export default function Page() {
 
 const mainData = [
   {
-    name: 'Online Test',
-    slug: 'online-test',
+    name: 'Handouts',
+    slug: 'handouts',
   },
   {
     name: 'Mcqs',
     slug: 'mcqs',
   },
   {
-    name: 'Books',
-    slug: 'books',
+    name: 'Mid Mark Calculator',
+    slug: 'mid-mark-calculator',
   },
 ]
 

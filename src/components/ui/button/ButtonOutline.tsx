@@ -1,5 +1,4 @@
 import React from 'react'
-import { text } from 'stream/consumers'
 
 interface ButtonProps {
   children: React.ReactNode
@@ -8,7 +7,7 @@ interface ButtonProps {
   onClick?: () => void
 }
 
-const Button: React.FC<ButtonProps> = ({
+const ButtonOutline: React.FC<ButtonProps> = ({
   children,
   onClick,
   className,
@@ -26,4 +25,4 @@ const Button: React.FC<ButtonProps> = ({
   )
 }
 
-export default Button
+export default ButtonOutline

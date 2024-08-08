@@ -138,6 +138,7 @@ import Logo from '@/src/components/ui/Logo'
 import Button from '@/src/components/ui/Button'
 import { FaMoon } from 'react-icons/fa'
 import { useTheme } from 'next-themes'
+import ButtonOutline from '../../ui/button/ButtonOutline'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
@@ -482,8 +483,8 @@ export default function Navbar() {
                 >
                   <FaBars size={16} />
                 </Button>
-                <Button
-                  className="btnIcon border-2 border-solid duration-300 ease-in"
+                <ButtonOutline
+                className='py-3 !px-3'
                   onClick={() =>
                     setTheme(currentTheme === 'dark' ? 'light' : 'dark')
                   }
@@ -494,7 +495,7 @@ export default function Navbar() {
                   ) : (
                     <FaSun size={16} />
                   )}
-                </Button>
+                </ButtonOutline>
               </div>
             </div>
           </div>
@@ -573,11 +574,8 @@ const navigation = {
     },
   ],
   pages: [
-    { name: 'Books', href: '/books/' },
-    { name: 'Quiz', href: '/quiz/' },
-    { name: 'Notes', href: '/notes/' },
-    { name: 'Online Tests', href: '/online-tests/' },
-    { name: 'Past Papers', href: '/past-papers/' },
-    { name: 'Pairing Schemes', href: '/pairing-schemes/' },
+    { name: 'Books', href: '/book-point/' },
+    { name: 'Mcqs', href: '/mcqs-point/' },
+    { name: 'Online Tests', href: '/online-mcqs-point/' },
   ],
 }

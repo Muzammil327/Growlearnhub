@@ -1,9 +1,9 @@
-import React from "react";
-import Newsletter from "@/src/components/layout/footer/newsletter";
-import FooterMenu from "@/src/components/layout/footer/menu";
-import Container from "../../element/container";
-import Social from "./social";
-import Link from "next/link";
+import React from 'react'
+import Newsletter from '@/src/components/layout/footer/newsletter'
+import FooterMenu from '@/src/components/layout/footer/menu'
+import Container from '../../element/container'
+import Social from './social'
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -23,15 +23,13 @@ export default function Footer() {
             <Social />
           </div>
           <div>
-              <FooterMenu />
-            
-            
+            <FooterMenu />
           </div>
         </div>
       </Container>
-      <div className="copyright border-t border-gray-600 text-white py-3 text-center">
+      <div className="copyright border-t border-gray-600 py-3 text-center">
         <Container>
-          <span>© GrowLearnHub. All Rights Reserved.</span>{" "}
+          <span className='!text-white'>© GrowLearnHub. All Rights Reserved.</span>{' '}
         </Container>
       </div>
       <div
@@ -42,10 +40,10 @@ export default function Footer() {
           className="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
           style={{
             clipPath:
-              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
+              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
           }}
         />
       </div>
     </footer>
-  );
+  )
 }

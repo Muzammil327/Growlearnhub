@@ -10,35 +10,31 @@ interface Book {
 }
 
 const data = {
-  title: 'Efficient, interactive MCQs',
+  title: 'User-friendly, interactive Online Mcqs Test',
   description:
-    'Efficient, interactive MCQs platform designed for comprehensive review, immediate score feedback, and detailed performance analytics.',
-  canonical: '/mcqs-point/',
+    'User-friendly, interactive MCQs test page designed for thorough subject review with real-time feedback and scores to enhance learning.',
+  canonical: '/online-mcqs-point/',
   index: true,
   follow: true,
   image: '/opengraph-image.jpg',
-  url: 'https://growlearnhub.com/mcqs-point/',
+  url: 'https://growlearnhub.com/online-mcqs-point/',
   keywords: [
     'growlearnhub',
-    'growlearnhub mcqs',
-    'mcqs',
-    'growlearnhub mcqs point',
+    'growlearnhub online',
+    'growlearnhub online mcqs',
+    'online mcqs',
+    'growlearnhub online mcqs point',
+    'online mcqs point',
     'mcqs point',
   ],
 }
 
 export default function Page() {
   return (
-    <Wrapper title={data.title} url={data.url} b1="Mcqs Point">
-      <h2>Class Wise Mcqs</h2>
+    <Wrapper title={data.title} url={data.canonical} b1="Online Test Point">
+      <h2>Class Wise Online Test</h2>
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {ClassData.map((book: Book) => (
-          <CardSmall key={book.id} title={book.name} link={`${book.slug}`} />
-        ))}
-      </div>
-      <h2>Subject Wise Mcqs</h2>
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {SubjectData.map((book: Book) => (
           <CardSmall key={book.id} title={book.name} link={`${book.slug}`} />
         ))}
       </div>
@@ -50,49 +46,27 @@ const ClassData: Book[] = [
   {
     id: 0,
     name: 'Class 9',
-    slug: '/class-9/mcqs/',
+    slug: '/class-9/online-test/',
   },
   {
     id: 1,
     name: 'Class 10',
-    slug: '/class-10/mcqs/',
+    slug: '/class-10/online-test/',
   },
   {
     id: 2,
     name: 'Class 11',
-    slug: '/class-11/mcqs/',
+    slug: '/class-11/online-test/',
   },
   {
     id: 3,
     name: 'Class 12',
-    slug: '/class-12/mcqs/',
+    slug: '/class-12/online-test/',
   },
   {
     id: 4,
     name: 'Virtual University',
-    slug: '/vu/mcqs/',
-  },
-]
-const SubjectData: Book[] = [
-  {
-    id: 0,
-    name: 'Physics',
-    slug: '/mcqs-point/physics/',
-  },
-  {
-    id: 1,
-    name: 'Chemistry',
-    slug: '/mcqs-point/chemistry/',
-  },
-  {
-    id: 2,
-    name: 'Biology',
-    slug: '/mcqs-point/biology/',
-  },
-  {
-    id: 3,
-    name: 'General Knowledge',
-    slug: '/mcqs-point/general-knowledge/',
+    slug: '/vu/online-test/',
   },
 ]
 

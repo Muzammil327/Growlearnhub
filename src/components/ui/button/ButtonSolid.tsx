@@ -1,5 +1,4 @@
 import React from 'react'
-import { text } from 'stream/consumers'
 
 interface ButtonProps {
   children: React.ReactNode
@@ -8,7 +7,7 @@ interface ButtonProps {
   onClick?: () => void
 }
 
-const Button: React.FC<ButtonProps> = ({
+const ButtonSolid: React.FC<ButtonProps> = ({
   children,
   onClick,
   className,
@@ -17,7 +16,7 @@ const Button: React.FC<ButtonProps> = ({
   return (
     <button
       type="button"
-      className={`${className} bg-color2 text-white py-2 px-6 rounded-md duration-300 ease-in-out hover:bg-white hover:text-color2 border-2 border-solid border-color2`}
+      className={`${className} bg-color2 text-white py-2 px-6 rounded-md duration-300 ease-in-out border-2 border-solid border-color2`}
       onClick={onClick}
       aria-label={text}
     >
@@ -26,4 +25,4 @@ const Button: React.FC<ButtonProps> = ({
   )
 }
 
-export default Button
+export default ButtonSolid
