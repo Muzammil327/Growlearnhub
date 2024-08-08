@@ -83,7 +83,13 @@ const route = [
   'vu/',
 
   'book-point/',
+
   'mcqs-point/',
+  'mcqs-point/biology/',
+  'mcqs-point/chemistry/',
+  'mcqs-point/physics/',
+  'mcqs-point/general-knowledge/',
+
   'online-test-point/',
 
   'vu/mid-mark-calculator/',

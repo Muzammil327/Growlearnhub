@@ -63,11 +63,6 @@ const ClassData: Book[] = [
     name: 'Class 12',
     slug: '/class-12/online-test/',
   },
-  {
-    id: 4,
-    name: 'Virtual University',
-    slug: '/vu/online-test/',
-  },
 ]
 
 export const metadata: Metadata = {

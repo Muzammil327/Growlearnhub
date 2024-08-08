@@ -36,7 +36,7 @@ export default function Page() {
             <CardSmall
               key={data.name}
               title={data.name}
-              link={`/vu/handouts/final-mcqs/${data.slug}`}
+              link={`/vu/final-mcqs/${data.slug}`}
             />
           )
         })}

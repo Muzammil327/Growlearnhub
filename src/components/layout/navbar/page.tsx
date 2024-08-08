@@ -576,6 +576,6 @@ const navigation = {
   pages: [
     { name: 'Books', href: '/book-point/' },
     { name: 'Mcqs', href: '/mcqs-point/' },
-    { name: 'Online Tests', href: '/online-mcqs-point/' },
+    { name: 'Online Tests', href: '/online-test-point/' },
   ],
 }
