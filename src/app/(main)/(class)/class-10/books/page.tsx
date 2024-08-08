@@ -4,20 +4,20 @@ import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 
 const data = {
-  title: '9th Class Books | Class 9',
+  title: '10th Class Books | Class 10',
   description:
-    'Class 9 books page providing essential textbooks, study guides, and reference materials for comprehensive learning.',
-  canonical: '/class-9/books/',
+    'Class 10 books page providing essential textbooks, study guides, and reference materials for comprehensive learning.',
+  canonical: '/class-10/books/',
   index: true,
   follow: true,
   image: '/opengraph-image.jpg',
-  url: 'https://growlearnhub.com/class-9/books/',
+  url: 'https://growlearnhub.com/class-10/books/',
   keywords: [
     'growlearnhub books',
-    'growlearnhub class 9 books',
-    'class 9 books',
-    '9th class books',
-    '9th class growlearnhub books',
+    'growlearnhub class 10 books',
+    'class 10 books',
+    '10th class books',
+    '10th class growlearnhub books',
   ],
 }
 
@@ -26,8 +26,8 @@ export default function Page() {
     <Wrapper
       title={data.title}
       url={data.canonical}
-      b1="9th Class"
-      b1Link="/class-9/"
+      b1="10th Class"
+      b1Link="/class-10/"
       b2="Books"
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
@@ -36,7 +36,7 @@ export default function Page() {
             <CardSmall
               key={data.name}
               title={data.name}
-              link={`/class-9/books/${data.slug}`}
+              link={`/class-10/books/${data.slug}`}
             />
           )
         })}

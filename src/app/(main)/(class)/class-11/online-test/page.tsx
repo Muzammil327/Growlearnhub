@@ -4,20 +4,21 @@ import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 
 const data = {
-  title: '9th Class Books | Class 9',
+  title: '11th Class Online Test | Class 11',
   description:
-    'Class 9 books page providing essential textbooks, study guides, and reference materials for comprehensive learning.',
-  canonical: '/class-9/books/',
+    'Class 11 online test page providing interactive exams, instant feedback, and performance analytics for effective learning.',
+  canonical: '/class-11/online-test/',
   index: true,
   follow: true,
   image: '/opengraph-image.jpg',
-  url: 'https://growlearnhub.com/class-9/books/',
+  url: 'https://growlearnhub.com/class-11/online-test/',
   keywords: [
-    'growlearnhub books',
-    'growlearnhub class 9 books',
-    'class 9 books',
-    '9th class books',
-    '9th class growlearnhub books',
+    'growlearnhub online test',
+    'growlearnhub class 11 online test',
+    'online test',
+    'class 11 online test',
+    '11th class online test',
+    '11th class growlearnhub online test',
   ],
 }
 
@@ -26,9 +27,9 @@ export default function Page() {
     <Wrapper
       title={data.title}
       url={data.canonical}
-      b1="9th Class"
-      b1Link="/class-9/"
-      b2="Books"
+      b1="11th Class"
+      b1Link="/class-11/"
+      b2="Online Test"
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {mainData.map((data: any) => {
@@ -36,7 +37,7 @@ export default function Page() {
             <CardSmall
               key={data.name}
               title={data.name}
-              link={`/class-9/books/${data.slug}`}
+              link={`/class-11/online-test/${data.slug}`}
             />
           )
         })}

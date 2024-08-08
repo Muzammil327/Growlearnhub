@@ -87,8 +87,14 @@ const route = [
   'online-mcqs-point/',
 
   'vu/mid-mark-calculator/',
+  'vu/final-mcqs/',
+  'vu/mid-mcqs/',
+  'vu/handouts/',
 
-  // 'class-9/books/',
+  'class-9/books/',
+  'class-10/books/',
+  'class-11/books/',
+  'class-12/books/',
   // 'class-9/books/punjab-board-physics/',
   // 'class-9/books/punjab-board-math/',
   // 'class-9/books/punjab-board-chemistry/',
@@ -100,7 +106,10 @@ const route = [
   // 'class-9/notes/punjab-board-biology/',
   // 'class-9/past-papers/',
 
-  // 'class-9/mcqs/',
+  'class-9/mcqs/',
+  'class-10/mcqs/',
+  'class-11/mcqs/',
+  'class-12/mcqs/',
   // 'class-9/mcqs/physics/',
   // 'class-9/mcqs/math/',
   // 'class-9/mcqs/chemistry/',
@@ -119,7 +128,10 @@ const route = [
   // 'class-9/mcqs/biology/chapter-8/',
   // 'class-9/mcqs/biology/chapter-9/',
 
-  // 'class-9/online-test/',
+  'class-9/online-test/',
+  'class-10/online-test/',
+  'class-11/online-test/',
+  'class-12/online-test/',
   // 'class-9/pairing-schemes/',
 
   // 'class-10/books/',

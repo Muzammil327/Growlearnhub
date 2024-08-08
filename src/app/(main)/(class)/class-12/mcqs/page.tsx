@@ -4,20 +4,20 @@ import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 
 const data = {
-  title: '9th Class Books | Class 9',
+  title: '12th Class Mcqs | Class 12',
   description:
-    'Class 9 books page providing essential textbooks, study guides, and reference materials for comprehensive learning.',
-  canonical: '/class-9/books/',
+    'Class 12 MCQs page offering a wide range of practice questions, online tests, and detailed answers for thorough exam preparation.',
+  canonical: '/class-12/mcqs/',
   index: true,
   follow: true,
   image: '/opengraph-image.jpg',
-  url: 'https://growlearnhub.com/class-9/books/',
+  url: 'https://growlearnhub.com/class-12/mcqs/',
   keywords: [
-    'growlearnhub books',
-    'growlearnhub class 9 books',
-    'class 9 books',
-    '9th class books',
-    '9th class growlearnhub books',
+    'growlearnhub mcqs',
+    'growlearnhub class 12 mcqs',
+    'class 12 mcqs',
+    '12th class mcqs',
+    '12th class growlearnhub mcqs',
   ],
 }
 
@@ -26,9 +26,9 @@ export default function Page() {
     <Wrapper
       title={data.title}
       url={data.canonical}
-      b1="9th Class"
-      b1Link="/class-9/"
-      b2="Books"
+      b1="12th Class"
+      b1Link="/class-12/"
+      b2="Mcqs"
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {mainData.map((data: any) => {
@@ -36,7 +36,7 @@ export default function Page() {
             <CardSmall
               key={data.name}
               title={data.name}
-              link={`/class-9/books/${data.slug}`}
+              link={`/class-12/mcqs/${data.slug}`}
             />
           )
         })}

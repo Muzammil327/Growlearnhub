@@ -4,7 +4,7 @@ import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 
 const data = {
-  title: 'Virtual University| Resources and Tips for Vu',
+  title: 'Virtual University | Resources and Tips for Vu',
   description:
     'Virtual University resources and tips page offering study materials, exam guides, and effective learning strategies for VU students.',
   canonical: '/vu/',
@@ -39,12 +39,16 @@ const mainData = [
     slug: 'handouts',
   },
   {
-    name: 'Mcqs',
-    slug: 'mcqs',
-  },
-  {
     name: 'Mid Mark Calculator',
     slug: 'mid-mark-calculator',
+  },
+  {
+    name: 'Mid Mcqs',
+    slug: 'mid-mcqs',
+  },
+  {
+    name: 'Final Mcqs',
+    slug: 'final-mcqs',
   },
 ]
 
