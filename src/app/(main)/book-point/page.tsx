@@ -63,7 +63,7 @@ const BookData: Book[] = [
   {
     id: 4,
     name: 'Virtual University',
-    slug: '/vu/books/',
+    slug: '/vu/handouts/',
   },
 ]
 

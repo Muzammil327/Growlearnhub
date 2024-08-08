@@ -84,7 +84,7 @@ const route = [
 
   'book-point/',
   'mcqs-point/',
-  'online-mcqs-point/',
+  'online-test-point/',
 
   'vu/mid-mark-calculator/',
   'vu/final-mcqs/',

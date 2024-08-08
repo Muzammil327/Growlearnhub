@@ -69,8 +69,13 @@ const ClassData: Book[] = [
   },
   {
     id: 4,
-    name: 'Virtual University',
-    slug: '/vu/mcqs/',
+    name: 'Virtual University Mid Term',
+    slug: '/vu/mid-mcqs/',
+  },
+  {
+    id: 5,
+    name: 'Virtual University Final Term',
+    slug: '/vu/final-mcqs/',
   },
 ]
 const SubjectData: Book[] = [

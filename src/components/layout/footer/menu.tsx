@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import FaReadme from '@/src/components/layout/footer/FaReadme'
 import QuestionMarkCircleIcon from '@/src/components/layout/footer/QuestionMarkCircleIcon'
 import BookOpenIcon from '@/src/components/layout/footer/BookOpenIcon'
 
@@ -20,7 +19,7 @@ const footer = [
   {
     id: 2,
     name: 'Online Tests',
-    link: '/online-mcqs-point/',
+    link: '/online-test-point/',
     icon: BookOpenIcon,
   },
 ]
