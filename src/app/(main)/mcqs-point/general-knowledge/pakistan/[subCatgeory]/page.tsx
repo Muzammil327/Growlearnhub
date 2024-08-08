@@ -1,5 +1,5 @@
 import React from 'react'
-import StructureSubCatgeory from '@/src/components/McqsPoint/MPSubjectSubCat/StructureSubCatgeory'
+import StructureSubCatgeory from '@/src/components/McqsPoint/StructureSubCatgeory'
 
 interface Iprops {
   params: {

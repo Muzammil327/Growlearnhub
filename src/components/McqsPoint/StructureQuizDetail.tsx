@@ -1,12 +1,12 @@
 'use client'
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { supabase } from '@/src/util/db'
-import MPSubjectSlug from '@/src/components/McqsPoint/MPSubjectSlug/MPSubjectSlug'
 import {
   convertHyphensToSpaces,
   convertToUppercaseAndReplaceHyphens,
 } from '@/src/functions/slugify'
 import { CardQuizWithoutLink } from '@/src/components/card/CardQuiz/cardQuiz'
+import Wrapper from '@/src/components/element/Wrapper'
 
 export default function StructureQuizDetail({ params }: any) {
   const [mcqs, setMcqs] = useState<any[]>([])
@@ -49,7 +49,7 @@ export default function StructureQuizDetail({ params }: any) {
   }, [params.slug])
 
   return (
-    <MPSubjectSlug
+    <Wrapper
       title={`${convertToUppercaseAndReplaceHyphens(params.slug)}`}
       b1="Mcqs Point"
       b1Link="/mcqs-point"
@@ -69,6 +69,6 @@ export default function StructureQuizDetail({ params }: any) {
               />
             ))}
       </div>
-    </MPSubjectSlug>
+    </Wrapper>
   )
 }

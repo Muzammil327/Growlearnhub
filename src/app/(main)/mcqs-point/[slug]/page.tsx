@@ -1,5 +1,5 @@
 import React from 'react'
-import StructureQuizDetail from '@/src/components/McqsPoint/MPSubjectSlug/StructureQuizDetail'
+import StructureQuizDetail from '@/src/components/McqsPoint/StructureQuizDetail'
 import { convertToUppercaseAndReplaceHyphens } from '@/src/functions/slugify'
 
 interface Iprops {

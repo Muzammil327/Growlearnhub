@@ -1,6 +1,7 @@
 import React from 'react'
 import { Metadata } from 'next'
-import MPSubjectCat from '@/src/components/McqsPoint/MPSubjectCat/page'
+import Wrapper from '@/src/components/element/Wrapper'
+import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 
 interface Subject {
   id: number
@@ -28,8 +29,7 @@ const data = {
 
 export default function Page() {
   return (
-    <MPSubjectCat
-      BookSubjectData={BookSubjectData}
+    <Wrapper
       title={data.title}
       url={data.canonical}
       b1="Mcqs Point"
@@ -37,7 +37,17 @@ export default function Page() {
       b2="General Knowledge"
       b2Link="/mcqs-point/general-knowledge/"
       b3="India"
-    />
+    >
+      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
+        {BookSubjectData.map((book: Subject) => (
+          <CardSmall
+            key={book.id}
+            title={book.name}
+            link={`${data.canonical}${book.slug}`}
+          />
+        ))}
+      </div>
+    </Wrapper>
   )
 }
 

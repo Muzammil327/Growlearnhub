@@ -83,6 +83,6 @@ const BookSubjectData: Subject[] = [
   {
     id: 0,
     name: '',
-    slug: '/',
+    slug: '',
   },
 ]

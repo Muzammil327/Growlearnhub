@@ -2,8 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import { supabase } from '@/src/util/db'
 import { CardQuiz } from '@/src/components/card/CardQuiz/cardQuiz'
-// import CatgeorySidebar from './sidebar'
-import McqsPointSubjectSubCatWrapper from '@/src/components/McqsPoint/MPSubjectSubCat/MPSubjectSubCatWrapper'
+import Wrapper from '@/src/components/element/Wrapper'
 
 interface Iprops {
   bookId: string
@@ -75,7 +74,7 @@ export default function StructureSubCatgeory({
   }, [bookId, catgeoryId, subCatgeory])
 
   return (
-    <McqsPointSubjectSubCatWrapper
+    <Wrapper
       title={title}
       b1={b1}
       b1Link={b1Link}
@@ -99,6 +98,6 @@ export default function StructureSubCatgeory({
               />
             ))}
       </div>
-    </McqsPointSubjectSubCatWrapper>
+    </Wrapper>
   )
 }
