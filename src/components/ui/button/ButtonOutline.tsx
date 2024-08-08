@@ -5,6 +5,7 @@ interface ButtonProps {
   className?: string
   text?: string
   onClick?: () => void
+  disable?: any
 }
 
 const ButtonOutline: React.FC<ButtonProps> = ({
@@ -12,6 +13,7 @@ const ButtonOutline: React.FC<ButtonProps> = ({
   onClick,
   className,
   text,
+  disable,
 }) => {
   return (
     <button
@@ -19,6 +21,7 @@ const ButtonOutline: React.FC<ButtonProps> = ({
       className={`${className} bg-color2 text-white py-2 px-6 rounded-md duration-300 ease-in-out hover:bg-white hover:text-color2 border-2 border-solid border-color2`}
       onClick={onClick}
       aria-label={text}
+      disabled={disable}
     >
       {children}
     </button>

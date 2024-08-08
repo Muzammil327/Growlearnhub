@@ -27,7 +27,7 @@ export const CardQuiz: React.FC<CardQuizProps> = ({
 }) => {
   return (
     <Link href={link} className={className}>
-      <div className="card">
+      <div className="cardquiz">
         <h3>
           <div dangerouslySetInnerHTML={{ __html: title }}></div>
         </h3>
@@ -42,12 +42,6 @@ export const CardQuiz: React.FC<CardQuizProps> = ({
         {description && (
           <div dangerouslySetInnerHTML={{ __html: description }}></div>
         )}
-        <div className="shine"></div>
-        <div className="background">
-          <div className="line line1"></div>
-          <div className="line line2"></div>
-          <div className="line line3"></div>
-        </div>
       </div>
     </Link>
   )
@@ -61,7 +55,7 @@ export const CardQuizWithoutLink: React.FC<CardQuizProps2> = ({
   description,
 }) => {
   return (
-    <div className="card">
+    <div className="cardquiz">
       <h3>{title}</h3>
       <ul>
         {option.map((index: any) => {
@@ -77,12 +71,6 @@ export const CardQuizWithoutLink: React.FC<CardQuizProps2> = ({
           className="description"
         ></div>
       )}
-      <div className="shine"></div>
-      <div className="background">
-        <div className="line line1"></div>
-        <div className="line line2"></div>
-        <div className="line line3"></div>
-      </div>
     </div>
   )
 }

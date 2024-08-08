@@ -1,4 +1,3 @@
-import { MetadataRoute } from 'next'
 import { supabase } from '@/src/util/db'
 import { convertToLowercaseWithHyphen } from '../functions/slugify'
 
@@ -41,11 +40,6 @@ export default async function sitemap(): Promise<SitemapFile[]> {
         changeFrequency: 'weekly' as 'weekly', // Explicit type casting to match allowed literals
       }))
 
-    // Example of another data source (commented out for now)
-    // const response2 = await fetch(`${BACKEND_URL}/api/get/heading1`, {
-    //   cache: "no-store", // This will bypass cache
-    // });
-    // const data2 = await response2.json();
     const routes21: SitemapFile[] = route.map((product) => ({
       url: `${FRONTEND_URL}/${product}`,
       lastModified: new Date().toISOString(),
@@ -63,9 +57,6 @@ export default async function sitemap(): Promise<SitemapFile[]> {
       },
       ...routes21,
       ...IntroductionToBiologyRoutes,
-      // ...quizroutes,
-      // ...heading2routes,
-      // ...mcqsroutes,
     ]
 
     return routes
@@ -108,95 +99,91 @@ const route = [
   'online-test-point/',
 
   'vu/mid-mark-calculator/',
+
   'vu/final-mcqs/',
+  'vu/final-mcqs/cs101/',
+  'vu/final-mcqs/cs201/',
+  'vu/final-mcqs/cs302/',
+  'vu/final-mcqs/eng201/',
+  'vu/final-mcqs/mgt211/',
+
   'vu/mid-mcqs/',
+  'vu/mid-mcqs/cs101/',
+  'vu/mid-mcqs/cs201/',
+  'vu/mid-mcqs/cs302/',
+  'vu/mid-mcqs/eng201/',
+  'vu/mid-mcqs/mgt211/',
+
   'vu/handouts/',
+  'vu/handouts/cs101/',
+  'vu/handouts/cs201/',
+  'vu/handouts/cs302/',
+  'vu/handouts/eng201/',
+  'vu/handouts/mgt211/',
+  'vu/handouts/mth104/',
+  'vu/handouts/mth301/',
 
   'class-9/books/',
+  'class-9/books/punjab-board-physics/',
+  'class-9/books/punjab-board-math/',
+  'class-9/books/punjab-board-chemistry/',
+  'class-9/books/punjab-board-biology/',
+
   'class-10/books/',
+  'class-10/books/punjab-board-physics/',
+  'class-10/books/punjab-board-math/',
+  'class-10/books/punjab-board-chemistry/',
+  'class-10/books/punjab-board-biology/',
+
   'class-11/books/',
+  'class-11/books/punjab-board-physics/',
+  'class-11/books/punjab-board-math/',
+  'class-11/books/punjab-board-chemistry/',
+  'class-11/books/punjab-board-biology/',
+
   'class-12/books/',
-  // 'class-9/books/punjab-board-physics/',
-  // 'class-9/books/punjab-board-math/',
-  // 'class-9/books/punjab-board-chemistry/',
-  // 'class-9/books/punjab-board-biology/',
-  // 'class-9/notes/',
-  // 'class-9/notes/punjab-board-physics/',
-  // 'class-9/notes/punjab-board-math/',
-  // 'class-9/notes/punjab-board-chemistry/',
-  // 'class-9/notes/punjab-board-biology/',
-  // 'class-9/past-papers/',
+  'class-12/books/punjab-board-physics/',
+  'class-12/books/punjab-board-math/',
+  'class-12/books/punjab-board-chemistry/',
+  'class-12/books/punjab-board-biology/',
 
   'class-9/mcqs/',
-  'class-10/mcqs/',
-  'class-11/mcqs/',
-  'class-12/mcqs/',
-  // 'class-9/mcqs/physics/',
-  // 'class-9/mcqs/math/',
-  // 'class-9/mcqs/chemistry/',
+  'class-9/mcqs/physics/',
+  'class-9/mcqs/biology/',
+  'class-9/mcqs/chemistry/',
 
-  // 'class-9/mcqs/biology/',
-  // 'class-9/mcqs/biology/chapter-1/',
-  // 'class-9/mcqs/biology/chapter-1/introduction-to-biology/',
-  // 'class-9/mcqs/biology/chapter-1/levels-of-organization/',
-  // 'class-9/mcqs/biology/chapter-1/muslim-scientists/',
-  // 'class-9/mcqs/biology/chapter-2/',
-  // 'class-9/mcqs/biology/chapter-3/',
-  // 'class-9/mcqs/biology/chapter-4/',
-  // 'class-9/mcqs/biology/chapter-5/',
-  // 'class-9/mcqs/biology/chapter-6/',
-  // 'class-9/mcqs/biology/chapter-7/',
-  // 'class-9/mcqs/biology/chapter-8/',
-  // 'class-9/mcqs/biology/chapter-9/',
+  'class-10/mcqs/',
+  'class-10/mcqs/physics/',
+  'class-10/mcqs/biology/',
+  'class-10/mcqs/chemistry/',
+
+  'class-11/mcqs/',
+  'class-11/mcqs/physics/',
+  'class-11/mcqs/biology/',
+  'class-11/mcqs/chemistry/',
+
+  'class-12/mcqs/',
+  'class-12/mcqs/physics/',
+  'class-12/mcqs/biology/',
+  'class-12/mcqs/chemistry/',
 
   'class-9/online-test/',
+  'class-9/online-test/physics/',
+  'class-9/online-test/biology/',
+  'class-9/online-test/chemistry/',
+
   'class-10/online-test/',
+  'class-10/online-test/physics/',
+  'class-10/online-test/biology/',
+  'class-10/online-test/chemistry/',
+
   'class-11/online-test/',
+  'class-11/online-test/physics/',
+  'class-11/online-test/biology/',
+  'class-11/online-test/chemistry/',
+
   'class-12/online-test/',
-  // 'class-9/pairing-schemes/',
-
-  // 'class-10/books/',
-  // 'class-11/books/',
-  // 'class-12/books/',
-
-  // 'class-10/notes/',
-  // 'class-11/notes/',
-  // 'class-12/notes/',
-
-  // 'vu/handouts/',
-  // 'vu/handouts/cs101/',
-  // 'vu/handouts/cs201/',
-  // 'vu/handouts/cs302/',
-  // 'vu/handouts/eng201/',
-  // 'vu/handouts/mgt211/',
-  // 'vu/handouts/mth104/',
-  // 'vu/handouts/mth301/',
-  // 'vu/mid-term/',
-
-  // 'vu/mid-term/cs101/',
-  // 'vu/mid-term/cs101/abbreviation/',
-  // 'vu/mid-term/cs101/mcqs/',
-  // 'vu/mid-term/cs101/mcqs/chapter-1/',
-  // 'vu/mid-term/cs101/mcqs/chapter-2/',
-  // 'vu/mid-term/cs101/mcqs/chapter-3/',
-
-  // 'vu/mid-term/cs201/',
-  // 'vu/mid-term/cs201/abbreviation/',
-  // 'vu/mid-term/cs201/mcqs/',
-  // 'vu/mid-term/cs201/mcqs/chapter-1/',
-  // 'vu/mid-term/cs201/mcqs/chapter-2/',
-  // 'vu/mid-term/cs201/mcqs/chapter-3/',
-  // 'vu/mid-term/cs201/definitions/',
-  // 'vu/mid-term/cs201/definitions/what-is-pointer/',
-  // 'vu/mid-term/cs201/definitions/what-is-reference/',
-  // 'vu/mid-term/cs201/definitions/what-is-interpreter/',
-  // 'vu/mid-term/cs201/definitions/what-is-compiler/',
-  // 'vu/mid-term/cs201/definitions/what-is-program/',
-
-  // 'vu/mid-term/cs302/',
-  // 'vu/mid-term/cs302/abbreviation/',
-  // 'vu/mid-term/cs302/mcqs/',
-  // 'vu/mid-term/cs302/mcqs/chapter-1/',
-  // 'vu/mid-term/cs302/mcqs/chapter-2/',
-  // 'vu/mid-term/cs302/mcqs/chapter-3/',
+  'class-12/online-test/physics/',
+  'class-12/online-test/biology/',
+  'class-12/online-test/chemistry/',
 ]
