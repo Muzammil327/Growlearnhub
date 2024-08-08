@@ -46,12 +46,12 @@ export default async function sitemap(): Promise<SitemapFile[]> {
     //   cache: "no-store", // This will bypass cache
     // });
     // const data2 = await response2.json();
-    // const heading1routes: SitemapFile[] = data2.map((product: any) => ({
-    //   url: `${FRONTEND_URL}/quiz/subject-wise/${convertToLowercaseWithHyphen(product.book.title)}/${convertToLowercaseWithHyphen(product.title)}/`,
-    //   lastModified: new Date().toISOString(),
-    //   priority: 0.9,
-    //   changeFrequency: "hourly" as "hourly", // Explicit type casting to match allowed literals
-    // }));
+    const routes21: SitemapFile[] = route.map((product) => ({
+      url: `${FRONTEND_URL}/${product}`,
+      lastModified: new Date().toISOString(),
+      priority: 0.9,
+      changeFrequency: 'hourly' as 'hourly', // Explicit type casting to match allowed literals
+    }))
 
     // Combine all routes
     const routes: SitemapFile[] = [
@@ -61,8 +61,8 @@ export default async function sitemap(): Promise<SitemapFile[]> {
         priority: 1,
         changeFrequency: 'hourly' as 'hourly', // Explicit type casting to match allowed literals
       },
+      ...routes21,
       ...IntroductionToBiologyRoutes,
-      // ...heading1routes,
       // ...quizroutes,
       // ...heading2routes,
       // ...mcqsroutes,
