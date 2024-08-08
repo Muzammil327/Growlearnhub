@@ -13,11 +13,11 @@ const data = {
   title: 'Interactive books for All Classes',
   description:
     'Interactive books page for all classes, featuring top picks, trending titles, detailed descriptions, and user ratings for informed choices.',
-  canonical: '/mcqs-point/',
+  canonical: '/book-point/',
   index: true,
   follow: true,
   image: '/opengraph-image.jpg',
-  url: 'https://growlearnhub.com/mcqs-point/',
+  url: 'https://growlearnhub.com/book-point/',
   keywords: [
     'growlearnhub',
     'growlearnhub mcqs',

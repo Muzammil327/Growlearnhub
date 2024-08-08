@@ -48,7 +48,7 @@ export default function Page() {
 const mainData = [
   {
     name: 'Biology',
-    slug: '/',
+    slug: '',
   },
 ]
 

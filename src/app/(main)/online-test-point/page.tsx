@@ -13,11 +13,11 @@ const data = {
   title: 'User-friendly, interactive Online Mcqs Test',
   description:
     'User-friendly, interactive MCQs test page designed for thorough subject review with real-time feedback and scores to enhance learning.',
-  canonical: '/online-mcqs-point/',
+  canonical: '/online-test-point/',
   index: true,
   follow: true,
   image: '/opengraph-image.jpg',
-  url: 'https://growlearnhub.com/online-mcqs-point/',
+  url: 'https://growlearnhub.com/online-test-point/',
   keywords: [
     'growlearnhub',
     'growlearnhub online',
