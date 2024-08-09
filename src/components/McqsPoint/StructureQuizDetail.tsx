@@ -8,7 +8,7 @@ import {
 import { CardQuizWithoutLink } from '@/src/components/card/CardQuiz/cardQuiz'
 import Wrapper from '@/src/components/element/Wrapper'
 
-export default function StructureQuizDetail({ params }: any) {
+export default function StructureQuizDetail({ params, image }: any) {
   const [mcqs, setMcqs] = useState<any[]>([])
   const [error, setError] = useState<string>('')
 
@@ -55,6 +55,7 @@ export default function StructureQuizDetail({ params }: any) {
       b1Link="/mcqs-point"
       b2={`${convertHyphensToSpaces(params.slug)}`}
       url={`/mcqs-point/${params.slug}`}
+      image={image}
     >
       <div className="grid gap-4 grid-cols-1 my-10">
         {error

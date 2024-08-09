@@ -8,10 +8,12 @@ import Footer from '@/src/components/layout/footer/page'
 import Navbar from '@/src/components/layout/navbar/page'
 import '@/src/styles/Wrapper/style.scss'
 import Sidebar from '@/src/components/sidebar/page'
+import ImageContainer from './image'
 
 export default function Wrapper(data: {
   title: string
   clist?: any
+  image?: any
   url: string
   children: React.ReactNode
   b1: string
@@ -47,6 +49,16 @@ export default function Wrapper(data: {
                 educational requirements, empowering you to achieve excellence
                 in your studies and professional goals.
               </p>
+              {data.image && (
+                <ImageContainer
+                  image={`${data.image}`}
+                  title={data.title}
+                  class="my-4"
+                  height={720}
+                  width={1280}
+                  priority
+                />
+              )}
               {data.children}
               <p>
                 You can give your opinion or any question you have to ask below

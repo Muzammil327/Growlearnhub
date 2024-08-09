@@ -9,11 +9,14 @@ interface Iprops {
 }
 
 export default function page({ params }: Iprops) {
-  return <StructureQuizDetail params={params} />
+  const image = '/mcqs-point/mcqs-point.png'
+
+  return <StructureQuizDetail params={params} image={image} />
 }
 
 export async function generateMetadata({ params }: Iprops) {
   const resultString = convertToUppercaseAndReplaceHyphens(params.slug)
+  const image = '/mcqs-point/mcqs-point.png'
 
   return {
     title: resultString,
@@ -35,6 +38,7 @@ export async function generateMetadata({ params }: Iprops) {
       url: `https://growlearnhub.com/mcqs-point/${params.slug}`,
       images: [
         {
+          src: image,
           alt: resultString,
         },
       ],
@@ -44,6 +48,7 @@ export async function generateMetadata({ params }: Iprops) {
       description: resultString,
 
       images: {
+        src: image,
         alt: resultString,
       },
     },

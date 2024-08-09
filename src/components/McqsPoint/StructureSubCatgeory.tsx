@@ -17,6 +17,7 @@ interface Iprops {
   b1Link: string
   b2Link: string
   b3Link: string
+  image: string
 }
 
 export default function StructureSubCatgeory({
@@ -32,6 +33,7 @@ export default function StructureSubCatgeory({
   b1Link,
   b2Link,
   b3Link,
+  image,
 }: Iprops) {
   const [mcqs, setMcqs] = useState<any[]>([])
   const [error, setError] = useState<string>('')
@@ -84,6 +86,7 @@ export default function StructureSubCatgeory({
       b3Link={b3Link}
       b4={b4}
       url={url}
+      image={image}
     >
       <div className="grid gap-4 grid-cols-1 my-10">
         {error

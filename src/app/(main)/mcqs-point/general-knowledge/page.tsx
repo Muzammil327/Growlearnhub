@@ -16,7 +16,7 @@ const data = {
   canonical: '/mcqs-point/general-knowledge/',
   index: true,
   follow: true,
-  image: '/opengraph-image.jpg',
+  image: '/mcqs-point/general-knowledge/general-knowledge-quiz.png',
   url: 'https://growlearnhub.com/mcqs-point/general-knowledge/',
   keywords: ['mcqs', 'mcqs general knowledge'],
 }
@@ -29,6 +29,7 @@ export default function Page() {
       b1="Mcqs Point"
       b1Link="/mcqs-point/"
       b2="General Knowledge"
+      image={data.image}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {BookSubjectData.map((book: Subject) => (
