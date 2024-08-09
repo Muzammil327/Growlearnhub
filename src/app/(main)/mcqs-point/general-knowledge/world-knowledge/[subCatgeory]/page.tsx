@@ -8,6 +8,8 @@ interface Iprops {
 }
 
 export default function Page({ params }: Iprops) {
+  const image =
+    '/mcqs-point/general-knowledge/pakistan/pakistan-general-knowledge-quiz.png'
   return (
     <StructureSubCatgeory
       bookId="general-knowledge"
@@ -22,6 +24,7 @@ export default function Page({ params }: Iprops) {
       b3Link="/mcqs-point/general-knowledge/world-knowledge/"
       b4={`${params.subCatgeory}`}
       url={`/mcqs-point/general-knowledge/world-knowledge/${params.subCatgeory}`}
+      image={image}
     />
   )
 }
@@ -29,7 +32,8 @@ export default function Page({ params }: Iprops) {
 export async function generateMetadata({ params }: Iprops) {
   const PAGE_TITLE = `World ${params.subCatgeory} General Knowledge Solved Mcqs`
   const PAGE_URL = `mcqs-point/general-knowledge/world-knowledge/${params.subCatgeory}`
-
+  const image =
+    '/mcqs-point/general-knowledge/pakistan/pakistan-general-knowledge-quiz.png'
   return {
     title: PAGE_TITLE,
     description: PAGE_TITLE,
@@ -50,6 +54,7 @@ export async function generateMetadata({ params }: Iprops) {
       url: `https://growlearnhub.com/${PAGE_URL}`,
       images: [
         {
+          src: image,
           alt: PAGE_TITLE,
         },
       ],
@@ -59,6 +64,7 @@ export async function generateMetadata({ params }: Iprops) {
       description: PAGE_TITLE,
 
       images: {
+        src: image,
         alt: PAGE_TITLE,
       },
     },
