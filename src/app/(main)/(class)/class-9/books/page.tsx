@@ -30,25 +30,49 @@ export default function Page() {
       b1Link="/class-9/"
       b2="Books"
     >
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {mainData.map((data: any) => {
-          return (
-            <CardSmall
-              key={data.name}
-              title={data.name}
-              link={`/class-9/books/${data.slug}`}
-            />
-          )
-        })}
-      </div>
+      {mainData.map((data: any) => {
+        return (
+          <div key={data.title}>
+            <h2 className="">{data.title}</h2>
+            <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
+              {data.child.map((data: any) => {
+                return (
+                  <CardSmall
+                    key={data.name}
+                    title={data.name}
+                    link={`/class-9/books/punjab-board-${data.slug}`}
+                  />
+                )
+              })}
+            </div>
+          </div>
+        )
+      })}
     </Wrapper>
   )
 }
 
 const mainData = [
   {
-    name: 'Biology',
-    slug: '',
+    title: 'Punjab Board',
+    child: [
+      {
+        name: 'Biology',
+        slug: 'biology',
+      },
+      {
+        name: 'Chemistry',
+        slug: 'chemistry',
+      },
+      {
+        name: 'Physics',
+        slug: 'physics',
+      },
+      {
+        name: 'Math',
+        slug: 'math',
+      },
+    ],
   },
 ]
 
