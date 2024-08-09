@@ -7,7 +7,7 @@ const data = {
   title: 'Punjab Text Book Biology 9th Class PDF English Medium',
   description:
     'Download the Punjab Text Book for 9th Class Biology in English Medium PDF format. Access coverage of the syllabus with clear explanations.',
-  canonical: '/class-9z/books/punjab-board-biology/english-medium/',
+  canonical: '/class-9/books/punjab-board-biology/english-medium/',
   index: true,
   follow: true,
   image: '/opengraph-image.jpg',
