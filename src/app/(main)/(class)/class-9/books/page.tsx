@@ -2,6 +2,7 @@ import React from 'react'
 import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
+import { MainDataClass9Book } from './data'
 
 const data = {
   title: '9th Class Books | Class 9',
@@ -30,7 +31,7 @@ export default function Page() {
       b1Link="/class-9/"
       b2="Books"
     >
-      {mainData.map((data: any) => {
+      {MainDataClass9Book.map((data: any) => {
         return (
           <div key={data.title}>
             <h2 className="">{data.title}</h2>
@@ -51,30 +52,6 @@ export default function Page() {
     </Wrapper>
   )
 }
-
-const mainData = [
-  {
-    title: 'Punjab Board',
-    child: [
-      {
-        name: 'Biology',
-        slug: 'biology',
-      },
-      {
-        name: 'Chemistry',
-        slug: 'chemistry',
-      },
-      {
-        name: 'Physics',
-        slug: 'physics',
-      },
-      {
-        name: 'Math',
-        slug: 'math',
-      },
-    ],
-  },
-]
 
 export const metadata: Metadata = {
   title: data.title,

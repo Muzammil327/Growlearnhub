@@ -10,10 +10,7 @@ export default function JoinUS() {
       <div className="flex gap-3">
         <ul className="flex gap-2 items-center">
           <li className="bg-[#1877F2] p-2 rounded-md text-white">
-            <Link
-              href="https://web.facebook.com/growlearnhub/"
-              aria-label="Facebook page"
-            >
+            <Link href="#" aria-label="Facebook page">
               <svg
                 fill="#fff"
                 width="20px"
@@ -28,11 +25,7 @@ export default function JoinUS() {
             </Link>
           </li>
           <li className="bg-red-600 p-2 rounded-md text-white">
-            <Link
-              href="https://youtube.com/@growlearnhub?si=_zzC-f6q-1FKTRbH?sub_confirmation=1"
-              target="_blank"
-              aria-label="youtube channel"
-            >
+            <Link href="#" target="_blank" aria-label="youtube channel">
               <svg
                 width="20px"
                 height="20px"

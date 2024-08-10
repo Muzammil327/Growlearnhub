@@ -46,6 +46,13 @@ export default function Page() {
           )
         })}
       </div>
+      <p>
+        Are you looking for a <strong>Class 9 biology book punjab board</strong>
+        ? Here, you can access all the books you need for free. Our website
+        offers a complete collection of books for students in Class 9, 10, 11,
+        and 12. Whether you&apos;re preparing for exams or need extra resources,
+        we&apos;ve got you covered.
+      </p>
       <h3>Download Class 9 Biology Book English Medium Punjab Board</h3>
       <p>
         Here, you can download Matric class 9 Biology Text Book in PDF Format

@@ -38,6 +38,17 @@ export default function Page() {
   const [selectedOption6, setSelectedOption6] = useState<SingleValue<any>>(null)
   const [selectedOption7, setSelectedOption7] = useState<SingleValue<any>>(null)
 
+  const dataCatgeory = [selectedOption5, selectedOption6, selectedOption7]
+  const flattenedCatgeoryData = dataCatgeory.flat()
+
+  const dataClass = [
+    selectedOption1,
+    selectedOption2,
+    selectedOption3,
+    selectedOption4,
+  ]
+  const flattenedClassData = dataClass.flat()
+
   const handleTagsChange = (tag: string[]) => {
     setOptions(tag)
   }
@@ -88,13 +99,8 @@ export default function Page() {
         correct_option: correctOption,
         description,
         option: options,
-        classId: selectedOption1?.map((data: any) => data.value) || [],
-        bookId: selectedOption2?.map((data: any) => data.value) || [],
-        chapterId: selectedOption3?.map((data: any) => data.value) || [],
-        topicId: selectedOption4?.map((data: any) => data.value) || [],
-        catgeoryId: selectedOption5?.map((data: any) => data.value) || [],
-        subCatgeoryId: selectedOption6?.map((data: any) => data.value) || [],
-        tags: selectedOption7?.map((data: any) => data.value) || [],
+        classId: flattenedClassData?.map((data: any) => data.value) || [],
+        catgeoryId: flattenedCatgeoryData?.map((data: any) => data.value),
       })
 
       if (error) {
@@ -224,9 +230,13 @@ export default function Page() {
           />
         </div>
         <div className="mt-5">
-          <ButtonOutline disable={loading}>
+          <button
+            type="submit"
+            disabled={loading}
+            className="bg-color2 w-full text-white py-2 px-6 rounded-md duration-300 ease-in-out hover:bg-white hover:text-color2 border-2 border-solid border-color2"
+          >
             {loading ? 'Loading ...' : 'Submit'}
-          </ButtonOutline>
+          </button>
         </div>
       </form>
     </div>

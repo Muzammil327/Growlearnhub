@@ -50,19 +50,17 @@ export default function StructureSubCatgeory({
             slug,
             option,
             correct_option,
-            bookId,
-            catgeoryId,
-            subCatgeoryId,
-            tags
+            classId,
+            catgeoryId
             `)
         if (error) {
           console.error('Error fetching data:', error)
         } else {
           const data = fetchedChapterBooksTopic.filter(
             (item: any) =>
-              item.bookId.includes(bookId) &&
-              item.catgeoryId.includes(catgeoryId) &&
-              item.subCatgeoryId.includes(subCatgeory)
+              item.classId.includes(bookId) &&
+            item.catgeoryId.includes(catgeoryId) &&
+            item.catgeoryId.includes(subCatgeory)
           )
           setMcqs(data as any)
         }

@@ -26,9 +26,7 @@ export default function StructureQuizDetail({ params, image }: any) {
             option,
             correct_option,
             tags,
-            description,
-            bookId,
-            subCatgeoryId
+            description
        `
           )
           .eq('slug', params.slug)
