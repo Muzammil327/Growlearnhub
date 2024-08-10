@@ -20,9 +20,9 @@ export default function RelatedSidebar({ list }: IProps) {
         {list &&
           list.map((data: RelatedProps) => {
             return (
-              <li className="flex flex-col gap-y-4" key={data.name}>
+              <li className="flex flex-col gap-y-4" key={data.id}>
                 <Link
-                  href="/"
+                  href={data.slug}
                   title={data.name}
                   className="text-indigo-600 hover:underline transition-all mb-3 capitalize"
                   aria-label={data.name}
