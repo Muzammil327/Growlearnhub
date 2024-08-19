@@ -4,13 +4,13 @@ import Wrapper from '@/src/components/element/Wrapper'
 import PDFViewer from '@/src/components/element/PDFViewer'
 
 const data = {
-  title: 'Biology 9th Class Book Urdu Medium PDF Download Punjab Board',
+  title: 'Biology 9th Class Book Urdu Medium PDF Download | Punjab Board',
   description:
-    'Download the 9th Class Biology book in Urdu Medium PDF format, approved by Punjab Board. Access the full syllabus with detailed explanations and diagrams.',
+    'Download the 9th Class Biology book in Urdu Medium PDF, approved by the Punjab Board. Get the complete syllabus with detailed explanations and diagrams for effective exam preparation.',
   canonical: '/class-9/books/punjab-board-biology/urdu-medium/',
   index: true,
   follow: true,
-  image: '/opengraph-image.jpg',
+  image: '/books/class-9/punjab/class-9-biology-book-punjab-board.webp',
   url: 'https://growlearnhub.com/class-9/books/punjab-board-biology/urdu-medium/',
   keywords: [
     'biology class 9 punjab text book pdf',
@@ -35,6 +35,7 @@ export default function Page() {
       b3="Punjab Board Biology"
       b3Link="/class-9/books/punjab-board-biology/"
       b4="Biology 9th Class Book Urdu Medium"
+      image={data.image}
     >
       <h3>Biology 9th Class Book Urdu Medium PDF Download Punjab Board</h3>
       <p>

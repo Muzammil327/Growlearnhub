@@ -7,9 +7,10 @@ import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 import { MainDataClass9Book } from '../../data'
 
 const data = {
-  title: 'Punjab Text Book Biology 9th Class PDF English Medium',
+  title:
+    '9th Class Biology Book PDF English Medium Free Download | Punjab Boards',
   description:
-    'Download the Punjab Text Book for 9th Class Biology in English Medium PDF format. You can Access other books of class 9 punjab board english and urdu medium, chapterwise also.',
+    'Download the 9th Class Biology Book PDF in English Medium for free. Get the Punjab Board-approved textbook and explore chapter-wise downloads, along with other Class 9 books in both English and Urdu mediums.',
   canonical: '/class-9/books/punjab-board-biology/english-medium/',
   index: true,
   follow: true,
@@ -20,6 +21,7 @@ const data = {
     'class 9 biology book pdf punjab board',
     '9th class biology punjab text book',
     'biology book class 9 punjab board',
+    '9th Class Biology Book PDF English Medium Free Download',
     'class 9 biology book punjab board',
     'punjab text book biology 9th class pdf english medium',
   ],
@@ -170,7 +172,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: data.image,
         alt: data.title,
       },
     ],
@@ -190,7 +192,7 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: 'https://nextjs.org/og.png',
+      url: data.image,
       alt: data.title,
     },
   },

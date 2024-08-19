@@ -5,13 +5,13 @@ import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 import PDFViewer from '@/src/components/element/PDFViewer'
 
 const data = {
-  title: 'Biology Class 9 Punjab Text Book PDF | 9th Class',
+  title: 'Biology Class 9 Book PDF | 9th Class Punjab Text Book',
   description:
-    'Download the official Class 9 Biology textbook PDF by Punjab Board, covering the entire syllabus with clear explanations and diagrams.',
+    'Download the official Biology Class 9 textbook PDF by Punjab Board. This comprehensive guide covers the entire syllabus with clear explanations and detailed diagrams, perfect for exam preparation.',
   canonical: '/class-9/books/punjab-board-biology/',
   index: true,
   follow: true,
-  image: '/opengraph-image.jpg',
+  image: '/books/class-9/punjab/class-9-biology-book-punjab-board.webp',
   url: 'https://growlearnhub.com/class-9/books/punjab-board-biology/',
   keywords: [
     'biology class 9 punjab text book pdf',
@@ -22,6 +22,43 @@ const data = {
   ],
   fileId_english: '1MFRZ5yO0SrrfTkAM_ewXBp_Pec4zTOA-',
   fileId_urdu: '1ty3cPG8aWvjPla3xJAT4F__bLNJHKiZv',
+  clist: [
+    {
+      id: 0,
+      name: 'Class 10 Books',
+      slug: '/class-10/books/',
+    },
+    {
+      id: 1,
+      name: 'Class 11 Books',
+      slug: '/class-11/books/',
+    },
+    {
+      id: 2,
+      name: 'Class 12 Books',
+      slug: '/class-12/books/',
+    },
+    {
+      id: 3,
+      name: 'VU cgpa Calculator',
+      slug: '/vu/mid-mark-calculator/',
+    },
+    {
+      id: 4,
+      name: 'Class 10 Mcqs',
+      slug: '/class-10/mcqs/',
+    },
+    {
+      id: 5,
+      name: 'Class 11 Mcqs',
+      slug: '/class-11/mcqs/',
+    },
+    {
+      id: 6,
+      name: 'Class 12 Mcqs',
+      slug: '/class-12/mcqs/',
+    },
+  ],
 }
 
 export default function Page() {
@@ -34,6 +71,8 @@ export default function Page() {
       b2="Books"
       b2Link="/class-9/books/"
       b3="Punjab Board Biology"
+      image={data.image}
+      clist={data.clist}
     >
       <div className="grid gap-4 grid-cols-1 my-10">
         {mainData.map((data: any) => {
