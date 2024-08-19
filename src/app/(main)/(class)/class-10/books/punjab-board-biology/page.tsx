@@ -20,8 +20,8 @@ const data = {
     'biology book class 10 punjab board',
     'class 10 biology book punjab board',
   ],
-  fileId_english: '1MFRZ5yO0SrrfTkAM_ewXBp_Pec4zTOA-',
-  fileId_urdu: '1ty3cPG8aWvjPla3xJAT4F__bLNJHKiZv',
+  fileId_english: '1FJYKKe3zakdzvKo9T6-74J1ARXKjmsDp',
+  fileId_urdu: '1ChK6r_BOfV-p8QLEdh58srQ_QwNgQUne',
   clist: [
     {
       id: 0,

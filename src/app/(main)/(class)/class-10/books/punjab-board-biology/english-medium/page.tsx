@@ -25,7 +25,7 @@ const data = {
     'class 10 biology book punjab board',
     'punjab text book biology 10th class pdf english medium',
   ],
-  fileId_english: '1MFRZ5yO0SrrfTkAM_ewXBp_Pec4zTOA-',
+  fileId_english: '1FJYKKe3zakdzvKo9T6-74J1ARXKjmsDp',
   clist: [
     {
       id: 0,

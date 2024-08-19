@@ -20,7 +20,7 @@ const data = {
     'class 10 biology book punjab board',
     'Biology 10th Class Book Urdu Medium PDF Download Punjab Board',
   ],
-  fileId_urdu: '1ty3cPG8aWvjPla3xJAT4F__bLNJHKiZv',
+  fileId_urdu: '1ChK6r_BOfV-p8QLEdh58srQ_QwNgQUne',
 }
 
 export default function Page() {
