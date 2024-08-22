@@ -73,6 +73,7 @@ const route = [
   'class-12/',
   'vu/',
 
+  
   'book-point/',
 
   'mcqs-point/',
