@@ -55,8 +55,8 @@ export default async function sitemap(): Promise<SitemapFile[]> {
         priority: 1,
         changeFrequency: 'hourly' as 'hourly', // Explicit type casting to match allowed literals
       },
-      ...routes21,
-      ...IntroductionToBiologyRoutes,
+      // ...routes21,
+      // ...IntroductionToBiologyRoutes,
     ]
 
     return routes
