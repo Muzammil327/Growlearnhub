@@ -36,8 +36,8 @@ export default async function sitemap(): Promise<SitemapFile[]> {
       fetchedChapterBooksTopic.map((product) => ({
         url: `${FRONTEND_URL}/mcqs-point/${convertToLowercaseWithHyphen(product.slug)}/`,
         lastModified: new Date().toISOString(),
-        priority: 0.6,
-        changeFrequency: 'weekly' as 'weekly', // Explicit type casting to match allowed literals
+        priority: 0.7,
+        changeFrequency: 'weekly', // Explicit type casting to match allowed literals
       }))
 
     const routes21: SitemapFile[] = route.map((product) => ({
