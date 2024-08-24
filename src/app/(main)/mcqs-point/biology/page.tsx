@@ -16,7 +16,7 @@ const data = {
   canonical: '/mcqs-point/biology/',
   index: true,
   follow: true,
-  image: '/opengraph-image.jpg',
+  image: '/mcqs-point/general-knowledge/general-knowledge-quiz.png',
   url: 'https://growlearnhub.com/mcqs-point/biology/',
   keywords: ['mcqs', 'mcqs biology'],
 }
@@ -29,13 +29,14 @@ export default function Page() {
       b1="Mcqs Point"
       b1Link="/mcqs-point/"
       b2="Biology"
+      image={data.image}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {BookSubjectData.map((book: Subject) => (
           <CardSmall
             key={book.id}
             title={book.name}
-            link={`${data.canonical}${book.slug}`}
+            link={`/mcqs-point/biology/${book.slug}`}
           />
         ))}
       </div>
@@ -82,7 +83,7 @@ export const metadata: Metadata = {
 const BookSubjectData: Subject[] = [
   {
     id: 0,
-    name: '',
-    slug: '',
+    name: 'Skeletal System',
+    slug: 'skeletal-system',
   },
 ]

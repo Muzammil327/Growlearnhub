@@ -29,7 +29,7 @@ export default function Input({
       step="3"
       value={value}
       onChange={handleChange}
-      className="shadow-sm rounded-md w-full px-4 py-3 border border-gray-300 focus:outline-none focus:ring-emerald-500 focus:border-emerald-500 dark:bg-gray-700"
+      className="shadow-sm rounded-md w-full px-4 py-3 border border-gray-300 dark:border-gray-500 focus:outline-none focus:ring-emerald-500 focus:border-emerald-500 dark:bg-gray-700"
       placeholder={placeholder}
       autoComplete={autoComplete}
     />

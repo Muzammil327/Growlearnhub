@@ -1,7 +1,95 @@
 import React from 'react'
+import { Metadata } from 'next'
+import Wrapper from '@/src/components/element/Wrapper'
+import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 
-export default function page() {
+const data = {
+  title: '12th Class Biology Mcqs | Class 12',
+  description:
+    'Class 12 Biology MCQs page offering a wide range of practice questions, online tests, and detailed answers for thorough exam preparation.',
+  canonical: '/class-12/mcqs/biology/',
+  index: true,
+  follow: true,
+  image: '/mcqs-point/general-knowledge/general-knowledge-quiz.png',
+  url: 'https://growlearnhub.com/class-12/mcqs/biology/',
+  keywords: [
+    'growlearnhub biology mcqs',
+    'growlearnhub class 12 biology mcqs',
+    'class 12 biology mcqs',
+    '12th class biology mcqs',
+    '12th class growlearnhub biology mcqs',
+  ],
+}
+
+export default function Page() {
   return (
-    <div>page</div>
+    <Wrapper
+      title={data.title}
+      url={data.canonical}
+      b1="Mcqs"
+      b1Link="/class-12/mcqs/"
+      b2="Biology"
+      image={data.image}
+    >
+      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
+        {mainData.map((data: any) => {
+          return (
+            <CardSmall
+              key={data.name}
+              title={data.name}
+              link={`/class-12/mcqs/biology/${data.slug}`}
+            />
+          )
+        })}
+      </div>
+    </Wrapper>
   )
+}
+
+const mainData = [
+  { name: 'Chapter 1', slug: '#' },
+  { name: 'Chapter 2', slug: '#' },
+  { name: 'Chapter 3', slug: '#' },
+  { name: 'Chapter 4', slug: '#' },
+  { name: 'Chapter 5', slug: '#' },
+  { name: 'Chapter 6', slug: '#' },
+  { name: 'Chapter 7', slug: '#' },
+  { name: 'Chapter 8', slug: '#' },
+  { name: 'Chapter 9', slug: '#' },
+]
+
+export const metadata: Metadata = {
+  title: data.title,
+  description: data.description,
+  keywords: data.keywords,
+  openGraph: {
+    title: data.title,
+    description: data.description,
+    url: data.url,
+    images: [
+      {
+        url: 'https://nextjs.org/og.png',
+        alt: data.title,
+      },
+    ],
+  },
+  alternates: {
+    canonical: data.canonical,
+  },
+  robots: {
+    index: data.index,
+    follow: data.follow,
+    googleBot: {
+      index: data.index,
+      follow: data.follow,
+    },
+  },
+  twitter: {
+    title: data.title,
+    description: data.description,
+    images: {
+      url: 'https://nextjs.org/og.png',
+      alt: data.title,
+    },
+  },
 }

@@ -10,7 +10,7 @@ const data = {
   canonical: '/vu/final-mcqs/',
   index: true,
   follow: true,
-  image: '/opengraph-image.jpg',
+  image: '/mcqs-point/general-knowledge/general-knowledge-quiz.png',
   url: 'https://growlearnhub.com/vu/final-mcqs/',
   keywords: [
     'growlearnhub',
@@ -29,6 +29,7 @@ export default function Page() {
       b1="Virtual University"
       b1Link="/vu/"
       b2="Final Mcqs"
+      image={data.image}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {mainData.map((data: any) => {
@@ -48,7 +49,7 @@ export default function Page() {
 const mainData = [
   {
     name: 'CS101 Final Mcqs',
-    slug: '',
+    slug: '#',
   },
 ]
 

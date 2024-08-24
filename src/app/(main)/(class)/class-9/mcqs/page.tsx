@@ -71,7 +71,7 @@ const data = {
   canonical: '/class-9/mcqs/',
   index: true,
   follow: true,
-  image: '/opengraph-image.jpg',
+  image: '/mcqs-point/general-knowledge/general-knowledge-quiz.png',
   url: 'https://growlearnhub.com/class-9/mcqs/',
   keywords: [
     'growlearnhub mcqs',
@@ -90,6 +90,7 @@ export default function Page() {
       b1="9th Class"
       b1Link="/class-9/"
       b2="Mcqs"
+      image={data.image}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {mainData.map((data: any) => {
@@ -109,7 +110,15 @@ export default function Page() {
 const mainData = [
   {
     name: 'Biology',
-    slug: 'biology',
+    slug: '#',
+  },
+  {
+    name: 'Chemistry',
+    slug: '#',
+  },
+  {
+    name: 'Physics',
+    slug: '#',
   },
 ]
 

@@ -2,23 +2,24 @@ import React from 'react'
 import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
+import { SkeletalSystemMcqsData, SkeletalSystemTypesMcqsData } from './data'
+
+interface Subject {
+  id: number
+  name: string
+  slug: string
+}
 
 const data = {
-  title: '12th Class Physics Mcqs | Class 12',
+  title: 'Skeletal System Biology Solved Mcqs Topic Wise',
   description:
-    'Class 12 Physics MCQs page offering a wide range of practice questions, online tests, and detailed answers for thorough exam preparation.',
-  canonical: '/class-12/mcqs/physics/',
+    'Here you can get solved mcqs topic wise of biology skeletal system like Bones, Joints, Cartilage, Ligaments and Axial and Appendicular Skeleton.',
+  canonical: '/mcqs-point/biology/skeletal-system/',
   index: true,
   follow: true,
   image: '/mcqs-point/general-knowledge/general-knowledge-quiz.png',
-  url: 'https://growlearnhub.com/class-12/mcqs/physics/',
-  keywords: [
-    'growlearnhub physics mcqs',
-    'growlearnhub class 12 physics mcqs',
-    'class 12 physics mcqs',
-    '12th class physics mcqs',
-    '12th class growlearnhub physics mcqs',
-  ],
+  url: 'https://growlearnhub.com/mcqs-point/biology/skeletal-system/',
+  keywords: ['mcqs', 'mcqs biology', 'Skeletal System'],
 }
 
 export default function Page() {
@@ -26,37 +27,32 @@ export default function Page() {
     <Wrapper
       title={data.title}
       url={data.canonical}
-      b1="Mcqs"
-      b1Link="/class-12/mcqs/"
-      b2="Physics"
+      b1="Biology"
+      b1Link="/mcqs-point/biology/"
+      b2="Skeletal System "
       image={data.image}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {mainData.map((data: any) => {
-          return (
-            <CardSmall
-              key={data.name}
-              title={data.name}
-              link={`/class-12/mcqs/physics/${data.slug}`}
-            />
-          )
-        })}
+        {SkeletalSystemMcqsData.map((book: Subject) => (
+          <CardSmall
+            key={book.id}
+            title={book.name}
+            link={`/mcqs-point/biology/skeletal-system/${book.slug}`}
+          />
+        ))}
+      </div>
+      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
+        {SkeletalSystemTypesMcqsData.map((book: Subject) => (
+          <CardSmall
+            key={book.id}
+            title={book.name}
+            link={`/mcqs-point/biology/skeletal-system/${book.slug}`}
+          />
+        ))}
       </div>
     </Wrapper>
   )
 }
-
-const mainData = [
-  { name: 'Chapter 1', slug: '#' },
-  { name: 'Chapter 2', slug: '#' },
-  { name: 'Chapter 3', slug: '#' },
-  { name: 'Chapter 4', slug: '#' },
-  { name: 'Chapter 5', slug: '#' },
-  { name: 'Chapter 6', slug: '#' },
-  { name: 'Chapter 7', slug: '#' },
-  { name: 'Chapter 8', slug: '#' },
-  { name: 'Chapter 9', slug: '#' },
-]
 
 export const metadata: Metadata = {
   title: data.title,

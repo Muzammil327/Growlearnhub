@@ -10,7 +10,7 @@ const data = {
   canonical: '/class-10/',
   index: true,
   follow: true,
-  image: '/opengraph-image.jpg',
+  image: '/mcqs-point/general-knowledge/general-knowledge-quiz.png',
   url: 'https://growlearnhub.com/class-10/',
   keywords: [
     'growlearnhub',
@@ -23,7 +23,7 @@ const data = {
 
 export default function Page() {
   return (
-    <Wrapper title={data.title} url={data.canonical} b1="10th Class">
+    <Wrapper title={data.title} url={data.canonical} b1="10th Class"  image={data.image}>
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {mainData.map((data: any) => {
           return (

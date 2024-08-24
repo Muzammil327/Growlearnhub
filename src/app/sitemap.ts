@@ -78,6 +78,12 @@ const route = [
 
   'mcqs-point/',
   'mcqs-point/biology/',
+  'mcqs-point/biology/skeletal-system/',
+  'mcqs-point/biology/skeletal-system/types/',
+  'mcqs-point/biology/skeletal-system/bones/',
+  'mcqs-point/biology/skeletal-system/joints/',
+  'mcqs-point/biology/skeletal-system/cartilage/',
+  'mcqs-point/biology/skeletal-system/ligaments/',
   'mcqs-point/chemistry/',
   'mcqs-point/physics/',
   'mcqs-point/general-knowledge/',
