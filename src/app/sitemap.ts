@@ -76,16 +76,37 @@ const route = [
   'mcqs-point/',
   'online-test-point/',
 
+  'class-9/books/',
+  'class-10/books/',
+  'class-11/books/',
+  'class-12/books/',
+    
+  'class-9/mcqs/',
+  'class-10/mcqs/',
+  'class-11/mcqs/',
+  'class-12/mcqs/',
+
+  'class-9/online-test/',
+  'class-10/online-test/',
+  'class-11/online-test/',
+  'class-12/online-test/',
+
   'mcqs-point/biology/',
+  'mcqs-point/chemistry/',
+  'mcqs-point/physics/',
+  'mcqs-point/general-knowledge/',
+
+  'vu/mid-mark-calculator/',
+  'vu/final-mcqs/',
+  'vu/mid-mcqs/',
+  'vu/handouts/',
+
   'mcqs-point/biology/skeletal-system/',
   'mcqs-point/biology/skeletal-system/types/',
   'mcqs-point/biology/skeletal-system/bones/',
   'mcqs-point/biology/skeletal-system/joints/',
   'mcqs-point/biology/skeletal-system/cartilage/',
   'mcqs-point/biology/skeletal-system/ligaments/',
-  'mcqs-point/chemistry/',
-  'mcqs-point/physics/',
-  'mcqs-point/general-knowledge/',
   'mcqs-point/general-knowledge/india/',
   'mcqs-point/general-knowledge/india/river/',
   'mcqs-point/general-knowledge/india/dam/',
@@ -102,24 +123,18 @@ const route = [
   'mcqs-point/general-knowledge/world-knowledge/largest/',
   'mcqs-point/general-knowledge/world-knowledge/longest/',
 
-
-  'vu/mid-mark-calculator/',
-
-  'vu/final-mcqs/',
   'vu/final-mcqs/cs101/',
   'vu/final-mcqs/cs201/',
   'vu/final-mcqs/cs302/',
   'vu/final-mcqs/eng201/',
   'vu/final-mcqs/mgt211/',
 
-  'vu/mid-mcqs/',
   'vu/mid-mcqs/cs101/',
   'vu/mid-mcqs/cs201/',
   'vu/mid-mcqs/cs302/',
   'vu/mid-mcqs/eng201/',
   'vu/mid-mcqs/mgt211/',
 
-  'vu/handouts/',
   'vu/handouts/cs101/',
   'vu/handouts/cs201/',
   'vu/handouts/cs302/',
@@ -128,7 +143,6 @@ const route = [
   'vu/handouts/mth104/',
   'vu/handouts/mth301/',
 
-  'class-9/books/',
   'class-9/books/punjab-board-physics/',
   'class-9/books/punjab-board-physics/english-medium/',
   'class-9/books/punjab-board-physics/urdu-medium/',
@@ -142,7 +156,6 @@ const route = [
   'class-9/books/punjab-board-biology/english-medium/',
   'class-9/books/punjab-board-biology/urdu-medium/',
 
-  'class-10/books/',
   'class-10/books/punjab-board-physics/',
   'class-10/books/punjab-board-physics/english-medium/',
   'class-10/books/punjab-board-physics/urdu-medium/',
@@ -156,7 +169,6 @@ const route = [
   'class-10/books/punjab-board-biology/english-medium/',
   'class-10/books/punjab-board-biology/urdu-medium/',
 
-  'class-11/books/',
   'class-11/books/punjab-board-physics/',
   'class-11/books/punjab-board-physics/english-medium/',
   'class-11/books/punjab-board-physics/urdu-medium/',
@@ -170,7 +182,6 @@ const route = [
   'class-11/books/punjab-board-biology/english-medium/',
   'class-11/books/punjab-board-biology/urdu-medium/',
 
-  'class-12/books/',
   'class-12/books/punjab-board-physics/',
   'class-12/books/punjab-board-physics/english-medium/',
   'class-12/books/punjab-board-physics/urdu-medium/',
@@ -184,42 +195,34 @@ const route = [
   'class-12/books/punjab-board-biology/english-medium/',
   'class-12/books/punjab-board-biology/urdu-medium/',
 
-  'class-9/mcqs/',
   'class-9/mcqs/physics/',
   'class-9/mcqs/biology/',
   'class-9/mcqs/chemistry/',
-
-  'class-10/mcqs/',
+  
   'class-10/mcqs/physics/',
   'class-10/mcqs/biology/',
   'class-10/mcqs/chemistry/',
 
-  'class-11/mcqs/',
   'class-11/mcqs/physics/',
   'class-11/mcqs/biology/',
   'class-11/mcqs/chemistry/',
 
-  'class-12/mcqs/',
   'class-12/mcqs/physics/',
   'class-12/mcqs/biology/',
   'class-12/mcqs/chemistry/',
 
-  'class-9/online-test/',
   'class-9/online-test/physics/',
   'class-9/online-test/biology/',
   'class-9/online-test/chemistry/',
-
-  'class-10/online-test/',
+  
   'class-10/online-test/physics/',
   'class-10/online-test/biology/',
   'class-10/online-test/chemistry/',
 
-  'class-11/online-test/',
   'class-11/online-test/physics/',
   'class-11/online-test/biology/',
   'class-11/online-test/chemistry/',
 
-  'class-12/online-test/',
   'class-12/online-test/physics/',
   'class-12/online-test/biology/',
   'class-12/online-test/chemistry/',
