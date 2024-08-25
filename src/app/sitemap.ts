@@ -72,11 +72,10 @@ const route = [
   'class-11/',
   'class-12/',
   'vu/',
-
-  
   'book-point/',
-
   'mcqs-point/',
+  'online-test-point/',
+
   'mcqs-point/biology/',
   'mcqs-point/biology/skeletal-system/',
   'mcqs-point/biology/skeletal-system/types/',
@@ -103,7 +102,6 @@ const route = [
   'mcqs-point/general-knowledge/world-knowledge/largest/',
   'mcqs-point/general-knowledge/world-knowledge/longest/',
 
-  'online-test-point/',
 
   'vu/mid-mark-calculator/',
 
