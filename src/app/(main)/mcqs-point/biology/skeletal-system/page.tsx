@@ -2,13 +2,7 @@ import React from 'react'
 import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
-import { SkeletalSystemMcqsData, SkeletalSystemTypesMcqsData } from './data'
-
-interface Subject {
-  id: number
-  name: string
-  slug: string
-}
+import { SkeletalSystemMcqsData } from '@/src/app/(main)/mcqs-point/biology/skeletal-system/data'
 
 const data = {
   title: 'Skeletal System Biology Solved Mcqs Topic Wise',
@@ -20,6 +14,9 @@ const data = {
   image: '/mcqs-point/general-knowledge/general-knowledge-quiz.png',
   url: 'https://growlearnhub.com/mcqs-point/biology/skeletal-system/',
   keywords: ['mcqs', 'mcqs biology', 'Skeletal System'],
+  b1: 'Biology',
+  b1Link: '/mcqs-point/biology/',
+  b2: 'Skeletal System',
 }
 
 export default function Page() {
@@ -27,27 +24,14 @@ export default function Page() {
     <Wrapper
       title={data.title}
       url={data.canonical}
-      b1="Biology"
-      b1Link="/mcqs-point/biology/"
-      b2="Skeletal System "
+      b1={data.b1}
+      b1Link={data.b1Link}
+      b2={data.b2}
       image={data.image}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {SkeletalSystemMcqsData.map((book: Subject) => (
-          <CardSmall
-            key={book.id}
-            title={book.name}
-            link={`/mcqs-point/biology/skeletal-system/${book.slug}`}
-          />
-        ))}
-      </div>
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {SkeletalSystemTypesMcqsData.map((book: Subject) => (
-          <CardSmall
-            key={book.id}
-            title={book.name}
-            link={`/mcqs-point/biology/skeletal-system/${book.slug}`}
-          />
+        {SkeletalSystemMcqsData.map((book: any) => (
+          <CardSmall key={book.name} title={book.name} link={book.slug} />
         ))}
       </div>
     </Wrapper>
@@ -64,7 +48,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: data.image,
         alt: data.title,
       },
     ],
@@ -84,7 +68,7 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: 'https://nextjs.org/og.png',
+      url: data.image,
       alt: data.title,
     },
   },

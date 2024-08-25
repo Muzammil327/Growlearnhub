@@ -3,44 +3,43 @@ import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 import { CardQuiz } from '@/src/components/card/CardQuiz/cardQuiz'
-import {
-  SkeletalSystemMcqsData,
-} from '@/src/app/(main)/mcqs-point/biology/skeletal-system/data'
-import { BiologyMcqsSkeletalSystemBonesMcqs } from '@/src/app/(main)/mcqs-point/biology/skeletal-system/bones/data'
+import { SkeletalSystemTypesMcqsDatasPage1 } from '../data'
+import { SkeletalSystemMcqsData } from '@/src/app/(main)/mcqs-point/biology/skeletal-system/data'
 
 const data = {
-  title: 'Bones Skeletal System Biology Mcqs',
+  title: 'Types of Skeletal System Biology Mcqs',
   description:
     'Here you can get solved mcqs topic wise of biology skeletal system like Bones, Joints, Cartilage, Ligaments and Axial and Appendicular Skeleton.',
-  canonical: '/mcqs-point/biology/skeletal-system/bones/',
+  canonical: '/mcqs-point/biology/skeletal-system/types/',
   index: true,
   follow: true,
   image: '/mcqs-point/general-knowledge/general-knowledge-quiz.png',
-  url: 'https://growlearnhub.com/mcqs-point/biology/skeletal-system/bones/',
-  keywords: [
-    'mcqs', 
-    'mcqs biology', 
-    'Skeletal System',
-    'Skeletal System bones',
-    'bones',
-  ],
-  b1: 'Skeletal System',
-  b1Link: '/mcqs-point/biology/skeletal-system/',
-  b2: 'Bones',
+  url: 'https://growlearnhub.com/mcqs-point/biology/skeletal-system/types/',
+  keywords: ['mcqs', 'mcqs biology', 'Skeletal System'],
+  b1: 'Bones',
+  b1Link: '/mcqs-point/biology/skeletal-system/bones/',
 }
 
-export default function Page() {
+interface IProps {
+  params: {
+    slug: string
+  }
+}
+
+export default function Page({ params }: IProps) {
   return (
     <Wrapper
       title={data.title}
       url={data.canonical}
       b1={data.b1}
       b1Link={data.b1Link}
-      b2={data.b2}
+      b2={params.slug}
       image={data.image}
     >
       <div className="my-10 grid gap-4">
-        {BiologyMcqsSkeletalSystemBonesMcqs.map((book: any) => (
+        {SkeletalSystemTypesMcqsDatasPage1.filter(
+          (data: any) => data.slug === params.slug
+        ).map((book: any) => (
           <CardQuiz
             key={book.id}
             title={book.name}

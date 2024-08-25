@@ -4,13 +4,7 @@ import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 import { CardQuiz } from '@/src/components/card/CardQuiz/cardQuiz'
 import { SkeletalSystemTypesMcqsDatasPage1 } from './data'
-import { SkeletalSystemTypesMcqsData } from '../data'
-
-interface Subject {
-  id: number
-  name: string
-  slug: string
-}
+import { SkeletalSystemMcqsData } from '@/src/app/(main)/mcqs-point/biology/skeletal-system/data'
 
 const data = {
   title: 'Types of Skeletal System Biology Mcqs',
@@ -22,6 +16,9 @@ const data = {
   image: '/mcqs-point/general-knowledge/general-knowledge-quiz.png',
   url: 'https://growlearnhub.com/mcqs-point/biology/skeletal-system/types/',
   keywords: ['mcqs', 'mcqs biology', 'Skeletal System'],
+  b1: 'Skeletal System',
+  b1Link: '/mcqs-point/biology/skeletal-system/',
+  b2: 'Types',
 }
 
 export default function Page() {
@@ -29,9 +26,9 @@ export default function Page() {
     <Wrapper
       title={data.title}
       url={data.canonical}
-      b1="Skeletal System"
-      b1Link="/mcqs-point/biology/skeletal-system/"
-      b2="Types"
+      b1={data.b1}
+      b1Link={data.b1Link}
+      b2={data.b2}
       image={data.image}
     >
       <div className="my-10 grid gap-4">
@@ -39,28 +36,15 @@ export default function Page() {
           <CardQuiz
             key={book.id}
             title={book.name}
-            link={`/mcqs-point/biology/skeletal-system/types/${book.slug}`}
+            link={`${data.canonical}${book.slug}`}
             option={book.options}
             correctOption={book.correctOptions}
           />
         ))}
       </div>
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {SkeletalSystemTypesMcqsData.map((book: Subject) => (
-          <CardSmall
-            key={book.id}
-            title={book.name}
-            link={`/mcqs-point/biology/skeletal-system/${book.slug}`}
-          />
-        ))}
-      </div>
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {BookSubjectData.map((book: Subject) => (
-          <CardSmall
-            key={book.id}
-            title={book.name}
-            link={`/mcqs-point/biology/skeletal-system/${book.slug}`}
-          />
+        {SkeletalSystemMcqsData.map((book: any) => (
+          <CardSmall key={book.id} title={book.name} link={book.slug} />
         ))}
       </div>
     </Wrapper>
@@ -77,7 +61,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: data.image,
         alt: data.title,
       },
     ],
@@ -97,16 +81,8 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: 'https://nextjs.org/og.png',
+      url: data.image,
       alt: data.title,
     },
   },
 }
-
-const BookSubjectData: Subject[] = [
-  { id: 0, name: 'Types', slug: 'types' },
-  { id: 1, name: 'Bones', slug: 'bones' },
-  { id: 2, name: 'Joints', slug: 'joints' },
-  { id: 3, name: 'Cartilage', slug: 'cartilage' },
-  { id: 4, name: 'Ligaments', slug: 'ligaments' },
-]

@@ -77,19 +77,20 @@ const route = [
   'online-test-point/',
 
   'class-9/books/',
-  'class-10/books/',
-  'class-11/books/',
-  'class-12/books/',
-    
-  'class-9/mcqs/',
-  'class-10/mcqs/',
-  'class-11/mcqs/',
-  'class-12/mcqs/',
-
   'class-9/online-test/',
+  'class-9/mcqs/',
+
+  'class-10/books/',
   'class-10/online-test/',
+  'class-10/mcqs/',
+  
+  'class-11/books/',
   'class-11/online-test/',
-  'class-12/online-test/',
+  'class-11/mcqs/',
+  
+  'class-12/books/',
+  'class-12/online-test/',  
+  'class-12/mcqs/',
 
   'mcqs-point/biology/',
   'mcqs-point/chemistry/',
@@ -107,6 +108,7 @@ const route = [
   'mcqs-point/biology/skeletal-system/joints/',
   'mcqs-point/biology/skeletal-system/cartilage/',
   'mcqs-point/biology/skeletal-system/ligaments/',
+  
   'mcqs-point/general-knowledge/india/',
   'mcqs-point/general-knowledge/india/river/',
   'mcqs-point/general-knowledge/india/dam/',

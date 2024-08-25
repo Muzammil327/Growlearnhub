@@ -3,12 +3,6 @@ import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 
-interface Subject {
-  id: number
-  name: string
-  slug: string
-}
-
 const data = {
   title: 'Biology Solved Mcqs Topic Wise',
   description:
@@ -18,7 +12,10 @@ const data = {
   follow: true,
   image: '/mcqs-point/general-knowledge/general-knowledge-quiz.png',
   url: 'https://growlearnhub.com/mcqs-point/biology/',
-  keywords: ['mcqs', 'mcqs biology'],
+  keywords: ['mcqs', 'quiz', 'mcqs biology', 'biology mcqs'],
+  b1: 'Mcqs Point',
+  b2: 'Biology',
+  b1Link: '/mcqs-point/',
 }
 
 export default function Page() {
@@ -26,17 +23,17 @@ export default function Page() {
     <Wrapper
       title={data.title}
       url={data.canonical}
-      b1="Mcqs Point"
-      b1Link="/mcqs-point/"
-      b2="Biology"
+      b1={data.b1}
+      b1Link={data.b1Link}
+      b2={data.b2}
       image={data.image}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {BookSubjectData.map((book: Subject) => (
+        {BookSubjectData.map((book: any) => (
           <CardSmall
-            key={book.id}
+            key={book.name}
             title={book.name}
-            link={`/mcqs-point/biology/${book.slug}`}
+            link={`${data.canonical}${book.slug}`}
           />
         ))}
       </div>
@@ -54,7 +51,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: data.image,
         alt: data.title,
       },
     ],
@@ -74,15 +71,14 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: 'https://nextjs.org/og.png',
+      url: data.image,
       alt: data.title,
     },
   },
 }
 
-const BookSubjectData: Subject[] = [
+const BookSubjectData = [
   {
-    id: 0,
     name: 'Skeletal System',
     slug: 'skeletal-system',
   },
