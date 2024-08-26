@@ -11,7 +11,7 @@ const data = {
   canonical: '/class-12/books/punjab-board-biology/',
   index: true,
   follow: true,
-  image: '/books/class-12/punjab/class-12-biology-book-punjab-board.webp',
+  image: '/class/class-12/class_12_books.webp',
   url: 'https://growlearnhub.com/class-12/books/punjab-board-biology/',
   keywords: [
     'biology class 12 punjab text book pdf',
@@ -131,7 +131,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: data.image,
         alt: data.title,
       },
     ],
@@ -151,7 +151,7 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: 'https://nextjs.org/og.png',
+      url: data.image,
       alt: data.title,
     },
   },

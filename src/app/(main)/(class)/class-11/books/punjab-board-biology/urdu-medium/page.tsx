@@ -7,11 +7,11 @@ const data = {
   title: 'Biology 10th Class Book Urdu Medium PDF Download | Punjab Board',
   description:
     'Download the 10th Class Biology book in Urdu Medium PDF, approved by the Punjab Board. Get the complete syllabus with detailed explanations and diagrams for effective exam preparation.',
-  canonical: '/class-10/books/punjab-board-biology/urdu-medium/',
+  canonical: '/class-11/books/punjab-board-biology/urdu-medium/',
   index: true,
   follow: true,
   image: '/books/class-10/punjab/class-10-biology-book-punjab-board.webp',
-  url: 'https://growlearnhub.com/class-10/books/punjab-board-biology/urdu-medium/',
+  url: 'https://growlearnhub.com/class-11/books/punjab-board-biology/urdu-medium/',
   keywords: [
     'biology class 10 punjab text book pdf',
     'class 10 biology book pdf punjab board',

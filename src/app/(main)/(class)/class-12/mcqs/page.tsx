@@ -10,7 +10,7 @@ const data = {
   canonical: '/class-12/mcqs/',
   index: true,
   follow: true,
-  image: '/opengraph-image.jpg',
+  image: '/class/class-12/class_12_mcqs.webp',
   url: 'https://growlearnhub.com/class-12/mcqs/',
   keywords: [
     'growlearnhub mcqs',
@@ -29,6 +29,7 @@ export default function Page() {
       b1="12th Class"
       b1Link="/class-12/"
       b2="Mcqs"
+      image={data.image}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {mainData.map((data: any) => {
@@ -70,7 +71,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: data.image,
         alt: data.title,
       },
     ],
@@ -90,7 +91,7 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: 'https://nextjs.org/og.png',
+      url: data.image,
       alt: data.title,
     },
   },

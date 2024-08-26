@@ -1,64 +1,3 @@
-// 'use client'
-// import React, { useEffect, useState } from 'react'
-// import McqsWrapper from '@/src/components/Wrapper/McqsWrapper'
-// import { supabase } from '@/src/util/db'
-// import CardSmall from '@/src/components/card/cardSmall/cardSmall'
-
-// interface Book {
-//   id: string
-//   name: string
-//   slug: string
-// }
-
-// export default function Page() {
-//   const [books, setBooks] = useState<Book[]>([])
-//   const [error, setError] = useState<string>('')
-
-//   useEffect(() => {
-//     const fetchBooks = async () => {
-//       try {
-//         const { data: fetchedBooks, error } = await supabase
-//           .from('book')
-//           .select('name, id, slug, class:classId (slug)')
-//         if (error) {
-//           throw new Error('Error fetching books: ' + error.message)
-//         }
-//         if (fetchedBooks) {
-//           // Filter data based on book name
-//           const filteredBooks = fetchedBooks?.filter(
-//             (item: any) => item.class.slug === 'class-9'
-//           )
-//           setBooks(filteredBooks)
-//         }
-//       } catch (error: any) {
-//         setError(error.message)
-//       }
-//     }
-
-//     fetchBooks()
-//   }, [])
-//   return (
-//     <McqsWrapper
-//       title="9th class Solved Mcqs Chapter Wise"
-//       url={`/class-9/mcqs/`}
-//       b1="9th Class"
-//       b1Link="/class-9"
-//       b2="Mcqs"
-//     >
-//       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-//         {error
-//           ? 'Error Fetching Books'
-//           : books.map((book) => (
-//               <CardSmall
-//                 key={book.id}
-//                 title={book.name}
-//                 link={`/class-9/mcqs/${book.slug}`}
-//               />
-//             ))}
-//       </div>
-//     </McqsWrapper>
-//   )
-// }
 import React from 'react'
 import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
@@ -71,7 +10,7 @@ const data = {
   canonical: '/class-9/online-test/',
   index: true,
   follow: true,
-  image: '/opengraph-image.jpg',
+  image: '/class/class-9/class_9_online_test.webp',
   url: 'https://growlearnhub.com/class-9/online-test/',
   keywords: [
     'growlearnhub online test',
@@ -91,6 +30,7 @@ export default function Page() {
       b1="9th Class"
       b1Link="/class-9/"
       b2="Online Test"
+      image={data.image}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {mainData.map((data: any) => {
@@ -124,7 +64,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: data.image,
         alt: data.title,
       },
     ],
@@ -144,7 +84,7 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: 'https://nextjs.org/og.png',
+      url: data.image,
       alt: data.title,
     },
   },

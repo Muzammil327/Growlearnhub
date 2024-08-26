@@ -11,7 +11,7 @@ const data = {
   canonical: '/class-9/books/',
   index: true,
   follow: true,
-  image: '/opengraph-image.jpg',
+  image: '/class/class-9/class_9_books.webp',
   url: 'https://growlearnhub.com/class-9/books/',
   keywords: [
     'growlearnhub books',
@@ -30,6 +30,7 @@ export default function Page() {
       b1="9th Class"
       b1Link="/class-9/"
       b2="Books"
+      image={data.image}
     >
       {MainDataClass9Book.map((data: any) => {
         return (
@@ -63,7 +64,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: data.image,
         alt: data.title,
       },
     ],
@@ -83,7 +84,7 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: 'https://nextjs.org/og.png',
+      url: data.image,
       alt: data.title,
     },
   },

@@ -10,7 +10,7 @@ const data = {
   canonical: '/class-9/',
   index: true,
   follow: true,
-  image: '/opengraph-image.jpg',
+  image: '/class/class_9.webp',
   url: 'https://growlearnhub.com/class-9/',
   keywords: [
     'growlearnhub',
@@ -23,7 +23,7 @@ const data = {
 
 export default function Page() {
   return (
-    <Wrapper title={data.title} url={data.canonical} b1="9th Class">
+    <Wrapper title={data.title} url={data.canonical} b1="9th Class" image={data.image}>
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {mainData.map((data: any) => {
           return (
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: data.image,
         alt: data.title,
       },
     ],
@@ -84,7 +84,7 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: 'https://nextjs.org/og.png',
+      url: data.image,
       alt: data.title,
     },
   },

@@ -10,7 +10,7 @@ const data = {
   canonical: '/class-11/',
   index: true,
   follow: true,
-  image: '/mcqs-point/general-knowledge/general-knowledge-quiz.png',
+  image: '/class/class_11.webp',
   url: 'https://growlearnhub.com/class-11/',
   keywords: [
     'growlearnhub',
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: data.image,
         alt: data.title,
       },
     ],
@@ -84,7 +84,7 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: 'https://nextjs.org/og.png',
+      url: data.image,
       alt: data.title,
     },
   },
