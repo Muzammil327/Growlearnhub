@@ -16,7 +16,7 @@ const data = {
   canonical: '/online-test-point/',
   index: true,
   follow: true,
-  image: '/opengraph-image.jpg',
+  image: '/online-test-point.webp',
   url: 'https://growlearnhub.com/online-test-point/',
   keywords: [
     'growlearnhub',
@@ -27,11 +27,26 @@ const data = {
     'online mcqs point',
     'mcqs point',
   ],
+  clist: [
+    { name: 'Class 9', slug: '/class-9/' },
+    { name: 'Class 10', slug: '/class-10/' },
+    { name: 'Class 11', slug: '/class-11/' },
+    { name: 'Class 12', slug: '/class-12/' },
+    { name: 'VU', slug: '/vu/' },
+    { name: 'Books Point', slug: '/book-point/' },
+    { name: 'Mcqs Point', slug: '/mcqs-point/' },
+  ],
 }
 
 export default function Page() {
   return (
-    <Wrapper title={data.title} url={data.canonical} b1="Online Test Point">
+    <Wrapper
+      title={data.title}
+      url={data.canonical}
+      b1="Online Test Point"
+      image={data.image}
+      clist={data.clist}
+    >
       <h2>Class Wise Online Test</h2>
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {ClassData.map((book: Book) => (

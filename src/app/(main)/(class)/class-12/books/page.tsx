@@ -2,7 +2,6 @@ import React from 'react'
 import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
-import PDFViewer from '@/src/components/element/PDFViewer'
 
 const data = {
   title: 'Biology Class 12 Book PDF | 12th Class Punjab Text Book',

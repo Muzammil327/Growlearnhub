@@ -16,7 +16,7 @@ const data = {
   canonical: '/book-point/',
   index: true,
   follow: true,
-  image: '/opengraph-image.jpg',
+  image: '/book_point.webp',
   url: 'https://growlearnhub.com/book-point/',
   keywords: [
     'growlearnhub',
@@ -25,11 +25,26 @@ const data = {
     'growlearnhub mcqs point',
     'mcqs point',
   ],
+  clist: [
+    { name: 'Class 9', slug: '/class-9/' },
+    { name: 'Class 10', slug: '/class-10/' },
+    { name: 'Class 11', slug: '/class-11/' },
+    { name: 'Class 12', slug: '/class-12/' },
+    { name: 'VU', slug: '/vu/' },
+    { name: 'Mcqs Point', slug: '/mcqs-point/' },
+    { name: 'Online Test Point', slug: '/online-test-point/' },
+  ],
 }
 
 export default function Page() {
   return (
-    <Wrapper title={data.title} url={data.canonical} b1="Book Point">
+    <Wrapper
+      title={data.title}
+      url={data.canonical}
+      b1="Book Point"
+      clist={data.clist}
+      image={data.image}
+    >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {BookData.map((book) => (
           <CardSmall key={book.id} title={book.name} link={`${book.slug}`} />

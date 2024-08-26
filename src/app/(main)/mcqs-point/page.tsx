@@ -16,7 +16,7 @@ const data = {
   canonical: '/mcqs-point/',
   index: true,
   follow: true,
-  image: '/opengraph-image.jpg',
+  image: '/mcqs-point.webp',
   url: 'https://growlearnhub.com/mcqs-point/',
   keywords: [
     'growlearnhub',
@@ -25,11 +25,26 @@ const data = {
     'growlearnhub mcqs point',
     'mcqs point',
   ],
+  clist: [
+    { name: 'Class 9', slug: '/class-9/' },
+    { name: 'Class 10', slug: '/class-10/' },
+    { name: 'Class 11', slug: '/class-11/' },
+    { name: 'Class 12', slug: '/class-12/' },
+    { name: 'VU', slug: '/vu/' },
+    { name: 'Books Point', slug: '/book-point/' },
+    { name: 'Online Test Point', slug: '/online-test-point/' },
+  ],
 }
 
 export default function Page() {
   return (
-    <Wrapper title={data.title} url={data.url} b1="Mcqs Point">
+    <Wrapper
+      title={data.title}
+      url={data.url}
+      b1="Mcqs Point"
+      image={data.image}
+      clist={data.clist}
+    >
       <h2>Class Wise Mcqs</h2>
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {ClassData.map((book: Book) => (
