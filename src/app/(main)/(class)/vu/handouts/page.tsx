@@ -10,7 +10,7 @@ const data = {
   canonical: '/vu/handouts/',
   index: true,
   follow: true,
-  image: '/opengraph-image.jpg',
+  image: '/vu_handouts.webp',
   url: 'https://growlearnhub.com/vu/handouts/',
   keywords: [
     'growlearnhub',
@@ -29,6 +29,7 @@ export default function Page() {
       b1="Virtual University"
       b1Link="/vu/"
       b2="Handouts"
+      image={data.image}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {mainData.map((data: any) => {
@@ -62,7 +63,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: data.image,
         alt: data.title,
       },
     ],
@@ -82,7 +83,7 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: 'https://nextjs.org/og.png',
+      url: data.image,
       alt: data.title,
     },
   },

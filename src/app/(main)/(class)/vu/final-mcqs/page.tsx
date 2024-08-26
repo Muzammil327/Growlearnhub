@@ -10,7 +10,7 @@ const data = {
   canonical: '/vu/final-mcqs/',
   index: true,
   follow: true,
-  image: '/mcqs-point/general-knowledge/general-knowledge-quiz.png',
+  image: '/vu/vu_final_term_mcqs.webp',
   url: 'https://growlearnhub.com/vu/final-mcqs/',
   keywords: [
     'growlearnhub',
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: data.image,
         alt: data.title,
       },
     ],
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: 'https://nextjs.org/og.png',
+      url: data.image,
       alt: data.title,
     },
   },
