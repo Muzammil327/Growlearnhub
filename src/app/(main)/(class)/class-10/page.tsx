@@ -19,11 +19,23 @@ const data = {
     '10th class',
     '10th class growlearnhub',
   ],
+  clist: [
+    { name: 'Class 9', slug: '/class-9/' },
+    { name: 'Class 11', slug: '/class-11/' },
+    { name: 'Class 12', slug: '/class-12/' },
+    { name: 'VU', slug: '/vu/' },
+  ],
 }
 
 export default function Page() {
   return (
-    <Wrapper title={data.title} url={data.canonical} b1="10th Class" image={data.image}>
+    <Wrapper
+      title={data.title}
+      url={data.canonical}
+      b1="10th Class"
+      image={data.image}
+      clist={data.clist}
+    >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {mainData.map((data: any) => {
           return (

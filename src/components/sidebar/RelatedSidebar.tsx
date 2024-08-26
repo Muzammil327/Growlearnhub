@@ -24,7 +24,7 @@ export default function RelatedSidebar({ list }: IProps) {
                 <Link
                   href={data.slug}
                   title={data.name}
-                  className="text-indigo-600 hover:underline transition-all mb-3 capitalize"
+                  className="text-indigo-600 dark:text-white hover:underline transition-all mb-3 capitalize"
                   aria-label={data.name}
                 >
                   {data.name}

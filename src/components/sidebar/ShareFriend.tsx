@@ -19,10 +19,10 @@ export default function ShareFriend({
         <h3>Share it with Friends:</h3>
       </div>
       <div className="flex gap-3">
-        <FacebookShareButton url={url} quote={title} hashtag={'#growlearnhub'}>
+        <FacebookShareButton url={`https://growlearnhub.com${url}`} quote={title} hashtag={'#growlearnhub'}>
           <FacebookIcon size={40} />
         </FacebookShareButton>
-        <WhatsappShareButton url={url} title={title} separator=":: ">
+        <WhatsappShareButton url={`https://growlearnhub.com${url}`} title={title}>
           <WhatsappIcon size={40} />
         </WhatsappShareButton>
       </div>

@@ -20,6 +20,19 @@ const data = {
     '9th class books',
     '9th class growlearnhub books',
   ],
+  clist: [
+    { name: 'Class 10 Books', slug: '/class-10/books/' },
+    { name: 'Class 11 Books', slug: '/class-11/books/' },
+    { name: 'Class 12 Books', slug: '/class-12/books/' },
+    { name: 'Class 9 Mcqs', slug: '/class-9/mcqs/' },
+    { name: 'Class 10 Mcqs', slug: '/class-10/mcqs/' },
+    { name: 'Class 11 Mcqs', slug: '/class-11/mcqs/' },
+    { name: 'Class 12 Mcqs', slug: '/class-12/mcqs/' },
+    { name: 'Class 9 Online Test', slug: '/class-9/online-test/' },
+    { name: 'Class 11 Online Test', slug: '/class-11/online-test/' },
+    { name: 'Class 10 Online Test', slug: '/class-10/online-test/' },
+    { name: 'Class 12 Online Test', slug: '/class-12/online-test/' },
+  ],
 }
 
 export default function Page() {
@@ -31,6 +44,7 @@ export default function Page() {
       b1Link="/class-9/"
       b2="Books"
       image={data.image}
+      clist={data.clist}
     >
       {MainDataClass9Book.map((data: any) => {
         return (

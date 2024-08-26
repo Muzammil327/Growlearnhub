@@ -10,14 +10,26 @@ const data = {
   canonical: '/vu/',
   index: true,
   follow: true,
-  image: '/opengraph-image.jpg',
+  image: '/class/vu.webp',
   url: 'https://growlearnhub.com/vu/',
   keywords: ['growlearnhub', 'growlearnhub vu', 'vu', 'virtual university'],
+  clist: [
+    { name: 'Class 9', slug: '/class-9/' },
+    { name: 'Class 10', slug: '/class-10/' },
+    { name: 'Class 11', slug: '/class-11/' },
+    { name: 'Class 12', slug: '/class-12/' },
+  ],
 }
 
 export default function Page() {
   return (
-    <Wrapper title={data.title} url={data.canonical} b1="Virtual University">
+    <Wrapper
+      title={data.title}
+      url={data.canonical}
+      b1="Virtual University"
+      clist={data.clist}
+      image={data.image}
+    >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {mainData.map((data: any) => {
           return (
