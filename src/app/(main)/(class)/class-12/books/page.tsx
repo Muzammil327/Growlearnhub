@@ -7,11 +7,11 @@ const data = {
   title: 'Biology Class 12 Book PDF | 12th Class Punjab Text Book',
   description:
     'Download the official Biology Class 12 textbook PDF by Punjab Board. This comprehensive guide covers the entire syllabus with clear explanations and detailed diagrams, perfect for exam preparation.',
-  canonical: '/class-12/books/punjab-board-biology/',
+  canonical: '/class-12/books/',
   index: true,
   follow: true,
   image: '/class/class-12/class_12_books.webp',
-  url: 'https://growlearnhub.com/class-12/books/punjab-board-biology/',
+  url: 'https://growlearnhub.com/class-12/books/',
   keywords: [
     'biology class 12 punjab text book pdf',
     'class 12 biology book pdf punjab board',

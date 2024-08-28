@@ -14,7 +14,7 @@ const data = {
   canonical: '/class-9/books/punjab-board-biology/english-medium/',
   index: true,
   follow: true,
-  image: '/class/class-9/book/biology/class_9_books_biology_english_medium.webp',
+  image: '/9th/book/punjab/class-9-biology-book-punjab-board.webp',
   url: 'https://growlearnhub.com/class-9/books/punjab-board-biology/english-medium/',
   keywords: [
     'biology class 9 punjab text book pdf',

@@ -11,7 +11,7 @@ const data = {
   canonical: '/class-9/books/',
   index: true,
   follow: true,
-  image: '/class/class-9/class_9_books.webp',
+  image: '/9th/class_9_books.webp',
   url: 'https://growlearnhub.com/class-9/books/',
   keywords: [
     'growlearnhub books',
