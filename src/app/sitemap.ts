@@ -28,7 +28,7 @@ export default async function sitemap(): Promise<SitemapFile[]> {
     // Generate routes for Biology Skeletal Bones
     const BiologyMcqsSkeletalSystemBonesMcqsRoutes: SitemapFile[] =
       BiologyMcqsSkeletalSystemBonesMcqs.map((data) => ({
-        url: `${FRONTEND_URL}/mcqs-point/biology/skeletal-system/bones/${convertToLowercaseWithHyphen(data.slug)}/`,
+        url: `${FRONTEND_URL}/mcqs-point/${convertToLowercaseWithHyphen(data.slug)}/`,
         lastModified: new Date().toISOString(),
         priority: 0.7,
         changeFrequency: 'weekly', 
