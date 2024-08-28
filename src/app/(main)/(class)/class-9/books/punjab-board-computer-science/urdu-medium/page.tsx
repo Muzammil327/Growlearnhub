@@ -1,27 +1,30 @@
 import React from 'react'
 import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
-import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 import PDFViewer from '@/src/components/element/PDFViewer'
-import { MainDataClass9Book } from '../data'
+import Link from 'next/link'
+import CardSmall from '@/src/components/card/cardSmall/cardSmall'
+import { MainDataClass9Book } from '../../data'
 
 const data = {
-  title: 'Computer Science Class 9 Book PDF | 9th Class Punjab Text Book',
+  title:
+    '9th Class Computer Science Book PDF Urdu Medium Free Download | Punjab Boards',
   description:
-    'Download the official Computer Science Class 9 textbook PDF by Punjab Board. This comprehensive guide covers the entire syllabus with clear explanation.',
-  canonical: '/class-9/books/punjab-board-computer-science/',
+    'Download the 9th Class Computer Science Book PDF in Urdu Medium for free. Get the Punjab Board-approved textbook and explore chapter-wise downloads.',
+  canonical: '/class-9/books/punjab-board-computer-science/urdu-medium/',
   index: true,
   follow: true,
   image: '/9th/book/punjab/class-9-computer-science-book-punjab-board.webp',
-  url: 'https://growlearnhub.com/class-9/books/punjab-board-computer-science/',
+  url: 'https://growlearnhub.com/class-9/books/punjab-board-computer-science/urdu-medium/',
   keywords: [
     'computer science class 9 punjab text book pdf',
     'class 9 computer science book pdf punjab board',
     '9th class computer science punjab text book',
     'computer science book class 9 punjab board',
+    '9th Class computer science Book PDF urdu Medium Free Download',
     'class 9 computer science book punjab board',
+    'punjab text book computer science 9th class pdf urdu medium',
   ],
-  fileId_english: '1o5fPLG7_lTK2sAs5smLAgJEopLTf8fsR',
   fileId_urdu: '1dSyB9KxtY59L541KRu55BmWEVbmy6rnz',
   clist: [
     { name: 'Class 10 Books', slug: '/class-10/books/' },
@@ -43,50 +46,64 @@ export default function Page() {
     <Wrapper
       title={data.title}
       url={data.canonical}
-      b1="Books"
-      b1Link="/class-9/books/"
-      b2="Punjab Board Computer Science"
+      b1="Punjab Board Computer Science"
+      b1Link="/class-9/books/punjab-board-computer-science/"
+      b2="Urdu Medium"
       image={data.image}
       clist={data.clist}
     >
-      <div className="grid gap-4 grid-cols-1 my-10">
-        {mainData.map((data: any) => {
-          return (
-            <CardSmall
-              key={data.name}
-              title={data.name}
-              link={`/class-9/books/punjab-board-computer-science/${data.slug}-medium/`}
-            />
-          )
-        })}
-      </div>
+      <h3>
+        Computer Science 9th Class Book Urdu Medium PDF Download Punjab Board
+      </h3>
       <p>
         Are you looking for a{' '}
         <strong>Class 9 computer science book punjab board</strong>? Here, you
-        can access all the books you need for free. Our website offers a
-        complete collection of books for students in Class 9, 10, 11, and 12.
-        Whether you&apos;re preparing for exams or need extra resources,
+        can access all the books of class 9 you need for free. Our website
+        offers a complete collection of books for students in Class 9, 10, 11,
+        and 12. Whether you&apos;re preparing for exams or need extra resources,
         we&apos;ve got you covered.
       </p>
-      <h3>
-        Download Class 9 Computer Science Book English Medium Punjab Board
-      </h3>
+
+      <table className="relative w-full">
+        <thead>
+          <tr className="bg-white border-b hover:bg-slate-100">
+            <th
+              scope="row"
+              className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+            >
+              Chapter Wise Download Computer Science Book
+            </th>
+            <td className="px-6 py-4"></td>
+          </tr>
+        </thead>
+        <tbody>
+          {chapterDATA.map((data: any) => {
+            return (
+              <tr
+                className="bg-white border-b hover:bg-slate-100"
+                key={data.id}
+              >
+                <th
+                  scope="row"
+                  className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+                >
+                  Chapter {data.id} Computer Science Book
+                </th>
+                <td className="px-6 py-4">
+                  <Link href={data.link}>Download PDF Urdu Medium</Link>
+                </td>
+              </tr>
+            )
+          })}
+        </tbody>
+      </table>
+
       <p>
-        Here, you can download Matric class 9 Computer Science Text Book in PDF
-        Format for English Medium. This book is officially published by Punjab
-        Text Book Board.
-      </p>
-      <PDFViewer pdfUrl={data.fileId_english} />
-      <h3>
-        Download 9th Class Computer Science Textbook Urdu Medium Punjab Board
-      </h3>
-      <p>
-        Here, you can download Matric class 9 Computer Science Text Book in PDF
-        Format for Urdu Medium. This book is officially published by Punjab Text
-        Book Board.
+        Here, you can download Matric{' '}
+        <strong>Computer Science 9th Class Book Urdu Medium PDF </strong>
+        Format. This book is officially published by Punjab Text Book Board.
       </p>
       <PDFViewer pdfUrl={data.fileId_urdu} />
-
       {MainDataClass9Book.map((data: any) => {
         return (
           <div key={data.title}>
@@ -109,15 +126,16 @@ export default function Page() {
   )
 }
 
-const mainData = [
-  {
-    name: 'Class 9 Computer Science Book PDF Punjab Board English Medium',
-    slug: 'english',
-  },
-  {
-    name: 'Computer Science Class 9 Punjab Board Text Book PDF Urdu Medium',
-    slug: 'urdu',
-  },
+const chapterDATA = [
+  { id: '1', link: '#' },
+  { id: '2', link: '#' },
+  { id: '3', link: '#' },
+  { id: '4', link: '#' },
+  { id: '5', link: '#' },
+  { id: '6', link: '#' },
+  { id: '7', link: '#' },
+  { id: '8', link: '#' },
+  { id: '9', link: '#' },
 ]
 
 export const metadata: Metadata = {

@@ -46,6 +46,14 @@ export const MainDataClass9Book = [
           name: 'General Math',
           slug: 'general-math',
         },
+        {
+          name: 'Pak Study',
+          slug: 'pak-study',
+        },
+        {
+          name: 'Computer Science',
+          slug: 'computer-science',
+        },
       ],
     },
   ]
