@@ -44,7 +44,7 @@ export default function Page() {
           <CardQuiz
             key={book.id}
             title={book.name}
-            link={`${data.canonical}${book.slug}`}
+            link={`/mcqs-point/${book.slug}`}
             option={book.options}
             correctOption={book.correctOptions}
           />

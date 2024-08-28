@@ -105,6 +105,15 @@ const route = [
   'vu/mid-mcqs/',
   'vu/handouts/',
 
+
+
+
+
+
+
+
+  
+
   'mcqs-point/biology/skeletal-system/',
   'mcqs-point/biology/skeletal-system/types/',
   'mcqs-point/biology/skeletal-system/bones/',
