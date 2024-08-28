@@ -10,6 +10,7 @@ import '@/src/styles/Wrapper/style.scss'
 import Sidebar from '@/src/components/sidebar/page'
 import ImageContainer from './image'
 import Link from 'next/link'
+import Button from '../ui/Button'
 
 export default function Wrapper(data: {
   title: string
@@ -43,13 +44,16 @@ export default function Wrapper(data: {
                 b3Link={data.b3Link}
               />
               <p>
-                Welcome to our <Link href="/" className='links'>Educational Hub</Link> , an
-                innovative platform designed for high school student in Class 9
-                to 12, Chartered Accountancy (CA), and Virtual University
-                learners to fulfil academic needs. Our mission is to provide a
-                one-stop solution for all your educational requirements,
-                empowering you to achieve excellence in your studies and
-                professional goals.
+                Welcome to our{' '}
+                <Link href="/" className="links">
+                  Educational Hub
+                </Link>{' '}
+                , an innovative platform designed for high school student in
+                Class 9 to 12, Chartered Accountancy (CA), and Virtual
+                University learners to fulfil academic needs. Our mission is to
+                provide a one-stop solution for all your educational
+                requirements, empowering you to achieve excellence in your
+                studies and professional goals.
               </p>
               {data.image && (
                 <ImageContainer
@@ -66,6 +70,10 @@ export default function Wrapper(data: {
                 You can give your opinion or any question you have to ask below
                 in the comment section area.
               </p>
+              <div className="flex gap-4">
+                <Button>Report / Error</Button>
+                <Button>Suggestion</Button>
+              </div>
               <Form url={`https://growlearnhub.com${data.url}`} />
             </div>
             <div className="c2">

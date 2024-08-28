@@ -2,6 +2,7 @@ import React from 'react'
 import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
+import { VuHandoutsData } from './data'
 
 const data = {
   title: 'Virtual University Handouts',
@@ -10,7 +11,7 @@ const data = {
   canonical: '/vu/handouts/',
   index: true,
   follow: true,
-  image: '/vu_handouts.webp',
+  image: '/class/vu/vu_handouts.webp',
   url: 'https://growlearnhub.com/vu/handouts/',
   keywords: [
     'growlearnhub',
@@ -38,7 +39,7 @@ export default function Page() {
       clist={data.clist}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {mainData.map((data: any) => {
+        {VuHandoutsData.map((data: any) => {
           return (
             <CardSmall
               key={data.name}
@@ -51,13 +52,6 @@ export default function Page() {
     </Wrapper>
   )
 }
-
-const mainData = [
-  {
-    name: 'CS101 Handouts',
-    slug: '',
-  },
-]
 
 export const metadata: Metadata = {
   title: data.title,

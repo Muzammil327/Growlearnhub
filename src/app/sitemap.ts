@@ -154,7 +154,6 @@ const route = [
   'vu/handouts/cs302/',
   'vu/handouts/eng201/',
   'vu/handouts/mgt211/',
-  'vu/handouts/mth104/',
   'vu/handouts/mth301/',
 
   'class-9/books/punjab-board-physics/',
