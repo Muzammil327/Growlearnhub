@@ -6,7 +6,7 @@ import { VuHandoutsData } from '../data'
 import PDFViewer from '@/src/components/element/PDFViewer'
 
 const data = {
-  title: 'CS302 Handouts Virtual University',
+  title: 'CS302 Handouts PDF Virtual University',
   description:
     'Access comprehensive CS302 handouts from Virtual University, including downloadable PDFs and detailed study materials to help you excel in your coursework.',
   canonical: '/vu/handouts/cs302/',
