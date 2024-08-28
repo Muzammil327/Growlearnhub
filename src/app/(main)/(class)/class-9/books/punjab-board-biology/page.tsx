@@ -8,7 +8,7 @@ import { MainDataClass9Book } from '../data'
 const data = {
   title: 'Biology Class 9 Book PDF | 9th Class Punjab Text Book',
   description:
-    'Download the official Biology Class 9 textbook PDF by Punjab Board. This comprehensive guide covers the entire syllabus with clear explanations and detailed diagrams, perfect for exam preparation.',
+    'Download the official Biology Class 9 textbook PDF by Punjab Board. This comprehensive guide covers the entire syllabus with clear explanation.',
   canonical: '/class-9/books/punjab-board-biology/',
   index: true,
   follow: true,

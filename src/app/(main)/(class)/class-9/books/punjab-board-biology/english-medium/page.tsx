@@ -10,7 +10,7 @@ const data = {
   title:
     '9th Class Biology Book PDF English Medium Free Download | Punjab Boards',
   description:
-    'Download the 9th Class Biology Book PDF in English Medium for free. Get the Punjab Board-approved textbook and explore chapter-wise downloads, along with other Class 9 books in both English and Urdu mediums.',
+    'Download the 9th Class Biology Book PDF in English Medium for free. Get the Punjab Board-approved textbook and explore chapter-wise downloads.',
   canonical: '/class-9/books/punjab-board-biology/english-medium/',
   index: true,
   follow: true,

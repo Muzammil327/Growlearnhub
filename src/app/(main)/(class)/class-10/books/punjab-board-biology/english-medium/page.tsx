@@ -10,7 +10,7 @@ const data = {
   title:
     '10th Class Biology Book PDF English Medium Free Download | Punjab Boards',
   description:
-    'Download the 10th Class Biology Book PDF in English Medium for free. Get the Punjab Board-approved textbook and explore chapter-wise downloads, along with other Class 10 books in both English and Urdu mediums.',
+    'Download the 10th Class Biology Book PDF in English Medium for free. Get the Punjab Board-approved textbook and explore chapter-wise downloads.',
   canonical: '/class-10/books/punjab-board-biology/english-medium/',
   index: true,
   follow: true,
@@ -27,41 +27,17 @@ const data = {
   ],
   fileId_english: '1FJYKKe3zakdzvKo9T6-74J1ARXKjmsDp',
   clist: [
-    {
-      id: 0,
-      name: 'Class 9 Books',
-      slug: '/class-9/books/',
-    },
-    {
-      id: 1,
-      name: 'Class 11 Books',
-      slug: '/class-11/books/',
-    },
-    {
-      id: 2,
-      name: 'Class 12 Books',
-      slug: '/class-12/books/',
-    },
-    {
-      id: 3,
-      name: 'VU cgpa Calculator',
-      slug: '/vu/mid-mark-calculator/',
-    },
-    {
-      id: 4,
-      name: 'Class 9 Mcqs',
-      slug: '/class-9/mcqs/',
-    },
-    {
-      id: 5,
-      name: 'Class 11 Mcqs',
-      slug: '/class-11/mcqs/',
-    },
-    {
-      id: 6,
-      name: 'Class 12 Mcqs',
-      slug: '/class-12/mcqs/',
-    },
+    { name: 'Class 9 Books', slug: '/class-9/books/' },
+    { name: 'Class 11 Books', slug: '/class-11/books/' },
+    { name: 'Class 12 Books', slug: '/class-12/books/' },
+    { name: 'Class 9 Mcqs', slug: '/class-9/mcqs/' },
+    { name: 'Class 10 Mcqs', slug: '/class-10/mcqs/' },
+    { name: 'Class 11 Mcqs', slug: '/class-11/mcqs/' },
+    { name: 'Class 12 Mcqs', slug: '/class-12/mcqs/' },
+    { name: 'Class 9 Online Test', slug: '/class-9/online-test/' },
+    { name: 'Class 11 Online Test', slug: '/class-11/online-test/' },
+    { name: 'Class 10 Online Test', slug: '/class-10/online-test/' },
+    { name: 'Class 12 Online Test', slug: '/class-12/online-test/' },
   ],
 }
 
@@ -70,23 +46,20 @@ export default function Page() {
     <Wrapper
       title={data.title}
       url={data.canonical}
-      b1="10th Class"
-      b1Link="/class-10/"
-      b2="Books"
-      b2Link="/class-10/books/"
-      b3="Punjab Board Biology"
-      b3Link="/class-10/books/punjab-board-biology/"
-      b4="Biology 10th Class Book English Medium"
+      b1="Punjab Board Biology"
+      b1Link="/class-10/books/punjab-board-biology/"
+      b2="English Medium"
       image={data.image}
       clist={data.clist}
     >
       <h3>Biology 10th Class Book English Medium PDF Download Punjab Board</h3>
       <p>
-        Are you looking for a <strong>Class 10 biology book punjab board</strong>
-        ? Here, you can access all the books of class 10 you need for free. Our
-        website offers a complete collection of books for students in Class 9,
-        10, 11, and 12. Whether you&apos;re preparing for exams or need extra
-        resources, we&apos;ve got you covered.
+        Are you looking for a{' '}
+        <strong>Class 10 biology book punjab board</strong>? Here, you can
+        access all the books of class 10 you need for free. Our website offers a
+        complete collection of books for students in Class 9, 10, 11, and 12.
+        Whether you&apos;re preparing for exams or need extra resources,
+        we&apos;ve got you covered.
       </p>
       <table className="relative w-full">
         <thead>

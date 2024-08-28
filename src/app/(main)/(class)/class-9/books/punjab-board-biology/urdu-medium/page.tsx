@@ -9,7 +9,7 @@ import { MainDataClass9Book } from '../../data'
 const data = {
   title: 'Biology 9th Class Book Urdu Medium PDF Download | Punjab Board',
   description:
-    'Download the 9th Class Biology book in Urdu Medium PDF, approved by the Punjab Board. Get the complete syllabus with detailed explanations and diagrams for effective exam preparation.',
+    'Download the 9th Class Biology Book PDF in Urdu Medium for free. Get the Punjab Board-approved textbook and explore chapter-wise downloads.',
   canonical: '/class-9/books/punjab-board-biology/urdu-medium/',
   index: true,
   follow: true,
