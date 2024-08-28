@@ -14,7 +14,7 @@ const data = {
   canonical: '/class-9/books/punjab-board-biology/english-medium/',
   index: true,
   follow: true,
-  image: '/books/class-9/punjab/class-9-biology-book-punjab-board.webp',
+  image: '/class/class-9/book/biology/class_9_books_biology_english_medium.webp',
   url: 'https://growlearnhub.com/class-9/books/punjab-board-biology/english-medium/',
   keywords: [
     'biology class 9 punjab text book pdf',
@@ -27,41 +27,17 @@ const data = {
   ],
   fileId_english: '1MFRZ5yO0SrrfTkAM_ewXBp_Pec4zTOA-',
   clist: [
-    {
-      id: 0,
-      name: 'Class 10 Books',
-      slug: '/class-10/books/',
-    },
-    {
-      id: 1,
-      name: 'Class 11 Books',
-      slug: '/class-11/books/',
-    },
-    {
-      id: 2,
-      name: 'Class 12 Books',
-      slug: '/class-12/books/',
-    },
-    {
-      id: 3,
-      name: 'VU cgpa Calculator',
-      slug: '/vu/mid-mark-calculator/',
-    },
-    {
-      id: 4,
-      name: 'Class 10 Mcqs',
-      slug: '/class-10/mcqs/',
-    },
-    {
-      id: 5,
-      name: 'Class 11 Mcqs',
-      slug: '/class-11/mcqs/',
-    },
-    {
-      id: 6,
-      name: 'Class 12 Mcqs',
-      slug: '/class-12/mcqs/',
-    },
+    { name: 'Class 10 Books', slug: '/class-10/books/' },
+    { name: 'Class 11 Books', slug: '/class-11/books/' },
+    { name: 'Class 12 Books', slug: '/class-12/books/' },
+    { name: 'Class 9 Mcqs', slug: '/class-9/mcqs/' },
+    { name: 'Class 10 Mcqs', slug: '/class-10/mcqs/' },
+    { name: 'Class 11 Mcqs', slug: '/class-11/mcqs/' },
+    { name: 'Class 12 Mcqs', slug: '/class-12/mcqs/' },
+    { name: 'Class 9 Online Test', slug: '/class-9/online-test/' },
+    { name: 'Class 11 Online Test', slug: '/class-11/online-test/' },
+    { name: 'Class 10 Online Test', slug: '/class-10/online-test/' },
+    { name: 'Class 12 Online Test', slug: '/class-12/online-test/' },
   ],
 }
 
@@ -70,13 +46,9 @@ export default function Page() {
     <Wrapper
       title={data.title}
       url={data.canonical}
-      b1="9th Class"
-      b1Link="/class-9/"
-      b2="Books"
-      b2Link="/class-9/books/"
-      b3="Punjab Board Biology"
-      b3Link="/class-9/books/punjab-board-biology/"
-      b4="Biology 9th Class Book English Medium"
+      b1="Punjab Board Biology"
+      b1Link="/class-9/books/punjab-board-biology/"
+      b2="English Medium"
       image={data.image}
       clist={data.clist}
     >
@@ -88,6 +60,7 @@ export default function Page() {
         10, 11, and 12. Whether you&apos;re preparing for exams or need extra
         resources, we&apos;ve got you covered.
       </p>
+      
       <table className="relative w-full">
         <thead>
           <tr className="bg-white border-b hover:bg-slate-100">

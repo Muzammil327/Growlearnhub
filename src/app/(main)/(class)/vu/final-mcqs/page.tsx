@@ -19,6 +19,11 @@ const data = {
     'vu final mcqs',
     'virtual university final mcqs',
   ],
+  clist: [
+    { name: 'Mid Term Mcqs', slug: '/vu/mid-mcqs/' },
+    { name: 'Handouts', slug: '/vu/handouts/' },
+    { name: 'Mid Mark Calculator', slug: '/vu/mid-mark-calculator/' },
+  ],
 }
 
 export default function Page() {
@@ -30,6 +35,7 @@ export default function Page() {
       b1Link="/vu/"
       b2="Final Mcqs"
       image={data.image}
+      clist={data.clist}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {mainData.map((data: any) => {

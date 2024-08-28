@@ -16,9 +16,15 @@ const data = {
   canonical: '/mcqs-point/general-knowledge/',
   index: true,
   follow: true,
-  image: '/mcqs-point/general-knowledge/general-knowledge-quiz.png',
   url: 'https://growlearnhub.com/mcqs-point/general-knowledge/',
-  keywords: ['mcqs', 'mcqs general knowledge'],
+  image: '/mcqs-point/general-knowledge/general-knowledge-mcqs-point.png',
+  keywords: [
+    'mcqs',
+    'quiz',
+    'mcqs general-knowledge',
+    'general-knowledge mcqs',
+  ],
+  clist: [],
 }
 
 export default function Page() {
@@ -30,6 +36,7 @@ export default function Page() {
       b1Link="/mcqs-point/"
       b2="General Knowledge"
       image={data.image}
+      clist={data.clist}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {BookSubjectData.map((book: Subject) => (
@@ -54,7 +61,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: data.image,
         alt: data.title,
       },
     ],
@@ -74,7 +81,7 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: 'https://nextjs.org/og.png',
+      url: data.image,
       alt: data.title,
     },
   },

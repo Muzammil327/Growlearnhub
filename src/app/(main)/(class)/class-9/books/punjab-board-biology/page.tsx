@@ -3,6 +3,7 @@ import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 import PDFViewer from '@/src/components/element/PDFViewer'
+import { MainDataClass9Book } from '../data'
 
 const data = {
   title: 'Biology Class 9 Book PDF | 9th Class Punjab Text Book',
@@ -11,7 +12,7 @@ const data = {
   canonical: '/class-9/books/punjab-board-biology/',
   index: true,
   follow: true,
-  image: '/books/class-9/punjab/class-9-biology-book-punjab-board.webp',
+  image: '/class/class-9/book/biology/class_9_books_biology.webp',
   url: 'https://growlearnhub.com/class-9/books/punjab-board-biology/',
   keywords: [
     'biology class 9 punjab text book pdf',
@@ -23,41 +24,17 @@ const data = {
   fileId_english: '1MFRZ5yO0SrrfTkAM_ewXBp_Pec4zTOA-',
   fileId_urdu: '1ty3cPG8aWvjPla3xJAT4F__bLNJHKiZv',
   clist: [
-    {
-      id: 0,
-      name: 'Class 10 Books',
-      slug: '/class-10/books/',
-    },
-    {
-      id: 1,
-      name: 'Class 11 Books',
-      slug: '/class-11/books/',
-    },
-    {
-      id: 2,
-      name: 'Class 12 Books',
-      slug: '/class-12/books/',
-    },
-    {
-      id: 3,
-      name: 'VU cgpa Calculator',
-      slug: '/vu/mid-mark-calculator/',
-    },
-    {
-      id: 4,
-      name: 'Class 10 Mcqs',
-      slug: '/class-10/mcqs/',
-    },
-    {
-      id: 5,
-      name: 'Class 11 Mcqs',
-      slug: '/class-11/mcqs/',
-    },
-    {
-      id: 6,
-      name: 'Class 12 Mcqs',
-      slug: '/class-12/mcqs/',
-    },
+    { name: 'Class 10 Books', slug: '/class-10/books/' },
+    { name: 'Class 11 Books', slug: '/class-11/books/' },
+    { name: 'Class 12 Books', slug: '/class-12/books/' },
+    { name: 'Class 9 Mcqs', slug: '/class-9/mcqs/' },
+    { name: 'Class 10 Mcqs', slug: '/class-10/mcqs/' },
+    { name: 'Class 11 Mcqs', slug: '/class-11/mcqs/' },
+    { name: 'Class 12 Mcqs', slug: '/class-12/mcqs/' },
+    { name: 'Class 9 Online Test', slug: '/class-9/online-test/' },
+    { name: 'Class 11 Online Test', slug: '/class-11/online-test/' },
+    { name: 'Class 10 Online Test', slug: '/class-10/online-test/' },
+    { name: 'Class 12 Online Test', slug: '/class-12/online-test/' },
   ],
 }
 
@@ -66,11 +43,9 @@ export default function Page() {
     <Wrapper
       title={data.title}
       url={data.canonical}
-      b1="9th Class"
-      b1Link="/class-9/"
-      b2="Books"
-      b2Link="/class-9/books/"
-      b3="Punjab Board Biology"
+      b1="Books"
+      b1Link="/class-9/books/"
+      b2="Punjab Board Biology"
       image={data.image}
       clist={data.clist}
     >
@@ -106,6 +81,25 @@ export default function Page() {
         Board.
       </p>
       <PDFViewer pdfUrl={data.fileId_urdu} />
+
+      {MainDataClass9Book.map((data: any) => {
+        return (
+          <div key={data.title}>
+            <h2 className="">{data.title}</h2>
+            <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
+              {data.child.map((data: any) => {
+                return (
+                  <CardSmall
+                    key={data.name}
+                    title={data.name}
+                    link={`/class-9/books/punjab-board-${data.slug}`}
+                  />
+                )
+              })}
+            </div>
+          </div>
+        )
+      })}
     </Wrapper>
   )
 }
@@ -131,7 +125,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: data.image,
         alt: data.title,
       },
     ],
@@ -151,7 +145,7 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: 'https://nextjs.org/og.png',
+      url: data.image,
       alt: data.title,
     },
   },

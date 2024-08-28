@@ -1,16 +1,32 @@
 export const BiologyMcqsSkeletalSystemBonesMcqs = [
   {
-    id: 0,
-    name: 'the muscles that control urine in bladder are known as  which book mcqs',
-    slug: 'hg',
-    options: ['Options 1', 'Options 2', 'Options 3', 'Options 4'],
-    correctOptions: 'Options 1',
+    name: 'Which bone is known as the collarbone?',
+    options: ['Scapula', 'Clavicle', 'Sternum', 'Femur'],
+    correctOptions: 'Clavicle',
+    slug: 'which-bone-is-known-as-the-collarbone',
   },
   {
-    id: 1,
-    name: 'the muscles that control urine in bladder are known as  which book mcqs',
-    slug: '',
-    options: ['Options 1', 'Options 2', 'Options 3', 'Options 4'],
-    correctOptions: 'Options 1',
+    name: 'Which is the longest bone in the human body?',
+    options: ['Tibia', 'Fibula', 'Femur', 'Humerus'],
+    correctOptions: 'Femur',
+    slug: 'which-is-the-longest-bone-in-the-human-body',
+  },
+  {
+    name: 'Which bone protects the brain?',
+    options: ['Ribcage', 'Femur', 'Skull', 'Pelvis'],
+    correctOptions: 'Skull',
+    slug: 'which-bone-protects-the-brain',
+  },
+  {
+    name: 'Which bone is part of the shoulder blade?',
+    options: ['Clavicle', 'Scapula', 'Humerus', 'Radius'],
+    correctOptions: 'Scapula',
+    slug: 'which-bone-is-part-of-the-shoulder-blade',
+  },
+  {
+    name: 'What type of bone is the patella?',
+    options: ['Flat', 'Irregular', 'Sesamoid', 'Long'],
+    correctOptions: 'Sesamoid',
+    slug: 'what-type-of-bone-is-the-patella',
   },
 ]

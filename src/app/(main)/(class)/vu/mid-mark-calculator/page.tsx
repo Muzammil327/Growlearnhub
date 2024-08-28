@@ -20,10 +20,15 @@ const data = {
     'mid term mark calculator',
     'vu mark calculator',
   ],
+  clist: [
+    { name: 'Mid Term Mcqs', slug: '/vu/mid-mcqs/' },
+    { name: 'Final Term Mcqs', slug: '/vu/final-mcqs/' },
+    { name: 'Handouts', slug: '/vu/handouts/' },
+  ],
 }
 
 export default function Page() {
-  return <Calculator url={data.url} />
+  return <Calculator url={data.url} clist={data.clist} />
 }
 
 export const metadata: Metadata = {

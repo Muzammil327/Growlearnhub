@@ -3,9 +3,7 @@ import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 import { CardQuiz } from '@/src/components/card/CardQuiz/cardQuiz'
-import {
-  SkeletalSystemMcqsData,
-} from '@/src/app/(main)/mcqs-point/biology/skeletal-system/data'
+import { SkeletalSystemMcqsData } from '@/src/app/(main)/mcqs-point/biology/skeletal-system/data'
 import { BiologyMcqsSkeletalSystemBonesMcqs } from '@/src/app/(main)/mcqs-point/biology/skeletal-system/bones/data'
 
 const data = {
@@ -15,11 +13,13 @@ const data = {
   canonical: '/mcqs-point/biology/skeletal-system/bones/',
   index: true,
   follow: true,
-  image: '/mcqs-point/general-knowledge/general-knowledge-quiz.png',
+  image:
+    '/mcqs-point/biology/skeletal-system/bones/bones-skeletal-system-biology-mcqs-point.webp',
+
   url: 'https://growlearnhub.com/mcqs-point/biology/skeletal-system/bones/',
   keywords: [
-    'mcqs', 
-    'mcqs biology', 
+    'mcqs',
+    'mcqs biology',
     'Skeletal System',
     'Skeletal System bones',
     'bones',

@@ -9,7 +9,7 @@ import Form from '@/src/components/element/form/page'
 import Image from 'next/image'
 import Wrapper from '@/src/components/element/Wrapper'
 
-export default function Calculator({ url }: { url: string }) {
+export default function Calculator({ url, clist }: { url: string; clist: any }) {
   const [calculatedAssignment, setCalculatedAssignment] = useState<number>(0)
   const [calculatedQuiz, setCalculatedQuiz] = useState<number>(0)
   const [calculatedGDB, setCalculatedGDB] = useState<number>(0)
@@ -24,6 +24,7 @@ export default function Calculator({ url }: { url: string }) {
       title="VU Mid Marks Calculator"
       url={url}
       b1="VU Mid Marks Calculator"
+      clist={clist}
     >
       <div className="my-10">
         <h2>Welcome to the Grow Learnhub Mid Term Mark Calculator</h2>

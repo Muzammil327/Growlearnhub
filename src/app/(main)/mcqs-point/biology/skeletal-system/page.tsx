@@ -11,7 +11,8 @@ const data = {
   canonical: '/mcqs-point/biology/skeletal-system/',
   index: true,
   follow: true,
-  image: '/mcqs-point/general-knowledge/general-knowledge-quiz.png',
+  image:
+    '/mcqs-point/biology/skeletal-system/skeletal-system-biology-mcqs-point.webp',
   url: 'https://growlearnhub.com/mcqs-point/biology/skeletal-system/',
   keywords: ['mcqs', 'mcqs biology', 'Skeletal System'],
   b1: 'Biology',

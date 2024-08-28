@@ -10,12 +10,13 @@ const data = {
   canonical: '/mcqs-point/biology/',
   index: true,
   follow: true,
-  image: '/mcqs-point/general-knowledge/general-knowledge-quiz.png',
+  image: '/mcqs-point/biology/biology-mcqs-point.png',
   url: 'https://growlearnhub.com/mcqs-point/biology/',
   keywords: ['mcqs', 'quiz', 'mcqs biology', 'biology mcqs'],
   b1: 'Mcqs Point',
   b2: 'Biology',
   b1Link: '/mcqs-point/',
+  clist: [],
 }
 
 export default function Page() {
@@ -27,6 +28,7 @@ export default function Page() {
       b1Link={data.b1Link}
       b2={data.b2}
       image={data.image}
+      clist={data.clist}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {BookSubjectData.map((book: any) => (
