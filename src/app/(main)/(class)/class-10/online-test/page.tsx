@@ -10,7 +10,7 @@ const data = {
   canonical: '/class-10/online-test/',
   index: true,
   follow: true,
-  image: '/class/class-10/class_10_online_test.webp',
+  image: '/10th/class_10_online_test.webp',
   url: 'https://growlearnhub.com/class-10/online-test/',
   keywords: [
     'growlearnhub online test',
@@ -29,7 +29,7 @@ const data = {
     { name: 'Class 10 Mcqs', slug: '/class-10/mcqs/' },
     { name: 'Class 11 Mcqs', slug: '/class-11/mcqs/' },
     { name: 'Class 12 Mcqs', slug: '/class-12/mcqs/' },
-    { name: 'Class 9 Online Test', slug: '/class-9/online-test/' },
+    { name: 'Class 109 Online Test', slug: '/class-9/online-test/' },
     { name: 'Class 11 Online Test', slug: '/class-11/online-test/' },
     { name: 'Class 12 Online Test', slug: '/class-12/online-test/' },
   ],
@@ -64,7 +64,15 @@ export default function Page() {
 const mainData = [
   {
     name: 'Biology',
-    slug: '',
+    slug: 'biology',
+  },
+  {
+    name: 'Chemistry',
+    slug: 'chemistry',
+  },
+  {
+    name: 'Physics',
+    slug: 'physics',
   },
 ]
 

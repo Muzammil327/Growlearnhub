@@ -31,7 +31,7 @@ export default async function sitemap(): Promise<SitemapFile[]> {
         url: `${FRONTEND_URL}/mcqs-point/${convertToLowercaseWithHyphen(data.slug)}/`,
         lastModified: new Date().toISOString(),
         priority: 0.7,
-        changeFrequency: 'weekly', 
+        changeFrequency: 'weekly',
       }))
     // Generate routes for Biology Skeletal Cartilage
     const BiologyMcqsSkeletalSystemCartilageMcqsRoutes: SitemapFile[] =
@@ -70,7 +70,6 @@ export default async function sitemap(): Promise<SitemapFile[]> {
 }
 
 const route = [
-  'class-9/',
   'class-10/',
   'class-11/',
   'class-12/',
@@ -78,22 +77,83 @@ const route = [
   'book-point/',
   'mcqs-point/',
   'online-test-point/',
-
-  'class-9/books/',
-  'class-9/online-test/',
-  'class-9/mcqs/',
-
+  
+  
   'class-10/books/',
   'class-10/online-test/',
   'class-10/mcqs/',
-
+  
   'class-11/books/',
   'class-11/online-test/',
   'class-11/mcqs/',
-
+  
   'class-12/books/',
   'class-12/online-test/',
   'class-12/mcqs/',
+  
+
+
+
+
+
+
+  'class-9/',
+  'class-9/books/',
+  'class-9/books/punjab-board-physics/',
+  'class-9/books/punjab-board-physics/english-medium/',
+  'class-9/books/punjab-board-physics/urdu-medium/',
+  'class-9/books/punjab-board-math/',
+  'class-9/books/punjab-board-math/english-medium/',
+  'class-9/books/punjab-board-math/urdu-medium/',
+  'class-9/books/punjab-board-chemistry/',
+  'class-9/books/punjab-board-chemistry/english-medium/',
+  'class-9/books/punjab-board-chemistry/urdu-medium/',
+  'class-9/books/punjab-board-biology/',
+  'class-9/books/punjab-board-biology/english-medium/',
+  'class-9/books/punjab-board-biology/urdu-medium/',
+  'class-9/books/punjab-board-general-math/',
+  'class-9/books/punjab-board-general-math/english-medium/',
+  'class-9/books/punjab-board-general-math/urdu-medium/',
+  'class-9/books/punjab-board-computer-science/',
+  'class-9/books/punjab-board-computer-science/english-medium/',
+  'class-9/books/punjab-board-computer-science/urdu-medium/',
+  'class-9/books/punjab-board-pak-study/',
+  'class-9/books/punjab-board-pak-study/english-medium/',
+  'class-9/books/punjab-board-pak-study/urdu-medium/',
+  'class-9/books/punjab-board-economics/',
+  'class-9/books/punjab-board-english/',
+  'class-9/books/punjab-board-urdu/',
+  'class-9/books/punjab-board-ikhlaqiat/',
+  'class-9/books/punjab-board-islamiat/',
+  'class-9/books/punjab-board-tarjuma-tul-quran/',
+  
+  'class-9/mcqs/',
+  'class-9/mcqs/physics/',
+  'class-9/mcqs/biology/',
+  'class-9/mcqs/chemistry/',
+  
+  'class-9/online-test/',
+  'class-9/online-test/physics/',
+  'class-9/online-test/biology/',
+  'class-9/online-test/chemistry/',
+  
+  'class-9/past-paper/',
+  'class-9/past-paper/faisalbad-board-biology/',
+  'class-9/past-paper/faisalbad-board-chemistry/',
+  'class-9/past-paper/faisalbad-board-physics/',
+  'class-9/past-paper/lahore-board-biology/',
+  'class-9/past-paper/lahore-board-chemistry/',
+  'class-9/past-paper/lahore-board-physics/',
+  
+
+
+
+
+
+
+
+
+  
 
   'mcqs-point/biology/',
   'mcqs-point/chemistry/',
@@ -104,15 +164,6 @@ const route = [
   'vu/final-mcqs/',
   'vu/mid-mcqs/',
   'vu/handouts/',
-
-
-
-
-
-
-
-
-  
 
   'mcqs-point/biology/skeletal-system/',
   'mcqs-point/biology/skeletal-system/types/',
@@ -156,34 +207,6 @@ const route = [
   'vu/handouts/mgt211/',
   'vu/handouts/mth301/',
 
-  'class-9/books/punjab-board-physics/',
-  'class-9/books/punjab-board-physics/english-medium/',
-  'class-9/books/punjab-board-physics/urdu-medium/',
-  'class-9/books/punjab-board-math/',
-  'class-9/books/punjab-board-math/english-medium/',
-  'class-9/books/punjab-board-math/urdu-medium/',
-  'class-9/books/punjab-board-chemistry/',
-  'class-9/books/punjab-board-chemistry/english-medium/',
-  'class-9/books/punjab-board-chemistry/urdu-medium/',
-  'class-9/books/punjab-board-biology/',
-  'class-9/books/punjab-board-biology/english-medium/',
-  'class-9/books/punjab-board-biology/urdu-medium/',
-  'class-9/books/punjab-board-general-math/',
-  'class-9/books/punjab-board-general-math/english-medium/',
-  'class-9/books/punjab-board-general-math/urdu-medium/',
-  'class-9/books/punjab-board-computer-science/',
-  'class-9/books/punjab-board-computer-science/english-medium/',
-  'class-9/books/punjab-board-computer-science/urdu-medium/',
-  'class-9/books/punjab-board-pak-study/',
-  'class-9/books/punjab-board-pak-study/english-medium/',
-  'class-9/books/punjab-board-pak-study/urdu-medium/',
-  'class-9/books/punjab-board-economics/',
-  'class-9/books/punjab-board-english/',
-  'class-9/books/punjab-board-urdu/',
-  'class-9/books/punjab-board-ikhlaqiat/',
-  'class-9/books/punjab-board-islamiat/',
-  'class-9/books/punjab-board-tarjuma-tul-quran/',
-
   'class-10/books/punjab-board-physics/',
   'class-10/books/punjab-board-physics/english-medium/',
   'class-10/books/punjab-board-physics/urdu-medium/',
@@ -223,10 +246,6 @@ const route = [
   'class-12/books/punjab-board-biology/english-medium/',
   'class-12/books/punjab-board-biology/urdu-medium/',
 
-  'class-9/mcqs/physics/',
-  'class-9/mcqs/biology/',
-  'class-9/mcqs/chemistry/',
-
   'class-10/mcqs/physics/',
   'class-10/mcqs/biology/',
   'class-10/mcqs/chemistry/',
@@ -238,10 +257,6 @@ const route = [
   'class-12/mcqs/physics/',
   'class-12/mcqs/biology/',
   'class-12/mcqs/chemistry/',
-
-  'class-9/online-test/physics/',
-  'class-9/online-test/biology/',
-  'class-9/online-test/chemistry/',
 
   'class-10/online-test/physics/',
   'class-10/online-test/biology/',

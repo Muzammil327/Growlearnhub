@@ -64,6 +64,10 @@ const mainData = [
     name: 'Books',
     slug: 'books',
   },
+  {
+    name: 'Past Paper',
+    slug: 'past-paper',
+  },
 ]
 
 export const metadata: Metadata = {

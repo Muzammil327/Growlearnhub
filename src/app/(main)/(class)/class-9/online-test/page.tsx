@@ -2,6 +2,7 @@ import React from 'react'
 import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
+import { MainDataClass9OnlineTest } from './data'
 
 const data = {
   title: '9th Class Online Test | Class 9',
@@ -10,7 +11,7 @@ const data = {
   canonical: '/class-9/online-test/',
   index: true,
   follow: true,
-  image: '/class/class-9/class_9_online_test.webp',
+  image: '/9th/class_9_online_test.webp',
   url: 'https://growlearnhub.com/class-9/online-test/',
   keywords: [
     'growlearnhub online test',
@@ -47,7 +48,7 @@ export default function Page() {
       clist={data.clist}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {mainData.map((data: any) => {
+        {MainDataClass9OnlineTest.map((data: any) => {
           return (
             <CardSmall
               key={data.name}
@@ -60,13 +61,6 @@ export default function Page() {
     </Wrapper>
   )
 }
-
-const mainData = [
-  {
-    name: 'Biology',
-    slug: '',
-  },
-]
 
 export const metadata: Metadata = {
   title: data.title,
