@@ -7,7 +7,7 @@ import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 import { MainDataClass9Book } from '../../data'
 
 const data = {
-  title: 'Chemistry 9th Class Book Urdu Medium PDF Download | Punjab Board',
+  title: '9th Class Chemistry Book PDF Urdu Medium Download | Punjab',
   description:
     'Download the 9th Class Chemistry Book PDF in Urdu Medium for free. Get the Punjab Board-approved textbook and explore chapter-wise downloads.',
   canonical: '/class-9/books/punjab-board-chemistry/urdu-medium/',

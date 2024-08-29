@@ -7,8 +7,7 @@ import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 import { MainDataClass9Book } from '../../data'
 
 const data = {
-  title:
-    '9th Class General Math Book PDF Urdu Medium Free Download | Punjab Boards',
+  title: '9th Class General Math Book PDF Urdu Medium Download | Punjab',
   description:
     'Download the 9th Class General Math Book PDF in Urdu Medium for free. Get the Punjab Board-approved textbook and explore chapter-wise downloads.',
   canonical: '/class-9/books/punjab-board-general-math/urdu-medium/',
@@ -54,11 +53,12 @@ export default function Page() {
     >
       <h3>General Math 9th Class Book Urdu Medium PDF Download Punjab Board</h3>
       <p>
-        Are you looking for a <strong>Class 9 general math book punjab board</strong>
-        ? Here, you can access all the books of class 9 you need for free. Our
-        website offers a complete collection of books for students in Class 9,
-        10, 11, and 12. Whether you&apos;re preparing for exams or need extra
-        resources, we&apos;ve got you covered.
+        Are you looking for a{' '}
+        <strong>Class 9 general math book punjab board</strong>? Here, you can
+        access all the books of class 9 you need for free. Our website offers a
+        complete collection of books for students in Class 9, 10, 11, and 12.
+        Whether you&apos;re preparing for exams or need extra resources,
+        we&apos;ve got you covered.
       </p>
 
       <table className="relative w-full">

@@ -7,8 +7,7 @@ import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 import { MainDataClass9Book } from '../../data'
 
 const data = {
-  title:
-    '9th Class Pak Study Book PDF Urdu Medium Free Download | Punjab Boards',
+  title: '9th Class Pak Study Book PDF Urdu Medium Download | Punjab',
   description:
     'Download the 9th Class Pak Study Book PDF in Urdu Medium for free. Get the Punjab Board-approved textbook and explore chapter-wise downloads.',
   canonical: '/class-9/books/punjab-board-pak-study/urdu-medium/',

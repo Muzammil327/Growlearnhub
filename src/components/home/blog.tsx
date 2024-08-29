@@ -1,5 +1,6 @@
 import React from 'react'
 import Container from '../element/container'
+import Image from 'next/image'
 
 export default function BlogSection3() {
   return (
@@ -8,10 +9,12 @@ export default function BlogSection3() {
         <div className="grid grid-cols-3 gap-4">
           <div>
             <div className="image">
-              <img
-                src="https://preview.colorlib.com/theme/academia/images/image_3.jpg"
-                alt=""
+              <Image
+                src="/book_point.webp"
+                alt="gfhgf"
                 className="rounded-tl-xl rounded-tr-xl"
+                height={400}
+                width={400}
               />
             </div>
             <div className="body p-3 bg-slate-200 rounded-bl-md rounded-br-md">
@@ -27,10 +30,12 @@ export default function BlogSection3() {
           </div>
           <div>
             <div className="image">
-              <img
-                src="https://preview.colorlib.com/theme/academia/images/image_3.jpg"
-                alt=""
+              <Image
+                src="/book_point.webp"
+                alt="gfhgf"
                 className="rounded-tl-xl rounded-tr-xl"
+                height={400}
+                width={400}
               />
             </div>
             <div className="body p-3 bg-slate-200 rounded-bl-md rounded-br-md">
@@ -46,10 +51,12 @@ export default function BlogSection3() {
           </div>
           <div>
             <div className="image">
-              <img
-                src="https://preview.colorlib.com/theme/academia/images/image_3.jpg"
-                alt=""
+              <Image
+                src="/book_point.webp"
+                alt="gfhgf"
                 className="rounded-tl-xl rounded-tr-xl"
+                height={400}
+                width={400}
               />
             </div>
             <div className="body p-3 bg-slate-200 rounded-bl-md rounded-br-md">

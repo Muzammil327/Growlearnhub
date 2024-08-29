@@ -8,7 +8,7 @@ import { MainDataClass9Book } from '../../data'
 
 const data = {
   title:
-    '9th Class Physics Book PDF English Medium Free Download | Punjab Boards',
+    '9th Physics Book PDF English Medium Download | Punjab',
   description:
     'Download the 9th Class Physics Book PDF in English Medium for free. Get the Punjab Board-approved textbook and explore chapter-wise downloads.',
   canonical: '/class-9/books/punjab-board-physics/english-medium/',

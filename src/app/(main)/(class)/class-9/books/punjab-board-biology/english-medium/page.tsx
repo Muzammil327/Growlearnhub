@@ -7,8 +7,7 @@ import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 import { MainDataClass9Book } from '../../data'
 
 const data = {
-  title:
-    '9th Class Biology Book PDF English Medium Free Download | Punjab Boards',
+  title: '9th Biology Book PDF English Medium Download | Punjab',
   description:
     'Download the 9th Class Biology Book PDF in English Medium for free. Get the Punjab Board-approved textbook and explore chapter-wise downloads.',
   canonical: '/class-9/books/punjab-board-biology/english-medium/',
@@ -60,7 +59,7 @@ export default function Page() {
         10, 11, and 12. Whether you&apos;re preparing for exams or need extra
         resources, we&apos;ve got you covered.
       </p>
-      
+
       <table className="relative w-full">
         <thead>
           <tr className="bg-white border-b hover:bg-slate-100">

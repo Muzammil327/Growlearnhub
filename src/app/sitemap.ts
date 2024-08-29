@@ -46,7 +46,7 @@ export default async function sitemap(): Promise<SitemapFile[]> {
       url: `${FRONTEND_URL}/${product}`,
       lastModified: new Date().toISOString(),
       priority: 0.9,
-      changeFrequency: 'hourly' as 'hourly', // Explicit type casting to match allowed literals
+      changeFrequency: 'daily' as 'daily', // Explicit type casting to match allowed literals
     }))
 
     // Combine all routes
@@ -55,7 +55,7 @@ export default async function sitemap(): Promise<SitemapFile[]> {
         url: `${FRONTEND_URL}/`,
         lastModified: new Date().toISOString(),
         priority: 1,
-        changeFrequency: 'hourly' as 'hourly', // Explicit type casting to match allowed literals
+        changeFrequency: 'daily' as 'daily', // Explicit type casting to match allowed literals
       },
       ...routes21,
       ...BiologyMcqsSkeletalSystemBonesMcqsRoutes,
@@ -75,7 +75,6 @@ const route = [
   'class-12/',
   'vu/',
   'book-point/',
-  'mcqs-point/',
   'online-test-point/',
   
   
@@ -146,32 +145,17 @@ const route = [
   'class-9/past-paper/lahore-board-physics/',
   
 
-
-
-
-
-
-
-
-  
-
+  'mcqs-point/',
   'mcqs-point/biology/',
-  'mcqs-point/chemistry/',
-  'mcqs-point/physics/',
-  'mcqs-point/general-knowledge/',
-
-  'vu/mid-mark-calculator/',
-  'vu/final-mcqs/',
-  'vu/mid-mcqs/',
-  'vu/handouts/',
-
   'mcqs-point/biology/skeletal-system/',
   'mcqs-point/biology/skeletal-system/types/',
   'mcqs-point/biology/skeletal-system/bones/',
   'mcqs-point/biology/skeletal-system/joints/',
   'mcqs-point/biology/skeletal-system/cartilage/',
   'mcqs-point/biology/skeletal-system/ligaments/',
-
+  'mcqs-point/chemistry/',
+  'mcqs-point/physics/',
+  'mcqs-point/general-knowledge/',
   'mcqs-point/general-knowledge/india/',
   'mcqs-point/general-knowledge/india/river/',
   'mcqs-point/general-knowledge/india/dam/',
@@ -187,6 +171,11 @@ const route = [
   'mcqs-point/general-knowledge/world-knowledge/dam/',
   'mcqs-point/general-knowledge/world-knowledge/largest/',
   'mcqs-point/general-knowledge/world-knowledge/longest/',
+
+  'vu/mid-mark-calculator/',
+  'vu/final-mcqs/',
+  'vu/mid-mcqs/',
+  'vu/handouts/',
 
   'vu/final-mcqs/cs101/',
   'vu/final-mcqs/cs201/',
