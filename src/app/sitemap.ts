@@ -1,4 +1,5 @@
 import { convertToLowercaseWithHyphen } from '../functions/slugify'
+import { RandomData } from './(main)/mcqs-point/[slug]/data'
 import { BiologyMcqsSkeletalSystemBonesMcqs } from './(main)/mcqs-point/biology/skeletal-system/bones/data'
 import { BiologyMcqsSkeletalSystemCartilageMcqs } from './(main)/mcqs-point/biology/skeletal-system/cartilage/data'
 
@@ -34,13 +35,12 @@ export default async function sitemap(): Promise<SitemapFile[]> {
         changeFrequency: 'weekly',
       }))
     // Generate routes for Biology Skeletal Cartilage
-    const BiologyMcqsSkeletalSystemCartilageMcqsRoutes: SitemapFile[] =
-      BiologyMcqsSkeletalSystemCartilageMcqs.map((data) => ({
-        url: `${FRONTEND_URL}/mcqs-point/biology/skeletal-system/cartilage/${convertToLowercaseWithHyphen(data.slug)}/`,
-        lastModified: new Date().toISOString(),
-        priority: 0.7,
-        changeFrequency: 'weekly',
-      }))
+    const RandomDataRoutes: SitemapFile[] = RandomData.map((data) => ({
+      url: `${FRONTEND_URL}/mcqs-point/${convertToLowercaseWithHyphen(data.slug)}/`,
+      lastModified: new Date().toISOString(),
+      priority: 0.7,
+      changeFrequency: 'weekly',
+    }))
 
     const routes21: SitemapFile[] = route.map((product) => ({
       url: `${FRONTEND_URL}/${product}`,
@@ -59,7 +59,7 @@ export default async function sitemap(): Promise<SitemapFile[]> {
       },
       ...routes21,
       ...BiologyMcqsSkeletalSystemBonesMcqsRoutes,
-      // ...BiologyMcqsSkeletalSystemCartilageMcqsRoutes,
+      ...RandomDataRoutes,
     ]
 
     return routes
@@ -76,25 +76,18 @@ const route = [
   'vu/',
   'book-point/',
   'online-test-point/',
-  
-  
+
   'class-10/books/',
   'class-10/online-test/',
   'class-10/mcqs/',
-  
+
   'class-11/books/',
   'class-11/online-test/',
   'class-11/mcqs/',
-  
+
   'class-12/books/',
   'class-12/online-test/',
   'class-12/mcqs/',
-  
-
-
-
-
-
 
   'class-9/',
   'class-9/books/',
@@ -125,17 +118,19 @@ const route = [
   'class-9/books/punjab-board-ikhlaqiat/',
   'class-9/books/punjab-board-islamiat/',
   'class-9/books/punjab-board-tarjuma-tul-quran/',
-  
+
+  'class-9/notes/',
+
   'class-9/mcqs/',
   'class-9/mcqs/physics/',
   'class-9/mcqs/biology/',
   'class-9/mcqs/chemistry/',
-  
+
   'class-9/online-test/',
   'class-9/online-test/physics/',
   'class-9/online-test/biology/',
   'class-9/online-test/chemistry/',
-  
+
   'class-9/past-paper/',
   'class-9/past-paper/faisalbad-board-biology/',
   'class-9/past-paper/faisalbad-board-chemistry/',
@@ -143,7 +138,6 @@ const route = [
   'class-9/past-paper/lahore-board-biology/',
   'class-9/past-paper/lahore-board-chemistry/',
   'class-9/past-paper/lahore-board-physics/',
-  
 
   'mcqs-point/',
   'mcqs-point/biology/',

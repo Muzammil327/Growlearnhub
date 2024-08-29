@@ -60,6 +60,7 @@ import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 import { CardQuizWithoutLink } from '@/src/components/card/CardQuiz/cardQuiz'
 import { SkeletalSystemMcqsData } from '@/src/app/(main)/mcqs-point/biology/skeletal-system/data'
 import { BiologyMcqsSkeletalSystemBonesMcqs } from '../biology/skeletal-system/bones/data'
+import { RandomData } from './data'
 
 const data = {
   canonical: '/mcqs-point/biology/skeletal-system/types/',
@@ -75,12 +76,9 @@ interface IProps {
   }
 }
 
-const combinedMcqs = [...BiologyMcqsSkeletalSystemBonesMcqs]
-
+const combinedMcqs = [...BiologyMcqsSkeletalSystemBonesMcqs, ...RandomData]
 export default function Page({ params }: IProps) {
-  const datas = combinedMcqs.filter(
-    (data: any) => data.slug === params.slug
-  )
+  const datas = combinedMcqs.filter((data: any) => data.slug === params.slug)
   const Final_Data = datas[0]
   return (
     <Wrapper
@@ -92,7 +90,7 @@ export default function Page({ params }: IProps) {
       image={data.image}
     >
       <div className="my-10 grid gap-4">
-        {BiologyMcqsSkeletalSystemBonesMcqs.filter(
+        {combinedMcqs.filter(
           (data: any) => data.slug === params.slug
         ).map((book: any) => (
           <CardQuizWithoutLink
@@ -113,11 +111,10 @@ export default function Page({ params }: IProps) {
 }
 
 export async function generateMetadata({ params }: IProps) {
-  const datas = BiologyMcqsSkeletalSystemBonesMcqs.filter(
+  const datas = combinedMcqs.filter(
     (data: any) => data.slug === params.slug
   )
   const Final_Data = datas[0]
-
   return {
     title: Final_Data.name,
     description: Final_Data.name,

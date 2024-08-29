@@ -80,3 +80,13 @@ export const BiologyMcqsSkeletalSystemBonesMcqs = [
     slug: 'where-are-the-three-smallest-bones-in-the-human-body-located',
   },
 ]
+
+
+
+
+
+
+
+
+
+
