@@ -117,8 +117,8 @@ export async function generateMetadata({ params }: IProps) {
   const Final_Data = datas[0]
   return {
     title: Final_Data.name,
-    description: Final_Data.name,
-    keywords: Final_Data.correctOptions + Final_Data.name,
+    description: Final_Data.name + Final_Data.correctOptions + Final_Data.options,
+    keywords: Final_Data.options,
     alternates: {
       canonical: `mcqs-point/${params.slug}`,
     },

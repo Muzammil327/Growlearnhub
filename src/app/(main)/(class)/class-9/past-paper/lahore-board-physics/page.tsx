@@ -2,7 +2,7 @@ import React from 'react'
 import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
-import { MainDataClass9PastPaper } from '../data'
+import DataClass9PastPaper from '../DataClass9PastPaper'
 
 const data = {
   title: '9th Class Lahore Board Physics Past Paper',
@@ -59,26 +59,7 @@ export default function Page() {
           )
         })}
       </div>
-      <div className="grid gap-4 grid-cols-1 my-10">
-        {MainDataClass9PastPaper.map((data: any) => {
-          return (
-            <div key={data.title}>
-              <h2 className="">{data.title}</h2>
-              <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
-                {data.child.map((data: any) => {
-                  return (
-                    <CardSmall
-                      key={data.name}
-                      title={data.name}
-                      link={`/class-9/past-paper/${data.slug}`}
-                    />
-                  )
-                })}
-              </div>
-            </div>
-          )
-        })}
-      </div>
+      <DataClass9PastPaper />
     </Wrapper>
   )
 }

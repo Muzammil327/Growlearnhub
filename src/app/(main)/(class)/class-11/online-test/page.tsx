@@ -1,7 +1,7 @@
 import React from 'react'
 import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
-import CardSmall from '@/src/components/card/cardSmall/cardSmall'
+import DataClass11OnlineTest from './DataClass11OnlineTest'
 
 const data = {
   title: '11th Class Online Test | Class 11',
@@ -10,7 +10,7 @@ const data = {
   canonical: '/class-11/online-test/',
   index: true,
   follow: true,
-  image: '/class/class-11/class_11_online_test.webp',
+  image: '/11th/class_11_online_test.webp',
   url: 'https://growlearnhub.com/class-11/online-test/',
   keywords: [
     'growlearnhub online test',
@@ -29,7 +29,7 @@ const data = {
     { name: 'Class 10 Mcqs', slug: '/class-10/mcqs/' },
     { name: 'Class 11 Mcqs', slug: '/class-11/mcqs/' },
     { name: 'Class 12 Mcqs', slug: '/class-12/mcqs/' },
-    { name: 'Class 9 Online Test', slug: '/class-9/online-test/' },
+    { name: 'Class 11 Online Test', slug: '/class-11/online-test/' },
     { name: 'Class 10 Online Test', slug: '/class-10/online-test/' },
     { name: 'Class 12 Online Test', slug: '/class-12/online-test/' },
   ],
@@ -46,27 +46,10 @@ export default function Page() {
       image={data.image}
       clist={data.clist}
     >
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {mainData.map((data: any) => {
-          return (
-            <CardSmall
-              key={data.name}
-              title={data.name}
-              link={`/class-11/online-test/${data.slug}`}
-            />
-          )
-        })}
-      </div>
+      <DataClass11OnlineTest />
     </Wrapper>
   )
 }
-
-const mainData = [
-  {
-    name: 'Biology',
-    slug: '',
-  },
-]
 
 export const metadata: Metadata = {
   title: data.title,

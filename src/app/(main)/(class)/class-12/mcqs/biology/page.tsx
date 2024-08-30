@@ -2,6 +2,7 @@ import React from 'react'
 import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
+import DataClass12Mcqs from '../DataClass12Mcqs'
 
 const data = {
   title: '12th Class Biology Mcqs | Class 12',
@@ -10,7 +11,7 @@ const data = {
   canonical: '/class-12/mcqs/biology/',
   index: true,
   follow: true,
-  image: '/mcqs-point/general-knowledge/general-knowledge-quiz.png',
+  image: '/12th/mcqs/class_12_biology_mcqs.webp',
   url: 'https://growlearnhub.com/class-12/mcqs/biology/',
   keywords: [
     'growlearnhub biology mcqs',
@@ -18,6 +19,19 @@ const data = {
     'class 12 biology mcqs',
     '12th class biology mcqs',
     '12th class growlearnhub biology mcqs',
+  ],
+  clist: [
+    { name: 'Class 9 Books', slug: '/class-9/books/' },
+    { name: 'Class 10 Books', slug: '/class-10/books/' },
+    { name: 'Class 11 Books', slug: '/class-11/books/' },
+    { name: 'Class 12 Books', slug: '/class-12/books/' },
+    { name: 'Class 10 Mcqs', slug: '/class-10/mcqs/' },
+    { name: 'Class 11 Mcqs', slug: '/class-11/mcqs/' },
+    { name: 'Class 12 Mcqs', slug: '/class-12/mcqs/' },
+    { name: 'Class 9 Online Test', slug: '/class-9/online-test/' },
+    { name: 'Class 11 Online Test', slug: '/class-11/online-test/' },
+    { name: 'Class 10 Online Test', slug: '/class-10/online-test/' },
+    { name: 'Class 12 Online Test', slug: '/class-12/online-test/' },
   ],
 }
 
@@ -30,6 +44,7 @@ export default function Page() {
       b1Link="/class-12/mcqs/"
       b2="Biology"
       image={data.image}
+      clist={data.clist}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {mainData.map((data: any) => {
@@ -42,6 +57,7 @@ export default function Page() {
           )
         })}
       </div>
+      <DataClass12Mcqs />
     </Wrapper>
   )
 }
@@ -68,7 +84,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: data.image,
         alt: data.title,
       },
     ],
@@ -88,7 +104,7 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: 'https://nextjs.org/og.png',
+      url: data.image,
       alt: data.title,
     },
   },

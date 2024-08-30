@@ -50,7 +50,6 @@ export default function Page() {
     </Wrapper>
   )
 }
-
 const mainData = [
   {
     name: 'Online Test',
@@ -73,7 +72,6 @@ const mainData = [
     slug: 'notes',
   },
 ]
-
 export const metadata: Metadata = {
   title: data.title,
   description: data.description,

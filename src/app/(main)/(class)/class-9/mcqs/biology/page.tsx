@@ -2,7 +2,7 @@ import React from 'react'
 import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
-import { MainDataClass9Mcqs } from '../data'
+import DataClass9Mcqs from '../DataClass9Mcqs'
 
 const data = {
   title: '9th Class Biology Mcqs | Class 9',
@@ -57,17 +57,7 @@ export default function Page() {
           )
         })}
       </div>
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {MainDataClass9Mcqs.map((data: any) => {
-          return (
-            <CardSmall
-              key={data.name}
-              title={data.name}
-              link={`/class-9/mcqs/${data.slug}`}
-            />
-          )
-        })}
-      </div>
+      <DataClass9Mcqs />
     </Wrapper>
   )
 }

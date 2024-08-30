@@ -42,12 +42,64 @@ export default async function sitemap(): Promise<SitemapFile[]> {
       changeFrequency: 'weekly',
     }))
 
-    const routes21: SitemapFile[] = route.map((product) => ({
+    // Generate routes for class 9
+    const Class9Routes: SitemapFile[] = class9route.map((product) => ({
       url: `${FRONTEND_URL}/${product}`,
       lastModified: new Date().toISOString(),
       priority: 0.9,
-      changeFrequency: 'daily' as 'daily', // Explicit type casting to match allowed literals
+      changeFrequency: 'daily' as 'daily',
     }))
+    // Generate routes for class 10
+    const Class10Routes: SitemapFile[] = class10route.map((product) => ({
+      url: `${FRONTEND_URL}/${product}`,
+      lastModified: new Date().toISOString(),
+      priority: 0.9,
+      changeFrequency: 'daily' as 'daily',
+    }))
+    // Generate routes for class 11
+    const Class11Routes: SitemapFile[] = class11route.map((product) => ({
+      url: `${FRONTEND_URL}/${product}`,
+      lastModified: new Date().toISOString(),
+      priority: 0.9,
+      changeFrequency: 'daily' as 'daily',
+    }))
+    // Generate routes for class 12
+    const Class12Routes: SitemapFile[] = class12route.map((product) => ({
+      url: `${FRONTEND_URL}/${product}`,
+      lastModified: new Date().toISOString(),
+      priority: 0.9,
+      changeFrequency: 'daily' as 'daily',
+    }))
+    // Generate routes for vu
+    const VURoutes: SitemapFile[] = vuroute.map((product) => ({
+      url: `${FRONTEND_URL}/${product}`,
+      lastModified: new Date().toISOString(),
+      priority: 0.9,
+      changeFrequency: 'daily' as 'daily',
+    }))
+    // Generate routes for mcqs point
+    const McqsPointRoutes: SitemapFile[] = mcqspointroute.map((product) => ({
+      url: `${FRONTEND_URL}/${product}`,
+      lastModified: new Date().toISOString(),
+      priority: 0.9,
+      changeFrequency: 'daily' as 'daily',
+    }))
+    // Generate routes for book point
+    const BooksPointRoutes: SitemapFile[] = bookpointroute.map((product) => ({
+      url: `${FRONTEND_URL}/${product}`,
+      lastModified: new Date().toISOString(),
+      priority: 0.9,
+      changeFrequency: 'daily' as 'daily',
+    }))
+    // Generate routes for online test point
+    const OnlineTestPointRoutes: SitemapFile[] = onlinetestpointroute.map(
+      (product) => ({
+        url: `${FRONTEND_URL}/${product}`,
+        lastModified: new Date().toISOString(),
+        priority: 0.9,
+        changeFrequency: 'daily' as 'daily',
+      })
+    )
 
     // Combine all routes
     const routes: SitemapFile[] = [
@@ -57,7 +109,14 @@ export default async function sitemap(): Promise<SitemapFile[]> {
         priority: 1,
         changeFrequency: 'daily' as 'daily', // Explicit type casting to match allowed literals
       },
-      ...routes21,
+      ...Class9Routes,
+      ...Class10Routes,
+      ...Class11Routes,
+      ...Class12Routes,
+      ...VURoutes,
+      ...McqsPointRoutes,
+      ...BooksPointRoutes,
+      ...OnlineTestPointRoutes,
       ...BiologyMcqsSkeletalSystemBonesMcqsRoutes,
       ...RandomDataRoutes,
     ]
@@ -69,24 +128,7 @@ export default async function sitemap(): Promise<SitemapFile[]> {
   }
 }
 
-const route = [
-  'class-11/',
-  'class-12/',
-  'vu/',
-  'book-point/',
-  'online-test-point/',
-
-  'class-10/online-test/',
-  'class-10/mcqs/',
-
-  'class-11/books/',
-  'class-11/online-test/',
-  'class-11/mcqs/',
-
-  'class-12/books/',
-  'class-12/online-test/',
-  'class-12/mcqs/',
-
+const class9route = [
   'class-9/',
   'class-9/books/',
   'class-9/books/punjab-board-physics/',
@@ -130,13 +172,15 @@ const route = [
   'class-9/online-test/chemistry/',
 
   'class-9/past-paper/',
-  'class-9/past-paper/faisalbad-board-biology/',
-  'class-9/past-paper/faisalbad-board-chemistry/',
-  'class-9/past-paper/faisalbad-board-physics/',
+  'class-9/past-paper/faisalabad-board-biology/',
+  'class-9/past-paper/faisalabad-board-chemistry/',
+  'class-9/past-paper/faisalabad-board-physics/',
   'class-9/past-paper/lahore-board-biology/',
   'class-9/past-paper/lahore-board-chemistry/',
   'class-9/past-paper/lahore-board-physics/',
+]
 
+const class10route = [
   'class-10/',
   'class-10/books/',
   'class-10/books/punjab-board-physics/',
@@ -167,6 +211,160 @@ const route = [
   'class-10/books/punjab-board-islamiat/',
   'class-10/books/punjab-board-tarjuma-tul-quran/',
 
+  'class-10/notes/',
+
+  'class-10/mcqs/',
+  'class-10/mcqs/physics/',
+  'class-10/mcqs/biology/',
+  'class-10/mcqs/chemistry/',
+
+  'class-10/online-test/',
+  'class-10/online-test/physics/',
+  'class-10/online-test/biology/',
+  'class-10/online-test/chemistry/',
+
+  'class-10/past-paper/',
+  'class-10/past-paper/faisalabad-board-biology/',
+  'class-10/past-paper/faisalabad-board-chemistry/',
+  'class-10/past-paper/faisalabad-board-physics/',
+  'class-10/past-paper/lahore-board-biology/',
+  'class-10/past-paper/lahore-board-chemistry/',
+  'class-10/past-paper/lahore-board-physics/',
+]
+
+const class11route = [
+  'class-11/',
+  'class-11/books/',
+  // 'class-11/books/punjab-board-physics/',
+  // 'class-11/books/punjab-board-physics/english-medium/',
+  // 'class-11/books/punjab-board-physics/urdu-medium/',
+  // 'class-11/books/punjab-board-math/',
+  // 'class-11/books/punjab-board-math/english-medium/',
+  // 'class-11/books/punjab-board-math/urdu-medium/',
+  // 'class-11/books/punjab-board-chemistry/',
+  // 'class-11/books/punjab-board-chemistry/english-medium/',
+  // 'class-11/books/punjab-board-chemistry/urdu-medium/',
+  // 'class-11/books/punjab-board-biology/',
+  // 'class-11/books/punjab-board-biology/english-medium/',
+  // 'class-11/books/punjab-board-biology/urdu-medium/',
+  // 'class-11/books/punjab-board-general-math/',
+  // 'class-11/books/punjab-board-general-math/english-medium/',
+  // 'class-11/books/punjab-board-general-math/urdu-medium/',
+  // 'class-11/books/punjab-board-computer-science/',
+  // 'class-11/books/punjab-board-computer-science/english-medium/',
+  // 'class-11/books/punjab-board-computer-science/urdu-medium/',
+  // 'class-11/books/punjab-board-pak-study/',
+  // 'class-11/books/punjab-board-pak-study/english-medium/',
+  // 'class-11/books/punjab-board-pak-study/urdu-medium/',
+  // 'class-11/books/punjab-board-economics/',
+  // 'class-11/books/punjab-board-english/',
+  // 'class-11/books/punjab-board-urdu/',
+  // 'class-11/books/punjab-board-ikhlaqiat/',
+  // 'class-11/books/punjab-board-islamiat/',
+  // 'class-11/books/punjab-board-tarjuma-tul-quran/',
+
+  'class-11/notes/',
+
+  'class-11/mcqs/',
+  'class-11/mcqs/physics/',
+  'class-11/mcqs/biology/',
+  'class-11/mcqs/chemistry/',
+
+  'class-11/online-test/',
+  'class-11/online-test/physics/',
+  'class-11/online-test/biology/',
+  'class-11/online-test/chemistry/',
+
+  'class-11/past-paper/',
+  'class-11/past-paper/faisalabad-board-biology/',
+  'class-11/past-paper/faisalabad-board-chemistry/',
+  'class-11/past-paper/faisalabad-board-physics/',
+  'class-11/past-paper/lahore-board-biology/',
+  'class-11/past-paper/lahore-board-chemistry/',
+  'class-11/past-paper/lahore-board-physics/',
+]
+
+const class12route = [
+  'class-12/',
+  'class-12/books/',
+  // 'class-12/books/punjab-board-physics/',
+  // 'class-12/books/punjab-board-physics/english-medium/',
+  // 'class-12/books/punjab-board-physics/urdu-medium/',
+  // 'class-12/books/punjab-board-math/',
+  // 'class-12/books/punjab-board-math/english-medium/',
+  // 'class-12/books/punjab-board-math/urdu-medium/',
+  // 'class-12/books/punjab-board-chemistry/',
+  // 'class-12/books/punjab-board-chemistry/english-medium/',
+  // 'class-12/books/punjab-board-chemistry/urdu-medium/',
+  // 'class-12/books/punjab-board-biology/',
+  // 'class-12/books/punjab-board-biology/english-medium/',
+  // 'class-12/books/punjab-board-biology/urdu-medium/',
+  // 'class-12/books/punjab-board-general-math/',
+  // 'class-12/books/punjab-board-general-math/english-medium/',
+  // 'class-12/books/punjab-board-general-math/urdu-medium/',
+  // 'class-12/books/punjab-board-computer-science/',
+  // 'class-12/books/punjab-board-computer-science/english-medium/',
+  // 'class-12/books/punjab-board-computer-science/urdu-medium/',
+  // 'class-12/books/punjab-board-pak-study/',
+  // 'class-12/books/punjab-board-pak-study/english-medium/',
+  // 'class-12/books/punjab-board-pak-study/urdu-medium/',
+  // 'class-12/books/punjab-board-economics/',
+  // 'class-12/books/punjab-board-english/',
+  // 'class-12/books/punjab-board-urdu/',
+  // 'class-12/books/punjab-board-ikhlaqiat/',
+  // 'class-12/books/punjab-board-islamiat/',
+  // 'class-12/books/punjab-board-tarjuma-tul-quran/',
+
+  'class-12/notes/',
+
+  'class-12/mcqs/',
+  'class-12/mcqs/physics/',
+  'class-12/mcqs/biology/',
+  'class-12/mcqs/chemistry/',
+
+  'class-12/online-test/',
+  'class-12/online-test/physics/',
+  'class-12/online-test/biology/',
+  'class-12/online-test/chemistry/',
+
+  'class-12/past-paper/',
+  'class-12/past-paper/faisalabad-board-biology/',
+  'class-12/past-paper/faisalabad-board-chemistry/',
+  'class-12/past-paper/faisalabad-board-physics/',
+  'class-12/past-paper/lahore-board-biology/',
+  'class-12/past-paper/lahore-board-chemistry/',
+  'class-12/past-paper/lahore-board-physics/',
+]
+
+const vuroute = [
+  'vu/',
+
+  'vu/mid-mark-calculator/',
+  'vu/final-mcqs/',
+  'vu/mid-mcqs/',
+  'vu/handouts/',
+
+  'vu/final-mcqs/cs101/',
+  'vu/final-mcqs/cs201/',
+  'vu/final-mcqs/cs302/',
+  'vu/final-mcqs/eng201/',
+  'vu/final-mcqs/mgt211/',
+
+  'vu/mid-mcqs/cs101/',
+  'vu/mid-mcqs/cs201/',
+  'vu/mid-mcqs/cs302/',
+  'vu/mid-mcqs/eng201/',
+  'vu/mid-mcqs/mgt211/',
+
+  'vu/handouts/cs101/',
+  'vu/handouts/cs201/',
+  'vu/handouts/cs302/',
+  'vu/handouts/eng201/',
+  'vu/handouts/mgt211/',
+  'vu/handouts/mth301/',
+]
+
+const mcqspointroute = [
   'mcqs-point/',
   'mcqs-point/biology/',
   'mcqs-point/biology/skeletal-system/',
@@ -193,78 +391,8 @@ const route = [
   'mcqs-point/general-knowledge/world-knowledge/dam/',
   'mcqs-point/general-knowledge/world-knowledge/largest/',
   'mcqs-point/general-knowledge/world-knowledge/longest/',
-
-  'vu/mid-mark-calculator/',
-  'vu/final-mcqs/',
-  'vu/mid-mcqs/',
-  'vu/handouts/',
-
-  'vu/final-mcqs/cs101/',
-  'vu/final-mcqs/cs201/',
-  'vu/final-mcqs/cs302/',
-  'vu/final-mcqs/eng201/',
-  'vu/final-mcqs/mgt211/',
-
-  'vu/mid-mcqs/cs101/',
-  'vu/mid-mcqs/cs201/',
-  'vu/mid-mcqs/cs302/',
-  'vu/mid-mcqs/eng201/',
-  'vu/mid-mcqs/mgt211/',
-
-  'vu/handouts/cs101/',
-  'vu/handouts/cs201/',
-  'vu/handouts/cs302/',
-  'vu/handouts/eng201/',
-  'vu/handouts/mgt211/',
-  'vu/handouts/mth301/',
-
-  'class-11/books/punjab-board-physics/',
-  'class-11/books/punjab-board-physics/english-medium/',
-  'class-11/books/punjab-board-physics/urdu-medium/',
-  'class-11/books/punjab-board-math/',
-  'class-11/books/punjab-board-math/english-medium/',
-  'class-11/books/punjab-board-math/urdu-medium/',
-  'class-11/books/punjab-board-chemistry/',
-  'class-11/books/punjab-board-chemistry/english-medium/',
-  'class-11/books/punjab-board-chemistry/urdu-medium/',
-  'class-11/books/punjab-board-biology/',
-  'class-11/books/punjab-board-biology/english-medium/',
-  'class-11/books/punjab-board-biology/urdu-medium/',
-
-  'class-12/books/punjab-board-physics/',
-  'class-12/books/punjab-board-physics/english-medium/',
-  'class-12/books/punjab-board-physics/urdu-medium/',
-  'class-12/books/punjab-board-math/',
-  'class-12/books/punjab-board-math/english-medium/',
-  'class-12/books/punjab-board-math/urdu-medium/',
-  'class-12/books/punjab-board-chemistry/',
-  'class-12/books/punjab-board-chemistry/english-medium/',
-  'class-12/books/punjab-board-chemistry/urdu-medium/',
-  'class-12/books/punjab-board-biology/',
-  'class-12/books/punjab-board-biology/english-medium/',
-  'class-12/books/punjab-board-biology/urdu-medium/',
-
-  'class-10/mcqs/physics/',
-  'class-10/mcqs/biology/',
-  'class-10/mcqs/chemistry/',
-
-  'class-11/mcqs/physics/',
-  'class-11/mcqs/biology/',
-  'class-11/mcqs/chemistry/',
-
-  'class-12/mcqs/physics/',
-  'class-12/mcqs/biology/',
-  'class-12/mcqs/chemistry/',
-
-  'class-10/online-test/physics/',
-  'class-10/online-test/biology/',
-  'class-10/online-test/chemistry/',
-
-  'class-11/online-test/physics/',
-  'class-11/online-test/biology/',
-  'class-11/online-test/chemistry/',
-
-  'class-12/online-test/physics/',
-  'class-12/online-test/biology/',
-  'class-12/online-test/chemistry/',
 ]
+
+const bookpointroute = ['book-point/']
+
+const onlinetestpointroute = ['online-test-point/']

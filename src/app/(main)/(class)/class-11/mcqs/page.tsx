@@ -1,7 +1,7 @@
 import React from 'react'
 import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
-import CardSmall from '@/src/components/card/cardSmall/cardSmall'
+import DataClass11Mcqs from './DataClass11Mcqs'
 
 const data = {
   title: '11th Class Mcqs | Class 11',
@@ -25,7 +25,7 @@ const data = {
     { name: 'Class 11 Books', slug: '/class-11/books/' },
     { name: 'Class 12 Books', slug: '/class-12/books/' },
     { name: 'Class 9 Mcqs', slug: '/class-9/mcqs/' },
-    { name: 'Class 10 Mcqs', slug: '/class-10/mcqs/' },
+    { name: 'Class 11 Mcqs', slug: '/class-11/mcqs/' },
     { name: 'Class 12 Mcqs', slug: '/class-12/mcqs/' },
     { name: 'Class 9 Online Test', slug: '/class-9/online-test/' },
     { name: 'Class 11 Online Test', slug: '/class-11/online-test/' },
@@ -45,35 +45,10 @@ export default function Page() {
       image={data.image}
       clist={data.clist}
     >
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {mainData.map((data: any) => {
-          return (
-            <CardSmall
-              key={data.name}
-              title={data.name}
-              link={`/class-11/mcqs/${data.slug}`}
-            />
-          )
-        })}
-      </div>
+      <DataClass11Mcqs />
     </Wrapper>
   )
 }
-
-const mainData = [
-  {
-    name: 'Biology',
-    slug: 'biology',
-  },
-  {
-    name: 'Chemistry',
-    slug: 'chemistry',
-  },
-  {
-    name: 'Physics',
-    slug: 'physics',
-  },
-]
 
 export const metadata: Metadata = {
   title: data.title,

@@ -1,28 +1,28 @@
 import React from 'react'
 import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
-import CardSmall from '@/src/components/card/cardSmall/cardSmall'
+import DataClass12Book from './DataClass12Book'
 
 const data = {
-  title: 'Biology Class 12 Book PDF | 12th Class Punjab Text Book',
+  title: '12th Class Books | Class 12',
   description:
-    'Download the official Biology Class 12 textbook PDF by Punjab Board. This comprehensive guide covers the entire syllabus with clear explanations and detailed diagrams, perfect for exam preparation.',
+    'Class 12 books page providing essential textbooks, study guides, and reference materials for comprehensive learning.',
   canonical: '/class-12/books/',
   index: true,
   follow: true,
   image: '/class/class-12/class_12_books.webp',
   url: 'https://growlearnhub.com/class-12/books/',
   keywords: [
-    'biology class 12 punjab text book pdf',
-    'class 12 biology book pdf punjab board',
-    '12th class biology punjab text book',
-    'biology book class 12 punjab board',
-    'class 12 biology book punjab board',
+    'growlearnhub books',
+    'growlearnhub class 12 books',
+    'class 12 books',
+    '12th class books',
+    '12th class growlearnhub books',
   ],
   clist: [
     { name: 'Class 9 Books', slug: '/class-9/books/' },
-    { name: 'Class 10 Books', slug: '/class-10/books/' },
     { name: 'Class 11 Books', slug: '/class-11/books/' },
+    { name: 'Class 12 Books', slug: '/class-12/books/' },
     { name: 'Class 9 Mcqs', slug: '/class-9/mcqs/' },
     { name: 'Class 10 Mcqs', slug: '/class-10/mcqs/' },
     { name: 'Class 11 Mcqs', slug: '/class-11/mcqs/' },
@@ -39,33 +39,16 @@ export default function Page() {
     <Wrapper
       title={data.title}
       url={data.canonical}
-      b1="12th Class"
+      b1="11th Class"
       b1Link="/class-12/"
       b2="Books"
       image={data.image}
       clist={data.clist}
     >
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {mainData.map((data: any) => {
-          return (
-            <CardSmall
-              key={data.name}
-              title={data.name}
-              link={`/class-12/${data.slug}/`}
-            />
-          )
-        })}
-      </div>
+      <DataClass12Book />
     </Wrapper>
   )
 }
-
-const mainData = [
-  {
-    name: 'Biology',
-    slug: '#',
-  },
-]
 
 export const metadata: Metadata = {
   title: data.title,
