@@ -1,9 +1,8 @@
 import React from 'react'
 import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
-import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 import PDFViewer from '@/src/components/element/PDFViewer'
-import { MainDataClass9Book } from '../data'
+import DataClass9Book from '@/src/app/(main)/(class)/class-9/books/DataClass9Book'
 
 const data = {
   title: 'Ikhlaqiat Class 9 Book PDF | 9th Class Punjab Text Book',
@@ -61,25 +60,7 @@ export default function Page() {
         This book is officially published by Punjab Text Book Board.
       </p>
       <PDFViewer pdfUrl={data.fileId_urdu} />
-
-      {MainDataClass9Book.map((data: any) => {
-        return (
-          <div key={data.title}>
-            <h2 className="">{data.title}</h2>
-            <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
-              {data.child.map((data: any) => {
-                return (
-                  <CardSmall
-                    key={data.name}
-                    title={data.name}
-                    link={`/class-9/books/punjab-board-${data.slug}`}
-                  />
-                )
-              })}
-            </div>
-          </div>
-        )
-      })}
+      <DataClass9Book />
     </Wrapper>
   )
 }

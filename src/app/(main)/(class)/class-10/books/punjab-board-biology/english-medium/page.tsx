@@ -1,20 +1,18 @@
 import React from 'react'
 import { Metadata } from 'next'
-import Link from 'next/link'
 import Wrapper from '@/src/components/element/Wrapper'
 import PDFViewer from '@/src/components/element/PDFViewer'
-import CardSmall from '@/src/components/card/cardSmall/cardSmall'
-import { MainDataClass10Book } from '@/src/app/(main)/(class)/class-10/books/data'
+import Link from 'next/link'
+import DataClass10Book from '@/src/app/(main)/(class)/class-10/books/DataClass10Book'
 
 const data = {
-  title:
-    '10th Class Biology Book PDF English Medium Free Download | Punjab Boards',
+  title: '10th Biology Book PDF English Medium Download | Punjab',
   description:
     'Download the 10th Class Biology Book PDF in English Medium for free. Get the Punjab Board-approved textbook and explore chapter-wise downloads.',
   canonical: '/class-10/books/punjab-board-biology/english-medium/',
   index: true,
   follow: true,
-  image: '/books/class-10/punjab/class-10-biology-book-punjab-board.webp',
+  image: '/10th/book/punjab/class-10-biology-book-punjab-board.webp',
   url: 'https://growlearnhub.com/class-10/books/punjab-board-biology/english-medium/',
   keywords: [
     'biology class 10 punjab text book pdf',
@@ -27,7 +25,7 @@ const data = {
   ],
   fileId_english: '1FJYKKe3zakdzvKo9T6-74J1ARXKjmsDp',
   clist: [
-    { name: 'Class 9 Books', slug: '/class-9/books/' },
+    { name: 'Class 10 Books', slug: '/class-10/books/' },
     { name: 'Class 11 Books', slug: '/class-11/books/' },
     { name: 'Class 12 Books', slug: '/class-12/books/' },
     { name: 'Class 9 Mcqs', slug: '/class-9/mcqs/' },
@@ -61,6 +59,7 @@ export default function Page() {
         Whether you&apos;re preparing for exams or need extra resources,
         we&apos;ve got you covered.
       </p>
+
       <table className="relative w-full">
         <thead>
           <tr className="bg-white border-b hover:bg-slate-100">
@@ -101,24 +100,7 @@ export default function Page() {
         Format. This book is officially published by Punjab Text Book Board.
       </p>
       <PDFViewer pdfUrl={data.fileId_english} />
-      {MainDataClass10Book.map((data: any) => {
-        return (
-          <div key={data.title}>
-            <h2 className="">{data.title}</h2>
-            <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
-              {data.child.map((data: any) => {
-                return (
-                  <CardSmall
-                    key={data.name}
-                    title={data.name}
-                    link={`/class-10/books/punjab-board-${data.slug}`}
-                  />
-                )
-              })}
-            </div>
-          </div>
-        )
-      })}
+      <DataClass10Book />
     </Wrapper>
   )
 }

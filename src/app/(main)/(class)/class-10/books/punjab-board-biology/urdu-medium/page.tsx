@@ -3,17 +3,16 @@ import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
 import PDFViewer from '@/src/components/element/PDFViewer'
 import Link from 'next/link'
-import CardSmall from '@/src/components/card/cardSmall/cardSmall'
-import { MainDataClass10Book } from '../../data'
+import DataClass10Book from '@/src/app/(main)/(class)/class-10/books/DataClass10Book'
 
 const data = {
-  title: 'Biology 10th Class Book Urdu Medium PDF Download | Punjab Board',
+  title: '10th Class Biology Book PDF Urdu Medium Download | Punjab',
   description:
-    'Download the 10th Class Biology book in Urdu Medium PDF, approved by the Punjab Board. Get the complete syllabus with detailed explanations and diagrams for effective exam preparation.',
+    'Download the 10th Class Biology Book PDF in Urdu Medium for free. Get the Punjab Board-approved textbook and explore chapter-wise downloads.',
   canonical: '/class-10/books/punjab-board-biology/urdu-medium/',
   index: true,
   follow: true,
-  image: '/books/class-10/punjab/class-10-biology-book-punjab-board.webp',
+  image: '/10th/book/punjab/class-10-biology-book-punjab-board.webp',
   url: 'https://growlearnhub.com/class-10/books/punjab-board-biology/urdu-medium/',
   keywords: [
     'biology class 10 punjab text book pdf',
@@ -25,7 +24,7 @@ const data = {
   ],
   fileId_urdu: '1ChK6r_BOfV-p8QLEdh58srQ_QwNgQUne',
   clist: [
-    { name: 'Class 9 Books', slug: '/class-9/books/' },
+    { name: 'Class 10 Books', slug: '/class-10/books/' },
     { name: 'Class 11 Books', slug: '/class-11/books/' },
     { name: 'Class 12 Books', slug: '/class-12/books/' },
     { name: 'Class 9 Mcqs', slug: '/class-9/mcqs/' },
@@ -48,11 +47,12 @@ export default function Page() {
       b1Link="/class-10/books/punjab-board-biology/"
       b2="Urdu Medium"
       image={data.image}
+      clist={data.clist}
     >
       <h3>Biology 10th Class Book Urdu Medium PDF Download Punjab Board</h3>
       <p>
-        Are you looking for a <strong>Class 9 biology book punjab board</strong>
-        ? Here, you can access all the books of class 9 you need for free. Our
+        Are you looking for a <strong>Class 10 biology book punjab board</strong>
+        ? Here, you can access all the books of class 10 you need for free. Our
         website offers a complete collection of books for students in Class 9,
         10, 11, and 12. Whether you&apos;re preparing for exams or need extra
         resources, we&apos;ve got you covered.
@@ -90,30 +90,15 @@ export default function Page() {
           })}
         </tbody>
       </table>
+
       <p>
         Here, you can download Matric{' '}
-        <strong>Biology 10th Class Book Urdu Medium PDF</strong>
+        <strong>Biology 10th Class Book Urdu Medium PDF </strong>
         Format. This book is officially published by Punjab Text Book Board.
       </p>
+
       <PDFViewer pdfUrl={data.fileId_urdu} />
-      {MainDataClass10Book.map((data: any) => {
-        return (
-          <div key={data.title}>
-            <h2 className="">{data.title}</h2>
-            <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
-              {data.child.map((data: any) => {
-                return (
-                  <CardSmall
-                    key={data.name}
-                    title={data.name}
-                    link={`/class-10/books/punjab-board-${data.slug}`}
-                  />
-                )
-              })}
-            </div>
-          </div>
-        )
-      })}
+      <DataClass10Book />
     </Wrapper>
   )
 }
@@ -140,7 +125,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: data.image,
         alt: data.title,
       },
     ],
@@ -160,7 +145,7 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: 'https://nextjs.org/og.png',
+      url: data.image,
       alt: data.title,
     },
   },

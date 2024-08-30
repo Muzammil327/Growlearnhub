@@ -3,15 +3,16 @@ import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 import PDFViewer from '@/src/components/element/PDFViewer'
+import DataClass10Book from '@/src/app/(main)/(class)/class-10/books/DataClass10Book'
 
 const data = {
   title: 'Biology Class 10 Book PDF | 10th Class Punjab Text Book',
   description:
-    'Download the official Biology Class 10 textbook PDF by Punjab Board. This comprehensive guide covers the entire syllabus with clear explanations.',
+    'Download the official Biology Class 10 textbook PDF by Punjab Board. This comprehensive guide covers the entire syllabus with clear explanation.',
   canonical: '/class-10/books/punjab-board-biology/',
   index: true,
   follow: true,
-  image: '/class/class-10/book/biology/class_10_books_biology.webp',
+  image: '/10th/book/punjab/class-10-biology-book-punjab-board.webp',
   url: 'https://growlearnhub.com/class-10/books/punjab-board-biology/',
   keywords: [
     'biology class 10 punjab text book pdf',
@@ -23,7 +24,7 @@ const data = {
   fileId_english: '1FJYKKe3zakdzvKo9T6-74J1ARXKjmsDp',
   fileId_urdu: '1ChK6r_BOfV-p8QLEdh58srQ_QwNgQUne',
   clist: [
-    { name: 'Class 9 Books', slug: '/class-9/books/' },
+    { name: 'Class 10 Books', slug: '/class-10/books/' },
     { name: 'Class 11 Books', slug: '/class-11/books/' },
     { name: 'Class 12 Books', slug: '/class-12/books/' },
     { name: 'Class 9 Mcqs', slug: '/class-9/mcqs/' },
@@ -81,6 +82,7 @@ export default function Page() {
         Board.
       </p>
       <PDFViewer pdfUrl={data.fileId_urdu} />
+      <DataClass10Book />
     </Wrapper>
   )
 }
