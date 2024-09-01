@@ -4,6 +4,7 @@ import style from './form.module.css'
 import LoaderIcon from '../LoaderIcon'
 import Label from '../../ui/Label'
 import Input from '../../ui/Input'
+import { PostCommentForm } from '@/src/app/constant'
 
 export default function Form(props: { url: string }) {
   const [loadingBtn, setLoadingBtn] = useState(false)
@@ -22,7 +23,7 @@ export default function Form(props: { url: string }) {
     try {
       setLoadingBtn(true)
       setError(false)
-      // const data = await postCommentForm(commentForm)
+      // const data = await PostCommentForm(commentForm)
 
       // if (data.status === '400' || data.status === '500') {
       //   setError(data.message)
