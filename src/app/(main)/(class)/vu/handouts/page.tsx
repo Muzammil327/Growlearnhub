@@ -5,7 +5,7 @@ import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 import { VuHandoutsData } from './data'
 
 const data = {
-  title: 'Virtual University Handouts',
+  title: 'VU Handouts of All Subjects',
   description:
     'Virtual University handouts PDF page offering downloadable study materials and comprehensive notes for all courses.',
   canonical: '/vu/handouts/',
