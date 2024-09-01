@@ -381,7 +381,38 @@ const vuroute = [
   'vu/handouts/cs435/',
   'vu/handouts/eng201/',
   'vu/handouts/mgt211/',
+  
+  'vu/handouts/mth001/',
+  'vu/handouts/mth100/',
+  'vu/handouts/mth101/',
+  'vu/handouts/mth102/',
+  'vu/handouts/mth201/',
+  'vu/handouts/mth202/',
   'vu/handouts/mth301/',
+  'vu/handouts/mth302/',
+  'vu/handouts/mth303/',
+  'vu/handouts/mth401/',
+  'vu/handouts/mth501/',
+  'vu/handouts/mth601/',
+  'vu/handouts/mth603/',
+  'vu/handouts/mth621/',
+  'vu/handouts/mth622/',
+  'vu/handouts/mth631/',
+  'vu/handouts/mth632/',
+  'vu/handouts/mth633/',
+  'vu/handouts/mth634/',
+  'vu/handouts/mth641/',
+  'vu/handouts/mth701/',
+  'vu/handouts/mth706/',
+  'vu/handouts/mth7123/',
+  'vu/handouts/mth718/',
+  'vu/handouts/mth721/',
+
+  'vu/handouts/pak301/',
+  'vu/handouts/pak302/',
+
+  'vu/handouts/phy101/',
+  'vu/handouts/phy301/',
 ]
 
 const mcqspointroute = [
