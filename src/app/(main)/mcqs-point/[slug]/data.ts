@@ -1,4 +1,13 @@
-export const RandomData = [
+interface Quiz {
+  id: number
+  name: string
+  options: string[]
+  correctOptions: string
+  slug: string
+  relatedQuizzes?: number[] // Array of related quiz IDs
+}
+
+export const RandomData: any[] = [
   {
     id: 1,
     name: "How do I find my blood type?",
@@ -11,7 +20,8 @@ export const RandomData = [
       "Through a skin test"
     ],
     correctOptions: "Through a blood test at a medical facility",
-    slug: "how-do-i-find-my-blood-type"
+    slug: "how-do-i-find-my-blood-type",
+    relatedQuizzes: [2, 4]
   },
   {
     id: 2,
@@ -87,7 +97,8 @@ export const RandomData = [
       "Stapes, Incus, Clavicle"
     ],
     correctOptions: "Stapes, Incus, Malleus",
-    slug: "what-are-the-three-smallest-bones-in-the-human-body"
+    slug: "what-are-the-three-smallest-bones-in-the-human-body",
+    relatedQuizzes: [318, 319, 320, 321, 322]
   },
   {
     id: 10,
@@ -2835,5 +2846,90 @@ export const RandomData = [
     ],
     correctOptions: "Sahara Desert",
     slug: "desert-in-africa"
+  },
+  {
+    id: 313,
+    name: "Which bone is known as the collarbone?",
+    options: ["Scapula", "Clavicle", "Sternum", "Femur"],
+    correctOptions: "Clavicle",
+    slug: "which-bone-is-known-as-the-collarbone"
+  },
+  {
+    id: 314,
+    name: "Which is the longest bone in the human body?",
+    options: ["Tibia", "Fibula", "Femur", "Humerus"],
+    correctOptions: "Femur",
+    slug: "which-is-the-longest-bone-in-the-human-body"
+  },
+  {
+    id: 315,
+    name: "Which bone protects the brain?",
+    options: ["Ribcage", "Femur", "Skull", "Pelvis"],
+    correctOptions: "Skull",
+    slug: "which-bone-protects-the-brain"
+  },
+  {
+    id: 316,
+    name: "Which bone is part of the shoulder blade?",
+    options: ["Clavicle", "Scapula", "Humerus", "Radius"],
+    correctOptions: "Scapula",
+    slug: "which-bone-is-part-of-the-shoulder-blade"
+  },
+  {
+    id: 317,
+    name: "What type of bone is the patella?",
+    options: ["Flat", "Irregular", "Sesamoid", "Long"],
+    correctOptions: "Sesamoid",
+    slug: "what-type-of-bone-is-the-patella"
+  },
+  {
+    id: 318,
+    name: "Which bone is the smallest bone in the human body?",
+    options: ["Stapes", "Incus", "Malleus", "Hyoid"],
+    correctOptions: "Stapes",
+    slug: "which-bone-is-the-smallest-bone-in-the-human-body",
+    relatedQuizzes: [319, 320, 321, 322, 9]
+  },
+  {
+    id: 319,
+    name: "Where are the smallest bones in the human body located?",
+    options: ["Ear", "Hand", "Foot", "Skull"],
+    correctOptions: "Ear",
+    slug: "where-are-the-smallest-bones-in-the-human-body-located",
+    relatedQuizzes: [318, 320, 321, 322, 9]
+  },
+  {
+    id: 320,
+    name: "What are the four smallest bones in the human body?",
+    options: [
+      "Stapes, Incus, Malleus, Hyoid",
+      "Stapes, Incus, Malleus, Femur",
+      "Stapes, Incus, Malleus, Patella",
+      "Stapes, Incus, Malleus, Tibia"
+    ],
+    correctOptions: "Stapes, Incus, Malleus, Hyoid",
+    slug: "what-are-the-four-smallest-bones-in-the-human-body",
+    relatedQuizzes: [318, 319, 321, 322, 9]
+  },
+  {
+    id: 321,
+    name: "What are the three smallest bones in the human body?",
+    options: [
+      "Stapes, Incus, Malleus",
+      "Stapes, Incus, Hyoid",
+      "Malleus, Incus, Femur",
+      "Stapes, Incus, Clavicle"
+    ],
+    correctOptions: "Stapes, Incus, Malleus",
+    slug: "what-are-the-three-smallest-bones-in-the-human-body",
+    relatedQuizzes: [318, 319, 320, 322, 9]
+  },
+  {
+    id: 322,
+    name: "Where are the three smallest bones in the human body located?",
+    options: ["Inner ear", "Forearm", "Leg", "Pelvis"],
+    correctOptions: "Inner ear",
+    slug: "where-are-the-three-smallest-bones-in-the-human-body-located",
+    relatedQuizzes: [318, 319, 320, 321, 9]
   }
 ]
