@@ -76,7 +76,7 @@ export default function Page({ params }: IProps) {
       <h4 className="text-xl">Related Mcqs:</h4>
       <div className="grid gap-4 grid-cols-1 my-4">
         {related_mcqs.map((book: any) => (
-          <CardSmall key={book.id} title={book.name} link={book.slug} />
+          <CardSmall key={book.id} title={book.name} link={`/mcqs-point/${book.slug}`} />
         ))}
       </div>
     </Wrapper>
