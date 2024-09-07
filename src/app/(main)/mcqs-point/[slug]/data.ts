@@ -98,7 +98,7 @@ export const RandomData: any[] = [
     ],
     correctOptions: "Stapes, Incus, Malleus",
     slug: "what-are-the-three-smallest-bones-in-the-human-body",
-    relatedQuizzes: [318, 319, 320, 321, 322]
+    relatedQuizzes: [318, 319, 320, 321]
   },
   {
     id: 10,
@@ -2888,7 +2888,7 @@ export const RandomData: any[] = [
     options: ["Stapes", "Incus", "Malleus", "Hyoid"],
     correctOptions: "Stapes",
     slug: "which-bone-is-the-smallest-bone-in-the-human-body",
-    relatedQuizzes: [319, 320, 321, 322, 9]
+    relatedQuizzes: [319, 320, 321, 9]
   },
   {
     id: 319,
@@ -2896,7 +2896,7 @@ export const RandomData: any[] = [
     options: ["Ear", "Hand", "Foot", "Skull"],
     correctOptions: "Ear",
     slug: "where-are-the-smallest-bones-in-the-human-body-located",
-    relatedQuizzes: [318, 320, 321, 322, 9]
+    relatedQuizzes: [318, 320, 321, 9]
   },
   {
     id: 320,
@@ -2909,23 +2909,10 @@ export const RandomData: any[] = [
     ],
     correctOptions: "Stapes, Incus, Malleus, Hyoid",
     slug: "what-are-the-four-smallest-bones-in-the-human-body",
-    relatedQuizzes: [318, 319, 321, 322, 9]
+    relatedQuizzes: [318, 319, 321, 9]
   },
   {
     id: 321,
-    name: "What are the three smallest bones in the human body?",
-    options: [
-      "Stapes, Incus, Malleus",
-      "Stapes, Incus, Hyoid",
-      "Malleus, Incus, Femur",
-      "Stapes, Incus, Clavicle"
-    ],
-    correctOptions: "Stapes, Incus, Malleus",
-    slug: "what-are-the-three-smallest-bones-in-the-human-body",
-    relatedQuizzes: [318, 319, 320, 322, 9]
-  },
-  {
-    id: 322,
     name: "Where are the three smallest bones in the human body located?",
     options: ["Inner ear", "Forearm", "Leg", "Pelvis"],
     correctOptions: "Inner ear",
