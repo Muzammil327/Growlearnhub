@@ -11,7 +11,7 @@ const data = {
   canonical: '/class-10/books/punjab-board-islamiat/',
   index: true,
   follow: true,
-  image: '/10th/book/punjab/class-10-islamiat-book-punjab-board.webp',
+  image: '/10th/book/punjab/class-10-Islamiat-book-punjab-board.webp',
   url: 'https://growlearnhub.com/class-10/books/punjab-board-islamiat/',
   keywords: [
     'islamiat class 10 punjab text book pdf',
