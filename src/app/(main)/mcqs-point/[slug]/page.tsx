@@ -32,7 +32,21 @@ interface Quiz {
 
 export default function Page({ params }: IProps) {
   const getQuizzesByIds = (ids: number[]): any[] => {
-    return combinedMcqs.filter((quiz) => ids.includes(quiz.id))
+    // Check if ids is defined and is an array
+    if (!Array.isArray(ids)) {
+      console.error("Invalid ids: not an array or undefined", ids)
+      return []
+    }
+
+    return combinedMcqs.filter((quiz) => {
+      // Ensure quiz.id is defined
+      if (quiz?.id === undefined) {
+        console.warn("quiz.id is undefined for quiz:", quiz)
+        return false
+      }
+
+      return ids.includes(quiz.id)
+    })
   }
 
   // Log the result of getQuizById with the exampleId
@@ -66,17 +80,20 @@ export default function Page({ params }: IProps) {
             />
           ))}
       </div>
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {SkeletalSystemMcqsData.map((book: any) => (
-          <CardSmall key={book.id} title={book.name} link={book.slug} />
-        ))}
-      </div>
-      <h4 className="text-xl">Related Mcqs:</h4>
-      <div className="grid gap-4 grid-cols-1 my-4">
-        {related_mcqs.map((book: any) => (
-          <CardSmall key={book.id} title={book.name} link={`/mcqs-point/${book.slug}`} />
-        ))}
-      </div>
+      {related_mcqs && related_mcqs.length > 0 && (
+        <>
+          <h4 className="text-xl">Related Mcqs:</h4>
+          <div className="grid gap-4 grid-cols-1 my-4">
+            {related_mcqs.map((book: any) => (
+              <CardSmall
+                key={book.id}
+                title={book.name}
+                link={`/mcqs-point/${book.slug}`}
+              />
+            ))}
+          </div>
+        </>
+      )}
     </Wrapper>
   )
 }
