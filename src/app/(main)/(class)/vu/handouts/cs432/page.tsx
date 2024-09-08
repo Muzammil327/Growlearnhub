@@ -9,11 +9,11 @@ const data = {
   title: 'VU 432 Handouts Pdf Download',
   description:
     'Access comprehensive 432 handouts from Virtual University, including downloadable PDFs and detailed study materials to help you excel in your coursework.',
-  canonical: '/vu/handouts/432/',
+  canonical: '/vu/handouts/css432/',
   index: true,
   follow: true,
   image: '/class/vu/handouts/432_handouts.webp',
-  url: 'https://growlearnhub.com/vu/handouts/432/',
+  url: 'https://growlearnhub.com/vu/handouts/cs432/',
   keywords: [
     'growlearnhub',
     'vu 432 handouts',

@@ -4,21 +4,21 @@ import Wrapper from '@/src/components/element/Wrapper'
 import DataClass10Notes from './DataClass12Notes'
 
 const data = {
-  title: '10th Class Notes | Class 10',
+  title: '12th Class Notes | Class 12',
   description:
-    'Class 10 notes providing interactive exams, instant feedback, and performance analytics for effective learning.',
-  canonical: '/class-10/notes/',
+    'Class 12 notes providing interactive exams, instant feedback, and performance analytics for effective learning.',
+  canonical: '/class-12/notes/',
   index: true,
   follow: true,
-  image: '/10th/class_10_notes.webp',
-  url: 'https://growlearnhub.com/class-10/notes/',
+  image: '/12th/class_12_notes.webp',
+  url: 'https://growlearnhub.com/class-12/notes/',
   keywords: [
     'growlearnhub notes',
-    'growlearnhub class 10 notes',
+    'growlearnhub class 12 notes',
     'notes',
-    'class 10 notes',
-    '10th class notes',
-    '10th class growlearnhub notes',
+    'class 12 notes',
+    '12th class notes',
+    '12th class growlearnhub notes',
   ],
   clist: [
     { name: 'Class 9 Books', slug: '/class-9/books/' },
