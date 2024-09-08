@@ -4014,6 +4014,419 @@ const RandomData5: any[] = [
     options: ["Aristotle", "Charles Darwin", "Gregor Mendel", "Louis Pasteur"],
     correctOptions: "Aristotle",
     slug: "who-is-the-father-of-biology"
+  },
+  {
+    id: 437,
+    name: "How many floors are in Burj Khalifa?",
+    options: ["108", "124", "160", "163"],
+    correctOptions: "163",
+    slug: "how-many-floors-are-in-burj-khalifa"
+  },
+  {
+    id: 438,
+    name: "What is the largest city in the world?",
+    options: ["Tokyo", "New York", "Shanghai", "Delhi"],
+    correctOptions: "Tokyo",
+    slug: "what-is-the-largest-city-in-the-world"
+  },
+  {
+    id: 439,
+    name: "What is the tallest building in the world?",
+    options: [
+      "Burj Khalifa",
+      "Shanghai Tower",
+      "Abraj Al-Bait Clock Tower",
+      "Ping An Finance Centre"
+    ],
+    correctOptions: "Burj Khalifa",
+    slug: "what-is-the-tallest-building-in-the-world"
+  },
+  {
+    id: 440,
+    name: "How many capitals are there in the world?",
+    options: ["150", "195", "195", "200"],
+    correctOptions: "195",
+    slug: "how-many-capitals-are-there-in-the-world"
+  },
+  {
+    id: 441,
+    name: "What is the state animal of Texas?",
+    options: ["Armadillo", "Bison", "Longhorn", "Coyote"],
+    correctOptions: "Longhorn",
+    slug: "what-is-the-state-animal-of-texas"
+  },
+  {
+    id: 442,
+    name: "What is the world's longest name?",
+    options: [
+      "Hubert Wolfeschlegelsteinhausenbergerdorff",
+      "Adolph Blaine",
+      "Maximilian III",
+      "Alexander III"
+    ],
+    correctOptions: "Hubert Wolfeschlegelsteinhausenbergerdorff",
+    slug: "what-is-the-worlds-longest-name"
+  },
+  {
+    id: 443,
+    name: "How did Texas get its name?",
+    options: [
+      "From a Native American word meaning 'friend'",
+      "From the Spanish explorer's name",
+      "From the name of the first settler",
+      "From a French origin"
+    ],
+    correctOptions: "From a Native American word meaning 'friend'",
+    slug: "how-did-texas-get-its-name"
+  },
+  {
+    id: 444,
+    name: "What is Texas' nickname?",
+    options: [
+      "The Lone Star State",
+      "The Sunshine State",
+      "The Golden State",
+      "The Empire State"
+    ],
+    correctOptions: "The Lone Star State",
+    slug: "what-is-texas-nickname"
+  },
+  {
+    id: 445,
+    name: "What is the biggest capital in the world?",
+    options: ["Tokyo", "New York", "Beijing", "Jakarta"],
+    correctOptions: "Jakarta",
+    slug: "what-is-the-biggest-capital-in-the-world"
+  },
+  {
+    id: 446,
+    name: "What is the coldest capital city in the world?",
+    options: ["Moscow", "Helsinki", "Ulaanbaatar", "Oslo"],
+    correctOptions: "Ulaanbaatar",
+    slug: "what-is-the-coldest-capital-city-in-the-world"
+  },
+  {
+    id: 447,
+    name: "What is the difference between capital and capitol?",
+    options: [
+      "Capital is a city; capitol is a building",
+      "Capitol is a city; capital is a building",
+      "They are the same",
+      "Capitol is related to finance; capital to politics"
+    ],
+    correctOptions: "Capital is a city; capitol is a building",
+    slug: "what-is-the-difference-between-capital-and-capitol"
+  },
+  {
+    id: 448,
+    name: "What is the highest city in the world?",
+    options: ["La Paz", "Quito", "Lhasa", "Kathmandu"],
+    correctOptions: "La Paz",
+    slug: "what-is-the-highest-city-in-the-world"
+  },
+  {
+    id: 449,
+    name: "What is the northernmost capital city in the world?",
+    options: ["Reykjavik", "Oslo", "Helsinki", "Stockholm"],
+    correctOptions: "Reykjavik",
+    slug: "what-is-the-northernmost-capital-city-in-the-world"
+  },
+  {
+    id: 450,
+    name: "What is the smallest capital in the world?",
+    options: ["San Marino", "Vaduz", "Monaco", "Ngerulmud"],
+    correctOptions: "Ngerulmud",
+    slug: "what-is-the-smallest-capital-in-the-world"
+  },
+  {
+    id: 451,
+    name: "What is the tallest building in Los Angeles?",
+    options: [
+      "Wilshire Grand Center",
+      "US Bank Tower",
+      "The Capitol Records Building",
+      "Los Angeles City Hall"
+    ],
+    correctOptions: "Wilshire Grand Center",
+    slug: "what-is-the-tallest-building-in-los-angeles"
+  },
+  {
+    id: 452,
+    name: "What is the tallest building in the USA?",
+    options: [
+      "One World Trade Center",
+      "Willis Tower",
+      "Burj Khalifa",
+      "Empire State Building"
+    ],
+    correctOptions: "One World Trade Center",
+    slug: "what-is-the-tallest-building-in-the-usa"
+  },
+  {
+    id: 453,
+    name: "Which is the largest city in Pakistan?",
+    options: ["Lahore", "Karachi", "Islamabad", "Faisalabad"],
+    correctOptions: "Karachi",
+    slug: "which-is-the-largest-city-in-pakistan"
+  },
+  {
+    id: 454,
+    name: "How tall is the Texas Capitol?",
+    options: ["268 feet", "300 feet", "312 feet", "350 feet"],
+    correctOptions: "312 feet",
+    slug: "how-tall-is-the-texas-capitol"
+  },
+  {
+    id: 455,
+    name: "Is there a building taller than the Burj Khalifa?",
+    options: ["Yes", "No", "Not yet", "Uncertain"],
+    correctOptions: "No",
+    slug: "is-there-a-building-taller-than-the-burj-khalifa"
+  },
+  {
+    id: 456,
+    name: "What capital city is 7200 feet above sea level?",
+    options: ["La Paz", "Quito", "Lhasa", "Kathmandu"],
+    correctOptions: "La Paz",
+    slug: "what-capital-city-is-7200-feet-above-sea-level"
+  },
+  {
+    id: 457,
+    name: "What is Europe's highest capital city?",
+    options: ["Vienna", "Bern", "Madrid", "Andorra la Vella"],
+    correctOptions: "Andorra la Vella",
+    slug: "what-is-europes-highest-capital-city"
+  },
+  {
+    id: 458,
+    name: "What is Texas' capital known as?",
+    options: ["Austin", "Houston", "Dallas", "San Antonio"],
+    correctOptions: "Austin",
+    slug: "what-is-texas-capital-known-as"
+  },
+  {
+    id: 459,
+    name: "What is the highest city in Europe?",
+    options: ["Zurich", "Vienna", "Andorra la Vella", "Madrid"],
+    correctOptions: "Andorra la Vella",
+    slug: "what-is-the-highest-city-in-europe"
+  },
+  {
+    id: 460,
+    name: "What is the highest state capital?",
+    options: ["Santa Fe", "Denver", "Phoenix", "Salt Lake City"],
+    correctOptions: "Santa Fe",
+    slug: "what-is-the-highest-state-capital"
+  },
+  {
+    id: 461,
+    name: "What is the highest town in the world?",
+    options: ["La Rinconada", "El Alto", "Quito", "Lhasa"],
+    correctOptions: "La Rinconada",
+    slug: "what-is-the-highest-town-in-the-world"
+  },
+  {
+    id: 462,
+    name: "What is the smallest state capital?",
+    options: ["Montpelier", "Providence", "Augusta", "Little Rock"],
+    correctOptions: "Montpelier",
+    slug: "what-is-the-smallest-state-capital"
+  },
+  {
+    id: 463,
+    name: "What are the top 10 most populated cities?",
+    options: [
+      "Tokyo, Delhi, Shanghai, Sao Paulo, Mexico City, Cairo, Mumbai, Beijing, Dhaka, Osaka",
+      "New York, Los Angeles, Chicago, Houston, Philadelphia, San Antonio, San Diego, Dallas, Austin, Jacksonville",
+      "London, Paris, Berlin, Rome, Madrid, Vienna, Budapest, Warsaw, Prague, Copenhagen",
+      "Bangkok, Kuala Lumpur, Singapore, Hong Kong, Jakarta, Manila, Ho Chi Minh City, Taipei, Seoul, Sydney"
+    ],
+    correctOptions:
+      "Tokyo, Delhi, Shanghai, Sao Paulo, Mexico City, Cairo, Mumbai, Beijing, Dhaka, Osaka",
+    slug: "what-are-the-top-10-most-populated-cities"
+  },
+  {
+    id: 464,
+    name: "Which is the highest town?",
+    options: ["La Rinconada", "El Alto", "Quito", "Lhasa"],
+    correctOptions: "La Rinconada",
+    slug: "which-is-the-highest-town"
+  },
+  {
+    id: 465,
+    name: "How much sugar a day?",
+    options: [
+      "Less than 25 grams",
+      "25-50 grams",
+      "50-75 grams",
+      "More than 75 grams"
+    ],
+    correctOptions: "Less than 25 grams",
+    slug: "how-much-sugar-a-day"
+  },
+  {
+    id: 466,
+    name: "How to stop eating sugar?",
+    options: [
+      "Replace with fruits",
+      "Increase water intake",
+      "Read labels carefully",
+      "All of the above"
+    ],
+    correctOptions: "All of the above",
+    slug: "how-to-stop-eating-sugar"
+  },
+  {
+    id: 467,
+    name: "What is the full form of DNA?",
+    options: [
+      "Deoxyribonucleic Acid",
+      "Deoxyribose Nucleic Acid",
+      "Deoxyribonucleic Agent",
+      "Deoxyribose Nucleotide Acid"
+    ],
+    correctOptions: "Deoxyribonucleic Acid",
+    slug: "what-is-the-full-form-of-dna"
+  },
+  {
+    id: 468,
+    name: "Who named Earth?",
+    options: ["Ancient Greeks", "Romans", "Egyptians", "Chinese"],
+    correctOptions: "Ancient Greeks",
+    slug: "who-named-earth"
+  },
+  {
+    id: 469,
+    name: "How many rivers are in Pakistan?",
+    options: ["Five", "Seven", "Nine", "Twelve"],
+    correctOptions: "Seven",
+    slug: "how-many-rivers-are-in-pakistan"
+  },
+  {
+    id: 470,
+    name: "How many rivers are in Punjab?",
+    options: ["Three", "Five", "Seven", "Nine"],
+    correctOptions: "Five",
+    slug: "how-many-rivers-are-in-punjab"
+  },
+  {
+    id: 471,
+    name: "How to reduce sugar intake?",
+    options: [
+      "Eat whole fruits",
+      "Choose unsweetened drinks",
+      "Avoid processed foods",
+      "All of the above"
+    ],
+    correctOptions: "All of the above",
+    slug: "how-to-reduce-sugar-intake"
+  },
+  {
+    id: 472,
+    name: "How to treat a fracture?",
+    options: [
+      "Rest and immobilize",
+      "Apply ice",
+      "Seek medical attention",
+      "All of the above"
+    ],
+    correctOptions: "All of the above",
+    slug: "how-to-treat-a-fracture"
+  },
+  {
+    id: 473,
+    name: "Is milk good for bones?",
+    options: ["Yes", "No", "Depends on the type of milk", "Not sure"],
+    correctOptions: "Yes",
+    slug: "is-milk-good-for-bones"
+  },
+  {
+    id: 474,
+    name: "Is money countable or uncountable?",
+    options: ["Countable", "Uncountable", "Both", "Depends on the currency"],
+    correctOptions: "Uncountable",
+    slug: "is-money-countable-or-uncountable"
+  },
+  {
+    id: 475,
+    name: "Is sugar bad for health?",
+    options: ["Yes", "No", "Depends on the amount", "Not sure"],
+    correctOptions: "Depends on the amount",
+    slug: "is-sugar-bad-for-health"
+  },
+  {
+    id: 476,
+    name: "Is sugar in milk bad?",
+    options: ["Yes", "No", "Depends on the amount", "Not sure"],
+    correctOptions: "Depends on the amount",
+    slug: "is-sugar-in-milk-bad"
+  },
+  {
+    id: 477,
+    name: "What is a closed fracture?",
+    options: [
+      "A fracture where the bone does not break the skin",
+      "A fracture where the bone breaks through the skin",
+      "A fracture in which the bone is only partially broken",
+      "A fracture with multiple bone fragments"
+    ],
+    correctOptions: "A fracture where the bone does not break the skin",
+    slug: "what-is-a-closed-fracture"
+  },
+  {
+    id: 478,
+    name: "What is the full form of WiFi?",
+    options: [
+      "Wireless Fidelity",
+      "Wide Fidelity",
+      "Wireless Frequency",
+      "Wide Frequency"
+    ],
+    correctOptions: "Wireless Fidelity",
+    slug: "what-is-the-full-form-of-wifi"
+  },
+  {
+    id: 479,
+    name: "What is the full form of SIM?",
+    options: [
+      "Subscriber Identity Module",
+      "Subscriber Information Module",
+      "Subscriber Identification Method",
+      "Subscriber Information Method"
+    ],
+    correctOptions: "Subscriber Identity Module",
+    slug: "what-is-sim-full-form"
+  },
+  {
+    id: 480,
+    name: "What is the best medicine for broken bones?",
+    options: [
+      "Pain relievers",
+      "Antibiotics",
+      "Bone supplements",
+      "Medical consultation"
+    ],
+    correctOptions: "Medical consultation",
+    slug: "what-is-the-best-medicine-for-broken-bones"
+  },
+  {
+    id: 481,
+    name: "What is the full form of Google?",
+    options: [
+      "Global Organization of Oriented Group Language Equipment",
+      "Global Online Organization for Learning",
+      "General Object Oriented Group Language Equipment",
+      "None of the above"
+    ],
+    correctOptions: "None of the above",
+    slug: "what-is-the-full-form-of-google"
+  },
+  {
+    id: 482,
+    name: "What is the full form of OK?",
+    options: ["Oll Korrect", "Okay", "Optical Knowledge", "None of the above"],
+    correctOptions: "Oll Korrect",
+    slug: "what-is-the-full-form-of-ok"
   }
 ]
 
