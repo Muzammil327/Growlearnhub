@@ -1056,7 +1056,8 @@ const RandomData2: any[] = [
       "1200 kilometers"
     ],
     correctOptions: "720 kilometers",
-    slug: "what-is-the-total-length-of-ravi-river"
+    slug: "what-is-the-total-length-of-ravi-river",
+    relatedQuizzes: [109, 110, 111, 112]
   },
   {
     id: 109,
@@ -1068,7 +1069,8 @@ const RandomData2: any[] = [
       "India and Nepal"
     ],
     correctOptions: "India and Pakistan",
-    slug: "in-which-countries-does-the-ravi-river-flow"
+    slug: "in-which-countries-does-the-ravi-river-flow",
+    relatedQuizzes: [108, 110, 111, 112]
   },
   {
     id: 110,
@@ -1080,14 +1082,16 @@ const RandomData2: any[] = [
       "Sulaiman Range"
     ],
     correctOptions: "Himalayas",
-    slug: "what-is-the-primary-source-of-the-ravi-river"
+    slug: "what-is-the-primary-source-of-the-ravi-river",
+    relatedQuizzes: [108, 109, 111, 112]
   },
   {
     id: 111,
     name: "Which major city is located near the Ravi River?",
     options: ["Lahore", "Karachi", "Delhi", "Islamabad"],
     correctOptions: "Lahore",
-    slug: "which-major-city-is-located-near-the-ravi-river"
+    slug: "which-major-city-is-located-near-the-ravi-river",
+    relatedQuizzes: [108, 109, 110, 112]
   },
   {
     id: 112,
@@ -1099,7 +1103,8 @@ const RandomData2: any[] = [
       "Desert river"
     ],
     correctOptions: "Mountain river",
-    slug: "what-type-of-river-is-the-ravi-river-classified-as"
+    slug: "what-type-of-river-is-the-ravi-river-classified-as",
+    relatedQuizzes: [108, 109, 110, 111]
   },
   {
     id: 113,
@@ -1132,7 +1137,8 @@ const RandomData2: any[] = [
     name: "Which river is known as the 'Sorrow of Punjab'?",
     options: ["Jhelum", "Chenab", "Ravi", "Indus"],
     correctOptions: "Chenab",
-    slug: "which-river-is-known-as-the-sorrow-of-punjab"
+    slug: "which-river-is-known-as-the-sorrow-of-punjab",
+    relatedQuizzes: [354, 377]
   },
   {
     id: 117,
@@ -1163,7 +1169,8 @@ const RandomData2: any[] = [
       "Mississippi River"
     ],
     correctOptions: "Nile River",
-    slug: "what-is-the-longest-river-in-the-world"
+    slug: "what-is-the-longest-river-in-the-world",
+    relatedQuizzes: [122, 403, 360, 362, 334]
   },
   {
     id: 120,
@@ -1189,7 +1196,8 @@ const RandomData2: any[] = [
     name: "Which is the longest river in Asia?",
     options: ["Ganges River", "Yangtze River", "Mekong River", "Yellow River"],
     correctOptions: "Yangtze River",
-    slug: "which-is-the-longest-river-in-asia"
+    slug: "which-is-the-longest-river-in-asia",
+    relatedQuizzes: [119, 403, 360, 362, 334]
   },
   {
     id: 123,
@@ -3069,7 +3077,8 @@ const RandomData4: any[] = [
       "Irrawaddy River"
     ],
     correctOptions: "Mekong River",
-    slug: "what-is-the-longest-river-in-southeast-asia"
+    slug: "what-is-the-longest-river-in-southeast-asia",
+    relatedQuizzes: [119, 122, 403, 360, 362]
   },
   {
     id: 335,
@@ -3279,7 +3288,8 @@ const RandomData4: any[] = [
     name: "Which river is known as the Yellow River?",
     options: ["Yangtze River", "Mekong River", "Ganges River", "Yellow River"],
     correctOptions: "Yellow River",
-    slug: "which-river-is-known-as-the-yellow-river"
+    slug: "which-river-is-known-as-the-yellow-river",
+    relatedQuizzes: [116, 377]
   },
   {
     id: 355,
@@ -3346,7 +3356,8 @@ const RandomData4: any[] = [
       "Nile River"
     ],
     correctOptions: "Amazon River",
-    slug: "what-is-the-second-longest-river-in-the-world"
+    slug: "what-is-the-second-longest-river-in-the-world",
+    relatedQuizzes: [119, 122, 403, 362, 334]
   },
   {
     id: 361,
@@ -3370,7 +3381,8 @@ const RandomData4: any[] = [
       "Mississippi River"
     ],
     correctOptions: "Amazon River",
-    slug: "what-is-the-worlds-longest-river"
+    slug: "what-is-the-worlds-longest-river",
+    relatedQuizzes: [119, 122, 403, 360, 334]
   },
   {
     id: 363,
@@ -3520,7 +3532,8 @@ const RandomData4: any[] = [
     name: "Which river is known as the Nile or Amazon?",
     options: ["Nile River", "Amazon River", "Both", "None"],
     correctOptions: "Both",
-    slug: "which-river-is-known-as-the-nile-or-amazon"
+    slug: "which-river-is-known-as-the-nile-or-amazon",
+    relatedQuizzes: [116, 354]
   },
   {
     id: 378,
@@ -3753,7 +3766,8 @@ const RandomData5: any[] = [
       "Amazon, Nile, Mississippi, Yangtze, Congo"
     ],
     correctOptions: "Nile, Amazon, Yangtze, Mississippi, Yenisei",
-    slug: "what-are-the-5-longest-rivers-in-the-world"
+    slug: "what-are-the-5-longest-rivers-in-the-world",
+    relatedQuizzes: [119, 122, 360, 362, 334]
   },
   {
     id: 404,
