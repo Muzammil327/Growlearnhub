@@ -12,7 +12,7 @@ const data = {
   canonical: '/vu/handouts/cs001/',
   index: true,
   follow: true,
-  image: '/class/vu/handouts/cs001_handouts.webp',
+  image: '/vu/handouts/cs001_handouts.webp',
   url: 'https://growlearnhub.com/vu/handouts/cs001/',
   keywords: [
     'growlearnhub',

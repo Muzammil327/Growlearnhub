@@ -11,7 +11,7 @@ const data = {
   canonical: '/vu/handouts/',
   index: true,
   follow: true,
-  image: '/class/vu/vu_handouts.webp',
+  image: '/vu/vu_handouts.webp',
   url: 'https://growlearnhub.com/vu/handouts/',
   keywords: [
     'growlearnhub',
