@@ -3906,6 +3906,114 @@ const RandomData5: any[] = [
     options: ["Around 2,500 years", "500 years", "1,000 years", "3,000 years"],
     correctOptions: "Around 2,500 years",
     slug: "how-old-is-physics"
+  },
+  {
+    id: 423,
+    name: "What is the oldest science?",
+    options: ["Mathematics", "Astronomy", "Chemistry", "Physics"],
+    correctOptions: "Mathematics",
+    slug: "what-is-the-oldest-science"
+  },
+  {
+    id: 424,
+    name: "What is the top 1 country in the world?",
+    options: ["United States", "China", "Germany", "Japan"],
+    correctOptions: "United States",
+    slug: "what-is-the-top-1-country-in-the-world"
+  },
+  {
+    id: 425,
+    name: "Which continent has the most rivers?",
+    options: ["Africa", "Asia", "Europe", "South America"],
+    correctOptions: "Asia",
+    slug: "which-continent-has-the-most-rivers"
+  },
+  {
+    id: 426,
+    name: "Which country is best in biology?",
+    options: ["United States", "Germany", "United Kingdom", "Sweden"],
+    correctOptions: "United States",
+    slug: "which-country-is-best-in-biology"
+  },
+  {
+    id: 427,
+    name: "Which country is best for study?",
+    options: ["United States", "United Kingdom", "Germany", "Canada"],
+    correctOptions: "United States",
+    slug: "which-country-is-best-for-study"
+  },
+  {
+    id: 428,
+    name: "Which country is number 1 in math?",
+    options: ["China", "United States", "South Korea", "Singapore"],
+    correctOptions: "China",
+    slug: "which-country-is-number-1-in-math"
+  },
+  {
+    id: 429,
+    name: "Which country is number 1 in science?",
+    options: ["United States", "China", "Germany", "United Kingdom"],
+    correctOptions: "United States",
+    slug: "which-country-is-number-1-in-science"
+  },
+  {
+    id: 430,
+    name: "Which is the biggest river in Europe?",
+    options: ["Volga River", "Danube River", "Rhine River", "Elbe River"],
+    correctOptions: "Volga River",
+    slug: "which-is-the-biggest-river-in-europe"
+  },
+  {
+    id: 431,
+    name: "Which is the busiest river in the world?",
+    options: ["Yangtze River", "Amazon River", "Ganges River", "Nile River"],
+    correctOptions: "Yangtze River",
+    slug: "which-is-the-busiest-river-in-the-world"
+  },
+  {
+    id: 432,
+    name: "Which river flows through 10 countries?",
+    options: ["Danube River", "Amazon River", "Nile River", "Ganges River"],
+    correctOptions: "Danube River",
+    slug: "which-river-flows-through-10-countries"
+  },
+  {
+    id: 433,
+    name: "Which river is also called Salt River?",
+    options: ["Colorado River", "Ganges River", "Mekong River", "Amazon River"],
+    correctOptions: "Colorado River",
+    slug: "which-river-is-also-called-salt-river"
+  },
+  {
+    id: 434,
+    name: "Who discovered physics first?",
+    options: [
+      "Isaac Newton",
+      "Galileo Galilei",
+      "Albert Einstein",
+      "Aristotle"
+    ],
+    correctOptions: "Aristotle",
+    slug: "who-discovered-physics-first"
+  },
+  {
+    id: 435,
+    name: "Who first discovered chemistry?",
+    options: [
+      "Antoine Lavoisier",
+      "Robert Boyle",
+      "Dmitri Mendeleev",
+      "John Dalton"
+    ],
+    correctOptions: "Antoine Lavoisier",
+    slug: "who-first-discovered-chemistry"
+  },
+  {
+    id: 436,
+    name: "Who is the father of biology?",
+    options: ["Aristotle", "Charles Darwin", "Gregor Mendel", "Louis Pasteur"],
+    correctOptions: "Aristotle",
+    slug: "who-is-the-father-of-biology"
   }
 ]
 
