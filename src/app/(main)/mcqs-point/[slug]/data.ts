@@ -7,7 +7,7 @@ interface Quiz {
   relatedQuizzes?: number[] // Array of related quiz IDs
 }
 
-export const RandomData: any[] = [
+const RandomData1: any[] = [
   {
     id: 1,
     name: "How do I find my blood type?",
@@ -963,7 +963,10 @@ export const RandomData: any[] = [
     ],
     correctOptions: "Kim Kielsen",
     slug: "who-is-the-leader-of-greenland"
-  },
+  }
+]
+
+const RandomData2: any[] = [
   {
     id: 101,
     name: "Who runs Greenland?",
@@ -1833,7 +1836,10 @@ export const RandomData: any[] = [
     options: ["-89.2°C", "-96.2°C", "-82.8°C", "-74.5°C"],
     correctOptions: "-89.2°C",
     slug: "what-is-the-coldest-temperature-ever-recorded"
-  },
+  }
+]
+
+const RandomData3: any[] = [
   {
     id: 201,
     name: "What is the coldest temperature on Earth?",
@@ -2654,7 +2660,7 @@ export const RandomData: any[] = [
     slug: "desert-between-andes-pacific"
   },
   {
-    id: 296,
+    id: 295,
     name: "Which is the largest desert in Asia?",
     options: [
       "Gobi Desert",
@@ -2666,7 +2672,7 @@ export const RandomData: any[] = [
     slug: "largest-desert-asia"
   },
   {
-    id: 297,
+    id: 296,
     name: "Which desert is famous for its salt pans and unique wildlife, such as the Gemsbok?",
     options: [
       "Kalahari Desert",
@@ -2678,7 +2684,7 @@ export const RandomData: any[] = [
     slug: "salt-pans-unique-wildlife"
   },
   {
-    id: 298,
+    id: 297,
     name: "Which desert is located in northwest China and is known for its harsh climate?",
     options: [
       "Taklamakan Desert",
@@ -2690,7 +2696,7 @@ export const RandomData: any[] = [
     slug: "desert-northwest-china"
   },
   {
-    id: 299,
+    id: 298,
     name: "Which desert is often referred to as the 'Sea of Death' due to its extreme conditions?",
     options: [
       "Taklamakan Desert",
@@ -2702,7 +2708,7 @@ export const RandomData: any[] = [
     slug: "sea-of-death-desert"
   },
   {
-    id: 300,
+    id: 299,
     name: "Which desert is located in southwestern United States and northern Mexico?",
     options: [
       "Sonoran Desert",
@@ -2714,7 +2720,7 @@ export const RandomData: any[] = [
     slug: "desert-in-us-and-mexico"
   },
   {
-    id: 301,
+    id: 300,
     name: "Which desert is known for its towering saguaro cacti?",
     options: [
       "Sonoran Desert",
@@ -2724,6 +2730,16 @@ export const RandomData: any[] = [
     ],
     correctOptions: "Sonoran Desert",
     slug: "desert-saguaro-cacti"
+  }
+]
+
+const RandomData4: any[] = [
+  {
+    id: 301,
+    name: "Which river touches the most countries?",
+    options: ["Danube River", "Amazon River", "Nile River", "Yangtze River"],
+    correctOptions: "Danube River",
+    slug: "which-river-touches-the-most-countries"
   },
   {
     id: 302,
@@ -2918,5 +2934,985 @@ export const RandomData: any[] = [
     correctOptions: "Inner ear",
     slug: "where-are-the-three-smallest-bones-in-the-human-body-located",
     relatedQuizzes: [318, 319, 320, 321, 9]
+  },
+  {
+    id: 322,
+    name: "What is the velocity of a river?",
+    options: [
+      "Speed of the water flow",
+      "Depth of the river",
+      "Width of the river",
+      "Temperature of the water"
+    ],
+    correctOptions: "Speed of the water flow",
+    slug: "what-is-the-velocity-of-a-river"
+  },
+  {
+    id: 323,
+    name: "What is the world's largest river by discharge volume?",
+    options: ["Amazon River", "Nile River", "Yangtze River", "Congo River"],
+    correctOptions: "Amazon River",
+    slug: "what-is-the-worlds-largest-river-by-discharge-volume"
+  },
+  {
+    id: 324,
+    name: "What is the biggest river in Asia?",
+    options: ["Yangtze River", "Ganges River", "Mekong River", "Yellow River"],
+    correctOptions: "Yangtze River",
+    slug: "what-is-the-biggest-river-in-asia"
+  },
+  {
+    id: 325,
+    name: "What is the deepest river in the world?",
+    options: [
+      "Congo River",
+      "Amazon River",
+      "Yangtze River",
+      "Mississippi River"
+    ],
+    correctOptions: "Congo River",
+    slug: "what-is-the-deepest-river-in-the-world"
+  },
+  {
+    id: 326,
+    name: "Which is the smallest river in the world?",
+    options: ["Roe River", "Amazon River", "Yangtze River", "Ganges River"],
+    correctOptions: "Roe River",
+    slug: "which-is-the-smallest-river-in-the-world"
+  },
+  {
+    id: 327,
+    name: "How deep is the Mekong River?",
+    options: ["10 meters", "20 meters", "30 meters", "50 meters"],
+    correctOptions: "20 meters",
+    slug: "how-deep-is-the-mekong-river"
+  },
+  {
+    id: 328,
+    name: "How to keep hair dry in the pool?",
+    options: [
+      "Wear a swim cap",
+      "Use waterproof hair products",
+      "Avoid getting your head wet",
+      "All of the above"
+    ],
+    correctOptions: "Wear a swim cap",
+    slug: "how-to-keep-hair-dry-in-the-pool"
+  },
+  {
+    id: 329,
+    name: "How to swim in a pool for beginners?",
+    options: [
+      "Start with floating",
+      "Learn to kick and move arms",
+      "Practice breathing techniques",
+      "All of the above"
+    ],
+    correctOptions: "All of the above",
+    slug: "how-to-swim-in-a-pool-for-beginners"
+  },
+  {
+    id: 330,
+    name: "Is it safe to swim in a pond?",
+    options: [
+      "Yes, always",
+      "No, it can be unsafe",
+      "Depends on the pond",
+      "Not sure"
+    ],
+    correctOptions: "Depends on the pond",
+    slug: "is-it-safe-to-swim-in-a-pond"
+  },
+  {
+    id: 331,
+    name: "Is it safe to swim in the ocean?",
+    options: [
+      "Yes, always",
+      "No, it can be unsafe",
+      "Depends on the conditions",
+      "Not sure"
+    ],
+    correctOptions: "Depends on the conditions",
+    slug: "is-it-safe-to-swim-in-the-ocean"
+  },
+  {
+    id: 332,
+    name: "What is a natural swimming pool?",
+    options: [
+      "A pool with natural filtration",
+      "A pool filled with spring water",
+      "A pool without chemicals",
+      "All of the above"
+    ],
+    correctOptions: "All of the above",
+    slug: "what-is-a-natural-swimming-pool"
+  },
+  {
+    id: 333,
+    name: "What is the definition of a river?",
+    options: [
+      "A flowing body of water",
+      "A large lake",
+      "A small stream",
+      "An ocean current"
+    ],
+    correctOptions: "A flowing body of water",
+    slug: "what-is-the-definition-of-a-river"
+  },
+  {
+    id: 334,
+    name: "What is the longest river in Southeast Asia?",
+    options: [
+      "Mekong River",
+      "Red River",
+      "Chao Phraya River",
+      "Irrawaddy River"
+    ],
+    correctOptions: "Mekong River",
+    slug: "what-is-the-longest-river-in-southeast-asia"
+  },
+  {
+    id: 335,
+    name: "What was the religion of ancient China?",
+    options: ["Confucianism", "Buddhism", "Taoism", "All of the above"],
+    correctOptions: "All of the above",
+    slug: "what-was-the-religion-of-ancient-china"
+  },
+  {
+    id: 336,
+    name: "Where is the deepest river in the world?",
+    options: [
+      "Congo River",
+      "Amazon River",
+      "Yangtze River",
+      "Mississippi River"
+    ],
+    correctOptions: "Congo River",
+    slug: "where-is-the-deepest-river-in-the-world"
+  },
+  {
+    id: 337,
+    name: "Why is the Yellow River called China's sorrow?",
+    options: [
+      "Due to frequent floods",
+      "Because of pollution",
+      "For its long course",
+      "Due to its length"
+    ],
+    correctOptions: "Due to frequent floods",
+    slug: "why-is-the-yellow-river-called-chinas-sorrow"
+  },
+  {
+    id: 338,
+    name: "How did Chinese writing develop?",
+    options: [
+      "From pictograms to ideograms",
+      "From ideograms to phonograms",
+      "From phonograms to alphabets",
+      "From alphabets to pictograms"
+    ],
+    correctOptions: "From pictograms to ideograms",
+    slug: "how-did-chinese-writing-develop"
+  },
+  {
+    id: 339,
+    name: "How do I add liquid chlorine to my pool?",
+    options: [
+      "Directly into the skimmer",
+      "Into the pool water",
+      "Diluted with water first",
+      "All of the above"
+    ],
+    correctOptions: "Diluted with water first",
+    slug: "how-do-i-add-liquid-chlorine-to-my-pool"
+  },
+  {
+    id: 340,
+    name: "How does pool solar work?",
+    options: [
+      "Uses solar panels to heat water",
+      "Uses solar heaters",
+      "Uses solar covers",
+      "All of the above"
+    ],
+    correctOptions: "Uses solar panels to heat water",
+    slug: "how-does-pool-solar-work"
+  },
+  {
+    id: 341,
+    name: "How does water conditioner work?",
+    options: [
+      "Neutralizes metals",
+      "Balances pH",
+      "Clears cloudy water",
+      "All of the above"
+    ],
+    correctOptions: "Neutralizes metals",
+    slug: "how-does-water-conditioner-work"
+  },
+  {
+    id: 342,
+    name: "How to add chemicals to an above ground pool?",
+    options: [
+      "Dissolve in water first",
+      "Directly into the skimmer",
+      "Broadcast over the surface",
+      "All of the above"
+    ],
+    correctOptions: "Dissolve in water first",
+    slug: "how-to-add-chemicals-to-an-above-ground-pool"
+  },
+  {
+    id: 343,
+    name: "How to add chlorine to water?",
+    options: [
+      "Use chlorine tablets",
+      "Add liquid chlorine",
+      "Use chlorine granules",
+      "All of the above"
+    ],
+    correctOptions: "All of the above",
+    slug: "how-to-add-chlorine-to-water"
+  },
+  {
+    id: 344,
+    name: "How to add sunscreen to a pool?",
+    options: [
+      "Directly into the water",
+      "Apply to skin before swimming",
+      "Mix with pool chemicals",
+      "Not recommended"
+    ],
+    correctOptions: "Apply to skin before swimming",
+    slug: "how-to-add-sunscreen-to-a-pool"
+  },
+  {
+    id: 345,
+    name: "How to care for a swimming pool?",
+    options: [
+      "Regular cleaning",
+      "Balancing chemicals",
+      "Maintaining water levels",
+      "All of the above"
+    ],
+    correctOptions: "All of the above",
+    slug: "how-to-care-for-a-swimming-pool"
+  },
+  {
+    id: 346,
+    name: "How to lower total chlorine in a pool?",
+    options: [
+      "Use a chlorine neutralizer",
+      "Increase filtration",
+      "Add fresh water",
+      "All of the above"
+    ],
+    correctOptions: "All of the above",
+    slug: "how-to-lower-total-chlorine-in-a-pool"
+  },
+  {
+    id: 347,
+    name: "Is it ok to drink river water?",
+    options: [
+      "Yes, always",
+      "No, it may be unsafe",
+      "Depends on the river",
+      "Not sure"
+    ],
+    correctOptions: "Depends on the river",
+    slug: "is-it-ok-to-drink-river-water"
+  },
+  {
+    id: 348,
+    name: "What animals live in the Yellow River?",
+    options: ["Fish", "Birds", "Mammals", "All of the above"],
+    correctOptions: "All of the above",
+    slug: "what-animals-live-in-the-yellow-river"
+  },
+  {
+    id: 349,
+    name: "What is another name for the Yellow River?",
+    options: ["Huang He", "Yangtze", "Mekong", "Ganges"],
+    correctOptions: "Huang He",
+    slug: "what-is-another-name-for-the-yellow-river"
+  },
+  {
+    id: 350,
+    name: "What is the main river in Vietnam?",
+    options: ["Mekong River", "Red River", "Yangtze River", "Ganges River"],
+    correctOptions: "Mekong River",
+    slug: "what-is-the-main-river-in-vietnam"
+  },
+  {
+    id: 351,
+    name: "What is the Mekong River famous for?",
+    options: ["Its biodiversity", "Its length", "Its depth", "Its source"],
+    correctOptions: "Its biodiversity",
+    slug: "what-is-the-mekong-river-famous-for"
+  },
+  {
+    id: 352,
+    name: "What is the Yangtze River used for?",
+    options: [
+      "Transportation",
+      "Agriculture",
+      "Hydroelectric power",
+      "All of the above"
+    ],
+    correctOptions: "All of the above",
+    slug: "what-is-the-yangtze-river-used-for"
+  },
+  {
+    id: 353,
+    name: "What was the characteristic of the Yellow River?",
+    options: [
+      "It was prone to flooding",
+      "It was a major trade route",
+      "It was the longest river",
+      "It was the deepest river"
+    ],
+    correctOptions: "It was prone to flooding",
+    slug: "what-was-the-characteristic-of-the-yellow-river"
+  },
+  {
+    id: 354,
+    name: "Which river is known as the Yellow River?",
+    options: ["Yangtze River", "Mekong River", "Ganges River", "Yellow River"],
+    correctOptions: "Yellow River",
+    slug: "which-river-is-known-as-the-yellow-river"
+  },
+  {
+    id: 355,
+    name: "Who is the king of rivers?",
+    options: [
+      "Nile River",
+      "Amazon River",
+      "Yangtze River",
+      "Mississippi River"
+    ],
+    correctOptions: "Amazon River",
+    slug: "who-is-the-king-of-rivers"
+  },
+  {
+    id: 356,
+    name: "What is the delta of a river?",
+    options: [
+      "The end where the river meets the sea",
+      "The source of the river",
+      "The middle part of the river",
+      "The beginning of the river"
+    ],
+    correctOptions: "The end where the river meets the sea",
+    slug: "what-is-the-delta-of-a-river"
+  },
+  {
+    id: 357,
+    name: "What is the strongest country?",
+    options: ["United States", "China", "Russia", "India"],
+    correctOptions: "United States",
+    slug: "what-is-the-strongest-country"
+  },
+  {
+    id: 358,
+    name: "How deep is the Nile River?",
+    options: [
+      "About 10 meters",
+      "About 20 meters",
+      "About 30 meters",
+      "About 40 meters"
+    ],
+    correctOptions: "About 30 meters",
+    slug: "how-deep-is-the-nile-river"
+  },
+  {
+    id: 359,
+    name: "How long is the Nile River?",
+    options: [
+      "About 4,135 miles",
+      "About 4,345 miles",
+      "About 4,567 miles",
+      "About 4,800 miles"
+    ],
+    correctOptions: "About 4,135 miles",
+    slug: "how-long-is-the-nile-river"
+  },
+  {
+    id: 360,
+    name: "What is the second longest river in the world?",
+    options: [
+      "Amazon River",
+      "Yangtze River",
+      "Mississippi-Missouri River",
+      "Nile River"
+    ],
+    correctOptions: "Amazon River",
+    slug: "what-is-the-second-longest-river-in-the-world"
+  },
+  {
+    id: 361,
+    name: "What is the source of a river?",
+    options: [
+      "The point where the river starts",
+      "The end where the river meets the sea",
+      "The middle of the river",
+      "The place where the river splits"
+    ],
+    correctOptions: "The point where the river starts",
+    slug: "what-is-the-source-of-a-river"
+  },
+  {
+    id: 362,
+    name: "What is the world's longest river?",
+    options: [
+      "Amazon River",
+      "Nile River",
+      "Yangtze River",
+      "Mississippi River"
+    ],
+    correctOptions: "Amazon River",
+    slug: "what-is-the-worlds-longest-river"
+  },
+  {
+    id: 363,
+    name: "Which is the deepest river in the world?",
+    options: [
+      "Congo River",
+      "Amazon River",
+      "Yangtze River",
+      "Mississippi River"
+    ],
+    correctOptions: "Congo River",
+    slug: "which-is-the-deepest-river-in-the-world"
+  },
+  {
+    id: 364,
+    name: "How many rivers are there in Pakistan?",
+    options: ["Five", "Seven", "Nine", "Twelve"],
+    correctOptions: "Seven",
+    slug: "how-many-rivers-are-there-in-pakistan"
+  },
+  {
+    id: 365,
+    name: "Is the Amazon the largest river in the world?",
+    options: ["Yes", "No", "Depends on the measurement", "Not sure"],
+    correctOptions: "Yes",
+    slug: "is-the-amazon-the-largest-river-in-the-world"
+  },
+  {
+    id: 366,
+    name: "Is river water safe to drink?",
+    options: [
+      "Yes, always",
+      "No, it may be unsafe",
+      "Depends on the river",
+      "Not sure"
+    ],
+    correctOptions: "Depends on the river",
+    slug: "is-river-water-safe-to-drink"
+  },
+  {
+    id: 367,
+    name: "Is the Nile or Amazon longer?",
+    options: [
+      "Nile River",
+      "Amazon River",
+      "Both are the same length",
+      "Not sure"
+    ],
+    correctOptions: "Amazon River",
+    slug: "is-the-nile-or-amazon-longer"
+  },
+  {
+    id: 368,
+    name: "What is the dirtiest river in the world?",
+    options: [
+      "Ganges River",
+      "Yangtze River",
+      "Yellow River",
+      "Mississippi River"
+    ],
+    correctOptions: "Ganges River",
+    slug: "what-is-the-dirtiest-river-in-the-world"
+  },
+  {
+    id: 369,
+    name: "What is the oldest river in the world?",
+    options: ["Finke River", "Nile River", "Amazon River", "Yangtze River"],
+    correctOptions: "Finke River",
+    slug: "what-is-the-oldest-river-in-the-world"
+  },
+  {
+    id: 370,
+    name: "What is the smallest river in the world?",
+    options: ["Roe River", "Amazon River", "Yangtze River", "Ganges River"],
+    correctOptions: "Roe River",
+    slug: "what-is-the-smallest-river-in-the-world"
+  },
+  {
+    id: 371,
+    name: "What is the start of a river called?",
+    options: ["Source", "Mouth", "Delta", "Estuary"],
+    correctOptions: "Source",
+    slug: "what-is-the-start-of-a-river-called"
+  },
+  {
+    id: 372,
+    name: "Which is the deepest river on earth?",
+    options: [
+      "Congo River",
+      "Amazon River",
+      "Yangtze River",
+      "Mississippi River"
+    ],
+    correctOptions: "Congo River",
+    slug: "which-is-the-deepest-river-on-earth"
+  },
+  {
+    id: 373,
+    name: "Which is longer: Nile or Amazon?",
+    options: [
+      "Nile River",
+      "Amazon River",
+      "Both are the same length",
+      "Not sure"
+    ],
+    correctOptions: "Amazon River",
+    slug: "which-is-longer-nile-or-amazon"
+  },
+  {
+    id: 374,
+    name: "Which is the cleanest river in the world?",
+    options: [
+      "Thames River",
+      "Mississippi River",
+      "Ganges River",
+      "Yangtze River"
+    ],
+    correctOptions: "Thames River",
+    slug: "which-is-the-cleanest-river-in-the-world"
+  },
+  {
+    id: 375,
+    name: "Which is the widest river in the world?",
+    options: [
+      "Amazon River",
+      "Yangtze River",
+      "Mississippi River",
+      "Congo River"
+    ],
+    correctOptions: "Amazon River",
+    slug: "which-is-the-widest-river-in-the-world"
+  },
+  {
+    id: 376,
+    name: "How to read a river?",
+    options: [
+      "Look at the flow direction",
+      "Examine the water depth",
+      "Check the surrounding vegetation",
+      "All of the above"
+    ],
+    correctOptions: "All of the above",
+    slug: "how-to-read-a-river"
+  },
+  {
+    id: 377,
+    name: "Which river is known as the Nile or Amazon?",
+    options: ["Nile River", "Amazon River", "Both", "None"],
+    correctOptions: "Both",
+    slug: "which-river-is-known-as-the-nile-or-amazon"
+  },
+  {
+    id: 378,
+    name: "What are the 4 types of river erosion?",
+    options: [
+      "Hydraulic action, abrasion, attrition, solution",
+      "Weathering, erosion, deposition, transportation",
+      "Sedimentation, transport, chemical weathering, biological weathering",
+      "None of the above"
+    ],
+    correctOptions: "Hydraulic action, abrasion, attrition, solution",
+    slug: "what-are-the-4-types-of-river-erosion"
+  },
+  {
+    id: 379,
+    name: "What are the four stages of a river?",
+    options: [
+      "Source, tributary, river, estuary",
+      "Youth, maturity, old age, rejuvenation",
+      "Headwater, flow, mouth, delta",
+      "Source, floodplain, estuary, delta"
+    ],
+    correctOptions: "Youth, maturity, old age, rejuvenation",
+    slug: "what-are-the-four-stages-of-a-river"
+  },
+  {
+    id: 380,
+    name: "What are the three stages of a river?",
+    options: [
+      "Youth, middle age, old age",
+      "Source, flow, mouth",
+      "Upper, middle, lower",
+      "Headwater, floodplain, delta"
+    ],
+    correctOptions: "Upper, middle, lower",
+    slug: "what-are-the-three-stages-of-a-river"
+  },
+  {
+    id: 381,
+    name: "What is the fastest river in the world?",
+    options: [
+      "Amazon River",
+      "Yangtze River",
+      "Mississippi River",
+      "Congo River"
+    ],
+    correctOptions: "Congo River",
+    slug: "what-is-the-fastest-river-in-the-world"
+  },
+  {
+    id: 382,
+    name: "What is the most powerful river in the world?",
+    options: [
+      "Amazon River",
+      "Yangtze River",
+      "Mississippi River",
+      "Congo River"
+    ],
+    correctOptions: "Amazon River",
+    slug: "what-is-the-most-powerful-river-in-the-world"
+  },
+  {
+    id: 383,
+    name: "What is the slope of a river called?",
+    options: ["Gradient", "Flow", "Current", "Velocity"],
+    correctOptions: "Gradient",
+    slug: "what-is-the-slope-of-a-river-called"
+  },
+  {
+    id: 384,
+    name: "How many countries are there in the world?",
+    options: ["195", "196", "197", "198"],
+    correctOptions: "195",
+    slug: "how-many-countries-are-there-in-the-world"
+  },
+  {
+    id: 385,
+    name: "What is the largest city on Earth?",
+    options: ["Tokyo", "New York", "Shanghai", "São Paulo"],
+    correctOptions: "Tokyo",
+    slug: "what-is-the-largest-city-on-earth"
+  },
+  {
+    id: 386,
+    name: "What is the oldest country?",
+    options: ["San Marino", "Egypt", "China", "Iran"],
+    correctOptions: "San Marino",
+    slug: "what-is-the-oldest-country"
+  },
+  {
+    id: 387,
+    name: "What is the smallest country in the world?",
+    options: ["Vatican City", "Monaco", "Nauru", "San Marino"],
+    correctOptions: "Vatican City",
+    slug: "what-is-the-smallest-country-in-the-world"
+  },
+  {
+    id: 388,
+    name: "What's the richest country in the world?",
+    options: ["Luxembourg", "Switzerland", "Norway", "Singapore"],
+    correctOptions: "Luxembourg",
+    slug: "whats-the-richest-country-in-the-world"
+  },
+  {
+    id: 389,
+    name: "Where is the Nile?",
+    options: ["Africa", "Asia", "South America", "Europe"],
+    correctOptions: "Africa",
+    slug: "where-is-the-nile"
+  },
+  {
+    id: 390,
+    name: "Which is the largest country in the world?",
+    options: ["Russia", "Canada", "China", "United States"],
+    correctOptions: "Russia",
+    slug: "which-is-the-largest-country-in-the-world"
+  },
+  {
+    id: 391,
+    name: "Which is the poorest country?",
+    options: ["Burundi", "Central African Republic", "Mozambique", "Niger"],
+    correctOptions: "Burundi",
+    slug: "which-is-the-poorest-country"
+  },
+  {
+    id: 392,
+    name: "Who is the father of mathematics?",
+    options: ["Pythagoras", "Euclid", "Archimedes", "Leonhard Euler"],
+    correctOptions: "Pythagoras",
+    slug: "who-is-the-father-of-mathematics"
+  },
+  {
+    id: 393,
+    name: "Who is the father of physics?",
+    options: [
+      "Isaac Newton",
+      "Galileo Galilei",
+      "Albert Einstein",
+      "Michael Faraday"
+    ],
+    correctOptions: "Isaac Newton",
+    slug: "who-is-the-father-of-physics"
+  },
+  {
+    id: 394,
+    name: "What is the smallest city in the world?",
+    options: ["Vatican City", "San Marino", "Monaco", "Nauru"],
+    correctOptions: "Vatican City",
+    slug: "what-is-the-smallest-city-in-the-world"
+  },
+  {
+    id: 395,
+    name: "What is the full form of science?",
+    options: [
+      "Systematic Investigation of Nature",
+      "Scientific Inquiry and Knowledge of Everything",
+      "Study of Intellectual Nature and Creative Endeavors",
+      "Scientific Investigation and Exploration of Natural Elements"
+    ],
+    correctOptions: "Systematic Investigation of Nature",
+    slug: "what-is-the-full-form-of-science"
+  },
+  {
+    id: 396,
+    name: "What is the richest city in the world?",
+    options: ["New York", "Tokyo", "Shanghai", "London"],
+    correctOptions: "New York",
+    slug: "what-is-the-richest-city-in-the-world"
+  },
+  {
+    id: 397,
+    name: "How long is the Congo River?",
+    options: ["2,900 miles", "3,200 miles", "2,700 miles", "3,500 miles"],
+    correctOptions: "2,900 miles",
+    slug: "how-long-is-the-congo-river"
+  },
+  {
+    id: 398,
+    name: "Where is the Nile river?",
+    options: ["Africa", "Asia", "Europe", "Australia"],
+    correctOptions: "Africa",
+    slug: "where-is-the-nile-river"
+  },
+  {
+    id: 399,
+    name: "Who is the father of modern science?",
+    options: [
+      "Galileo Galilei",
+      "Isaac Newton",
+      "Albert Einstein",
+      "Charles Darwin"
+    ],
+    correctOptions: "Galileo Galilei",
+    slug: "who-is-the-father-of-modern-science"
+  },
+  {
+    id: 400,
+    name: "Who is called the father of chemistry?",
+    options: [
+      "Antoine Lavoisier",
+      "Isaac Newton",
+      "Albert Einstein",
+      "Dmitri Mendeleev"
+    ],
+    correctOptions: "Antoine Lavoisier",
+    slug: "who-is-called-the-father-of-chemistry"
   }
+]
+
+const RandomData5: any[] = [
+  {
+    id: 401,
+    name: "How many billionaires are there in Pakistan?",
+    options: ["5", "10", "15", "20"],
+    correctOptions: "10",
+    slug: "how-many-billionaires-are-there-in-pakistan"
+  },
+  {
+    id: 402,
+    name: "Is Pakistan a powerful country?",
+    options: ["Yes", "No"],
+    correctOptions: "Yes",
+    slug: "is-pakistan-a-powerful-country"
+  },
+  {
+    id: 403,
+    name: "What are the 5 longest rivers in the world?",
+    options: [
+      "Nile, Amazon, Yangtze, Mississippi, Yenisei",
+      "Amazon, Nile, Mississippi, Yangtze, Congo"
+    ],
+    correctOptions: "Nile, Amazon, Yangtze, Mississippi, Yenisei",
+    slug: "what-are-the-5-longest-rivers-in-the-world"
+  },
+  {
+    id: 404,
+    name: "What country has the most rivers?",
+    options: ["Russia", "Brazil", "Canada", "China"],
+    correctOptions: "Russia",
+    slug: "what-country-has-the-most-rivers"
+  },
+  {
+    id: 405,
+    name: "What is the biggest capital in the world?",
+    options: ["Tokyo", "Beijing", "Cairo", "New Delhi"],
+    correctOptions: "Tokyo",
+    slug: "what-is-the-biggest-capital-in-the-world"
+  },
+  {
+    id: 406,
+    name: "What are the 7 major rivers of India?",
+    options: [
+      "Ganga, Yamuna, Godavari, Krishna, Narmada, Indus, Brahmaputra",
+      "Cauvery, Tapti, Sabarmati, Saraswati, Bhima, Sutlej, Gandak"
+    ],
+    correctOptions:
+      "Ganga, Yamuna, Godavari, Krishna, Narmada, Indus, Brahmaputra",
+    slug: "what-are-the-7-major-rivers-of-india"
+  },
+  {
+    id: 407,
+    name: "What is the language of chemistry?",
+    options: ["Symbols", "Equations", "Formulas", "Elements"],
+    correctOptions: "Symbols",
+    slug: "what-is-the-language-of-chemistry"
+  },
+  {
+    id: 408,
+    name: "What is the richest country in Asia?",
+    options: ["Japan", "China", "Singapore", "Qatar"],
+    correctOptions: "Qatar",
+    slug: "what-is-the-richest-country-in-asia"
+  },
+  {
+    id: 409,
+    name: "What is the widest river?",
+    options: ["Amazon", "Congo", "Yangtze", "Mississippi"],
+    correctOptions: "Amazon",
+    slug: "what-is-the-widest-river"
+  },
+  {
+    id: 410,
+    name: "What is the world's largest river by volume?",
+    options: ["Amazon", "Nile", "Yangtze", "Mississippi"],
+    correctOptions: "Amazon",
+    slug: "what-is-the-worlds-largest-river-by-volume"
+  },
+  {
+    id: 411,
+    name: "Which country has no airport?",
+    options: ["Vatican City", "Monaco", "Liechtenstein", "San Marino"],
+    correctOptions: "Vatican City",
+    slug: "which-country-has-no-airport"
+  },
+  {
+    id: 412,
+    name: "Which country has no capital city?",
+    options: ["Nauru", "Vatican City", "Liechtenstein", "San Marino"],
+    correctOptions: "Nauru",
+    slug: "which-country-has-no-capital-city"
+  },
+  {
+    id: 413,
+    name: "Which country has the most water?",
+    options: ["Brazil", "Russia", "Canada", "United States"],
+    correctOptions: "Brazil",
+    slug: "which-country-has-the-most-water"
+  },
+  {
+    id: 414,
+    name: "Which country has two capitals?",
+    options: ["South Africa", "Bolivia", "Netherlands", "Chile"],
+    correctOptions: "South Africa",
+    slug: "which-country-has-two-capitals"
+  },
+  {
+    id: 415,
+    name: "Which is longer: the Amazon or the Nile?",
+    options: ["Amazon", "Nile"],
+    correctOptions: "Nile",
+    slug: "which-is-longer"
+  },
+  {
+    id: 416,
+    name: "Which is the oldest river in India?",
+    options: ["Ganga", "Saraswati", "Godavari", "Narmada"],
+    correctOptions: "Narmada",
+    slug: "which-is-the-oldest-river-in-india"
+  },
+  {
+    id: 417,
+    name: "Which is the shortest river in the world?",
+    options: ["Roe River", "D River", "Tamberine River", "Aril River"],
+    correctOptions: "Roe River",
+    slug: "which-is-the-shortest-river-in-the-world"
+  },
+  {
+    id: 418,
+    name: "Who is the King of Chemistry?",
+    options: [
+      "Antoine Lavoisier",
+      "Dmitri Mendeleev",
+      "Marie Curie",
+      "Robert Boyle"
+    ],
+    correctOptions: "Antoine Lavoisier",
+    slug: "who-is-the-king-of-chemistry"
+  },
+  {
+    id: 419,
+    name: "Who is the father of the cell?",
+    options: [
+      "Robert Hooke",
+      "Theodor Schwann",
+      "Anton van Leeuwenhoek",
+      "Rudolf Virchow"
+    ],
+    correctOptions: "Robert Hooke",
+    slug: "who-is-the-father-of-cell"
+  },
+  {
+    id: 420,
+    name: "Who is the father of gravity?",
+    options: [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Nikola Tesla"
+    ],
+    correctOptions: "Isaac Newton",
+    slug: "who-is-the-father-of-gravity"
+  },
+  {
+    id: 421,
+    name: "What is the full name of science?",
+    options: ["Natural Science", "Philosophy of Science", "Science", "None"],
+    correctOptions: "None",
+    slug: "what-is-the-full-name-of-science"
+  },
+  {
+    id: 422,
+    name: "How old is physics?",
+    options: ["Around 2,500 years", "500 years", "1,000 years", "3,000 years"],
+    correctOptions: "Around 2,500 years",
+    slug: "how-old-is-physics"
+  }
+]
+
+export const combinedMcqs = [
+  ...RandomData1,
+  ...RandomData2,
+  ...RandomData3,
+  ...RandomData4,
+  ...RandomData5
 ]

@@ -4,7 +4,7 @@ import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 import { CardQuizWithoutLink } from "@/src/components/card/CardQuiz/cardQuiz"
 import { SkeletalSystemMcqsData } from "@/src/app/(main)/mcqs-point/biology/skeletal-system/data"
 import { BiologyMcqsSkeletalSystemBonesMcqs } from "../biology/skeletal-system/bones/data"
-import { RandomData } from "./data"
+import { combinedMcqs } from "./data"
 
 const data = {
   canonical: "/mcqs-point/biology/skeletal-system/types/",
@@ -19,8 +19,6 @@ interface IProps {
     slug: string
   }
 }
-
-const combinedMcqs = [...RandomData]
 
 // Define the type for a quiz object
 interface Quiz {
