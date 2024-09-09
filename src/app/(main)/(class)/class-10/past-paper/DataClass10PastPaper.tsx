@@ -26,19 +26,19 @@ export default function DataClass10PastPaper() {
 }
 const MainDataClass10PastPaper = [
   {
-    title: 'Faisalbad Board',
+    title: 'Faisalabad Board',
     child: [
       {
         name: 'Biology',
-        slug: 'faisalbad-board-biology',
+        slug: 'faisalabad-board-biology',
       },
       {
         name: 'Chemistry',
-        slug: 'faisalbad-board-chemistry',
+        slug: 'faisalabad-board-chemistry',
       },
       {
         name: 'Physics',
-        slug: 'faisalbad-board-physics',
+        slug: 'faisalabad-board-physics',
       },
     ],
   },

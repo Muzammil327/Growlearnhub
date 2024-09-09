@@ -54,10 +54,6 @@ export default function Page({ params }: IProps) {
   const datas = combinedMcqs.filter((data: any) => data.slug === params.slug)
   const Final_Data = datas[0]
   const related_mcqs = getQuizzesByIds(Final_Data.relatedQuizzes)
-  console.log(
-    "getQuizById results:",
-    getQuizzesByIds(Final_Data.relatedQuizzes)
-  )
 
   return (
     <Wrapper
@@ -101,10 +97,22 @@ export default function Page({ params }: IProps) {
 export async function generateMetadata({ params }: IProps) {
   const datas = combinedMcqs.filter((data: any) => data.slug === params.slug)
   const Final_Data = datas[0]
+
+  const datass =
+    Final_Data.name +
+    " " +
+    Final_Data.correctOptions +
+    " " +
+    Final_Data.options +
+    "The Correct Option is: " +
+    Final_Data.correctOptions
+
+  const first50Words = datass.split(" ").slice(0, 45).join(" ")
+  const first1400Words = datass.split(" ").slice(0, 130).join(" ")
+
   return {
-    title: Final_Data.name,
-    description:
-      Final_Data.name + Final_Data.correctOptions + Final_Data.options,
+    title: first50Words,
+    description: first1400Words,
     keywords: Final_Data.options,
     alternates: {
       canonical: `mcqs-point/${params.slug}`
@@ -118,23 +126,23 @@ export async function generateMetadata({ params }: IProps) {
       }
     },
     openGraph: {
-      title: Final_Data.name,
-      description: Final_Data.name,
+      title: first50Words,
+      description: first1400Words,
       url: `https://growlearnhub.com/mcqs-point/${params.slug}`,
       images: [
         {
           src: data.image,
-          alt: Final_Data.name
+          alt: first50Words
         }
       ]
     },
     twitter: {
-      title: Final_Data.name,
-      description: Final_Data.name,
+      title: first50Words,
+      description: first1400Words,
 
       images: {
         src: data.image,
-        alt: Final_Data.name
+        alt: first50Words
       }
     }
   }

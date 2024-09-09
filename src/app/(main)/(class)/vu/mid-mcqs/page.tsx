@@ -54,9 +54,25 @@ export default function Page() {
 
 const mainData = [
   {
-    name: 'CS101 Mid Mcqs',
-    slug: '#',
+    name: "CS101 Mid Mcqs",
+    slug: "/vu/mid-mcqs/cs101/"
   },
+  {
+    name: "CS201 Mid Mcqs",
+    slug: "/vu/mid-mcqs/cs201/"
+  },
+  {
+    name: "CS302 Mid Mcqs",
+    slug: "/vu/mid-mcqs/cs302/"
+  },
+  {
+    name: "ENG201 Mid Mcqs",
+    slug: "/vu/mid-mcqs/eng201/"
+  },
+  {
+    name: "MGT211 Mid Mcqs",
+    slug: "/vu/mid-mcqs/mgt211/"
+  }
 ]
 
 export const metadata: Metadata = {

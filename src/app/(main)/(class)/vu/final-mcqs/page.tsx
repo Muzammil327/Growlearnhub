@@ -1,29 +1,29 @@
-import React from 'react'
-import { Metadata } from 'next'
-import Wrapper from '@/src/components/element/Wrapper'
-import CardSmall from '@/src/components/card/cardSmall/cardSmall'
+import React from "react"
+import { Metadata } from "next"
+import Wrapper from "@/src/components/element/Wrapper"
+import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 
 const data = {
-  title: 'Virtual University Final Term Mcqs',
+  title: "Virtual University Final Term Mcqs",
   description:
-    'Final Term MCQs page offering extensive question banks, practice questions, answers, and detailed explanations to enhance learning.',
-  canonical: '/vu/final-mcqs/',
+    "Final Term MCQs page offering extensive question banks, practice questions, answers, and detailed explanations to enhance learning.",
+  canonical: "/vu/final-mcqs/",
   index: true,
   follow: true,
-  image: '/vu/vu_final_term_mcqs.webp',
-  url: 'https://growlearnhub.com/vu/final-mcqs/',
+  image: "/vu/vu_final_term_mcqs.webp",
+  url: "https://growlearnhub.com/vu/final-mcqs/",
   keywords: [
-    'growlearnhub',
-    'final mcqs',
-    'growlearnhub vu final mcqs',
-    'vu final mcqs',
-    'virtual university final mcqs',
+    "growlearnhub",
+    "final mcqs",
+    "growlearnhub vu final mcqs",
+    "vu final mcqs",
+    "virtual university final mcqs"
   ],
   clist: [
-    { name: 'Mid Term Mcqs', slug: '/vu/mid-mcqs/' },
-    { name: 'Handouts', slug: '/vu/handouts/' },
-    { name: 'Mid Mark Calculator', slug: '/vu/mid-mark-calculator/' },
-  ],
+    { name: "Mid Term Mcqs", slug: "/vu/mid-mcqs/" },
+    { name: "Handouts", slug: "/vu/handouts/" },
+    { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" }
+  ]
 }
 
 export default function Page() {
@@ -54,9 +54,25 @@ export default function Page() {
 
 const mainData = [
   {
-    name: 'CS101 Final Mcqs',
-    slug: '#',
+    name: "CS101 Final Mcqs",
+    slug: "/vu/final-mcqs/cs101/"
   },
+  {
+    name: "CS201 Final Mcqs",
+    slug: "/vu/final-mcqs/cs201/"
+  },
+  {
+    name: "CS302 Final Mcqs",
+    slug: "/vu/final-mcqs/cs302/"
+  },
+  {
+    name: "ENG201 Final Mcqs",
+    slug: "/vu/final-mcqs/eng201/"
+  },
+  {
+    name: "MGT211 Final Mcqs",
+    slug: "/vu/final-mcqs/mgt211/"
+  }
 ]
 
 export const metadata: Metadata = {
@@ -70,27 +86,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title,
-      },
-    ],
+        alt: data.title
+      }
+    ]
   },
   alternates: {
-    canonical: data.canonical,
+    canonical: data.canonical
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow,
-    },
+      follow: data.follow
+    }
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title,
-    },
-  },
+      alt: data.title
+    }
+  }
 }

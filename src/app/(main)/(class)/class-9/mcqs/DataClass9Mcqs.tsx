@@ -8,7 +8,7 @@ export default function DataClass9Mcqs() {
           <CardSmall
             key={data.name}
             title={data.name}
-            link={`/class-9/notes/${data.slug}`}
+            link={`/class-9/mcqs/${data.slug}`}
           />
         )
       })}
