@@ -107,8 +107,8 @@ export async function generateMetadata({ params }: IProps) {
     "The Correct Option is: " +
     Final_Data.correctOptions
 
-  const first50Words = datass.split(" ").slice(0, 30).join(" ")
-  const first1400Words = datass.split(" ").slice(0, 80).join(" ")
+  const first50Words = datass.split(" ").join(" ").slice(0, 50)
+  const first1400Words = datass.split(" ").join(" ").slice(0, 120)
 
   return {
     title: first50Words,

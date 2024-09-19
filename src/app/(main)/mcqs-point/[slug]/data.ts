@@ -4524,10 +4524,8 @@ const RandomData5: any[] = [
     name: "What is the full form of OK?",
     options: ["Oll Korrect", "Okay", "Optical Knowledge", "None of the above"],
     correctOptions: "Oll Korrect",
-    slug: "what-is-the-full-form-of-ok",183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390, 391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429]
+    slug: "what-is-the-full-form-of-ok",
     relatedQuizzes: [467, 478, 479, 481, 395],
-    relatedQuizzes: [31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139, 148, 153, 156, 158, 160, 170, 172, 
-
   }
 ]
 
@@ -4538,3 +4536,4 @@ export const combinedMcqs = [
   ...RandomData4,
   ...RandomData5
 ]
+// relatedQuizzes: [31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139, 148, 153, 156, 158, 160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390, 391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429]
