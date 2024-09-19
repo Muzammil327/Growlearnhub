@@ -43,7 +43,7 @@ export default function Page() {
             <CardSmall
               key={data.name}
               title={data.name}
-              link={`/vu/mid-mcqs/${data.slug}`}
+              link={`/vu/mid-mcqs/${data.slug}/`}
             />
           )
         })}
@@ -55,23 +55,23 @@ export default function Page() {
 const mainData = [
   {
     name: "CS101 Mid Mcqs",
-    slug: "/vu/mid-mcqs/cs101/"
+    slug: "cs101"
   },
   {
     name: "CS201 Mid Mcqs",
-    slug: "/vu/mid-mcqs/cs201/"
+    slug: "cs201"
   },
   {
     name: "CS302 Mid Mcqs",
-    slug: "/vu/mid-mcqs/cs302/"
+    slug: "cs302"
   },
   {
     name: "ENG201 Mid Mcqs",
-    slug: "/vu/mid-mcqs/eng201/"
+    slug: "eng201"
   },
   {
     name: "MGT211 Mid Mcqs",
-    slug: "/vu/mid-mcqs/mgt211/"
+    slug: "mgt211"
   }
 ]
 

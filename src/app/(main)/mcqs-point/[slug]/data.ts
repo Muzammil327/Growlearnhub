@@ -21,7 +21,7 @@ const RandomData1: any[] = [
     ],
     correctOptions: "Through a blood test at a medical facility",
     slug: "how-do-i-find-my-blood-type",
-    relatedQuizzes: [2, 4]
+    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
   },
   {
     id: 2,
@@ -64,7 +64,8 @@ const RandomData1: any[] = [
     name: "What blood type do mosquitoes like?",
     options: ["Type O", "Type A", "Type B", "Type AB"],
     correctOptions: "Type O",
-    slug: "what-blood-type-do-mosquitoes-like"
+    slug: "what-blood-type-do-mosquitoes-like",
+    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
   },
   {
     id: 6,
@@ -78,14 +79,16 @@ const RandomData1: any[] = [
     name: "Which blood group is rare?",
     options: ["AB-", "O+", "A+", "B+"],
     correctOptions: "AB-",
-    slug: "which-blood-group-is-rare"
+    slug: "which-blood-group-is-rare",
+    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
   },
   {
     id: 8,
     name: "Which is the strongest blood group?",
     options: ["O-", "A+", "B-", "AB+"],
     correctOptions: "O-",
-    slug: "which-is-the-strongest-blood-group"
+    slug: "which-is-the-strongest-blood-group",
+    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
   },
   {
     id: 9,
@@ -110,7 +113,8 @@ const RandomData1: any[] = [
       "No, blood type can only be tested, not changed"
     ],
     correctOptions: "No, blood type is permanent",
-    slug: "can-blood-type-change"
+    slug: "can-blood-type-change",
+    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
   },
   {
     id: 11,
@@ -165,7 +169,8 @@ const RandomData1: any[] = [
     name: "How many blood tests are typically done during pregnancy?",
     options: ["1-2 tests", "3-4 tests", "5-6 tests", "More than 6 tests"],
     correctOptions: "3-4 tests",
-    slug: "how-many-blood-tests-during-pregnancy"
+    slug: "how-many-blood-tests-during-pregnancy",
+    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
   },
   {
     id: 16,
@@ -244,7 +249,8 @@ const RandomData1: any[] = [
       "No, it is the most common type"
     ],
     correctOptions: "Yes, it is one of the rarest types",
-    slug: "is-ab-plus-blood-rare"
+    slug: "is-ab-plus-blood-rare",
+    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
   },
   {
     id: 23,
@@ -263,7 +269,8 @@ const RandomData1: any[] = [
     name: "What blood type am I?",
     options: ["A, B, AB, or O", "Positive or Negative", "A or B", "AB or O"],
     correctOptions: "A, B, AB, or O",
-    slug: "what-blood-type-am-i"
+    slug: "what-blood-type-am-i",
+    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
   },
   {
     id: 25,
@@ -275,7 +282,8 @@ const RandomData1: any[] = [
       "Type A blood type"
     ],
     correctOptions: "Rh-negative blood type",
-    slug: "what-blood-type-rejects-pregnancy"
+    slug: "what-blood-type-rejects-pregnancy",
+    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
   },
   {
     id: 26,
@@ -1091,7 +1099,7 @@ const RandomData2: any[] = [
     options: ["Lahore", "Karachi", "Delhi", "Islamabad"],
     correctOptions: "Lahore",
     slug: "which-major-city-is-located-near-the-ravi-river",
-    relatedQuizzes: [108, 109, 110, 112]
+    relatedQuizzes: [108, 109, 110, 112, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 448, 449, 453, 456, 457, 459]
   },
   {
     id: 112,
@@ -1310,7 +1318,8 @@ const RandomData2: any[] = [
     name: "What city has the most gun violence?",
     options: ["Chicago", "Los Angeles", "New York", "St. Louis"],
     correctOptions: "St. Louis",
-    slug: "what-city-has-the-most-gun-violence"
+    slug: "what-city-has-the-most-gun-violence",
+    relatedQuizzes: [111, 136, 177, 189, 385, 394, 396, 412, 438, 446, 448, 449, 453, 456, 457, 459]
   },
   {
     id: 137,
@@ -1657,7 +1666,9 @@ const RandomData2: any[] = [
       "Buffalo, New York"
     ],
     correctOptions: "Fairbanks, Alaska",
-    slug: "what-is-the-coldest-city-in-the-us"
+    slug: "what-is-the-coldest-city-in-the-us",
+    relatedQuizzes: [111, 136, 189, 385, 394, 396, 412, 438, 446, 448, 449, 453, 456, 457, 459]
+
   },
   {
     id: 178,
@@ -1756,7 +1767,8 @@ const RandomData2: any[] = [
     name: "What is the coldest city on Earth?",
     options: ["Moscow", "Barrow", "Yakutsk", "Oymyakon"],
     correctOptions: "Oymyakon",
-    slug: "what-is-the-coldest-city-on-earth"
+    slug: "what-is-the-coldest-city-on-earth",
+    relatedQuizzes: [111, 136, 177, 385, 394, 396, 412, 438, 446, 448, 449, 453, 456, 457, 459]
   },
   {
     id: 190,
@@ -1988,21 +2000,24 @@ const RandomData3: any[] = [
     name: "What is the average life span of red blood cells?",
     options: ["60 days", "90 days", "120 days", "150 days"],
     correctOptions: "120 days",
-    slug: "average-life-span-of-red-blood-cells"
+    slug: "average-life-span-of-red-blood-cells",
+    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
   },
   {
     id: 219,
     name: "Where are red blood cells produced in the body?",
     options: ["Heart", "Liver", "Bone marrow", "Lungs"],
     correctOptions: "Bone marrow",
-    slug: "red-blood-cells-produced"
+    slug: "red-blood-cells-produced",
+    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
   },
   {
     id: 220,
     name: "Which organ is responsible for the destruction of old red blood cells?",
     options: ["Kidneys", "Spleen", "Lungs", "Pancreas"],
     correctOptions: "Spleen",
-    slug: "organ-responsible-for-red-blood-cells-destruction"
+    slug: "organ-responsible-for-red-blood-cells-destruction",
+    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
   },
   {
     id: 221,
@@ -2014,56 +2029,64 @@ const RandomData3: any[] = [
       "Producing hormones"
     ],
     correctOptions: "Carrying oxygen",
-    slug: "main-function-of-red-blood-cells"
+    slug: "main-function-of-red-blood-cells",
+    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
   },
   {
     id: 222,
     name: "What protein in red blood cells binds to oxygen?",
     options: ["Albumin", "Hemoglobin", "Fibrinogen", "Myosin"],
     correctOptions: "Hemoglobin",
-    slug: "protein-in-red-blood-cells-that-binds-oxygen"
+    slug: "protein-in-red-blood-cells-that-binds-oxygen",
+    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
   },
   {
     id: 223,
     name: "What is the shape of a typical red blood cell?",
     options: ["Biconcave", "Spherical", "Cylindrical", "Oval"],
     correctOptions: "Biconcave",
-    slug: "shape-of-red-blood-cell"
+    slug: "shape-of-red-blood-cell",
+    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
   },
   {
     id: 224,
     name: "Which vitamin is essential for the production of red blood cells?",
     options: ["Vitamin A", "Vitamin B12", "Vitamin D", "Vitamin E"],
     correctOptions: "Vitamin B12",
-    slug: "vitamin-essential-for-red-blood-cells-production"
+    slug: "vitamin-essential-for-red-blood-cells-production",
+    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
   },
   {
     id: 225,
     name: "What condition is caused by a low red blood cell count?",
     options: ["Leukemia", "Hemophilia", "Anemia", "Thrombosis"],
     correctOptions: "Anemia",
-    slug: "condition-caused-by-low-red-blood-cell-count"
+    slug: "condition-caused-by-low-red-blood-cell-count",
+    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
   },
   {
     id: 226,
     name: "What is the typical count of red blood cells per microliter of blood?",
     options: ["1-2 million", "3-4 million", "4-6 million", "7-8 million"],
     correctOptions: "4-6 million",
-    slug: "typical-count-of-red-blood-cells"
+    slug: "typical-count-of-red-blood-cells",
+    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
   },
   {
     id: 227,
     name: "How much of the human blood volume is made up of red blood cells?",
     options: ["10%", "25%", "45%", "60%"],
     correctOptions: "45%",
-    slug: "percentage-of-blood-volume-red-blood-cells"
+    slug: "percentage-of-blood-volume-red-blood-cells",
+    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
   },
   {
     id: 228,
     name: "Which organ produces erythropoietin, a hormone that stimulates red blood cell production?",
     options: ["Liver", "Spleen", "Kidneys", "Pancreas"],
     correctOptions: "Kidneys",
-    slug: "organ-produces-erythropoietin"
+    slug: "organ-produces-erythropoietin",
+    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
   },
   {
     id: 229,
@@ -2084,7 +2107,8 @@ const RandomData3: any[] = [
     name: "What is the normal pH range of human blood?",
     options: ["6.8-7.2", "7.35-7.45", "7.8-8.2", "8.5-9.0"],
     correctOptions: "7.35-7.45",
-    slug: "normal-ph-range-of-blood"
+    slug: "normal-ph-range-of-blood",
+    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
   },
   {
     id: 232,
@@ -2096,35 +2120,40 @@ const RandomData3: any[] = [
       "Plasma cells"
     ],
     correctOptions: "Platelets",
-    slug: "blood-cells-responsible-for-clotting"
+    slug: "blood-cells-responsible-for-clotting",
+    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
   },
   {
     id: 233,
     name: "What percentage of human blood is plasma?",
     options: ["20%", "40%", "55%", "70%"],
     correctOptions: "55%",
-    slug: "percentage-of-blood-that-is-plasma"
+    slug: "percentage-of-blood-that-is-plasma",
+    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
   },
   {
     id: 234,
     name: "What blood type is known as the universal donor?",
     options: ["Type A", "Type B", "Type AB", "Type O"],
     correctOptions: "Type O",
-    slug: "universal-donor-blood-type"
+    slug: "universal-donor-blood-type",
+    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
   },
   {
     id: 235,
     name: "Which blood type is known as the universal recipient?",
     options: ["Type A", "Type B", "Type AB", "Type O"],
     correctOptions: "Type AB",
-    slug: "universal-recipient-blood-type"
+    slug: "universal-recipient-blood-type",
+    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
   },
   {
     id: 236,
     name: "Which of the following is a hereditary disorder affecting red blood cells?",
     options: ["Hemophilia", "Sickle cell anemia", "Leukemia", "Thalassemia"],
     correctOptions: "Sickle cell anemia",
-    slug: "hereditary-disorder-affecting-red-blood-cells"
+    slug: "hereditary-disorder-affecting-red-blood-cells",
+    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
   },
   {
     id: 237,
@@ -2136,7 +2165,8 @@ const RandomData3: any[] = [
       "Oxygen demand"
     ],
     correctOptions: "Oxygen saturation",
-    slug: "oxygen-carrying-capacity-of-hemoglobin"
+    slug: "oxygen-carrying-capacity-of-hemoglobin",
+    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
   },
   {
     id: 238,
@@ -2148,21 +2178,24 @@ const RandomData3: any[] = [
       "Aplastic anemia"
     ],
     correctOptions: "Polycythemia",
-    slug: "condition-caused-by-excess-of-red-blood-cells"
+    slug: "condition-caused-by-excess-of-red-blood-cells",
+    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
   },
   {
     id: 239,
     name: "Which of the following blood components is primarily involved in immune responses?",
     options: ["Platelets", "White blood cells", "Red blood cells", "Plasma"],
     correctOptions: "White blood cells",
-    slug: "blood-component-involved-in-immune-response"
+    slug: "blood-component-involved-in-immune-response",
+    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
   },
   {
     id: 240,
     name: "Which organ filters and recycles red blood cells?",
     options: ["Liver", "Spleen", "Heart", "Kidneys"],
     correctOptions: "Spleen",
-    slug: "organ-filters-recycles-red-blood-cells"
+    slug: "organ-filters-recycles-red-blood-cells",
+    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
   },
   {
     id: 241,
@@ -2174,35 +2207,40 @@ const RandomData3: any[] = [
       "They are biconvex"
     ],
     correctOptions: "They lack mitochondria",
-    slug: "characteristic-feature-of-mature-red-blood-cells"
+    slug: "characteristic-feature-of-mature-red-blood-cells",
+    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
   },
   {
     id: 242,
     name: "What is the color of oxygenated blood?",
     options: ["Red", "Blue", "Purple", "Yellow"],
     correctOptions: "Red",
-    slug: "color-of-oxygenated-blood"
+    slug: "color-of-oxygenated-blood",
+    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
   },
   {
     id: 243,
     name: "What is the condition where red blood cells become abnormally shaped, leading to blockages in blood vessels?",
     options: ["Sickle cell anemia", "Leukemia", "Hemophilia", "Polycythemia"],
     correctOptions: "Sickle cell anemia",
-    slug: "condition-abnormally-shaped-red-blood-cells"
+    slug: "condition-abnormally-shaped-red-blood-cells",
+    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
   },
   {
     id: 244,
     name: "What is the average diameter of a red blood cell?",
     options: ["4-5 µm", "6-7 µm", "8-9 µm", "10-12 µm"],
     correctOptions: "6-7 µm",
-    slug: "average-diameter-of-red-blood-cell"
+    slug: "average-diameter-of-red-blood-cell",
+    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
   },
   {
     id: 245,
     name: "Which element is crucial for the formation of hemoglobin in red blood cells?",
     options: ["Zinc", "Copper", "Iron", "Magnesium"],
     correctOptions: "Iron",
-    slug: "element-crucial-for-hemoglobin-formation"
+    slug: "element-crucial-for-hemoglobin-formation",
+    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
   },
   {
     id: 246,
@@ -2221,42 +2259,48 @@ const RandomData3: any[] = [
     name: "Which blood disorder is characterized by an abnormal increase in white blood cells?",
     options: ["Anemia", "Polycythemia", "Leukocytosis", "Hemophilia"],
     correctOptions: "Leukocytosis",
-    slug: "blood-disorder-abnormal-increase-in-white-blood-cells"
+    slug: "blood-disorder-abnormal-increase-in-white-blood-cells",
+    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
   },
   {
     id: 248,
     name: "Which condition causes bone marrow failure and affects the production of red blood cells?",
     options: ["Hemophilia", "Aplastic anemia", "Leukemia", "Thrombocytopenia"],
     correctOptions: "Aplastic anemia",
-    slug: "bone-marrow-failure-affects-red-blood-cells"
+    slug: "bone-marrow-failure-affects-red-blood-cells",
+    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
   },
   {
     id: 249,
     name: "What is the term for the production of red blood cells?",
     options: ["Hemolysis", "Erythropoiesis", "Leukopoiesis", "Thrombopoiesis"],
     correctOptions: "Erythropoiesis",
-    slug: "production-of-red-blood-cells"
+    slug: "production-of-red-blood-cells",
+    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
   },
   {
     id: 250,
     name: "Which blood component is primarily responsible for transporting carbon dioxide from the tissues to the lungs?",
     options: ["Plasma", "Platelets", "Red blood cells", "White blood cells"],
     correctOptions: "Red blood cells",
-    slug: "component-transports-carbon-dioxide"
+    slug: "component-transports-carbon-dioxide",
+    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
   },
   {
     id: 251,
     name: "What percentage of carbon dioxide in the blood is transported by red blood cells?",
     options: ["5%", "23%", "70%", "90%"],
     correctOptions: "23%",
-    slug: "percentage-of-carbon-dioxide-transported-by-red-blood-cells"
+    slug: "percentage-of-carbon-dioxide-transported-by-red-blood-cells",
+    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
   },
   {
     id: 252,
     name: "What is the primary gas transported by red blood cells?",
     options: ["Nitrogen", "Carbon dioxide", "Oxygen", "Hydrogen"],
     correctOptions: "Oxygen",
-    slug: "primary-gas-transported-by-red-blood-cells"
+    slug: "primary-gas-transported-by-red-blood-cells",
+    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
   },
   {
     id: 253,
@@ -2268,35 +2312,40 @@ const RandomData3: any[] = [
       "They dissolve in plasma"
     ],
     correctOptions: "They are destroyed in the spleen",
-    slug: "what-happens-to-red-blood-cells-after-lifespan"
+    slug: "what-happens-to-red-blood-cells-after-lifespan",
+    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
   },
   {
     id: 254,
     name: "Which cells in the spleen are responsible for breaking down old red blood cells?",
     options: ["Macrophages", "Lymphocytes", "Neutrophils", "Eosinophils"],
     correctOptions: "Macrophages",
-    slug: "cells-in-spleen-break-down-red-blood-cells"
+    slug: "cells-in-spleen-break-down-red-blood-cells",
+    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
   },
   {
     id: 255,
     name: "Which genetic condition leads to crescent-shaped red blood cells?",
     options: ["Thalassemia", "Sickle cell anemia", "Hemophilia", "Leukemia"],
     correctOptions: "Sickle cell anemia",
-    slug: "genetic-condition-crescent-shaped-red-blood-cells"
+    slug: "genetic-condition-crescent-shaped-red-blood-cells",
+    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
   },
   {
     id: 256,
     name: "What is the primary waste product carried by red blood cells to the lungs?",
     options: ["Ammonia", "Carbon dioxide", "Nitrogen", "Urea"],
     correctOptions: "Carbon dioxide",
-    slug: "primary-waste-product-carried-by-red-blood-cells"
+    slug: "primary-waste-product-carried-by-red-blood-cells",
+    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
   },
   {
     id: 257,
     name: "Which organ is responsible for detecting low oxygen levels and increasing red blood cell production?",
     options: ["Liver", "Lungs", "Kidneys", "Spleen"],
     correctOptions: "Kidneys",
-    slug: "organ-detects-low-oxygen-levels"
+    slug: "organ-detects-low-oxygen-levels",
+    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
   },
   {
     id: 258,
@@ -2329,21 +2378,24 @@ const RandomData3: any[] = [
     name: "What is the life span of white blood cells?",
     options: ["1 day", "1-3 days", "10-12 days", "100 days"],
     correctOptions: "1-3 days",
-    slug: "life-span-of-white-blood-cells"
+    slug: "life-span-of-white-blood-cells",
+    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
   },
   {
     id: 262,
     name: "What is the liquid portion of blood called?",
     options: ["Plasma", "Serum", "Lymph", "Hemoglobin"],
     correctOptions: "Plasma",
-    slug: "liquid-portion-of-blood"
+    slug: "liquid-portion-of-blood",
+    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
   },
   {
     id: 263,
     name: "Which component of the blood is responsible for fighting infections?",
     options: ["Red blood cells", "White blood cells", "Platelets", "Plasma"],
     correctOptions: "White blood cells",
-    slug: "blood-component-fighting-infections"
+    slug: "blood-component-fighting-infections",
+    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
   },
   {
     id: 264,
@@ -2355,35 +2407,40 @@ const RandomData3: any[] = [
       "Hyperventilation"
     ],
     correctOptions: "Blood loss",
-    slug: "cause-reduction-red-blood-cell-count"
+    slug: "cause-reduction-red-blood-cell-count",
+    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
   },
   {
     id: 265,
     name: "What happens if red blood cells are destroyed too quickly in the body?",
     options: ["Anemia", "Leukocytosis", "Polycythemia", "Thrombocytopenia"],
     correctOptions: "Anemia",
-    slug: "red-blood-cells-destroyed-too-quickly"
+    slug: "red-blood-cells-destroyed-too-quickly",
+    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
   },
   {
     id: 266,
     name: "What is the typical lifespan of a red blood cell in newborns?",
     options: ["60 days", "90 days", "120 days", "150 days"],
     correctOptions: "90 days",
-    slug: "lifespan-of-red-blood-cell-in-newborns"
+    slug: "lifespan-of-red-blood-cell-in-newborns",
+    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
   },
   {
     id: 267,
     name: "What is the main energy source for red blood cells?",
     options: ["Oxygen", "Glucose", "Lipids", "Proteins"],
     correctOptions: "Glucose",
-    slug: "main-energy-source-for-red-blood-cells"
+    slug: "main-energy-source-for-red-blood-cells",
+    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
   },
   {
     id: 268,
     name: "What is the average lifespan of red blood cells in a patient with sickle cell anemia?",
     options: ["30 days", "60 days", "90 days", "120 days"],
     correctOptions: "30 days",
-    slug: "average-lifespan-of-red-blood-cells-sickle-cell-anemia"
+    slug: "average-lifespan-of-red-blood-cells-sickle-cell-anemia",
+    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
   },
   {
     id: 269,
@@ -3614,7 +3671,8 @@ const RandomData4: any[] = [
     name: "What is the largest city on Earth?",
     options: ["Tokyo", "New York", "Shanghai", "São Paulo"],
     correctOptions: "Tokyo",
-    slug: "what-is-the-largest-city-on-earth"
+    slug: "what-is-the-largest-city-on-earth",
+    relatedQuizzes: [111, 136, 177, 189, 394, 396, 412, 438, 446, 448, 449, 453, 456, 457, 459]
   },
   {
     id: 386,
@@ -3663,7 +3721,8 @@ const RandomData4: any[] = [
     name: "Who is the father of mathematics?",
     options: ["Pythagoras", "Euclid", "Archimedes", "Leonhard Euler"],
     correctOptions: "Pythagoras",
-    slug: "who-is-the-father-of-mathematics"
+    slug: "who-is-the-father-of-mathematics",
+    relatedQuizzes: [393, 399, 400, 419, 420, 436]
   },
   {
     id: 393,
@@ -3675,14 +3734,16 @@ const RandomData4: any[] = [
       "Michael Faraday"
     ],
     correctOptions: "Isaac Newton",
-    slug: "who-is-the-father-of-physics"
+    slug: "who-is-the-father-of-physics",
+    relatedQuizzes: [392, 399, 400, 419, 420, 436]
   },
   {
     id: 394,
     name: "What is the smallest city in the world?",
     options: ["Vatican City", "San Marino", "Monaco", "Nauru"],
     correctOptions: "Vatican City",
-    slug: "what-is-the-smallest-city-in-the-world"
+    slug: "what-is-the-smallest-city-in-the-world",
+    relatedQuizzes: [111, 136, 137, 177, 189, 385, 396, 412, 438, 446, 448, 449, 453, 456, 457, 459]
   },
   {
     id: 395,
@@ -3694,14 +3755,16 @@ const RandomData4: any[] = [
       "Scientific Investigation and Exploration of Natural Elements"
     ],
     correctOptions: "Systematic Investigation of Nature",
-    slug: "what-is-the-full-form-of-science"
+    slug: "what-is-the-full-form-of-science",
+    relatedQuizzes: [482, 467, 479, 481]
   },
   {
     id: 396,
     name: "What is the richest city in the world?",
     options: ["New York", "Tokyo", "Shanghai", "London"],
     correctOptions: "New York",
-    slug: "what-is-the-richest-city-in-the-world"
+    slug: "what-is-the-richest-city-in-the-world",
+    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 412, 438, 446, 448, 449, 453, 456, 457, 459]
   },
   {
     id: 397,
@@ -3727,7 +3790,8 @@ const RandomData4: any[] = [
       "Charles Darwin"
     ],
     correctOptions: "Galileo Galilei",
-    slug: "who-is-the-father-of-modern-science"
+    slug: "who-is-the-father-of-modern-science",
+    relatedQuizzes: [392, 393, 400, 419, 420, 436]
   },
   {
     id: 400,
@@ -3739,7 +3803,8 @@ const RandomData4: any[] = [
       "Dmitri Mendeleev"
     ],
     correctOptions: "Antoine Lavoisier",
-    slug: "who-is-called-the-father-of-chemistry"
+    slug: "who-is-called-the-father-of-chemistry",
+    relatedQuizzes: [392, 393, 399, 419, 420, 436]
   }
 ]
 
@@ -3834,7 +3899,8 @@ const RandomData5: any[] = [
     name: "Which country has no capital city?",
     options: ["Nauru", "Vatican City", "Liechtenstein", "San Marino"],
     correctOptions: "Nauru",
-    slug: "which-country-has-no-capital-city"
+    slug: "which-country-has-no-capital-city",
+    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 396, 438, 446, 448, 449, 453, 456, 457, 459]
   },
   {
     id: 413,
@@ -3893,7 +3959,8 @@ const RandomData5: any[] = [
       "Rudolf Virchow"
     ],
     correctOptions: "Robert Hooke",
-    slug: "who-is-the-father-of-cell"
+    slug: "who-is-the-father-of-cell",
+    relatedQuizzes: [392, 393, 399, 480, 420, 436]
   },
   {
     id: 420,
@@ -3905,7 +3972,8 @@ const RandomData5: any[] = [
       "Nikola Tesla"
     ],
     correctOptions: "Isaac Newton",
-    slug: "who-is-the-father-of-gravity"
+    slug: "who-is-the-father-of-gravity",
+    relatedQuizzes: [392, 393, 399, 480, 419, 436]
   },
   {
     id: 421,
@@ -4027,7 +4095,8 @@ const RandomData5: any[] = [
     name: "Who is the father of biology?",
     options: ["Aristotle", "Charles Darwin", "Gregor Mendel", "Louis Pasteur"],
     correctOptions: "Aristotle",
-    slug: "who-is-the-father-of-biology"
+    slug: "who-is-the-father-of-biology",
+    relatedQuizzes: [392, 393, 399, 480, 419, 420]
   },
   {
     id: 437,
@@ -4041,7 +4110,8 @@ const RandomData5: any[] = [
     name: "What is the largest city in the world?",
     options: ["Tokyo", "New York", "Shanghai", "Delhi"],
     correctOptions: "Tokyo",
-    slug: "what-is-the-largest-city-in-the-world"
+    slug: "what-is-the-largest-city-in-the-world",
+    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 396, 412, 446, 448, 449, 453, 456, 457, 459]
   },
   {
     id: 439,
@@ -4117,7 +4187,9 @@ const RandomData5: any[] = [
     name: "What is the coldest capital city in the world?",
     options: ["Moscow", "Helsinki", "Ulaanbaatar", "Oslo"],
     correctOptions: "Ulaanbaatar",
-    slug: "what-is-the-coldest-capital-city-in-the-world"
+    slug: "what-is-the-coldest-capital-city-in-the-world",
+    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 448, 449, 453, 456, 457, 459]
+
   },
   {
     id: 447,
@@ -4136,14 +4208,17 @@ const RandomData5: any[] = [
     name: "What is the highest city in the world?",
     options: ["La Paz", "Quito", "Lhasa", "Kathmandu"],
     correctOptions: "La Paz",
-    slug: "what-is-the-highest-city-in-the-world"
+    slug: "what-is-the-highest-city-in-the-world",
+    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 449, 453, 456, 457, 459]
+
   },
   {
     id: 449,
     name: "What is the northernmost capital city in the world?",
     options: ["Reykjavik", "Oslo", "Helsinki", "Stockholm"],
     correctOptions: "Reykjavik",
-    slug: "what-is-the-northernmost-capital-city-in-the-world"
+    slug: "what-is-the-northernmost-capital-city-in-the-world",
+    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 448, 453, 456, 457, 459]
   },
   {
     id: 450,
@@ -4181,7 +4256,8 @@ const RandomData5: any[] = [
     name: "Which is the largest city in Pakistan?",
     options: ["Lahore", "Karachi", "Islamabad", "Faisalabad"],
     correctOptions: "Karachi",
-    slug: "which-is-the-largest-city-in-pakistan"
+    slug: "which-is-the-largest-city-in-pakistan",
+    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 448, 449, 456, 457, 459]
   },
   {
     id: 454,
@@ -4202,14 +4278,17 @@ const RandomData5: any[] = [
     name: "What capital city is 7200 feet above sea level?",
     options: ["La Paz", "Quito", "Lhasa", "Kathmandu"],
     correctOptions: "La Paz",
-    slug: "what-capital-city-is-7200-feet-above-sea-level"
+    slug: "what-capital-city-is-7200-feet-above-sea-level",
+    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 448, 449, 453, 457, 459]
   },
   {
     id: 457,
     name: "What is Europe's highest capital city?",
     options: ["Vienna", "Bern", "Madrid", "Andorra la Vella"],
     correctOptions: "Andorra la Vella",
-    slug: "what-is-europes-highest-capital-city"
+    slug: "what-is-europes-highest-capital-city",
+    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 448, 449, 453, 456, 459]
+
   },
   {
     id: 458,
@@ -4223,7 +4302,8 @@ const RandomData5: any[] = [
     name: "What is the highest city in Europe?",
     options: ["Zurich", "Vienna", "Andorra la Vella", "Madrid"],
     correctOptions: "Andorra la Vella",
-    slug: "what-is-the-highest-city-in-europe"
+    slug: "what-is-the-highest-city-in-europe",
+    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 448, 449, 453, 456, 457]
   },
   {
     id: 460,
@@ -4300,7 +4380,8 @@ const RandomData5: any[] = [
       "Deoxyribose Nucleotide Acid"
     ],
     correctOptions: "Deoxyribonucleic Acid",
-    slug: "what-is-the-full-form-of-dna"
+    slug: "what-is-the-full-form-of-dna",
+    relatedQuizzes: [482, 479, 481, 395]
   },
   {
     id: 468,
@@ -4397,7 +4478,8 @@ const RandomData5: any[] = [
       "Wide Frequency"
     ],
     correctOptions: "Wireless Fidelity",
-    slug: "what-is-the-full-form-of-wifi"
+    slug: "what-is-the-full-form-of-wifi",
+    relatedQuizzes: [482, 467, 479, 481, 395]
   },
   {
     id: 479,
@@ -4409,7 +4491,8 @@ const RandomData5: any[] = [
       "Subscriber Information Method"
     ],
     correctOptions: "Subscriber Identity Module",
-    slug: "what-is-sim-full-form"
+    slug: "what-is-sim-full-form",
+    relatedQuizzes: [482, 467, 478, 481, 395]
   },
   {
     id: 480,
@@ -4433,14 +4516,16 @@ const RandomData5: any[] = [
       "None of the above"
     ],
     correctOptions: "None of the above",
-    slug: "what-is-the-full-form-of-google"
+    slug: "what-is-the-full-form-of-google",
+    relatedQuizzes: [482, 467, 478, 479, 395]
   },
   {
     id: 482,
     name: "What is the full form of OK?",
     options: ["Oll Korrect", "Okay", "Optical Knowledge", "None of the above"],
     correctOptions: "Oll Korrect",
-    slug: "what-is-the-full-form-of-ok"
+    slug: "what-is-the-full-form-of-ok",
+    relatedQuizzes: [467, 478, 479, 481, 395]
   }
 ]
 

@@ -1,6 +1,6 @@
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 
-export default function DataClass11Book() {
+export default function DataClass12Book() {
   return (
     <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
       {MainDataClass11Book.map((data: any) => {
@@ -13,7 +13,7 @@ export default function DataClass11Book() {
                   <CardSmall
                     key={data.name}
                     title={data.name}
-                    link={`/class-11/books/${data.slug}`}
+                    link={`/class-12/books/${data.slug}/`}
                   />
                 )
               })}
@@ -58,20 +58,8 @@ const MainDataClass11Book = [
         slug: 'punjab-board-economics',
       },
       {
-        name: 'Islamiat',
-        slug: 'punjab-board-islamiat',
-      },
-      {
-        name: 'Ikhlaqiat',
-        slug: 'punjab-board-ikhlaqiat',
-      },
-      {
         name: 'Tarjuma Tul Quran',
         slug: 'punjab-board-tarjuma-tul-quran',
-      },
-      {
-        name: 'General Math',
-        slug: 'punjab-board-general-math',
       },
       {
         name: 'Pak Study',
