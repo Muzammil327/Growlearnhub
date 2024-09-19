@@ -2,23 +2,23 @@ import React from 'react'
 import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
 import PDFViewer from '@/src/components/element/PDFViewer'
-import DataClass9Book from '@/src/app/(main)/(class)/class-9/books/DataClass9Book'
+import DataClass11Book from '@/src/app/(main)/(class)/class-11/books/DataClass11Book'
 
 const data = {
-  title: 'Tarjuma Tul Quran Class 9 Book PDF | 9th Class Punjab Text Book',
+  title: 'Tarjuma Tul Quran Class 11 Book PDF | 11th Class Punjab Text Book',
   description:
-    'Download the official Tarjuma Tul Quran Class 9 textbook PDF by Punjab Board. This comprehensive guide covers the entire syllabus with clear explanation.',
-  canonical: '/class-9/books/punjab-board-tarjuma-tul-quran/',
+    'Download the official Tarjuma Tul Quran Class 11 textbook PDF by Punjab Board. This comprehensive guide covers the entire syllabus with clear explanation.',
+  canonical: '/class-11/books/punjab-board-tarjuma-tul-quran/',
   index: true,
   follow: true,
-  image: '/9th/book/punjab/class-9-tarjuma-tul-quran-book-punjab-board.webp',
-  url: 'https://growlearnhub.com/class-9/books/punjab-board-tarjuma-tul-quran/',
+  image: '/11th/book/punjab/class-11-tarjuma-tul-quran-book-punjab-board.webp',
+  url: 'https://growlearnhub.com/class-11/books/punjab-board-tarjuma-tul-quran/',
   keywords: [
-    'tarjuma-tul-quran class 9 punjab text book pdf',
-    'class 9 tarjuma-tul-quran book pdf punjab board',
-    '9th class tarjuma-tul-quran punjab text book',
-    'tarjuma-tul-quran book class 9 punjab board',
-    'class 9 tarjuma-tul-quran book punjab board',
+    'tarjuma-tul-quran class 11 punjab text book pdf',
+    'class 11 tarjuma-tul-quran book pdf punjab board',
+    '11th class tarjuma-tul-quran punjab text book',
+    'tarjuma-tul-quran book class 11 punjab board',
+    'class 11 tarjuma-tul-quran book punjab board',
   ],
   fileId_urdu: '1qKP8ytj1ahOqFTE-y9oul_nFytNWtd6F',
   clist: [
@@ -42,25 +42,25 @@ export default function Page() {
       title={data.title}
       url={data.canonical}
       b1="Books"
-      b1Link="/class-9/books/"
+      b1Link="/class-11/books/"
       b2="Punjab Board Tarjuma Tul Quran"
       image={data.image}
       clist={data.clist}
     >
       <p>
-        Are you looking for a <strong>Class 9 tarjuma tul quran book punjab board</strong>
+        Are you looking for a <strong>Class 11 tarjuma tul quran book punjab board</strong>
         ? Here, you can access all the books you need for free. Our website
         offers a complete collection of books for students in Class 9, 10, 11,
         and 12. Whether you&apos;re preparing for exams or need extra resources,
         we&apos;ve got you covered.
       </p>
-      <h3>Download Class 9 Tarjuma Tul Quran Book Punjab Board</h3>
+      <h3>Download Class 11 Tarjuma Tul Quran Book Punjab Board</h3>
       <p>
-        Here, you can download Matric class 9 Tarjuma Tul Quran Text Book in PDF Format.
+        Here, you can download Matric class 11 Tarjuma Tul Quran Text Book in PDF Format.
         This book is officially published by Punjab Text Book Board.
       </p>
       <PDFViewer pdfUrl={data.fileId_urdu} />
-      <DataClass9Book />
+      <DataClass11Book />
     </Wrapper>
   )
 }

@@ -3,29 +3,30 @@ import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
 import PDFViewer from '@/src/components/element/PDFViewer'
 import Link from 'next/link'
-import DataClass9Book from '@/src/app/(main)/(class)/class-9/books/DataClass9Book'
+import DataClass11Book from '@/src/app/(main)/(class)/class-11/books/DataClass11Book'
 
 const data = {
   title:
-    '9th Physics Book PDF English Medium Download | Punjab',
+    '11th Physics Book PDF English Medium Download | Punjab',
   description:
-    'Download the 9th Class Physics Book PDF in English Medium for free. Get the Punjab Board-approved textbook and explore chapter-wise downloads.',
-  canonical: '/class-9/books/punjab-board-physics/english-medium/',
+    'Download the 11th Class Physics Book PDF in English Medium for free. Get the Punjab Board-approved textbook and explore chapter-wise downloads.',
+  canonical: '/class-11/books/punjab-board-physics/english-medium/',
   index: true,
   follow: true,
-  image: '/9th/book/punjab/class-9-physics-book-punjab-board.webp',
-  url: 'https://growlearnhub.com/class-9/books/punjab-board-physics/english-medium/',
+  image: '/11th/book/punjab/class-11-physics-book-punjab-board.webp',
+  url: 'https://growlearnhub.com/class-11/books/punjab-board-physics/english-medium/',
   keywords: [
-    'physics class 9 punjab text book pdf',
-    'class 9 physics book pdf punjab board',
-    '9th class physics punjab text book',
-    'physics book class 9 punjab board',
-    '9th Class physics Book PDF English Medium Free Download',
-    'class 9 physics book punjab board',
-    'punjab text book physics 9th class pdf english medium',
+    'physics class 11 punjab text book pdf',
+    'class 11 physics book pdf punjab board',
+    '11th class physics punjab text book',
+    'physics book class 11 punjab board',
+    '11th Class physics Book PDF English Medium Free Download',
+    'class 11 physics book punjab board',
+    'punjab text book physics 11th class pdf english medium',
   ],
   fileId_english: '1my_m9qLxXF3LCw4eCFlCJGexOmsazJmg',
   clist: [
+    { name: 'Class 9 Books', slug: '/class-9/books/' },
     { name: 'Class 10 Books', slug: '/class-10/books/' },
     { name: 'Class 11 Books', slug: '/class-11/books/' },
     { name: 'Class 12 Books', slug: '/class-12/books/' },
@@ -46,15 +47,15 @@ export default function Page() {
       title={data.title}
       url={data.canonical}
       b1="Punjab Board Physics"
-      b1Link="/class-9/books/punjab-board-physics/"
+      b1Link="/class-11/books/punjab-board-physics/"
       b2="English Medium"
       image={data.image}
       clist={data.clist}
     >
-      <h3>Physics 9th Class Book English Medium PDF Download Punjab Board</h3>
+      <h3>Physics 11th Class Book English Medium PDF Download Punjab Board</h3>
       <p>
-        Are you looking for a <strong>Class 9 physics book punjab board</strong>
-        ? Here, you can access all the books of class 9 you need for free. Our
+        Are you looking for a <strong>Class 11 physics book punjab board</strong>
+        ? Here, you can access all the books of class 11 you need for free. Our
         website offers a complete collection of books for students in Class 9,
         10, 11, and 12. Whether you&apos;re preparing for exams or need extra
         resources, we&apos;ve got you covered.
@@ -96,11 +97,11 @@ export default function Page() {
 
       <p>
         Here, you can download Matric{' '}
-        <strong>Physics 9th Class Book English Medium PDF </strong>
+        <strong>Physics 11th Class Book English Medium PDF </strong>
         Format. This book is officially published by Punjab Text Book Board.
       </p>
       <PDFViewer pdfUrl={data.fileId_english} />
-      <DataClass9Book />
+      <DataClass11Book />
     </Wrapper>
   )
 }
