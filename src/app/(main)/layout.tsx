@@ -80,6 +80,8 @@ export default function RootLayout({
           name="ahrefs-site-verification"
           content="234939215ab82c4e0069a4dfb6f90dcda6f5777af678e3dffac7654efdddbf42"
         />
+        <meta name="ahrefs-site-verification" content="88f1bd9eeacba509beb6e3f35c2652b474e7cbf87e9f808540f588fe1dcd4eef" />
+
         <meta
           name="google-site-verification"
           content="1VFdWs-EKGhKENv4V6Weuup3qg0kkJGDwoI2gzRryEI"
