@@ -2,16 +2,17 @@ import React from "react"
 import { Metadata } from "next"
 import Wrapper from "@/src/components/element/Wrapper"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
+import { mainDataVuFinalMcqs } from "@/src/app/(main)/(class)/vu/final-mcqs/mainDataVuFinalMcqs"
 
 const data = {
   title: "VU ENG201 Final Term Mcqs",
   description:
     "ENG201 Final Term MCQs page offering extensive question banks, practice questions, answers, and detailed explanations to enhance learning.",
-  canonical: "/vu/Final-mcqs/eng201/",
+  canonical: "/vu/final-mcqs/eng201/",
   index: true,
   follow: true,
   image: "/vu/final-term/eng201_mcqs.webp",
-  url: "https://growlearnhub.com/vu/Final-mcqs/eng201/",
+  url: "https://growlearnhub.com/vu/final-mcqs/eng201/",
   keywords: [
     "growlearnhub",
     "Final mcqs eng201",
@@ -38,12 +39,12 @@ export default function Page() {
       clist={data.clist}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {mainData.map((data: any) => {
+        {mainDataVuFinalMcqs.map((data: any) => {
           return (
             <CardSmall
               key={data.name}
               title={data.name}
-              link={`/vu/final-mcqs/${data.slug}`}
+              link={`/vu/final-mcqs/${data.slug}/`}
             />
           )
         })}
@@ -51,29 +52,6 @@ export default function Page() {
     </Wrapper>
   )
 }
-
-const mainData = [
-  {
-    name: "CS101 Final Mcqs",
-    slug: "/vu/final-mcqs/cs101/"
-  },
-  {
-    name: "CS201 Final Mcqs",
-    slug: "/vu/final-mcqs/cs201/"
-  },
-  {
-    name: "CS302 Final Mcqs",
-    slug: "/vu/final-mcqs/cs302/"
-  },
-  {
-    name: "ENG201 Final Mcqs",
-    slug: "/vu/final-mcqs/eng201/"
-  },
-  {
-    name: "MGT211 Final Mcqs",
-    slug: "/vu/final-mcqs/mgt211/"
-  }
-]
 
 export const metadata: Metadata = {
   title: data.title,

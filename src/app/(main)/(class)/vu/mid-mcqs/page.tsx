@@ -1,29 +1,30 @@
-import React from 'react'
-import { Metadata } from 'next'
-import Wrapper from '@/src/components/element/Wrapper'
-import CardSmall from '@/src/components/card/cardSmall/cardSmall'
+import React from "react"
+import { Metadata } from "next"
+import Wrapper from "@/src/components/element/Wrapper"
+import CardSmall from "@/src/components/card/cardSmall/cardSmall"
+import { mainDataVuMidMcqs } from "@/src/app/(main)/(class)/vu/mid-mcqs/mainDataVuMidMcqs"
 
 const data = {
-  title: 'Virtual University Mid Term Mcqs',
+  title: "Virtual University Mid Term Mcqs",
   description:
-    'Mid Term MCQs page offering extensive question banks, practice questions, answers, and detailed explanations to enhance learning.',
-  canonical: '/vu/mid-mcqs/',
+    "Mid Term MCQs page offering extensive question banks, practice questions, answers, and detailed explanations to enhance learning.",
+  canonical: "/vu/mid-mcqs/",
   index: true,
   follow: true,
-  image: '/vu/vu_mid_term_mcqs.webp',
-  url: 'https://growlearnhub.com/vu/mid-mcqs/',
+  image: "/vu/vu_mid_term_mcqs.webp",
+  url: "https://growlearnhub.com/vu/mid-mcqs/",
   keywords: [
-    'growlearnhub',
-    'mid mcqs',
-    'growlearnhub vu mid mcqs',
-    'vu mid mcqs',
-    'virtual university mid mcqs',
+    "growlearnhub",
+    "mid mcqs",
+    "growlearnhub vu mid mcqs",
+    "vu mid mcqs",
+    "virtual university mid mcqs"
   ],
   clist: [
-    { name: 'Final Term Mcqs', slug: '/vu/final-mcqs/' },
-    { name: 'Handouts', slug: '/vu/handouts/' },
-    { name: 'Mid Mark Calculator', slug: '/vu/mid-mark-calculator/' },
-  ],
+    { name: "Final Term Mcqs", slug: "/vu/final-mcqs/" },
+    { name: "Handouts", slug: "/vu/handouts/" },
+    { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" }
+  ]
 }
 
 export default function Page() {
@@ -38,7 +39,7 @@ export default function Page() {
       clist={data.clist}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {mainData.map((data: any) => {
+        {mainDataVuMidMcqs.map((data: any) => {
           return (
             <CardSmall
               key={data.name}
@@ -52,29 +53,6 @@ export default function Page() {
   )
 }
 
-const mainData = [
-  {
-    name: "CS101 Mid Mcqs",
-    slug: "cs101"
-  },
-  {
-    name: "CS201 Mid Mcqs",
-    slug: "cs201"
-  },
-  {
-    name: "CS302 Mid Mcqs",
-    slug: "cs302"
-  },
-  {
-    name: "ENG201 Mid Mcqs",
-    slug: "eng201"
-  },
-  {
-    name: "MGT211 Mid Mcqs",
-    slug: "mgt211"
-  }
-]
-
 export const metadata: Metadata = {
   title: data.title,
   description: data.description,
@@ -86,27 +64,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title,
-      },
-    ],
+        alt: data.title
+      }
+    ]
   },
   alternates: {
-    canonical: data.canonical,
+    canonical: data.canonical
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow,
-    },
+      follow: data.follow
+    }
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title,
-    },
-  },
+      alt: data.title
+    }
+  }
 }
