@@ -335,7 +335,7 @@ const RandomData1: any[] = [
       "Yes, but with limited sovereignty"
     ],
     correctOptions: "No, it is part of Denmark",
-    slug: "is-greenland-a-country"
+    slug: "is-greenland-a-country",
   },
   {
     id: 32,
@@ -605,7 +605,7 @@ const RandomData1: any[] = [
       "It has limited sovereignty"
     ],
     correctOptions: "No",
-    slug: "is-greenland-a-country-yes-or-no"
+    slug: "is-greenland-a-country-yes-or-no",
   },
   {
     id: 61,
@@ -697,7 +697,7 @@ const RandomData1: any[] = [
     name: "Which country's flag is blue, white, and red?",
     options: ["France", "Australia", "Canada", "Iceland"],
     correctOptions: "France",
-    slug: "which-countrys-flag-is-blue-white-and-red"
+    slug: "which-countrys-flag-is-blue-white-and-red",
   },
   {
     id: 72,
@@ -951,7 +951,7 @@ const RandomData1: any[] = [
     name: "Which country's flag has red in it?",
     options: ["Canada", "United Kingdom", "South Korea", "All of the above"],
     correctOptions: "All of the above",
-    slug: "which-countrys-flag-has-red-in-it"
+    slug: "which-countrys-flag-has-red-in-it",
   },
   {
     id: 99,
@@ -1340,7 +1340,7 @@ const RandomData2: any[] = [
     name: "Which country has the most rivers?",
     options: ["Brazil", "Russia", "China", "Canada"],
     correctOptions: "Russia",
-    slug: "which-country-has-the-most-rivers"
+    slug: "which-country-has-the-most-rivers",
   },
   {
     id: 140,
@@ -1469,7 +1469,7 @@ const RandomData2: any[] = [
     name: "What country has the worst gun violence?",
     options: ["United States", "Brazil", "Mexico", "South Africa"],
     correctOptions: "United States",
-    slug: "what-country-has-the-worst-gun-violence"
+    slug: "what-country-has-the-worst-gun-violence",
   },
   {
     id: 157,
@@ -1739,7 +1739,7 @@ const RandomData2: any[] = [
     name: "Kabaddi is the national game of which country?",
     options: ["India", "Pakistan", "Nepal", "Bangladesh"],
     correctOptions: "India",
-    slug: "kabaddi-is-the-national-game-of-which-country"
+    slug: "kabaddi-is-the-national-game-of-which-country",
   },
   {
     id: 186,
@@ -1914,7 +1914,7 @@ const RandomData3: any[] = [
     name: "Which country has two national anthems?",
     options: ["Switzerland", "Spain", "United Kingdom", "South Africa"],
     correctOptions: "South Africa",
-    slug: "which-country-has-two-national-anthems"
+    slug: "which-country-has-two-national-anthems",
   },
   {
     id: 209,
@@ -3714,7 +3714,7 @@ const RandomData4: any[] = [
     name: "Which is the poorest country?",
     options: ["Burundi", "Central African Republic", "Mozambique", "Niger"],
     correctOptions: "Burundi",
-    slug: "which-is-the-poorest-country"
+    slug: "which-is-the-poorest-country",
   },
   {
     id: 392,
@@ -3914,7 +3914,7 @@ const RandomData5: any[] = [
     name: "Which country has two capitals?",
     options: ["South Africa", "Bolivia", "Netherlands", "Chile"],
     correctOptions: "South Africa",
-    slug: "which-country-has-two-capitals"
+    slug: "which-country-has-two-capitals",
   },
   {
     id: 415,
@@ -4524,8 +4524,10 @@ const RandomData5: any[] = [
     name: "What is the full form of OK?",
     options: ["Oll Korrect", "Okay", "Optical Knowledge", "None of the above"],
     correctOptions: "Oll Korrect",
-    slug: "what-is-the-full-form-of-ok",
-    relatedQuizzes: [467, 478, 479, 481, 395]
+    slug: "what-is-the-full-form-of-ok",183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390, 391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429]
+    relatedQuizzes: [467, 478, 479, 481, 395],
+    relatedQuizzes: [31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139, 148, 153, 156, 158, 160, 170, 172, 
+
   }
 ]
 
