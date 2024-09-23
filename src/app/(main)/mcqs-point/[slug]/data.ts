@@ -1186,7 +1186,16 @@ const RandomData2: any[] = [
     ],
     correctOptions: "720 kilometers",
     slug: "what-is-the-total-length-of-ravi-river",
-    relatedQuizzes: [109, 110, 111, 112]
+    relatedQuizzes: [109, 110, 111, 112],
+    para: `<ul>
+  <li><strong>The Ravi River</strong>, one of the five rivers of Punjab, stretches for approximately 720 kilometers (450 miles).</li>
+  <li>It originates in the <strong>Himalayas</strong> in the Indian state of <strong>Himachal Pradesh</strong>.</li>
+  <li>It flows westward through the Indian state of <strong>Punjab</strong>.</li>
+  <li>It enters <strong>Pakistan</strong> after flowing through India.</li>
+  <li>This river forms the natural boundary between the Indian and Pakistani territories of the <strong>Punjab</strong>.</li>
+  <li>It eventually merges with the <strong>Chenab River</strong> in Pakistan.</li>
+</ul>
+`
   },
   {
     id: 109,
