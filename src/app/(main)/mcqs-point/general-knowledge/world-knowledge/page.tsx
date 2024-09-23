@@ -10,7 +10,7 @@ interface Subject {
 }
 
 const data = {
-  title: 'World General Knowledge Solved Mcqs Wise',
+  title: 'World General Knowledge Solved Mcqs',
   description:
     'Here you can get solved mcqs wise of World General Knowledge like dams, rivers, canals, natural resources, forest, road and motorways.',
   canonical: '/mcqs-point/general-knowledge/world-knowledge/',
@@ -100,12 +100,7 @@ const BookSubjectData: Subject[] = [
   },
   {
     id: 2,
-    name: 'Largest',
-    slug: 'largest',
-  },
-  {
-    id: 3,
-    name: 'Longest',
-    slug: 'longest',
+    name: 'Planet',
+    slug: 'planet',
   },
 ]

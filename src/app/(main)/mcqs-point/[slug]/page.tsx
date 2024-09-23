@@ -7,7 +7,6 @@ import { BiologyMcqsSkeletalSystemBonesMcqs } from "../biology/skeletal-system/b
 import { combinedMcqs } from "./data"
 
 const data = {
-  canonical: "/mcqs-point/biology/skeletal-system/types/",
   b1: "Bones",
   b1Link: "/mcqs-point/biology/skeletal-system/bones/",
   image:
@@ -58,7 +57,7 @@ export default function Page({ params }: IProps) {
   return (
     <Wrapper
       title={Final_Data.name}
-      url={data.canonical}
+      url={`/mcqs-point/${Final_Data.slug}`}
       b1={data.b1}
       b1Link={data.b1Link}
       b2={Final_Data.name}
@@ -73,6 +72,7 @@ export default function Page({ params }: IProps) {
               title={book.name}
               option={book.options}
               correctOption={book.correctOptions}
+              para={book.para}
             />
           ))}
       </div>

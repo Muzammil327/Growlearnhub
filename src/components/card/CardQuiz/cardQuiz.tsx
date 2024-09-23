@@ -14,7 +14,7 @@ interface CardQuizProps2 {
   className?: string
   option: string[]
   correctOption: string
-  description?: string
+  para?: string
 }
 
 export const CardQuiz: React.FC<CardQuizProps> = ({
@@ -52,7 +52,7 @@ export const CardQuizWithoutLink: React.FC<CardQuizProps2> = ({
   correctOption,
   className = '',
   option,
-  description,
+  para,
 }) => {
   return (
     <div className="cardquiz">
@@ -65,9 +65,9 @@ export const CardQuizWithoutLink: React.FC<CardQuizProps2> = ({
       <span className="correctOption">
         The correct option is: {correctOption}
       </span>
-      {description && (
+      {para && (
         <div
-          dangerouslySetInnerHTML={{ __html: description }}
+          dangerouslySetInnerHTML={{ __html: para }}
           className="description"
         ></div>
       )}

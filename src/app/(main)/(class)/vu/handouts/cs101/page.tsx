@@ -1,33 +1,33 @@
-import React from 'react'
-import { Metadata } from 'next'
-import Wrapper from '@/src/components/element/Wrapper'
-import CardSmall from '@/src/components/card/cardSmall/cardSmall'
-import { VuHandoutsData } from '../data'
-import PDFViewer from '@/src/components/element/PDFViewer'
+import React from "react"
+import { Metadata } from "next"
+import Wrapper from "@/src/components/element/Wrapper"
+import CardSmall from "@/src/components/card/cardSmall/cardSmall"
+import { VuHandoutsData } from "../data"
+import PDFViewer from "@/src/components/element/PDFViewer"
 
 const data = {
-  title: 'VU CS101 Handouts Pdf Download',
+  title: "VU CS101 Handouts Pdf Download",
   description:
-    'Access comprehensive CS101 handouts from Virtual University, including downloadable PDFs and detailed study materials to help you excel in your coursework.',
-  canonical: '/vu/handouts/cs101/',
+    "Access comprehensive CS101 handouts from Virtual University, including downloadable PDFs and detailed study materials to help you excel in your coursework.",
+  canonical: "/vu/handouts/cs101/",
   index: true,
   follow: true,
-  image: '/vu/handouts/cs101_handouts.webp',
-  url: 'https://growlearnhub.com/vu/handouts/cs101/',
+  image: "/vu/handouts/cs101_handouts.webp",
+  url: "https://growlearnhub.com/vu/handouts/cs101/",
   keywords: [
-    'growlearnhub',
-    'vu cs101 handouts',
-    'growlearnhub cs101 handouts',
-    'cs101 handouts',
-    'virtual university cs101 handouts',
+    "growlearnhub",
+    "vu cs101 handouts",
+    "growlearnhub cs101 handouts",
+    "cs101 handouts",
+    "virtual university cs101 handouts"
   ],
   clist: [
-    { name: 'Handouts', slug: '/vu/handouts/' },
-    { name: 'Mid Term Mcqs', slug: '/vu/mid-mcqs/' },
-    { name: 'Final Term Mcqs', slug: '/vu/final-mcqs/' },
-    { name: 'Mid Mark Calculator', slug: '/vu/mid-mark-calculator/' },
+    { name: "Handouts", slug: "/vu/handouts/" },
+    { name: "Mid Term Mcqs", slug: "/vu/mid-mcqs/" },
+    { name: "Final Term Mcqs", slug: "/vu/final-mcqs/" },
+    { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" }
   ],
-  fileId: '18dIWS9OYq2p-k_8c019Wve5miBUj6yX8',
+  fileId: "18dIWS9OYq2p-k_8c019Wve5miBUj6yX8"
 }
 
 export default function Page() {
@@ -43,8 +43,18 @@ export default function Page() {
     >
       <h3>Download VU CS101 Handouts</h3>
       <p>
-        Here, you can download Virtual University Handouts in PDF Format. This
-        book is officially published by Virtual University Of Pakistan.
+        Here, you can download Virtual University{" "}
+        <strong>CS101 Handouts</strong> in PDF Format. This book is officially
+        published by Virtual University Of Pakistan. The handouts cover a
+        comprehensive range of topics, including introduction to computer
+        science, programming concepts, data structures, algorithms, and more.
+        These handouts are a valuable resource for students enrolled in the
+        CS101 course, providing a concise and easy-to-understand guide to the
+        subject matter.
+      </p>
+      <p>
+        For Download the <em>CS101 Handouts</em> book for free, click the
+        download button below:
       </p>
       <PDFViewer pdfUrl={data.fileId} />
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
@@ -73,27 +83,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title,
-      },
-    ],
+        alt: data.title
+      }
+    ]
   },
   alternates: {
-    canonical: data.canonical,
+    canonical: data.canonical
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow,
-    },
+      follow: data.follow
+    }
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title,
-    },
-  },
+      alt: data.title
+    }
+  }
 }

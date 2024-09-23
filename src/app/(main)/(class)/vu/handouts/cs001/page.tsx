@@ -1,33 +1,33 @@
-import React from 'react'
-import { Metadata } from 'next'
-import Wrapper from '@/src/components/element/Wrapper'
-import CardSmall from '@/src/components/card/cardSmall/cardSmall'
-import { VuHandoutsData } from '../data'
-import PDFViewer from '@/src/components/element/PDFViewer'
+import React from "react"
+import { Metadata } from "next"
+import Wrapper from "@/src/components/element/Wrapper"
+import CardSmall from "@/src/components/card/cardSmall/cardSmall"
+import { VuHandoutsData } from "../data"
+import PDFViewer from "@/src/components/element/PDFViewer"
 
 const data = {
-  title: 'VU CS001 Handouts Pdf Download',
+  title: "VU CS001 Handouts Pdf Download",
   description:
-    'Access comprehensive CS001 handouts from Virtual University, including downloadable PDFs and detailed study materials to help you excel in your coursework.',
-  canonical: '/vu/handouts/cs001/',
+    "Access comprehensive CS001 handouts from Virtual University, including downloadable PDFs and detailed study materials to help you excel in your coursework.",
+  canonical: "/vu/handouts/cs001/",
   index: true,
   follow: true,
-  image: '/vu/handouts/cs001_handouts.webp',
-  url: 'https://growlearnhub.com/vu/handouts/cs001/',
+  image: "/vu/handouts/cs001_handouts.webp",
+  url: "https://growlearnhub.com/vu/handouts/cs001/",
   keywords: [
-    'growlearnhub',
-    'vu cs001 handouts',
-    'growlearnhub cs001 handouts',
-    'cs001 handouts',
-    'virtual university cs001 handouts',
+    "growlearnhub",
+    "vu cs001 handouts",
+    "growlearnhub cs001 handouts",
+    "cs001 handouts",
+    "virtual university cs001 handouts"
   ],
   clist: [
-    { name: 'Handouts', slug: '/vu/handouts/' },
-    { name: 'Mid Term Mcqs', slug: '/vu/mid-mcqs/' },
-    { name: 'Final Term Mcqs', slug: '/vu/final-mcqs/' },
-    { name: 'Mid Mark Calculator', slug: '/vu/mid-mark-calculator/' },
+    { name: "Handouts", slug: "/vu/handouts/" },
+    { name: "Mid Term Mcqs", slug: "/vu/mid-mcqs/" },
+    { name: "Final Term Mcqs", slug: "/vu/final-mcqs/" },
+    { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" }
   ],
-  fileId: '',
+  fileId: ""
 }
 
 export default function Page() {
@@ -43,8 +43,18 @@ export default function Page() {
     >
       <h3>Download VU CS001 Handouts</h3>
       <p>
-        Here, you can download Virtual University Handouts in PDF Format. This
-        book is officially published by Virtual University Of Pakistan.
+        Here, you can download Virtual University{" "}
+        <strong>CS001 Handouts</strong> in PDF Format. This book is officially
+        published by Virtual University Of Pakistan. The handouts cover a
+        comprehensive range of topics, including introduction to computer
+        science, programming concepts, data structures, algorithms, and more.
+        These handouts are a valuable resource for students enrolled in the
+        CS001 course, providing a concise and easy-to-understand guide to the
+        subject matter.
+      </p>
+      <p>
+        For Download the <em>CS001 Handouts</em> book for free, click the
+        download button below:
       </p>
       <PDFViewer pdfUrl={data.fileId} />
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
@@ -73,27 +83,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title,
-      },
-    ],
+        alt: data.title
+      }
+    ]
   },
   alternates: {
-    canonical: data.canonical,
+    canonical: data.canonical
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow,
-    },
+      follow: data.follow
+    }
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title,
-    },
-  },
+      alt: data.title
+    }
+  }
 }

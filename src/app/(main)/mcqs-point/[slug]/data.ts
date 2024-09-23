@@ -11,8 +11,7 @@ const RandomData1: any[] = [
   {
     id: 1,
     name: "How do I find my blood type?",
-    // catgeory:['skeletal-system', 'bones'],
-    // catgeory:['world-knowledge', 'dams', 'tarbela dam', '9th'],
+    catgeory: ["blood"],
     options: [
       "Through a blood test at a medical facility",
       "By guessing based on family history",
@@ -21,11 +20,15 @@ const RandomData1: any[] = [
     ],
     correctOptions: "Through a blood test at a medical facility",
     slug: "how-do-i-find-my-blood-type",
-    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
+    relatedQuizzes: [
+      1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225,
+      226
+    ]
   },
   {
     id: 2,
     name: "How do I test my IQ?",
+    catgeory: ["iq"],
     options: [
       "By taking an IQ test administered by a psychologist",
       "By solving daily crossword puzzles",
@@ -38,6 +41,7 @@ const RandomData1: any[] = [
   {
     id: 3,
     name: "How can I boost my IQ?",
+    catgeory: ["iq", "dam"],
     options: [
       "By engaging in brain-training activities",
       "By eating spicy foods",
@@ -50,6 +54,7 @@ const RandomData1: any[] = [
   {
     id: 4,
     name: "How can I increase my IQ?",
+    catgeory: ["iq"],
     options: [
       "By reading, learning new skills, and problem-solving",
       "By watching TV for extended hours",
@@ -62,14 +67,19 @@ const RandomData1: any[] = [
   {
     id: 5,
     name: "What blood type do mosquitoes like?",
+    catgeory: ["blood", "mosquito"],
     options: ["Type O", "Type A", "Type B", "Type AB"],
     correctOptions: "Type O",
     slug: "what-blood-type-do-mosquitoes-like",
-    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+    relatedQuizzes: [
+      227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+      244, 245, 246
+    ]
   },
   {
     id: 6,
     name: "What IQ is considered genius level?",
+    catgeory: ["iq"],
     options: ["130 or above", "90-100", "70-80", "50 or below"],
     correctOptions: "130 or above",
     slug: "what-iq-is-considered-genius-level"
@@ -77,22 +87,31 @@ const RandomData1: any[] = [
   {
     id: 7,
     name: "Which blood group is rare?",
+    catgeory: ["blood"],
     options: ["AB-", "O+", "A+", "B+"],
     correctOptions: "AB-",
     slug: "which-blood-group-is-rare",
-    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
+    relatedQuizzes: [
+      247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265,
+      266, 267, 268
+    ]
   },
   {
     id: 8,
     name: "Which is the strongest blood group?",
+    catgeory: ["blood"],
     options: ["O-", "A+", "B-", "AB+"],
     correctOptions: "O-",
     slug: "which-is-the-strongest-blood-group",
-    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
+    relatedQuizzes: [
+      1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225,
+      226
+    ]
   },
   {
     id: 9,
     name: "What are the three smallest bones in the human body?",
+    catgeory: ["bones", "human-body", "skeletal-system"],
     options: [
       "Stapes, Incus, Malleus",
       "Stapes, Incus, Hyoid",
@@ -106,6 +125,7 @@ const RandomData1: any[] = [
   {
     id: 10,
     name: "Can blood type change?",
+    catgeory: ["blood"],
     options: [
       "Yes, with medical procedures",
       "No, blood type is permanent",
@@ -114,11 +134,15 @@ const RandomData1: any[] = [
     ],
     correctOptions: "No, blood type is permanent",
     slug: "can-blood-type-change",
-    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+    relatedQuizzes: [
+      227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+      244, 245, 246
+    ]
   },
   {
     id: 11,
     name: "Can IQ be increased?",
+    catgeory: ["iq"],
     options: [
       "Yes, through mental exercises",
       "No, IQ is fixed at birth",
@@ -131,6 +155,7 @@ const RandomData1: any[] = [
   {
     id: 12,
     name: "Can O+ donate to anyone?",
+    catgeory: ["blood"],
     options: [
       "Yes, to any blood type",
       "No, only to O+ and O-",
@@ -143,6 +168,7 @@ const RandomData1: any[] = [
   {
     id: 13,
     name: "How can I increase brain power?",
+    catgeory: ["brain"],
     options: [
       "Regular exercise and mental challenges",
       "Eating specific foods only",
@@ -155,6 +181,7 @@ const RandomData1: any[] = [
   {
     id: 14,
     name: "How do I check my IQ?",
+    catgeory: ["iq"],
     options: [
       "Through an online test",
       "By visiting a psychologist",
@@ -167,14 +194,19 @@ const RandomData1: any[] = [
   {
     id: 15,
     name: "How many blood tests are typically done during pregnancy?",
+    catgeory: ["blood", "pregnancy"],
     options: ["1-2 tests", "3-4 tests", "5-6 tests", "More than 6 tests"],
     correctOptions: "3-4 tests",
     slug: "how-many-blood-tests-during-pregnancy",
-    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+    relatedQuizzes: [
+      227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+      244, 245, 246
+    ]
   },
   {
     id: 16,
     name: "How many days does it typically take to confirm pregnancy?",
+    catgeory: ["pregnancy"],
     options: ["1-3 days", "7-10 days", "14-21 days", "30 days"],
     correctOptions: "7-10 days",
     slug: "how-many-days-to-confirm-pregnancy"
@@ -182,6 +214,7 @@ const RandomData1: any[] = [
   {
     id: 17,
     name: "How to calculate IQ?",
+    catgeory: ["iq"],
     options: [
       "Through standardized testing",
       "Using online IQ calculators",
@@ -194,6 +227,7 @@ const RandomData1: any[] = [
   {
     id: 18,
     name: "How to check your IQ?",
+    catgeory: ["iq"],
     options: [
       "Through a certified IQ test",
       "By taking online quizzes",
@@ -206,6 +240,7 @@ const RandomData1: any[] = [
   {
     id: 19,
     name: "How to fall pregnant fast?",
+    catgeory: ["pregnancy"],
     options: [
       "Track ovulation and maintain a healthy lifestyle",
       "Try different positions during intercourse",
@@ -218,6 +253,7 @@ const RandomData1: any[] = [
   {
     id: 20,
     name: "Is 120 IQ good?",
+    catgeory: ["iq"],
     options: [
       "Yes, it is above average",
       "No, it is below average",
@@ -230,6 +266,7 @@ const RandomData1: any[] = [
   {
     id: 21,
     name: "Is 130 IQ good?",
+    catgeory: ["iq"],
     options: [
       "Yes, it is above average",
       "No, it is below average",
@@ -242,6 +279,7 @@ const RandomData1: any[] = [
   {
     id: 22,
     name: "Is AB+ blood rare?",
+    catgeory: ["blood"],
     options: [
       "Yes, it is one of the rarest types",
       "No, it is common",
@@ -250,11 +288,15 @@ const RandomData1: any[] = [
     ],
     correctOptions: "Yes, it is one of the rarest types",
     slug: "is-ab-plus-blood-rare",
-    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
+    relatedQuizzes: [
+      247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265,
+      266, 267, 268
+    ]
   },
   {
     id: 23,
     name: "Is IQ genetic?",
+    catgeory: ["iq"],
     options: [
       "Yes, genetics play a significant role",
       "No, IQ is entirely environmental",
@@ -267,14 +309,19 @@ const RandomData1: any[] = [
   {
     id: 24,
     name: "What blood type am I?",
+    catgeory: ["blood"],
     options: ["A, B, AB, or O", "Positive or Negative", "A or B", "AB or O"],
     correctOptions: "A, B, AB, or O",
     slug: "what-blood-type-am-i",
-    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
+    relatedQuizzes: [
+      1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225,
+      226
+    ]
   },
   {
     id: 25,
     name: "What blood type rejects pregnancy?",
+    catgeory: ["blood", "pregnancy"],
     options: [
       "Rh-negative blood type",
       "Rh-positive blood type",
@@ -283,11 +330,15 @@ const RandomData1: any[] = [
     ],
     correctOptions: "Rh-negative blood type",
     slug: "what-blood-type-rejects-pregnancy",
-    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+    relatedQuizzes: [
+      227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+      244, 245, 246
+    ]
   },
   {
     id: 26,
     name: "What is a normal IQ?",
+    catgeory: ["iq"],
     options: ["Around 100", "Around 120", "Around 80", "Around 140"],
     correctOptions: "Around 100",
     slug: "what-is-a-normal-iq"
@@ -295,6 +346,7 @@ const RandomData1: any[] = [
   {
     id: 27,
     name: "What is Albert Einstein's IQ?",
+    catgeory: ["iq"],
     options: ["160", "180", "150", "190"],
     correctOptions: "160",
     slug: "what-is-albert-einsteins-iq"
@@ -302,6 +354,7 @@ const RandomData1: any[] = [
   {
     id: 28,
     name: "What is Einstein's IQ?",
+    catgeory: ["iq"],
     options: ["160", "180", "150", "190"],
     correctOptions: "160",
     slug: "what-is-einsteins-iq"
@@ -309,6 +362,7 @@ const RandomData1: any[] = [
   {
     id: 29,
     name: "Which is the largest island in the world?",
+    catgeory: ["largest", "island", "world"],
     options: ["Greenland", "Australia", "New Guinea", "Borneo"],
     correctOptions: "Greenland",
     slug: "which-is-the-largest-island-in-the-world"
@@ -316,6 +370,7 @@ const RandomData1: any[] = [
   {
     id: 30,
     name: "Is Australia an island?",
+    catgeory: ["australia", "island"],
     options: [
       "Yes",
       "No",
@@ -328,6 +383,7 @@ const RandomData1: any[] = [
   {
     id: 31,
     name: "Is Greenland a country?",
+    catgeory: ["country", "greenland"],
     options: [
       "Yes",
       "No, it is part of Denmark",
@@ -336,10 +392,15 @@ const RandomData1: any[] = [
     ],
     correctOptions: "No, it is part of Denmark",
     slug: "is-greenland-a-country",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 32,
     name: "What is the world's largest island?",
+    catgeory: ["largest", "island", "world"],
     options: ["Greenland", "Australia", "New Guinea", "Borneo"],
     correctOptions: "Greenland",
     slug: "what-is-the-worlds-largest-island"
@@ -347,6 +408,7 @@ const RandomData1: any[] = [
   {
     id: 33,
     name: "Where is Greenland located?",
+    catgeory: ["greenland"],
     options: ["North America", "Europe", "Asia", "Antarctica"],
     correctOptions: "North America",
     slug: "where-is-greenland-located"
@@ -354,6 +416,7 @@ const RandomData1: any[] = [
   {
     id: 34,
     name: "Which island is the largest in the world?",
+    catgeory: ["largest", "island", "world"],
     options: ["Greenland", "Australia", "New Guinea", "Borneo"],
     correctOptions: "Greenland",
     slug: "which-island-is-the-largest-in-the-world"
@@ -362,6 +425,8 @@ const RandomData1: any[] = [
   {
     id: 35,
     name: "Do people live in Greenland?",
+    catgeory: ["greenland"],
+
     options: ["Yes", "No", "Only scientists", "Only during the summer"],
     correctOptions: "Yes",
     slug: "do-people-live-in-greenland"
@@ -456,7 +521,11 @@ const RandomData1: any[] = [
     name: "Which country is closest to the equator?",
     options: ["Ecuador", "Kenya", "Brazil", "Indonesia"],
     correctOptions: "Ecuador",
-    slug: "which-country-is-closest-to-the-equator"
+    slug: "which-country-is-closest-to-the-equator",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 47,
@@ -606,6 +675,10 @@ const RandomData1: any[] = [
     ],
     correctOptions: "No",
     slug: "is-greenland-a-country-yes-or-no",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 61,
@@ -676,21 +749,33 @@ const RandomData1: any[] = [
     name: "Which country has the best army?",
     options: ["United States", "China", "Russia", "India"],
     correctOptions: "United States",
-    slug: "which-country-has-the-best-army"
+    slug: "which-country-has-the-best-army",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 69,
     name: "Which country is both an island and a continent?",
     options: ["Australia", "Greenland", "Iceland", "New Zealand"],
     correctOptions: "Australia",
-    slug: "which-country-is-both-an-island-and-a-continent"
+    slug: "which-country-is-both-an-island-and-a-continent",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 70,
     name: "Which country owns Greenland?",
     options: ["Denmark", "Iceland", "Norway", "Sweden"],
     correctOptions: "Denmark",
-    slug: "which-country-owns-greenland"
+    slug: "which-country-owns-greenland",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 71,
@@ -698,6 +783,10 @@ const RandomData1: any[] = [
     options: ["France", "Australia", "Canada", "Iceland"],
     correctOptions: "France",
     slug: "which-countrys-flag-is-blue-white-and-red",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 72,
@@ -823,7 +912,11 @@ const RandomData1: any[] = [
     name: "What country has a green, yellow, and red flag?",
     options: ["Brazil", "Mexico", "Spain", "France"],
     correctOptions: "Brazil",
-    slug: "what-country-has-green-yellow-and-red-flag"
+    slug: "what-country-has-green-yellow-and-red-flag",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 85,
@@ -904,28 +997,44 @@ const RandomData1: any[] = [
     name: "Which country has a black and white flag?",
     options: ["Germany", "Japan", "South Korea", "Monaco"],
     correctOptions: "Germany",
-    slug: "which-country-has-a-black-and-white-flag"
+    slug: "which-country-has-a-black-and-white-flag",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 93,
     name: "Which country has green in its flag?",
     options: ["Brazil", "Japan", "Russia", "France"],
     correctOptions: "Brazil",
-    slug: "which-country-has-green-in-its-flag"
+    slug: "which-country-has-green-in-its-flag",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 94,
     name: "Which country has green, white, and red in its flag?",
     options: ["Mexico", "India", "Italy", "All of the above"],
     correctOptions: "All of the above",
-    slug: "which-country-has-green-white-and-red"
+    slug: "which-country-has-green-white-and-red",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 95,
     name: "Which country has a yellow and red flag?",
     options: ["Spain", "Canada", "China", "Japan"],
     correctOptions: "Spain",
-    slug: "which-country-has-yellow-and-red-flag"
+    slug: "which-country-has-yellow-and-red-flag",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 96,
@@ -937,14 +1046,22 @@ const RandomData1: any[] = [
       "Greenland is slightly smaller"
     ],
     correctOptions: "India",
-    slug: "which-country-is-bigger-greenland-or-india"
+    slug: "which-country-is-bigger-greenland-or-india",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 97,
     name: "Which country is colder?",
     options: ["Greenland", "Iceland", "Both are the same", "Neither"],
     correctOptions: "Greenland",
-    slug: "which-country-is-colder"
+    slug: "which-country-is-colder",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 98,
@@ -952,6 +1069,10 @@ const RandomData1: any[] = [
     options: ["Canada", "United Kingdom", "South Korea", "All of the above"],
     correctOptions: "All of the above",
     slug: "which-countrys-flag-has-red-in-it",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 99,
@@ -1099,7 +1220,10 @@ const RandomData2: any[] = [
     options: ["Lahore", "Karachi", "Delhi", "Islamabad"],
     correctOptions: "Lahore",
     slug: "which-major-city-is-located-near-the-ravi-river",
-    relatedQuizzes: [108, 109, 110, 112, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 448, 449, 453, 456, 457, 459]
+    relatedQuizzes: [
+      108, 109, 110, 112, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 448,
+      449, 453, 456, 457, 459
+    ]
   },
   {
     id: 112,
@@ -1319,21 +1443,32 @@ const RandomData2: any[] = [
     options: ["Chicago", "Los Angeles", "New York", "St. Louis"],
     correctOptions: "St. Louis",
     slug: "what-city-has-the-most-gun-violence",
-    relatedQuizzes: [111, 136, 177, 189, 385, 394, 396, 412, 438, 446, 448, 449, 453, 456, 457, 459]
+    relatedQuizzes: [
+      111, 136, 177, 189, 385, 394, 396, 412, 438, 446, 448, 449, 453, 456, 457,
+      459
+    ]
   },
   {
     id: 137,
     name: "Which country has the most guns?",
     options: ["United States", "Russia", "China", "India"],
     correctOptions: "United States",
-    slug: "which-country-has-the-most-guns"
+    slug: "which-country-has-the-most-guns",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 138,
     name: "Which country has the most murders?",
     options: ["Brazil", "Mexico", "Venezuela", "United States"],
     correctOptions: "Brazil",
-    slug: "which-country-has-the-most-murders"
+    slug: "which-country-has-the-most-murders",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 139,
@@ -1341,6 +1476,10 @@ const RandomData2: any[] = [
     options: ["Brazil", "Russia", "China", "Canada"],
     correctOptions: "Russia",
     slug: "which-country-has-the-most-rivers",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 140,
@@ -1408,7 +1547,11 @@ const RandomData2: any[] = [
     name: "In which country is water most expensive?",
     options: ["United Arab Emirates", "Singapore", "Switzerland", "Norway"],
     correctOptions: "United Arab Emirates",
-    slug: "in-which-country-water-is-most-expensive"
+    slug: "in-which-country-water-is-most-expensive",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 149,
@@ -1470,6 +1613,10 @@ const RandomData2: any[] = [
     options: ["United States", "Brazil", "Mexico", "South Africa"],
     correctOptions: "United States",
     slug: "what-country-has-the-worst-gun-violence",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 157,
@@ -1488,7 +1635,11 @@ const RandomData2: any[] = [
     name: "Which country drinks the most water?",
     options: ["United States", "China", "India", "Brazil"],
     correctOptions: "United States",
-    slug: "which-country-drinks-the-most-water"
+    slug: "which-country-drinks-the-most-water",
+    relatedQuizzes: [
+      160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390,
+      391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 159,
@@ -1502,7 +1653,11 @@ const RandomData2: any[] = [
     name: "Which is the richest country in water?",
     options: ["Brazil", "Canada", "Russia", "United States"],
     correctOptions: "Canada",
-    slug: "which-is-the-richest-country-in-water"
+    slug: "which-is-the-richest-country-in-water",
+    relatedQuizzes: [
+      170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390, 391,
+      402, 404, 408, 411, 412, 413, 414, 424, 426, 429
+    ]
   },
   {
     id: 161,
@@ -1602,7 +1757,11 @@ const RandomData2: any[] = [
     name: "Which is the wealthiest country in the world?",
     options: ["United States", "China", "Luxembourg", "Switzerland"],
     correctOptions: "Luxembourg",
-    slug: "which-is-the-wealthiest-country-in-the-world"
+    slug: "which-is-the-wealthiest-country-in-the-world",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 171,
@@ -1621,7 +1780,11 @@ const RandomData2: any[] = [
     name: "Which is the coldest country in the world?",
     options: ["Russia", "Canada", "Greenland", "Antarctica"],
     correctOptions: "Antarctica",
-    slug: "which-is-the-coldest-country-in-the-world-duplicate"
+    slug: "which-is-the-coldest-country-in-the-world-duplicate",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 173,
@@ -1667,8 +1830,9 @@ const RandomData2: any[] = [
     ],
     correctOptions: "Fairbanks, Alaska",
     slug: "what-is-the-coldest-city-in-the-us",
-    relatedQuizzes: [111, 136, 189, 385, 394, 396, 412, 438, 446, 448, 449, 453, 456, 457, 459]
-
+    relatedQuizzes: [
+      111, 136, 189, 385, 394, 396, 412, 438, 446, 448, 449, 453, 456, 457, 459
+    ]
   },
   {
     id: 178,
@@ -1725,14 +1889,22 @@ const RandomData2: any[] = [
     name: "Cricket is the national game of which country?",
     options: ["India", "Australia", "England", "Pakistan"],
     correctOptions: "None of these",
-    slug: "cricket-is-the-national-game-of-which-country"
+    slug: "cricket-is-the-national-game-of-which-country",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 184,
     name: "Football is the national game of which country?",
     options: ["Brazil", "Argentina", "Germany", "Spain"],
     correctOptions: "None of these",
-    slug: "football-is-the-national-game-of-which-country"
+    slug: "football-is-the-national-game-of-which-country",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 185,
@@ -1740,6 +1912,10 @@ const RandomData2: any[] = [
     options: ["India", "Pakistan", "Nepal", "Bangladesh"],
     correctOptions: "India",
     slug: "kabaddi-is-the-national-game-of-which-country",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 186,
@@ -1768,7 +1944,9 @@ const RandomData2: any[] = [
     options: ["Moscow", "Barrow", "Yakutsk", "Oymyakon"],
     correctOptions: "Oymyakon",
     slug: "what-is-the-coldest-city-on-earth",
-    relatedQuizzes: [111, 136, 177, 385, 394, 396, 412, 438, 446, 448, 449, 453, 456, 457, 459]
+    relatedQuizzes: [
+      111, 136, 177, 385, 394, 396, 412, 438, 446, 448, 449, 453, 456, 457, 459
+    ]
   },
   {
     id: 190,
@@ -1782,14 +1960,22 @@ const RandomData2: any[] = [
     name: "What is the coldest country in the world?",
     options: ["Russia", "Canada", "Greenland", "Antarctica"],
     correctOptions: "Antarctica",
-    slug: "what-is-the-coldest-country-in-the-world"
+    slug: "what-is-the-coldest-country-in-the-world",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 192,
     name: "What is the coldest country on Earth?",
     options: ["Russia", "Canada", "Greenland", "Antarctica"],
     correctOptions: "Antarctica",
-    slug: "what-is-the-coldest-country-on-earth"
+    slug: "what-is-the-coldest-country-on-earth",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 193,
@@ -1915,6 +2101,10 @@ const RandomData3: any[] = [
     options: ["Switzerland", "Spain", "United Kingdom", "South Africa"],
     correctOptions: "South Africa",
     slug: "which-country-has-two-national-anthems",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 209,
@@ -2001,7 +2191,10 @@ const RandomData3: any[] = [
     options: ["60 days", "90 days", "120 days", "150 days"],
     correctOptions: "120 days",
     slug: "average-life-span-of-red-blood-cells",
-    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
+    relatedQuizzes: [
+      247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265,
+      266, 267, 268
+    ]
   },
   {
     id: 219,
@@ -2009,7 +2202,10 @@ const RandomData3: any[] = [
     options: ["Heart", "Liver", "Bone marrow", "Lungs"],
     correctOptions: "Bone marrow",
     slug: "red-blood-cells-produced",
-    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
+    relatedQuizzes: [
+      1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225,
+      226
+    ]
   },
   {
     id: 220,
@@ -2017,7 +2213,10 @@ const RandomData3: any[] = [
     options: ["Kidneys", "Spleen", "Lungs", "Pancreas"],
     correctOptions: "Spleen",
     slug: "organ-responsible-for-red-blood-cells-destruction",
-    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+    relatedQuizzes: [
+      227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+      244, 245, 246
+    ]
   },
   {
     id: 221,
@@ -2030,7 +2229,10 @@ const RandomData3: any[] = [
     ],
     correctOptions: "Carrying oxygen",
     slug: "main-function-of-red-blood-cells",
-    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
+    relatedQuizzes: [
+      247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265,
+      266, 267, 268
+    ]
   },
   {
     id: 222,
@@ -2038,7 +2240,10 @@ const RandomData3: any[] = [
     options: ["Albumin", "Hemoglobin", "Fibrinogen", "Myosin"],
     correctOptions: "Hemoglobin",
     slug: "protein-in-red-blood-cells-that-binds-oxygen",
-    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
+    relatedQuizzes: [
+      1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225,
+      226
+    ]
   },
   {
     id: 223,
@@ -2046,7 +2251,10 @@ const RandomData3: any[] = [
     options: ["Biconcave", "Spherical", "Cylindrical", "Oval"],
     correctOptions: "Biconcave",
     slug: "shape-of-red-blood-cell",
-    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+    relatedQuizzes: [
+      227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+      244, 245, 246
+    ]
   },
   {
     id: 224,
@@ -2054,7 +2262,10 @@ const RandomData3: any[] = [
     options: ["Vitamin A", "Vitamin B12", "Vitamin D", "Vitamin E"],
     correctOptions: "Vitamin B12",
     slug: "vitamin-essential-for-red-blood-cells-production",
-    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
+    relatedQuizzes: [
+      247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265,
+      266, 267, 268
+    ]
   },
   {
     id: 225,
@@ -2062,7 +2273,10 @@ const RandomData3: any[] = [
     options: ["Leukemia", "Hemophilia", "Anemia", "Thrombosis"],
     correctOptions: "Anemia",
     slug: "condition-caused-by-low-red-blood-cell-count",
-    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
+    relatedQuizzes: [
+      1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225,
+      226
+    ]
   },
   {
     id: 226,
@@ -2070,7 +2284,10 @@ const RandomData3: any[] = [
     options: ["1-2 million", "3-4 million", "4-6 million", "7-8 million"],
     correctOptions: "4-6 million",
     slug: "typical-count-of-red-blood-cells",
-    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+    relatedQuizzes: [
+      227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+      244, 245, 246
+    ]
   },
   {
     id: 227,
@@ -2078,7 +2295,10 @@ const RandomData3: any[] = [
     options: ["10%", "25%", "45%", "60%"],
     correctOptions: "45%",
     slug: "percentage-of-blood-volume-red-blood-cells",
-    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
+    relatedQuizzes: [
+      247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265,
+      266, 267, 268
+    ]
   },
   {
     id: 228,
@@ -2086,7 +2306,10 @@ const RandomData3: any[] = [
     options: ["Liver", "Spleen", "Kidneys", "Pancreas"],
     correctOptions: "Kidneys",
     slug: "organ-produces-erythropoietin",
-    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
+    relatedQuizzes: [
+      1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225,
+      226
+    ]
   },
   {
     id: 229,
@@ -2108,7 +2331,10 @@ const RandomData3: any[] = [
     options: ["6.8-7.2", "7.35-7.45", "7.8-8.2", "8.5-9.0"],
     correctOptions: "7.35-7.45",
     slug: "normal-ph-range-of-blood",
-    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+    relatedQuizzes: [
+      227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+      244, 245, 246
+    ]
   },
   {
     id: 232,
@@ -2121,7 +2347,10 @@ const RandomData3: any[] = [
     ],
     correctOptions: "Platelets",
     slug: "blood-cells-responsible-for-clotting",
-    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
+    relatedQuizzes: [
+      247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265,
+      266, 267, 268
+    ]
   },
   {
     id: 233,
@@ -2129,7 +2358,10 @@ const RandomData3: any[] = [
     options: ["20%", "40%", "55%", "70%"],
     correctOptions: "55%",
     slug: "percentage-of-blood-that-is-plasma",
-    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
+    relatedQuizzes: [
+      1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225,
+      226
+    ]
   },
   {
     id: 234,
@@ -2137,7 +2369,10 @@ const RandomData3: any[] = [
     options: ["Type A", "Type B", "Type AB", "Type O"],
     correctOptions: "Type O",
     slug: "universal-donor-blood-type",
-    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+    relatedQuizzes: [
+      227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+      244, 245, 246
+    ]
   },
   {
     id: 235,
@@ -2145,7 +2380,10 @@ const RandomData3: any[] = [
     options: ["Type A", "Type B", "Type AB", "Type O"],
     correctOptions: "Type AB",
     slug: "universal-recipient-blood-type",
-    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
+    relatedQuizzes: [
+      247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265,
+      266, 267, 268
+    ]
   },
   {
     id: 236,
@@ -2153,7 +2391,10 @@ const RandomData3: any[] = [
     options: ["Hemophilia", "Sickle cell anemia", "Leukemia", "Thalassemia"],
     correctOptions: "Sickle cell anemia",
     slug: "hereditary-disorder-affecting-red-blood-cells",
-    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
+    relatedQuizzes: [
+      1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225,
+      226
+    ]
   },
   {
     id: 237,
@@ -2166,7 +2407,10 @@ const RandomData3: any[] = [
     ],
     correctOptions: "Oxygen saturation",
     slug: "oxygen-carrying-capacity-of-hemoglobin",
-    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+    relatedQuizzes: [
+      227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+      244, 245, 246
+    ]
   },
   {
     id: 238,
@@ -2179,7 +2423,10 @@ const RandomData3: any[] = [
     ],
     correctOptions: "Polycythemia",
     slug: "condition-caused-by-excess-of-red-blood-cells",
-    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
+    relatedQuizzes: [
+      247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265,
+      266, 267, 268
+    ]
   },
   {
     id: 239,
@@ -2187,7 +2434,10 @@ const RandomData3: any[] = [
     options: ["Platelets", "White blood cells", "Red blood cells", "Plasma"],
     correctOptions: "White blood cells",
     slug: "blood-component-involved-in-immune-response",
-    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
+    relatedQuizzes: [
+      1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225,
+      226
+    ]
   },
   {
     id: 240,
@@ -2195,7 +2445,10 @@ const RandomData3: any[] = [
     options: ["Liver", "Spleen", "Heart", "Kidneys"],
     correctOptions: "Spleen",
     slug: "organ-filters-recycles-red-blood-cells",
-    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+    relatedQuizzes: [
+      227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+      244, 245, 246
+    ]
   },
   {
     id: 241,
@@ -2208,7 +2461,10 @@ const RandomData3: any[] = [
     ],
     correctOptions: "They lack mitochondria",
     slug: "characteristic-feature-of-mature-red-blood-cells",
-    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
+    relatedQuizzes: [
+      247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265,
+      266, 267, 268
+    ]
   },
   {
     id: 242,
@@ -2216,7 +2472,10 @@ const RandomData3: any[] = [
     options: ["Red", "Blue", "Purple", "Yellow"],
     correctOptions: "Red",
     slug: "color-of-oxygenated-blood",
-    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
+    relatedQuizzes: [
+      1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225,
+      226
+    ]
   },
   {
     id: 243,
@@ -2224,7 +2483,10 @@ const RandomData3: any[] = [
     options: ["Sickle cell anemia", "Leukemia", "Hemophilia", "Polycythemia"],
     correctOptions: "Sickle cell anemia",
     slug: "condition-abnormally-shaped-red-blood-cells",
-    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+    relatedQuizzes: [
+      227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+      244, 245, 246
+    ]
   },
   {
     id: 244,
@@ -2232,7 +2494,10 @@ const RandomData3: any[] = [
     options: ["4-5 µm", "6-7 µm", "8-9 µm", "10-12 µm"],
     correctOptions: "6-7 µm",
     slug: "average-diameter-of-red-blood-cell",
-    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
+    relatedQuizzes: [
+      247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265,
+      266, 267, 268
+    ]
   },
   {
     id: 245,
@@ -2240,7 +2505,10 @@ const RandomData3: any[] = [
     options: ["Zinc", "Copper", "Iron", "Magnesium"],
     correctOptions: "Iron",
     slug: "element-crucial-for-hemoglobin-formation",
-    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
+    relatedQuizzes: [
+      1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225,
+      226
+    ]
   },
   {
     id: 246,
@@ -2260,7 +2528,10 @@ const RandomData3: any[] = [
     options: ["Anemia", "Polycythemia", "Leukocytosis", "Hemophilia"],
     correctOptions: "Leukocytosis",
     slug: "blood-disorder-abnormal-increase-in-white-blood-cells",
-    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+    relatedQuizzes: [
+      227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+      244, 245, 246
+    ]
   },
   {
     id: 248,
@@ -2268,7 +2539,10 @@ const RandomData3: any[] = [
     options: ["Hemophilia", "Aplastic anemia", "Leukemia", "Thrombocytopenia"],
     correctOptions: "Aplastic anemia",
     slug: "bone-marrow-failure-affects-red-blood-cells",
-    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
+    relatedQuizzes: [
+      247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265,
+      266, 267, 268
+    ]
   },
   {
     id: 249,
@@ -2276,7 +2550,10 @@ const RandomData3: any[] = [
     options: ["Hemolysis", "Erythropoiesis", "Leukopoiesis", "Thrombopoiesis"],
     correctOptions: "Erythropoiesis",
     slug: "production-of-red-blood-cells",
-    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
+    relatedQuizzes: [
+      1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225,
+      226
+    ]
   },
   {
     id: 250,
@@ -2284,7 +2561,10 @@ const RandomData3: any[] = [
     options: ["Plasma", "Platelets", "Red blood cells", "White blood cells"],
     correctOptions: "Red blood cells",
     slug: "component-transports-carbon-dioxide",
-    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+    relatedQuizzes: [
+      227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+      244, 245, 246
+    ]
   },
   {
     id: 251,
@@ -2292,7 +2572,10 @@ const RandomData3: any[] = [
     options: ["5%", "23%", "70%", "90%"],
     correctOptions: "23%",
     slug: "percentage-of-carbon-dioxide-transported-by-red-blood-cells",
-    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
+    relatedQuizzes: [
+      247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265,
+      266, 267, 268
+    ]
   },
   {
     id: 252,
@@ -2300,7 +2583,10 @@ const RandomData3: any[] = [
     options: ["Nitrogen", "Carbon dioxide", "Oxygen", "Hydrogen"],
     correctOptions: "Oxygen",
     slug: "primary-gas-transported-by-red-blood-cells",
-    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
+    relatedQuizzes: [
+      1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225,
+      226
+    ]
   },
   {
     id: 253,
@@ -2313,7 +2599,10 @@ const RandomData3: any[] = [
     ],
     correctOptions: "They are destroyed in the spleen",
     slug: "what-happens-to-red-blood-cells-after-lifespan",
-    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+    relatedQuizzes: [
+      227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+      244, 245, 246
+    ]
   },
   {
     id: 254,
@@ -2321,7 +2610,10 @@ const RandomData3: any[] = [
     options: ["Macrophages", "Lymphocytes", "Neutrophils", "Eosinophils"],
     correctOptions: "Macrophages",
     slug: "cells-in-spleen-break-down-red-blood-cells",
-    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
+    relatedQuizzes: [
+      247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265,
+      266, 267, 268
+    ]
   },
   {
     id: 255,
@@ -2329,7 +2621,10 @@ const RandomData3: any[] = [
     options: ["Thalassemia", "Sickle cell anemia", "Hemophilia", "Leukemia"],
     correctOptions: "Sickle cell anemia",
     slug: "genetic-condition-crescent-shaped-red-blood-cells",
-    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
+    relatedQuizzes: [
+      1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225,
+      226
+    ]
   },
   {
     id: 256,
@@ -2337,7 +2632,10 @@ const RandomData3: any[] = [
     options: ["Ammonia", "Carbon dioxide", "Nitrogen", "Urea"],
     correctOptions: "Carbon dioxide",
     slug: "primary-waste-product-carried-by-red-blood-cells",
-    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+    relatedQuizzes: [
+      227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+      244, 245, 246
+    ]
   },
   {
     id: 257,
@@ -2345,7 +2643,10 @@ const RandomData3: any[] = [
     options: ["Liver", "Lungs", "Kidneys", "Spleen"],
     correctOptions: "Kidneys",
     slug: "organ-detects-low-oxygen-levels",
-    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
+    relatedQuizzes: [
+      247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265,
+      266, 267, 268
+    ]
   },
   {
     id: 258,
@@ -2379,7 +2680,10 @@ const RandomData3: any[] = [
     options: ["1 day", "1-3 days", "10-12 days", "100 days"],
     correctOptions: "1-3 days",
     slug: "life-span-of-white-blood-cells",
-    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
+    relatedQuizzes: [
+      1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225,
+      226
+    ]
   },
   {
     id: 262,
@@ -2387,7 +2691,10 @@ const RandomData3: any[] = [
     options: ["Plasma", "Serum", "Lymph", "Hemoglobin"],
     correctOptions: "Plasma",
     slug: "liquid-portion-of-blood",
-    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+    relatedQuizzes: [
+      227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+      244, 245, 246
+    ]
   },
   {
     id: 263,
@@ -2395,7 +2702,10 @@ const RandomData3: any[] = [
     options: ["Red blood cells", "White blood cells", "Platelets", "Plasma"],
     correctOptions: "White blood cells",
     slug: "blood-component-fighting-infections",
-    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
+    relatedQuizzes: [
+      247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265,
+      266, 267, 268
+    ]
   },
   {
     id: 264,
@@ -2408,7 +2718,10 @@ const RandomData3: any[] = [
     ],
     correctOptions: "Blood loss",
     slug: "cause-reduction-red-blood-cell-count",
-    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
+    relatedQuizzes: [
+      1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225,
+      226
+    ]
   },
   {
     id: 265,
@@ -2416,7 +2729,10 @@ const RandomData3: any[] = [
     options: ["Anemia", "Leukocytosis", "Polycythemia", "Thrombocytopenia"],
     correctOptions: "Anemia",
     slug: "red-blood-cells-destroyed-too-quickly",
-    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+    relatedQuizzes: [
+      227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+      244, 245, 246
+    ]
   },
   {
     id: 266,
@@ -2424,7 +2740,10 @@ const RandomData3: any[] = [
     options: ["60 days", "90 days", "120 days", "150 days"],
     correctOptions: "90 days",
     slug: "lifespan-of-red-blood-cell-in-newborns",
-    relatedQuizzes: [247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265, 266, 267, 268]
+    relatedQuizzes: [
+      247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 262, 263, 264, 265,
+      266, 267, 268
+    ]
   },
   {
     id: 267,
@@ -2432,7 +2751,10 @@ const RandomData3: any[] = [
     options: ["Oxygen", "Glucose", "Lipids", "Proteins"],
     correctOptions: "Glucose",
     slug: "main-energy-source-for-red-blood-cells",
-    relatedQuizzes: [1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225, 226]
+    relatedQuizzes: [
+      1, 5, 7, 8, 10, 15, 22, 24, 25, 218, 219, 220, 221, 222, 223, 224, 225,
+      226
+    ]
   },
   {
     id: 268,
@@ -2440,7 +2762,10 @@ const RandomData3: any[] = [
     options: ["30 days", "60 days", "90 days", "120 days"],
     correctOptions: "30 days",
     slug: "average-lifespan-of-red-blood-cells-sickle-cell-anemia",
-    relatedQuizzes: [227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+    relatedQuizzes: [
+      227, 228, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+      244, 245, 246
+    ]
   },
   {
     id: 269,
@@ -2528,7 +2853,11 @@ const RandomData3: any[] = [
     name: "The Great Victoria Desert is located in which country?",
     options: ["Australia", "Argentina", "USA", "South Africa"],
     correctOptions: "Australia",
-    slug: "great-victoria-desert-location"
+    slug: "great-victoria-desert-location",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 278,
@@ -2969,7 +3298,16 @@ const RandomData4: any[] = [
     options: ["Stapes", "Incus", "Malleus", "Hyoid"],
     correctOptions: "Stapes",
     slug: "which-bone-is-the-smallest-bone-in-the-human-body",
-    relatedQuizzes: [319, 320, 321, 9]
+    relatedQuizzes: [319, 320, 321, 9],
+    para: `<ul>
+  <li>The <strong>stapes bone</strong> is the smallest bone in the human body, located in the middle ear.</li>
+  <li>It is one of three small bones known collectively as <strong>osteophytes</strong>.</li>
+  <li>This group includes the malleus (hammer) and incus (anvil).</li>
+  <li>The stapes, also known as the 'stirrup', is only about 3 mm long.</li>
+  <li>Despite its small size, it plays a crucial role in hearing by transmitting sound vibrations from the eardrum to the inner ear.</li>
+  <li>The vibration causes fluid to move in the cochlea, converting sound waves into nerve signals for the brain to interpret.</li>
+</ul>
+`
   },
   {
     id: 319,
@@ -3377,7 +3715,11 @@ const RandomData4: any[] = [
     name: "What is the strongest country?",
     options: ["United States", "China", "Russia", "India"],
     correctOptions: "United States",
-    slug: "what-is-the-strongest-country"
+    slug: "what-is-the-strongest-country",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 358,
@@ -3672,28 +4014,42 @@ const RandomData4: any[] = [
     options: ["Tokyo", "New York", "Shanghai", "São Paulo"],
     correctOptions: "Tokyo",
     slug: "what-is-the-largest-city-on-earth",
-    relatedQuizzes: [111, 136, 177, 189, 394, 396, 412, 438, 446, 448, 449, 453, 456, 457, 459]
+    relatedQuizzes: [
+      111, 136, 177, 189, 394, 396, 412, 438, 446, 448, 449, 453, 456, 457, 459
+    ]
   },
   {
     id: 386,
     name: "What is the oldest country?",
     options: ["San Marino", "Egypt", "China", "Iran"],
     correctOptions: "San Marino",
-    slug: "what-is-the-oldest-country"
+    slug: "what-is-the-oldest-country",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 387,
     name: "What is the smallest country in the world?",
     options: ["Vatican City", "Monaco", "Nauru", "San Marino"],
     correctOptions: "Vatican City",
-    slug: "what-is-the-smallest-country-in-the-world"
+    slug: "what-is-the-smallest-country-in-the-world",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 388,
     name: "What's the richest country in the world?",
     options: ["Luxembourg", "Switzerland", "Norway", "Singapore"],
     correctOptions: "Luxembourg",
-    slug: "whats-the-richest-country-in-the-world"
+    slug: "whats-the-richest-country-in-the-world",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 389,
@@ -3707,7 +4063,11 @@ const RandomData4: any[] = [
     name: "Which is the largest country in the world?",
     options: ["Russia", "Canada", "China", "United States"],
     correctOptions: "Russia",
-    slug: "which-is-the-largest-country-in-the-world"
+    slug: "which-is-the-largest-country-in-the-world",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 391,
@@ -3715,6 +4075,10 @@ const RandomData4: any[] = [
     options: ["Burundi", "Central African Republic", "Mozambique", "Niger"],
     correctOptions: "Burundi",
     slug: "which-is-the-poorest-country",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 392,
@@ -3743,7 +4107,10 @@ const RandomData4: any[] = [
     options: ["Vatican City", "San Marino", "Monaco", "Nauru"],
     correctOptions: "Vatican City",
     slug: "what-is-the-smallest-city-in-the-world",
-    relatedQuizzes: [111, 136, 137, 177, 189, 385, 396, 412, 438, 446, 448, 449, 453, 456, 457, 459]
+    relatedQuizzes: [
+      111, 136, 137, 177, 189, 385, 396, 412, 438, 446, 448, 449, 453, 456, 457,
+      459
+    ]
   },
   {
     id: 395,
@@ -3764,7 +4131,10 @@ const RandomData4: any[] = [
     options: ["New York", "Tokyo", "Shanghai", "London"],
     correctOptions: "New York",
     slug: "what-is-the-richest-city-in-the-world",
-    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 412, 438, 446, 448, 449, 453, 456, 457, 459]
+    relatedQuizzes: [
+      111, 136, 137, 177, 189, 385, 394, 412, 438, 446, 448, 449, 453, 456, 457,
+      459
+    ]
   },
   {
     id: 397,
@@ -3821,7 +4191,11 @@ const RandomData5: any[] = [
     name: "Is Pakistan a powerful country?",
     options: ["Yes", "No"],
     correctOptions: "Yes",
-    slug: "is-pakistan-a-powerful-country"
+    slug: "is-pakistan-a-powerful-country",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 403,
@@ -3839,7 +4213,11 @@ const RandomData5: any[] = [
     name: "What country has the most rivers?",
     options: ["Russia", "Brazil", "Canada", "China"],
     correctOptions: "Russia",
-    slug: "what-country-has-the-most-rivers"
+    slug: "what-country-has-the-most-rivers",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 405,
@@ -3871,7 +4249,11 @@ const RandomData5: any[] = [
     name: "What is the richest country in Asia?",
     options: ["Japan", "China", "Singapore", "Qatar"],
     correctOptions: "Qatar",
-    slug: "what-is-the-richest-country-in-asia"
+    slug: "what-is-the-richest-country-in-asia",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 409,
@@ -3892,7 +4274,11 @@ const RandomData5: any[] = [
     name: "Which country has no airport?",
     options: ["Vatican City", "Monaco", "Liechtenstein", "San Marino"],
     correctOptions: "Vatican City",
-    slug: "which-country-has-no-airport"
+    slug: "which-country-has-no-airport",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 412,
@@ -3900,14 +4286,21 @@ const RandomData5: any[] = [
     options: ["Nauru", "Vatican City", "Liechtenstein", "San Marino"],
     correctOptions: "Nauru",
     slug: "which-country-has-no-capital-city",
-    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 396, 438, 446, 448, 449, 453, 456, 457, 459]
+    relatedQuizzes: [
+      111, 136, 137, 177, 189, 385, 394, 396, 438, 446, 448, 449, 453, 456, 457,
+      459
+    ]
   },
   {
     id: 413,
     name: "Which country has the most water?",
     options: ["Brazil", "Russia", "Canada", "United States"],
     correctOptions: "Brazil",
-    slug: "which-country-has-the-most-water"
+    slug: "which-country-has-the-most-water",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 414,
@@ -3915,6 +4308,10 @@ const RandomData5: any[] = [
     options: ["South Africa", "Bolivia", "Netherlands", "Chile"],
     correctOptions: "South Africa",
     slug: "which-country-has-two-capitals",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 415,
@@ -4001,42 +4398,66 @@ const RandomData5: any[] = [
     name: "What is the top 1 country in the world?",
     options: ["United States", "China", "Germany", "Japan"],
     correctOptions: "United States",
-    slug: "what-is-the-top-1-country-in-the-world"
+    slug: "what-is-the-top-1-country-in-the-world",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 425,
     name: "Which continent has the most rivers?",
     options: ["Africa", "Asia", "Europe", "South America"],
     correctOptions: "Asia",
-    slug: "which-continent-has-the-most-rivers"
+    slug: "which-continent-has-the-most-rivers",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 426,
     name: "Which country is best in biology?",
     options: ["United States", "Germany", "United Kingdom", "Sweden"],
     correctOptions: "United States",
-    slug: "which-country-is-best-in-biology"
+    slug: "which-country-is-best-in-biology",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 427,
     name: "Which country is best for study?",
     options: ["United States", "United Kingdom", "Germany", "Canada"],
     correctOptions: "United States",
-    slug: "which-country-is-best-for-study"
+    slug: "which-country-is-best-for-study",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 428,
     name: "Which country is number 1 in math?",
     options: ["China", "United States", "South Korea", "Singapore"],
     correctOptions: "China",
-    slug: "which-country-is-number-1-in-math"
+    slug: "which-country-is-number-1-in-math",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 429,
     name: "Which country is number 1 in science?",
     options: ["United States", "China", "Germany", "United Kingdom"],
     correctOptions: "United States",
-    slug: "which-country-is-number-1-in-science"
+    slug: "which-country-is-number-1-in-science",
+    relatedQuizzes: [
+      31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
+      148, 153, 156, 158
+    ]
   },
   {
     id: 430,
@@ -4111,7 +4532,10 @@ const RandomData5: any[] = [
     options: ["Tokyo", "New York", "Shanghai", "Delhi"],
     correctOptions: "Tokyo",
     slug: "what-is-the-largest-city-in-the-world",
-    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 396, 412, 446, 448, 449, 453, 456, 457, 459]
+    relatedQuizzes: [
+      111, 136, 137, 177, 189, 385, 394, 396, 412, 446, 448, 449, 453, 456, 457,
+      459
+    ]
   },
   {
     id: 439,
@@ -4188,8 +4612,10 @@ const RandomData5: any[] = [
     options: ["Moscow", "Helsinki", "Ulaanbaatar", "Oslo"],
     correctOptions: "Ulaanbaatar",
     slug: "what-is-the-coldest-capital-city-in-the-world",
-    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 448, 449, 453, 456, 457, 459]
-
+    relatedQuizzes: [
+      111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 448, 449, 453, 456, 457,
+      459
+    ]
   },
   {
     id: 447,
@@ -4209,8 +4635,10 @@ const RandomData5: any[] = [
     options: ["La Paz", "Quito", "Lhasa", "Kathmandu"],
     correctOptions: "La Paz",
     slug: "what-is-the-highest-city-in-the-world",
-    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 449, 453, 456, 457, 459]
-
+    relatedQuizzes: [
+      111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 449, 453, 456, 457,
+      459
+    ]
   },
   {
     id: 449,
@@ -4218,7 +4646,10 @@ const RandomData5: any[] = [
     options: ["Reykjavik", "Oslo", "Helsinki", "Stockholm"],
     correctOptions: "Reykjavik",
     slug: "what-is-the-northernmost-capital-city-in-the-world",
-    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 448, 453, 456, 457, 459]
+    relatedQuizzes: [
+      111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 448, 453, 456, 457,
+      459
+    ]
   },
   {
     id: 450,
@@ -4257,7 +4688,10 @@ const RandomData5: any[] = [
     options: ["Lahore", "Karachi", "Islamabad", "Faisalabad"],
     correctOptions: "Karachi",
     slug: "which-is-the-largest-city-in-pakistan",
-    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 448, 449, 456, 457, 459]
+    relatedQuizzes: [
+      111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 448, 449, 456, 457,
+      459
+    ]
   },
   {
     id: 454,
@@ -4279,7 +4713,10 @@ const RandomData5: any[] = [
     options: ["La Paz", "Quito", "Lhasa", "Kathmandu"],
     correctOptions: "La Paz",
     slug: "what-capital-city-is-7200-feet-above-sea-level",
-    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 448, 449, 453, 457, 459]
+    relatedQuizzes: [
+      111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 448, 449, 453, 457,
+      459
+    ]
   },
   {
     id: 457,
@@ -4287,8 +4724,10 @@ const RandomData5: any[] = [
     options: ["Vienna", "Bern", "Madrid", "Andorra la Vella"],
     correctOptions: "Andorra la Vella",
     slug: "what-is-europes-highest-capital-city",
-    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 448, 449, 453, 456, 459]
-
+    relatedQuizzes: [
+      111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 448, 449, 453, 456,
+      459
+    ]
   },
   {
     id: 458,
@@ -4303,7 +4742,10 @@ const RandomData5: any[] = [
     options: ["Zurich", "Vienna", "Andorra la Vella", "Madrid"],
     correctOptions: "Andorra la Vella",
     slug: "what-is-the-highest-city-in-europe",
-    relatedQuizzes: [111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 448, 449, 453, 456, 457]
+    relatedQuizzes: [
+      111, 136, 137, 177, 189, 385, 394, 396, 412, 438, 446, 448, 449, 453, 456,
+      457
+    ]
   },
   {
     id: 460,
@@ -4525,7 +4967,61 @@ const RandomData5: any[] = [
     options: ["Oll Korrect", "Okay", "Optical Knowledge", "None of the above"],
     correctOptions: "Oll Korrect",
     slug: "what-is-the-full-form-of-ok",
-    relatedQuizzes: [467, 478, 479, 481, 395],
+    relatedQuizzes: [467, 478, 479, 481, 395]
+  },
+  {
+    id: 483,
+    name: "What is the color of blood when it's inside your body?",
+    options: ["Yellow", "White", "Red", "Green"],
+    correctOptions: "Red",
+    slug: "color-of-blood-inside-body"
+  },
+  {
+    id: 484,
+    name: "Which is the fastest bird in the world?",
+    options: ["Bald Eagle", "Peregrine Falcon", "Hummingbird", "Raven"],
+    correctOptions: "Peregrine Falcon",
+    slug: "fastest-bird-in-the-world"
+  },
+  {
+    id: 485,
+    name: "What is the tallest waterfall in the world?",
+    options: [
+      "Angel Falls, Venezuela",
+      "Niagara Falls, New York",
+      "Wailua Falls, Hawaii",
+      "Sutherland Falls, New Zealand"
+    ],
+    correctOptions: "Angel Falls, Venezuela",
+    slug: "tallest-waterfall-in-the-world"
+  },
+  {
+    id: 486,
+    name: "Which planet is known as the 'Red Planet'?",
+    options: ["Venus", "Saturn", "Mars", "Mercury"],
+    correctOptions: "Mars",
+    slug: "red-planet"
+  },
+  {
+    id: 487,
+    name: "Which element is known as the building block of life?",
+    options: ["Oxygen", "Carbon", "Hydrogen", "Nitrogen"],
+    correctOptions: "Carbon",
+    slug: "building-block-of-life"
+  },
+  {
+    id: 488,
+    name: "Which food item never spoils?",
+    options: ["Honey", "Beef Jerky", "Cereal", "Beans"],
+    correctOptions: "Honey",
+    slug: "food-that-never-spoils"
+  },
+  {
+    id: 489,
+    name: "Which ancient civilization is credited with the invention of the wheel?",
+    options: ["The Romans", "The Egyptians", "The Sumerians", "The Greeks"],
+    correctOptions: "The Sumerians",
+    slug: "invention-of-the-wheel"
   }
 ]
 
@@ -4536,4 +5032,3 @@ export const combinedMcqs = [
   ...RandomData4,
   ...RandomData5
 ]
-// relatedQuizzes: [31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139, 148, 153, 156, 158, 160, 170, 172, 183, 184, 185, 191, 192, 208, 357, 386, 387, 388, 389, 390, 391, 402, 404, 408, 411, 412, 413, 414, 424, 426, 429]

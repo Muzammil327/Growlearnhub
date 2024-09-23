@@ -43,8 +43,18 @@ export default function Page() {
     >
       <h3>Download VU CS304 Handouts</h3>
       <p>
-        Here, you can download Virtual University Handouts in PDF Format. This
-        book is officially published by Virtual University Of Pakistan.
+        Here, you can download Virtual University{" "}
+        <strong>CS304 Handouts</strong> in PDF Format. This book is officially
+        published by Virtual University Of Pakistan. The handouts cover a
+        comprehensive range of topics, including introduction to computer
+        science, programming concepts, data structures, algorithms, and more.
+        These handouts are a valuable resource for students enrolled in the
+        CS304 course, providing a concise and easy-to-understand guide to the
+        subject matter.
+      </p>
+      <p>
+        For Download the <em>CS304 Handouts</em> book for free, click the
+        download button below:
       </p>
       <PDFViewer pdfUrl={data.fileId} />
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
