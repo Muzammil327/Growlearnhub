@@ -10,7 +10,7 @@ export default function JoinUS() {
       <div className="flex gap-3">
         <ul className="flex gap-2 items-center">
           <li className="bg-[#1877F2] p-2 rounded-md text-white">
-            <Link href="#" aria-label="Facebook page">
+            <Link href="https://web.facebook.com/edusharpmind/" aria-label="Facebook page">
               <svg
                 fill="#fff"
                 width="20px"

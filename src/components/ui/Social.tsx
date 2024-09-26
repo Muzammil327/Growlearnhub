@@ -4,9 +4,9 @@ import {
   FaGithub,
   FaInstagram,
   FaFacebookF,
-  FaTwitter,
-} from 'react-icons/fa'
-import Link from 'next/link'
+  FaTwitter
+} from "react-icons/fa"
+import Link from "next/link"
 
 export default function Social() {
   return (
@@ -22,7 +22,11 @@ export default function Social() {
         </Link>
       </li>
       <li className="btnIcon">
-        <Link href="/">
+        <Link
+          href="https://web.facebook.com/edusharpmind/"
+          target="_blank"
+          aria-label="Facebook Share Link"
+        >
           <FaFacebookF size={16} />
         </Link>
       </li>

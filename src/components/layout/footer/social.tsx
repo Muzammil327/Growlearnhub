@@ -8,7 +8,7 @@ export default function Social() {
       <ul className="flex items-center gap-4">
         <li className="h-10 w-10 rounded-md ring-1 ring-gray-600 flex items-center justify-center text-white ">
           <Link
-            href="https://web.facebook.com/edulearn327/"
+            href="https://web.facebook.com/edusharpmind/"
             aria-label="Facebook Share Link"
             target="_blank"
           >
