@@ -1,16 +1,16 @@
-'use client'
-import React from 'react'
-import Container from '@/src/components/element/container'
-import SubHeader from '@/src/components/layout/header/subheader/page'
-import Form from '@/src/components/element/form/page'
-import BreadCrumb from '@/src/components/element/breadcrumb'
-import Footer from '@/src/components/layout/footer/page'
-import Navbar from '@/src/components/layout/navbar/page'
-import '@/src/styles/Wrapper/style.scss'
-import Sidebar from '@/src/components/sidebar/page'
-import ImageContainer from './image'
-import Link from 'next/link'
-import Button from '../ui/Button'
+"use client"
+import React from "react"
+import Container from "@/src/components/element/container"
+import SubHeader from "@/src/components/layout/header/subheader/page"
+import Form from "@/src/components/element/form/page"
+import BreadCrumb from "@/src/components/element/breadcrumb"
+import Footer from "@/src/components/layout/footer/page"
+import Navbar from "@/src/components/layout/navbar/page"
+import "@/src/styles/Wrapper/style.scss"
+import Sidebar from "@/src/components/sidebar/page"
+import ImageContainer from "./image"
+import Link from "next/link"
+import Button from "../ui/Button"
 
 export default function Wrapper(data: {
   title: string
@@ -44,10 +44,10 @@ export default function Wrapper(data: {
                 b3Link={data.b3Link}
               />
               <p>
-                Welcome to our{' '}
+                Welcome to our{" "}
                 <Link href="/" className="links">
                   Educational Hub
-                </Link>{' '}
+                </Link>{" "}
                 , an innovative platform designed for high school student in
                 Class 9 to 12, Chartered Accountancy (CA), and Virtual
                 University learners to fulfil academic needs. Our mission is to
@@ -72,7 +72,9 @@ export default function Wrapper(data: {
               </p>
               <div className="flex gap-4">
                 <Button>Report / Error</Button>
-                <Button>Suggestion</Button>
+                <Link href="/suggest-quiz/">
+                  <Button>Suggest Quiz</Button>
+                </Link>
               </div>
               <Form url={`https://growlearnhub.com${data.url}`} />
             </div>

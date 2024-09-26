@@ -126,19 +126,19 @@
 // const navigation = {
 
 // };
-'use client'
-import { Fragment, useEffect, useState } from 'react'
-import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
-import Link from 'next/link'
-import Image from 'next/image'
+"use client"
+import { Fragment, useEffect, useState } from "react"
+import { Dialog, Popover, Tab, Transition } from "@headlessui/react"
+import Link from "next/link"
+import Image from "next/image"
 
-import { FaBars, FaSun, FaTimes } from 'react-icons/fa'
-import Container from '@/src/components/ui/Container'
-import Logo from '@/src/components/ui/Logo'
-import Button from '@/src/components/ui/Button'
-import { FaMoon } from 'react-icons/fa'
-import { useTheme } from 'next-themes'
-import ButtonOutline from '../../ui/button/ButtonOutline'
+import { FaBars, FaSun, FaTimes } from "react-icons/fa"
+import Container from "@/src/components/ui/Container"
+import Logo from "@/src/components/ui/Logo"
+import Button from "@/src/components/ui/Button"
+import { FaMoon } from "react-icons/fa"
+import { useTheme } from "next-themes"
+import ButtonOutline from "../../ui/button/ButtonOutline"
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
@@ -146,7 +146,7 @@ export default function Navbar() {
 
   const { systemTheme, theme, setTheme } = useTheme()
 
-  const currentTheme = theme === 'system' ? systemTheme : theme
+  const currentTheme = theme === "system" ? systemTheme : theme
 
   useEffect(() => {
     const handleScroll = () => {
@@ -157,8 +157,8 @@ export default function Navbar() {
       }
     }
 
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
   }, [])
   return (
     <>
@@ -193,7 +193,6 @@ export default function Navbar() {
                     className={`
                     btnIcon relative -m-2 inline-flex items-center justify-center rounded-md border-2 border-solid duration-300 ease-in`}
                     onClick={() => setOpen(false)}
-                    text="Navbat Close"
                   >
                     <FaTimes size={16} />
                   </Button>
@@ -306,16 +305,10 @@ export default function Navbar() {
                 <div
                   className={`my-4 flex lg:flex-row flex-col items-center gap-3 text-sm font-medium px-4`}
                 >
-                  <Button
-                    className="w-full link duration-300 ease-in my-3"
-                    text="Sign In Button"
-                  >
+                  <Button className="w-full link duration-300 ease-in my-3">
                     Sign In
                   </Button>
-                  <Button
-                    className="btnIcon w-full duration-300 ease-in"
-                    text="Register Button"
-                  >
+                  <Button className="btnIcon w-full duration-300 ease-in">
                     Register
                   </Button>
                 </div>
@@ -328,7 +321,7 @@ export default function Navbar() {
 
       <nav
         className={`relative border-b py-2 border1 ${
-          scrolling ? `navbarFixed` : ''
+          scrolling ? `navbarFixed` : ""
         }`}
       >
         <Container>
@@ -479,18 +472,17 @@ export default function Navbar() {
                 <Button
                   className="btnIcon block lg:hidden border-2 border-solid duration-300 ease-in"
                   onClick={() => setOpen(true)}
-                  text="Navbar open"
                 >
                   <FaBars size={16} />
                 </Button>
                 <ButtonOutline
-                className='py-3 !px-3'
+                  className="py-3 !px-3"
                   onClick={() =>
-                    setTheme(currentTheme === 'dark' ? 'light' : 'dark')
+                    setTheme(currentTheme === "dark" ? "light" : "dark")
                   }
                   text="Theme Change"
                 >
-                  {currentTheme === 'dark' ? (
+                  {currentTheme === "dark" ? (
                     <FaMoon size={16} />
                   ) : (
                     <FaSun size={16} />
@@ -508,74 +500,74 @@ export default function Navbar() {
 const navigation = {
   categories: [
     {
-      id: 'components',
-      name: 'Components',
+      id: "components",
+      name: "Components",
       featured: [
         {
-          name: 'New Arrivals',
-          href: '#',
+          name: "New Arrivals",
+          href: "#",
           imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
+            "https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg",
           imageAlt:
-            'Models sitting back to back, wearing Basic Tee in black and bone.',
+            "Models sitting back to back, wearing Basic Tee in black and bone."
         },
         {
-          name: 'Basic Tees',
-          href: '#',
+          name: "Basic Tees",
+          href: "#",
           imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg',
+            "https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg",
           imageAlt:
-            'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
-        },
+            "Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees."
+        }
       ],
       sections: [
         {
-          id: 'clothing',
-          name: 'Clothing',
+          id: "clothing",
+          name: "Clothing",
           items: [
-            { name: 'Tops', href: '#' },
-            { name: 'Dresses', href: '#' },
-            { name: 'Pants', href: '#' },
-            { name: 'Denim', href: '#' },
-            { name: 'Sweaters', href: '#' },
-            { name: 'T-Shirts', href: '#' },
-            { name: 'Jackets', href: '#' },
-            { name: 'Activewear', href: '#' },
-            { name: 'Browse All', href: '#' },
-          ],
+            { name: "Tops", href: "#" },
+            { name: "Dresses", href: "#" },
+            { name: "Pants", href: "#" },
+            { name: "Denim", href: "#" },
+            { name: "Sweaters", href: "#" },
+            { name: "T-Shirts", href: "#" },
+            { name: "Jackets", href: "#" },
+            { name: "Activewear", href: "#" },
+            { name: "Browse All", href: "#" }
+          ]
         },
         {
-          id: 'accessories',
-          name: 'Accessories',
+          id: "accessories",
+          name: "Accessories",
           items: [
             {
-              name: 'Watches',
-              href: '/catgeory/watches?category=women&subcategory=accessories',
+              name: "Watches",
+              href: "/catgeory/watches?category=women&subcategory=accessories"
             },
-            { name: 'Wallets', href: '#' },
-            { name: 'Bags', href: '#' },
-            { name: 'Sunglasses', href: '#' },
-            { name: 'Hats', href: '#' },
-            { name: 'Belts', href: '#' },
-          ],
+            { name: "Wallets", href: "#" },
+            { name: "Bags", href: "#" },
+            { name: "Sunglasses", href: "#" },
+            { name: "Hats", href: "#" },
+            { name: "Belts", href: "#" }
+          ]
         },
         {
-          id: 'brands',
-          name: 'Brands',
+          id: "brands",
+          name: "Brands",
           items: [
-            { name: 'Full Nelson', href: '#' },
-            { name: 'My Way', href: '#' },
-            { name: 'Re-Arranged', href: '#' },
-            { name: 'Counterfeit', href: '#' },
-            { name: 'Significant Other', href: '#' },
-          ],
-        },
-      ],
-    },
+            { name: "Full Nelson", href: "#" },
+            { name: "My Way", href: "#" },
+            { name: "Re-Arranged", href: "#" },
+            { name: "Counterfeit", href: "#" },
+            { name: "Significant Other", href: "#" }
+          ]
+        }
+      ]
+    }
   ],
   pages: [
-    { name: 'Books', href: '/book-point/' },
-    { name: 'Mcqs', href: '/mcqs-point/' },
-    { name: 'Online Tests', href: '/online-test-point/' },
-  ],
+    { name: "Books", href: "/book-point/" },
+    { name: "Mcqs", href: "/mcqs-point/" },
+    { name: "Online Tests", href: "/online-test-point/" }
+  ]
 }
