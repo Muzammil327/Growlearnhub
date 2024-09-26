@@ -30,7 +30,7 @@ export default function Catgeory({ setCatgeory, catgeory }: any) {
   }
 
   return (
-    <div className="mb-4">
+    <div className="mb-6">
       <Label
         label="Enter Catgeory: (Class, Subject, Topics)"
         htmlFor="catgeory"
@@ -41,6 +41,7 @@ export default function Catgeory({ setCatgeory, catgeory }: any) {
         onChange={handleSelectChange}
         value={catgeory} // Use the correct format for selected options
         className="mt-1"
+        placeholder="Select Catgeory"
       />
     </div>
   )

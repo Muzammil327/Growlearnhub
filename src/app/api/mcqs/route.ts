@@ -13,10 +13,22 @@ export async function POST(req: NextRequest) {
     relatedQuizzes,
     relatedVideo
   } = await req.json()
+
   const catgeorydata = catgeory.map((data: any) => data.label)
+  const relatedQuizzesdata = relatedQuizzes.map((data: any) => data.value)
 
   try {
     await connectDB()
+
+    // find the mcqs name and avoid to replace
+    const filter1 = await Mcqs.findOne({ name: name })
+
+    if (filter1) {
+      return NextResponse.json({
+        statusbar: 400,
+        message: "Duplicate Name."
+      })
+    }
 
     if (!name) {
       return NextResponse.json({
@@ -57,7 +69,7 @@ export async function POST(req: NextRequest) {
       catgeory: catgeorydata,
       description,
       correctOptions,
-      relatedQuizzes,
+      relatedQuizzes: relatedQuizzesdata,
       relatedVideo
     })
 

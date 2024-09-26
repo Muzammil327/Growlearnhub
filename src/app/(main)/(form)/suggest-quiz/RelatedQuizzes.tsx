@@ -1,57 +1,69 @@
-// "use client"
-// import React, { useEffect, useState } from "react"
-// import Label from "@/src/components/ui/Label"
-// import Select from "@/src/components/ui/Select"
-// import axios from "axios"
+"use client"
+import React, { useEffect, useState } from "react"
+import Label from "@/src/components/ui/Label"
+import Select from "react-select"
+import axios from "axios"
 
-// export default function RelatedQuizzes({
-//   setRelatedQuizzesData,
-//   relatedQuizzesData,
-//   relatedQuizzes,
-//   setRelatedQuizzes
-// }: any) {
-//   const [error, setError] = useState<string>("")
-//   const [loading, setLoading] = useState<boolean>(true) // Set loading to true initially
+export default function RelatedQuizzes({
+  setRelatedQuizzesData,
+  relatedQuizzesData,
+  relatedQuizzes,
+  setRelatedQuizzes
+}: any) {
+  const [error, setError] = useState<string>("")
+  const [loading, setLoading] = useState<boolean>(true) // Set loading to true initially
+  console.log(relatedQuizzesData)
 
-//   useEffect(() => {
-//     const fetchMcqs = async () => {
-//       try {
-//         const response = await axios.get("/api/mcqs")
-//         console.log(response.data)
-//         setRelatedQuizzesData(response.data)
-//       } catch (error) {
-//         console.error("Error fetching MCQs:", error)
-//         setError("Failed to load data.")
-//       } finally {
-//         setLoading(false) // Set loading to false
-//       }
-//     }
+  interface CategoryOption {
+    value: number
+    label: string
+  }
 
-//     fetchMcqs() // Call the fetch function
-//   }, [])
+  const catgeoryOptions: CategoryOption[] = relatedQuizzesData.map(
+    ({ _id, name }: any) => ({
+      value: _id,
+      label: name
+    })
+  )
 
-//   return (
-//     <div className="mb-4">
-//       {loading ? (
-//         <p>Loading...</p> // Loading state
-//       ) : (
-//         <>
-//           <Label label="Enter Correct Option:" htmlFor="correctoption" />
-//           <Select
-//             options={relatedQuizzesData}
-//             selectedOption={relatedQuizzes}
-//             onChange={(e: any) => setRelatedQuizzes(e.target.value)}
-//           />
-//           {error && <p className="text-red-500">{error}</p>}
-//         </>
-//       )}
-//     </div>
-//   )
-// }
-import React from 'react'
+  useEffect(() => {
+    const fetchMcqs = async () => {
+      try {
+        const response = await axios.get("/api/mcqs")
+        setRelatedQuizzesData(response.data.getAllMcqs)
+      } catch (error) {
+        console.error("Error fetching MCQs:", error)
+        setError("Failed to load data.")
+      } finally {
+        setLoading(false) // Set loading to false
+      }
+    }
 
-export default function RelatedQuizzes() {
+    fetchMcqs() // Call the fetch function
+  }, [])
+
+  const handleSelectChange = (selectedOptions: any) => {
+    setRelatedQuizzes(selectedOptions) // Handle case where no options are selected
+  }
+
   return (
-    <div>RelatedQuizzes</div>
+    <div className="mb-6">
+      {loading ? (
+        <p>Loading...</p> // Loading state
+      ) : (
+        <>
+          <Label label="Enter Related Quiz:" htmlFor="relatedQuizzes" />
+          <Select
+            isMulti
+            options={catgeoryOptions}
+            onChange={handleSelectChange}
+            value={relatedQuizzes} // Use the correct format for selected options
+            className="mt-1"
+            placeholder="Select related quizs"
+          />
+          {error && <p className="text-red-500">{error}</p>}
+        </>
+      )}
+    </div>
   )
 }

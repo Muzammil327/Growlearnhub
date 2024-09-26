@@ -11,6 +11,7 @@ import Button from "@/src/components/ui/Button"
 import Processing from "@/src/components/ui/Processing"
 import { TagsInput } from "react-tag-input-component"
 import Catgeory from "./Catgeory"
+import RelatedQuizzes from "./RelatedQuizzes"
 
 export default function Page() {
   const [error, setError] = useState<string>("")
@@ -120,7 +121,7 @@ export default function Page() {
       clist={data.clist}
     >
       <form onSubmit={handleSubmit}>
-        <div className="mb-4">
+        <div className="mb-6">
           <Label label="Enter Question Name:" htmlFor="questionName" />
           <Input
             type="text"
@@ -130,7 +131,7 @@ export default function Page() {
           />
         </div>
 
-        <div className="mb-4">
+        <div className="mb-6">
           <Label label="Enter Options:" htmlFor="options" />
           <TagsInput
             value={options}
@@ -140,7 +141,7 @@ export default function Page() {
           />
         </div>
 
-        <div className="mb-4">
+        <div className="mb-6">
           <Label label="Enter Correct Option:" htmlFor="correctoption" />
           <Select
             options={options}
@@ -149,7 +150,7 @@ export default function Page() {
           />
         </div>
 
-        <div className="mb-4">
+        <div className="mb-6">
           <Label label="Enter Description:" htmlFor="description" />
           <Textarea
             value={description}
@@ -159,7 +160,7 @@ export default function Page() {
           />
         </div>
 
-        <div className="mb-4">
+        <div className="mb-6">
           <Label
             label="Enter Video Link: (Not Required)"
             htmlFor="relatedVideo"
@@ -174,12 +175,12 @@ export default function Page() {
 
         <Catgeory setCatgeory={setCatgeory} catgeory={catgeory} />
 
-        {/* <RelatedQuizzes
+        <RelatedQuizzes
           setRelatedQuizzesData={setRelatedQuizzesData}
           relatedQuizzesData={relatedQuizzesData}
           setRelatedQuizzes={setRelatedQuizzes}
           relatedQuizzes={relatedQuizzes}
-        /> */}
+        />
         {error && <p className="text-red-500">{error}</p>}
         {success && <p className="text-green-500">{success}</p>}
 
