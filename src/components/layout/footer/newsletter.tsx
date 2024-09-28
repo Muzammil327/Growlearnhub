@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import { NewsletterData } from "@/src/types/page";
 import LoaderIcon from "../../element/LoaderIcon";
 import axios from "axios";
-import { PostNewsletter } from "@/src/app/constant";
 
 export default function Newsletter() {
   const [loadingBtn, setLoadingBtn] = useState(false);
@@ -19,15 +18,15 @@ export default function Newsletter() {
     try {
       setLoadingBtn(true);
       setError(false);
-      const response = await axios.post(PostNewsletter);
-      if (response.data.status === "400" || response.data.status === "500") {
-        setError(response.data.message);
-      } else {
-        setError(response.data.message);
-        setNewsletter({
-          email: "",
-        });
-      }
+      // const response = await axios.post(PostNewsletter);
+      // if (response.data.status === "400" || response.data.status === "500") {
+      //   setError(response.data.message);
+      // } else {
+      //   setError(response.data.message);
+      //   setNewsletter({
+      //     email: "",
+      //   });
+      // }
     } catch (error) {
       console.log(error);
       setError(true);

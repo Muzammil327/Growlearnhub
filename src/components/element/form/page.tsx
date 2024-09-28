@@ -4,7 +4,6 @@ import style from "./form.module.css"
 import LoaderIcon from "../LoaderIcon"
 import Label from "../../ui/Label"
 import Input from "../../ui/Input"
-import { PostCommentForm } from "@/src/app/constant"
 import Button from "../../ui/Button"
 import Textarea from "../../ui/textarea"
 
