@@ -1,10 +1,16 @@
 import mongoose from "mongoose"
 
 const connectDB = async () => {
+  if (mongoose.connection.readyState === 1) {
+    // Already connected
+    return
+  }
+
   try {
     await mongoose.connect(process.env.MONGO_URL as string, {
-      serverSelectionTimeoutMS: 20000, // Timeout after 5 seconds if server selection fails
-      socketTimeoutMS: 45000 // Increase socket timeout to 45 seconds
+      serverSelectionTimeoutMS: 20000, // Timeout if server selection fails
+      socketTimeoutMS: 45000, // Increase socket timeout to 45 seconds
+      connectTimeoutMS: 20000 // Increase connection timeout to 20 seconds
     })
 
     const connection = mongoose.connection

@@ -62,6 +62,7 @@ export default function Page({ params }: IProps) {
       b1Link={data.b1Link}
       b2={Final_Data.name}
       image={data.image}
+      vedioUrl=""
     >
       <div className="my-10 grid gap-4">
         {combinedMcqs

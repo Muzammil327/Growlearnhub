@@ -8,7 +8,7 @@ export default function DataClass9OnlineTest() {
           <CardSmall
             key={data.name}
             title={data.name}
-            link={`/class-9/mcqs/${data.slug}`}
+            link={`/class-9/online-test/${data.slug}`}
           />
         )
       })}

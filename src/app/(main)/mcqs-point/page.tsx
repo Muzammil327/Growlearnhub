@@ -16,7 +16,7 @@ const data = {
   canonical: '/mcqs-point/',
   index: true,
   follow: true,
-  image: '/mcqs-point.webp',
+  image: '/mcqs-point/mcqs-point.webp',
   url: 'https://growlearnhub.com/mcqs-point/',
   keywords: [
     'growlearnhub',

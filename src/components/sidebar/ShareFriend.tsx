@@ -1,17 +1,17 @@
-import React from 'react'
+import React from "react"
 import {
   FacebookShareButton,
   WhatsappShareButton,
   WhatsappIcon,
-  FacebookIcon,
-} from 'next-share'
+  FacebookIcon
+} from "next-share"
 
 export default function ShareFriend({
   title,
-  url,
+  url
 }: {
   title: string
-  url: string
+  url: string | undefined
 }) {
   return (
     <div className="my-5 friendsocials">
@@ -19,10 +19,17 @@ export default function ShareFriend({
         <h3>Share it with Friends:</h3>
       </div>
       <div className="flex gap-3">
-        <FacebookShareButton url={`https://growlearnhub.com${url}`} quote={title} hashtag={'#growlearnhub'}>
+        <FacebookShareButton
+          url={`https://growlearnhub.com${url}`}
+          quote={title}
+          hashtag={"#growlearnhub"}
+        >
           <FacebookIcon size={40} />
         </FacebookShareButton>
-        <WhatsappShareButton url={`https://growlearnhub.com${url}`} title={title}>
+        <WhatsappShareButton
+          url={`https://growlearnhub.com${url}`}
+          title={title}
+        >
           <WhatsappIcon size={40} />
         </WhatsappShareButton>
       </div>

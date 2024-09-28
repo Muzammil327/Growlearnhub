@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const Select = ({ options, selectedOption, onChange }: any) => {
   return (
@@ -8,6 +8,7 @@ const Select = ({ options, selectedOption, onChange }: any) => {
         onChange={onChange}
         className={`w-full appearance-none border border-gray-300 py-3 pl-3 rounded-md mt-2 shadow-sm outline-none focus:outline-none focus:ring-color2 focus:border-color2 transition-all hover:transition-all flex items-center justify-center`}
       >
+        <option>Select Value</option>
         {options.map((option: any, index: any) => (
           <option key={index} value={option}>
             {option}
@@ -24,7 +25,7 @@ const Select = ({ options, selectedOption, onChange }: any) => {
         </svg>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Select;
+export default Select

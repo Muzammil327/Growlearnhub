@@ -1,7 +1,7 @@
-import React from 'react'
-import { Metadata } from 'next'
-import Wrapper from '@/src/components/element/Wrapper'
-import CardSmall from '@/src/components/card/cardSmall/cardSmall'
+import React from "react"
+import { Metadata } from "next"
+import Wrapper from "@/src/components/element/Wrapper"
+import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 
 interface Subject {
   id: number
@@ -10,21 +10,21 @@ interface Subject {
 }
 
 const data = {
-  title: 'World General Knowledge Solved Mcqs',
+  title: "World General Knowledge Solved Mcqs",
   description:
-    'Here you can get solved mcqs wise of World General Knowledge like dams, rivers, canals, natural resources, forest, road and motorways.',
-  canonical: '/mcqs-point/general-knowledge/world-knowledge/',
+    "Here you can get solved mcqs wise of World General Knowledge like dams, rivers, canals, natural resources, forest, road and motorways.",
+  canonical: "/mcqs-point/general-knowledge/world-knowledge/",
   index: true,
   follow: true,
-  image: '/opengraph-image.jpg',
-  url: 'https://growlearnhub.com/mcqs-point/general-knowledge/world-knowledge/',
+  image: "/mcqs-point/general-knowledge/general-knowledge-world-mcqs-point.png",
+  url: "https://growlearnhub.com/mcqs-point/general-knowledge/world-knowledge/",
   keywords: [
-    'mcqs',
-    'mcqs world',
-    'mcqs general knowledge',
-    'world general knowledge',
-    'mcqs general knowledge world',
-  ],
+    "mcqs",
+    "mcqs world",
+    "mcqs general knowledge",
+    "world general knowledge",
+    "mcqs general knowledge world"
+  ]
 }
 
 export default function Page() {
@@ -61,46 +61,46 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
-        alt: data.title,
-      },
-    ],
+        url: "https://nextjs.org/og.png",
+        alt: data.title
+      }
+    ]
   },
   alternates: {
-    canonical: data.canonical,
+    canonical: data.canonical
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow,
-    },
+      follow: data.follow
+    }
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
-      url: 'https://nextjs.org/og.png',
-      alt: data.title,
-    },
-  },
+      url: "https://nextjs.org/og.png",
+      alt: data.title
+    }
+  }
 }
 
 const BookSubjectData: Subject[] = [
   {
     id: 0,
-    name: 'River',
-    slug: 'river',
+    name: "River",
+    slug: "river"
   },
   {
     id: 1,
-    name: 'Dam',
-    slug: 'dam',
+    name: "Dam",
+    slug: "dam"
   },
   {
     id: 2,
-    name: 'Planet',
-    slug: 'planet',
-  },
+    name: "Planet",
+    slug: "planet"
+  }
 ]

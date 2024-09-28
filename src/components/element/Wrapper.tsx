@@ -25,6 +25,7 @@ export default function Wrapper(data: {
   b3?: string
   b3Link?: string
   b4?: string
+  vedioUrl?: string
 }) {
   return (
     <React.Fragment>
@@ -80,7 +81,12 @@ export default function Wrapper(data: {
             </div>
             <div className="c2">
               {data.clist && (
-                <Sidebar title={data.title} url={data.url} list={data.clist} />
+                <Sidebar
+                  title={data.title}
+                  url={data.url}
+                  list={data.clist}
+                  vedioUrl={data.vedioUrl}
+                />
               )}
             </div>
           </div>

@@ -41,7 +41,7 @@ const RandomData1: any[] = [
   {
     id: 3,
     name: "How can I boost my IQ?",
-    catgeory: ["iq", "dam"],
+    catgeory: ["iq"],
     options: [
       "By engaging in brain-training activities",
       "By eating spicy foods",
@@ -1748,13 +1748,6 @@ const RandomData2: any[] = [
     slug: "desert-silk-road-oases"
   },
   {
-    id: 168,
-    name: "Which is the smallest planet?",
-    options: ["Mercury", "Mars", "Venus", "Earth"],
-    correctOptions: "Mercury",
-    slug: "which-is-the-smallest-planet"
-  },
-  {
     id: 169,
     name: "Which is the tallest mountain in the world?",
     options: ["K2", "Kangchenjunga", "Everest", "Makalu"],
@@ -1794,20 +1787,6 @@ const RandomData2: any[] = [
       31, 46, 60, 68, 69, 70, 71, 84, 92, 93, 94, 95, 96, 97, 98, 137, 138, 139,
       148, 153, 156, 158
     ]
-  },
-  {
-    id: 173,
-    name: "What is the coldest planet?",
-    options: ["Mercury", "Venus", "Earth", "Neptune"],
-    correctOptions: "Neptune",
-    slug: "what-is-the-coldest-planet-duplicate"
-  },
-  {
-    id: 174,
-    name: "Which planet is the coldest?",
-    options: ["Mars", "Saturn", "Uranus", "Neptune"],
-    correctOptions: "Neptune",
-    slug: "which-planet-is-the-coldest-duplicate"
   },
   {
     id: 175,
@@ -5004,13 +4983,7 @@ const RandomData5: any[] = [
     correctOptions: "Angel Falls, Venezuela",
     slug: "tallest-waterfall-in-the-world"
   },
-  {
-    id: 486,
-    name: "Which planet is known as the 'Red Planet'?",
-    options: ["Venus", "Saturn", "Mars", "Mercury"],
-    correctOptions: "Mars",
-    slug: "red-planet"
-  },
+
   {
     id: 487,
     name: "Which element is known as the building block of life?",
@@ -5031,6 +5004,34 @@ const RandomData5: any[] = [
     options: ["The Romans", "The Egyptians", "The Sumerians", "The Greeks"],
     correctOptions: "The Sumerians",
     slug: "invention-of-the-wheel"
+  },
+  {
+    id: 168,
+    name: "Which is the smallest planet?",
+    options: ["Mercury", "Mars", "Venus", "Earth"],
+    correctOptions: "Mercury",
+    slug: "which-is-the-smallest-planet"
+  },
+  {
+    id: 173,
+    name: "What is the coldest planet?",
+    options: ["Mercury", "Venus", "Earth", "Neptune"],
+    correctOptions: "Neptune",
+    slug: "what-is-the-coldest-planet-duplicate"
+  },
+  {
+    id: 174,
+    name: "Which planet is the coldest?",
+    options: ["Mars", "Saturn", "Uranus", "Neptune"],
+    correctOptions: "Neptune",
+    slug: "which-planet-is-the-coldest-duplicate"
+  },
+  {
+    id: 486,
+    name: "Which planet is known as the 'Red Planet'?",
+    options: ["Venus", "Saturn", "Mars", "Mercury"],
+    correctOptions: "Mars",
+    slug: "red-planet"
   }
 ]
 

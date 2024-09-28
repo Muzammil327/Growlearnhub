@@ -11,15 +11,14 @@ export default function RelatedQuizzes({
   setRelatedQuizzes
 }: any) {
   const [error, setError] = useState<string>("")
-  const [loading, setLoading] = useState<boolean>(true) // Set loading to true initially
-  console.log(relatedQuizzesData)
+  const [loading, setLoading] = useState<boolean>(true)
 
   interface CategoryOption {
     value: number
     label: string
   }
 
-  const catgeoryOptions: CategoryOption[] = relatedQuizzesData.map(
+  const categoryOptions: CategoryOption[] = relatedQuizzesData.map(
     ({ _id, name }: any) => ({
       value: _id,
       label: name
@@ -35,31 +34,31 @@ export default function RelatedQuizzes({
         console.error("Error fetching MCQs:", error)
         setError("Failed to load data.")
       } finally {
-        setLoading(false) // Set loading to false
+        setLoading(false)
       }
     }
 
-    fetchMcqs() // Call the fetch function
-  }, [])
+    fetchMcqs()
+  }, [setRelatedQuizzesData]) // Include setRelatedQuizzesData in the dependency array
 
   const handleSelectChange = (selectedOptions: any) => {
-    setRelatedQuizzes(selectedOptions) // Handle case where no options are selected
+    setRelatedQuizzes(selectedOptions)
   }
 
   return (
     <div className="mb-6">
       {loading ? (
-        <p>Loading...</p> // Loading state
+        <p>Loading...</p>
       ) : (
         <>
           <Label label="Enter Related Quiz:" htmlFor="relatedQuizzes" />
           <Select
             isMulti
-            options={catgeoryOptions}
+            options={categoryOptions}
             onChange={handleSelectChange}
-            value={relatedQuizzes} // Use the correct format for selected options
+            value={relatedQuizzes}
             className="mt-1"
-            placeholder="Select related quizs"
+            placeholder="Select related quizzes"
           />
           {error && <p className="text-red-500">{error}</p>}
         </>

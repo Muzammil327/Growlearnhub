@@ -1,47 +1,31 @@
 import React from "react"
-import Wrapper from "@/src/components/element/Wrapper"
-import { CardQuizWithoutLink } from "@/src/components/card/CardQuiz/cardQuiz"
-import { combinedMcqs } from "../../../[slug]/data"
+import QuizWrapper from "@/src/components/element/QuizWrapper"
 
 const data = {
-  title: "World General Knowledge River Solved Mcqs",
+  title: "World General Knowledge River Mcqs",
   description:
-    "Here you can read the World General Knowledge River Solved Mcqs Wise like indus river, nile river, ravi river etc.",
-  keywords: ["indus river", "nile river", "ravi river"],
+    "Here you can read the World General Knowledge River Solved Mcqs Wise like ravi river, indus river, sutlej river etc.",
+  keywords: ["river planet", "river dams", "river river"],
   url: "/mcqs-point/general-knowledge/world-knowledge/river/",
   image:
-    "/mcqs-point/biology/skeletal-system/bones/bones-skeletal-system-biology-mcqs-point.webp"
+    "/mcqs-point/general-knowledge/general-knowledge-world-river-mcqs-point.png"
 }
 
-const FiltercombinedMcqs = combinedMcqs.filter(
-  (data: any) =>
-    Array.isArray(data.catgeory) &&
-    data.catgeory.some((cat: any) => cat.includes("river"))
-)
-
 export default function Page() {
+  const cat = ["gk", "world", "river"]
+
   return (
-    <Wrapper
+    <QuizWrapper
       title={data.title}
       url={data.url}
       b1="General Knowledge"
       b1Link="/mcqs-point/general-knowledge"
       b2="World Knowledge"
       b2Link="/mcqs-point/general-knowledge/world-knowledge"
-      b3="River"
+      b3="Rivers"
       image={data.image}
-    >
-      <div className="my-10 grid gap-4">
-        {FiltercombinedMcqs.map((book: any) => (
-          <CardQuizWithoutLink
-            key={book.id}
-            title={book.name}
-            option={book.options}
-            correctOption={book.correctOptions}
-          />
-        ))}
-      </div>
-    </Wrapper>
+      cat={cat}
+    ></QuizWrapper>
   )
 }
 
@@ -64,7 +48,7 @@ export async function generateMetadata() {
     openGraph: {
       title: data.title,
       description: data.description,
-      url: `https://growlearnhub.com${data.url}`,
+      url: `https://growlearnhub.com/${data.url}`,
       images: [
         {
           src: data.image,
