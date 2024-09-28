@@ -10,7 +10,7 @@ const data = {
   canonical: '/class-12/',
   index: true,
   follow: true,
-  image: '/class/class_12.webp',
+  image: '/12th/class-12.webp',
   url: 'https://growlearnhub.com/class-12/',
   keywords: [
     'growlearnhub',
