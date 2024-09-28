@@ -5,12 +5,14 @@ import { NextRequest, NextResponse } from "next/server"
 export async function GET(req: NextRequest) {
   const searchParams = req.nextUrl.searchParams
   const cat = searchParams.get("cat")
-  console.log(cat)
+  const page = parseInt(searchParams.get("page") || "1", 10) // Get the current page, default to 1
+  const limit = parseInt(searchParams.get("limit") || "10", 10) // Get the limit of items per page, default to 10
+
   try {
     if (!cat) {
       return NextResponse.json({
         statusbar: 400,
-        error: "Catgerory not found."
+        error: "Categories are required."
       })
     }
 
@@ -19,6 +21,7 @@ export async function GET(req: NextRequest) {
     // Split the categories and trim whitespace
     const categories = cat.split(",").map((c) => c.trim())
 
+    // Aggregate the MCQs based on categories
     const get_random_mcqs = await Mcqs.aggregate([
       {
         $match: {
@@ -37,13 +40,24 @@ export async function GET(req: NextRequest) {
       }
     ])
 
+    const totalMCQs = get_random_mcqs.length
+
+    // Implement pagination
+    const totalPages = Math.ceil(totalMCQs / limit)
+    const startIndex = (page - 1) * limit
+    const endIndex = startIndex + limit
+    const paginatedMCQs = get_random_mcqs.slice(startIndex, endIndex) // Get the specific page of MCQs
+
     return NextResponse.json({
       statusbar: 200,
-      message: "Cart successfully.",
-      get_random_mcqs
+      message: `Successfully retrieved page ${page} with ${paginatedMCQs.length} MCQs.`,
+      paginatedMCQs, // Contains the current page of MCQs
+      totalMCQs,
+      totalPages,
+      currentPage: page
     })
   } catch (error) {
-    console.error("Error verifying email:", error)
+    console.error("Error fetching MCQs:", error)
     return NextResponse.json({
       statusbar: 400,
       error: "Internal Server Error"

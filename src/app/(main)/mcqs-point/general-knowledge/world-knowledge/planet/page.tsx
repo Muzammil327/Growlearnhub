@@ -1,5 +1,5 @@
 import React from "react"
-import QuizWrapper from "@/src/components/element/QuizWrapper"
+import McqsChapterWrapper from "@/src/components/Wrapper/mcqs/McqsChapterWrapper"
 
 const data = {
   title: "World General Knowledge Planet Mcqs",
@@ -7,24 +7,23 @@ const data = {
     "Here you can read the World General Knowledge Planet Solved Mcqs Wise like red planet, blue planet, mars planet etc.",
   keywords: ["red planet", "blue planet", "mars planet"],
   url: "/mcqs-point/general-knowledge/world-knowledge/planet/",
-  image: "/mcqs-point/general-knowledge/general-knowledge-world-planet-mcqs-point.png",
+  image:
+    "/mcqs-point/general-knowledge/general-knowledge-world-planet-mcqs-point.png"
 }
 
 export default function Page() {
   const cat = ["gk", "world", "planet"]
 
   return (
-    <QuizWrapper
+    <McqsChapterWrapper
       title={data.title}
       url={data.url}
-      b1="General Knowledge"
-      b1Link="/mcqs-point/general-knowledge"
-      b2="World Knowledge"
-      b2Link="/mcqs-point/general-knowledge/world-knowledge"
-      b3="Planet"
       image={data.image}
       cat={cat}
-    ></QuizWrapper>
+      b1="World Knowledge"
+      b1Link="/mcqs-point/general-knowledge/world-knowledge/"
+      b2="Planets"
+    ></McqsChapterWrapper>
   )
 }
 

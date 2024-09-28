@@ -1,5 +1,5 @@
 import React from "react"
-import QuizWrapper from "@/src/components/element/QuizWrapper"
+import McqsChapterWrapper from "@/src/components/Wrapper/mcqs/McqsChapterWrapper"
 
 const data = {
   title: "World General Knowledge Dams Mcqs",
@@ -7,14 +7,15 @@ const data = {
     "Here you can read the World General Knowledge Dams Solved Mcqs Wise like tarbela dams, bhusha dams, mangla dams etc.",
   keywords: ["tarbela dams", "bhusha dams", "mangla dams"],
   url: "/mcqs-point/general-knowledge/world-knowledge/dam/",
-  image: "/mcqs-point/general-knowledge/general-knowledge-world-dams-mcqs-point.png",
+  image:
+    "/mcqs-point/general-knowledge/general-knowledge-world-dams-mcqs-point.png"
 }
 
 export default function Page() {
   const cat = ["gk", "world", "dam"]
 
   return (
-    <QuizWrapper
+    <McqsChapterWrapper
       title={data.title}
       url={data.url}
       b1="General Knowledge"
@@ -24,7 +25,7 @@ export default function Page() {
       b3="Dams"
       image={data.image}
       cat={cat}
-    ></QuizWrapper>
+    ></McqsChapterWrapper>
   )
 }
 

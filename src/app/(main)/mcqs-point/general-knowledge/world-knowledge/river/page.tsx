@@ -1,5 +1,5 @@
 import React from "react"
-import QuizWrapper from "@/src/components/element/QuizWrapper"
+import McqsChapterWrapper from "@/src/components/Wrapper/mcqs/McqsChapterWrapper"
 
 const data = {
   title: "World General Knowledge River Mcqs",
@@ -15,7 +15,7 @@ export default function Page() {
   const cat = ["gk", "world", "river"]
 
   return (
-    <QuizWrapper
+    <McqsChapterWrapper
       title={data.title}
       url={data.url}
       b1="General Knowledge"
@@ -25,7 +25,7 @@ export default function Page() {
       b3="Rivers"
       image={data.image}
       cat={cat}
-    ></QuizWrapper>
+    ></McqsChapterWrapper>
   )
 }
 

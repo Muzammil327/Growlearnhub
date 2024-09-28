@@ -46,50 +46,21 @@ const QuizWrapperFilter: React.FC<QuizWrapperProps> = ({
         setLoading(true)
         setError("") // Reset error on each fetch
         const response = await axios.get(
-          `/api/mcqs/RandomPageMcqs?cat=${cat.join(",")}`
+          `/api/mcqs/RandomOnlineTest?cat=${cat.join(",")}`
         )
-        setMcqs(response.data.get_random_mcqs)
+        setSets(response.data.sets) // Grouped sets from the response
       } catch (err: any) {
         console.error(err)
         setError(err.response?.data?.message || "Error fetching MCQs.")
       } finally {
         setLoading(false)
       }
-    } // Add `cat` as a dependency since it affects the API call
+    }
 
     if (cat) {
       fetchMcqs()
     }
   }, [cat])
-
-  useEffect(() => {
-    const newSets: any[][] = []
-
-    if (mcqs.length) {
-      // Create sets of 10 questions each
-      for (let i = 0; i < mcqs.length; i += 10) {
-        const set = mcqs.slice(i, i + 10)
-
-        // If the set has less than 10 questions, duplicate randomly
-        while (set.length < 10 && mcqs.length >= 10) {
-          const randomQuestion = mcqs[Math.floor(Math.random() * mcqs.length)]
-          set.push(randomQuestion)
-        }
-
-        newSets.push(set)
-      }
-
-      // If the last set has fewer than 10 questions and it's not the only set
-      if (newSets.length > 1 && newSets[newSets.length - 1].length < 10) {
-        const lastSet = newSets.pop()
-        const combinedSet = newSets[newSets.length - 1].concat(lastSet)
-        newSets[newSets.length - 1] = combinedSet
-      }
-
-      console.log("newSets:", newSets)
-      setSets(newSets)
-    }
-  }, [mcqs])
 
   const handleSetClick = (index: number) => {
     setCurrentSetIndex(index)
@@ -159,7 +130,6 @@ const QuizWrapperFilter: React.FC<QuizWrapperProps> = ({
               </span>
             </p>
 
-            {/* New Stats Section */}
             <div className="text-white text-center mb-4">
               <p className="text-lg text-white">
                 Total number of questions:
@@ -208,12 +178,10 @@ const QuizWrapperFilter: React.FC<QuizWrapperProps> = ({
         clist={clist}
       >
         <div className="flex md:flex-row flex-col gap-2">
-          {/* Share Button Column */}
           <div className="flex flex-col items-start px-2">
             <ShareButtonQuiz score={score} className="md:flex-col flex-row" />
           </div>
 
-          {/* Quiz Content */}
           <div className="p-6 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg shadow-lg flex-1">
             <h2 className="text-3xl font-extrabold text-white mb-3 text-center">
               Quiz Chapter 1 Set {currentSetIndex + 1}
@@ -282,32 +250,28 @@ const QuizWrapperFilter: React.FC<QuizWrapperProps> = ({
       image={image}
       clist={clist}
     >
-      <div>
-        {loading && <p className="text-lg mb-4">Loading MCQs...</p>}
-        {error && <p className="text-lg mb-4 text-red-500">{error}</p>}
-
-        {!loading && !error && (
-          <>
-            <h3 className="text-lg mb-4">Total Sets of {paramdata} MCQs</h3>
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-3">
-              {sets.length > 0 ? (
-                sets.map((set, index) => (
-                  <div
-                    key={index}
-                    className="border rounded-lg p-4 mb-4 cursor-pointer hover:bg-gray-100 dark:hover:bg-slate-900"
-                    onClick={() => handleSetClick(index)}
-                  >
-                    <h4 className="text-lg">Set {index + 1}</h4>
-                  </div>
-                ))
-              ) : (
-                <p className="text-lg mb-4">No sets available.</p>
-              )}
-            </div>
-          </>
+      <div className="bg-gradient-to-br from-blue-600 to-purple-600 text-center text-white p-8 rounded-lg shadow-xl">
+        <h2 className="text-4xl font-extrabold mb-4 drop-shadow-lg">
+          Select a Quiz Set to Begin
+        </h2>
+        {loading ? (
+          <div>Loading...</div>
+        ) : error ? (
+          <div>Error: {error}</div>
+        ) : (
+          <div className="grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-6">
+            {sets.map((set, index) => (
+              <button
+                key={index}
+                className="p-6 bg-white text-blue-600 rounded-lg shadow-lg transition-transform hover:scale-105 hover:shadow-xl"
+                onClick={() => handleSetClick(index)}
+              >
+                Set {index + 1}
+              </button>
+            ))}
+          </div>
         )}
       </div>
-      {children}
     </SimpleWrapper>
   )
 }

@@ -1,5 +1,5 @@
+import McqsChapterWrapper from "@/src/components/Wrapper/mcqs/McqsChapterWrapper"
 import React from "react"
-import QuizWrapper from "@/src/components/element/QuizWrapper"
 
 const data = {
   title: "World General Knowledge Longest Mcqs",
@@ -15,17 +15,17 @@ export default function Page() {
   const cat = ["gk", "world", "longest"]
 
   return (
-    <QuizWrapper
-      title={data.title}
-      url={data.url}
-      b1="General Knowledge"
-      b1Link="/mcqs-point/general-knowledge"
-      b2="World Knowledge"
-      b2Link="/mcqs-point/general-knowledge/world-knowledge"
-      b3="Longest"
-      image={data.image}
-      cat={cat}
-    ></QuizWrapper>
+    <McqsChapterWrapper
+    title={data.title}
+    url={data.url}
+    b1="General Knowledge"
+    b1Link="/mcqs-point/general-knowledge"
+    b2="World Knowledge"
+    b2Link="/mcqs-point/general-knowledge/world-knowledge"
+    b3="Longest"
+    image={data.image}
+    cat={cat}
+  ></McqsChapterWrapper>
   )
 }
 
