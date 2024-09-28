@@ -1,6 +1,6 @@
 import React from "react"
 import { Metadata } from "next"
-import Class9OnlineTestBookData from "@/src/app/(main)/(class)/class-9/online-test/DataClass9OnlineTest"
+import Class9OnlineTestBookData from "@/src/app/(main)/(class)/class-9/online-test/data/Class9OnlineTestBookData"
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 
 const data = {
