@@ -4,7 +4,7 @@ import Image from 'next/image'
 interface Irops {
   image: string
   title: string
-  class: string
+  class?: string
   height: number
   width: number
   priority?: boolean
