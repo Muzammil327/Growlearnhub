@@ -11,7 +11,7 @@ import { UnorderedList, UnorderedListLink } from "@/src/components/ui/list"
 const data = {
   title: "VU ENG201 Handouts Pdf Download",
   description:
-    "Access ENG201 handouts and highlighted notes for VU students. Download English 201 handouts in PDF format to prepare for exams. Free and easy to download!",
+    "Access ENG201 handouts and highlighted notes for VU students. Download Eng 201 handouts in PDF format to prepare for exams. Free and easy to download!",
   canonical: "/vu/handouts/eng201/",
   index: true,
   follow: true,
