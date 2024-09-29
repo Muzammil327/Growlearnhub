@@ -1,6 +1,5 @@
 "use client"
 import React, { useState } from "react"
-import LoadingPdf from "./Loading/LoadingPdf"
 
 const PDFViewer: React.FC<{ pdfUrl: string }> = ({ pdfUrl }) => {
   const [iframeLoaded, setIframeLoaded] = useState(false)
@@ -16,7 +15,7 @@ const PDFViewer: React.FC<{ pdfUrl: string }> = ({ pdfUrl }) => {
     window.location.href = downloadUrl
 
     // Optionally, you could reset isDownloading after a timeout or after the download has completed.
-    setTimeout(() => setIsDownloading(false), 7000); // Adjust time as needed
+    setTimeout(() => setIsDownloading(false), 7000) // Adjust time as needed
   }
 
   return (
@@ -31,8 +30,24 @@ const PDFViewer: React.FC<{ pdfUrl: string }> = ({ pdfUrl }) => {
       />
       {!iframeLoaded && (
         <>
-          <LoadingPdf />
-          <LoadingPdf />
+          <div className="border border-blue-300 shadow rounded-md p-3 w-full my-3">
+            <div className="animate-pulse flex space-x-4">
+              <div className="flex-1 space-y-6 pt-7 pb-2">
+                <div className="space-y-3">
+                  <div className="h-72 w-full bg-slate-700 rounded"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="border border-blue-300 shadow rounded-md p-3 w-full my-3">
+            <div className="animate-pulse flex space-x-4">
+              <div className="flex-1 space-y-6 pt-7 pb-2">
+                <div className="space-y-3">
+                  <div className="h-72 w-full bg-slate-700 rounded"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </>
       )}
       <button

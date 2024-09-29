@@ -1,10 +1,10 @@
 "use client"
 import { useState } from "react"
-import Label from "../../ui/Label"
-import Input from "../../ui/Input"
-import Button from "../../ui/Button"
-import Textarea from "../../ui/textarea"
-import Processing from "../../ui/Processing"
+import Label from "../ui/Label"
+import Input from "../ui/Input"
+import Button from "../ui/Button"
+import Textarea from "../ui/textarea"
+import Processing from "../ui/Processing"
 
 export default function Form(props: { url: string }) {
   const [loadingBtn, setLoadingBtn] = useState(false)

@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function JoinUS() {
   return (
-    <div className="joinsocials mb-5">
+    <div className="mb-5">
       <div className="title">
         <h3>Join Us:</h3>
       </div>

@@ -1,5 +1,5 @@
-import './cardQuiz.scss'
-import Link from 'next/link'
+import "./cardQuiz.scss"
+import Link from "next/link"
 
 interface CardQuizProps {
   title: string
@@ -21,9 +21,9 @@ export const CardQuiz: React.FC<CardQuizProps> = ({
   title,
   link,
   correctOption,
-  className = '',
+  className = "",
   option,
-  description,
+  description
 }) => {
   return (
     <Link href={link} className={className}>
@@ -50,9 +50,8 @@ export const CardQuiz: React.FC<CardQuizProps> = ({
 export const CardQuizWithoutLink: React.FC<CardQuizProps2> = ({
   title,
   correctOption,
-  className = '',
   option,
-  para,
+  para
 }) => {
   return (
     <div className="cardquiz">

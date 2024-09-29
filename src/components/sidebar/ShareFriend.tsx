@@ -14,7 +14,7 @@ export default function ShareFriend({
   url: string | undefined
 }) {
   return (
-    <div className="my-5 friendsocials">
+    <div className="my-5">
       <div className="title">
         <h3>Share it with Friends:</h3>
       </div>

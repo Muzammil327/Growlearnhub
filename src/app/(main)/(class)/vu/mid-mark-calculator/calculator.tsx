@@ -5,7 +5,7 @@ import MidPercentage from './mid'
 import AssignmentPercentage from './Assignment'
 import { useState } from 'react'
 import Button from '@/src/components/ui/Button'
-import Form from '@/src/components/element/form/page'
+import Form from '@/src/components/element/form'
 import Image from 'next/image'
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 

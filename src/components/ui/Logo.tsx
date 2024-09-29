@@ -4,7 +4,6 @@ import ImageContainer from '@/src/components/ui/ImageContainer'
 
 export default function Logo() {
   return (
-  
       <Link href="/" className="-m-1.5 sm:p-1.5 py-2">
         <ImageContainer
           image="/growlearnhub.png"

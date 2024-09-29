@@ -19,14 +19,14 @@ interface Iprops {
 
 export default function Accordation({ data }: { data: Iprops[] }) {
   return (
-    <Accordion>
+    <Accordion className="mt-4">
       {data.map((data: Iprops) => {
         return (
           <AccordionItem key={data.title}>
             <AccordionItemHeading>
               <AccordionItemButton>{data.title}</AccordionItemButton>
             </AccordionItemHeading>
-            <AccordionItemPanel>
+            <AccordionItemPanel className="mx-2 my-0">
               <p>{data.para}</p>
             </AccordionItemPanel>
           </AccordionItem>
