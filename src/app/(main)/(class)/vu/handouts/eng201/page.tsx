@@ -6,7 +6,7 @@ import { VuHandoutsData } from "../data"
 import PDFViewer from "@/src/components/element/PDFViewer"
 import Table from "@/src/components/element/table"
 import Accordation from "@/src/components/element/accordion"
-import { UnorderedList } from "@/src/components/ui/list"
+import { UnorderedList, UnorderedListLink } from "@/src/components/ui/list"
 
 const data = {
   title: "VU ENG201 Handouts Pdf Download",
@@ -28,14 +28,7 @@ const data = {
     { name: "Handouts", slug: "/vu/handouts/" },
     { name: "Mid Term Mcqs", slug: "/vu/mid-mcqs/" },
     { name: "Final Term Mcqs", slug: "/vu/final-mcqs/" },
-    { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" },
-    { name: "ENG201 Highlight Handouts", slug: "/vu/handouts/eng201/" },
-    { name: "ENG201 Mid Term Solved Papers", slug: "/vu/handouts/eng201/" },
-    { name: "ENG201 Mid Term Mcqs", slug: "/vu/handouts/eng201/" },
-    { name: "ENG201 Mid Term Online Test", slug: "/vu/handouts/eng201/" },
-    { name: "ENG201 Final Term Solved Papers", slug: "/vu/handouts/eng201/" },
-    { name: "ENG201 Final Term Mcqs", slug: "/vu/handouts/eng201/" },
-    { name: "ENG201 Final Term Online Test", slug: "/vu/handouts/eng201/" }
+    { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" }
   ],
   fileId: "1sGLJuN5IQvqSOsoqVl64BEBoapsOFuGk"
 }
@@ -282,10 +275,6 @@ export default function Page() {
             title: "Practice Past Papers",
             description:
               "Use the handouts to revise and then practice past papers for better retention."
-          },
-          {
-            description:
-              "This item has no title, but it will still be displayed."
           }
         ]}
       />
@@ -304,6 +293,47 @@ export default function Page() {
           }
         ]}
       />
+
+      {/* Related Resources  */}
+      <h3>Related Resources</h3>
+      <p>
+        If you're looking for more resources to ace your ENG201 course, check
+        out the following:
+      </p>
+      <UnorderedListLink
+        items={[
+          {
+            title: "ENG201 Highlight Handouts",
+            link: "/vu/handouts/eng201/"
+          },
+          {
+            title: "ENG201 Mid Term Solved Papers",
+            link: "/vu/handouts/eng201/"
+          },
+          {
+            title: "ENG201 Mid Term Mcqs",
+            link: "/vu/handouts/eng201/"
+          },
+          {
+            title: "ENG201 Mid Term Online Test",
+            link: "/vu/handouts/eng201/"
+          },
+          {
+            title: "ENG201 Final Term Solved Papers",
+            link: "/vu/handouts/eng201/"
+          },
+          {
+            title: "ENG201 Final Term Mcqs",
+            link: "/vu/handouts/eng201/"
+          },
+          {
+            title: "ENG201 Final Term Online Test",
+            link: "/vu/handouts/eng201/"
+          }
+        ]}
+      />
+
+      {/* Related Links  */}
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {VuHandoutsData.map((data: any) => {
           return (
