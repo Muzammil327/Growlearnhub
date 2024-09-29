@@ -1,6 +1,5 @@
 "use client"
 import React, { useEffect, useState } from "react"
-import "@/src/styles/Wrapper/style.scss"
 import axios from "axios"
 import SimpleWrapper from "../SimpleWrapper"
 import ShareButtonQuiz from "../../element/ShareButtonQuiz"
@@ -30,7 +29,6 @@ const QuizWrapperFilter: React.FC<QuizWrapperProps> = ({
 }) => {
   const [loading, setLoading] = useState<boolean>(true)
   const [error, setError] = useState<string>("")
-  const [mcqs, setMcqs] = useState<any[]>([]) // Use MCQ[] for proper type
 
   const [sets, setSets] = useState<any[][]>([])
   const [currentSetIndex, setCurrentSetIndex] = useState<number | null>(null)
@@ -272,6 +270,7 @@ const QuizWrapperFilter: React.FC<QuizWrapperProps> = ({
           </div>
         )}
       </div>
+      {children}
     </SimpleWrapper>
   )
 }

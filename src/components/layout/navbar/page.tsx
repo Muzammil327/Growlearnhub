@@ -130,7 +130,6 @@
 import { Fragment, useEffect, useState } from "react"
 import { Dialog, Popover, Tab, Transition } from "@headlessui/react"
 import Link from "next/link"
-import Image from "next/image"
 
 import { FaBars, FaSun, FaTimes } from "react-icons/fa"
 import Container from "@/src/components/ui/Container"

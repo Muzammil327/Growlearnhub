@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import ImageContainer from './image'
+import ImageContainer from '@/src/components/ui/image'
 
 export default function Logo() {
   return (

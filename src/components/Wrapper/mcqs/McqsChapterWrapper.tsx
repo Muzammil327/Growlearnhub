@@ -4,7 +4,7 @@ import axios from "axios"
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 import Processing from "@/src/components/ui/Processing"
 import { CardQuiz } from "@/src/components/card/CardQuiz/cardQuiz"
-import Button from "../../ui/Button"
+import Button from "@/src/components/ui/Button"
 
 interface QuizWrapperProps {
   cat: string[] // Array of categories
