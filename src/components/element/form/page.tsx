@@ -1,10 +1,10 @@
 "use client"
 import { useState } from "react"
-import LoaderIcon from "../LoaderIcon"
 import Label from "../../ui/Label"
 import Input from "../../ui/Input"
 import Button from "../../ui/Button"
 import Textarea from "../../ui/textarea"
+import Processing from "../../ui/Processing"
 
 export default function Form(props: { url: string }) {
   const [loadingBtn, setLoadingBtn] = useState(false)
@@ -141,7 +141,7 @@ export default function Form(props: { url: string }) {
         >
           {loadingBtn ? (
             <div className="flex gap-2 justify-center items-center text-center mx-auto">
-              <LoaderIcon />
+              <Processing />
               <span>Loading</span>
             </div>
           ) : (

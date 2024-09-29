@@ -7,7 +7,7 @@ import { useState } from 'react'
 import Button from '@/src/components/ui/Button'
 import Form from '@/src/components/element/form/page'
 import Image from 'next/image'
-import Wrapper from '@/src/components/element/Wrapper'
+import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 
 export default function Calculator({ url, clist }: { url: string; clist: any }) {
   const [calculatedAssignment, setCalculatedAssignment] = useState<number>(0)
@@ -20,7 +20,7 @@ export default function Calculator({ url, clist }: { url: string; clist: any }) 
   const roundedTotalSum = totalSum.toFixed(2) // Round to 2 decimal places
 
   return (
-    <Wrapper
+    <SimpleWrapper
       title="VU Mid Marks Calculator"
       url={url}
       b1="VU Mid Marks Calculator"
@@ -74,6 +74,6 @@ export default function Calculator({ url, clist }: { url: string; clist: any }) 
         </Button>
         <Form url={url} />
       </div>
-    </Wrapper>
+    </SimpleWrapper >
   )
 }

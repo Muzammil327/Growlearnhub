@@ -1,8 +1,8 @@
 import React from "react"
 import { Metadata } from "next"
-import Wrapper from "@/src/components/element/Wrapper"
 import Class10McqsBookData from "@/src/app/(main)/(class)/class-10/mcqs/data/Class10McqsBookData"
 import { Class10McqsChapterData } from "@/src/app/(main)/(class)/class-10/mcqs/data/Class10McqsChapterData"
+import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 
 const data = {
   title: "10th Class Physics Mcqs | Class 10",
@@ -37,7 +37,7 @@ const data = {
 
 export default function Page() {
   return (
-    <Wrapper
+    <SimpleWrapper
       title={data.title}
       url={data.canonical}
       b1="Mcqs"
@@ -48,7 +48,7 @@ export default function Page() {
     >
       <Class10McqsChapterData slug="physics" />
       <Class10McqsBookData />
-    </Wrapper>
+    </SimpleWrapper>
   )
 }
 

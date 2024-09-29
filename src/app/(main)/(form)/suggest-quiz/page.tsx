@@ -2,7 +2,7 @@
 import React, { useState } from "react"
 import Input from "@/src/components/ui/Input"
 import Label from "@/src/components/ui/Label"
-import Wrapper from "@/src/components/element/Wrapper"
+import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 import Textarea from "@/src/components/ui/textarea"
 import Select from "@/src/components/ui/Select"
 import slugify from "slugify"
@@ -37,7 +37,7 @@ export default function Page() {
     title: "Have a Quiz in Mind?",
     canonical: "",
     image: "",
-    clist: ""
+    clist: []
   }
 
   const catgeoryOptionsData: any[] = [{ id: "1", name: "vu" }]
@@ -113,7 +113,7 @@ export default function Page() {
   }
 
   return (
-    <Wrapper
+    <SimpleWrapper
       title={data.title}
       url={data.canonical}
       b1="Suggest Quiz"
@@ -193,6 +193,6 @@ export default function Page() {
           {loading ? <Processing /> : "Submit"}
         </Button>
       </form>
-    </Wrapper>
+    </SimpleWrapper >
   )
 }

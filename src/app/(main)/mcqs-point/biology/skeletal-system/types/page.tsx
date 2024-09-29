@@ -1,6 +1,6 @@
 import React from 'react'
 import { Metadata } from 'next'
-import Wrapper from '@/src/components/element/Wrapper'
+import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 import { CardQuiz } from '@/src/components/card/CardQuiz/cardQuiz'
 import { SkeletalSystemTypesMcqsDatasPage1 } from './data'
@@ -23,7 +23,7 @@ const data = {
 
 export default function Page() {
   return (
-    <Wrapper
+    <SimpleWrapper
       title={data.title}
       url={data.canonical}
       b1={data.b1}
@@ -47,7 +47,7 @@ export default function Page() {
           <CardSmall key={book.id} title={book.name} link={book.slug} />
         ))}
       </div>
-    </Wrapper>
+    </SimpleWrapper >
   )
 }
 

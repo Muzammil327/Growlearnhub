@@ -1,6 +1,6 @@
 import React from "react"
 import { Metadata } from "next"
-import Wrapper from "@/src/components/element/Wrapper"
+import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 import { VuHandoutsData } from "../data"
 import PDFViewer from "@/src/components/element/PDFViewer"
@@ -34,7 +34,7 @@ const data = {
 
 export default function Page() {
   return (
-    <Wrapper
+    <SimpleWrapper
       title={data.title}
       url={data.canonical}
       b1="Handouts"
@@ -73,7 +73,7 @@ export default function Page() {
           )
         })}
       </div>
-    </Wrapper>
+    </SimpleWrapper >
   )
 }
 

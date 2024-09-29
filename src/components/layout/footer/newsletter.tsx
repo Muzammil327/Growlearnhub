@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { NewsletterData } from "@/src/types/page";
-import LoaderIcon from "../../element/LoaderIcon";
 import axios from "axios";
+import Processing from "../../ui/Processing";
 
 export default function Newsletter() {
   const [loadingBtn, setLoadingBtn] = useState(false);
@@ -63,7 +63,7 @@ export default function Newsletter() {
         >
           {loadingBtn ? (
             <div className="flex gap-2">
-              <LoaderIcon />
+              <Processing />
               <span>Loading</span>
             </div>
           ) : (

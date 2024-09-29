@@ -1,7 +1,7 @@
 import React from 'react'
 import type { Metadata } from 'next'
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
-import Wrapper from '@/src/components/element/Wrapper'
+import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 
 interface Book {
   id: number
@@ -40,7 +40,7 @@ const data = {
 
 export default function Page() {
   return (
-    <Wrapper
+    <SimpleWrapper
       title={data.title}
       url={data.canonical}
       b1="Online Test Point"
@@ -53,7 +53,7 @@ export default function Page() {
           <CardSmall key={book.id} title={book.name} link={`${book.slug}`} />
         ))}
       </div>
-    </Wrapper>
+    </SimpleWrapper >
   )
 }
 

@@ -6,7 +6,7 @@ import Form from "@/src/components/element/form/page"
 import BreadCrumb from "@/src/components/element/breadcrumb"
 import Footer from "@/src/components/layout/footer/page"
 import Navbar from "@/src/components/layout/navbar/page"
-import ImageContainer from "@/src/components/element/image"
+import ImageContainer from "@/src/components/ui/image"
 import Link from "next/link"
 import Button from "@/src/components/ui/Button"
 import Sidebar from "@/src/components/sidebar/page"
@@ -30,7 +30,7 @@ export default function SimpleWrapper({
   b2?: string
   b3?: string
   b4?: string
-  b1Link: string | undefined
+  b1Link?: string | undefined
   b2Link?: string
   b3Link?: string
   image?: string

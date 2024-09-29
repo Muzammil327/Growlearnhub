@@ -1,9 +1,9 @@
-import React from 'react'
-import Container from '../element/container'
-import ImageComp from '../ui/Image'
-import { Fa42Group, FaNoteSticky } from 'react-icons/fa6'
-import { FaBook, FaEdit } from 'react-icons/fa'
-import Link from 'next/link'
+import React from "react"
+import Container from "../element/container"
+import { FaNoteSticky } from "react-icons/fa6"
+import { FaBook, FaEdit } from "react-icons/fa"
+import Link from "next/link"
+import ImageContainer from "../ui/image"
 
 export default function Classes() {
   return (
@@ -14,11 +14,12 @@ export default function Classes() {
             return (
               <div className="" key={data.id}>
                 <div className="image w-full h-auto">
-                  <ImageComp
-                    imageName={data.image}
-                    alt={data.name}
+                  <ImageContainer
+                    image={data.image}
+                    title={data.name}
                     height={720}
                     width={1280}
+                    class={""}
                   />
                 </div>
                 <div className="body px-5 py-3 border">
@@ -54,62 +55,62 @@ export default function Classes() {
 const Classe = [
   {
     id: 0,
-    name: 'Class 9',
-    href: '/class-9/',
-    image: '/class_9.webp',
+    name: "Class 9",
+    href: "/class-9/",
+    image: "/class_9.webp",
     child: [
       {
-        name: 'Books',
-        icon: <FaBook />,
+        name: "Books",
+        icon: <FaBook />
       },
       {
-        name: 'Notes',
-        icon: <FaEdit />,
+        name: "Notes",
+        icon: <FaEdit />
       },
       {
-        name: 'Past Paper',
-        icon: <FaNoteSticky />,
+        name: "Past Paper",
+        icon: <FaNoteSticky />
       },
       {
-        name: 'Quiz',
-        icon: <FaNoteSticky />,
-      },
-    ],
+        name: "Quiz",
+        icon: <FaNoteSticky />
+      }
+    ]
   },
   {
     id: 1,
-    name: 'Class 10',
-    href: '/class-10/',
-    image: '/class_10.webp',
+    name: "Class 10",
+    href: "/class-10/",
+    image: "/class_10.webp",
     child: [
       {
-        name: 'Books',
-        icon: <FaBook />,
+        name: "Books",
+        icon: <FaBook />
       },
       {
-        name: 'Notes',
-        icon: <FaEdit />,
+        name: "Notes",
+        icon: <FaEdit />
       },
       {
-        name: 'Past Paper',
-        icon: <FaNoteSticky />,
+        name: "Past Paper",
+        icon: <FaNoteSticky />
       },
       {
-        name: 'Quiz',
-        icon: <FaNoteSticky />,
-      },
-    ],
+        name: "Quiz",
+        icon: <FaNoteSticky />
+      }
+    ]
   },
   {
     id: 2,
-    name: 'Virtual University',
-    href: '/vu/',
-    image: '/vu.webp',
+    name: "Virtual University",
+    href: "/vu/",
+    image: "/vu.webp",
     child: [
       {
-        name: 'Books',
-        icon: <FaBook />,
-      },
-    ],
-  },
+        name: "Books",
+        icon: <FaBook />
+      }
+    ]
+  }
 ]

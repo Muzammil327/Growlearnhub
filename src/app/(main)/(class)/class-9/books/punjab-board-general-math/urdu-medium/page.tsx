@@ -1,6 +1,6 @@
 import React from 'react'
 import { Metadata } from 'next'
-import Wrapper from '@/src/components/element/Wrapper'
+import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 import PDFViewer from '@/src/components/element/PDFViewer'
 import Link from 'next/link'
 import DataClass9Book from '@/src/app/(main)/(class)/class-9/books/DataClass9Book'
@@ -41,7 +41,7 @@ const data = {
 
 export default function Page() {
   return (
-    <Wrapper
+    <SimpleWrapper
       title={data.title}
       url={data.canonical}
       b1="Punjab Board General Math"
@@ -101,7 +101,7 @@ export default function Page() {
       </p>
       <PDFViewer pdfUrl={data.fileId_english} />
       <DataClass9Book />
-    </Wrapper>
+    </SimpleWrapper >
   )
 }
 

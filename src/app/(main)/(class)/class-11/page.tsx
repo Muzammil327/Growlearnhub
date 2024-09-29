@@ -1,6 +1,6 @@
 import React from 'react'
 import { Metadata } from 'next'
-import Wrapper from '@/src/components/element/Wrapper'
+import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 
 const data = {
@@ -29,7 +29,7 @@ const data = {
 
 export default function Page() {
   return (
-    <Wrapper title={data.title} url={data.canonical} b1="11th Class" 
+    <SimpleWrapper title={data.title} url={data.canonical} b1="11th Class" 
     image={data.image}
     clist={data.clist}
     >
@@ -44,7 +44,7 @@ export default function Page() {
           )
         })}
       </div>
-    </Wrapper>
+    </SimpleWrapper >
   )
 }
 

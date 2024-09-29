@@ -1,7 +1,7 @@
 import React from "react"
 import { Metadata } from "next"
-import Wrapper from "@/src/components/element/Wrapper"
 import Class10McqsBookData from "@/src/app/(main)/(class)/class-10/mcqs/data/Class10McqsBookData"
+import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 
 const data = {
   title: "10th Class Mcqs | Class 10",
@@ -36,7 +36,7 @@ const data = {
 
 export default function Page() {
   return (
-    <Wrapper
+    <SimpleWrapper
       title={data.title}
       url={data.canonical}
       b1="10th Class"
@@ -46,7 +46,7 @@ export default function Page() {
       clist={data.clist}
     >
       <Class10McqsBookData />
-    </Wrapper>
+    </SimpleWrapper>
   )
 }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Metadata } from 'next'
-import Wrapper from '@/src/components/element/Wrapper'
+import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 import DataClass10PastPaper from '../DataClass10PastPaper'
 
@@ -39,7 +39,7 @@ const data = {
 
 export default function Page() {
   return (
-    <Wrapper
+    <SimpleWrapper
       title={data.title}
       url={data.canonical}
       b1="Past Paper"
@@ -60,7 +60,7 @@ export default function Page() {
         })}
       </div>
       <DataClass10PastPaper />
-    </Wrapper>
+    </SimpleWrapper >
   )
 }
 

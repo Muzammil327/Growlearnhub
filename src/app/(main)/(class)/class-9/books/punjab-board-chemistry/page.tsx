@@ -1,9 +1,9 @@
 import React from "react"
 import { Metadata } from "next"
-import Wrapper from "@/src/components/element/Wrapper"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 import PDFViewer from "@/src/components/element/PDFViewer"
 import DataClass9Book from "@/src/app/(main)/(class)/class-9/books/DataClass9Book"
+import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 
 const data = {
   title: "9th Class Chemistry Book Pdf Download - All Board",
@@ -40,7 +40,7 @@ const data = {
 
 export default function Page() {
   return (
-    <Wrapper
+    <SimpleWrapper
       title={data.title}
       url={data.canonical}
       b1="Books"
@@ -83,7 +83,7 @@ export default function Page() {
       </p>
       <PDFViewer pdfUrl={data.fileId_urdu} />
       <DataClass9Book />
-    </Wrapper>
+    </SimpleWrapper >
   )
 }
 

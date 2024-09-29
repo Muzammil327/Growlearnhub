@@ -1,9 +1,7 @@
 import React from "react"
-import Wrapper from "@/src/components/element/Wrapper"
+import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 import { CardQuizWithoutLink } from "@/src/components/card/CardQuiz/cardQuiz"
-import { SkeletalSystemMcqsData } from "@/src/app/(main)/mcqs-point/biology/skeletal-system/data"
-import { BiologyMcqsSkeletalSystemBonesMcqs } from "../biology/skeletal-system/bones/data"
 import { combinedMcqs } from "./data"
 
 const data = {
@@ -55,14 +53,13 @@ export default function Page({ params }: IProps) {
   const related_mcqs = getQuizzesByIds(Final_Data.relatedQuizzes)
 
   return (
-    <Wrapper
+    <SimpleWrapper
       title={Final_Data.name}
       url={`/mcqs-point/${Final_Data.slug}`}
       b1={data.b1}
       b1Link={data.b1Link}
       b2={Final_Data.name}
       image={data.image}
-      vedioUrl=""
     >
       <div className="my-10 grid gap-4">
         {combinedMcqs
@@ -91,7 +88,7 @@ export default function Page({ params }: IProps) {
           </div>
         </>
       )}
-    </Wrapper>
+    </SimpleWrapper>
   )
 }
 
