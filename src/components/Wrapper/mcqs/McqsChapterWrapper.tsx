@@ -1,10 +1,10 @@
 "use client"
 import React, { useEffect, useState } from "react"
-import "@/src/styles/Wrapper/style.scss"
 import axios from "axios"
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 import Processing from "@/src/components/ui/Processing"
 import { CardQuiz } from "@/src/components/card/CardQuiz/cardQuiz"
+import Button from "../../ui/Button"
 
 interface QuizWrapperProps {
   cat: string[] // Array of categories
@@ -111,23 +111,23 @@ const McqsChapterWrapper: React.FC<QuizWrapperProps> = ({
 
       {/* Pagination Controls */}
       <div className="flex justify-between mt-4">
-        <button
+        <Button
+          variant="outline"
           onClick={handlePreviousPage}
           disabled={currentPage === 1}
-          className="px-4 py-2 bg-gray-300 rounded disabled:opacity-50"
         >
           Previous
-        </button>
+        </Button>
         <span>
           Page {currentPage} of {totalPages}
         </span>
-        <button
+        <Button
+          variant="outline"
           onClick={handleNextPage}
           disabled={currentPage === totalPages}
-          className="px-4 py-2 bg-gray-300 rounded disabled:opacity-50"
         >
           Next
-        </button>
+        </Button>
       </div>
     </SimpleWrapper>
   )

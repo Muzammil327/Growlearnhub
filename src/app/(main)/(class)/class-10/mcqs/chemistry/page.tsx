@@ -1,8 +1,8 @@
 import React from 'react'
 import { Metadata } from 'next'
 import Wrapper from '@/src/components/element/Wrapper'
-import CardSmall from '@/src/components/card/cardSmall/cardSmall'
-import DataClass10Mcqs from '../DataClass10Mcqs'
+import Class10McqsBookData from "@/src/app/(main)/(class)/class-10/mcqs/data/Class10McqsBookData"
+import { Class10McqsChemistryChapterData } from "@/src/app/(main)/(class)/class-10/mcqs/data/Class10McqsChapterData"
 
 const data = {
   title: '10th Class Chemistry Mcqs | Class 10',
@@ -11,7 +11,7 @@ const data = {
   canonical: '/class-10/mcqs/chemistry/',
   index: true,
   follow: true,
-  image: '/10th/mcqs/class_10_chemistry_mcqs.webp',
+  image: '/10th/mcqs/class-10-chemistry-mcqs.webp',
   url: 'https://growlearnhub.com/class-10/mcqs/chemistry/',
   keywords: [
     'growlearnhub chemistry mcqs',
@@ -46,33 +46,11 @@ export default function Page() {
       image={data.image}
       clist={data.clist}
     >
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {mainData.map((data: any) => {
-          return (
-            <CardSmall
-              key={data.name}
-              title={data.name}
-              link={`/class-10/mcqs/chemistry/${data.slug}`}
-            />
-          )
-        })}
-      </div>
-      <DataClass10Mcqs />
+      <Class10McqsChemistryChapterData slug="chemistry" />
+      <Class10McqsBookData />
     </Wrapper>
   )
 }
-
-const mainData = [
-  { name: 'Chapter 1', slug: '#' },
-  { name: 'Chapter 2', slug: '#' },
-  { name: 'Chapter 3', slug: '#' },
-  { name: 'Chapter 4', slug: '#' },
-  { name: 'Chapter 5', slug: '#' },
-  { name: 'Chapter 6', slug: '#' },
-  { name: 'Chapter 7', slug: '#' },
-  { name: 'Chapter 8', slug: '#' },
-  { name: 'Chapter 9', slug: '#' },
-]
 
 export const metadata: Metadata = {
   title: data.title,

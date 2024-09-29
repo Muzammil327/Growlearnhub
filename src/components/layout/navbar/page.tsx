@@ -138,7 +138,6 @@ import Logo from "@/src/components/ui/Logo"
 import Button from "@/src/components/ui/Button"
 import { FaMoon } from "react-icons/fa"
 import { useTheme } from "next-themes"
-import ButtonOutline from "../../ui/button/ButtonOutline"
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
@@ -475,19 +474,18 @@ export default function Navbar() {
                 >
                   <FaBars size={16} />
                 </Button>
-                <ButtonOutline
+                <Button
                   className="py-3 !px-3"
                   onClick={() =>
                     setTheme(currentTheme === "dark" ? "light" : "dark")
                   }
-                  text="Theme Change"
                 >
                   {currentTheme === "dark" ? (
                     <FaMoon size={16} />
                   ) : (
                     <FaSun size={16} />
                   )}
-                </ButtonOutline>
+                </Button>
               </div>
             </div>
           </div>
