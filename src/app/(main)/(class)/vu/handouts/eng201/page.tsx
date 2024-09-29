@@ -297,7 +297,7 @@ export default function Page() {
       {/* Related Resources  */}
       <h3>Related Resources</h3>
       <p>
-        If you're looking for more resources to ace your ENG201 course, check
+        If you&apos;re looking for more resources to ace your ENG201 course, check
         out the following:
       </p>
       <UnorderedListLink
