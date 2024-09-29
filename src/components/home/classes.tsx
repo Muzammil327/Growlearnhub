@@ -3,7 +3,7 @@ import Container from "../element/container"
 import { FaNoteSticky } from "react-icons/fa6"
 import { FaBook, FaEdit } from "react-icons/fa"
 import Link from "next/link"
-import ImageContainer from "../ui/image"
+import ImageContainer from "../ui/ImageContainer"
 
 export default function Classes() {
   return (
