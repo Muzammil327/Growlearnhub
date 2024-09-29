@@ -102,7 +102,7 @@ export async function generateMetadata({ params }: Iprops) {
     openGraph: {
       title: title,
       description: description,
-      url: `https://growlearnhub.com/class-10/mcqs/chemistry/${params.chapter}`,
+      url: `https://growlearnhub.com/class-10s/mcqs/chemistry/${params.chapter}`,
       images: [
         {
           src: image,
