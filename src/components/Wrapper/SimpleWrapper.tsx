@@ -7,7 +7,7 @@ import Form from "@/src/components/element/form"
 import BreadCrumb from "@/src/components/element/breadcrumb"
 import Footer from "@/src/components/layout/footer/page"
 import Navbar from "@/src/components/layout/navbar/page"
-import ImageContainer from "@/src/components/ui/ImageContainer"
+import { ImageContainerLoading } from "@/src/components/ui/ImageContainer"
 import Button from "@/src/components/ui/Button"
 import Sidebar from "@/src/components/sidebar/page"
 
@@ -68,7 +68,7 @@ export default function SimpleWrapper({
                 studies and professional goals.
               </p>
               {image && (
-                <ImageContainer
+                <ImageContainerLoading
                   image={`${image}`}
                   title={title}
                   class="my-4"

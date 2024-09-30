@@ -15,7 +15,7 @@ const data = {
   canonical: "/vu/handouts/eng201/",
   index: true,
   follow: true,
-  image: "/vu/handouts/eng201_handouts.webp",
+  image: "/vu/handouts/eng201-handouts.webp",
   url: "https://growlearnhub.com/vu/handouts/eng201/",
   keywords: [
     "growlearnhub",
@@ -290,6 +290,15 @@ export default function Page() {
           {
             title: "Are these handouts enough to pass the exam?",
             para: "The ENG201 handouts provide all the key material required for the exam. However, it’s recommended to also practice past papers and do additional reading to perform well."
+          },
+          {
+            title:
+              "How can I prepare for ENG201 final exams using these handouts?",
+            para: "For final exam preparation, go through each chapter in the handouts, take notes, and focus on key topics that are frequently covered in exams. Combine this with solving past papers to familiarize yourself with the exam pattern."
+          },
+          {
+            title:"Can I access these handouts on my mobile device?",
+            para:"Yes, the handouts are in PDF format and can be accessed on any device, including smartphones, tablets, and computers, for convenient study on the go."
           }
         ]}
       />
@@ -297,8 +306,8 @@ export default function Page() {
       {/* Related Resources  */}
       <h3>Related Resources</h3>
       <p>
-        If you&apos;re looking for more resources to ace your ENG201 course, check
-        out the following:
+        If you&apos;re looking for more resources to ace your ENG201 course,
+        check out the following:
       </p>
       <UnorderedListLink
         items={[
