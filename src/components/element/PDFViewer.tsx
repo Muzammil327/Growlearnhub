@@ -32,7 +32,7 @@ const PDFViewer: React.FC<{ pdfUrl: string }> = ({ pdfUrl }) => {
     // Optionally, reset isDownloading after a timeout or after the download completes
     setTimeout(() => setIsDownloading(false), 7000) // Adjust time as needed
   }
-
+  // https://drive.google.com/file/d/1sGLJuN5IQvqSOsoqVl64BEBoapsOFuGk/view?usp=sharing
   return (
     <div className="mt-5">
       <iframe
