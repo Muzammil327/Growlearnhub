@@ -1,35 +1,37 @@
-// interface Iprops {
-//   head: string
-//   subhead: string
-// }
-
-// export default function Heading({ head, subhead }: Iprops) {
-//   return (
-//     <>
-//       <div className="text-center my-20 mr-6 relative">
-//         {/* <div className="flex items-center justify-center">
-//           <span className="text xl:text-[5rem] text-[3rem] absolute xl:-top-20 md:-top-12 sm:-top-20 -top-16 opacity-5">
-//             {subhead}
-//           </span>
-//         </div> */}
-//         <span className="text-color2 font-medium text-base">{subhead}</span>
-//         <h3 className="my-4 text font-bold lg:text-3xl text-2xl">{head}</h3>
-//       </div>
-//     </>
-//   )
-// }
-
 import React from "react"
 import Link from "next/link"
 
-// Heading 1
-export const Heading1: React.FC<{ children: React.ReactNode }> = ({
-  children
-}) => (
-  <h1 className="font-bold text-gray-800 lg:text-5xl text-4xl mb-4">
-    {children}
-  </h1>
-)
+interface HeadingProps {
+  children: React.ReactNode
+  className?: string
+  variant?: "white" | "black" | "link"
+}
+
+const variantClasses = {
+  white: "text-white",
+  black: "text-black",
+  link: "text-emerald-400 hover:text-emerald-500 hover:underline"
+}
+
+export function Heading1({
+  children,
+  className = "",
+  variant = "white",
+  ...props
+}: HeadingProps) {
+  return (
+    <h1
+      className={`
+        ${className}
+      ${variantClasses[variant]}
+      font-bold lg:text-5xl text-4xl mb-4
+    `}
+      {...props}
+    >
+      {children}
+    </h1>
+  )
+}
 
 // Heading 2
 export const Heading2: React.FC<{ children: React.ReactNode }> = ({
