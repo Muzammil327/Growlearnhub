@@ -1,20 +1,35 @@
-"use client"
-import React, { useState } from "react"
+"use client" // Next.js "use client" directive
+
+import React, { useState, useEffect } from "react"
 
 const PDFViewer: React.FC<{ pdfUrl: string }> = ({ pdfUrl }) => {
   const [iframeLoaded, setIframeLoaded] = useState(false)
   const [isDownloading, setIsDownloading] = useState(false)
 
+  useEffect(() => {
+    // Check localStorage for cached iframe load status
+    const cachedIframeStatus = localStorage.getItem(`pdf-${pdfUrl}-loaded`)
+    if (cachedIframeStatus === "true") {
+      setIframeLoaded(true)
+    }
+  }, [pdfUrl])
+
   const handleIframeLoad = () => {
     setIframeLoaded(true)
+    // Cache iframe load status in localStorage
+    localStorage.setItem(`pdf-${pdfUrl}-loaded`, "true")
   }
 
   const handleDownloadClick = () => {
     setIsDownloading(true)
     const downloadUrl = `https://drive.google.com/uc?id=${pdfUrl}&export=download`
+
+    // Cache download status in localStorage (optional)
+    localStorage.setItem(`pdf-${pdfUrl}-downloaded`, "true")
+
     window.location.href = downloadUrl
 
-    // Optionally, you could reset isDownloading after a timeout or after the download has completed.
+    // Optionally, reset isDownloading after a timeout or after the download completes
     setTimeout(() => setIsDownloading(false), 7000) // Adjust time as needed
   }
 
