@@ -1,12 +1,21 @@
 import React from "react"
 import { Metadata } from "next"
+import dynamic from "next/dynamic"
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
-import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 import { VuHandoutsData } from "../data"
-import PDFViewer from "@/src/components/element/PDFViewer"
-import Table from "@/src/components/element/table"
-import Accordation from "@/src/components/element/accordion"
-import { UnorderedList, UnorderedListLink } from "@/src/components/ui/list"
+
+const Accordation = dynamic(() => import("@/src/components/element/accordion"))
+const Table = dynamic(() => import("@/src/components/element/table"))
+const CardSmall = dynamic(
+  () => import("@/src/components/card/cardSmall/cardSmall")
+)
+const UnorderedList = dynamic(
+  () => import("@/src/components/ui/list/UnorderedList")
+)
+const UnorderedListLink = dynamic(
+  () => import("@/src/components/ui/list/UnorderedListLink")
+)
+const PDFViewer = dynamic(() => import("@/src/components/element/PDFViewer"))
 
 const data = {
   title: "VU ENG201 Handouts Pdf Download",
@@ -297,8 +306,8 @@ export default function Page() {
             para: "For final exam preparation, go through each chapter in the handouts, take notes, and focus on key topics that are frequently covered in exams. Combine this with solving past papers to familiarize yourself with the exam pattern."
           },
           {
-            title:"Can I access these handouts on my mobile device?",
-            para:"Yes, the handouts are in PDF format and can be accessed on any device, including smartphones, tablets, and computers, for convenient study on the go."
+            title: "Can I access these handouts on my mobile device?",
+            para: "Yes, the handouts are in PDF format and can be accessed on any device, including smartphones, tablets, and computers, for convenient study on the go."
           }
         ]}
       />

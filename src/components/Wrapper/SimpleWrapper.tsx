@@ -1,15 +1,17 @@
 "use client"
 import React from "react"
 import Link from "next/link"
+import dynamic from "next/dynamic"
 import Container from "@/src/components/element/container"
 import SubHeader from "@/src/components/layout/header/subheader/page"
-import Form from "@/src/components/element/form"
 import BreadCrumb from "@/src/components/element/breadcrumb"
 import Footer from "@/src/components/layout/footer/page"
 import Navbar from "@/src/components/layout/navbar/page"
 import { ImageContainerLoading } from "@/src/components/ui/ImageContainer"
 import Button from "@/src/components/ui/Button"
 import Sidebar from "@/src/components/sidebar/page"
+
+const Form = dynamic(() => import("@/src/components/element/form"))
 
 export default function SimpleWrapper({
   title,
