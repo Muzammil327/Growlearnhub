@@ -3,6 +3,8 @@ import { Metadata } from "next"
 import dynamic from "next/dynamic"
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 import { VuHandoutsData } from "../data"
+import Link from "next/link"
+import { Links } from "@/src/components/ui/Heading"
 
 const Accordation = dynamic(() => import("@/src/components/element/accordion"))
 const Table = dynamic(() => import("@/src/components/element/table"))
@@ -245,8 +247,8 @@ export default function Page() {
     >
       <p>
         Welcome to your one-stop source for <em>ENG201 Handouts</em> from
-        Virtual University (VU). Download the handouts in PDF format for free
-        and study at your own pace.
+        <Links slug="https://www.vu.edu.pk/">Virtual University (VU)</Links>.
+        Download the handouts in PDF format for free and study at your own pace.
       </p>
 
       {/* PDF Viewer  */}
