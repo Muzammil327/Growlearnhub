@@ -1,23 +1,30 @@
-import React from 'react'
-import Container from '../element/container'
+import React from "react"
+import Container from "../element/container"
+import Button from "../ui/Button"
 
-export default function ServiceSection1() {
+export default function Service() {
   return (
-    <section className="my-20">
+    <section className="py-20">
       <Container>
+        <div className="flex items-center justify-center flex-col mb-12">
+          <span className="border-[1px] border-solid border-color1 text-color1 rounded-full inline-block uppercase px-5 py-2 text-sm font-medium mb-2 leading-[15px] font-sans">
+            EDUCATION FOR EVERYONE
+          </span>
+          <h3 className="font-bold text-4xl text-black">Why Choose Us?</h3>
+        </div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
           {data.map((data: any) => {
             return (
               <div
-                className=" bg-blue-50 hover:bg-white duration-300 ease-in-out p-5 shadow-md rounded-md hover:shadow-none"
+                className={`${data.classname} hover:bg-white duration-300 ease-in-out p-5 shadow-md rounded-md hover:shadow-none`}
                 key={data.id}
               >
                 <div className="icon rounded-md h-16 w-16">{data.icon}</div>
                 <div className="body">
-                  <h3 className="mb-2 mt-6 text-2xl font-semibold">
+                  <h3 className="mb-2 mt-6 text-xl font-bold text-black font-sans">
                     {data.name}
                   </h3>
-                  <p className="text-gray-500 !my-0"> {data.description}</p>
+                  <p className="text-color2 !my-0"> {data.description}</p>
                 </div>
               </div>
             )
@@ -31,46 +38,52 @@ export default function ServiceSection1() {
 const data = [
   {
     id: 0,
-    name: 'Books',
+    name: "Books",
     description:
-      'Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed doeiusmod tempor incididunt labore.',
+      "Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed doeiusmod tempor incididunt labore.",
     icon: <Books />,
+    classname: "bg-card1"
   },
   {
     id: 1,
-    name: 'Past Paper',
+    name: "Past Paper",
     description:
-      'Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed doeiusmod tempor incididunt labore.',
+      "Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed doeiusmod tempor incididunt labore.",
     icon: <PastPaper />,
+    classname: "bg-card2"
   },
   {
     id: 2,
-    name: 'Quiz',
+    name: "Quiz",
     description:
-      'Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed doeiusmod tempor incididunt labore.',
+      "Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed doeiusmod tempor incididunt labore.",
     icon: <Quiz />,
+    classname: "bg-card3"
   },
   {
     id: 3,
-    name: 'Online Quiz',
+    name: "Online Quiz",
     description:
-      'Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed doeiusmod tempor incididunt labore.',
+      "Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed doeiusmod tempor incididunt labore.",
     icon: <OnlineQuiz />,
+    classname: "bg-card4"
   },
   {
     id: 4,
-    name: 'Notes',
+    name: "Notes",
     description:
-      'Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed doeiusmod tempor incididunt labore.',
+      "Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed doeiusmod tempor incididunt labore.",
     icon: <Note />,
+    classname: "bg-card5"
   },
   {
     id: 5,
-    name: 'Pairing Scheme',
+    name: "Pairing Scheme",
     description:
-      'Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed doeiusmod tempor incididunt labore.',
+      "Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed doeiusmod tempor incididunt labore.",
     icon: <PairingScheme />,
-  },
+    classname: "bg-card6"
+  }
 ]
 
 export function Books() {

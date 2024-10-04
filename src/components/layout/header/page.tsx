@@ -1,6 +1,7 @@
 import Container from "@/src/components/element/container"
 import Image from "next/image"
 import Button from "../../ui/Button"
+import Link from "next/link"
 
 export default function Header(props: { title: string }) {
   return (
@@ -21,8 +22,12 @@ export default function Header(props: { title: string }) {
                 Let&apos;s explore together for lifelong enrichment!
               </p>
               <div className="flex items-center gap-6 md:justify-start justify-center">
-                <Button variant="solid">Sign In</Button>
-                <Button variant="outline">Register</Button>
+                <Link href="/register">
+                  <Button variant="outline">Register</Button>
+                </Link>
+                <Link href="/sign-in">
+                  <Button variant="solid">Sign In</Button>
+                </Link>
               </div>
             </div>
           </div>

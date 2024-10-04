@@ -1,6 +1,7 @@
 import React from "react"
 import Container from "../element/container"
 import Button from "../ui/Button"
+import Link from "next/link"
 
 export default function AboutUs() {
   return (
@@ -9,9 +10,9 @@ export default function AboutUs() {
         <div className="grid lg:grid-cols-2 gap-8">
           <div className="flex items-center">
             <div className="w-full mb-4">
-              <h2 className="border-[1px] border-solid border-color1 text-color1 rounded-full inline-block uppercase px-5 py-2 text-sm font-medium mb-4 leading-[15px] font-sans">
+              <span className="border-[1px] border-solid border-color1 text-color1 rounded-full inline-block uppercase px-5 py-2 text-sm font-medium mb-4 leading-[15px] font-sans">
                 About Grow Learn Hub.
-              </h2>
+              </span>
               <h2 className="mb-4 text-4xl font-semibold text-black">
                 What is Growlearnhub For You?.
               </h2>
@@ -26,50 +27,17 @@ export default function AboutUs() {
                 they live in Bookmarksgrove right at the coast of the Semantics,
                 a large language ocean.
               </p>
-              <Button variant="outline">About Us</Button>
+              <Link href="/about-us">
+                <Button variant="outline">About Us</Button>
+              </Link>
             </div>
           </div>
-          <div className="grid sm:grid-cols-2 grid-cols-1 gap-8">
-            <div className="flex self-stretch">
-              <div className="media-body">
-                <h3 className="heading mb-2 text-lg font-semibold text-black">
-                  World Class Quiz
-                </h3>
-                <p className="text-slate-500">
-                  A small river named Duden flows by their place and supplies
-                </p>
-              </div>
-            </div>
-            <div className="flex self-stretch">
-              <div className="media-body">
-                <h3 className="heading mb-2 text-lg font-semibold text-black">
-                  Notes
-                </h3>
-                <p className="text-slate-500">
-                  A small river named Duden flows by their place and supplies
-                </p>
-              </div>
-            </div>
-            <div className="flex self-stretch">
-              <div className="media-body">
-                <h3 className="heading mb-2 text-lg font-semibold text-black">
-                  Past Paper
-                </h3>
-                <p className="text-slate-500">
-                  A small river named Duden flows by their place and supplies
-                </p>
-              </div>
-            </div>
-            <div className="flex self-stretch">
-              <div className="media-body">
-                <h3 className="heading mb-2 text-lg font-semibold text-black">
-                  Books
-                </h3>
-                <p className="text-slate-500">
-                  A small river named Duden flows by their place and supplies
-                </p>
-              </div>
-            </div>
+          <div className="">
+            <img
+              src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2024/03/about-06.webp"
+              alt=""
+              className="w-full h-full"
+            />
           </div>
         </div>
       </Container>

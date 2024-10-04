@@ -1,36 +1,35 @@
-import React from 'react'
-import Link from 'next/link'
-import { FaFacebookF, FaInstagram, FaYoutube } from 'react-icons/fa'
+import React from "react"
+import Link from "next/link"
+import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa"
+import ButtonIcon from "../../ui/ButtonIcon"
 
 export default function Social() {
   return (
     <div className="mt-6">
       <ul className="flex items-center gap-4">
-        <li className="h-10 w-10 rounded-md ring-1 ring-gray-600 flex items-center justify-center text-white ">
-          <Link
-            href="https://web.facebook.com/edusharpmind/"
-            aria-label="Facebook Share Link"
-            target="_blank"
-          >
-            <FaFacebookF />
+        <li>
+          <Link href="/" aria-label="Facebook Share Link" target="_blank">
+            <ButtonIcon>
+              <FaFacebookF />
+            </ButtonIcon>
           </Link>
         </li>
-        <li className="h-10 w-10 rounded-md ring-1 ring-gray-600 flex items-center justify-center text-white ">
-          <Link
-            href="https://www.youtube.com/channel/UCNJVdIvIfkEycYcSe0hXnGA"
-            target="_blank"
-            aria-label="youtube share link"
-          >
-            <FaYoutube />
+        <li>
+          <Link href="/" target="_blank" aria-label="youtube share link">
+            <ButtonIcon>
+              <FaYoutube />
+            </ButtonIcon>
           </Link>
         </li>
-        <li className="h-10 w-10 rounded-md ring-1 ring-gray-600 flex items-center justify-center text-white ">
+        <li>
           <Link
-            href="https://www.instagram.com/edulearn327/"
+            href="/"
             target="_blank"
             aria-label="instagram share link"
           >
-            <FaInstagram />
+            <ButtonIcon>
+              <FaInstagram />
+            </ButtonIcon>
           </Link>
         </li>
       </ul>

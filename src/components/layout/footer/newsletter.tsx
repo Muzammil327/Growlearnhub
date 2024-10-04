@@ -1,23 +1,25 @@
-"use client";
-import React, { useState } from "react";
-import { NewsletterData } from "@/src/types/page";
-import axios from "axios";
-import Processing from "../../ui/Processing";
+"use client"
+import React, { useState } from "react"
+import { NewsletterData } from "@/src/types/page"
+import axios from "axios"
+import Processing from "../../ui/Processing"
+import Button from "../../ui/Button"
+import Input from "../../ui/Input"
 
 export default function Newsletter() {
-  const [loadingBtn, setLoadingBtn] = useState(false);
-  const [error, setError] = useState(false);
+  const [loadingBtn, setLoadingBtn] = useState(false)
+  const [error, setError] = useState(false)
   const [newsletter, setNewsletter] = useState<NewsletterData>({
-    email: "",
-  });
+    email: ""
+  })
 
   const SubmitHandle = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setLoadingBtn(false);
+    e.preventDefault()
+    setLoadingBtn(false)
 
     try {
-      setLoadingBtn(true);
-      setError(false);
+      setLoadingBtn(true)
+      setError(false)
       // const response = await axios.post(PostNewsletter);
       // if (response.data.status === "400" || response.data.status === "500") {
       //   setError(response.data.message);
@@ -28,12 +30,12 @@ export default function Newsletter() {
       //   });
       // }
     } catch (error) {
-      console.log(error);
-      setError(true);
+      console.log(error)
+      setError(true)
     } finally {
-      setLoadingBtn(false);
+      setLoadingBtn(false)
     }
-  };
+  }
 
   return (
     <div className="relative my-4">
@@ -41,13 +43,8 @@ export default function Newsletter() {
         className="my-2 flex max-w-md md:gap-x-4 gap-x-2"
         onSubmit={SubmitHandle}
       >
-        <label htmlFor="email" className="sr-only">
-          Email address
-        </label>
-        <input
-          id="email"
+        <Input
           type="email"
-          className="input"
           placeholder="Enter your email"
           value={newsletter.email}
           autoComplete="email"
@@ -55,12 +52,7 @@ export default function Newsletter() {
             setNewsletter({ ...newsletter, email: e.target.value })
           }
         />
-        <button
-          type="submit"
-          className="btn"
-          aria-label="Subscribe Newsletter"
-          disabled={loadingBtn}
-        >
+        <Button variant="solid" disabled={loadingBtn}>
           {loadingBtn ? (
             <div className="flex gap-2">
               <Processing />
@@ -69,12 +61,9 @@ export default function Newsletter() {
           ) : (
             "Subscribe"
           )}
-        </button>
+        </Button>
       </form>
-      <span className="text-indigo-500">
-        {" "}
-        {error && <span className="text-indigo-500">{error}</span>}
-      </span>
+      {error && <span className="text-color1">{error}</span>}
     </div>
-  );
+  )
 }
