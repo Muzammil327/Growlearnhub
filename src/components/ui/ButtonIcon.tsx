@@ -35,7 +35,7 @@ export default function ButtonIcon({
       className={`
       ${className}
       ${variantClasses[variant]}
-      outline-none flex rounded-md shadow-sm sm:text-base text-sm font-medium focus:outline-none duration-500 ease-in-out cursor-pointer h-10 w-10 p-2 disabled:cursor-not-allowed transition-all 
+      outline-none flex rounded-md shadow-sm sm:text-base text-sm font-medium focus:outline-none duration-500 ease-in-out cursor-pointer md:h-12 h-10 w-10 p-2 disabled:cursor-not-allowed transition-all 
        items-center justify-center ${loading ? "cursor-not-allowed opacity-50" : ""}
     `}
       onClick={onClick}

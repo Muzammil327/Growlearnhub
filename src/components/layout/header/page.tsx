@@ -20,9 +20,10 @@ export default function Header(props: { title: string }) {
                 fun quizzes, enlightening books, and empowering knowledge.
                 Let&apos;s explore together for lifelong enrichment!
               </p>
-              <Button variant="outline">
-                Learn More About Us
-              </Button>
+              <div className="flex items-center gap-6 md:justify-start justify-center">
+                <Button variant="solid">Sign In</Button>
+                <Button variant="outline">Register</Button>
+              </div>
             </div>
           </div>
           <div className="md:col-span-2 flex items-center justify-center">
