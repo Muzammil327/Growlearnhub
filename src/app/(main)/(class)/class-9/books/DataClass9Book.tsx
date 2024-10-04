@@ -1,8 +1,8 @@
-import CardSmall from '@/src/components/card/cardSmall/cardSmall'
+import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 
 export default function DataClass9Book() {
   return (
-    <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
+    <div className="my-10">
       {MainDataClass9Book.map((data: any) => {
         return (
           <div key={data.title}>
@@ -27,60 +27,60 @@ export default function DataClass9Book() {
 
 const MainDataClass9Book = [
   {
-    title: 'Punjab Board',
+    title: "Punjab Board",
     child: [
       {
-        name: 'Biology',
-        slug: 'punjab-board-biology',
+        name: "Biology",
+        slug: "punjab-board-biology"
       },
       {
-        name: 'Chemistry',
-        slug: 'punjab-board-chemistry',
+        name: "Chemistry",
+        slug: "punjab-board-chemistry"
       },
       {
-        name: 'Physics',
-        slug: 'punjab-board-physics',
+        name: "Physics",
+        slug: "punjab-board-physics"
       },
       {
-        name: 'Math',
-        slug: 'punjab-board-math',
+        name: "Math",
+        slug: "punjab-board-math"
       },
       {
-        name: 'English',
-        slug: 'punjab-board-english',
+        name: "English",
+        slug: "punjab-board-english"
       },
       {
-        name: 'Urdu',
-        slug: 'punjab-board-urdu',
+        name: "Urdu",
+        slug: "punjab-board-urdu"
       },
       {
-        name: 'Economics',
-        slug: 'punjab-board-economics',
+        name: "Economics",
+        slug: "punjab-board-economics"
       },
       {
-        name: 'Islamiat',
-        slug: 'punjab-board-islamiat',
+        name: "Islamiat",
+        slug: "punjab-board-islamiat"
       },
       {
-        name: 'Ikhlaqiat',
-        slug: 'punjab-board-ikhlaqiat',
+        name: "Ikhlaqiat",
+        slug: "punjab-board-ikhlaqiat"
       },
       {
-        name: 'Tarjuma Tul Quran',
-        slug: 'punjab-board-tarjuma-tul-quran',
+        name: "Tarjuma Tul Quran",
+        slug: "punjab-board-tarjuma-tul-quran"
       },
       {
-        name: 'General Math',
-        slug: 'punjab-board-general-math',
+        name: "General Math",
+        slug: "punjab-board-general-math"
       },
       {
-        name: 'Pak Study',
-        slug: 'punjab-board-pak-study',
+        name: "Pak Study",
+        slug: "punjab-board-pak-study"
       },
       {
-        name: 'Computer Science',
-        slug: 'punjab-board-computer-science',
-      },
-    ],
-  },
+        name: "Computer Science",
+        slug: "punjab-board-computer-science"
+      }
+    ]
+  }
 ]

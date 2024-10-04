@@ -72,6 +72,10 @@ export default function Catgeory({ setCatgeory, catgeory }: any) {
     ...gkData,
     ...subgkData,
     { id: 201, name: "blood" },
+    { id: 202, name: "gland" },
+    { id: 203, name: "kidney" },
+    { id: 204, name: "nephron" },
+    { id: 205, name: "liver" },
     { id: 27, name: "iq" },
     { id: 28, name: "mosquito" },
     { id: 29, name: "bones" },
@@ -127,3 +131,6 @@ export default function Catgeory({ setCatgeory, catgeory }: any) {
     </div>
   )
 }
+
+// which of the following is the largest gland in the human body
+// which of the following is the largest organ in the human body

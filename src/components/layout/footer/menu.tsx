@@ -22,6 +22,12 @@ const footer = [
     link: '/online-test-point/',
     icon: BookOpenIcon,
   },
+  {
+    id: 3,
+    name: 'Topic Explorer',
+    link: '/',
+    icon: BookOpenIcon,
+  },
 ]
 const footer2 = [
   {

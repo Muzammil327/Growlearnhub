@@ -162,8 +162,6 @@ const class9route = [
 
   // "class-9/date-sheet/",
   // "class-9/result/",
-  // "class-9/subjects/",
-  // "class-9/syllabus/",
 
   // "class-9/pairing-schemes/",
   // "class-9/pairing-schemes/physics/",

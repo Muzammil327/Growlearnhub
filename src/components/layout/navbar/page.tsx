@@ -137,6 +137,7 @@ import Logo from "@/src/components/ui/Logo"
 import Button from "@/src/components/ui/Button"
 import { FaMoon } from "react-icons/fa"
 import { useTheme } from "next-themes"
+import ButtonIcon from "../../ui/ButtonIcon"
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
@@ -187,13 +188,13 @@ export default function Navbar() {
             >
               <Dialog.Panel className="relative flex w-full max-w-xs flex-col overflow-y-auto bg-white dark:bg-gray-700 pb-12 shadow-xl">
                 <div className="flex pb-2 px-4 absolute top-4 right-0">
-                  <Button
+                  <ButtonIcon
                     className={`
                     btnIcon relative -m-2 inline-flex items-center justify-center rounded-md border-2 border-solid duration-300 ease-in`}
                     onClick={() => setOpen(false)}
                   >
-                    <FaTimes size={16} />
-                  </Button>
+                    <FaTimes />
+                  </ButtonIcon>
                 </div>
 
                 <Tab.Group as="div" className="mt-24">
@@ -467,24 +468,23 @@ export default function Navbar() {
               </div> */}
 
               <div className="flex items-center gap-4">
-                <Button
-                  className="btnIcon block lg:hidden border-2 border-solid duration-300 ease-in"
+                <ButtonIcon
+                  className="lg:hidden"
                   onClick={() => setOpen(true)}
                 >
-                  <FaBars size={16} />
-                </Button>
-                <Button
-                  className="py-3 !px-3"
+                  <FaBars />
+                </ButtonIcon>
+                <ButtonIcon
                   onClick={() =>
                     setTheme(currentTheme === "dark" ? "light" : "dark")
                   }
                 >
                   {currentTheme === "dark" ? (
-                    <FaMoon size={16} />
+                    <FaMoon />
                   ) : (
-                    <FaSun size={16} />
+                    <FaSun />
                   )}
-                </Button>
+                </ButtonIcon>
               </div>
             </div>
           </div>

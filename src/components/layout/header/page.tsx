@@ -1,6 +1,6 @@
-import Container from '@/src/components/element/container'
-import Image from 'next/image'
-import Button from '../../ui/Button'
+import Container from "@/src/components/element/container"
+import Image from "next/image"
+import Button from "../../ui/Button"
 
 export default function Header(props: { title: string }) {
   return (
@@ -9,18 +9,18 @@ export default function Header(props: { title: string }) {
         <div className="grid md:grid-cols-5 md:gap-4 py-8 md:justify-between items-center">
           <div className="md:py-24 py-12 md:col-span-3">
             <div className="mt-4 md:text-left text-center">
-              <span className="py-2 px-3 rounded-full border-2 border1 text">
-                👋 EDUCATION FOR EVERYONE
+              <span className="border-[1px] border-solid border-color1 text-color1 rounded-full inline-block uppercase px-5 py-2 text-sm font-medium mb-4 leading-[15px] font-sans">
+                👋 Education for Everyone
               </span>
-              <h1 className="mt-5 mb-4 lg:text-4xl md:text-2xl text-3xl uppercase font-semibold text-color2">
+              <h1 className="mb-4 lg:text-4xl md:text-2xl text-3xl uppercase font-semibold text-black font-sans">
                 {props.title}
               </h1>
-              <p className="max-w-lg text md:m-0 mx-auto">
+              <p className="max-w-lg text-color2">
                 Join us at Codebloglab to supercharge your learning! Dive into
                 fun quizzes, enlightening books, and empowering knowledge.
                 Let&apos;s explore together for lifelong enrichment!
               </p>
-              <Button className="btnIcon px-12 md:mx-0 mx-auto mt-4 duration-300 ease-in rounded-full flex gap-2 items-center">
+              <Button variant="outline">
                 Learn More About Us
               </Button>
             </div>

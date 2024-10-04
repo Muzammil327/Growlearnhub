@@ -25,7 +25,7 @@ export default function SimpleWrapper({
   image,
   children,
   clist,
-  url
+  url,
 }: {
   title: string
   b1: string
@@ -57,18 +57,6 @@ export default function SimpleWrapper({
                 b2Link={b2Link}
                 b3Link={b3Link}
               />
-              <p>
-                Welcome to our{" "}
-                <Link href="/" className="links">
-                  Educational Hub
-                </Link>{" "}
-                , an innovative platform designed for high school student in
-                Class 9 to 12, Chartered Accountancy (CA), and Virtual
-                University learners to fulfil academic needs. Our mission is to
-                provide a one-stop solution for all your educational
-                requirements, empowering you to achieve excellence in your
-                studies and professional goals.
-              </p>
               {image && (
                 <ImageContainerLoading
                   image={`${image}`}
@@ -85,7 +73,7 @@ export default function SimpleWrapper({
                 in the comment section area.
               </p>
               <div className="flex gap-4">
-                <Button>Report / Error</Button>
+                {/* <Button>Report / Error</Button> */}
                 <Link href="/suggest-quiz/">
                   <Button>Suggest Quiz</Button>
                 </Link>

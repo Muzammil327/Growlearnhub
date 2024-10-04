@@ -4,14 +4,15 @@
 
 /* globals Variable */
 :root {
-  --color1: #fff;
-  --color2: #3fafaa;
-  --color3: #101010;
-  --color4: #f2f4ff;
-  --color3h: #262323a8;
-  --border1: #dbe2ea6d;
-  --border1dark: #dbe2ea5c;
-  --border2: #3fafaa;
+  --white: #fff;
+  --black: #000;
+  --color1: #553CDF;
+  --color2: #6b7385;
+}
+
+.dark {
+  --white: #000;
+  --black: #fff;
 }
 
 /* ---------------------------------------------------------------
@@ -30,12 +31,12 @@ body {
 }
 
 ::selection {
-  @apply bg-color2 text-white;
+  @apply text-white;
 }
 
 input::placeholder,
 textarea::placeholder {
-  @apply text-black dark:text-color4;
+  @apply text-black;
 }
 
 input,
@@ -48,8 +49,9 @@ a {
 }
 
 p {
-  @apply font-normal md:text-lg text-base my-3 text text-gray-500;
-  line-height: 2;
+  font-size: 16px;
+  line-height: 1.9;
+  margin-bottom: 26px;
 }
 
 button {
@@ -87,7 +89,6 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  @apply bg-color2;
   border-radius: 10px;
 }
 
@@ -97,7 +98,7 @@ button:focus {
 
 @layer base {
   .btnIcon {
-    @apply py-3 px-3 border-2 rounded-md bg-color2 hover:bg-color1 border-color2 text-color1 hover:text-color2 flex items-center justify-center;
+    @apply py-3 px-3 border-2 rounded-md flex items-center justify-center;
 
     &:hover {
       .btnIconhover {
@@ -111,7 +112,7 @@ button:focus {
   }
 
   .link {
-    @apply text-gray-900 dark:text-white hover:text-color2 dark:hover:text-color2;
+    @apply text-gray-900 dark:text-white;
   }
 
   .border1 {
@@ -130,19 +131,12 @@ button:focus {
     @apply md:text-2xl text-xl t1 mb-2 mt-3 capitalize;
   }
 
-  p {
-    @apply my-1 text-lg text-justify font-normal tb leading-relaxed;
-    white-space: normal !important;
-    word-spacing: 2px;
-    line-height: 30px;
-  }
-
-  span {
-    @apply my-1 text-lg text-justify font-normal tb leading-relaxed;
-    white-space: normal !important;
-    word-spacing: 2px;
-    line-height: 30px;
-  }
+  // span {
+  //   @apply my-1 text-lg text-justify font-normal tb leading-relaxed;
+  //   white-space: normal !important;
+  //   word-spacing: 2px;
+  //   line-height: 30px;
+  // }
 
   a {
     @apply hover:transition-all;
@@ -218,7 +212,7 @@ button:focus {
 }
 
 .title h3 {
-  @apply bg-color2 text-white;
+  @apply text-white;
   position: relative;
   height: 1.75rem;
   width: auto;
@@ -231,7 +225,7 @@ button:focus {
 
 .title:before {
   content: "";
-  @apply bg-color2 absolute right-0 w-full h-[2px];
+  @apply absolute right-0 w-full h-[2px];
   top: 50%;
   transform: translateY(-50%);
 }
