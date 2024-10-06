@@ -25,7 +25,19 @@ type SitemapFile = {
 const FRONTEND_URL = process.env.NEXT_PUBLIC_FRONTEND_URL
 
 export default async function sitemap(): Promise<SitemapFile[]> {
+  const response = await fetch(
+    `https://json-server-two-alpha.vercel.app/mcqs`
+  )
+  const datas = await response.json()
+
   try {
+    // Generate routes for Biology Skeletal Cartilage
+    const RandomDataRoutes: SitemapFile[] = datas.map((data:any) => ({
+      url: `${FRONTEND_URL}/mcqs-point/${convertToLowercaseWithHyphen(data.slug)}/`,
+      lastModified: new Date().toISOString(),
+      priority: 0.7,
+      changeFrequency: "weekly"
+    }))
     // Generate routes for Biology Skeletal Bones
     const BiologyMcqsSkeletalSystemBonesMcqsRoutes: SitemapFile[] =
       BiologyMcqsSkeletalSystemBonesMcqs.map((data) => ({
@@ -34,13 +46,6 @@ export default async function sitemap(): Promise<SitemapFile[]> {
         priority: 0.7,
         changeFrequency: "weekly"
       }))
-    // Generate routes for Biology Skeletal Cartilage
-    const RandomDataRoutes: SitemapFile[] = combinedMcqs.map((data) => ({
-      url: `${FRONTEND_URL}/mcqs-point/${convertToLowercaseWithHyphen(data.slug)}/`,
-      lastModified: new Date().toISOString(),
-      priority: 0.7,
-      changeFrequency: "weekly"
-    }))
 
     // Generate routes for class 9
     const Class9Routes: SitemapFile[] = class9route.map((product) => ({
