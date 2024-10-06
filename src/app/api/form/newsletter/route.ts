@@ -4,18 +4,18 @@ import { NextRequest, NextResponse } from "next/server"
 
 export async function POST(req: NextRequest) {
   const { email } = await req.json()
-console.log(email)
   try {
     await connectDB()
 
-    const checkEmail = await Newsletter.findOne({ email: email })
-    if (checkEmail) {
+    // Use findOne to check if the email already exists
+    const existingEmail = await Newsletter.findOne({ email: email })
+
+    if (existingEmail) {
       return NextResponse.json({
         statusbar: 400,
-        message: "Email is Required."
+        message: "Email is already registered."
       })
     }
-
     const newMcqs = new Newsletter({
       email
     })
@@ -33,6 +33,34 @@ console.log(email)
       statusbar: 400,
       message: "Internal Server Error",
       error: error
+    })
+  }
+}
+
+export async function GET(req: NextRequest) {
+  try {
+    await connectDB()
+
+    // Aggregate the Newsletter
+    const get_newsletter_email = await Newsletter.aggregate([
+      {
+        $project: {
+          _id: 1,
+          email: 1
+        }
+      }
+    ])
+
+    return NextResponse.json({
+      statusbar: 200,
+      message: `Successfully received.`,
+      get_newsletter_email
+    })
+  } catch (error) {
+    console.error("Error fetching newsletter email:", error)
+    return NextResponse.json({
+      statusbar: 400,
+      error: "Internal Server Error"
     })
   }
 }

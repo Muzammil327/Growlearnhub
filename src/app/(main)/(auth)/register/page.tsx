@@ -52,8 +52,8 @@ export default function Page() {
     >
       <p>
         Join our community of learners and unlock access to high-quality
-        educational resources. Whether you're a student, teacher, or lifelong
-        learner, we’ve got something for everyone.
+        educational resources. Whether you&apos;re a student, teacher, or lifelong
+        learner, we&apos;ve got something for everyone.
       </p>
       <Heading3>Why Join Us?</Heading3>
       <UnorderedList

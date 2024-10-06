@@ -50,7 +50,7 @@ export default function Page() {
         resources tailored to your needs.
       </p>
 
-      <Heading3>Don't have an account?</Heading3>
+      <Heading3>Don&apos;t have an account?</Heading3>
       <p>
         <a href="/register">Sign up here</a> to join our learning community and
         get access to exclusive courses, resources, and more.

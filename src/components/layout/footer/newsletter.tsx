@@ -21,6 +21,7 @@ export default function Newsletter() {
       const response = await axios.post("/api/form/newsletter", {
         email
       })
+ 
       if (response.data.statusbar === 400) {
         setError(response.data.message)
       } else {
@@ -48,7 +49,12 @@ export default function Newsletter() {
           autoComplete="email"
           onChange={(e) => setEmail(e.target.value)}
         />
-        <Button variant="solid" type="submit" disabled={loadingBtn} className="md:mt-0 mt-2 flex items-center justify-center">
+        <Button
+          variant="solid"
+          type="submit"
+          disabled={loadingBtn}
+          className="md:mt-0 mt-2 flex items-center justify-center"
+        >
           {loadingBtn ? <Processing /> : "Subscribe"}
         </Button>
       </form>
