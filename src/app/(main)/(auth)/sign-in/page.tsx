@@ -14,7 +14,7 @@ const data = {
   clist: []
 }
 
-export default function page() {
+export default function Page() {
   const [email, setEmail] = useState<string>("")
   const [password, setPassword] = useState<string>("")
 
