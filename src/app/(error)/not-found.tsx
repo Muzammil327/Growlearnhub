@@ -1,10 +1,6 @@
-import React from 'react';
-import Header from '../../components/layout/header/page';
+import React from "react"
+import SubHeader from "../../components/layout/header/subheader/page"
 
 export default function NotFound() {
-  return (
-    <>
-      <Header title='Not Found' />
-    </>
-  );
+  return <SubHeader title="Not Found" />
 }
