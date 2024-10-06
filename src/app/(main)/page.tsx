@@ -5,7 +5,7 @@ import HomeView from "@/src/components/home/page"
 const data = {
   title: "GrowLearnHub: Your Path to Continuous Learning",
   description:
-    "Join GrowLearnHub for a transformative learning experience. Access diverse resources, courses, and a vibrant community dedicated to personal and professional growth. Unlock your potential today!",
+    "Join GrowLearnHub for a transformative learning experience. Access diverse resources, courses, and a vibrant community dedicated to personal and professional growth.",
   canonical: "/",
   index: true,
   follow: true,
