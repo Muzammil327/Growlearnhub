@@ -22,6 +22,7 @@ export default function Newsletter() {
   const [success, setSuccess] = useState<string>("")
   const [title, setTitle] = useState<string>("")
   const [description, setDescription] = useState<string>("")
+  const [use, setUseCase] = useState<string>("")
 
   const SubmitHandle = async (e: any) => {
     e.preventDefault()

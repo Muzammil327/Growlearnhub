@@ -38,7 +38,7 @@ export default function Newsletter() {
   return (
     <div className="relative my-4">
       <form
-        className="my-2 flex max-w-md md:gap-x-4 gap-x-2"
+        className="my-2 flex max-w-md md:gap-x-4 gap-x-2 md:flex-row flex-col"
         onSubmit={SubmitHandle}
       >
         <Input
@@ -48,7 +48,7 @@ export default function Newsletter() {
           autoComplete="email"
           onChange={(e) => setEmail(e.target.value)}
         />
-        <Button variant="solid" type="submit" disabled={loadingBtn}>
+        <Button variant="solid" type="submit" disabled={loadingBtn} className="md:mt-0 mt-2 flex items-center justify-center">
           {loadingBtn ? <Processing /> : "Subscribe"}
         </Button>
       </form>

@@ -25,22 +25,22 @@ const footer = [
   {
     id: 3,
     name: "Blogs",
-    link: "/"
+    link: "/blog"
   },
   {
     id: 4,
     name: "Privacy Policy",
-    link: "/"
+    link: "/privacy-policy"
   },
   {
     id: 5,
     name: "Terms and Conditions",
-    link: "/"
+    link: "/terms-and-conditions"
   },
   {
     id: 6,
     name: "Disclaimer",
-    link: "/"
+    link: "/disclaimer"
   }
 ]
 
@@ -66,7 +66,7 @@ export default function Footer() {
               {footer.map((footer) => (
                 <li key={footer.name} className="mb-4">
                   <Link
-                    href="/"
+                    href={footer.link}
                     className="relative text-sm text-color2 hover:text-color1 transition-all ease-linear duration-300"
                   >
                     {footer.name}

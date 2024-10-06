@@ -67,11 +67,11 @@ const data = [
       "Prepare for exams with past papers from previous years. Practice answering real questions to familiarize yourself with exam patterns and boost your confidence for better results.",
     icon: <FaClipboard />,
     classname: "bg-card2",
-    slug: ""
+    slug: "past-paper"
   },
   {
     id: 2,
-    name: "Quiz",
+    name: "Mcqs",
     description:
       "Test your knowledge with interactive quizzes tailored for Class 9 to 12. Challenge yourself with questions designed to help you retain key concepts and assess your progress.",
     icon: <FaQuestionCircle />,
@@ -80,12 +80,12 @@ const data = [
   },
   {
     id: 3,
-    name: "Online Quiz",
+    name: "Online Test",
     description:
       "Engage in timed online quizzes to enhance your exam preparation. Compete against yourself or others while sharpening your skills across various subjects.",
     icon: <FaLaptop />,
     classname: "bg-card4",
-    slug: ""
+    slug: "online-test-point"
   },
   {
     id: 4,
@@ -94,7 +94,7 @@ const data = [
       "Review concise, well-organized notes for every subject. Perfect for quick revisions and understanding important topics in a simple and effective way.",
     icon: <FaStickyNote />,
     classname: "bg-card5",
-    slug: ""
+    slug: "notes"
   },
   {
     id: 5,
@@ -103,7 +103,7 @@ const data = [
       "Get the latest pairing schemes for Class 9 to 12, outlining the weightage of chapters and topics for each subject. Plan your studies efficiently with this valuable resource.",
     icon: <FaStream />,
     classname: "bg-card6",
-    slug: ""
+    slug: "pairing-scheme"
   }
 ]
 
