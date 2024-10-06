@@ -1,9 +1,10 @@
 import React from "react"
-import Newsletter from "@/src/components/layout/footer/newsletter"
-import Container from "../../element/container"
-import Social from "./social"
 import Link from "next/link"
-import Logo from "../../ui/Logo"
+import dynamic from "next/dynamic"
+const Newsletter = dynamic(() => import("@/src/components/layout/footer/newsletter"))
+const Social = dynamic(() => import("@/src/components/layout/footer/social"))
+const Container = dynamic(() => import("@/src/components/element/container"))
+const Logo = dynamic(() => import("@/src/components/ui/Logo"))
 
 const footer = [
   {
@@ -14,12 +15,12 @@ const footer = [
   {
     id: 1,
     name: "About Us",
-    link: "/"
+    link: "/about-us"
   },
   {
     id: 2,
     name: "Contact Us",
-    link: "/online-test-point/"
+    link: "/contact-us/"
   },
   {
     id: 3,
@@ -45,19 +46,19 @@ const footer = [
 
 export default function Footer() {
   return (
-    <footer className="relative isolate overflow-hidden bg-white ">
+    <footer className="relative isolate overflow-hidden bg-white">
       <Container>
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-8 py-16 sm:py-24">
-          <div className="max-w-xl lg:max-w-lg col-span-3">
+        <div className="mx-auto grid max-w-2xl gap-8 lg:max-w-none md:grid-cols-8 grid-cols-1 py-16 sm:py-24">
+          <div className="lg:col-span-3 md:col-span-5 lg:order-1 md:order-1">
             <Logo />
-            <p className="text-color2">
+            <p>
               Stay in the loop with the latest news, and tips straight to your
               inbox! Don&apos;t miss out on valuable insights and exciting
               updates from us.
             </p>
             <Newsletter />
           </div>
-          <div className="col-span-3">
+          <div className="lg:col-span-3 md:col-span-3 lg:order-2 md:order-3">
             <h5 className="text-black font-bold text-lg md:mb-8 mb-4">
               Useful Links
             </h5>
@@ -74,7 +75,7 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-          <div className="col-span-2">
+          <div className="lg:col-span-2 md:col-span-3 lg:order-3 md:order-2">
             <h5 className="text-black font-bold text-lg md:mb-8 mb-4">
               Get Contact
             </h5>
@@ -102,7 +103,7 @@ export default function Footer() {
             ©2024 GrowLearnHub. All Rights Reserved bg{" "}
             <Link
               href="https://mmuzammil-portfolio.vercel.app/"
-              className="underline text-color1"
+              className="underline text-color1 hover:no-underline"
             >
               Muzammil Safdar
             </Link>

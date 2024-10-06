@@ -1,7 +1,8 @@
 import React from "react"
 import Link from "next/link"
+import dynamic from "next/dynamic"
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa"
-import ButtonIcon from "../../ui/ButtonIcon"
+const ButtonIcon = dynamic(() => import("@/src/components/ui/ButtonIcon"))
 
 export default function Social() {
   return (
@@ -22,11 +23,7 @@ export default function Social() {
           </Link>
         </li>
         <li>
-          <Link
-            href="/"
-            target="_blank"
-            aria-label="instagram share link"
-          >
+          <Link href="/" target="_blank" aria-label="instagram share link">
             <ButtonIcon>
               <FaInstagram />
             </ButtonIcon>

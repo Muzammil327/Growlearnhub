@@ -9,7 +9,7 @@ import Logo from "@/src/components/ui/Logo"
 import Button from "@/src/components/ui/Button"
 import { FaMoon } from "react-icons/fa"
 import { useTheme } from "next-themes"
-import ButtonIcon from "../../ui/ButtonIcon"
+import ButtonIcon from "@/src/components/ui/ButtonIcon"
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)

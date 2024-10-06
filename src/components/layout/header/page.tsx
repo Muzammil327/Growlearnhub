@@ -3,7 +3,7 @@ import Image from "next/image"
 import Button from "../../ui/Button"
 import Link from "next/link"
 
-export default function Header(props: { title: string }) {
+export default function Header() {
   return (
     <section className="">
       <Container>
@@ -14,12 +14,13 @@ export default function Header(props: { title: string }) {
                 👋 Education for Everyone
               </span>
               <h1 className="mb-4 lg:text-4xl md:text-2xl text-3xl uppercase font-semibold text-black font-sans">
-                {props.title}
+                Empowering Future Minds with Growlearnhub Learning
               </h1>
               <p className="max-w-lg text-color2">
-                Join us at Codebloglab to supercharge your learning! Dive into
-                fun quizzes, enlightening books, and empowering knowledge.
-                Let&apos;s explore together for lifelong enrichment!
+                At <strong> Growlearnhub</strong>, we don&apos;t just teach. But
+                we inspire! Let your full potential with interactive quizzes,
+                fun books, eye-opening information and build deeper skills for
+                your growth.
               </p>
               <div className="flex items-center gap-6 md:justify-start justify-center">
                 <Link href="/register">

@@ -35,7 +35,7 @@ export default function Page() {
 
   const data = {
     title: "Have a Quiz in Mind?",
-    canonical: "",
+    canonical: "/suggest-quiz",
     image: "",
     clist: []
   }

@@ -1,37 +1,35 @@
 "use client"
 import React, { useState } from "react"
-import { NewsletterData } from "@/src/types/page"
+import dynamic from "next/dynamic"
 import axios from "axios"
-import Processing from "../../ui/Processing"
-import Button from "../../ui/Button"
-import Input from "../../ui/Input"
+const Processing = dynamic(() => import("@/src/components/ui/Processing"))
+const Button = dynamic(() => import("@/src/components/ui/Button"))
+const Input = dynamic(() => import("@/src/components/ui/Input"))
 
 export default function Newsletter() {
   const [loadingBtn, setLoadingBtn] = useState(false)
-  const [error, setError] = useState(false)
-  const [newsletter, setNewsletter] = useState<NewsletterData>({
-    email: ""
-  })
+  const [error, setError] = useState<string>("")
+  const [success, setSuccess] = useState<string>("")
+  const [email, setEmail] = useState<string>("")
 
-  const SubmitHandle = async (e: React.FormEvent<HTMLFormElement>) => {
+  const SubmitHandle = async (e: any) => {
     e.preventDefault()
-    setLoadingBtn(false)
+    setLoadingBtn(true)
+    setError("")
 
     try {
-      setLoadingBtn(true)
-      setError(false)
-      // const response = await axios.post(PostNewsletter);
-      // if (response.data.status === "400" || response.data.status === "500") {
-      //   setError(response.data.message);
-      // } else {
-      //   setError(response.data.message);
-      //   setNewsletter({
-      //     email: "",
-      //   });
-      // }
+      const response = await axios.post("/api/form/newsletter", {
+        email
+      })
+      if (response.data.statusbar === 400) {
+        setError(response.data.message)
+      } else {
+        setSuccess(response.data.message)
+        setEmail("")
+      }
     } catch (error) {
       console.log(error)
-      setError(true)
+      setError("Failed to add you to the newsletter. Please try again later.")
     } finally {
       setLoadingBtn(false)
     }
@@ -46,24 +44,16 @@ export default function Newsletter() {
         <Input
           type="email"
           placeholder="Enter your email"
-          value={newsletter.email}
+          value={email}
           autoComplete="email"
-          onChange={(e) =>
-            setNewsletter({ ...newsletter, email: e.target.value })
-          }
+          onChange={(e) => setEmail(e.target.value)}
         />
-        <Button variant="solid" disabled={loadingBtn}>
-          {loadingBtn ? (
-            <div className="flex gap-2">
-              <Processing />
-              <span>Loading</span>
-            </div>
-          ) : (
-            "Subscribe"
-          )}
+        <Button variant="solid" type="submit" disabled={loadingBtn}>
+          {loadingBtn ? <Processing /> : "Subscribe"}
         </Button>
       </form>
-      {error && <span className="text-color1">{error}</span>}
+      {error && <span className="text-red-500">{error}</span>}
+      {success && <span className="text-green-500">{success}</span>}
     </div>
   )
 }

@@ -17,15 +17,17 @@ export default function AboutUs() {
                 What is Growlearnhub For You?.
               </h2>
               <p className="text-color2">
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia. It is a paradisematic country, in
-                which roasted parts of sentences fly into your mouth.
+                Welcome to <em>Growlearnhub</em>, which is a complete platform for
+                learning, designed to help and support in your education. Each
+                resource has been freshly selected to make learning engaging and
+                effective.
               </p>
               <p className="text-color2">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics,
-                a large language ocean.
+                Moreover, our learning materials will also offer you well-done
+                Notes, and a large collection of Past Papers to reinforce your
+                understanding and build your confidence. With Growlearnhub, you
+                have acces to everything you need to do well in your studies,
+                all in one place. Begin Your Journey To Success Here!
               </p>
               <Link href="/about-us">
                 <Button variant="outline">About Us</Button>
@@ -35,7 +37,8 @@ export default function AboutUs() {
           <div className="">
             <img
               src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2024/03/about-06.webp"
-              alt=""
+              alt="Growlearnhub About Us"
+              title="Growlearnhub About Us"
               className="w-full h-full"
             />
           </div>

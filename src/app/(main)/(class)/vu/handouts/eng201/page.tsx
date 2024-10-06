@@ -3,7 +3,6 @@ import { Metadata } from "next"
 import dynamic from "next/dynamic"
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 import { VuHandoutsData } from "../data"
-import Link from "next/link"
 import { Links } from "@/src/components/ui/Heading"
 
 const Accordation = dynamic(() => import("@/src/components/element/accordion"))

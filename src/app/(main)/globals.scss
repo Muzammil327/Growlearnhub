@@ -38,12 +38,12 @@ body {
 }
 
 ::selection {
-  @apply text-white;
+  @apply text-white bg-color1;
 }
 
 input::placeholder,
 textarea::placeholder {
-  @apply text-black;
+  @apply text-color2;
 }
 
 input,
@@ -58,7 +58,7 @@ a {
 p {
   font-size: 16px;
   line-height: 1.9;
-  margin-bottom: 26px;
+  @apply text-color2 mb-6;
 }
 
 button {

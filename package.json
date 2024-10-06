@@ -9,6 +9,8 @@
     "format": "prettier --write \"**/*.{js,jsx,tsx,ts,json,css,scss,md}\""
   },
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.665.0",
+    "@aws-sdk/lib-dynamodb": "^3.665.0",
     "@headlessui/react": "^1.7.18",
     "@types/mongoose": "^5.11.96",
     "axios": "^1.6.8",
