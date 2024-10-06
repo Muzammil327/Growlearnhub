@@ -10,7 +10,7 @@ import {
 import axios from "axios"
 import React, { useEffect } from "react"
 
-export default function page() {
+export default function Page() {
   const [data, setData] = React.useState([])
 
   useEffect(() => {
