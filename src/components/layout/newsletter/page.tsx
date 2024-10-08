@@ -53,7 +53,7 @@ export default function Newsletter() {
             />
             <ButtonComponents
               variant="solid"
-              className={`rounded-full ${styles.button}`}
+              className={`rounded-full px-4 md:px-6 ${styles.button}`}
               type="submit"
               title="Subscribe"
               loading={loading}

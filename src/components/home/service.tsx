@@ -11,7 +11,7 @@ import ButtonIcon from "../ui/ButtonIcon"
 
 export default function Service() {
   return (
-    <section className="py-20">
+    <section className="md:py-20 pt-10 pb-20">
       <Container>
         <div className="flex items-center justify-center flex-col mb-20">
           <span className="border-[1px] border-solid border-color1 text-color1 rounded-full inline-block uppercase px-5 py-2 text-sm font-medium mb-2 leading-[15px] font-sans">

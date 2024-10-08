@@ -73,14 +73,20 @@ export default function Page() {
         for English Medium. This book is officially published by Punjab Text
         Book Board.
       </p>
-      <PDFViewer pdfUrl={data.fileId_english} />
+      <iframe
+        src="https://drive.google.com/file/d/1MFRZ5yO0SrrfTkAM_ewXBp_Pec4zTOA-/preview"
+        width="640"
+        height="480"
+        allow="autoplay"
+      ></iframe>
+      {/* <PDFViewer pdfUrl={data.fileId_english} /> */}
       <h3>Download 9th Class Biology Textbook Urdu Medium Punjab Board</h3>
       <p>
         Here, you can download Matric class 9 Biology Text Book in PDF Format
         for Urdu Medium. This book is officially published by Punjab Text Book
         Board.
       </p>
-      <PDFViewer pdfUrl={data.fileId_urdu} />
+      {/* <PDFViewer pdfUrl={data.fileId_urdu} /> */}
       <DataClass9Book />
     </SimpleWrapper>
   )

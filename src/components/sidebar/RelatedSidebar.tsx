@@ -20,7 +20,7 @@ export default function RelatedSidebar({ list }: IProps) {
         {list &&
           list.map((data: RelatedProps) => {
             return (
-              <li className="flex flex-col gap-y-4" key={data.id}>
+              <li className="flex flex-col gap-y-4" key={data.name}>
                 <Link
                   href={data.slug}
                   title={data.name}
