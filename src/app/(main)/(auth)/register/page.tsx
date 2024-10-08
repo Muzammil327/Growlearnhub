@@ -52,8 +52,8 @@ export default function Page() {
     >
       <p>
         Join our community of learners and unlock access to high-quality
-        educational resources. Whether you&apos;re a student, teacher, or lifelong
-        learner, we&apos;ve got something for everyone.
+        educational resources. Whether you&apos;re a student, teacher, or
+        lifelong learner, we&apos;ve got something for everyone.
       </p>
       <Heading3>Why Join Us?</Heading3>
       <UnorderedList
@@ -84,6 +84,7 @@ export default function Page() {
         <div className="py-2">
           <Label label="Username" htmlFor="username" />
           <Input
+            name="username"
             type="text"
             value={username}
             placeholder="Enter your username"
@@ -93,6 +94,7 @@ export default function Page() {
         <div className="py-2">
           <Label label="Email" htmlFor="email" />
           <Input
+            name="email"
             type="email"
             value={email}
             placeholder="Enter your email"
@@ -103,6 +105,7 @@ export default function Page() {
         <div className="py-2">
           <Label label="Password" htmlFor="password" />
           <Input
+            name="password"
             type="password"
             value={password}
             placeholder="Enter your password"
@@ -112,6 +115,7 @@ export default function Page() {
         <div className="py-2">
           <Label label="Confirm Password" htmlFor="confirmPassword" />
           <Input
+            name="confirmPassword"
             type="password"
             value={confirmPassword}
             placeholder="Enter your confirm password"

@@ -1,12 +1,12 @@
-'use client'
-import Button from '@/src/components/ui/Button'
-import Input from '@/src/components/ui/Input'
-import Label from '@/src/components/ui/Label'
-import React, { ChangeEvent, useEffect, useState } from 'react'
+"use client"
+import Button from "@/src/components/ui/Button"
+import Input from "@/src/components/ui/Input"
+import Label from "@/src/components/ui/Label"
+import React, { ChangeEvent, useEffect, useState } from "react"
 
 export default function AssignmentPercentage({
   calculatedAssignment,
-  setCalculatedAssignment,
+  setCalculatedAssignment
 }: any) {
   const [totalAssignment, setTotalAssignment] = useState<number>(0)
   const [obtainedAssignment, setObtainedAssignment] = useState<number>(0)
@@ -39,7 +39,7 @@ export default function AssignmentPercentage({
     obtainedAssignment,
     assignmentPercentage,
     totalAssignment,
-    setCalculatedAssignment,
+    setCalculatedAssignment
   ])
 
   const handleDecimalChange = (e: ChangeEvent<HTMLInputElement>) => {
@@ -49,37 +49,38 @@ export default function AssignmentPercentage({
     setObtainedAssignment(parsedValue)
   }
   return (
-    <>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-1">
-        <div className="my-4">
-          <Label label="Total Assignment Percentage" htmlFor="quizPercentage" />
-          <Input
-            type="number"
-            value={assignmentPercentage || ''}
-            placeholder="Enter Your Total Assignment Percentage"
-            onChange={(e) => setAssignmentPercentage(parseInt(e.target.value))}
-          />
-        </div>
-        <div className="my-4">
-          <Label label="Total Assignment Marks" htmlFor="totalAssignment" />
-          <Input
-            type="number"
-            value={totalAssignment || ''}
-            placeholder="Enter Your Total Assignment Marks"
-            onChange={(e) => setTotalAssignment(parseInt(e.target.value))}
-          />
-        </div>
-        <div className="my-4">
-          <Label label="Total Obtained Assignment Marks" htmlFor="tmidterm" />
-          <Input
-            type="number"
-            value={obtainedAssignment || ''}
-            placeholder="Enter Your Obtained Obtained Assignment Marks"
-            onChange={handleDecimalChange}
-          />
-        </div>
-        <Button className={'btn'}>{calculatedAssignment}</Button>
+    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-1">
+      <div className="my-4">
+        <Label label="Total Assignment Percentage" htmlFor="quizPercentage" />
+        <Input
+          name="assignmentPercentage"
+          type="number"
+          value={assignmentPercentage || ""}
+          placeholder="Enter Your Total Assignment Percentage"
+          onChange={(e) => setAssignmentPercentage(parseInt(e.target.value))}
+        />
       </div>
-    </>
+      <div className="my-4">
+        <Label label="Total Assignment Marks" htmlFor="totalAssignment" />
+        <Input
+          name="totalAssignment"
+          type="number"
+          value={totalAssignment || ""}
+          placeholder="Enter Your Total Assignment Marks"
+          onChange={(e) => setTotalAssignment(parseInt(e.target.value))}
+        />
+      </div>
+      <div className="my-4">
+        <Label label="Total Obtained Assignment Marks" htmlFor="tmidterm" />
+        <Input
+          name="obtainedAssignment"
+          type="number"
+          value={obtainedAssignment || ""}
+          placeholder="Enter Your Obtained Obtained Assignment Marks"
+          onChange={handleDecimalChange}
+        />
+      </div>
+      <Button className={"btn"}>{calculatedAssignment}</Button>
+    </div>
   )
 }

@@ -31,8 +31,9 @@ const LinkComponent = ({
       target={target}
       rel={rel}
       title={title}
+      onClick={onClick}
     >
-      <a onClick={onClick}>{children}</a> {/* Add the onClick here */}
+      {children}
     </Link>
   )
 }

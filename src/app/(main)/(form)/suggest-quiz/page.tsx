@@ -124,6 +124,7 @@ export default function Page() {
         <div className="mb-6">
           <Label label="Enter Question Name:" htmlFor="questionName" />
           <Input
+            name="questionName"
             type="text"
             value={questionName}
             placeholder="Question Name"
@@ -166,6 +167,7 @@ export default function Page() {
             htmlFor="relatedVideo"
           />
           <Input
+            name="relatedVideo"
             type="text"
             value={relatedVideo}
             placeholder="Video Link"
@@ -193,6 +195,6 @@ export default function Page() {
           {loading ? <Processing /> : "Submit"}
         </Button>
       </form>
-    </SimpleWrapper >
+    </SimpleWrapper>
   )
 }

@@ -46,7 +46,7 @@ export default function Feedback() {
         <div>
           <div className="max-w-xl flex items-center flex-col mx-auto">
             <h3 className="text-3xl lg:text-4xl font-bold text-black dark:text-white mb-4">
-              Student's Feedback
+              Student&apos;s Feedback
             </h3>
             <p className="p4 text-center">
               Learning communicate to global world and build a bright future and

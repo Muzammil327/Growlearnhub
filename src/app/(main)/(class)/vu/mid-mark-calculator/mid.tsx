@@ -1,12 +1,12 @@
-'use client'
-import Button from '@/src/components/ui/Button'
-import Input from '@/src/components/ui/Input'
-import Label from '@/src/components/ui/Label'
-import React, { ChangeEvent, useEffect, useState } from 'react'
+"use client"
+import Button from "@/src/components/ui/Button"
+import Input from "@/src/components/ui/Input"
+import Label from "@/src/components/ui/Label"
+import React, { ChangeEvent, useEffect, useState } from "react"
 
 export default function MidPercentage({
   calculatedMid,
-  setCalculatedMid,
+  setCalculatedMid
 }: any) {
   const [totalMidMark, setTotalMidMark] = useState<number>(0)
   const [obtainedMidMark, setObtainedMidMark] = useState<number>(0)
@@ -34,7 +34,6 @@ export default function MidPercentage({
     }
   }, [obtainedMidMark, MidPercentage, totalMidMark, setCalculatedMid])
 
-  
   const handleDecimalChange = (e: ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value
     const parsedValue = parseFloat(value) // Convert string to number using parseFloat
@@ -43,40 +42,41 @@ export default function MidPercentage({
   }
 
   return (
-    <>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-1">
-        <div className="my-4">
-          <Label label="Total Mid Percentage" htmlFor="MidPercentage" />
-          <Input
-            type="number"
-            value={MidPercentage || ''}
-            placeholder="Enter Your Total Mid Percentage"
-            onChange={(e) => setMidPercentage(parseFloat(e.target.value))}
-          />
-        </div>
-        <div className="my-4">
-          <Label label="Total Mid Term Marks" htmlFor="totalMidMark" />
-          <Input
-            type="number"
-            value={totalMidMark || ''}
-            placeholder="Enter Your Total Mid Term Marks"
-            onChange={(e) => setTotalMidMark(parseInt(e.target.value))}
-          />
-        </div>
-        <div className="my-4">
-          <Label
-            label="Total Obtained Mid Term Marks"
-            htmlFor="obtainedMidMark"
-          />
-          <Input
-            type="number"
-            value={obtainedMidMark || ''}
-            placeholder="Enter Your Total Obtained Mid Term Marks"
-            onChange={handleDecimalChange}
-          />
-        </div>
-        <Button className={'btn'}>{calculatedMid}</Button>
+    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-1">
+      <div className="my-4">
+        <Label label="Total Mid Percentage" htmlFor="MidPercentage" />
+        <Input
+          name="MidPercentage"
+          type="number"
+          value={MidPercentage || ""}
+          placeholder="Enter Your Total Mid Percentage"
+          onChange={(e) => setMidPercentage(parseFloat(e.target.value))}
+        />
       </div>
-    </>
+      <div className="my-4">
+        <Label label="Total Mid Term Marks" htmlFor="totalMidMark" />
+        <Input
+          name="totalMidMark"
+          type="number"
+          value={totalMidMark || ""}
+          placeholder="Enter Your Total Mid Term Marks"
+          onChange={(e) => setTotalMidMark(parseInt(e.target.value))}
+        />
+      </div>
+      <div className="my-4">
+        <Label
+          label="Total Obtained Mid Term Marks"
+          htmlFor="obtainedMidMark"
+        />
+        <Input
+          name="obtainedMidMark"
+          type="number"
+          value={obtainedMidMark || ""}
+          placeholder="Enter Your Total Obtained Mid Term Marks"
+          onChange={handleDecimalChange}
+        />
+      </div>
+      <Button className={"btn"}>{calculatedMid}</Button>
+    </div>
   )
 }

@@ -60,7 +60,9 @@ export default function Topics() {
                       title="Learn More"
                       className="items-center inline-flex"
                     >
+                      <span>
                       Learn More
+                      </span>
                       <span className="ml-2">
                         <FaArrowRight />
                       </span>

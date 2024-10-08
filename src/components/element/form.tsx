@@ -61,6 +61,7 @@ export default function Form(props: { url: string }) {
             <Label label="First Name:" htmlFor="fname" />
             <div className="mt-2.5">
               <Input
+                name="fname"
                 type="text"
                 value={commentForm.fname}
                 placeholder="Enter First Name"
@@ -75,6 +76,7 @@ export default function Form(props: { url: string }) {
 
             <div className="mt-2.5">
               <Input
+                name="lname"
                 type="text"
                 placeholder="Enter Last Name"
                 value={commentForm.lname}
@@ -89,6 +91,7 @@ export default function Form(props: { url: string }) {
 
             <div className="mt-2.5">
               <Input
+                name="email"
                 type="email"
                 placeholder="Enter Email"
                 value={commentForm.email}
@@ -104,6 +107,7 @@ export default function Form(props: { url: string }) {
 
             <div className="mt-2.5">
               <Input
+                name="url"
                 type="url"
                 placeholder="Enter Url"
                 value={props.url}

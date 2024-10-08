@@ -61,6 +61,7 @@ export default function Newsletter() {
         <div className="mb-6">
           <Label label="Enter Title:" htmlFor="title" />
           <Input
+            name="title"
             type="text"
             value={title}
             placeholder="Enter Your Title"

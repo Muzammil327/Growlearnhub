@@ -1,5 +1,6 @@
 import React, { ReactNode } from "react"
 import styles from "./Button.module.scss"
+import Processing from "../../Processing"
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode
@@ -48,13 +49,13 @@ export default function ButtonComponents({
         className={`${commonProps.className} inline-block`}
         aria-label={title}
       >
-        {loading ? "Processing..." : children}
+        {loading ? <Processing /> : children}
       </a>
     )
   } else {
     return (
       <button {...commonProps} onClick={onClick} type={type}>
-        {loading ? "Processing..." : children}
+        {loading ? <Processing /> : children}
       </button>
     )
   }

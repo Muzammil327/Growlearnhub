@@ -60,6 +60,7 @@ export default function Page() {
         <div className="py-2">
           <Label label="Email" htmlFor="email" />
           <Input
+            name="email"
             type="email"
             value={email}
             placeholder="Enter your email"
@@ -70,6 +71,7 @@ export default function Page() {
         <div className="py-2">
           <Label label="Password" htmlFor="password" />
           <Input
+            name="password"
             type="password"
             value={password}
             placeholder="Enter your password"

@@ -1,12 +1,12 @@
-'use client'
-import Button from '@/src/components/ui/Button'
-import Input from '@/src/components/ui/Input'
-import Label from '@/src/components/ui/Label'
-import React, { ChangeEvent, useEffect, useState } from 'react'
+"use client"
+import Button from "@/src/components/ui/Button"
+import Input from "@/src/components/ui/Input"
+import Label from "@/src/components/ui/Label"
+import React, { ChangeEvent, useEffect, useState } from "react"
 
 export default function GDBPercentage({
   calculatedGDB,
-  setCalculatedGDB,
+  setCalculatedGDB
 }: any) {
   const [totalGDB, setTotalDGB] = useState<number>(0)
   const [obtainedGDB, setObtainedDGB] = useState<number>(0)
@@ -38,37 +38,38 @@ export default function GDBPercentage({
   }
 
   return (
-    <>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-1">
-        <div className="my-4">
-          <Label label="Total GDB Percentage" htmlFor="GDBPercentage" />
-          <Input
-            type="number"
-            value={GDBPercentage || ''}
-            placeholder="Enter Your Total GDB Percentage"
-            onChange={(e) => setDGBPercentage(parseInt(e.target.value))}
-          />
-        </div>
-        <div className="my-4">
-          <Label label="Total GDB Marks" htmlFor="totalGDB" />
-          <Input
-            type="number"
-            value={totalGDB || ''}
-            placeholder="Enter Your Total GDB Marks"
-            onChange={(e) => setTotalDGB(parseInt(e.target.value))}
-          />
-        </div>
-        <div className="my-4">
-          <Label label="Total Obtained GDB Marks" htmlFor="obtainedGDB" />
-          <Input
-            type="number"
-            value={obtainedGDB || ''}
-            placeholder="Enter Your Total Obtained GDB Marks"
-            onChange={handleDecimalChange}
-          />
-        </div>
-        <Button className={'btn'}>{calculatedGDB}</Button>
+    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-1">
+      <div className="my-4">
+        <Label label="Total GDB Percentage" htmlFor="GDBPercentage" />
+        <Input
+          name="GDBPercentage"
+          type="number"
+          value={GDBPercentage || ""}
+          placeholder="Enter Your Total GDB Percentage"
+          onChange={(e) => setDGBPercentage(parseInt(e.target.value))}
+        />
       </div>
-    </>
+      <div className="my-4">
+        <Label label="Total GDB Marks" htmlFor="totalGDB" />
+        <Input
+          name="totalGDB"
+          type="number"
+          value={totalGDB || ""}
+          placeholder="Enter Your Total GDB Marks"
+          onChange={(e) => setTotalDGB(parseInt(e.target.value))}
+        />
+      </div>
+      <div className="my-4">
+        <Label label="Total Obtained GDB Marks" htmlFor="obtainedGDB" />
+        <Input
+          name="obtainedGDB"
+          type="number"
+          value={obtainedGDB || ""}
+          placeholder="Enter Your Total Obtained GDB Marks"
+          onChange={handleDecimalChange}
+        />
+      </div>
+      <Button className={"btn"}>{calculatedGDB}</Button>
+    </div>
   )
 }

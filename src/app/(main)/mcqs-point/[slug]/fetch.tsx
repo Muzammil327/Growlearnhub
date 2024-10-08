@@ -1,7 +1,6 @@
 "use client"
 import React, { useEffect, useState } from "react"
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
-import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 import { CardQuizWithoutLink } from "@/src/components/card/CardQuiz/cardQuiz"
 
 const data = {
@@ -26,7 +25,6 @@ interface Quiz {
   slug: string
   relatedQuizzes: number[] // Array of related quiz IDs
 }
-let datas: any[]
 export default function FetchSeparateMcqs({ params }: { params: String }) {
   const [combinedMcqs, setCombinedMcqs] = useState<Quiz[]>([])
   const [loading, setLoading] = useState(true)
@@ -52,7 +50,7 @@ export default function FetchSeparateMcqs({ params }: { params: String }) {
     }
 
     fetchQuizzes()
-  }, [])
+  }, [params])
 
   const getQuizzesByIds = (ids: number[]): Quiz[] => {
     if (!Array.isArray(ids)) {
