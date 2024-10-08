@@ -11,8 +11,6 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        white: "var(--white)",
-        black: "var(--black)",
         color1: "var(--color1)",
         color2: "var(--color2)",
         card1: "var(--card1)",

@@ -24,9 +24,9 @@ export default function ButtonIcon({
 }: ButtonProps) {
   const variantClasses = {
     outline:
-      "border-[1px] border-solid border-color1 hover:bg-color1 hover:text-white text-color1",
+      "border-[1px] border-solid border-color1 ",
     solid:
-      "bg-color1 hover:bg-white text-white hover:text-color1 border-[1px] border-solid border-color1",
+      "bg-color1 hover:bg-white text-white hover:text-white border-[1px] border-solid border-white",
     link: "bg-white/5 ring-1 ring-gray-600 text-white"
   }
 

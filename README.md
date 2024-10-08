@@ -22,7 +22,6 @@ Feedback Hub
 User Experience Feedback
 Report a Bug
 Suggest a Quiz
-User Satisfaction Survey
 
 
 | Keyword                                      | Volume | CPC  | Traffic Potential |

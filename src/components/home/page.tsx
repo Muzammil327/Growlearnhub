@@ -1,12 +1,14 @@
-'use client'
-import React from 'react'
-import Navbar from '@/src/components/layout/navbar/page'
-import Footer from '@/src/components/layout/footer/page'
-import Header from '@/src/components/layout/header/page'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
-import AboutUs from './about'
-import Service from './service'
+"use client"
+import React from "react"
+import dynamic from "next/dynamic"
+import Navbar from "@/src/components/layout/navbar/page"
+import Header from "@/src/components/layout/header/page"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
+import AboutUs from "./about"
+import Service from "./service"
+const Feedback = dynamic(() => import("@/src/components/home/feedback/page"))
+const Topics = dynamic(() => import("@/src/components/home/topics/page"))
 
 export default function HomeView() {
   return (
@@ -19,7 +21,8 @@ export default function HomeView() {
         <AboutUs />
         <Service />
       </main>
-      <Footer />
+      <Feedback />
+      <Topics />
     </React.Fragment>
   )
 }

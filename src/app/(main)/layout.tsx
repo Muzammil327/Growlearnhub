@@ -1,31 +1,33 @@
-import type { Metadata } from 'next'
-import { Open_Sans } from 'next/font/google'
-import '@/src/app/(main)/globals.scss'
-import Script from 'next/script'
-import ThemeSwitcher from '@/src/components/provider/ThemeSwitcher'
+import type { Metadata } from "next"
+import { Open_Sans } from "next/font/google"
+import "@/src/app/(main)/globals.scss"
+import Script from "next/script"
+import ThemeSwitcher from "@/src/components/provider/ThemeSwitcher"
+import Footer from "@/src/components/layout/footer/page"
+import React from "react"
 
-const inter = Open_Sans({ subsets: ['latin'] })
+const inter = Open_Sans({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: 'growlearnhub',
-  keywords: ['Codebloglab'],
+  title: "growlearnhub",
+  keywords: ["Codebloglab"],
   openGraph: {
-    title: 'growlearnhub',
+    title: "growlearnhub"
   },
-  metadataBase: new URL('https://growlearnhub.com'),
+  metadataBase: new URL("https://growlearnhub.com"),
   twitter: {
-    title: 'growlearnhub',
-  },
+    title: "growlearnhub"
+  }
 }
 
 const data = {
-  applicationName: 'Next.js',
-  authorName: 'Muhammad Muzammil Safdar',
-  domain: 'growlearnhub.com',
+  applicationName: "Next.js",
+  authorName: "Muhammad Muzammil Safdar",
+  domain: "growlearnhub.com"
 }
 
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode
 }>) {
@@ -80,7 +82,10 @@ export default function RootLayout({
           name="ahrefs-site-verification"
           content="234939215ab82c4e0069a4dfb6f90dcda6f5777af678e3dffac7654efdddbf42"
         />
-        <meta name="ahrefs-site-verification" content="88f1bd9eeacba509beb6e3f35c2652b474e7cbf87e9f808540f588fe1dcd4eef" />
+        <meta
+          name="ahrefs-site-verification"
+          content="88f1bd9eeacba509beb6e3f35c2652b474e7cbf87e9f808540f588fe1dcd4eef"
+        />
 
         <meta
           name="google-site-verification"
@@ -92,7 +97,10 @@ export default function RootLayout({
       </head>
 
       <body className={inter.className}>
-        <ThemeSwitcher>{children}</ThemeSwitcher>
+        <ThemeSwitcher>
+          <main>{children}</main>
+          <Footer />
+        </ThemeSwitcher>
       </body>
 
       <Script id="google-analytics">

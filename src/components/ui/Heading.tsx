@@ -78,22 +78,24 @@ export const Heading6: React.FC<{ children: React.ReactNode }> = ({
   </h6>
 )
 
-// Paragraph Component
-export const Paragraph: React.FC<{ children: React.ReactNode }> = ({
-  children
-}) => <p className="mt-6 text-gray-700 text-lg">{children}</p>
-
 // Span Component
 export const Span: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <span className="inline-block mt-4 text-blue-500 underline">{children}</span>
 )
 
 // Link Component
-export const Links: React.FC<{ children: React.ReactNode; slug: string }> = ({
-  children,
-  slug
-}) => (
-  <Link href={slug} className="inline-block mt-4 text-blue-500 underline">
+export const Links: React.FC<{
+  children: React.ReactNode
+  slug: string
+  className?: string
+}> = ({ children, slug, className }) => (
+  <Link
+    href={slug}
+    className={`
+    ${className}
+  link
+`}
+  >
     {children}
   </Link>
 )

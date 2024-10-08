@@ -24,7 +24,7 @@ export default function Button({
 }: ButtonProps) {
   const variantClasses = {
     outline:
-      "border-[1px] border-solid border-color1 hover:bg-color1 hover:text-white text-color1",
+      "border-[1px] border-solid border-color1 hover:bg-color1 hover:text-white text-white",
     solid:
       "bg-color1 hover:bg-white text-white hover:text-color1 border-[1px] border-solid border-color1"
   }

@@ -1,15 +1,15 @@
 "use client"
 import { Fragment, useEffect, useState } from "react"
 import { Dialog, Popover, Tab, Transition } from "@headlessui/react"
-import Link from "next/link"
 
 import { FaBars, FaSun, FaTimes } from "react-icons/fa"
 import Container from "@/src/components/ui/Container"
 import Logo from "@/src/components/ui/Logo"
-import Button from "@/src/components/ui/Button"
 import { FaMoon } from "react-icons/fa"
 import { useTheme } from "next-themes"
-import ButtonIcon from "@/src/components/ui/ButtonIcon"
+import ButtonIconComponents from "@/src/components/ui/typography/ButtonIcon/page"
+import ButtonComponents from "../../ui/typography/button/page"
+import LinkComponent from "../../ui/typography/Links/page"
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
@@ -60,26 +60,26 @@ export default function Navbar() {
             >
               <Dialog.Panel className="relative flex w-full max-w-xs flex-col overflow-y-auto overflow-x-hidden bg-white dark:bg-gray-700 pb-12 shadow-xl">
                 <div className="flex pb-2 px-4 absolute top-4 right-0">
-                  <ButtonIcon
+                  <ButtonIconComponents
                     className={`
                     btnIcon relative -m-2 inline-flex items-center justify-center rounded-md border-2 border-solid duration-300 ease-in`}
                     onClick={() => setOpen(false)}
                   >
                     <FaTimes />
-                  </ButtonIcon>
+                  </ButtonIconComponents>
                 </div>
 
                 <Logo />
                 <div className="space-y-6 border-t border1 px-4 py-6">
                   {navigation.pages.map((page: any) => (
                     <div key={page.name} className="flow-root">
-                      <Link
-                        href={page.href}
+                      <LinkComponent
+                        slug={page.href}
                         className="block text-sm font-medium border-b border-gray-300 py-3"
                         onClick={() => setOpen(false)}
                       >
                         {page.name}
-                      </Link>
+                      </LinkComponent>
                     </div>
                   ))}
                 </div>
@@ -120,13 +120,14 @@ export default function Navbar() {
                             >
                               {section.items.map((item: any) => (
                                 <li key={item.name} className="flow-root">
-                                  <Link
-                                    href={item.href}
+                                  <LinkComponent
+                                    slug={item.href}
                                     className="-m-2 block p-2 link"
                                     onClick={() => setOpen(false)}
+                                    title={item.name}
                                   >
                                     {item.name}
-                                  </Link>
+                                  </LinkComponent>
                                 </li>
                               ))}
                             </ul>
@@ -141,12 +142,20 @@ export default function Navbar() {
                 <div
                   className={`my-4 flex lg:flex-row flex-col items-center gap-3 text-sm font-medium px-4`}
                 >
-                  <Button className="w-full link duration-300 ease-in my-3">
+                  <ButtonComponents
+                    className="w-full duration-300 ease-in my-3 rounded-md"
+                    href="/sign-in"
+                    title="Sign In"
+                  >
                     Sign In
-                  </Button>
-                  <Button className="btnIcon w-full duration-300 ease-in">
+                  </ButtonComponents>
+                  <ButtonComponents
+                    className="w-full duration-300 ease-in rounded-md"
+                    href="/register"
+                    title="Register"
+                  >
                     Register
-                  </Button>
+                  </ButtonComponents>
                 </div>
                 <div className="px-4 border-t border1 py-6"></div>
               </Dialog.Panel>
@@ -168,13 +177,13 @@ export default function Navbar() {
             <Popover.Group className="hidden xl:ml-24 ml-4 lg:block lg:self-stretch ">
               <div className="flex h-full space-x-8 ">
                 {navigation.pages.map((page: any) => (
-                  <Link
+                  <LinkComponent
                     key={page.name}
-                    href={page.href}
+                    slug={page.href}
                     className="flex items-center text-sm font-medium link"
                   >
                     {page.name}
-                  </Link>
+                  </LinkComponent>
                 ))}
                 {navigation.categories.map((category) => (
                   <Popover key={category.name} className="flex">
@@ -225,13 +234,13 @@ export default function Navbar() {
                                               key={item.name}
                                               className="flex"
                                             >
-                                              <Link
-                                                href={item.href}
+                                              <LinkComponent
+                                                slug={item.href}
                                                 className="link"
                                                 onClick={close}
                                               >
                                                 {item.name}
-                                              </Link>
+                                              </LinkComponent>
                                             </li>
                                           ))}
                                         </ul>
@@ -252,16 +261,19 @@ export default function Navbar() {
 
             <div className="flex lg:flex-row flex-col items-center gap-3 px-4">
               <div className="flex items-center gap-4">
-                <ButtonIcon className="lg:hidden" onClick={() => setOpen(true)}>
+                <ButtonIconComponents
+                  className="lg:!hidden"
+                  onClick={() => setOpen(true)}
+                >
                   <FaBars />
-                </ButtonIcon>
-                <ButtonIcon
+                </ButtonIconComponents>
+                <ButtonIconComponents
                   onClick={() =>
                     setTheme(currentTheme === "dark" ? "light" : "dark")
                   }
                 >
                   {currentTheme === "dark" ? <FaMoon /> : <FaSun />}
-                </ButtonIcon>
+                </ButtonIconComponents>
               </div>
             </div>
           </div>

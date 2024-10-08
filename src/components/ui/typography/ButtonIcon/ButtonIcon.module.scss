@@ -1,0 +1,15 @@
+.button {
+  @apply outline-none border-none flex items-center justify-center rounded-md shadow-sm sm:text-base text-sm font-medium focus:outline-none duration-500 ease-in-out cursor-pointer h-10 w-10 p-2 disabled:cursor-not-allowed transition-all;
+
+  &:hover {
+    @apply bg-color1 text-white ring-2 ring-color1 ring-offset-2;
+  }
+
+  &:focus {
+    @apply ring-2 ring-color2 ring-offset-2 focus:ring-opacity-50;
+  }
+
+  &:active {
+    @apply ring-4 ring-color1;
+  }
+}

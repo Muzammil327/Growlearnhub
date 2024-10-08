@@ -4,22 +4,18 @@
 
 /* globals Variable */
 :root {
-  --white: #fff;
-  --black: #000;
-  --color1: #553CDF;
-  --color2: #6b7385;
-  --card1: #FEF2CD;
-  --card2: #FFEEF1;
-  --card3: #FFE4FD;
-  --card4: #E6FFF5;
-  --card5: #F3D7FB; 
+  --color1: #20c997;
+  --color2: #64748b;
+  --card1: #fef2cd;
+  --card2: #ffeef1;
+  --card3: #ffe4fd;
+  --card4: #e6fff5;
+  --card5: #f3d7fb;
   --card6: #f8eeda;
-
 }
 
 .dark {
-  --white: #000;
-  --black: #fff;
+  --color2: #cbd5e1;
 }
 
 /* ---------------------------------------------------------------
@@ -38,7 +34,7 @@ body {
 }
 
 ::selection {
-  @apply text-white bg-color1;
+  @apply text-white bg-color1 dark:!text-white;
 }
 
 input::placeholder,
@@ -51,23 +47,28 @@ textarea {
   @apply outline-none;
 }
 
-a {
-  @apply duration-300 ease-in;
+.link {
+  @apply relative text-sm text-color2 hover:text-color1 transition-all ease-linear duration-300;
+
+  &::after {
+    content: "";
+    bottom: -2px;
+    height: 2px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    @apply bg-color1 w-full left-0 absolute;
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+  }
 }
 
 p {
-  font-size: 16px;
-  line-height: 1.9;
-  @apply text-color2 mb-6;
+  @apply text-color2 mb-2;
 }
 
-button {
-  @apply outline-none;
-}
 
-button:focus {
-  @apply outline-none focus:ring-2 focus:ring-[border2] focus:ring-opacity-50;
-}
 
 /* ----------------------------------------------------------------
 ------------------------- Navbar start here -----------------------
@@ -98,7 +99,7 @@ button:focus {
 /* Handle of the scrollbar (thumb) */
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
- @apply bg-color1;
+  @apply bg-color1;
 }
 
 // /* Handle on hover */
@@ -106,55 +107,37 @@ button:focus {
 //   background-color: #d00000; /* Darker red on hover */
 // }
 
-
 /* ---------------------------------------------------------------
 ------------- Tailwind CSS LAYER BASE Hero start here ------------
 --------------------------------------------------------------- */
 
 @layer base {
-  .btnIcon {
-    @apply py-3 px-3 border-2 rounded-md flex items-center justify-center;
-
-    &:hover {
-      .btnIconhover {
-        @apply opacity-90 duration-300 ease-in-out;
-      }
-    }
+  .bt {
+    @apply border-t border-gray-200 dark:border-gray-700;
   }
 
-  .text {
-    @apply text-gray-900 dark:text-white;
+  .bb {
+    @apply border-b border-gray-200 dark:border-gray-700;
   }
 
-  .link {
-    @apply text-gray-900 dark:text-white;
+  .by {
+    @apply border-y border-gray-200 dark:border-gray-700;
   }
-
-  .border1 {
-    @apply dark:border-slate-600 border-slate-200;
+  .p1 {
+    font-size: 14px;
+    line-height: 1.4;
   }
-
-  h1 {
-    @apply md:text-5xl sm:text-4xl text-3xl py-2 md:font-bold font-semibold tracking-tight capitalize;
+  .p2 {
+    font-size: 16px;
+    line-height: 1.4;
   }
-
-  h2 {
-    @apply md:text-3xl text-2xl;
+  .p3 {
+    font-size: 14px;
+    line-height: 1.8;
   }
-
-  h3 {
-    @apply md:text-2xl text-xl t1 mb-2 mt-3 capitalize;
-  }
-
-  // span {
-  //   @apply my-1 text-lg text-justify font-normal tb leading-relaxed;
-  //   white-space: normal !important;
-  //   word-spacing: 2px;
-  //   line-height: 30px;
-  // }
-
-  a {
-    @apply hover:transition-all;
+  .p4 {
+    font-size: 16px;
+    line-height: 1.8;
   }
 }
 
@@ -205,7 +188,9 @@ button:focus {
 }
 
 .card {
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.05), 0px 8px 15px rgba(0, 0, 0, 0.1),
+  box-shadow:
+    0px 3px 6px rgba(0, 0, 0, 0.05),
+    0px 8px 15px rgba(0, 0, 0, 0.1),
     0 0 0 1px rgba(255, 255, 255, 0.1);
   transition: box-shadow 0.25s;
   @apply bg-gray-900 cursor-pointer rounded-md relative px-4 py-2;
@@ -256,7 +241,6 @@ button:focus {
   opacity: 0.9;
 }
 
-
 .bg-hero-3 {
   background-image: url(/banner-hero-2.png);
   @apply bg-cover;
@@ -276,9 +260,6 @@ button:focus {
   background-repeat: no-repeat;
 }
 
-
-
-
 .player-wrapper {
   position: relative;
 }
@@ -291,11 +272,11 @@ button:focus {
   height: 100%;
 }
 
-.slick-track{
-  display: flex!important;
-@apply gap-4;
+.slick-track {
+  display: flex !important;
+  @apply gap-4;
 }
 .slick-next,
 .slick-prev {
-  display: none!important ;
+  display: none !important ;
 }

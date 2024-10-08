@@ -1,7 +1,7 @@
 import Container from "@/src/components/element/container"
 import Image from "next/image"
-import Button from "../../ui/Button"
 import Link from "next/link"
+import ButtonComponents from "../../ui/typography/button/page"
 
 export default function Header() {
   return (
@@ -13,22 +13,32 @@ export default function Header() {
               <span className="border-[1px] border-solid border-color1 text-color1 rounded-full inline-block uppercase px-5 py-2 text-sm font-medium mb-4 leading-[15px] font-sans">
                 👋 Education for Everyone
               </span>
-              <h1 className="mb-4 lg:text-4xl md:text-2xl text-3xl uppercase font-semibold text-black font-sans">
+              <h1 className="mb-4 lg:text-4xl md:text-2xl text-3xl uppercase font-semibold text-black dark:text-white font-sans">
                 Empowering Future Minds with Growlearnhub Learning
               </h1>
-              <p className="max-w-lg text-color2">
+              <p className="max-w-lg text-color2 mb-5">
                 At <strong> Growlearnhub</strong>, we don&apos;t just teach. But
                 we inspire! Let your full potential with interactive quizzes,
                 fun books, eye-opening information and build deeper skills for
                 your growth.
               </p>
               <div className="flex items-center gap-6 md:justify-start justify-center">
-                <Link href="/register">
-                  <Button variant="outline">Register</Button>
-                </Link>
-                <Link href="/sign-in">
-                  <Button variant="solid">Sign In</Button>
-                </Link>
+                <ButtonComponents
+                  variant="outline"
+                  href="/register"
+                  title="Register"
+                className="rounded-md"
+                >
+                  Register
+                </ButtonComponents>
+                <ButtonComponents
+                  variant="solid"
+                  href="/sign-in"
+                  title="Sign In"
+                  className="rounded-md"
+                >
+                  Sign In
+                </ButtonComponents>
               </div>
             </div>
           </div>

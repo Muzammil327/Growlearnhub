@@ -1,17 +1,16 @@
 "use client"
 import React from "react"
-import Link from "next/link"
 import dynamic from "next/dynamic"
 import Container from "@/src/components/element/container"
 import SubHeader from "@/src/components/layout/header/subheader/page"
 import BreadCrumb from "@/src/components/element/breadcrumb"
-import Footer from "@/src/components/layout/footer/page"
 import Navbar from "@/src/components/layout/navbar/page"
 import { ImageContainerLoading } from "@/src/components/ui/ImageContainer"
-import Button from "@/src/components/ui/Button"
 import Sidebar from "@/src/components/sidebar/page"
 
 const Form = dynamic(() => import("@/src/components/element/form"))
+const Newsletter = dynamic(() => import("@/src/components/layout/newsletter/page"))
+const Footer = dynamic(() => import("@/src/components/layout/footer/page"))
 
 export default function SimpleWrapper({
   title,
@@ -72,12 +71,6 @@ export default function SimpleWrapper({
                 You can give your opinion or any question you have to ask below
                 in the comment section area.
               </p>
-              <div className="flex gap-4">
-                {/* <Button>Report / Error</Button> */}
-                <Link href="/suggest-quiz/">
-                  <Button>Suggest Quiz</Button>
-                </Link>
-              </div>
               <Form url={`https://growlearnhub.com${url}`} />
             </div>
             <div className="lg:col-span-3">
@@ -86,7 +79,6 @@ export default function SimpleWrapper({
           </div>
         </Container>
       </main>
-      <Footer />
     </React.Fragment>
   )
 }
