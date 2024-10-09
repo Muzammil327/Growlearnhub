@@ -1,11 +1,8 @@
 import React from "react"
 import dynamic from "next/dynamic"
 import styles from "./HomeTopics.module.scss"
-import { FaArrowRight, FaClock } from "react-icons/fa"
+import TopicCard from "../../card/TopicCard/page"
 const Container = dynamic(() => import("@/src/components/ui/Container"))
-const LinkComponent = dynamic(
-  () => import("@/src/components/ui/typography/Links/page")
-)
 const ButtonComponents = dynamic(
   () => import("@/src/components/ui/typography/button/page")
 )
@@ -39,37 +36,8 @@ export default function Topics() {
             </div>
           </div>
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
-            {data.map((data: any) => {
-              return (
-                <div
-                  className="bg-white dark:bg-slate-700 shadow-lg py-12 px-10 rounded-md transform hover:scale-105 transition-transform duration-300 ease-in-out"
-                  key={data.name}
-                >
-                  <div className="text-gray-800 dark:text-gray-200 flex gap-2 items-center text-color2 text-sm mb-8">
-                    <span>
-                      <FaClock />
-                    </span>
-                    <span>March 20, 2024</span>
-                  </div>
-                  <h4 className="text-lg font-bold mb-2 text-gray-800 dark:text-gray-200">
-                    Understand The Background Of lms.
-                  </h4>
-                  <div className="mt-10">
-                    <LinkComponent
-                      slug="/"
-                      title="Learn More"
-                      className="items-center inline-flex"
-                    >
-                      <span>
-                      Learn More
-                      </span>
-                      <span className="ml-2">
-                        <FaArrowRight />
-                      </span>
-                    </LinkComponent>
-                  </div>
-                </div>
-              )
+            {data.map((data: any, index) => {
+              return <TopicCard key={index} data={data} />
             })}
           </div>
         </div>

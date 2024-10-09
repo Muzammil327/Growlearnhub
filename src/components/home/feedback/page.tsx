@@ -1,9 +1,9 @@
 import React from "react"
-import styles from "./Feedback.module.scss"
 import Container from "../../ui/Container"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+import FeedbackCard from "../../card/FeedbackCard/page"
 
 export default function Feedback() {
   var settings = {
@@ -56,33 +56,7 @@ export default function Feedback() {
           <div className="my-10 relative">
             <Slider {...settings}>
               {data.map((data: any) => {
-                return (
-                  <div
-                    key={data.name}
-                    className={`dark:bg-gray-700 ${styles.card}`}
-                  >
-                    <div className="flex items-center md:flex-row flex-col gap-2">
-                      <div className={`dark:bg-gray-800 ${styles.thumb}`}>
-                        <img
-                          src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2024/03/client-1-sm-1.webp"
-                          alt=""
-                          className="rounded-full h-full w-full object-cover"
-                        />
-                      </div>
-                      <div className="md:text-left text-center">
-                        <h5 className="text-base font-semibold text-black dark:text-white">
-                          {data.name}
-                        </h5>
-                        <span className="text-color2 text-sm">
-                          {data.career}
-                        </span>
-                      </div>
-                    </div>
-                    <div className="pt-3 text-color2">
-                      <p className="mb-0">{data.description}</p>
-                    </div>
-                  </div>
-                )
+                return <FeedbackCard key={data.name} data={data} />
               })}
             </Slider>
           </div>

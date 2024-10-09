@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import styles from "./Sidebar.module.scss"
 
 interface IProps {
   list?: RelatedProps[]
@@ -13,8 +14,8 @@ interface RelatedProps {
 export default function RelatedSidebar({ list }: IProps) {
   return (
     <div className="menu my-5">
-      <div className="title">
-        <h3>Related Links:</h3>
+      <div className={styles.title}>
+        <h3 className={styles.h3}>Related Links:</h3>
       </div>
       <ul className="">
         {list &&

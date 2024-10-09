@@ -182,9 +182,6 @@ p {
     @apply block w-full rounded-md border-0 px-3.5 py-2 tb shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 r1 sm:text-sm sm:leading-6;
   }
 
-  .icon {
-    @apply h-5 w-5 text-white;
-  }
 }
 
 .card {
@@ -200,34 +197,6 @@ p {
   content: "";
   background-color: rgba(255, 255, 255, 0.015);
   @apply absolute inset-0 rounded-md;
-}
-
-.title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  margin-bottom: 1.5rem;
-  height: 1.75rem;
-}
-
-.title h3 {
-  @apply text-white;
-  position: relative;
-  height: 1.75rem;
-  width: auto;
-  padding: 0.25rem 0.75rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.title:before {
-  content: "";
-  @apply absolute right-0 w-full h-[2px];
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .overlay {

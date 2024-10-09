@@ -1,9 +1,12 @@
 import React from "react"
 import { Metadata } from "next"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import PDFViewer from "@/src/components/element/PDFViewer"
-import DataClass9Book from "@/src/app/(main)/(class)/class-9/books/DataClass9Book"
+const DataClass9Book = dynamic(
+  () => import("@/src/app/(main)/(class)/class-9/books/DataClass9Book")
+)
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
+import dynamic from "next/dynamic"
+import PDFViewer from "@/src/components/element/PDFViewer"
 
 const data = {
   title: "Biology Class 9 Book PDF | 9th Class Punjab Text Book",
@@ -21,34 +24,19 @@ const data = {
     "biology book class 9 punjab board",
     "class 9 biology book punjab board"
   ],
+  b1: "9th Class",
+  b1Link: "/class-9/",
+  b2: "Books",
+  b2Link: "/class-9/books/",
+  b3: "Punjab Board Biology",
   fileId_english: "1MFRZ5yO0SrrfTkAM_ewXBp_Pec4zTOA-",
   fileId_urdu: "1ty3cPG8aWvjPla3xJAT4F__bLNJHKiZv",
-  clist: [
-    { name: "Class 10 Books", slug: "/class-10/books/" },
-    { name: "Class 11 Books", slug: "/class-11/books/" },
-    { name: "Class 12 Books", slug: "/class-12/books/" },
-    { name: "Class 9 Mcqs", slug: "/class-9/mcqs/" },
-    { name: "Class 10 Mcqs", slug: "/class-10/mcqs/" },
-    { name: "Class 11 Mcqs", slug: "/class-11/mcqs/" },
-    { name: "Class 12 Mcqs", slug: "/class-12/mcqs/" },
-    { name: "Class 9 Online Test", slug: "/class-9/online-test/" },
-    { name: "Class 11 Online Test", slug: "/class-11/online-test/" },
-    { name: "Class 10 Online Test", slug: "/class-10/online-test/" },
-    { name: "Class 12 Online Test", slug: "/class-12/online-test/" }
-  ]
+  clist: []
 }
 
 export default function Page() {
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="Books"
-      b1Link="/class-9/books/"
-      b2="Punjab Board Biology"
-      image={data.image}
-      clist={data.clist}
-    >
+    <SimpleWrapper data={data}>
       <div className="grid gap-4 grid-cols-1 my-10">
         {mainData.map((data: any) => {
           return (
@@ -73,20 +61,14 @@ export default function Page() {
         for English Medium. This book is officially published by Punjab Text
         Book Board.
       </p>
-      <iframe
-        src="https://drive.google.com/file/d/1MFRZ5yO0SrrfTkAM_ewXBp_Pec4zTOA-/preview"
-        width="640"
-        height="480"
-        allow="autoplay"
-      ></iframe>
-      {/* <PDFViewer pdfUrl={data.fileId_english} /> */}
+      <PDFViewer pdfUrl={data.fileId_english} />
       <h3>Download 9th Class Biology Textbook Urdu Medium Punjab Board</h3>
       <p>
         Here, you can download Matric class 9 Biology Text Book in PDF Format
         for Urdu Medium. This book is officially published by Punjab Text Book
         Board.
       </p>
-      {/* <PDFViewer pdfUrl={data.fileId_urdu} /> */}
+      <PDFViewer pdfUrl={data.fileId_urdu} />
       <DataClass9Book />
     </SimpleWrapper>
   )

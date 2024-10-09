@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react"
 import axios from "axios"
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 import Processing from "@/src/components/ui/Processing"
-import { CardQuiz } from "@/src/components/card/CardQuiz/cardQuiz"
+import { CardQuiz } from "@/src/components/card/CardQuiz/CardQuizWithoutLink"
 import Button from "@/src/components/ui/Button"
 
 interface QuizWrapperProps {

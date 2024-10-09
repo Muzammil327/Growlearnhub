@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useState } from "react"
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
-import { CardQuizWithoutLink } from "@/src/components/card/CardQuiz/cardQuiz"
+import { CardQuizWithoutLink } from "@/src/components/card/CardQuiz/CardQuizWithoutLink"
 
 const data = {
   b1: "Bones",

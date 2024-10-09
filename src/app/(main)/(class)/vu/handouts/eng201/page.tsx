@@ -19,9 +19,9 @@ const UnorderedListLink = dynamic(
 const PDFViewer = dynamic(() => import("@/src/components/element/PDFViewer"))
 
 const data = {
-  title: "VU ENG201 Handouts Pdf Download",
+  title: "ENG201 Handouts PDF | Study Resources, Past Papers VU Students",
   description:
-    "Access ENG201 handouts and highlighted notes for VU students. Download Eng 201 handouts in PDF format to prepare for exams. Free and easy to download!",
+    "Download VU ENG201 handouts for free and get access to past papers, study guides, and exam preparation tips. Boost your learning with detailed notes.",
   canonical: "/vu/handouts/eng201/",
   index: true,
   follow: true,
@@ -40,7 +40,12 @@ const data = {
     { name: "Final Term Mcqs", slug: "/vu/final-mcqs/" },
     { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" }
   ],
-  fileId: "1sGLJuN5IQvqSOsoqVl64BEBoapsOFuGk"
+  fileId: "1sGLJuN5IQvqSOsoqVl64BEBoapsOFuGk",
+  b1: "VU",
+  b1Link: "/vu/",
+  b2: "Handouts",
+  b2Link: "/vu/handouts/",
+  b3: "ENG201"
 }
 
 const headingArray = ["ENG201 Chapter", "ENG201 Topics"]
@@ -235,15 +240,7 @@ const combinedData = [
 
 export default function Page() {
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="Handouts"
-      b1Link="/vu/handouts/"
-      b2="ENG201"
-      image={data.image}
-      clist={data.clist}
-    >
+    <SimpleWrapper data={data}>
       <p>
         Welcome to your one-stop source for <em>ENG201 Handouts</em> from
         <Links slug="https://www.vu.edu.pk/">Virtual University (VU)</Links>.

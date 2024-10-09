@@ -5,6 +5,7 @@ import {
   WhatsappIcon,
   FacebookIcon
 } from "next-share"
+import styles from "./Sidebar.module.scss"
 
 export default function ShareFriend({
   title,
@@ -15,8 +16,8 @@ export default function ShareFriend({
 }) {
   return (
     <div className="my-5">
-      <div className="title">
-        <h3>Share it with Friends:</h3>
+      <div className={styles.title}>
+        <h3 className={styles.h3}>Share it with Friends:</h3>
       </div>
       <div className="flex gap-3">
         <FacebookShareButton

@@ -1,16 +1,20 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react"
+import Link from "next/link"
+import styles from "./Sidebar.module.scss"
 
 export default function JoinUS() {
   return (
     <div className="mb-5">
-      <div className="title">
-        <h3>Join Us:</h3>
+      <div className={styles.title}>
+        <h3 className={styles.h3}>Join Us:</h3>
       </div>
       <div className="flex gap-3">
         <ul className="flex gap-2 items-center">
           <li className="bg-[#1877F2] p-2 rounded-md text-white">
-            <Link href="https://web.facebook.com/edusharpmind/" aria-label="Facebook page">
+            <Link
+              href="https://web.facebook.com/edusharpmind/"
+              aria-label="Facebook page"
+            >
               <svg
                 fill="#fff"
                 width="20px"

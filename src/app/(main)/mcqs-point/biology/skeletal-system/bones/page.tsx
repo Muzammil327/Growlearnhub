@@ -2,7 +2,7 @@ import React from 'react'
 import { Metadata } from 'next'
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
-import { CardQuiz } from '@/src/components/card/CardQuiz/cardQuiz'
+import { CardQuiz } from '@/src/components/card/CardQuiz/CardQuizWithoutLink'
 import { SkeletalSystemMcqsData } from '@/src/app/(main)/mcqs-point/biology/skeletal-system/data'
 import { BiologyMcqsSkeletalSystemBonesMcqs } from '@/src/app/(main)/mcqs-point/biology/skeletal-system/bones/data'
 

@@ -7,59 +7,48 @@ import BreadCrumb from "@/src/components/element/breadcrumb"
 import Navbar from "@/src/components/layout/navbar/page"
 import { ImageContainerLoading } from "@/src/components/ui/ImageContainer"
 import Sidebar from "@/src/components/sidebar/page"
-
 const Form = dynamic(() => import("@/src/components/element/form"))
-const Newsletter = dynamic(() => import("@/src/components/layout/newsletter/page"))
-const Footer = dynamic(() => import("@/src/components/layout/footer/page"))
 
-export default function SimpleWrapper({
-  title,
-  b1,
-  b2,
-  b3,
-  b4,
-  b1Link,
-  b2Link,
-  b3Link,
-  image,
-  children,
-  clist,
-  url,
-}: {
-  title: string
-  b1: string
-  b2?: string
-  b3?: string
-  b4?: string
-  b1Link?: string | undefined
-  b2Link?: string
-  b3Link?: string
-  image?: string
+interface Iprops {
+  data: {
+    title: string
+    b1: string
+    b2?: string
+    b3?: string
+    b4?: string
+    b1Link?: string | undefined
+    b2Link?: string
+    b3Link?: string
+    image?: string
+    clist?: any[]
+    canonical?: string
+    url?: string
+  }
   children?: React.ReactNode
-  clist?: any[]
-  url?: string
-}) {
+}
+
+export default function SimpleWrapper({ data, children }: Iprops) {
   return (
     <React.Fragment>
       <Navbar />
       <main>
-        <SubHeader title={title} />
+        <SubHeader title={data.title} />
         <Container>
           <div className="grid lg:grid-cols-11 md:gap-6 md:my-20 sm:my-10 my-5">
             <div className="lg:col-span-8">
               <BreadCrumb
-                b1={b1}
-                b2={b2}
-                b3={b3}
-                b4={b4}
-                b1Link={b1Link}
-                b2Link={b2Link}
-                b3Link={b3Link}
+                b1={data.b1}
+                b2={data.b2}
+                b3={data.b3}
+                b4={data.b4}
+                b1Link={data.b1Link}
+                b2Link={data.b2Link}
+                b3Link={data.b3Link}
               />
-              {image && (
+              {data.image && (
                 <ImageContainerLoading
-                  image={`${image}`}
-                  title={title}
+                  image={`${data.image}`}
+                  title={data.title}
                   class="my-4"
                   height={720}
                   width={1280}
@@ -71,10 +60,12 @@ export default function SimpleWrapper({
                 You can give your opinion or any question you have to ask below
                 in the comment section area.
               </p>
-              <Form url={`https://growlearnhub.com${url}`} />
+              <Form url={`https://growlearnhub.com${data.canonical}`} />
             </div>
             <div className="lg:col-span-3">
-              {clist && <Sidebar title={title} url={url} list={clist} />}
+              {data.clist && (
+                <Sidebar title={data.title} url={data.url} list={data.clist} />
+              )}
             </div>
           </div>
         </Container>
