@@ -47,9 +47,9 @@ export default function Form(props: { url: string }) {
   return (
     <section className="my-20 relative">
       <div className="mx-auto max-w-2xl text-center">
-        <h3 className=" font-bold tracking-tight text-emerald-500 lg:text-4xl md:text-3xl text-2xl text-center">
+        <h4 className=" font-bold tracking-tight text-emerald-500 lg:text-4xl md:text-3xl text-2xl text-center">
           Comment Here
-        </h3>
+        </h4>
         <span className="mt-3 md:text-lg sm:text-base text-sm md:leading-8 leading-7 text-gray-600 dark:text-white text-center">
           Plz comment below.
         </span>

@@ -20,7 +20,7 @@ const UnorderedListLink = dynamic(
 const PDFViewer = dynamic(() => import("@/src/components/element/PDFViewer"))
 
 const data = {
-  title: "ENG201 Handouts Free PDF Download | Virtual University Students",
+  title: "ENG201 Handouts Free PDF Download | VU Students",
   description:
     "Download VU ENG201 handouts for free and get access to past papers, study guides, and exam preparation tips. Boost your learning with detailed notes.",
   canonical: "/vu/handouts/eng201/",
@@ -242,7 +242,7 @@ export default function Page() {
     <VUhHandoutWrapper data={data}>
       <p className="p5">
         Welcome to your one-stop source for <em>ENG201 Handouts</em> from
-        <LinkComponent slug="https://www.vu.edu.pk/">
+        <LinkComponent slug="https://www.vu.edu.pk/" className="ml-1">
           Virtual University (VU)
         </LinkComponent>
         . Download the handouts in PDF format for free and study at your own
@@ -271,7 +271,7 @@ export default function Page() {
           "Final Exam Coverage"
         ]}
         contentArray={[
-          "Bussiness and Technical English",
+          "Business and Technical English",
           "English",
           "3 Credit",
           "201",
@@ -338,9 +338,9 @@ export default function Page() {
         ]}
       />
 
-      <Heading3 variant="black">
+      <Heading2 variant="black">
         Topics Covered in Bussiness and Technical English (ENG201 Handouts)
-      </Heading3>
+      </Heading2>
       <p className="p5">
         Here are the key topics you&apos;ll find in the ENG201 handouts:
       </p>

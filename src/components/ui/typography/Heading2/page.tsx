@@ -16,10 +16,10 @@ export default function Heading2({
   variant = "white"
 }: HeadingProps) {
   return (
-    <h3
+    <h2
       className={`font-bold lg:text-3xl text-2xl my-3 ${className || ""} ${variantClasses[variant] || ""}`}
     >
       {children}
-    </h3>
+    </h2>
   )
 }
