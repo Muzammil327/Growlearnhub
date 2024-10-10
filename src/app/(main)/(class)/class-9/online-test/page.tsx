@@ -30,7 +30,7 @@ const data = {
     { name: "Class 10 Books", slug: "/class-10/books/" },
     { name: "Class 11 Books", slug: "/class-11/books/" },
     { name: "Class 12 Books", slug: "/class-12/books/" },
-    
+
     { name: "Class 9 Mcqs", slug: "/class-9/mcqs/" },
     { name: "Class 10 Mcqs", slug: "/class-10/mcqs/" },
     { name: "Class 11 Mcqs", slug: "/class-11/mcqs/" },
@@ -49,20 +49,15 @@ const data = {
     { name: "VU Handouts", slug: "/vu/handouts/" },
     { name: "VU Mid Mcqs", slug: "/vu/mid-mcqs/" },
     { name: "VU Final Mcqs", slug: "/vu/final-mcqs/" }
-  ]
+  ],
+  b1: "Past Paper",
+  b1Link: "/class-9/past-paper/",
+  b2: "Lahore Board Physics"
 }
 
 export default function Page() {
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="9th Class"
-      b1Link="/class-9/"
-      b2="Online Test"
-      image={data.image}
-      clist={data.clist}
-    >
+    <SimpleWrapper data={data}>
       <Class9OnlineTestBookData />
     </SimpleWrapper>
   )

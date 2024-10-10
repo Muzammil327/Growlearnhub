@@ -2,9 +2,9 @@ import React from 'react'
 import { Metadata } from 'next'
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
-import { CardQuiz } from '@/src/components/card/CardQuiz/CardQuizWithoutLink'
 import { SkeletalSystemTypesMcqsDatasPage1 } from './data'
 import { SkeletalSystemMcqsData } from '@/src/app/(main)/mcqs-point/biology/skeletal-system/data'
+import CardQuizWithLink from '@/src/components/card/CardQuiz/CardQuizWithLink'
 
 const data = {
   title: 'Types of Skeletal System Biology Mcqs',
@@ -23,17 +23,10 @@ const data = {
 
 export default function Page() {
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1={data.b1}
-      b1Link={data.b1Link}
-      b2={data.b2}
-      image={data.image}
-    >
+    <SimpleWrapper data={data}>
       <div className="my-10 grid gap-4">
         {SkeletalSystemTypesMcqsDatasPage1.map((book: any) => (
-          <CardQuiz
+          <CardQuizWithLink
             key={book.id}
             title={book.name}
             link={`/mcqs-point/${book.slug}`}

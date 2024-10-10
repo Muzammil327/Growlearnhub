@@ -16,7 +16,7 @@ export default function Page() {
 
   return (
     <McqsChapterWrapper
-      title={data.title}
+    title={data.title}
       url={data.url}
       image={data.image}
       cat={cat}

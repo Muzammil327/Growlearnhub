@@ -98,7 +98,7 @@ export default function RootLayout({
 
       <body className={inter.className}>
         <ThemeSwitcher>
-          <main>{children}</main>
+          {children}
           <Footer />
         </ThemeSwitcher>
       </body>

@@ -7,7 +7,7 @@ export default function CardSmall(props: {
   className?: string
 }) {
   return (
-    <Link href={`${props.link}`} className={props.className}>
+    <Link href={`${props.link}`} className={`${props.className}`}>
       <div className="card">
         <span>{props.title}</span>
         <div className="shine"></div>

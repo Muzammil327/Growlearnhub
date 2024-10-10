@@ -32,18 +32,13 @@ const data = {
     { name: 'Class 11 Online Test', slug: '/class-11/online-test/' },
     { name: 'Class 12 Online Test', slug: '/class-12/online-test/' },
   ],
+  b1: "9th Class"
 }
 
 export default function Page() {
   return (
     <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="11th Class"
-      b1Link="/class-12/"
-      b2="Books"
-      image={data.image}
-      clist={data.clist}
+      data={data}
     >
       <DataClass12Book />
     </SimpleWrapper >

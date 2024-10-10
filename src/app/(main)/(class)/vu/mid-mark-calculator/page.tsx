@@ -25,10 +25,11 @@ const data = {
     { name: 'Final Term Mcqs', slug: '/vu/final-mcqs/' },
     { name: 'Handouts', slug: '/vu/handouts/' },
   ],
+  b1: "VU Mid Marks Calculator"
 }
 
 export default function Page() {
-  return <Calculator url={data.url} clist={data.clist} />
+  return <Calculator url={data.url} data={data} />
 }
 
 export const metadata: Metadata = {

@@ -38,18 +38,14 @@ const data = {
     { name: 'Class 10 Online Test', slug: '/class-10/online-test/' },
     { name: 'Class 12 Online Test', slug: '/class-12/online-test/' },
   ],
+  b1: "9th Class"
+
 }
 
 export default function Page() {
   return (
     <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="Punjab Board Computer Science"
-      b1Link="/class-9/books/punjab-board-computer-science/"
-      b2="English Medium"
-      image={data.image}
-      clist={data.clist}
+      data={data}
     >
       <h3>Computer Science 9th Class Book English Medium PDF Download Punjab Board</h3>
       <p>

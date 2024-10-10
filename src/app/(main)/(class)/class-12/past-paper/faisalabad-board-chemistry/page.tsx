@@ -35,18 +35,14 @@ const data = {
     { name: 'Class 10 Online Test', slug: '/class-10/online-test/' },
     { name: 'Class 12 Online Test', slug: '/class-12/online-test/' },
   ],
+  b1: "9th Class"
+
 }
 
 export default function Page() {
   return (
     <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="Past Paper"
-      b1Link="/class-12/past-paper/"
-      b2="Faisalabad Board Chemistry"
-      image={data.image}
-      clist={data.clist}
+      data={data}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {mainData.map((data: any) => {

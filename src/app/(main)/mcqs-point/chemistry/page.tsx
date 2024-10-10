@@ -1,7 +1,7 @@
-import React from 'react'
-import { Metadata } from 'next'
+import React from "react"
+import { Metadata } from "next"
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
-import CardSmall from '@/src/components/card/cardSmall/cardSmall'
+import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 
 interface Subject {
   id: number
@@ -10,29 +10,24 @@ interface Subject {
 }
 
 const data = {
-  title: 'Chemistry Solved Mcqs Topic Wise',
+  title: "Chemistry Solved Mcqs Topic Wise",
   description:
-    'Here you can get solved mcqs topic wise of chemistry like physical, analytical, biochemistry, organic and inorganic chemistry.',
-  canonical: '/mcqs-point/chemistry/',
+    "Here you can get solved mcqs topic wise of chemistry like physical, analytical, biochemistry, organic and inorganic chemistry.",
+  canonical: "/mcqs-point/chemistry/",
   index: true,
   follow: true,
-  image: '/mcqs-point/chemistry/chemistry-mcqs-point.png',
-  url: 'https://growlearnhub.com/mcqs-point/chemistry/',
-  keywords: ['mcqs', 'quiz', 'mcqs chemistry', 'chemistry mcqs'],
+  image: "/mcqs-point/chemistry/chemistry-mcqs-point.png",
+  url: "https://growlearnhub.com/mcqs-point/chemistry/",
+  keywords: ["mcqs", "quiz", "mcqs chemistry", "chemistry mcqs"],
   clist: [],
+  b1: "Mcqs Point",
+  b1Link: "/mcqs-point/",
+  b2: "Chemistry"
 }
 
 export default function Page() {
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="Mcqs Point"
-      b1Link="/mcqs-point/"
-      b2="Chemistry"
-      image={data.image}
-      clist={data.clist}
-    >
+    <SimpleWrapper data={data}>
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {BookSubjectData.map((book: Subject) => (
           <CardSmall
@@ -42,7 +37,7 @@ export default function Page() {
           />
         ))}
       </div>
-    </SimpleWrapper >
+    </SimpleWrapper>
   )
 }
 
@@ -57,35 +52,35 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title,
-      },
-    ],
+        alt: data.title
+      }
+    ]
   },
   alternates: {
-    canonical: data.canonical,
+    canonical: data.canonical
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow,
-    },
+      follow: data.follow
+    }
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title,
-    },
-  },
+      alt: data.title
+    }
+  }
 }
 
 const BookSubjectData: Subject[] = [
   {
     id: 0,
-    name: '',
-    slug: '',
-  },
+    name: "",
+    slug: ""
+  }
 ]

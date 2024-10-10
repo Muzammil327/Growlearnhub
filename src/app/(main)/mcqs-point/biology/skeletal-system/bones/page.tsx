@@ -1,47 +1,40 @@
-import React from 'react'
-import { Metadata } from 'next'
+import React from "react"
+import { Metadata } from "next"
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
-import CardSmall from '@/src/components/card/cardSmall/cardSmall'
-import { CardQuiz } from '@/src/components/card/CardQuiz/CardQuizWithoutLink'
-import { SkeletalSystemMcqsData } from '@/src/app/(main)/mcqs-point/biology/skeletal-system/data'
-import { BiologyMcqsSkeletalSystemBonesMcqs } from '@/src/app/(main)/mcqs-point/biology/skeletal-system/bones/data'
+import CardSmall from "@/src/components/card/cardSmall/cardSmall"
+import { SkeletalSystemMcqsData } from "@/src/app/(main)/mcqs-point/biology/skeletal-system/data"
+import { BiologyMcqsSkeletalSystemBonesMcqs } from "@/src/app/(main)/mcqs-point/biology/skeletal-system/bones/data"
+import CardQuizWithLink from "@/src/components/card/CardQuiz/CardQuizWithLink"
 
 const data = {
-  title: 'Bones Skeletal System Biology Mcqs',
+  title: "Bones Skeletal System Biology Mcqs",
   description:
-    'Here you can get solved mcqs topic wise of biology skeletal system like Bones, Joints, Cartilage, Ligaments and Axial and Appendicular Skeleton.',
-  canonical: '/mcqs-point/biology/skeletal-system/bones/',
+    "Here you can get solved mcqs topic wise of biology skeletal system like Bones, Joints, Cartilage, Ligaments and Axial and Appendicular Skeleton.",
+  canonical: "/mcqs-point/biology/skeletal-system/bones/",
   index: true,
   follow: true,
   image:
-    '/mcqs-point/biology/skeletal-system/bones/bones-skeletal-system-biology-mcqs-point.webp',
+    "/mcqs-point/biology/skeletal-system/bones/bones-skeletal-system-biology-mcqs-point.webp",
 
-  url: 'https://growlearnhub.com/mcqs-point/biology/skeletal-system/bones/',
+  url: "https://growlearnhub.com/mcqs-point/biology/skeletal-system/bones/",
   keywords: [
-    'mcqs',
-    'mcqs biology',
-    'Skeletal System',
-    'Skeletal System bones',
-    'bones',
+    "mcqs",
+    "mcqs biology",
+    "Skeletal System",
+    "Skeletal System bones",
+    "bones"
   ],
-  b1: 'Skeletal System',
-  b1Link: '/mcqs-point/biology/skeletal-system/',
-  b2: 'Bones',
+  b1: "Skeletal System",
+  b1Link: "/mcqs-point/biology/skeletal-system/",
+  b2: "Bones"
 }
 
 export default function Page() {
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1={data.b1}
-      b1Link={data.b1Link}
-      b2={data.b2}
-      image={data.image}
-    >
+    <SimpleWrapper data={data}>
       <div className="my-10 grid gap-4">
         {BiologyMcqsSkeletalSystemBonesMcqs.map((book: any) => (
-          <CardQuiz
+          <CardQuizWithLink
             key={book.id}
             title={book.name}
             link={`/mcqs-point/${book.slug}`}
@@ -55,7 +48,7 @@ export default function Page() {
           <CardSmall key={book.id} title={book.name} link={book.slug} />
         ))}
       </div>
-    </SimpleWrapper >
+    </SimpleWrapper>
   )
 }
 
@@ -70,27 +63,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title,
-      },
-    ],
+        alt: data.title
+      }
+    ]
   },
   alternates: {
-    canonical: data.canonical,
+    canonical: data.canonical
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow,
-    },
+      follow: data.follow
+    }
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title,
-    },
-  },
+      alt: data.title
+    }
+  }
 }

@@ -48,20 +48,15 @@ const data = {
     { name: "VU Handouts", slug: "/vu/handouts/" },
     { name: "VU Mid Mcqs", slug: "/vu/mid-mcqs/" },
     { name: "VU Final Mcqs", slug: "/vu/final-mcqs/" }
-  ]
+  ],
+  b1: "Past Paper",
+  b1Link: "/class-9/past-paper/",
+  b2: "Lahore Board Physics"
 }
 
 export default function Page() {
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="9th Class"
-      b1Link="/class-9/"
-      b2="Mcqs"
-      image={data.image}
-      clist={data.clist}
-    >
+    <SimpleWrapper data={data}>
       <Class9McqsBookData />
     </SimpleWrapper>
   )

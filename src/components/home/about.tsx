@@ -1,6 +1,6 @@
 import React from "react"
-import Container from "../element/container"
 import ButtonComponents from "../ui/typography/button/page"
+import Container from "../ui/Container"
 
 export default function AboutUs() {
   return (

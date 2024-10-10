@@ -19,16 +19,13 @@ const data = {
     { name: 'Class 11', slug: '/class-11/' },
     { name: 'Class 12', slug: '/class-12/' },
   ],
+  b1:"fg"
 }
 
 export default function Page() {
   return (
     <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="Virtual University"
-      clist={data.clist}
-      image={data.image}
+      data={data}
     >
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {mainData.map((data: any) => {

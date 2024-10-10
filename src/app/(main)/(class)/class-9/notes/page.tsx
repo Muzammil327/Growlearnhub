@@ -1,24 +1,24 @@
-import React from 'react'
-import { Metadata } from 'next'
+import React from "react"
+import { Metadata } from "next"
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
-import DataClass9Notes from './DataClass9Notes'
+import DataClass9Notes from "./DataClass9Notes"
 
 const data = {
-  title: '9th Class Notes | Class 9',
+  title: "9th Class Notes | Class 9",
   description:
-    'Class 9 notes providing interactive exams, instant feedback, and performance analytics for effective learning.',
-  canonical: '/class-9/notes/',
+    "Class 9 notes providing interactive exams, instant feedback, and performance analytics for effective learning.",
+  canonical: "/class-9/notes/",
   index: true,
   follow: true,
-  image: '/9th/class_9_notes.webp',
-  url: 'https://growlearnhub.com/class-9/notes/',
+  image: "/9th/class_9_notes.webp",
+  url: "https://growlearnhub.com/class-9/notes/",
   keywords: [
-    'growlearnhub notes',
-    'growlearnhub class 9 notes',
-    'notes',
-    'class 9 notes',
-    '9th class notes',
-    '9th class growlearnhub notes',
+    "growlearnhub notes",
+    "growlearnhub class 9 notes",
+    "notes",
+    "class 9 notes",
+    "9th class notes",
+    "9th class growlearnhub notes"
   ],
   clist: [
     { name: "Class 10 Notes", slug: "/class-10/notes/" },
@@ -29,7 +29,7 @@ const data = {
     { name: "Class 10 Books", slug: "/class-10/books/" },
     { name: "Class 11 Books", slug: "/class-11/books/" },
     { name: "Class 12 Books", slug: "/class-12/books/" },
-    
+
     { name: "Class 9 Mcqs", slug: "/class-9/mcqs/" },
     { name: "Class 10 Mcqs", slug: "/class-10/mcqs/" },
     { name: "Class 11 Mcqs", slug: "/class-11/mcqs/" },
@@ -50,21 +50,16 @@ const data = {
     { name: "VU Mid Mcqs", slug: "/vu/mid-mcqs/" },
     { name: "VU Final Mcqs", slug: "/vu/final-mcqs/" }
   ],
+  b1: "Past Paper",
+  b1Link: "/class-9/past-paper/",
+  b2: "Lahore Board Physics"
 }
 
 export default function Page() {
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="9th Class"
-      b1Link="/class-9/"
-      b2="Notes"
-      image={data.image}
-      clist={data.clist}
-    >
+    <SimpleWrapper data={data}>
       <DataClass9Notes />
-    </SimpleWrapper >
+    </SimpleWrapper>
   )
 }
 
@@ -79,27 +74,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title,
-      },
-    ],
+        alt: data.title
+      }
+    ]
   },
   alternates: {
-    canonical: data.canonical,
+    canonical: data.canonical
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow,
-    },
+      follow: data.follow
+    }
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title,
-    },
-  },
+      alt: data.title
+    }
+  }
 }

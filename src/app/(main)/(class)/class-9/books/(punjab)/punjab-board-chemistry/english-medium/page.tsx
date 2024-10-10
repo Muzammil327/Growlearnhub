@@ -37,20 +37,15 @@ const data = {
     { name: "Class 11 Online Test", slug: "/class-11/online-test/" },
     { name: "Class 10 Online Test", slug: "/class-10/online-test/" },
     { name: "Class 12 Online Test", slug: "/class-12/online-test/" }
-  ]
+  ],
+  b1: "Past Paper",
+  b1Link: "/class-9/past-paper/",
+  b2: "Lahore Board Physics"
 }
 
 export default function Page() {
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="Punjab Board Chemistry"
-      b1Link="/class-9/books/punjab-board-chemistry/"
-      b2="English Medium"
-      image={data.image}
-      clist={data.clist}
-    >
+    <SimpleWrapper data={data}>
       <h3>Chemistry 9th Class Book English Medium PDF Download Punjab Board</h3>
       <p>
         Are you looking for a{" "}
@@ -102,7 +97,7 @@ export default function Page() {
       </p>
       <PDFViewer pdfUrl={data.fileId_english} />
       <DataClass9Book />
-    </SimpleWrapper >
+    </SimpleWrapper>
   )
 }
 

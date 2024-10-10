@@ -45,7 +45,7 @@ export default function Form(props: { url: string }) {
     }
   }
   return (
-    <div className="my-20 relative">
+    <section className="my-20 relative">
       <div className="mx-auto max-w-2xl text-center">
         <h3 className=" font-bold tracking-tight text-emerald-500 lg:text-4xl md:text-3xl text-2xl text-center">
           Comment Here
@@ -153,6 +153,6 @@ export default function Form(props: { url: string }) {
           )}
         </Button>
       </form>
-    </div>
+    </section>
   )
 }

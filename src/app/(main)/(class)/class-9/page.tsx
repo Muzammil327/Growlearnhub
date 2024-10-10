@@ -54,18 +54,13 @@ const data = {
     { name: "VU Mid Marks Calculator", slug: "/vu/" },
     { name: "VU Mid Mcqs", slug: "/vu/" },
     { name: "VU Final Mcqs", slug: "/vu/" }
-  ]
+  ],
+  b1: "9th Class"
 }
 
 export default function Page() {
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="9th Class"
-      image={data.image}
-      clist={data.clist}
-    >
+    <SimpleWrapper data={data}>
       <p>
         Welcome to the <strong>Class 9 </strong> page! Here, you&apos;ll find a
         comprehensive list of textbooks and resources that are essential for

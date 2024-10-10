@@ -13,7 +13,8 @@ const data = {
   title: "Feature Idea Submission Request",
   canonical: "/request-feature",
   image: "",
-  clist: []
+  clist: [],
+  b1: "Request Feature"
 }
 
 export default function Newsletter() {
@@ -50,13 +51,7 @@ export default function Newsletter() {
   }
 
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="Request Feature"
-      image={data.image}
-      clist={data.clist}
-    >
+    <SimpleWrapper data={data}>
       <form className="my-2" onSubmit={SubmitHandle}>
         <div className="mb-6">
           <Label label="Enter Title:" htmlFor="title" />

@@ -1,7 +1,7 @@
 "use client"
 import React from "react"
 import dynamic from "next/dynamic"
-import Container from "@/src/components/element/container"
+import Container from "@/src/components/ui/Container"
 import SubHeader from "@/src/components/layout/header/subheader/page"
 import BreadCrumb from "@/src/components/element/breadcrumb"
 import Navbar from "@/src/components/layout/navbar/page"
@@ -62,11 +62,11 @@ export default function SimpleWrapper({ data, children }: Iprops) {
               </p>
               <Form url={`https://growlearnhub.com${data.canonical}`} />
             </div>
-            <div className="lg:col-span-3">
+            <aside className="lg:col-span-3">
               {data.clist && (
                 <Sidebar title={data.title} url={data.url} list={data.clist} />
               )}
-            </div>
+            </aside>
           </div>
         </Container>
       </main>

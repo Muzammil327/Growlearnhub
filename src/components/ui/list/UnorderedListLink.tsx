@@ -18,7 +18,7 @@ export default function UnorderedListLink({ items }: UnorderedListLinkProps) {
           <li key={index} className="">
             <Link
               href={item.link}
-              className="ml-2 text-gray-600 dark:text-gray-100"
+              className="ml-2 text-gray-600 dark:text-gray-100 link"
             >
               {item.title}
             </Link>

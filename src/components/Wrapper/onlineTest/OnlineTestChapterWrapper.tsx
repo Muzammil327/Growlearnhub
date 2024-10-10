@@ -105,13 +105,15 @@ const QuizWrapperFilter: React.FC<QuizWrapperProps> = ({
     if (currentQuestionIndex >= currentSet.length) {
       return (
         <SimpleWrapper
-          title={title}
-          url={canonical}
-          b1={b1}
-          b1Link={b1Link}
-          b2={paramdata}
-          image={image}
-          clist={clist}
+          data={{
+            title: title, // Pass the variable title
+            url: canonical, // Pass the canonical URL
+            b1: b1, // Pass b1
+            b1Link: b1Link, // Pass b1Link
+            b2: paramdata, // Pass paramdata as b2
+            image: image, // Pass image
+            clist: clist // Pass clist
+          }}
         >
           <div className="flex flex-col p-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg shadow-2xl">
             <h2 className="text-5xl font-extrabold text-white mb-2 drop-shadow-lg text-center">
@@ -167,13 +169,15 @@ const QuizWrapperFilter: React.FC<QuizWrapperProps> = ({
 
     return (
       <SimpleWrapper
-        title={title}
-        url={canonical}
-        b1={b1}
-        b1Link={b1Link}
-        b2={paramdata}
-        image={image}
-        clist={clist}
+        data={{
+          title: title, // Pass the variable title
+          url: canonical, // Pass the canonical URL
+          b1: b1, // Pass b1
+          b1Link: b1Link, // Pass b1Link
+          b2: paramdata, // Pass paramdata as b2
+          image: image, // Pass image
+          clist: clist // Pass clist
+        }}
       >
         <div className="flex md:flex-row flex-col gap-2">
           <div className="flex flex-col items-start px-2">
@@ -240,13 +244,15 @@ const QuizWrapperFilter: React.FC<QuizWrapperProps> = ({
 
   return (
     <SimpleWrapper
-      title={title}
-      url={canonical}
-      b1={b1}
-      b1Link={b1Link}
-      b2={paramdata}
-      image={image}
-      clist={clist}
+      data={{
+        title: title, // Pass the variable title
+        url: canonical, // Pass the canonical URL
+        b1: b1, // Pass b1
+        b1Link: b1Link, // Pass b1Link
+        b2: paramdata, // Pass paramdata as b2
+        image: image, // Pass image
+        clist: clist // Pass clist
+      }}
     >
       <div className="bg-gradient-to-br from-blue-600 to-purple-600 text-center text-white p-8 rounded-lg shadow-xl">
         <h2 className="text-4xl font-extrabold mb-4 drop-shadow-lg">

@@ -1,9 +1,8 @@
 import React from "react"
 import { Metadata } from "next"
-import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
-import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import { VuHandoutsData } from "../data"
+import VUhHandoutWrapper from "@/src/app/(main)/(class)/vu/handouts/VUhHandoutWrapper"
 import PDFViewer from "@/src/components/element/PDFViewer"
+import LinkComponent from "@/src/components/ui/typography/Links/page"
 
 const data = {
   title: "VU CS001 Handouts Pdf Download",
@@ -27,20 +26,26 @@ const data = {
     { name: "Final Term Mcqs", slug: "/vu/final-mcqs/" },
     { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" }
   ],
-  fileId: ""
+  fileId: "",
+  b1: "VU",
+  b1Link: "/vu/",
+  b2: "Handouts",
+  b2Link: "/vu/handouts/",
+  b3: "CS001"
 }
 
 export default function Page() {
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="Handouts"
-      b1Link="/vu/handouts/"
-      b2="CS001"
-      image={data.image}
-      clist={data.clist}
-    >
+    <VUhHandoutWrapper data={data}>
+      <p className="p5">
+        Welcome to your one-stop source for <em>CS001 Handouts</em> from
+        <LinkComponent slug="https://www.vu.edu.pk/">
+          Virtual University (VU)
+        </LinkComponent>
+        . Download the handouts in PDF format for free and study at your own
+        pace.
+      </p>
+      
       <h3>Download VU CS001 Handouts</h3>
       <p>
         Here, you can download Virtual University{" "}
@@ -57,18 +62,7 @@ export default function Page() {
         download button below:
       </p>
       <PDFViewer pdfUrl={data.fileId} />
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {VuHandoutsData.map((data: any) => {
-          return (
-            <CardSmall
-              key={data.name}
-              title={data.name}
-              link={`/vu/handouts/${data.slug}`}
-            />
-          )
-        })}
-      </div>
-    </SimpleWrapper >
+    </VUhHandoutWrapper>
   )
 }
 

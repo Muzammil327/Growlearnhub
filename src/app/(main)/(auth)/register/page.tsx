@@ -12,7 +12,8 @@ const data = {
   title: "Create Your Account",
   canonical: "/register",
   image: "/register.webp",
-  clist: []
+  clist: [],
+  b1: "Register"
 }
 
 export default function Page() {
@@ -43,13 +44,7 @@ export default function Page() {
   }
 
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="Register"
-      image={data.image}
-      clist={data.clist}
-    >
+    <SimpleWrapper data={data}>
       <p>
         Join our community of learners and unlock access to high-quality
         educational resources. Whether you&apos;re a student, teacher, or

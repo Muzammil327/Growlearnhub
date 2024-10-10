@@ -1,5 +1,5 @@
-import Container from "@/src/components/element/container"
-import { Heading1 } from "@/src/components/ui/Heading"
+import Container from "@/src/components/ui/Container"
+import Heading1 from "@/src/components/ui/typography/Heading1/page"
 
 export default function SubHeader(props: { title: string }) {
   return (

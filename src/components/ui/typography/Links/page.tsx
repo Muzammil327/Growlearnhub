@@ -27,7 +27,7 @@ const LinkComponent = ({
   return (
     <Link
       href={slug}
-      className={`${className} ${variantClass}`}
+      className={`${className} ${variantClass} link`}
       target={target}
       rel={rel}
       title={title}

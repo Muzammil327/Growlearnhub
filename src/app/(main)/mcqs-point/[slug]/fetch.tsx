@@ -1,14 +1,7 @@
 "use client"
 import React, { useEffect, useState } from "react"
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
-import { CardQuizWithoutLink } from "@/src/components/card/CardQuiz/CardQuizWithoutLink"
-
-const data = {
-  b1: "Bones",
-  b1Link: "/mcqs-point/biology/skeletal-system/bones/",
-  image:
-    "/mcqs-point/biology/skeletal-system/bones/bones-skeletal-system-biology-mcqs-point.webp"
-}
+import CardQuizWithoutLink from "@/src/components/card/CardQuiz/CardQuizWithoutLink"
 
 interface IProps {
   params: {
@@ -66,13 +59,20 @@ export default function FetchSeparateMcqs({ params }: { params: String }) {
 
   return (
     <SimpleWrapper
-      title={loading ? "" : Final_Data.question}
-      url={`/mcqs-point/${loading ? "" : Final_Data.slug}`}
-      b1={data.b1}
-      b1Link={data.b1Link}
-      b2={loading ? "" : Final_Data.question}
-      image={data.image}
-    >
+    data={
+      loading
+        ? { title: "", b1: "", b2: "", b3: "", b4: "" } // Default empty values when loading
+        : {
+            title: Final_Data.question,
+            b1: "Mcqs Point", // Ensure that all required fields are provided
+            b2: Final_Data.question || "",
+            b1Link: "/mcqs-point",
+            clist: [],
+            canonical: undefined,
+            url: `/mcqs-point/${loading ? "" : Final_Data.slug}`,
+          }
+    }
+  >  
       <div className="my-10 grid gap-4">
         {loading ? (
           "Loading"

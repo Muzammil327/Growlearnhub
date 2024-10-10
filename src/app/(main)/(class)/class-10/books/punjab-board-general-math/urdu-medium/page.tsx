@@ -37,18 +37,13 @@ const data = {
     { name: 'Class 10 Online Test', slug: '/class-10/online-test/' },
     { name: 'Class 12 Online Test', slug: '/class-12/online-test/' },
   ],
+  b1: "9th Class"
 }
 
 export default function Page() {
   return (
     <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="Punjab Board General Math"
-      b1Link="/class-10/books/punjab-board-general-math/"
-      b2="Urdu Medium"
-      image={data.image}
-      clist={data.clist}
+      data={data}
     >
       <h3>
         General Math 10th Class Book Urdu Medium PDF Download Punjab Board

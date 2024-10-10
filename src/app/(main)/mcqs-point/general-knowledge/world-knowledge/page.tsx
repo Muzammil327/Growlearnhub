@@ -24,20 +24,17 @@ const data = {
     "mcqs general knowledge",
     "world general knowledge",
     "mcqs general knowledge world"
-  ]
+  ],
+  b1: "Mcqs Point",
+  b1Link: "/mcqs-point/",
+  b2: "General Knowledge",
+  b2Link: "/mcqs-point/general-knowledge/",
+  b3: "World Knowledge"
 }
 
 export default function Page() {
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="Mcqs Point"
-      b1Link="/mcqs-point/"
-      b2="General Knowledge"
-      b2Link="/mcqs-point/general-knowledge/"
-      b3="World Knowledge"
-    >
+    <SimpleWrapper data={data}>
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {BookSubjectData.map((book: Subject) => (
           <CardSmall
@@ -47,7 +44,7 @@ export default function Page() {
           />
         ))}
       </div>
-    </SimpleWrapper >
+    </SimpleWrapper>
   )
 }
 

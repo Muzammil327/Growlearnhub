@@ -1,5 +1,5 @@
 import React from "react"
-import Container from "../element/container"
+import Container from "../ui/Container"
 import Link from "next/link"
 import { FaBook } from "react-icons/fa"
 import { FaClipboard } from "react-icons/fa"

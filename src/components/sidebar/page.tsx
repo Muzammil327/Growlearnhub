@@ -20,7 +20,7 @@ interface SidebarProps {
 
 export default function Sidebar({ title, url, list, vedioUrl }: SidebarProps) {
   return (
-    <aside>
+    <React.Fragment>
       <JoinUS />
       <RelatedSidebar list={list} />
       <ShareFriend title={title} url={url} />
@@ -35,6 +35,6 @@ export default function Sidebar({ title, url, list, vedioUrl }: SidebarProps) {
           console.log("video error", error)
         }}
       /> */}
-    </aside>
+    </React.Fragment>
   )
 }

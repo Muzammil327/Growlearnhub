@@ -91,10 +91,7 @@ export const Links: React.FC<{
 }> = ({ children, slug, className }) => (
   <Link
     href={slug}
-    className={`
-    ${className}
-  link
-`}
+    className={`link ${className}`}
   >
     {children}
   </Link>

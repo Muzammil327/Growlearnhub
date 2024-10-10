@@ -2,7 +2,7 @@ import React from "react"
 import Link from "next/link"
 import "./cardQuiz.scss"
 
-export default function CardQuizWithoutLink({
+export default function CardQuizWithLink({
   title,
   link,
   correctOption,

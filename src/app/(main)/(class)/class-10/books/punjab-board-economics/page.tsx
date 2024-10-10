@@ -34,18 +34,13 @@ const data = {
     { name: 'Class 10 Online Test', slug: '/class-10/online-test/' },
     { name: 'Class 12 Online Test', slug: '/class-12/online-test/' },
   ],
+  b1: "9th Class"
 }
 
 export default function Page() {
   return (
     <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="Books"
-      b1Link="/class-10/books/"
-      b2="Punjab Board Economics"
-      image={data.image}
-      clist={data.clist}
+      data={data}
     >
       <p>
         Are you looking for a{' '}

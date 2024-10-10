@@ -1,54 +1,49 @@
-import React from 'react'
-import { Metadata } from 'next'
+import React from "react"
+import { Metadata } from "next"
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
-import PDFViewer from '@/src/components/element/PDFViewer'
-import DataClass9Book from '@/src/app/(main)/(class)/class-9/books/DataClass9Book'
+import PDFViewer from "@/src/components/element/PDFViewer"
+import DataClass9Book from "@/src/app/(main)/(class)/class-9/books/DataClass9Book"
 
 const data = {
-  title: 'Economics Class 9 Book PDF | 9th Class Punjab Text Book',
+  title: "Economics Class 9 Book PDF | 9th Class Punjab Text Book",
   description:
-    'Download the official Economics Class 9 textbook PDF by Punjab Board. This comprehensive guide covers the entire syllabus with clear explanation.',
-  canonical: '/class-9/books/punjab-board-economics/',
+    "Download the official Economics Class 9 textbook PDF by Punjab Board. This comprehensive guide covers the entire syllabus with clear explanation.",
+  canonical: "/class-9/books/punjab-board-economics/",
   index: true,
   follow: true,
-  image: '/9th/book/punjab/class-9-economics-book-punjab-board.webp',
-  url: 'https://growlearnhub.com/class-9/books/punjab-board-economics/',
+  image: "/9th/book/punjab/class-9-economics-book-punjab-board.webp",
+  url: "https://growlearnhub.com/class-9/books/punjab-board-economics/",
   keywords: [
-    'economics class 9 punjab text book pdf',
-    'class 9 economics book pdf punjab board',
-    '9th class economics punjab text book',
-    'economics book class 9 punjab board',
-    'class 9 economics book punjab board',
+    "economics class 9 punjab text book pdf",
+    "class 9 economics book pdf punjab board",
+    "9th class economics punjab text book",
+    "economics book class 9 punjab board",
+    "class 9 economics book punjab board"
   ],
-  fileId_urdu: '1JIhmsCKh20DfmqwWuHtwBWa1cZdsu7B1',
+  fileId_urdu: "1JIhmsCKh20DfmqwWuHtwBWa1cZdsu7B1",
   clist: [
-    { name: 'Class 10 Books', slug: '/class-10/books/' },
-    { name: 'Class 11 Books', slug: '/class-11/books/' },
-    { name: 'Class 12 Books', slug: '/class-12/books/' },
-    { name: 'Class 9 Mcqs', slug: '/class-9/mcqs/' },
-    { name: 'Class 10 Mcqs', slug: '/class-10/mcqs/' },
-    { name: 'Class 11 Mcqs', slug: '/class-11/mcqs/' },
-    { name: 'Class 12 Mcqs', slug: '/class-12/mcqs/' },
-    { name: 'Class 9 Online Test', slug: '/class-9/online-test/' },
-    { name: 'Class 11 Online Test', slug: '/class-11/online-test/' },
-    { name: 'Class 10 Online Test', slug: '/class-10/online-test/' },
-    { name: 'Class 12 Online Test', slug: '/class-12/online-test/' },
+    { name: "Class 10 Books", slug: "/class-10/books/" },
+    { name: "Class 11 Books", slug: "/class-11/books/" },
+    { name: "Class 12 Books", slug: "/class-12/books/" },
+    { name: "Class 9 Mcqs", slug: "/class-9/mcqs/" },
+    { name: "Class 10 Mcqs", slug: "/class-10/mcqs/" },
+    { name: "Class 11 Mcqs", slug: "/class-11/mcqs/" },
+    { name: "Class 12 Mcqs", slug: "/class-12/mcqs/" },
+    { name: "Class 9 Online Test", slug: "/class-9/online-test/" },
+    { name: "Class 11 Online Test", slug: "/class-11/online-test/" },
+    { name: "Class 10 Online Test", slug: "/class-10/online-test/" },
+    { name: "Class 12 Online Test", slug: "/class-12/online-test/" }
   ],
+  b1: "Past Paper",
+  b1Link: "/class-9/past-paper/",
+  b2: "Lahore Board Physics"
 }
 
 export default function Page() {
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="Books"
-      b1Link="/class-9/books/"
-      b2="Punjab Board Economics"
-      image={data.image}
-      clist={data.clist}
-    >
+    <SimpleWrapper data={data}>
       <p>
-        Are you looking for a{' '}
+        Are you looking for a{" "}
         <strong>Class 9 economics book punjab board</strong>? Here, you can
         access all the books you need for free. Our website offers a complete
         collection of books for students in Class 9, 10, 11, and 12. Whether
@@ -62,7 +57,7 @@ export default function Page() {
       </p>
       <PDFViewer pdfUrl={data.fileId_urdu} />
       <DataClass9Book />
-    </SimpleWrapper >
+    </SimpleWrapper>
   )
 }
 
@@ -77,27 +72,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title,
-      },
-    ],
+        alt: data.title
+      }
+    ]
   },
   alternates: {
-    canonical: data.canonical,
+    canonical: data.canonical
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow,
-    },
+      follow: data.follow
+    }
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title,
-    },
-  },
+      alt: data.title
+    }
+  }
 }

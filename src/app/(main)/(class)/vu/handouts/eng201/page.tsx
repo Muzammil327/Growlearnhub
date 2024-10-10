@@ -1,15 +1,16 @@
 import React from "react"
 import { Metadata } from "next"
 import dynamic from "next/dynamic"
-import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
-import { VuHandoutsData } from "../data"
-import { Links } from "@/src/components/ui/Heading"
+import Heading2 from "@/src/components/ui/typography/Heading2/page"
+import LinkComponent from "@/src/components/ui/typography/Links/page"
+import VUhHandoutWrapper from "@/src/app/(main)/(class)/vu/handouts/VUhHandoutWrapper"
 
+const PieChart = dynamic(() => import("@/src/components/element/PieChart"))
+const Heading3 = dynamic(
+  () => import("@/src/components/ui/typography/Heading3/page")
+)
 const Accordation = dynamic(() => import("@/src/components/element/accordion"))
 const Table = dynamic(() => import("@/src/components/element/table"))
-const CardSmall = dynamic(
-  () => import("@/src/components/card/cardSmall/cardSmall")
-)
 const UnorderedList = dynamic(
   () => import("@/src/components/ui/list/UnorderedList")
 )
@@ -19,7 +20,7 @@ const UnorderedListLink = dynamic(
 const PDFViewer = dynamic(() => import("@/src/components/element/PDFViewer"))
 
 const data = {
-  title: "ENG201 Handouts PDF | Study Resources, Past Papers VU Students",
+  title: "ENG201 Handouts Free PDF Download | Virtual University Students",
   description:
     "Download VU ENG201 handouts for free and get access to past papers, study guides, and exam preparation tips. Boost your learning with detailed notes.",
   canonical: "/vu/handouts/eng201/",
@@ -47,8 +48,6 @@ const data = {
   b2Link: "/vu/handouts/",
   b3: "ENG201"
 }
-
-const headingArray = ["ENG201 Chapter", "ENG201 Topics"]
 
 const combinedData = [
   {
@@ -240,37 +239,126 @@ const combinedData = [
 
 export default function Page() {
   return (
-    <SimpleWrapper data={data}>
-      <p>
+    <VUhHandoutWrapper data={data}>
+      <p className="p5">
         Welcome to your one-stop source for <em>ENG201 Handouts</em> from
-        <Links slug="https://www.vu.edu.pk/">Virtual University (VU)</Links>.
-        Download the handouts in PDF format for free and study at your own pace.
+        <LinkComponent slug="https://www.vu.edu.pk/">
+          Virtual University (VU)
+        </LinkComponent>
+        . Download the handouts in PDF format for free and study at your own
+        pace.
       </p>
 
       {/* PDF Viewer  */}
-      <h3>Download ENG201 Handouts PDF</h3>
-      <p>
-        You can access the complete <strong>ENG201 handouts</strong> in PDF
-        format by clicking the download link below.
+      <Heading2 variant="black">
+        Download <strong>ENG201 handouts</strong> PDF
+      </Heading2>
+      <p className="p5">
+        Access the complete ENG201 - Business and Technical English Writing
+        handouts in PDF format by clicking the download link below. Be sure to
+        download and review the materials to prepare effectively for your
+        assessments.
       </p>
+      <Table
+        chapterTitleArray={[
+          "Name",
+          "Category",
+          "Credit Hours",
+          "Code",
+          "Total Pages",
+          "Total Chapter",
+          "Mid Exam Coverage",
+          "Final Exam Coverage"
+        ]}
+        contentArray={[
+          "Bussiness and Technical English",
+          "English",
+          "3 Credit",
+          "201",
+          "245",
+          "45",
+          "1 to 21",
+          "22 to 45"
+        ]}
+        headingArray={["Course Title", "ENG201"]}
+      />
+
+      <Heading3 variant="black">Assessment Scheme:</Heading3>
+      <UnorderedList
+        items={[
+          {
+            title: "Assignments (4%)",
+            description: ""
+          },
+          {
+            title: "Quizzes (4%)",
+            description: ""
+          },
+          {
+            title: "GDB (2%)",
+            description:
+              "Ability to convey ideas clearly, and the effective use of oral communication strategies."
+          },
+          {
+            title: "Mid Term (30%)",
+            description:
+              "Exam will consist of multiple-choice questions, short-answer questions, and practical writing tasks."
+          },
+          {
+            title: "Mid Term (60%)",
+            description: ""
+          }
+        ]}
+      />
+
+      <PieChart
+        labels={["GDB", "Assignments", "Quizzes", "Mid Term", "Final Term"]}
+        dataValues={[2, 4, 4, 30, 60]}
+        bookName="ENG 201"
+      />
+
       <PDFViewer pdfUrl={data.fileId} />
 
       {/* Table  */}
-      <h3>Topics Covered in ENG201 Handouts</h3>
-      <p>Here are the key topics you&apos;ll find in the ENG201 handouts:</p>
+      <Heading3 variant="black">Course Synopsis</Heading3>
+      <UnorderedList
+        items={[
+          {
+            description:
+              "Identifying and addressing the communication needs of the audience."
+          },
+          {
+            description:
+              "Developing persuasive, clear, and concise written messages, reports, proposals, memos, and other business documents."
+          },
+          {
+            description:
+              "Understanding and implementing visual aids to support effective presentations."
+          }
+        ]}
+      />
+
+      <Heading3 variant="black">
+        Topics Covered in Bussiness and Technical English (ENG201 Handouts)
+      </Heading3>
+      <p className="p5">
+        Here are the key topics you&apos;ll find in the ENG201 handouts:
+      </p>
       <Table
         chapterTitleArray={combinedData.map((item) => item.title)}
         contentArray={combinedData.map((item) => item.content)}
         chapterDATA={combinedData.map((item) => ({
           id: item.id,
           link: item.link
-        }))} // Pass the modified chapterDATA
-        headingArray={headingArray}
+        }))}
+        headingArray={["ENG201 Chapter", "ENG201 Topics"]}
       />
 
       {/* Tips  */}
-      <h3>How to Study ENG201 Effectively?</h3>
-      <p>Here are some tips on how to make the most of your ENG201 handouts:</p>
+      <Heading3 variant="black">How to Study ENG201 Effectively?</Heading3>
+      <p className="p5">
+        Here are some tips on how to make the most of your ENG201 handouts:
+      </p>
       <UnorderedList
         items={[
           {
@@ -287,7 +375,7 @@ export default function Page() {
       />
 
       {/* FAQ  */}
-      <h3>Frequently Asked Questions (FAQs)</h3>
+      <Heading3 variant="black">Frequently Asked Questions (FAQs)</Heading3>
       <Accordation
         data={[
           {
@@ -311,8 +399,8 @@ export default function Page() {
       />
 
       {/* Related Resources  */}
-      <h3>Related Resources</h3>
-      <p>
+      <Heading3 variant="black">Related Resources:</Heading3>
+      <p className="p5">
         If you&apos;re looking for more resources to ace your ENG201 course,
         check out the following:
       </p>
@@ -320,7 +408,7 @@ export default function Page() {
         items={[
           {
             title: "ENG201 Highlight Handouts",
-            link: "/vu/handouts/eng201/"
+            link: "/vu/highlight-handouts/eng201/"
           },
           {
             title: "ENG201 Mid Term Solved Papers",
@@ -348,20 +436,7 @@ export default function Page() {
           }
         ]}
       />
-
-      {/* Related Links  */}
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {VuHandoutsData.map((data: any) => {
-          return (
-            <CardSmall
-              key={data.name}
-              title={data.name}
-              link={`/vu/handouts/${data.slug}`}
-            />
-          )
-        })}
-      </div>
-    </SimpleWrapper>
+    </VUhHandoutWrapper>
   )
 }
 

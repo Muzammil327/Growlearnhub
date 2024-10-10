@@ -1,64 +1,57 @@
-import React from 'react'
-import { Metadata } from 'next'
-import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
-import CardSmall from '@/src/components/card/cardSmall/cardSmall'
-import { VuHandoutsData } from '../data'
-import PDFViewer from '@/src/components/element/PDFViewer'
+import React from "react"
+import { Metadata } from "next"
+import VUhHandoutWrapper from "@/src/app/(main)/(class)/vu/handouts/VUhHandoutWrapper"
+import PDFViewer from "@/src/components/element/PDFViewer"
+import LinkComponent from "@/src/components/ui/typography/Links/page"
 
 const data = {
-  title: 'VU CS405 Handouts Pdf Download',
+  title: "VU CS405 Handouts Pdf Download",
   description:
-    'Access comprehensive CS405 handouts from Virtual University, including downloadable PDFs and detailed study materials to help you excel in your coursework.',
-  canonical: '/vu/handouts/cs405/',
+    "Access comprehensive CS405 handouts from Virtual University, including downloadable PDFs and detailed study materials to help you excel in your coursework.",
+  canonical: "/vu/handouts/cs405/",
   index: true,
   follow: true,
-  image: '/vu/handouts/cs405_handouts.webp',
-  url: 'https://growlearnhub.com/vu/handouts/cs405/',
+  image: "/vu/handouts/cs405_handouts.webp",
+  url: "https://growlearnhub.com/vu/handouts/cs405/",
   keywords: [
-    'growlearnhub',
-    'vu cs405 handouts',
-    'growlearnhub cs405 handouts',
-    'cs405 handouts',
-    'virtual university cs405 handouts',
+    "growlearnhub",
+    "vu cs405 handouts",
+    "growlearnhub cs405 handouts",
+    "cs405 handouts",
+    "virtual university cs405 handouts"
   ],
   clist: [
-    { name: 'Handouts', slug: '/vu/handouts/' },
-    { name: 'Mid Term Mcqs', slug: '/vu/mid-mcqs/' },
-    { name: 'Final Term Mcqs', slug: '/vu/final-mcqs/' },
-    { name: 'Mid Mark Calculator', slug: '/vu/mid-mark-calculator/' },
+    { name: "Handouts", slug: "/vu/handouts/" },
+    { name: "Mid Term Mcqs", slug: "/vu/mid-mcqs/" },
+    { name: "Final Term Mcqs", slug: "/vu/final-mcqs/" },
+    { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" }
   ],
-  fileId: '',
+  fileId: "",
+  b1: "VU",
+  b1Link: "/vu/",
+  b2: "Handouts",
+  b2Link: "/vu/handouts/",
+  b3: "CS405"
 }
 
 export default function Page() {
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="Handouts"
-      b1Link="/vu/handouts/"
-      b2="CS405"
-      image={data.image}
-      clist={data.clist}
-    >
+    <VUhHandoutWrapper data={data}>
+      <p className="p5">
+        Welcome to your one-stop source for <em>CS405 Handouts</em> from
+        <LinkComponent slug="https://www.vu.edu.pk/">
+          Virtual University (VU)
+        </LinkComponent>
+        . Download the handouts in PDF format for free and study at your own
+        pace.
+      </p>
       <h3>Download VU CS405 Handouts</h3>
       <p>
         Here, you can download Virtual University Handouts in PDF Format. This
         book is officially published by Virtual University Of Pakistan.
       </p>
       <PDFViewer pdfUrl={data.fileId} />
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {VuHandoutsData.map((data: any) => {
-          return (
-            <CardSmall
-              key={data.name}
-              title={data.name}
-              link={`/vu/handouts/${data.slug}`}
-            />
-          )
-        })}
-      </div>
-    </SimpleWrapper >
+    </VUhHandoutWrapper>
   )
 }
 
@@ -73,27 +66,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title,
-      },
-    ],
+        alt: data.title
+      }
+    ]
   },
   alternates: {
-    canonical: data.canonical,
+    canonical: data.canonical
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow,
-    },
+      follow: data.follow
+    }
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title,
-    },
-  },
+      alt: data.title
+    }
+  }
 }

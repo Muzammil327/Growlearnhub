@@ -11,7 +11,8 @@ const data = {
   title: "Sign In to Your Account",
   canonical: "/sign-in",
   image: "/login.webp",
-  clist: []
+  clist: [],
+  b1: "Sign In"
 }
 
 export default function Page() {
@@ -37,13 +38,7 @@ export default function Page() {
   }
 
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="Sign In"
-      image={data.image}
-      clist={data.clist}
-    >
+    <SimpleWrapper data={data}>
       <p>
         Continue your learning journey by signing in to your account. Access
         your personalized dashboard, track your progress, and explore new

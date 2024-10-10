@@ -3,8 +3,8 @@ import React, { useEffect, useState } from "react"
 import axios from "axios"
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 import Processing from "@/src/components/ui/Processing"
-import { CardQuiz } from "@/src/components/card/CardQuiz/CardQuizWithoutLink"
 import Button from "@/src/components/ui/Button"
+import CardQuizWithLink from "../../card/CardQuiz/CardQuizWithLink"
 
 interface QuizWrapperProps {
   cat: string[] // Array of categories
@@ -76,15 +76,26 @@ const McqsChapterWrapper: React.FC<QuizWrapperProps> = ({
     }
   }
 
+  const data = {
+    title,
+    b1,
+    b1Link,
+    b2,
+    clist,
+    image,
+    url
+  }
+
   return (
     <SimpleWrapper
-      title={title}
-      b1={b1}
-      b1Link={b1Link}
-      clist={clist}
-      image={image}
-      url={url}
-      b2={b2}
+      data={data}
+      // title={title}
+      // b1={b1}
+      // b2={b2}
+      // b1Link={b1Link}
+      // clist={clist}
+      // image={image}
+      // url={url}
     >
       {children}
       <div className="my-10 grid gap-4">
@@ -97,7 +108,7 @@ const McqsChapterWrapper: React.FC<QuizWrapperProps> = ({
         ) : (
           <>
             {mcqs.map((mcq: any) => (
-              <CardQuiz
+              <CardQuizWithLink
                 key={mcq._id} // Assuming `_id` is the unique identifier
                 title={mcq.name}
                 option={mcq.options}

@@ -16,7 +16,7 @@ export default function Page() {
 
   return (
     <McqsChapterWrapper
-      title={data.title}
+    title={data.title}
       url={data.url}
       b1="General Knowledge"
       b1Link="/mcqs-point/general-knowledge"

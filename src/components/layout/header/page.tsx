@@ -1,7 +1,7 @@
-import Container from "@/src/components/element/container"
 import Image from "next/image"
 import Link from "next/link"
 import ButtonComponents from "../../ui/typography/button/page"
+import Container from "../../ui/Container"
 
 export default function Header() {
   return (

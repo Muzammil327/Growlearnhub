@@ -24,20 +24,15 @@ const data = {
     { name: "Final Term Mcqs", slug: "/vu/final-mcqs/" },
     { name: "Handouts", slug: "/vu/handouts/" },
     { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" }
-  ]
+  ],
+  b1: "Virtual University",
+  b1Link: "/vu/",
+  b2: "Mid Mcqs"
 }
 
 export default function Page() {
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="Virtual University"
-      b1Link="/vu/"
-      b2="Mid Mcqs"
-      image={data.image}
-      clist={data.clist}
-    >
+    <SimpleWrapper data={data}>
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {mainDataVuMidMcqs.map((data: any) => {
           return (
@@ -49,7 +44,7 @@ export default function Page() {
           )
         })}
       </div>
-    </SimpleWrapper >
+    </SimpleWrapper>
   )
 }
 

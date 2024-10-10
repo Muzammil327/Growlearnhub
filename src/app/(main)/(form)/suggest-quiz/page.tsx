@@ -37,7 +37,8 @@ export default function Page() {
     title: "Have a Quiz in Mind?",
     canonical: "/suggest-quiz",
     image: "",
-    clist: []
+    clist: [],
+    b1: "Suggest Quiz"
   }
 
   const catgeoryOptionsData: any[] = [{ id: "1", name: "vu" }]
@@ -113,13 +114,7 @@ export default function Page() {
   }
 
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.canonical}
-      b1="Suggest Quiz"
-      image={data.image}
-      clist={data.clist}
-    >
+    <SimpleWrapper data={data}>
       <form onSubmit={handleSubmit}>
         <div className="mb-6">
           <Label label="Enter Question Name:" htmlFor="questionName" />

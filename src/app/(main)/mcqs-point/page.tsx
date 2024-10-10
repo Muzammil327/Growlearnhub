@@ -1,6 +1,6 @@
-import React from 'react'
-import type { Metadata } from 'next'
-import CardSmall from '@/src/components/card/cardSmall/cardSmall'
+import React from "react"
+import type { Metadata } from "next"
+import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 
 interface Book {
@@ -10,41 +10,36 @@ interface Book {
 }
 
 const data = {
-  title: 'Efficient, interactive MCQs',
+  title: "Efficient, interactive MCQs",
   description:
-    'Efficient, interactive MCQs platform designed for comprehensive review, immediate score feedback, and detailed performance analytics.',
-  canonical: '/mcqs-point/',
+    "Efficient, interactive MCQs platform designed for comprehensive review, immediate score feedback, and detailed performance analytics.",
+  canonical: "/mcqs-point/",
   index: true,
   follow: true,
-  image: '/mcqs-point/mcqs-point.webp',
-  url: 'https://growlearnhub.com/mcqs-point/',
+  image: "/mcqs-point/mcqs-point.webp",
+  url: "https://growlearnhub.com/mcqs-point/",
   keywords: [
-    'growlearnhub',
-    'growlearnhub mcqs',
-    'mcqs',
-    'growlearnhub mcqs point',
-    'mcqs point',
+    "growlearnhub",
+    "growlearnhub mcqs",
+    "mcqs",
+    "growlearnhub mcqs point",
+    "mcqs point"
   ],
   clist: [
-    { name: 'Class 9', slug: '/class-9/' },
-    { name: 'Class 10', slug: '/class-10/' },
-    { name: 'Class 11', slug: '/class-11/' },
-    { name: 'Class 12', slug: '/class-12/' },
-    { name: 'VU', slug: '/vu/' },
-    { name: 'Books Point', slug: '/book-point/' },
-    { name: 'Online Test Point', slug: '/online-test-point/' },
+    { name: "Class 9", slug: "/class-9/" },
+    { name: "Class 10", slug: "/class-10/" },
+    { name: "Class 11", slug: "/class-11/" },
+    { name: "Class 12", slug: "/class-12/" },
+    { name: "VU", slug: "/vu/" },
+    { name: "Books Point", slug: "/book-point/" },
+    { name: "Online Test Point", slug: "/online-test-point/" }
   ],
+  b1: "Mcqs Point"
 }
 
 export default function Page() {
   return (
-    <SimpleWrapper
-      title={data.title}
-      url={data.url}
-      b1="Mcqs Point"
-      image={data.image}
-      clist={data.clist}
-    >
+    <SimpleWrapper data={data}>
       <h2>Class Wise Mcqs</h2>
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
         {ClassData.map((book: Book) => (
@@ -57,63 +52,63 @@ export default function Page() {
           <CardSmall key={book.id} title={book.name} link={`${book.slug}`} />
         ))}
       </div>
-    </SimpleWrapper >
+    </SimpleWrapper>
   )
 }
 
 const ClassData: Book[] = [
   {
     id: 0,
-    name: 'Class 9',
-    slug: '/class-9/mcqs/',
+    name: "Class 9",
+    slug: "/class-9/mcqs/"
   },
   {
     id: 1,
-    name: 'Class 10',
-    slug: '/class-10/mcqs/',
+    name: "Class 10",
+    slug: "/class-10/mcqs/"
   },
   {
     id: 2,
-    name: 'Class 11',
-    slug: '/class-11/mcqs/',
+    name: "Class 11",
+    slug: "/class-11/mcqs/"
   },
   {
     id: 3,
-    name: 'Class 12',
-    slug: '/class-12/mcqs/',
+    name: "Class 12",
+    slug: "/class-12/mcqs/"
   },
   {
     id: 4,
-    name: 'Virtual University Mid Term',
-    slug: '/vu/mid-mcqs/',
+    name: "Virtual University Mid Term",
+    slug: "/vu/mid-mcqs/"
   },
   {
     id: 5,
-    name: 'Virtual University Final Term',
-    slug: '/vu/final-mcqs/',
-  },
+    name: "Virtual University Final Term",
+    slug: "/vu/final-mcqs/"
+  }
 ]
 const SubjectData: Book[] = [
   {
     id: 0,
-    name: 'Physics',
-    slug: '/mcqs-point/physics/',
+    name: "Physics",
+    slug: "/mcqs-point/physics/"
   },
   {
     id: 1,
-    name: 'Chemistry',
-    slug: '/mcqs-point/chemistry/',
+    name: "Chemistry",
+    slug: "/mcqs-point/chemistry/"
   },
   {
     id: 2,
-    name: 'Biology',
-    slug: '/mcqs-point/biology/',
+    name: "Biology",
+    slug: "/mcqs-point/biology/"
   },
   {
     id: 3,
-    name: 'General Knowledge',
-    slug: '/mcqs-point/general-knowledge/',
-  },
+    name: "General Knowledge",
+    slug: "/mcqs-point/general-knowledge/"
+  }
 ]
 
 export const metadata: Metadata = {
@@ -126,28 +121,28 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: 'https://nextjs.org/og.png',
-        alt: data.title,
-      },
-    ],
+        url: "https://nextjs.org/og.png",
+        alt: data.title
+      }
+    ]
   },
   alternates: {
-    canonical: data.canonical,
+    canonical: data.canonical
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow,
-    },
+      follow: data.follow
+    }
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
-      url: 'https://nextjs.org/og.png',
-      alt: data.title,
-    },
-  },
+      url: "https://nextjs.org/og.png",
+      alt: data.title
+    }
+  }
 }

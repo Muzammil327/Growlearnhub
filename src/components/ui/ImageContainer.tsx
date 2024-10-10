@@ -17,7 +17,6 @@ export default function ImageContainer(data: Irops) {
       <Image
         src={data.image}
         alt={data.title}
-        title={data.title}
         height={data.height}
         width={data.width}
         className={`${data.class}`}
@@ -42,7 +41,6 @@ export function ImageContainerLoading(data: Irops) {
       <Image
         src={data.image}
         alt={data.title}
-        title={data.title}
         height={data.height}
         width={data.width}
         className={`${data.class} ${loading ? "opacity-0" : "opacity-100"} transition-opacity duration-500`}

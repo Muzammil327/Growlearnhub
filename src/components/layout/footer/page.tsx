@@ -8,7 +8,7 @@ const LinkComponents = dynamic(
 const SocialLinks = dynamic(
   () => import("@/src/components/ui/social/SocialLinks")
 )
-const Container = dynamic(() => import("@/src/components/element/container"))
+const Container = dynamic(() => import("@/src/components/ui/Container"))
 const Logo = dynamic(() => import("@/src/components/ui/Logo"))
 const Newsletter = dynamic(
   () => import("@/src/components/layout/newsletter/page")
@@ -119,7 +119,7 @@ export default function Footer() {
     <React.Fragment>
       <footer className="relative isolate overflow-hidden">
         <Newsletter />
-        <div className="bt">
+        <section className="bt">
           <Container>
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 py-8 md:pt-24">
               <div className="col-span-2">
@@ -211,8 +211,8 @@ export default function Footer() {
               </div>
             </div>
           </Container>
-        </div>
-        <div className="py-3 bt text-center">
+        </section>
+        <section className="py-3 bt text-center">
           <Container>
             <span className="text-color2 text-sm">
               ©2024 GrowLearnHub. All Rights Reserved bg{" "}
@@ -224,8 +224,8 @@ export default function Footer() {
               </LinkComponents>
             </span>
           </Container>
-        </div>
-        <div
+        </section>
+        <section
           className="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6"
           aria-hidden="true"
         >
@@ -236,7 +236,7 @@ export default function Footer() {
                 "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"
             }}
           />
-        </div>
+        </section>
       </footer>
     </React.Fragment>
   )

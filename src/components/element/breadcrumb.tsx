@@ -31,7 +31,7 @@ export default function BreadCrumb({
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://www.example.com/"
+        item: "https://www.growlearnhub.com/"
       },
       ...(b1Link
         ? [
@@ -39,7 +39,7 @@ export default function BreadCrumb({
               "@type": "ListItem",
               position: 2,
               name: b1,
-              item: `https://www.example.com${b1Link}`
+              item: `https://www.growlearnhub.com${b1Link}`
             }
           ]
         : []),
@@ -49,7 +49,7 @@ export default function BreadCrumb({
               "@type": "ListItem",
               position: 3,
               name: b2,
-              item: `https://www.example.com${b2Link}`
+              item: `https://www.growlearnhub.com${b2Link}`
             }
           ]
         : []),
@@ -59,7 +59,7 @@ export default function BreadCrumb({
               "@type": "ListItem",
               position: 4,
               name: b3,
-              item: `https://www.example.com${b3Link}`
+              item: `https://www.growlearnhub.com${b3Link}`
             }
           ]
         : []),
@@ -69,7 +69,7 @@ export default function BreadCrumb({
               "@type": "ListItem",
               position: 5,
               name: b4,
-              item: `https://www.example.com${b4Link}`
+              item: `https://www.growlearnhub.com${b4Link}`
             }
           ]
         : [])
@@ -179,8 +179,8 @@ function Links(Iprops: {
 
 function WithoutLinks(Iprops: { title: string | undefined }) {
   return (
-    <h2 className="ms-1 !py-0 sm:!text-sm !text-xs font-medium text-gray-500 dark:text-white md:ms-2">
+    <span className="ms-1 !py-0 sm:!text-sm !text-xs font-medium text-gray-500 dark:text-white md:ms-2">
       {Iprops.title}
-    </h2>
+    </span>
   )
 }
