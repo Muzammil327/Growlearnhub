@@ -339,7 +339,7 @@ export default function Page() {
       />
 
       <Heading2 variant="black">
-        Topics Covered in Bussiness and Technical English (ENG201 Handouts)
+        Topics Covered in Business and Technical English (ENG201 Handouts)
       </Heading2>
       <p className="p5">
         Here are the key topics you&apos;ll find in the ENG201 handouts:
