@@ -1,0 +1,30 @@
+.BaseClass {
+  @apply transition-all duration-300 hover:text-color1;
+}
+
+.link1 {
+  @apply relative text-sm text-color2 ease-linear;
+  @extend .BaseClass;
+
+  &::after {
+    content: "";
+    bottom: -2px;
+    height: 2px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    @apply bg-color1 w-full left-0 absolute;
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+  }
+}
+
+.link2 {
+  @apply text-black dark:text-white;
+  @extend .BaseClass;
+}
+
+.btnLink {
+  @apply transition-all duration-300;
+}

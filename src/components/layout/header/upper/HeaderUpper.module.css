@@ -1,0 +1,6 @@
+.firstPart {
+  @apply mb-8 flex justify-center;
+}
+.inner {
+  @apply relative rounded-full px-3 mx-auto md:w-6/12 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20;
+}
