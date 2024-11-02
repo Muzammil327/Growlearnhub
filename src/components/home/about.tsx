@@ -1,6 +1,7 @@
 import React from "react"
 import ButtonComponents from "../ui/typography/button/page"
 import Container from "../ui/Container"
+import Image from "next/image"
 
 export default function AboutUs() {
   return (
@@ -38,11 +39,13 @@ export default function AboutUs() {
             </div>
           </div>
           <div className="">
-            <img
+            <Image
               src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2024/03/about-06.webp"
               alt="Growlearnhub About Us"
               title="Growlearnhub About Us"
               className="w-full h-full"
+              height={500}
+              width={500}
             />
           </div>
         </div>

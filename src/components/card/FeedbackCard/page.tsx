@@ -1,5 +1,6 @@
 import React from "react"
 import "./FeedbackCard.scss"
+import Image from "next/image"
 
 export default function FeedbackCard({
   data
@@ -15,7 +16,7 @@ export default function FeedbackCard({
     <div className="feedback-card">
       <div className="header">
         <div className="thumb">
-          <img src={data.image} alt="" />
+          <Image src={data.image} alt="" title="" height={400} width={400} />
         </div>
         <div className="info">
           <h5>{data.name}</h5>
