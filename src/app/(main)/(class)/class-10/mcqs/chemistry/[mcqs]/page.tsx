@@ -4,13 +4,13 @@ import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 import Heading2 from "@/src/components/ui/typography/Heading2/page"
 import { convertHyphensToSpaces } from "@/src/functions/slugify"
 
-interface Iprops {
+interface PageProps {
   params: {
-    mcqs: string
-  }
+    mcqs: string;
+  };
 }
 
-export default function page({ params }: Iprops) {
+export default function page({ params }: PageProps) {
   return (
     <SimpleWrapper
       data={{
@@ -42,7 +42,7 @@ export default function page({ params }: Iprops) {
   )
 }
 
-export async function generateMetadata({ params }: Iprops) {
+export async function generateMetadata({ params }: PageProps) {
   const description = `${convertHyphensToSpaces(params.mcqs)} of Class 10 Chemistry with engaging multiple-choice questions. Test your knowledge to enhance your exam preparation.`
 
   const title = `Class 10 Chemistry ${convertHyphensToSpaces(params.mcqs)} Mcqs`
