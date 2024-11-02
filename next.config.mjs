@@ -2,9 +2,20 @@
 const nextConfig = {
   experimental: {
       serverComponentsExternalPackages: ['typeorm'],
-      appDir: true, // If you're using the app directory feature
     },
-    revalidate: 60,
+    async redirects() {
+      return [
+        {
+          source: "/:path*",
+          has: [{ type: "host", value: "www.growlearnhub.com" }],
+          destination: "https://growlearnhub.com/:path*",
+          permanent: true,
+        },
+      ];
+    },
+    trailingSlash: true,
+    reactStrictMode: true,
+    swcMinify: true,
 };
 
 export default nextConfig;
