@@ -1,9 +1,9 @@
 import React from "react"
+import { Metadata } from "next"
 import dynamic from "next/dynamic"
 import Header from "@/src/components/layout/header/page"
 import AboutUs from "../components/home/about"
 import Service from "../components/home/service"
-import { Metadata } from "next"
 const Feedback = dynamic(() => import("@/src/components/home/feedback/page"))
 const Topics = dynamic(() => import("@/src/components/home/topics/page"))
 
