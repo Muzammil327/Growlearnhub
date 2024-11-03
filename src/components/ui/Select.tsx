@@ -3,7 +3,7 @@ import React from "react"
 // Define the types for the props
 interface SelectProps {
   options: string[] // Array of options (strings)
-  selectedOption: string // The currently selected option
+  selectedOption: any // The currently selected option
   onChange: (event: React.ChangeEvent<HTMLSelectElement>) => void // Change event handler
 }
 

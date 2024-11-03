@@ -119,12 +119,11 @@ console.log("response data:", response.data)
 
       <div className="mb-6">
         <Label label="Enter Correct Option:" htmlFor="correctoption" />
-        {/* <Select
-          isMulti
+        <Select
           options={options}
           selectedOption={correctOptions}
           onChange={(e: any) => setCorrectOptions(e.target.value)}
-        /> */}
+        />
       </div>
 
       <div className="mb-6">
@@ -147,7 +146,7 @@ console.log("response data:", response.data)
         />
       </div>
 
-      {/* <Catgeory
+      <Catgeory
         setBooks={setBooks}
         books={books}
         setClasses={setClasses}
@@ -158,7 +157,7 @@ console.log("response data:", response.data)
         headings={headings}
         subHeadings={subHeadings}
         setSubHeadings={setSubHeadings}
-      /> */}
+      />
 
       {error && <p className="text-red-500">{error}</p>}
       {success && <p className="text-green-500">{success}</p>}

@@ -39,7 +39,7 @@ export default function Category({
   headings,
   setSubHeadings,
   subHeadings
-}: CategoryProps) {
+}: any) {
   const { data, error, isLoading } = useForm()
 
   if (error instanceof Error) return <div>Error: {error.message}</div>
