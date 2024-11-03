@@ -1,6 +1,7 @@
 "use client"
 import { Fragment, useEffect, useState } from "react"
 import { Dialog, Popover, Tab, Transition } from "@headlessui/react"
+
 import { FaBars, FaSun, FaTimes } from "react-icons/fa"
 import Container from "@/src/components/ui/Container"
 import Logo from "@/src/components/ui/Logo"
@@ -10,35 +11,279 @@ import ButtonIconComponents from "@/src/components/ui/typography/ButtonIcon/page
 import ButtonComponents from "../../ui/typography/button/page"
 import LinkComponent from "../../ui/typography/Links/page"
 
-// Define types
-interface Item {
-  name: string
-  href: string
+export default function Navbar() {
+  const [open, setOpen] = useState(false)
+  const [scrolling, setScrolling] = useState(false)
+
+  const { systemTheme, theme, setTheme } = useTheme()
+
+  const currentTheme = theme === "system" ? systemTheme : theme
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolling(true)
+      } else {
+        setScrolling(false)
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
+  return (
+    <>
+      {/* Mobile menu */}
+      <Transition.Root show={open} as={Fragment}>
+        <Dialog className="relative z-40 lg:hidden" onClose={setOpen}>
+          <Transition.Child
+            as={Fragment}
+            enter="transition-opacity ease-linear duration-300"
+            enterFrom="opacity-0"
+            enterTo="opacity-100"
+            leave="transition-opacity ease-linear duration-300"
+            leaveFrom="opacity-100"
+            leaveTo="opacity-0"
+          >
+            <div className="fixed inset-0 bg-black bg-opacity-25" />
+          </Transition.Child>
+
+          <div className="fixed inset-0 z-40 flex">
+            <Transition.Child
+              as={Fragment}
+              enter="transition ease-in-out duration-300 transform"
+              enterFrom="-translate-x-full"
+              enterTo="translate-x-0"
+              leave="transition ease-in-out duration-300 transform"
+              leaveFrom="translate-x-0"
+              leaveTo="-translate-x-full"
+            >
+              <Dialog.Panel className="relative flex w-full max-w-xs flex-col overflow-y-auto overflow-x-hidden bg-white dark:bg-gray-700 pb-12 shadow-xl">
+                <div className="flex pb-2 px-4 absolute top-4 right-0">
+                  <ButtonIconComponents
+                    className={`
+                    btnIcon relative -m-2 inline-flex items-center justify-center rounded-md border-2 border-solid duration-300 ease-in`}
+                    onClick={() => setOpen(false)}
+                  >
+                    <FaTimes />
+                  </ButtonIconComponents>
+                </div>
+
+                <Logo />
+                <div className="space-y-6 border-t border1 px-4 py-6">
+                  {navigation.pages.map((page: any) => (
+                    <div key={page.name} className="flow-root">
+                      <LinkComponent
+                        slug={page.href}
+                        className="block text-sm font-medium border-b border-gray-300 py-3"
+                        onClick={() => setOpen(false)}
+                      >
+                        {page.name}
+                      </LinkComponent>
+                    </div>
+                  ))}
+                </div>
+
+                <Tab.Group as="div" className="mt-2">
+                  <div className="border-b border-gray-200">
+                    <Tab.List className="-mb-px flex space-x-1 px-4 overflow-x-auto scrollbar-hide">
+                      {navigation.categories.map((category) => (
+                        <Tab
+                          key={category.name}
+                          className={({ selected }) =>
+                            `${selected ? "bg-color1 text-white" : "bg-slate-200 dark:bg-gray-900"} flex-shrink-0 whitespace-nowrap border-b-2 px-6 py-4 text-base font-medium`
+                          }
+                        >
+                          {category.name}
+                        </Tab>
+                      ))}
+                    </Tab.List>
+                  </div>
+                  <Tab.Panels as={Fragment}>
+                    {navigation.categories.map((category) => (
+                      <Tab.Panel
+                        key={category.name}
+                        className="space-y-10 px-4 pb-8 pt-6"
+                      >
+                        {category.sections.map((section: any) => (
+                          <div key={section.name}>
+                            <p
+                              id={`${category.id}-${section.id}-heading-mobile`}
+                              className="flex items-center text-base font-semibold text"
+                            >
+                              {section.name}
+                            </p>
+                            <ul
+                              role="list"
+                              aria-labelledby={`${category.id}-${section.id}-heading-mobile`}
+                              className="mt-6 flex flex-col space-y-6"
+                            >
+                              {section.items.map((item: any) => (
+                                <li key={item.name} className="flow-root">
+                                  <LinkComponent
+                                    slug={item.href}
+                                    className="-m-2 block p-2 link"
+                                    onClick={() => setOpen(false)}
+                                    title={item.name}
+                                  >
+                                    {item.name}
+                                  </LinkComponent>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </Tab.Panel>
+                    ))}
+                  </Tab.Panels>
+                </Tab.Group>
+
+                <div className="px-4 border-t border1"></div>
+                <div
+                  className={`my-4 flex lg:flex-row flex-col items-center gap-3 text-sm font-medium px-4`}
+                >
+                  <ButtonComponents
+                    className="w-full duration-300 ease-in my-3 rounded-md"
+                    href="/sign-in"
+                    title="Sign In"
+                  >
+                    Sign In
+                  </ButtonComponents>
+                  <ButtonComponents
+                    className="w-full duration-300 ease-in rounded-md"
+                    href="/register"
+                    title="Register"
+                  >
+                    Register
+                  </ButtonComponents>
+                </div>
+                <div className="px-4 border-t border1 py-6"></div>
+              </Dialog.Panel>
+            </Transition.Child>
+          </div>
+        </Dialog>
+      </Transition.Root>
+
+      <nav
+        className={`relative border-b py-2 border1 ${
+          scrolling ? `navbarFixed` : ""
+        }`}
+      >
+        <Container>
+          <div className="flex items-center justify-between">
+            <Logo />
+
+            {/* Flyout menus */}
+            <Popover.Group className="hidden xl:ml-24 ml-4 lg:block lg:self-stretch ">
+              <div className="flex h-full space-x-8 ">
+                {navigation.pages.map((page: any) => (
+                  <LinkComponent
+                    key={page.name}
+                    slug={page.href}
+                    className="flex items-center text-sm font-medium link"
+                  >
+                    {page.name}
+                  </LinkComponent>
+                ))}
+                {navigation.categories.map((category) => (
+                  <Popover key={category.name} className="flex">
+                    {({ open, close }) => (
+                      <>
+                        <div className="relative flex">
+                          <Popover.Button
+                            className={`${open ? "" : "border-transparent link"} relative z-10 -mb-px flex items-center border-b-2 pt-px text-sm font-medium transition-colors duration-200 ease-out`}
+                          >
+                            {category.name}
+                          </Popover.Button>
+                        </div>
+
+                        <Transition
+                          as={Fragment}
+                          enter="transition ease-out duration-200"
+                          enterFrom="opacity-0"
+                          enterTo="opacity-100"
+                          leave="transition ease-in duration-150"
+                          leaveFrom="opacity-100"
+                          leaveTo="opacity-0"
+                        >
+                          <Popover.Panel className="absolute z-50 inset-x-0 top-full text-sm">
+                            <div
+                              className="absolute inset-0 top-1/2 shadow"
+                              aria-hidden="true"
+                            />
+
+                            <div className="relative bg-white dark:bg-gray-700">
+                              <div className="mx-auto max-w-7xl px-8">
+                                <div className="py-8">
+                                  <div className="grid grid-cols-3 gap-x-8 gap-y-10 text-sm">
+                                    {category.sections.map((section: any) => (
+                                      <div key={section.name}>
+                                        <p
+                                          id={`${section.name}-heading`}
+                                          className="flex items-center text-base font-semibold text"
+                                        >
+                                          {section.name}
+                                        </p>
+                                        <ul
+                                          role="list"
+                                          aria-labelledby={`${section.name}-heading`}
+                                          className="mt-6 space-y-6 sm:mt-4 sm:space-y-4"
+                                        >
+                                          {section.items.map((item: any) => (
+                                            <li
+                                              key={item.name}
+                                              className="flex"
+                                            >
+                                              <LinkComponent
+                                                slug={item.href}
+                                                className="link"
+                                                onClick={close}
+                                              >
+                                                {item.name}
+                                              </LinkComponent>
+                                            </li>
+                                          ))}
+                                        </ul>
+                                      </div>
+                                    ))}
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </Popover.Panel>
+                        </Transition>
+                      </>
+                    )}
+                  </Popover>
+                ))}
+              </div>
+            </Popover.Group>
+
+            <div className="flex lg:flex-row flex-col items-center gap-3 px-4">
+              <div className="flex items-center gap-4">
+                <ButtonIconComponents
+                  className="lg:!hidden"
+                  onClick={() => setOpen(true)}
+                >
+                  <FaBars />
+                </ButtonIconComponents>
+                <ButtonIconComponents
+                  onClick={() =>
+                    setTheme(currentTheme === "dark" ? "light" : "dark")
+                  }
+                >
+                  {currentTheme === "dark" ? <FaMoon /> : <FaSun />}
+                </ButtonIconComponents>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </nav>
+    </>
+  )
 }
 
-interface Section {
-  id: string
-  name: string
-  items: Item[]
-}
-
-interface Category {
-  id: string
-  name: string
-  sections: Section[]
-}
-
-interface Page {
-  name: string
-  href: string
-}
-
-interface Navigation {
-  pages: Page[]
-  categories: Category[]
-}
-
-const navigation: Navigation = {
+const navigation = {
   pages: [{ name: "Home", href: "/" }],
   categories: [
     {
@@ -74,279 +319,262 @@ const navigation: Navigation = {
               href: "/class-9/books/punjab-board-urdu/"
             }
           ]
+        },
+        {
+          id: "class 10",
+          name: "Class 10",
+          items: [
+            {
+              name: "Class 10 - Punjab Board Biology Books",
+              href: "/class-10/books/punjab-board-biology/"
+            },
+            {
+              name: "Class 10 - Punjab Board Chemistry Books",
+              href: "/class-10/books/punjab-board-chemistry/"
+            },
+            {
+              name: "Class 10 - Punjab Board Physics Books",
+              href: "/class-10/books/punjab-board-physics/"
+            },
+            {
+              name: "Class 10 - Punjab Board Math Books",
+              href: "/class-10/books/punjab-board-math/"
+            },
+            {
+              name: "Class 10 - Punjab Board English Books",
+              href: "/class-10/books/punjab-board-english/"
+            },
+            {
+              name: "Class 10 - Punjab Board Urdu Books",
+              href: "/class-10/books/punjab-board-urdu/"
+            }
+          ]
+        },
+        {
+          id: "class 11",
+          name: "Class 11",
+          items: [
+            {
+              name: "Class 11 - Punjab Board Biology Books",
+              href: "/class-11/books/punjab-board-biology/"
+            },
+            {
+              name: "Class 11 - Punjab Board Chemistry Books",
+              href: "/class-11/books/punjab-board-chemistry/"
+            },
+            {
+              name: "Class 11 - Punjab Board Physics Books",
+              href: "/class-11/books/punjab-board-physics/"
+            },
+            {
+              name: "Class 11 - Punjab Board Math Books",
+              href: "/class-11/books/punjab-board-math/"
+            },
+            {
+              name: "Class 11 - Punjab Board English Books",
+              href: "/class-11/books/punjab-board-english/"
+            },
+            {
+              name: "Class 11 - Punjab Board Urdu Books",
+              href: "/class-11/books/punjab-board-urdu/"
+            }
+          ]
+        },
+        {
+          id: "class 12",
+          name: "Class 12",
+          items: [
+            {
+              name: "Class 12 - Punjab Board Biology Books",
+              href: "/class-12/books/punjab-board-biology/"
+            },
+            {
+              name: "Class 12 - Punjab Board Chemistry Books",
+              href: "/class-12/books/punjab-board-chemistry/"
+            },
+            {
+              name: "Class 12 - Punjab Board Physics Books",
+              href: "/class-12/books/punjab-board-physics/"
+            },
+            {
+              name: "Class 12 - Punjab Board Math Books",
+              href: "/class-12/books/punjab-board-math/"
+            },
+            {
+              name: "Class 12 - Punjab Board English Books",
+              href: "/class-12/books/punjab-board-english/"
+            },
+            {
+              name: "Class 12 - Punjab Board Urdu Books",
+              href: "/class-12/books/punjab-board-urdu/"
+            }
+          ]
         }
-        // Add other sections...
+      ]
+    },
+    {
+      id: "mcqs",
+      name: "Mcqs",
+      sections: [
+        {
+          id: "class 9",
+          name: "Class 9",
+          items: [
+            { name: "Class 9 - Biology Mcqs", href: "#" },
+            { name: "Class 9 - Chemistry Mcqs", href: "#" },
+            { name: "Class 9 - Physics Mcqs", href: "#" }
+          ]
+        },
+        {
+          id: "class 10",
+          name: "Class 10",
+          items: [
+            { name: "Class 10 - Biology Mcqs", href: "#" },
+            { name: "Class 10 - Chemistry Mcqs", href: "#" },
+            { name: "Class 10 - Physics Mcqs", href: "#" }
+          ]
+        },
+        {
+          id: "class 11",
+          name: "Class 11",
+          items: [
+            { name: "Class 11 - Biology Mcqs", href: "#" },
+            { name: "Class 11 - Chemistry Mcqs", href: "#" },
+            { name: "Class 11 - Physics Mcqs", href: "#" }
+          ]
+        },
+        {
+          id: "class 12",
+          name: "Class 12",
+          items: [
+            { name: "Class 12 - Biology Mcqs", href: "#" },
+            { name: "Class 12 - Chemistry Mcqs", href: "#" },
+            { name: "Class 12 - Physics Mcqs", href: "#" }
+          ]
+        }
+      ]
+    },
+    {
+      id: "onlinetests",
+      name: "Online Tests",
+      sections: [
+        {
+          id: "class 9",
+          name: "Class 9",
+          items: [
+            { name: "Class 9 - Biology Online Tests", href: "" },
+            { name: "Class 9 - Chemistry Online Tests", href: "#" },
+            { name: "Class 9 - Physics Online Tests", href: "#" }
+          ]
+        },
+        {
+          id: "class 10",
+          name: "Class 10",
+          items: [
+            { name: "Class 10 - Biology Online Tests", href: "" },
+            { name: "Class 10 - Chemistry Online Tests", href: "#" },
+            { name: "Class 10 - Physics Online Tests", href: "#" }
+          ]
+        },
+        {
+          id: "class 11",
+          name: "Class 11",
+          items: [
+            { name: "Class 11 - Biology Online Tests", href: "" },
+            { name: "Class 11 - Chemistry Online Tests", href: "#" },
+            { name: "Class 11 - Physics Online Tests", href: "#" }
+          ]
+        },
+        {
+          id: "class 12",
+          name: "Class 12",
+          items: [
+            { name: "Class 12 - Biology Online Tests", href: "" },
+            { name: "Class 12 - Chemistry Online Tests", href: "#" },
+            { name: "Class 12 - Physics Online Tests", href: "#" }
+          ]
+        }
+      ]
+    },
+    {
+      id: "notes",
+      name: "Notes",
+      sections: [
+        {
+          id: "class 9",
+          name: "Class 9",
+          items: [
+            { name: "Class 9 - Biology Notes", href: "" },
+            { name: "Class 9 - Chemistry Notes", href: "#" },
+            { name: "Class 9 - Physics Notes", href: "#" }
+          ]
+        },
+        {
+          id: "class 10",
+          name: "Class 10",
+          items: [
+            { name: "Class 10 - Biology Notes", href: "" },
+            { name: "Class 10 - Chemistry Notes", href: "#" },
+            { name: "Class 10 - Physics Notes", href: "#" }
+          ]
+        },
+        {
+          id: "class 11",
+          name: "Class 11",
+          items: [
+            { name: "Class 11 - Biology Notes", href: "" },
+            { name: "Class 11 - Chemistry Notes", href: "#" },
+            { name: "Class 11 - Physics Notes", href: "#" }
+          ]
+        },
+        {
+          id: "class 12",
+          name: "Class 12",
+          items: [
+            { name: "Class 12 - Biology Notes", href: "" },
+            { name: "Class 12 - Chemistry Notes", href: "#" },
+            { name: "Class 12 - Physics Notes", href: "#" }
+          ]
+        }
+      ]
+    },
+    {
+      id: "pastpaper",
+      name: "Past Paper",
+      sections: [
+        {
+          id: "class 9",
+          name: "Class 9",
+          items: [
+            { name: "Class 9 - Faisalabad Board", href: "" },
+            { name: "Class 9 - Lahore Board", href: "#" }
+          ]
+        },
+        {
+          id: "class 10",
+          name: "Class 10",
+          items: [
+            { name: "Class 10 - Faisalabad Board", href: "" },
+            { name: "Class 10 - Lahore Board", href: "#" }
+          ]
+        },
+        {
+          id: "class 11",
+          name: "Class 11",
+          items: [
+            { name: "Class 11 - Faisalabad Board", href: "" },
+            { name: "Class 11 - Lahore Board", href: "#" }
+          ]
+        },
+        {
+          id: "class 12",
+          name: "Class 12",
+          items: [
+            { name: "Class 12 - Faisalabad Board", href: "" },
+            { name: "Class 12 - Lahore Board", href: "#" }
+          ]
+        }
       ]
     }
-    // Add other categories...
   ]
-}
-
-export default function Navbar() {
-  const [open, setOpen] = useState(false)
-  const [scrolling, setScrolling] = useState(false)
-
-  const { systemTheme, theme, setTheme } = useTheme()
-  const currentTheme = theme === "system" ? systemTheme : theme
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolling(window.scrollY > 0)
-    }
-
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
-
-  return (
-    <>
-      {/* Mobile menu */}
-      <Transition.Root show={open} as={Fragment}>
-        <Dialog className="relative z-40 lg:hidden" onClose={setOpen}>
-          {/* Transition and Dialog Panel */}
-          <Transition.Child
-            as={Fragment}
-            enter="transition-opacity ease-linear duration-300"
-            enterFrom="opacity-0"
-            enterTo="opacity-100"
-            leave="transition-opacity ease-linear duration-300"
-            leaveFrom="opacity-100"
-            leaveTo="opacity-0"
-          >
-            <div className="fixed inset-0 bg-black bg-opacity-25" />
-          </Transition.Child>
-
-          <div className="fixed inset-0 z-40 flex">
-            <Transition.Child
-              as={Fragment}
-              enter="transition ease-in-out duration-300 transform"
-              enterFrom="-translate-x-full"
-              enterTo="translate-x-0"
-              leave="transition ease-in-out duration-300 transform"
-              leaveFrom="translate-x-0"
-              leaveTo="-translate-x-full"
-            >
-              <Dialog.Panel className="relative flex w-full max-w-xs flex-col overflow-y-auto overflow-x-hidden bg-white dark:bg-gray-700 pb-12 shadow-xl">
-                {/* Close Button */}
-                <div className="flex pb-2 px-4 absolute top-4 right-0">
-                  <ButtonIconComponents
-                    className="btnIcon relative -m-2 inline-flex items-center justify-center rounded-md border-2 border-solid duration-300 ease-in"
-                    onClick={() => setOpen(false)}
-                  >
-                    <FaTimes />
-                  </ButtonIconComponents>
-                </div>
-
-                <Logo />
-                <div className="space-y-6 border-t border1 px-4 py-6">
-                  {navigation.pages.map((page) => (
-                    <div key={page.name} className="flow-root">
-                      <LinkComponent
-                        slug={page.href}
-                        className="block text-sm font-medium border-b border-gray-300 py-3"
-                        onClick={() => setOpen(false)}
-                      >
-                        {page.name}
-                      </LinkComponent>
-                    </div>
-                  ))}
-                </div>
-
-                {/* Tabs for Categories */}
-                <Tab.Group as="div" className="mt-2">
-                  <div className="border-b border-gray-200">
-                    <Tab.List className="-mb-px flex space-x-1 px-4 overflow-x-auto scrollbar-hide">
-                      {navigation.categories.map((category) => (
-                        <Tab
-                          key={category.name}
-                          className={({ selected }) =>
-                            `${selected ? "bg-color1 text-white" : "bg-slate-200 dark:bg-gray-900"} flex-shrink-0 whitespace-nowrap border-b-2 px-6 py-4 text-base font-medium`
-                          }
-                        >
-                          {category.name}
-                        </Tab>
-                      ))}
-                    </Tab.List>
-                  </div>
-                  <Tab.Panels as={Fragment}>
-                    {navigation.categories.map((category) => (
-                      <Tab.Panel
-                        key={category.name}
-                        className="space-y-10 px-4 pb-8 pt-6"
-                      >
-                        {category.sections.map((section) => (
-                          <div key={section.name}>
-                            <p
-                              id={`${category.id}-${section.id}-heading-mobile`}
-                              className="flex items-center text-base font-semibold text"
-                            >
-                              {section.name}
-                            </p>
-                            <ul
-                              role="list"
-                              aria-labelledby={`${category.id}-${section.id}-heading-mobile`}
-                              className="mt-6 flex flex-col space-y-6"
-                            >
-                              {section.items.map((item) => (
-                                <li key={item.name} className="flow-root">
-                                  <LinkComponent
-                                    slug={item.href}
-                                    className="-m-2 block p-2 link"
-                                    onClick={() => setOpen(false)}
-                                    title={item.name}
-                                  >
-                                    {item.name}
-                                  </LinkComponent>
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-                        ))}
-                      </Tab.Panel>
-                    ))}
-                  </Tab.Panels>
-                </Tab.Group>
-
-                {/* Sign In / Register Buttons */}
-                <div className="px-4 border-t border1"></div>
-                <div
-                  className={`my-4 flex lg:flex-row flex-col items-center gap-3 text-sm font-medium px-4`}
-                >
-                  <ButtonComponents
-                    className="w-full duration-300 ease-in my-3 rounded-md"
-                    href="/sign-in"
-                    title="Sign In"
-                  >
-                    Sign In
-                  </ButtonComponents>
-                  <ButtonComponents
-                    className="w-full duration-300 ease-in rounded-md"
-                    href="/register"
-                    title="Register"
-                  >
-                    Register
-                  </ButtonComponents>
-                </div>
-                <div className="px-4 border-t border1 py-6"></div>
-              </Dialog.Panel>
-            </Transition.Child>
-          </div>
-        </Dialog>
-      </Transition.Root>
-
-      {/* Navigation Bar */}
-      <nav
-        className={`relative border-b py-2 border1 ${scrolling ? `navbarFixed` : ""}`}
-      >
-        <Container>
-          <div className="flex items-center justify-between">
-            <Logo />
-
-            {/* Flyout menus */}
-            <Popover.Group className="hidden xl:ml-24 ml-4 lg:block lg:self-stretch ">
-              <div className="flex h-full space-x-8 ">
-                {navigation.pages.map((page) => (
-                  <LinkComponent
-                    key={page.name}
-                    slug={page.href}
-                    className="flex items-center text-sm font-medium link"
-                  >
-                    {page.name}
-                  </LinkComponent>
-                ))}
-                {navigation.categories.map((category) => (
-                  <Popover key={category.name} className="flex">
-                    {({ open, close }) => (
-                      <>
-                        <div className="relative flex">
-                          <Popover.Button
-                            className={`${open ? "" : "border-transparent link"} relative z-10 -mb-px flex items-center border-b-2 pt-px text-sm font-medium transition-colors duration-200 ease-out`}
-                          >
-                            {category.name}
-                          </Popover.Button>
-                        </div>
-
-                        <Transition
-                          as={Fragment}
-                          enter="transition ease-out duration-200"
-                          enterFrom="opacity-0"
-                          enterTo="opacity-100"
-                          leave="transition ease-in duration-150"
-                          leaveFrom="opacity-100"
-                          leaveTo="opacity-0"
-                        >
-                          <Popover.Panel className="absolute z-50 inset-x-0 top-full text-sm">
-                            <div
-                              className="absolute inset-0 top-1/2 shadow"
-                              aria-hidden="true"
-                            />
-                            <div className="relative bg-white dark:bg-gray-700">
-                              <div className="mx-auto max-w-7xl px-8">
-                                <div className="grid grid-cols-1 gap-y-10 py-10 lg:grid-cols-3 lg:gap-x-12 lg:gap-y-16">
-                                  {category.sections.map((section) => (
-                                    <div
-                                      key={section.name}
-                                      className="relative flex flex-col space-y-6"
-                                    >
-                                      <p
-                                        id={`${category.id}-${section.id}-heading`}
-                                        className="text-base font-semibold text"
-                                      >
-                                        {section.name}
-                                      </p>
-                                      <ul
-                                        role="list"
-                                        aria-labelledby={`${category.id}-${section.id}-heading`}
-                                        className="space-y-6"
-                                      >
-                                        {section.items.map((item) => (
-                                          <li key={item.name} className="flex">
-                                            <LinkComponent
-                                              slug={item.href}
-                                              className="block p-2 text-sm font-medium text-gray-500 hover:text-gray-900"
-                                              onClick={close}
-                                              title={item.name}
-                                            >
-                                              {item.name}
-                                            </LinkComponent>
-                                          </li>
-                                        ))}
-                                      </ul>
-                                    </div>
-                                  ))}
-                                </div>
-                              </div>
-                            </div>
-                          </Popover.Panel>
-                        </Transition>
-                      </>
-                    )}
-                  </Popover>
-                ))}
-              </div>
-            </Popover.Group>
-
-            {/* Theme toggle button */}
-            <div className="flex items-center">
-              <ButtonIconComponents
-                onClick={() =>
-                  setTheme(currentTheme === "dark" ? "light" : "dark")
-                }
-                className="relative z-10 -mb-px flex items-center border-b-2 py-2 text-sm font-medium"
-              >
-                {currentTheme === "dark" ? <FaSun /> : <FaMoon />}
-              </ButtonIconComponents>
-            </div>
-
-            {/* Mobile menu button */}
-            <div className="ml-4 flex lg:hidden">
-              <ButtonIconComponents onClick={() => setOpen(true)}>
-                <FaBars />
-              </ButtonIconComponents>
-            </div>
-          </div>
-        </Container>
-      </nav>
-    </>
-  )
 }
