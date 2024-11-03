@@ -33,7 +33,7 @@ const data = {
     { name: "Class 10 Online Test", slug: "/class-10/online-test/" },
     { name: "Class 12 Online Test", slug: "/class-12/online-test/" }
   ],
-  b1: "9th Class"
+  breadcrumbs:[]
 }
 
 export default function Page() {

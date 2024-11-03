@@ -20,14 +20,7 @@ const data = {
     "vu mid mcqs cs302",
     "virtual university mid cs302 mcqs"
   ],
-  clist: [
-    { name: "Mid Term Mcqs", slug: "/vu/mid-mcqs/" },
-    { name: "Handouts", slug: "/vu/handouts/" },
-    { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" }
-  ],
-  b1: "Virtual University",
-  b1Link: "/vu/",
-  b2: "Final Mcqs"
+  breadcrumbs:[]
 }
 
 export default function Page() {

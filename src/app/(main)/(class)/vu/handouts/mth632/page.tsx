@@ -20,20 +20,8 @@ const data = {
     "growlearnhub mth632 handouts",
     "virtual university mth632 handouts"
   ],
-  clist: [
-    { name: "Handouts", slug: "/vu/handouts/" },
-    { name: "Mid Term Mcqs", slug: "/vu/mid-mcqs/" },
-    { name: "Final Term Mcqs", slug: "/vu/final-mcqs/" },
-    { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" },
-    { name: "MTH632 Mid Term", slug: "/vu/handouts/mth632/" },
-    { name: "MTH632 Final Term", slug: "/vu/handouts/mth632/" }
-  ],
-  fileId: "1BbmeMsqXQumZ3d8l2Mb43hRBMQ9iev7p",
-  b1: "VU",
-  b1Link: "/vu/",
-  b2: "Handouts",
-  b2Link: "/vu/handouts/",
-  b3: "MTH632"
+  fileId: "",
+  breadcrumbs:[]
 }
 
 export default function Page() {

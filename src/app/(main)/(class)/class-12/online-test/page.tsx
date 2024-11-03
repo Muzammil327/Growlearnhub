@@ -1,6 +1,5 @@
 import React from "react"
 import { Metadata } from "next"
-import Class12OnlineTestBookData from "@/src/app/(main)/(class)/class-12/online-test/data/Class12OnlineTestBookData"
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 
 const data = {
@@ -33,15 +32,14 @@ const data = {
     { name: "Class 10 Online Test", slug: "/class-10/online-test/" },
     { name: "Class 11 Online Test", slug: "/class-11/online-test/" },
   ],
-  b1: "9th Class"
-}
+  breadcrumbs:[]}
+
 
 export default function Page() {
   return (
     <SimpleWrapper
       data={data}
     >
-      <Class12OnlineTestBookData />
     </SimpleWrapper>
   )
 }

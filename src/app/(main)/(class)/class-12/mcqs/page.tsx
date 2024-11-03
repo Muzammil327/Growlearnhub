@@ -1,8 +1,6 @@
 import React from "react"
 import { Metadata } from "next"
 import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
-import DataClass12Mcqs from "./DataClass12Mcqs"
-import SubjectList from "@/src/action/mcqs/subject/filter/McqsSubjectList"
 
 const data = {
   title: "12th Class Mcqs | Class 12",
@@ -33,15 +31,12 @@ const data = {
     { name: "Class 10 Online Test", slug: "/class-10/online-test/" },
     { name: "Class 12 Online Test", slug: "/class-12/online-test/" }
   ],
-  b1: "Class 12",
-  b1Link: "/class-12/",
-  b2: "Mcqs"
+  breadcrumbs:[]
 }
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <SubjectList className="Class 12" slug="class-12" />
     </SimpleWrapper>
   )
 }

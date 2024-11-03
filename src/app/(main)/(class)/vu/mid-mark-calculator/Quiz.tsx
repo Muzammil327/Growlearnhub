@@ -1,5 +1,5 @@
 "use client"
-import Button from "@/src/components/ui/Button"
+import Button from "@/src/components/ui/typography/button/page"
 import Input from "@/src/components/ui/Input"
 import Label from "@/src/components/ui/Label"
 import React, { useEffect, useState } from "react"

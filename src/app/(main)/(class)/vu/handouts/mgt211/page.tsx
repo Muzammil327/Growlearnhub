@@ -6,7 +6,7 @@ import dynamic from "next/dynamic"
 
 import LinkComponent from "@/src/components/ui/typography/Links/page"
 import Heading2 from "@/src/components/ui/typography/Heading2/page"
-const Table = dynamic(() => import("@/src/components/element/table"))
+const Table = dynamic(() => import("@/src/components/ui/table/LinkTable"))
 const PDFViewer = dynamic(() => import("@/src/components/element/PDFViewer"))
 const PieChart = dynamic(() => import("@/src/components/element/PieChart"))
 const Heading3 = dynamic(
@@ -32,18 +32,8 @@ const data = {
     "mgt211 handouts",
     "virtual university mgt211 handouts"
   ],
-  clist: [
-    { name: "Handouts", slug: "/vu/handouts/" },
-    { name: "Mid Term Mcqs", slug: "/vu/mid-mcqs/" },
-    { name: "Final Term Mcqs", slug: "/vu/final-mcqs/" },
-    { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" }
-  ],
-  fileId: "1Long1Eiq5Lhd1vtMgQ8ozlQ3SnSSPkRW",
-  b1: "VU",
-  b1Link: "/vu/",
-  b2: "Handouts",
-  b2Link: "/vu/handouts/",
-  b3: "MGT211"
+  fileId: "",
+  breadcrumbs:[]
 }
 
 const combinedData = [

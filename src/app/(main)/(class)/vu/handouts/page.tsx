@@ -25,9 +25,7 @@ const data = {
     { name: "Final Term Mcqs", slug: "/vu/final-mcqs/" },
     { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" }
   ],
-  b1: "Virtual University",
-  b1Link: "/vu/",
-  b2: "Handouts"
+  breadcrumbs:[]
 }
 
 export default function Page() {

@@ -20,18 +20,8 @@ const data = {
     "cs302 handouts",
     "virtual university cs302 handouts"
   ],
-  clist: [
-    { name: "Handouts", slug: "/vu/handouts/" },
-    { name: "Mid Term Mcqs", slug: "/vu/mid-mcqs/" },
-    { name: "Final Term Mcqs", slug: "/vu/final-mcqs/" },
-    { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" }
-  ],
+  breadcrumbs:[],
   fileId: "1-gIlWU1bzd1xunZleOZK62hYPe5lAx60",
-  b1: "VU",
-  b1Link: "/vu/",
-  b2: "Handouts",
-  b2Link: "/vu/handouts/",
-  b3: "CS302"
 }
 
 export default function Page() {

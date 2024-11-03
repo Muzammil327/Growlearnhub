@@ -10,7 +10,6 @@ const Heading3 = dynamic(
   () => import("@/src/components/ui/typography/Heading3/page")
 )
 const Accordation = dynamic(() => import("@/src/components/element/accordion"))
-const Table = dynamic(() => import("@/src/components/element/table"))
 const UnorderedList = dynamic(
   () => import("@/src/components/ui/list/UnorderedList")
 )
@@ -35,18 +34,8 @@ const data = {
     "eng201 handouts",
     "virtual university eng201 handouts"
   ],
-  clist: [
-    { name: "Handouts", slug: "/vu/handouts/" },
-    { name: "Mid Term Mcqs", slug: "/vu/mid-mcqs/" },
-    { name: "Final Term Mcqs", slug: "/vu/final-mcqs/" },
-    { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" }
-  ],
   fileId: "1sGLJuN5IQvqSOsoqVl64BEBoapsOFuGk",
-  b1: "VU",
-  b1Link: "/vu/",
-  b2: "Handouts",
-  b2Link: "/vu/handouts/",
-  b3: "ENG201"
+  breadcrumbs:[]
 }
 
 const combinedData = [
@@ -259,7 +248,7 @@ export default function Page() {
         download and review the materials to prepare effectively for your
         assessments.
       </p>
-      <Table
+      {/* <Table
         chapterTitleArray={[
           "Name",
           "Category",
@@ -281,7 +270,7 @@ export default function Page() {
           "22 to 45"
         ]}
         headingArray={["Course Title", "ENG201"]}
-      />
+      /> */}
 
       <Heading3 variant="black">Assessment Scheme:</Heading3>
       <UnorderedList
@@ -344,7 +333,7 @@ export default function Page() {
       <p className="p5">
         Here are the key topics you&apos;ll find in the ENG201 handouts:
       </p>
-      <Table
+      {/* <Table
         chapterTitleArray={combinedData.map((item) => item.title)}
         contentArray={combinedData.map((item) => item.content)}
         chapterDATA={combinedData.map((item) => ({
@@ -352,7 +341,7 @@ export default function Page() {
           link: item.link
         }))}
         headingArray={["ENG201 Chapter", "ENG201 Topics"]}
-      />
+      /> */}
 
       {/* Tips  */}
       <Heading3 variant="black">How to Study ENG201 Effectively?</Heading3>
