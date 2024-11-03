@@ -1,6 +1,0 @@
-export * from "./classes"
-export * from "./chapters"
-export * from "./question"
-export * from "./headings"
-export * from "./subheadings"
-export * from "./books"
