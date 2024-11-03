@@ -5,7 +5,7 @@ import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 const data = {
   title: "9th Class Sahiwal Board Result | Class 9",
   description:
-    "Class 9 Sahiwal Board providing interactive exams, instant feedback, and performance analytics for effective learning.",
+  "All Sahiwal Boards have announced the 9th Class Result 2024 date and time. Students can check their results online and get complete details.",
   canonical: "/class-9/result/sahiwal-board/",
   index: true,
   follow: true,

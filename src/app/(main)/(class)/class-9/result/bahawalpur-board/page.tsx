@@ -5,7 +5,7 @@ import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 const data = {
   title: "9th Class Bahawalpur Board Result | Class 9",
   description:
-    "Class 9 Bahawalpur Board providing interactive exams, instant feedback, and performance analytics for effective learning.",
+    "All Bahawalpur Boards have announced the 9th Class Result 2024 date and time. Students can check their results online and get complete details.",
   canonical: "/class-9/result/bahawalpur-board/",
   index: true,
   follow: true,

@@ -41,7 +41,7 @@ export default function Page() {
                     <CardSmall
                       key={data.name}
                       title={data.name}
-                      link={`/class-9/past-paper/${data.slug}`}
+                      link={`/class-9/past-paper/${data.slug}/`}
                     />
                   )
                 })}
@@ -60,15 +60,15 @@ const MainDataClass9PastPaper = [
     child: [
       {
         name: "Biology",
-        slug: "#"
+        slug: "faisalabad-board-biology",
       },
       {
         name: "Chemistry",
-        slug: "#"
+        slug: "faisalabad-board-chemistry"
       },
       {
         name: "Physics",
-        slug: "#"
+        slug: "faisalabad-board-physics"
       }
     ]
   },
@@ -77,15 +77,15 @@ const MainDataClass9PastPaper = [
     child: [
       {
         name: "Biology",
-        slug: "#"
+        slug: "lahore-board-biology"
       },
       {
         name: "Chemistry",
-        slug: "#"
+        slug: "lahore-board-chemistry"
       },
       {
         name: "Physics",
-        slug: "#"
+        slug: "lahore-board-physics"
       }
     ]
   }

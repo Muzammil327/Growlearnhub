@@ -5,7 +5,7 @@ import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
 const data = {
   title: "9th Class Gujranwala Board Result | Class 9",
   description:
-    "Class 9 Gujranwala Board providing interactive exams, instant feedback, and performance analytics for effective learning.",
+    "All Gujranwala Boards have announced the 9th Class Result 2024 date and time. Students can check their results online and get complete details.",
   canonical: "/class-9/result/gujranwala-board/",
   index: true,
   follow: true,
