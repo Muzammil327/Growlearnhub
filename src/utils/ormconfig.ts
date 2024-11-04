@@ -21,9 +21,6 @@ const AppDataSource = new DataSource({
   extra: {
     connectionTimeoutMillis: 30000,
   },
-  ssl: {
-    rejectUnauthorized: process.env.NEXT_PUBLIC_REJECT_UNAUTHORIZED
-  }
 })
 
 export default AppDataSource
