@@ -1,25 +1,19 @@
 import React from 'react'
 import { Metadata } from 'next'
-import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
+import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
+import { vuData } from '@/src/data/vu'
 
 const data = {
   title: 'Virtual University | Resources and Tips for Vu',
   description:
     'Virtual University resources and tips page offering study materials, exam guides, and effective learning strategies for VU students.',
+  keywords: ['growlearnhub', 'growlearnhub vu', 'vu', 'virtual university'],
+  image: '/vu.webp',
   canonical: '/vu/',
+  url: 'https://growlearnhub.com/vu/',
   index: true,
   follow: true,
-  image: '/class/vu.webp',
-  url: 'https://growlearnhub.com/vu/',
-  keywords: ['growlearnhub', 'growlearnhub vu', 'vu', 'virtual university'],
-  clist: [
-    { name: 'Class 9', slug: '/class-9/' },
-    { name: 'Class 10', slug: '/class-10/' },
-    { name: 'Class 11', slug: '/class-11/' },
-    { name: 'Class 12', slug: '/class-12/' },
-  ],
-  b1:"fg"
 }
 
 export default function Page() {
@@ -27,13 +21,13 @@ export default function Page() {
     <SimpleWrapper
       data={data}
     >
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {mainData.map((data: any) => {
+      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
+        {vuData.map((data: any) => {
           return (
             <CardSmall
               key={data.name}
               title={data.name}
-              link={`/vu/${data.slug}`}
+              link={`vu/${data.slug}`}
             />
           )
         })}
@@ -41,25 +35,6 @@ export default function Page() {
     </SimpleWrapper >
   )
 }
-
-const mainData = [
-  {
-    name: 'Handouts',
-    slug: 'handouts',
-  },
-  {
-    name: 'Mid Mark Calculator',
-    slug: 'mid-mark-calculator',
-  },
-  {
-    name: 'Mid Mcqs',
-    slug: 'mid-mcqs',
-  },
-  {
-    name: 'Final Mcqs',
-    slug: 'final-mcqs',
-  },
-]
 
 export const metadata: Metadata = {
   title: data.title,

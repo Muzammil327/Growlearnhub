@@ -1,0 +1,70 @@
+import React from "react";
+import {
+  ChevronRightIcon,
+  ChevronLeftIcon,
+  Loader2,
+  Mail,
+  PanelRightClose,
+  PanelRightOpen,
+  MoonIcon,
+  Home,
+  SunIcon,
+  ShieldQuestion,
+  LogOut,
+  ClipboardList,
+  Settings,
+  User,
+  X,
+  Edit,
+  ArrowRight,
+  Users,
+  ChevronRight,
+  ChevronDown,
+  Menu,
+  BookOpen,
+  Video,
+  Book,
+  FileText,
+  Facebook, Instagram, Linkedin, Twitter,
+  Plus, Minus
+} from "lucide-react";
+import { FaTimes, FaGraduationCap } from "react-icons/fa";
+
+export function Processing() {
+  return <Loader2 className="animate-spin" />;
+}
+
+export {
+  Mail,
+  SunIcon,
+  MoonIcon,
+  PanelRightOpen,
+  Home,
+  PanelRightClose,
+  ChevronRightIcon,
+  ChevronLeftIcon,
+  Settings,
+  ShieldQuestion,
+  LogOut,
+  ClipboardList,
+  User,
+  X,
+  Edit,
+  FaTimes,
+  FaGraduationCap,
+  ArrowRight, 
+  Users,
+  ChevronRight,
+  ChevronDown,
+  Menu,
+  BookOpen,
+  Video,
+  Book,
+  FileText,
+  Facebook, 
+  Instagram, 
+  Linkedin, 
+  Twitter, 
+  Plus,
+  Minus
+};

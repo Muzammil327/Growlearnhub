@@ -1,18 +1,18 @@
-import Link from "next/link"
-import styles from "./Links.module.scss"
+import Link from "next/link";
+import styles from "./Links.module.scss";
 
 interface LinkProps {
-  children: React.ReactNode
-  slug: string
-  className?: string
-  variant?: "link1" | "link2" | "btnLink"
-  target?: "_blank" | "_self" | "_parent" | "_top"
-  rel?: string
-  title?: string
-  onClick?: () => void // Add the onClick prop here
+  children: React.ReactNode;
+  slug: string;
+  className?: string;
+  variant?: "link1" | "link2" | "btnLink";
+  target?: "_blank" | "_self" | "_parent" | "_top";
+  rel?: string;
+  title?: string;
+  onClick?: () => void; // Add the onClick prop here
 }
 
-const LinkComponent = ({
+const TypographyLink = ({
   children,
   slug,
   className,
@@ -20,9 +20,9 @@ const LinkComponent = ({
   target,
   rel,
   title,
-  onClick // Destructure the onClick prop
+  onClick, // Destructure the onClick prop
 }: LinkProps) => {
-  const variantClass = styles[variant] || styles.link1 // Default to 'link1' variant
+  const variantClass = styles[variant] || styles.link1; // Default to 'link1' variant
 
   return (
     <Link
@@ -35,7 +35,7 @@ const LinkComponent = ({
     >
       {children}
     </Link>
-  )
-}
+  );
+};
 
-export default LinkComponent
+export default TypographyLink;

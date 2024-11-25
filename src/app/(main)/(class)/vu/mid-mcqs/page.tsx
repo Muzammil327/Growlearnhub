@@ -1,18 +1,14 @@
 import React from "react"
 import { Metadata } from "next"
-import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
+import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import { mainDataVuMidMcqs } from "@/src/app/(main)/(class)/vu/mid-mcqs/mainDataVuMidMcqs"
+import { vuMidMcqsData } from "@/src/data/vu"
 
 const data = {
   title: "Virtual University Mid Term Mcqs",
   description:
     "Mid Term MCQs page offering extensive question banks, practice questions, answers, and detailed explanations to enhance learning.",
-  canonical: "/vu/mid-mcqs/",
-  index: true,
-  follow: true,
   image: "/vu/vu_mid_term_mcqs.webp",
-  url: "https://growlearnhub.com/vu/mid-mcqs/",
   keywords: [
     "growlearnhub",
     "mid mcqs",
@@ -20,26 +16,22 @@ const data = {
     "vu mid mcqs",
     "virtual university mid mcqs"
   ],
-  clist: [
-    { name: "Final Term Mcqs", slug: "/vu/final-mcqs/" },
-    { name: "Handouts", slug: "/vu/handouts/" },
-    { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" }
-  ],
-  b1: "Virtual University",
-  b1Link: "/vu/",
-  b2: "Mid Mcqs"
+  canonical: "/vu/mid-mcqs/",
+  url: "https://growlearnhub.com/vu/mid-mcqs/",
+  index: true,
+  follow: true,
 }
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {mainDataVuMidMcqs.map((data: any) => {
+      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
+        {vuMidMcqsData.map((data: any) => {
           return (
             <CardSmall
               key={data.name}
               title={data.name}
-              link={`/vu/mid-mcqs/${data.slug}/`}
+              link={`vu/mid-mcqs/${data.slug}`}
             />
           )
         })}

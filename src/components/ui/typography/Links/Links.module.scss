@@ -1,10 +1,5 @@
-.BaseClass {
-  @apply transition-all duration-300 hover:text-color1;
-}
-
 .link1 {
-  @apply relative text-sm text-color2 ease-linear;
-  @extend .BaseClass;
+  @apply relative text-sm text-primary ease-linear transition-all duration-300 hover:text-primary;
 
   &::after {
     content: "";
@@ -12,7 +7,7 @@
     height: 2px;
     transform: scaleX(0);
     transition: transform 0.3s ease;
-    @apply bg-color1 w-full left-0 absolute;
+    @apply absolute left-0 w-full bg-destructive;
   }
 
   &:hover::after {
@@ -21,8 +16,7 @@
 }
 
 .link2 {
-  @apply text-black dark:text-white;
-  @extend .BaseClass;
+  @apply text-black dark:text-white transition-all duration-300 hover:text-primary;
 }
 
 .btnLink {

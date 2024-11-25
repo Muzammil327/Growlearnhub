@@ -1,6 +1,15 @@
-import React from "react"
-import type { Metadata } from "next"
-import HomeView from "@/src/components/home/page"
+import React from "react";
+import { Metadata } from "next";
+import dynamic from "next/dynamic";
+import Header from "@/src/components/layout/header/page";
+import AboutUs from "./_components/about";
+import Service from "./_components/service";
+const Feedback = dynamic(
+  () => import("@/src/app/(main)/_components/feedback/page"),
+);
+const Topics = dynamic(
+  () => import("@/src/app/(main)/_components/topics/page"),
+);
 
 const data = {
   title: "GrowLearnHub: Your Path to Continuous Learning",
@@ -22,12 +31,24 @@ const data = {
     "growlearnhub books",
     "growlearnhub online test",
     "growlearnhub past paper",
-    "growlearnhub pairing scheme"
-  ]
-}
+    "growlearnhub pairing scheme",
+  ],
+};
 
 export default function Home() {
-  return <HomeView />
+  return (
+    <React.Fragment>
+     <header className="bg-hero bg-hero-2">
+        <Header />
+      </header>
+      {/*  <main>
+        <AboutUs />
+        <Service />
+      </main> */}
+      {/* <Feedback /> */}
+      {/* <Topics /> */}
+    </React.Fragment>
+  );
 }
 
 export const metadata: Metadata = {
@@ -41,27 +62,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://nextjs.org/og.png",
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: "https://nextjs.org/og.png",
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

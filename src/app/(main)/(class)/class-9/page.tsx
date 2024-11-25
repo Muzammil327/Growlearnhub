@@ -1,14 +1,17 @@
 import React from "react"
 import { Metadata } from "next"
-import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
+import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import { Heading3 } from "@/src/components/ui/Heading"
-import UnorderedList from "@/src/components/ui/list/UnorderedList"
+import UnorderedList from "@/components/elements/list/UnorderedList"
+import Heading3 from "@/src/components/ui/typography/Heading3/page"
+import MutedPara from "@/src/components/ui/typography/MutedPara/page"
+import { class9Data } from "@/src/data/class9"
 
 const data = {
   title: "Class 9 Study Guide | Important Resources, MCQs, Tests, Books",
   description:
     "Explore the Guide to Grade 9 on GrowLearnHub. Discover important resources including MCQs, online quizzes. and recommended books To improve your learning and master your subjects effectively.",
+  image: "/class_9.webp",
   keywords: [
     "GrowLearnHub",
     "Class 9 study resources",
@@ -20,52 +23,19 @@ const data = {
     "GrowLearnHub Class 9 resources"
   ],
   canonical: "/class-9/",
+  url: "https://growlearnhub.com/class-9/",
   index: true,
   follow: true,
-  image: "/9th/class-9.webp",
-  url: "https://growlearnhub.com/class-9/",
-  clist: [
-    { name: "Class 10", slug: "/class-10/" },
-    { name: "Class 11", slug: "/class-11/" },
-    { name: "Class 12", slug: "/class-12/" },
-
-    { name: "Class 10 Notes", slug: "/class-10/" },
-    { name: "Class 11 Notes", slug: "/class-11/" },
-    { name: "Class 12 Notes", slug: "/class-12/" },
-
-    { name: "Class 10 Books", slug: "/class-10/" },
-    { name: "Class 11 Books", slug: "/class-11/" },
-    { name: "Class 12 Books", slug: "/class-12/" },
-
-    { name: "Class 10 Mcqs", slug: "/class-10/" },
-    { name: "Class 11 Mcqs", slug: "/class-11/" },
-    { name: "Class 12 Mcqs", slug: "/class-12/" },
-
-    { name: "Class 10 Online Test", slug: "/class-10/" },
-    { name: "Class 11 Online Test", slug: "/class-11/" },
-    { name: "Class 12 Online Test", slug: "/class-12/" },
-
-    { name: "Class 10 Past Paper", slug: "/class-10/" },
-    { name: "Class 11 Past Paper", slug: "/class-11/" },
-    { name: "Class 12 Past Paper", slug: "/class-12/" },
-
-    { name: "VU", slug: "/vu/" },
-    { name: "VU Handouts", slug: "/vu/" },
-    { name: "VU Mid Marks Calculator", slug: "/vu/" },
-    { name: "VU Mid Mcqs", slug: "/vu/" },
-    { name: "VU Final Mcqs", slug: "/vu/" }
-  ],
-  b1: "9th Class"
 }
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <p>
+      <MutedPara>
         Welcome to the <strong>Class 9 </strong> page! Here, you&apos;ll find a
         comprehensive list of textbooks and resources that are essential for
         students in the 9th grade.
-      </p>
+      </MutedPara>
 
       <Heading3>Subjects Covered for Class 9</Heading3>
       <UnorderedList
@@ -85,24 +55,24 @@ export default function Page() {
           { description: "Tarjuma Tul Quaran" }
         ]}
       />
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {mainData.map((data: any) => {
+      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
+        {class9Data.map((data: any) => {
           return (
             <CardSmall
               key={data.name}
               title={data.name}
-              link={`/class-9/${data.slug}`}
+              link={`class-9/${data.slug}`}
             />
           )
         })}
       </div>
       <Heading3>Online Tests for Class 9</Heading3>
-      <p>
+      <MutedPara>
         In the current digital age Online testers have become a popular tool for
         students to assess their understanding and readiness. These tests
         provide a flexible platform for students to practice and assess their
         knowledge in various subjects.
-      </p>
+      </MutedPara>
       <UnorderedList
         items={[
           {
@@ -123,11 +93,11 @@ export default function Page() {
         ]}
       />
       <Heading3>Past Papers for Class 9</Heading3>
-      <p>
+      <MutedPara>
         Past papers are an invaluable resources for students preparing for
         exams. It provides insights into the types of questions being asked, the
         exam format and the marking scheme.
-      </p>
+      </MutedPara>
       <UnorderedList
         items={[
           {
@@ -150,29 +120,6 @@ export default function Page() {
     </SimpleWrapper>
   )
 }
-
-const mainData = [
-  {
-    name: "Online Test",
-    slug: "online-test"
-  },
-  {
-    name: "Mcqs",
-    slug: "mcqs"
-  },
-  {
-    name: "Books",
-    slug: "books"
-  },
-  {
-    name: "Past Paper",
-    slug: "past-paper"
-  },
-  {
-    name: "Notes",
-    slug: "notes"
-  }
-]
 
 export const metadata: Metadata = {
   title: data.title,

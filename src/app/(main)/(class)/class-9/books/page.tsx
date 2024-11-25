@@ -1,17 +1,14 @@
 import React from "react"
 import { Metadata } from "next"
-import DataClass9Book from "@/src/app/(main)/(class)/class-9/books/DataClass9Book"
-import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
+import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
+import CardSmall from "@/src/components/card/cardSmall/cardSmall"
+import Heading2 from "@/src/components/ui/typography/Heading2/page"
+import { Class9BookData } from "@/src/data/class9"
 
 const data = {
   title: "9th Class Books | Class 9",
   description:
     "Class 9 books page providing essential textbooks, study guides, and reference materials for comprehensive learning.",
-  canonical: "/class-9/books/",
-  index: true,
-  follow: true,
-  image: "/9th/class_9_books.webp",
-  url: "https://growlearnhub.com/class-9/books/",
   keywords: [
     "growlearnhub books",
     "growlearnhub class 9 books",
@@ -19,16 +16,36 @@ const data = {
     "9th class books",
     "9th class growlearnhub books"
   ],
-  b1: "9th Class",
-  b1Link: "/class-9/",
-  b2: "Books",
-  clist: []
+  image: "/9th/class_9_book.webp",
+  canonical: "/class-9/books/",
+  url: "https://growlearnhub.com/class-9/books/",
+  index: true,
+  follow: true,
 }
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <DataClass9Book />
+      <div className="my-10">
+        {Class9BookData.map((data: any) => {
+          return (
+            <div key={data.title}>
+              <Heading2>{data.title}</Heading2>
+              <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
+                {data.child.map((data: any) => {
+                  return (
+                    <CardSmall
+                      key={data.name}
+                      title={data.name}
+                      link={`class-9/books/${data.slug}`}
+                    />
+                  )
+                })}
+              </div>
+            </div>
+          )
+        })}
+      </div>
     </SimpleWrapper>
   )
 }

@@ -5,7 +5,6 @@
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
@@ -22,12 +21,7 @@
     ],
     "paths": {
       "@/*": ["./*"],
-      "@/app*": ["./src/app*"],
-      "@/view*": ["./src/views*"],
-      "@/types*": ["./src/types*"],
-      "@/components*": ["./src/components*"],
-      "@/sanity*": ["./sanity*"],
-      "@/public*": ["./public*"]
+      "@/components/*": ["./src/components/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

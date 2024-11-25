@@ -1,6 +1,6 @@
-import React from "react"
-import Link from "next/link"
-import "./cardQuiz.scss"
+import React from "react";
+import Link from "next/link";
+import "./cardQuiz.scss";
 
 export default function CardQuizWithLink({
   title,
@@ -8,24 +8,24 @@ export default function CardQuizWithLink({
   correctOption,
   className = "",
   option,
-  description
+  description,
 }: {
-  title: string
-  link: string
-  className?: string
-  option: string[]
-  correctOption: string
-  description?: string
+  title: string;
+  link: string;
+  className?: string;
+  option: string[];
+  correctOption: string;
+  description?: string;
 }) {
   return (
-    <Link href={link} className={className}>
-      <div className="cardquiz">
+    <Link href={link} className={`${className}`}>
+      <div className="cardquiz mx-2 my-3">
         <h3>
           <div dangerouslySetInnerHTML={{ __html: title }}></div>
         </h3>
         <ul>
           {option.map((index: any) => {
-            return <li key={index}>{index}</li>
+            return <li key={index}>{index}</li>;
           })}
         </ul>
         <span className="correctOption">
@@ -36,5 +36,5 @@ export default function CardQuizWithLink({
         )}
       </div>
     </Link>
-  )
+  );
 }

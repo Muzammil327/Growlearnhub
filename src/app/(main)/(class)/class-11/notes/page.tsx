@@ -1,17 +1,13 @@
 import React from "react"
 import { Metadata } from "next"
-import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
-import DataClass11Notes from "./DataClass11Notes"
+import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
+import CardSmall from "@/src/components/card/cardSmall/cardSmall"
+import { Class11NotesData } from "@/src/data/class11"
 
 const data = {
   title: "11th Class Notes | Class 11",
   description:
     "Class 11 notes providing interactive exams, instant feedback, and performance analytics for effective learning.",
-  canonical: "/class-11/notes/",
-  index: true,
-  follow: true,
-  image: "/11th/class_11_notes.webp",
-  url: "https://growlearnhub.com/class-11/notes/",
   keywords: [
     "growlearnhub notes",
     "growlearnhub class 11 notes",
@@ -20,26 +16,27 @@ const data = {
     "11th class notes",
     "11th class growlearnhub notes"
   ],
-  clist: [
-    { name: "Class 9 Books", slug: "/class-9/books/" },
-    { name: "Class 10 Books", slug: "/class-10/books/" },
-    { name: "Class 11 Books", slug: "/class-11/books/" },
-    { name: "Class 12 Books", slug: "/class-12/books/" },
-    { name: "Class 9 Mcqs", slug: "/class-9/mcqs/" },
-    { name: "Class 10 Mcqs", slug: "/class-10/mcqs/" },
-    { name: "Class 11 Mcqs", slug: "/class-11/mcqs/" },
-    { name: "Class 12 Mcqs", slug: "/class-12/mcqs/" },
-    { name: "Class 11 Online Test", slug: "/class-11/online-test/" },
-    { name: "Class 10 Online Test", slug: "/class-10/online-test/" },
-    { name: "Class 12 Online Test", slug: "/class-12/online-test/" }
-  ],
-  b1: "9th Class"
+  image: "/11th/class_11_notes.webp",
+  canonical: "/class-11/notes/",
+  url: "https://growlearnhub.com/class-11/notes/",
+  index: true,
+  follow: true,
 }
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <DataClass11Notes />
+      <div className="grid gap-4 grid-cols-1 my-5">
+        {Class11NotesData.map((data: any) => {
+          return (
+            <CardSmall
+              key={data.name}
+              title={data.name}
+              link={`class-11/notes/${data.slug}`}
+            />
+          )
+        })}
+      </div>
     </SimpleWrapper>
   )
 }

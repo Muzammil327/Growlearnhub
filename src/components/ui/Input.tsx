@@ -1,44 +1,22 @@
-import React, { ChangeEvent } from "react"
+import * as React from "react";
 
-interface InputProps {
-  type: "text" | "email" | "password" | "number" | "tel" | "url" // Adjusted types for more specific input types
-  value: string | number // Changed value type to accept both string and number
-  placeholder: string
-  name: string
-  className?: string
-  autoComplete?: string
-  onChange: (event: ChangeEvent<HTMLInputElement>) => void // Updated onChange to accept ChangeEvent
-}
+import { cn } from "@/src/lib/utils";
 
-export default function Input({
-  type,
-  value,
-  name,
-  placeholder,
-  className,
-  onChange,
-  autoComplete
-}: InputProps) {
-  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value
-    const validDecimal = /^\d*\.?\d*$/
+const Input = React.forwardRef<HTMLInputElement, React.ComponentProps<"input">>(
+  ({ className, type, ...props }, ref) => {
+    return (
+      <input
+        type={type}
+        className={cn(
+          "flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm",
+          className,
+        )}
+        ref={ref}
+        {...props}
+      />
+    );
+  },
+);
+Input.displayName = "Input";
 
-    if (validDecimal.test(value) || type !== "number") {
-      onChange(e)
-    }
-  }
-  return (
-    <input
-      id={name}
-      name={name}
-      type={type}
-      step="3"
-      value={value}
-      onChange={handleChange}
-      className={`shadow-sm rounded-md w-full px-4 py-3 bg-white dark:bg-gray-800 text-black dark:text-white ring-1 ring-gray-200 dark:ring-gray-600 focus:outline-none focus:ring-color1 dark:focus:ring-color1
-        ${className}`}
-      placeholder={placeholder}
-      autoComplete={autoComplete}
-    />
-  )
-}
+export { Input };

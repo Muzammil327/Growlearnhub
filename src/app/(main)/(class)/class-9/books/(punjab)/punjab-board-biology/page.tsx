@@ -1,22 +1,13 @@
 import React from "react"
 import { Metadata } from "next"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-const DataClass9Book = dynamic(
-  () => import("@/src/app/(main)/(class)/class-9/books/DataClass9Book")
-)
-import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
-import dynamic from "next/dynamic"
-import PDFViewer from "@/src/components/element/PDFViewer"
+import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
+import PDFViewer from "@/src/components/elements/PDFViewer"
 
 const data = {
   title: "Biology Class 9 Book PDF | 9th Class Punjab Text Book",
   description:
     "Download the official Biology Class 9 textbook PDF by Punjab Board. This comprehensive guide covers the entire syllabus with clear explanation.",
-  canonical: "/class-9/books/punjab-board-biology/",
-  index: true,
-  follow: true,
-  image: "/9th/book/punjab/class-9-biology-book-punjab-board.webp",
-  url: "https://growlearnhub.com/class-9/books/punjab-board-biology/",
   keywords: [
     "biology class 9 punjab text book pdf",
     "class 9 biology book pdf punjab board",
@@ -24,26 +15,25 @@ const data = {
     "biology book class 9 punjab board",
     "class 9 biology book punjab board"
   ],
-  b1: "9th Class",
-  b1Link: "/class-9/",
-  b2: "Books",
-  b2Link: "/class-9/books/",
-  b3: "Punjab Board Biology",
+  image: "/9th/book/punjab/class_9_biology_book_punjab_board.webp",
+  canonical: "/class-9/books/punjab-board-biology/",
+  url: "https://growlearnhub.com/class-9/books/punjab-board-biology/",
+  index: true,
+  follow: true,
   fileId_english: "1MFRZ5yO0SrrfTkAM_ewXBp_Pec4zTOA-",
   fileId_urdu: "1ty3cPG8aWvjPla3xJAT4F__bLNJHKiZv",
-  clist: []
 }
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <div className="grid gap-4 grid-cols-1 my-10">
+      <div className="grid gap-4 grid-cols-1 my-5">
         {mainData.map((data: any) => {
           return (
             <CardSmall
               key={data.name}
               title={data.name}
-              link={`/class-9/books/punjab-board-biology/${data.slug}-medium/`}
+              link={`class-9/books/punjab-board-biology/${data.slug}-medium`}
             />
           )
         })}
@@ -69,7 +59,6 @@ export default function Page() {
         Board.
       </p>
       <PDFViewer pdfUrl={data.fileId_urdu} />
-      <DataClass9Book />
     </SimpleWrapper>
   )
 }

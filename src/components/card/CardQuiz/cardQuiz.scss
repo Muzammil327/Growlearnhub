@@ -4,7 +4,7 @@
     0px 8px 15px rgba(0, 0, 0, 0.1),
     0 0 0 1px rgba(255, 255, 255, 0.1);
   transition: box-shadow 0.25s;
-  @apply bg-gray-900 cursor-pointer rounded-md pt-4 px-4 pb-4;
+  @apply cursor-pointer rounded-md bg-gray-900 px-4 pb-4 pt-4;
 
   &:hover {
     box-shadow:
@@ -16,7 +16,7 @@
   h3 {
     z-index: 2;
     margin: 12px 0 4px 0;
-    @apply text-white text-lg leading-8 font-semibold relative;
+    @apply relative text-lg font-semibold leading-8 text-white;
 
     p {
       color: white !important;
@@ -26,7 +26,7 @@
   .correctOption {
     z-index: 2;
     margin: 12px 0 4px 0;
-    @apply text-white text-lg leading-8 font-semibold relative border p-2 rounded-md;
+    @apply relative rounded-md border p-2 text-lg font-semibold leading-8 text-white;
   }
 
   ul {
@@ -34,11 +34,10 @@
 
     li {
       z-index: 2;
-      @apply text-base leading-8 font-normal relative capitalize;
+      @apply relative text-base font-normal capitalize leading-8;
       color: white !important;
     }
   }
-
 
   .description {
     p {
@@ -46,8 +45,7 @@
       @apply text-base tracking-widest;
     }
     a {
-      @apply text-color2 hover:text-white border-b border-dotted border-s-color2;
+      @apply border-s-primary border-b border-dotted text-primary hover:text-white;
     }
   }
 }
-

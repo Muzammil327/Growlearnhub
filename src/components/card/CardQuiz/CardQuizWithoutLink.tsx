@@ -1,29 +1,29 @@
-import React from "react"
-import "./cardQuiz.scss"
+import React from "react";
+import "./cardQuiz.scss";
 
 export default function CardQuizWithoutLink({
   title,
   correctOption,
   option,
-  para
+  para,
 }: {
-  title: string
-  className?: string
-  option: string[]
-  correctOption: string
-  para?: string
+  title: string;
+  className?: string;
+  option: string[];
+  correctOption: string;
+  para?: string;
 }) {
   return (
-    <div className="cardquiz border border-gray-300 rounded-lg shadow-lg p-4 my-4 bg-white">
-      <h3 className="text-xl font-semibold mb-2 text-gray-800">{title}</h3>
-      <ul className="list-disc pl-5 mb-4">
+    <div className="cardquiz my-4 rounded-lg border border-gray-300 bg-white p-4 shadow-lg">
+      <h3 className="mb-2 text-xl font-semibold text-gray-800">{title}</h3>
+      <ul className="mb-4 list-disc pl-5">
         {option.map((opt, index) => (
-          <li key={index} className="text-gray-700 mb-1">
+          <li key={index} className="mb-1 text-gray-700">
             {opt}
           </li>
         ))}
       </ul>
-      <span className="correctOption text-green-600 font-medium mb-2">
+      <span className="correctOption mb-2 font-medium text-green-600">
         The correct option is: {correctOption}
       </span>
       {para && (
@@ -33,5 +33,5 @@ export default function CardQuizWithoutLink({
         ></div>
       )}
     </div>
-  )
+  );
 }

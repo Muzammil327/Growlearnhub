@@ -1,18 +1,13 @@
 import React from "react"
 import { Metadata } from "next"
-import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
+import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import { mainDataVuFinalMcqs } from "@/src/app/(main)/(class)/vu/final-mcqs/mainDataVuFinalMcqs"
+import { vuFinalMcqsData } from "@/src/data/vu"
 
 const data = {
   title: "Virtual University Final Term Mcqs",
   description:
     "Final Term MCQs page offering extensive question banks, practice questions, answers, and detailed explanations to enhance learning.",
-  canonical: "/vu/final-mcqs/",
-  index: true,
-  follow: true,
-  image: "/vu/vu_final_term_mcqs.webp",
-  url: "https://growlearnhub.com/vu/final-mcqs/",
   keywords: [
     "growlearnhub",
     "final mcqs",
@@ -20,26 +15,23 @@ const data = {
     "vu final mcqs",
     "virtual university final mcqs"
   ],
-  clist: [
-    { name: "Mid Term Mcqs", slug: "/vu/mid-mcqs/" },
-    { name: "Handouts", slug: "/vu/handouts/" },
-    { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" }
-  ],
-  b1: "Virtual University",
-  b1Link: "/vu/",
-  b2: "Final Mcqs"
+  image: "/vu/vu_final_term_mcqs.webp",
+  canonical: "/vu/final-mcqs/",
+  url: "https://growlearnhub.com/vu/final-mcqs/",
+  index: true,
+  follow: true,
 }
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {mainDataVuFinalMcqs.map((data: any) => {
+      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
+        {vuFinalMcqsData.map((data: any) => {
           return (
             <CardSmall
               key={data.name}
               title={data.name}
-              link={`/vu/final-mcqs/${data.slug}/`}
+              link={`vu/final-mcqs/${data.slug}`}
             />
           )
         })}

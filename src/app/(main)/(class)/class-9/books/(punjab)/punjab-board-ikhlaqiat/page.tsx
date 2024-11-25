@@ -1,42 +1,25 @@
 import React from "react"
 import { Metadata } from "next"
-import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
-import PDFViewer from "@/src/components/element/PDFViewer"
-import DataClass9Book from "@/src/app/(main)/(class)/class-9/books/DataClass9Book"
+import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
+import PDFViewer from "@/src/components/elements/PDFViewer"
 
 const data = {
   title: "Ikhlaqiat Class 9 Book PDF | 9th Class Punjab Text Book",
   description:
     "Download the official Ikhlaqiat Class 9 textbook PDF by Punjab Board. This comprehensive guide covers the entire syllabus with clear explanation.",
+    image: "/9th/book/punjab/class_9_ikhlaqiat_book_punjab_board.webp",
+    keywords: [
+      "ikhlaqiat class 9 punjab text book pdf",
+      "class 9 ikhlaqiat book pdf punjab board",
+      "9th class ikhlaqiat punjab text book",
+      "ikhlaqiat book class 9 punjab board",
+      "class 9 ikhlaqiat book punjab board"
+    ],
   canonical: "/class-9/books/punjab-board-ikhlaqiat/",
+  url: "https://growlearnhub.com/class-9/books/punjab-board-ikhlaqiat/",
   index: true,
   follow: true,
-  image: "/9th/book/punjab/class-9-ikhlaqiat-book-punjab-board.webp",
-  url: "https://growlearnhub.com/class-9/books/punjab-board-ikhlaqiat/",
-  keywords: [
-    "ikhlaqiat class 9 punjab text book pdf",
-    "class 9 ikhlaqiat book pdf punjab board",
-    "9th class ikhlaqiat punjab text book",
-    "ikhlaqiat book class 9 punjab board",
-    "class 9 ikhlaqiat book punjab board"
-  ],
   fileId_urdu: "1fwK6qscOFekmeFq0XIPVeN9Ww3eBg6jF",
-  clist: [
-    { name: "Class 10 Books", slug: "/class-10/books/" },
-    { name: "Class 11 Books", slug: "/class-11/books/" },
-    { name: "Class 12 Books", slug: "/class-12/books/" },
-    { name: "Class 9 Mcqs", slug: "/class-9/mcqs/" },
-    { name: "Class 10 Mcqs", slug: "/class-10/mcqs/" },
-    { name: "Class 11 Mcqs", slug: "/class-11/mcqs/" },
-    { name: "Class 12 Mcqs", slug: "/class-12/mcqs/" },
-    { name: "Class 9 Online Test", slug: "/class-9/online-test/" },
-    { name: "Class 11 Online Test", slug: "/class-11/online-test/" },
-    { name: "Class 10 Online Test", slug: "/class-10/online-test/" },
-    { name: "Class 12 Online Test", slug: "/class-12/online-test/" }
-  ],
-  b1: "Past Paper",
-  b1Link: "/class-9/past-paper/",
-  b2: "Lahore Board Physics"
 }
 
 export default function Page() {
@@ -56,7 +39,6 @@ export default function Page() {
         This book is officially published by Punjab Text Book Board.
       </p>
       <PDFViewer pdfUrl={data.fileId_urdu} />
-      <DataClass9Book />
     </SimpleWrapper>
   )
 }

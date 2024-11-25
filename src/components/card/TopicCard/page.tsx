@@ -1,15 +1,15 @@
-import React from "react"
-import LinkComponent from "@/src/components/ui/typography/Links/page"
-import { FaArrowRight, FaClock } from "react-icons/fa"
-import "./TopicCard.scss"
+import React from "react";
+import LinkComponent from "@/src/components/ui/typography/Links/page";
+import { FaArrowRight, FaClock } from "react-icons/fa";
+import "./TopicCard.scss";
 
 export default function TopicCard({
-  data
+  data,
 }: {
   data: {
-    name: string
-    date: string
-  }
+    name: string;
+    date: string;
+  };
 }) {
   return (
     <div className="topic-card">
@@ -29,5 +29,5 @@ export default function TopicCard({
         </LinkComponent>
       </div>
     </div>
-  )
+  );
 }

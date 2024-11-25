@@ -1,47 +1,42 @@
-import React from 'react'
-import { Metadata } from 'next'
-import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
-import DataClass12Mcqs from './DataClass12Mcqs'
+import React from "react"
+import { Metadata } from "next"
+import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
+import CardSmall from "@/src/components/card/cardSmall/cardSmall"
+import { Class12McqsData } from "@/src/data/class12"
 
 const data = {
-  title: '12th Class Mcqs | Class 12',
+  title: "12th Class Mcqs | Class 12",
   description:
-    'Class 12 MCQs page offering a wide range of practice questions, online tests, and detailed answers for thorough exam preparation.',
-  canonical: '/class-12/mcqs/',
+    "Class 12 MCQs page offering a wide range of practice questions, online tests, and detailed answers for thorough exam preparation.",
+  keywords: [
+    "growlearnhub mcqs",
+    "growlearnhub class 12 mcqs",
+    "class 12 mcqs",
+    "12th class mcqs",
+    "12th class growlearnhub mcqs"
+  ],
+  image: "/12th/class_12_mcqs.webp",
+  canonical: "/class-12/mcqs/",
+  url: "https://growlearnhub.com/class-12/mcqs/",
   index: true,
   follow: true,
-  image: '/12th/class_12_mcqs.webp',
-  url: 'https://growlearnhub.com/class-12/mcqs/',
-  keywords: [
-    'growlearnhub mcqs',
-    'growlearnhub class 12 mcqs',
-    'class 12 mcqs',
-    '12th class mcqs',
-    '12th class growlearnhub mcqs',
-  ],
-  clist: [
-    { name: 'Class 9 Books', slug: '/class-9/books/' },
-    { name: 'Class 10 Books', slug: '/class-10/books/' },
-    { name: 'Class 11 Books', slug: '/class-11/books/' },
-    { name: 'Class 12 Books', slug: '/class-12/books/' },
-    { name: 'Class 9 Mcqs', slug: '/class-9/mcqs/' },
-    { name: 'Class 11 Mcqs', slug: '/class-11/mcqs/' },
-    { name: 'Class 12 Mcqs', slug: '/class-12/mcqs/' },
-    { name: 'Class 9 Online Test', slug: '/class-9/online-test/' },
-    { name: 'Class 11 Online Test', slug: '/class-11/online-test/' },
-    { name: 'Class 10 Online Test', slug: '/class-10/online-test/' },
-    { name: 'Class 12 Online Test', slug: '/class-12/online-test/' },
-  ],
-  b1: "9th Class"
 }
 
 export default function Page() {
   return (
-    <SimpleWrapper
-      data={data}
-    >
-      <DataClass12Mcqs />
-    </SimpleWrapper >
+    <SimpleWrapper data={data}>
+      <div className="grid gap-4 grid-cols-1 my-5">
+        {Class12McqsData.map((data: any) => {
+          return (
+            <CardSmall
+              key={data.name}
+              title={data.name}
+              link={`class-12/mcqs/${data.slug}`}
+            />
+          )
+        })}
+      </div>
+    </SimpleWrapper>
   )
 }
 
@@ -56,27 +51,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title,
-      },
-    ],
+        alt: data.title
+      }
+    ]
   },
   alternates: {
-    canonical: data.canonical,
+    canonical: data.canonical
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow,
-    },
+      follow: data.follow
+    }
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title,
-    },
-  },
+      alt: data.title
+    }
+  }
 }

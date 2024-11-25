@@ -5,11 +5,6 @@ const data = {
   title: 'VU MID TERM Mark Calculator Grow Learn Hub',
   description:
     'Here you can calculate vu mid mark calculator, which marks are required in final exam to complete the semester.',
-  canonical: '/vu/mid-mark-calculator/',
-  index: true,
-  follow: true,
-  image: '/vu/vu_mid_mark_calculator.png',
-  url: 'https://growlearnhub.com/vu/mid-mark-calculator/',
   keywords: [
     'growlearnhub vu',
     'vu',
@@ -20,13 +15,13 @@ const data = {
     'mid term mark calculator',
     'vu mark calculator',
   ],
-  clist: [
-    { name: 'Mid Term Mcqs', slug: '/vu/mid-mcqs/' },
-    { name: 'Final Term Mcqs', slug: '/vu/final-mcqs/' },
-    { name: 'Handouts', slug: '/vu/handouts/' },
-  ],
-  b1: "VU Mid Marks Calculator"
+  image: '/vu/vu_mid_mark_calculator.png',
+  canonical: '/vu/mid-mark-calculator/',
+  url: 'https://growlearnhub.com/vu/mid-mark-calculator/',
+  index: true,
+  follow: true,
 }
+
 
 export default function Page() {
   return <Calculator url={data.url} data={data} />

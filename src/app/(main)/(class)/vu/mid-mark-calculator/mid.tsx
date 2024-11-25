@@ -1,7 +1,7 @@
 "use client"
-import Button from "@/src/components/ui/Button"
-import Input from "@/src/components/ui/Input"
-import Label from "@/src/components/ui/Label"
+import { Button } from "@/src/components/ui/button"
+import { Input } from "@/src/components/ui/input"
+import { Label } from "@/src/components/ui/label"
 import React, { ChangeEvent, useEffect, useState } from "react"
 
 export default function MidPercentage({
@@ -44,7 +44,7 @@ export default function MidPercentage({
   return (
     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-1">
       <div className="my-4">
-        <Label label="Total Mid Percentage" htmlFor="MidPercentage" />
+        <Label htmlFor="MidPercentage" />
         <Input
           name="MidPercentage"
           type="number"
@@ -54,7 +54,7 @@ export default function MidPercentage({
         />
       </div>
       <div className="my-4">
-        <Label label="Total Mid Term Marks" htmlFor="totalMidMark" />
+        <Label htmlFor="totalMidMark" />
         <Input
           name="totalMidMark"
           type="number"
@@ -65,7 +65,6 @@ export default function MidPercentage({
       </div>
       <div className="my-4">
         <Label
-          label="Total Obtained Mid Term Marks"
           htmlFor="obtainedMidMark"
         />
         <Input

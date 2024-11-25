@@ -1,7 +1,7 @@
 "use client"
-import Button from "@/src/components/ui/Button"
-import Input from "@/src/components/ui/Input"
-import Label from "@/src/components/ui/Label"
+import { Button } from "@/src/components/ui/button"
+import { Input } from "@/src/components/ui/input"
+import { Label } from "@/src/components/ui/label"
 import React, { useEffect, useState } from "react"
 
 export default function QuizPercentage({
@@ -37,7 +37,7 @@ export default function QuizPercentage({
   return (
     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-1">
       <div className="my-4">
-        <Label label="Total Quiz Percentage" htmlFor="quizPercentage" />
+        <Label htmlFor="quizPercentage" />
         <Input
           name="quizPercentage"
           type="number"
@@ -47,7 +47,7 @@ export default function QuizPercentage({
         />
       </div>
       <div className="my-4">
-        <Label label="Total Quiz Marks" htmlFor="totalQuiz" />
+        <Label htmlFor="totalQuiz" />
         <Input
           name="totalQuiz"
           type="number"
@@ -57,7 +57,7 @@ export default function QuizPercentage({
         />
       </div>
       <div className="my-4">
-        <Label label="Total Obtained Quiz Marks" htmlFor="obtainedQuiz" />
+        <Label htmlFor="obtainedQuiz" />
         <Input
           name="obtainedQuiz"
           type="number"

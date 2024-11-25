@@ -1,79 +1,44 @@
 import React from "react"
-import type { Metadata } from "next"
+import { Metadata } from "next"
+import Heading2 from "@/src/components/ui/typography/Heading2/page"
+import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
-
-interface Book {
-  id: number
-  name: string
-  slug: string
-}
+import { SmallCardProps } from "@/src/components/card/cardSmall/types"
+import { OnlineTestBookData, OnlineTestClassData } from "@/src/data/online-test-point"
 
 const data = {
-  title: "User-friendly, interactive Online Mcqs Test",
-  description:
-    "User-friendly, interactive MCQs test page designed for thorough subject review with real-time feedback and scores to enhance learning.",
+  title: "Interactive Online Test Multiple Choice Questions (MCQs)",
+  description: "",
+  image: "/online-test-point.webp",
+  keywords: ["growlearnhub", "growlearnhub online test point"],
   canonical: "/online-test-point/",
+  url: "https://growlearnhub.com/online-test-point/",
   index: true,
   follow: true,
-  image: "/online-test-point.webp",
-  url: "https://growlearnhub.com/online-test-point/",
-  keywords: [
-    "growlearnhub",
-    "growlearnhub online",
-    "growlearnhub online mcqs",
-    "online mcqs",
-    "growlearnhub online mcqs point",
-    "online mcqs point",
-    "mcqs point"
-  ],
-  clist: [
-    { name: "Class 9", slug: "/class-9/" },
-    { name: "Class 10", slug: "/class-10/" },
-    { name: "Class 11", slug: "/class-11/" },
-    { name: "Class 12", slug: "/class-12/" },
-    { name: "VU", slug: "/vu/" },
-    { name: "Books Point", slug: "/book-point/" },
-    { name: "Mcqs Point", slug: "/mcqs-point/" }
-  ],
-  b1: "Online Test Point"
 }
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <h2>Class Wise Online Test</h2>
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {ClassData.map((book: Book) => (
-          <CardSmall key={book.id} title={book.name} link={`${book.slug}`} />
-        ))}
+      <div>
+        <Heading2>Class Wise Online Test</Heading2>
+        <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
+          {OnlineTestClassData.map((book: SmallCardProps) => (
+            <CardSmall key={book.id} title={book.title} link={book.link} />
+          ))}
+        </div>
+      </div>
+      <div>
+        <Heading2>Subjects Wise Online Test</Heading2>
+        <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
+          {OnlineTestBookData.map((book: SmallCardProps) => (
+            <CardSmall key={book.id} title={book.title} link={book.link} />
+          ))}
+        </div>
       </div>
     </SimpleWrapper>
   )
 }
-
-const ClassData: Book[] = [
-  {
-    id: 0,
-    name: "Class 9",
-    slug: "/class-9/online-test/"
-  },
-  {
-    id: 1,
-    name: "Class 10",
-    slug: "/class-10/online-test/"
-  },
-  {
-    id: 2,
-    name: "Class 11",
-    slug: "/class-11/online-test/"
-  },
-  {
-    id: 3,
-    name: "Class 12",
-    slug: "/class-12/online-test/"
-  }
-]
 
 export const metadata: Metadata = {
   title: data.title,
@@ -85,7 +50,7 @@ export const metadata: Metadata = {
     url: data.url,
     images: [
       {
-        url: "https://nextjs.org/og.png",
+        url: data.image,
         alt: data.title
       }
     ]
@@ -105,7 +70,7 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     images: {
-      url: "https://nextjs.org/og.png",
+      url: data.image,
       alt: data.title
     }
   }

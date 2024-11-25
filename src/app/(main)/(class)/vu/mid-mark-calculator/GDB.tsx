@@ -1,7 +1,7 @@
 "use client"
-import Button from "@/src/components/ui/Button"
-import Input from "@/src/components/ui/Input"
-import Label from "@/src/components/ui/Label"
+import { Button } from "@/src/components/ui/button"
+import { Input } from "@/src/components/ui/input"
+import { Label } from "@/src/components/ui/label"
 import React, { ChangeEvent, useEffect, useState } from "react"
 
 export default function GDBPercentage({
@@ -40,7 +40,7 @@ export default function GDBPercentage({
   return (
     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-1">
       <div className="my-4">
-        <Label label="Total GDB Percentage" htmlFor="GDBPercentage" />
+        <Label htmlFor="GDBPercentage" />
         <Input
           name="GDBPercentage"
           type="number"
@@ -50,7 +50,7 @@ export default function GDBPercentage({
         />
       </div>
       <div className="my-4">
-        <Label label="Total GDB Marks" htmlFor="totalGDB" />
+        <Label htmlFor="totalGDB" />
         <Input
           name="totalGDB"
           type="number"
@@ -60,7 +60,7 @@ export default function GDBPercentage({
         />
       </div>
       <div className="my-4">
-        <Label label="Total Obtained GDB Marks" htmlFor="obtainedGDB" />
+        <Label htmlFor="obtainedGDB" />
         <Input
           name="obtainedGDB"
           type="number"
@@ -69,7 +69,7 @@ export default function GDBPercentage({
           onChange={handleDecimalChange}
         />
       </div>
-      <Button className={"btn"}>{calculatedGDB}</Button>
+      <Button variant={"destructive"}>{calculatedGDB}</Button>
     </div>
   )
 }

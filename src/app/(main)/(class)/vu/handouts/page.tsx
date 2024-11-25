@@ -1,18 +1,13 @@
 import React from "react"
 import { Metadata } from "next"
-import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
+import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import VuHandoutsData from "@/src/app/(main)/(class)/vu/handouts/data"
+import { VuHandoutsData } from "@/src/data/vu"
 
 const data = {
   title: "VU Handouts of All Subjects",
   description:
     "Virtual University handouts PDF page offering downloadable study materials and comprehensive notes for all courses.",
-  canonical: "/vu/handouts/",
-  index: true,
-  follow: true,
-  image: "/vu/vu_handouts.webp",
-  url: "https://growlearnhub.com/vu/handouts/",
   keywords: [
     "growlearnhub",
     "handouts",
@@ -20,26 +15,23 @@ const data = {
     "vu handouts",
     "virtual university handouts"
   ],
-  clist: [
-    { name: "Mid Term Mcqs", slug: "/vu/mid-mcqs/" },
-    { name: "Final Term Mcqs", slug: "/vu/final-mcqs/" },
-    { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" }
-  ],
-  b1: "Virtual University",
-  b1Link: "/vu/",
-  b2: "Handouts"
+  image: "/vu/vu_handouts.webp",
+  canonical: "/vu/handouts/",
+  url: "https://growlearnhub.com/vu/handouts/",
+  index: true,
+  follow: true,
 }
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
+      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
         {VuHandoutsData.map((data: any) => {
           return (
             <CardSmall
               key={data.name}
               title={data.name}
-              link={`/vu/handouts/${data.slug}`}
+              link={`vu/handouts/${data.slug}`}
             />
           )
         })}

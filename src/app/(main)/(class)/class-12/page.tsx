@@ -1,17 +1,13 @@
 import React from 'react'
 import { Metadata } from 'next'
-import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
+import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
+import { class12Data } from '@/src/data/class12'
 
 const data = {
   title: 'Complete Guide to Class 12 | Resources and Tips for 12th Class',
   description:
     'Comprehensive Class 12 page featuring MCQs, online tests, and essential books for efficient learning and thorough subject mastery.',
-  canonical: '/class-12/',
-  index: true,
-  follow: true,
-  image: '/12th/class-12.webp',
-  url: 'https://growlearnhub.com/class-12/',
   keywords: [
     'growlearnhub',
     'growlearnhub class 12',
@@ -19,13 +15,11 @@ const data = {
     '12th class',
     '12th class growlearnhub',
   ],
-  clist: [
-    { name: 'Class 9', slug: '/class-9/' },
-    { name: 'Class 10', slug: '/class-10/' },
-    { name: 'Class 11', slug: '/class-11/' },
-    { name: 'VU', slug: '/vu/' },
-  ],
-  b1: "9th Class"
+  image: "/class_12.webp",
+  canonical: '/class-12/',
+  url: 'https://growlearnhub.com/class-12/',
+  index: true,
+  follow: true,
 }
 
 export default function Page() {
@@ -33,13 +27,13 @@ export default function Page() {
     <SimpleWrapper
       data={data}
     >
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {mainData.map((data: any) => {
+      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
+        {class12Data.map((data: any) => {
           return (
             <CardSmall
               key={data.name}
               title={data.name}
-              link={`/class-12/${data.slug}`}
+              link={`class-12/${data.slug}`}
             />
           )
         })}
@@ -47,29 +41,6 @@ export default function Page() {
     </SimpleWrapper >
   )
 }
-
-const mainData = [
-  {
-    name: 'Online Test',
-    slug: 'online-test',
-  },
-  {
-    name: 'Mcqs',
-    slug: 'mcqs',
-  },
-  {
-    name: 'Books',
-    slug: 'books',
-  },
-  {
-    name: 'Past Paper',
-    slug: 'past-paper',
-  },
-  {
-    name: 'Notes',
-    slug: 'notes',
-  },
-]
 
 export const metadata: Metadata = {
   title: data.title,

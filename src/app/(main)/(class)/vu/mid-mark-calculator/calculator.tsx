@@ -4,10 +4,11 @@ import GDBPercentage from "./GDB"
 import MidPercentage from "./mid"
 import AssignmentPercentage from "./Assignment"
 import { useState } from "react"
-import Button from "@/src/components/ui/Button"
-import Form from "@/src/components/element/form"
 import Image from "next/image"
-import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
+import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
+import { Button } from "@/src/components/ui/button"
+import CommentForm from "@/src/components/forms/CommentForm/page"
+import MutedPara from "@/src/components/ui/typography/MutedPara/page"
 
 export default function Calculator({ url, data }: { url: string; data: any }) {
   const [calculatedAssignment, setCalculatedAssignment] = useState<number>(0)
@@ -23,13 +24,13 @@ export default function Calculator({ url, data }: { url: string; data: any }) {
     <SimpleWrapper data={data}>
       <div className="my-10">
         <h2>Welcome to the Grow Learnhub Mid Term Mark Calculator</h2>
-        <p>
+        <MutedPara>
           Hey there! Welcome to our awesome Mark Calculator, It is created just
           for the students of Virtual University. This tool helps you track your
           grades, collecting marks in mid-exams, quizzes, assignments, and GDB.
           This <strong>VU Mid Mark Calculator</strong> is your new best friend
           for organizing grades and maintaining grades on your academic journey.
-        </p>{" "}
+        </MutedPara>{" "}
         <Image
           src="/vu/vu_mid_mark_calculator.png"
           alt="VU Mid Marks Calculator"
@@ -38,7 +39,7 @@ export default function Calculator({ url, data }: { url: string; data: any }) {
           width="1280"
         />
         <h3>Calculate your mid marks</h3>
-        <p>
+        <MutedPara>
           It’s got you covered for all subjects and semesters, making it super
           easy to calculate your marks accurately. Just fill in your scores for
           assignments, quizzes, midterms, and GDB. It’ll give you your overall
@@ -46,7 +47,7 @@ export default function Calculator({ url, data }: { url: string; data: any }) {
           final, to succeed in the final No problem! Our{" "}
           <i>VU Mid Mark Calculator’s</i>
           user-friendly interface makes it easy for everyone to use.
-        </p>
+        </MutedPara>
         <p>If any features more, Plz Comment below, Thanks.</p>
         <QuizPercentage
           calculatedQuiz={calculatedQuiz}
@@ -64,10 +65,10 @@ export default function Calculator({ url, data }: { url: string; data: any }) {
           calculatedMid={calculatedMid}
           setCalculatedMid={setCalculatedMid}
         />
-        <Button className="btn w-full mt-5">
+        <Button className="w-full mt-5" variant={"destructive"}>
           <i>Here, You calculate total Mid Term Marks:</i> {roundedTotalSum}
         </Button>
-        <Form url={url} />
+        <CommentForm url={url} />
       </div>
     </SimpleWrapper>
   )

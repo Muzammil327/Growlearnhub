@@ -1,25 +1,17 @@
 interface HeadingProps {
-  children: React.ReactNode
-  className?: string
-  variant?: "white" | "black" | "link"
-}
-
-const variantClasses = {
-  white: "text-white",
-  black: "text-black",
-  link: "text-emerald-400 hover:text-emerald-500 hover:underline"
+  children: React.ReactNode;
+  className?: string;
 }
 
 export default function Heading3({
   children,
   className,
-  variant = "white"
 }: HeadingProps) {
   return (
     <h3
-      className={`font-bold lg:text-2xl text-xl my-4 ${className || ""} ${variantClasses[variant] || ""}`}
+      className={`border-y my-2 py-2 text-xl text-primary font-bold lg:text-2xl ${className || ""}`}
     >
       {children}
     </h3>
-  )
+  );
 }

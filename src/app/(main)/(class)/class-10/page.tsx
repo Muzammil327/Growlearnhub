@@ -1,72 +1,126 @@
 import React from "react"
 import { Metadata } from "next"
+import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import SimpleWrapper from "@/src/components/Wrapper/SimpleWrapper"
+import UnorderedList from "@/components/elements/list/UnorderedList"
+import Heading3 from "@/src/components/ui/typography/Heading3/page"
+import MutedPara from "@/src/components/ui/typography/MutedPara/page"
+import { class10Data } from "@/src/data/class10"
 
 const data = {
-  title: "Complete Guide to Class 10 | Resources and Tips for 10th Class",
+  title: "Class 10 Study Guide | Important Resources, MCQs, Tests, Books",
   description:
-    "Comprehensive Class 10 page featuring MCQs, online tests, and essential books for efficient learning and thorough subject mastery.",
+    "Explore the Guide to Grade 10 on GrowLearnHub. Discover important resources including MCQs, online quizzes. and recommended books To improve your learning and master your subjects effectively.",
+  image: "/class_10.webp",
+  keywords: [
+    "GrowLearnHub",
+    "Class 10 study resources",
+    "10th class learning materials",
+    "MCQs for Class 10",
+    "Online tests for Class 10",
+    "Essential books for 10th class",
+    "Class 10 tips for success",
+    "GrowLearnHub Class 10 resources"
+  ],
   canonical: "/class-10/",
+  url: "https://growlearnhub.com/class-10/",
   index: true,
   follow: true,
-  image: "/10th/class-10.webp",
-  url: "https://growlearnhub.com/class-10/",
-  keywords: [
-    "growlearnhub",
-    "growlearnhub class 10",
-    "class 10",
-    "10th class",
-    "10th class growlearnhub"
-  ],
-  clist: [
-    { name: "Class 9", slug: "/class-9/" },
-    { name: "Class 11", slug: "/class-11/" },
-    { name: "Class 12", slug: "/class-12/" },
-    { name: "VU", slug: "/vu/" }
-  ],
-  b1: "9th Class"
 }
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
-        {mainData.map((data: any) => {
+      <MutedPara>
+        Welcome to the <strong>Class 10 </strong> page! Here, you&apos;ll find a
+        comprehensive list of textbooks and resources that are essential for
+        students in the 10th grade.
+      </MutedPara>
+
+      <Heading3>Subjects Covered for Class 10</Heading3>
+      <UnorderedList
+        items={[
+          { description: "Physics" },
+          { description: "Chemistry" },
+          { description: "Biology" },
+          { description: "English" },
+          { description: "Urdu" },
+          { description: "Computer Science" },
+          { description: "Economics" },
+          { description: "Math" },
+          { description: "General Knowledge" },
+          { description: "Ikhlaqiat" },
+          { description: "Islamiyat" },
+          { description: "Pak Study" },
+          { description: "Tarjuma Tul Quaran" }
+        ]}
+      />
+      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
+        {class10Data.map((data: any) => {
           return (
             <CardSmall
               key={data.name}
               title={data.name}
-              link={`/class-10/${data.slug}`}
+              link={`class-10/${data.slug}`}
             />
           )
         })}
       </div>
+      <Heading3>Online Tests for Class 10</Heading3>
+      <MutedPara>
+        In the current digital age Online testers have become a popular tool for
+        students to assess their understanding and readiness. These tests
+        provide a flexible platform for students to practice and assess their
+        knowledge in various subjects.
+      </MutedPara>
+      <UnorderedList
+        items={[
+          {
+            title: "Convenience",
+            description:
+              "Students can take the test from home according to their needs."
+          },
+          {
+            title: "Instant Feedback",
+            description:
+              "Instant grading helps students identify their strengths and weaknesses."
+          },
+          {
+            title: "Variety of Questions",
+            description:
+              "Exposure to different target formats and difficulty levels will improve preparation."
+          }
+        ]}
+      />
+      <Heading3>Past Papers for Class 10</Heading3>
+      <MutedPara>
+        Past papers are an invaluable resources for students preparing for
+        exams. It provides insights into the types of questions being asked, the
+        exam format and the marking scheme.
+      </MutedPara>
+      <UnorderedList
+        items={[
+          {
+            title: "Knowledge of exam format",
+            description:
+              "Understanding the layout and structure of the exam which can reduces anxiety."
+          },
+          {
+            title: "Time Management Skills",
+            description:
+              "Practicing past papers helps students learn to manage their time effectively during exams."
+          },
+          {
+            title: "Identifying Important Topics",
+            description:
+              "Past papers often highlight frequently tested concepts, guiding study focus."
+          }
+        ]}
+      />
     </SimpleWrapper>
   )
 }
-const mainData = [
-  {
-    name: "Online Test",
-    slug: "online-test"
-  },
-  {
-    name: "Mcqs",
-    slug: "mcqs"
-  },
-  {
-    name: "Books",
-    slug: "books"
-  },
-  {
-    name: "Past Paper",
-    slug: "past-paper"
-  },
-  {
-    name: "Notes",
-    slug: "notes"
-  }
-]
+
 export const metadata: Metadata = {
   title: data.title,
   description: data.description,

@@ -1,7 +1,7 @@
 "use client"
-import Button from "@/src/components/ui/Button"
-import Input from "@/src/components/ui/Input"
-import Label from "@/src/components/ui/Label"
+import { Button } from "@/src/components/ui/button"
+import { Input } from "@/src/components/ui/input"
+import { Label } from "@/src/components/ui/label"
 import React, { ChangeEvent, useEffect, useState } from "react"
 
 export default function AssignmentPercentage({
@@ -51,7 +51,7 @@ export default function AssignmentPercentage({
   return (
     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-1">
       <div className="my-4">
-        <Label label="Total Assignment Percentage" htmlFor="quizPercentage" />
+        <Label htmlFor="quizPercentage" />
         <Input
           name="assignmentPercentage"
           type="number"
@@ -61,7 +61,7 @@ export default function AssignmentPercentage({
         />
       </div>
       <div className="my-4">
-        <Label label="Total Assignment Marks" htmlFor="totalAssignment" />
+        <Label htmlFor="totalAssignment" />
         <Input
           name="totalAssignment"
           type="number"
@@ -71,7 +71,7 @@ export default function AssignmentPercentage({
         />
       </div>
       <div className="my-4">
-        <Label label="Total Obtained Assignment Marks" htmlFor="tmidterm" />
+        <Label htmlFor="tmidterm" />
         <Input
           name="obtainedAssignment"
           type="number"
@@ -80,7 +80,7 @@ export default function AssignmentPercentage({
           onChange={handleDecimalChange}
         />
       </div>
-      <Button className={"btn"}>{calculatedAssignment}</Button>
+      <Button variant={"destructive"}>{calculatedAssignment}</Button>
     </div>
   )
 }
