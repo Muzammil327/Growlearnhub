@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
-import { Button } from "@/src/components/ui/button"
-import { Input } from "@/src/components/ui/input"
-import { Label } from "@/src/components/ui/label"
+import { Button } from "../../../../../components/ui/button";
+import { Input } from "../../../../../components/ui/input"
+import { Label } from "../../../../../components/ui/label"
 
 export default function QuizPercentage({
   calculatedQuiz,
