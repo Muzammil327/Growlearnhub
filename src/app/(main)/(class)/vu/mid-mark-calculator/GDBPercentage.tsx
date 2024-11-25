@@ -69,7 +69,7 @@ export default function GDBPercentage({
           onChange={handleDecimalChange}
         />
       </div>
-      <Button variant={"destructive"}>{calculatedGDB}</Button>
+      <Button>{calculatedGDB}</Button>
     </div>
   )
 }
