@@ -1,5 +1,5 @@
 "use client"
-import { Button } from "@/src/components/ui/button"
+// import { Button } from "@/src/components/ui/button"
 import { Input } from "@/src/components/ui/input"
 import { Label } from "@/src/components/ui/label"
 import React, { ChangeEvent, useEffect, useState } from "react"
@@ -80,7 +80,7 @@ export default function AssignmentPercentage({
           onChange={handleDecimalChange}
         />
       </div>
-      <Button variant={"destructive"}>{calculatedAssignment}</Button>
+      {/* <Button variant={"destructive"}>{calculatedAssignment}</Button> */}
     </div>
   )
 }

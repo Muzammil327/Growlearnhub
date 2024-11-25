@@ -1,5 +1,5 @@
 "use client"
-import { Button } from "@/src/components/ui/button"
+// import { Button } from "@/src/components/ui/button"
 import { Input } from "@/src/components/ui/input"
 import { Label } from "@/src/components/ui/label"
 import React, { ChangeEvent, useEffect, useState } from "react"
@@ -69,7 +69,7 @@ export default function GDBPercentage({
           onChange={handleDecimalChange}
         />
       </div>
-      <Button variant={"destructive"}>{calculatedGDB}</Button>
+      {/* <Button variant={"destructive"}>{calculatedGDB}</Button> */}
     </div>
   )
 }
