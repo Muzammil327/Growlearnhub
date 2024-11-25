@@ -1,4 +1,3 @@
-"use client"
 import React, { ChangeEvent, useEffect, useState } from "react"
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input"
@@ -75,7 +74,7 @@ export default function MidPercentage({
           onChange={handleDecimalChange}
         />
       </div>
-      <Button className={"btn"}>{calculatedMid}</Button>
+      <Button>{calculatedMid}</Button>
     </div>
   )
 }

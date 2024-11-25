@@ -1,8 +1,7 @@
-"use client"
+import React, { useEffect, useState } from "react"
 import { Button } from "@/src/components/ui/button"
 import { Input } from "@/src/components/ui/input"
 import { Label } from "@/src/components/ui/label"
-import React, { useEffect, useState } from "react"
 
 export default function QuizPercentage({
   calculatedQuiz,
@@ -66,7 +65,7 @@ export default function QuizPercentage({
           onChange={(e) => setObtainedQuiz(parseInt(e.target.value))}
         />
       </div>
-      <Button className={"btn"}>{calculatedQuiz}</Button>
+      <Button>{calculatedQuiz}</Button>
     </div>
   )
 }
