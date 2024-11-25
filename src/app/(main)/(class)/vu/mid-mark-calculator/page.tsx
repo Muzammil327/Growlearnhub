@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import Calculator from '@/src/app/(main)/(class)/vu/mid-mark-calculator/calculator'
+import Calculator from './calculator'
 
 const data = {
   title: 'VU MID TERM Mark Calculator Grow Learn Hub',
