@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Container from "../../elements/Container";
-import { Button } from "../../ui/button";
+import { Button } from "@/src/components/ui/Button";
+import Container from "@/src/components/elements/Container";
 import Link from "next/link";
 
 export default function Header() {

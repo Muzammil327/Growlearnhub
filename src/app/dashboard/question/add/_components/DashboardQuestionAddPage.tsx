@@ -7,7 +7,7 @@ import { z } from "zod";
 import { Plus, Minus, X } from "@/components/elements/Icon";
 
 import { cn } from "@/src/lib/utils";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/src/components/ui/Button";
 import {
   Form,
   FormControl,
@@ -24,7 +24,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Input } from "@/components/ui/input";
+import { Input } from "@/components/ui/Input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   Dialog,

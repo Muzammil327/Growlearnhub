@@ -6,7 +6,7 @@ import AssignmentPercentage from "./AssignmentPercentage"
 import { useState } from "react"
 import Image from "next/image"
 import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
-import { Button } from "../../../../../components/ui/button";
+import { Button } from "@/src/components/ui/Button";
 import CommentForm from "@/src/components/forms/CommentForm/page"
 import MutedPara from "@/src/components/ui/typography/MutedPara/page"
 

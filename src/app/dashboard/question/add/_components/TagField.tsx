@@ -1,6 +1,6 @@
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Button } from "@/src/components/ui/Button";
+import { Input } from "@/components/ui/Input";
 import { XIcon } from "lucide-react";
 import { Dispatch, SetStateAction, forwardRef, useState } from "react";
 

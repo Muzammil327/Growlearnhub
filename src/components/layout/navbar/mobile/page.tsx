@@ -3,7 +3,7 @@ import { Dialog, Tab, Transition } from "@headlessui/react";
 import { FaTimes } from "@/components/elements/Icon";
 
 import TypographyLink from "@/components/ui/typography/Links/page";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/src/components/ui/Button";
 import Logo from "@/components/elements/Logo";
 import { navigation } from "@/components/layout/navbar/data";
 import MobileNavButtonGroup from "./MobileNavButtonGroup";

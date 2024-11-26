@@ -1,7 +1,7 @@
 import React, { ReactNode, useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/src/components/ui/Button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import {
   Tooltip,

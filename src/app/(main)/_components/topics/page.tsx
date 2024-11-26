@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 import styles from "./HomeTopics.module.scss";
 import TopicCard from "../../../../components/card/TopicCard/page";
 import Container from "../../../../components/elements/Container";
-import { Button } from "../../../../components/ui/button";
+import { Button } from "../../../../components/ui/Button";
 
 export default function Topics() {
   return (

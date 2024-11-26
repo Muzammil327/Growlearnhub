@@ -1,7 +1,7 @@
 import React, { ChangeEvent, useEffect, useState } from "react"
-import { Button } from "../../../../../components/ui/button";
-import { Input } from "../../../../../components/ui/input"
-import { Label } from "../../../../../components/ui/label"
+import { Button } from "@/src/components/ui/Button";
+import { Input } from "@/src/components/ui/Input"
+import { Label } from "@/src/components/ui/Label"
 
 export default function GDBPercentage({
   calculatedGDB,

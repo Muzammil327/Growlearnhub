@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import { Eye, EyeOff } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/src/components/ui/Button";
 import {
   Form,
   FormControl,
@@ -15,7 +15,7 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
+import { Input } from "@/components/ui/Input";
 import DarkLightModeButton from "@/src/components/elements/DarkLightModeButton";
 import { Processing } from "@/src/components/elements/Icon";
 import Link from "next/link";

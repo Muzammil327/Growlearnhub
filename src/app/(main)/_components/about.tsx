@@ -62,7 +62,7 @@ import Image from "next/image"
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination, A11y } from 'swiper/modules'
-import { Button } from "@/components/ui/button"
+import { Button } from "@/src/components/ui/Button"
 import Link from "next/link"
 
 import { GraduationCap, MonitorPlay, Users, UserCheck } from 'lucide-react'

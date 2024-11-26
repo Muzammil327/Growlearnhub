@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import { Button } from "@/src/components/ui/button";
+import { Button } from "@/src/components/ui/Button";
 import { useToast } from "@/src/hooks/use-toast";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Processing } from "@/components/elements/Icon";

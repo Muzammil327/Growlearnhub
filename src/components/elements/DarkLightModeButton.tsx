@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/src/components/ui/Button";
 import { useTheme } from "next-themes";
 import { MoonIcon, SunIcon } from "@/components/elements/Icon";
 

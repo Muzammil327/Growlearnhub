@@ -1,5 +1,5 @@
 import React from "react";
-import { Input } from "../../ui/input";
+import { Input } from "../../ui/Input";
 
 // Define a generic type for the table
 type TableFilterProps<T extends string | number> = {

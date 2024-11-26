@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/src/components/ui/Button";
 import {
   InputOTP,
   InputOTPGroup,

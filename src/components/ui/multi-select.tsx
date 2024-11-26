@@ -10,7 +10,7 @@ import {
 
 import { cn } from "@/src/lib/utils";
 import { Separator } from "@/components/ui/separator";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/src/components/ui/Button";
 import { Badge } from "@/components/ui/badge";
 import {
   Popover,

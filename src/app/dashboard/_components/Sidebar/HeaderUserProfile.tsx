@@ -3,7 +3,7 @@ import {
   AvatarFallback,
   AvatarImage,
 } from "@/src/components/ui/avatar";
-import { Button } from "@/src/components/ui/button";
+import { Button } from "@/src/components/ui/Button";
 import {
   DropdownMenu,
   DropdownMenuContent,
