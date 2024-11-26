@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Calculator from './calculator'
 
 const data = {
   title: 'VU MID TERM Mark Calculator Grow Learn Hub',
@@ -23,9 +24,9 @@ const data = {
 
 
 export default function Page() {
-  return <h1>gfh</h1>
+  return  <Calculator url={data.url} data={data} />
 }
-{/* <Calculator url={data.url} data={data} /> */}
+{/* */}
 export const metadata: Metadata = {
   title: data.title,
   description: data.description,
