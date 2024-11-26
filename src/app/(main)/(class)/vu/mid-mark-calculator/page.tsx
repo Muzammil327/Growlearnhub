@@ -26,7 +26,7 @@ const data = {
 export default function Page() {
   return  <Calculator url={data.url} data={data} />
 }
-{/* */}
+
 export const metadata: Metadata = {
   title: data.title,
   description: data.description,
