@@ -1,7 +1,7 @@
 import React from "react"
 import { Metadata } from "next"
 import Heading2 from "@/src/components/ui/typography/Heading2/page"
-import Simplewrapper from "@/src/components/wrapper/Simplewrapper"
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 import { SmallCardProps } from "@/src/components/card/cardSmall/types"
 import { OnlineTestBookData, OnlineTestClassData } from "@/src/data/online-test-point"
@@ -19,7 +19,7 @@ const data = {
 
 export default function Page() {
   return (
-    <Simplewrapper data={data}>
+    <SimpleWrapper data={data}>
       <div>
         <Heading2>Class Wise Online Test</Heading2>
         <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
@@ -36,7 +36,7 @@ export default function Page() {
           ))}
         </div>
       </div>
-    </Simplewrapper>
+    </SimpleWrapper>
   )
 }
 

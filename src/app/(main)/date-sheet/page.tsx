@@ -1,7 +1,7 @@
 import React from "react"
 import type { Metadata } from "next"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import Simplewrapper from "@/src/components/wrapper/Simplewrapper"
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
 import Heading2 from "@/src/components/ui/typography/Heading2/page"
 import { DateSheetData } from "@/src/data/date-sheet"
 import { SmallCardProps } from "@/src/components/card/cardSmall/types"
@@ -19,14 +19,14 @@ const data = {
 
 export default function Page() {
   return (
-    <Simplewrapper data={data}>
+    <SimpleWrapper data={data}>
       <Heading2>Class Wise Date Sheet</Heading2>
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
         {DateSheetData.map((book: SmallCardProps) => (
           <CardSmall key={book.id} title={book.title} link={`${book.link}`} />
         ))}
       </div>
-    </Simplewrapper>
+    </SimpleWrapper>
   )
 }
 

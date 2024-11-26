@@ -5,7 +5,7 @@ import MidPercentage from "./MidPercentage"
 import AssignmentPercentage from "./AssignmentPercentage"
 import { useState } from "react"
 import Image from "next/image"
-import Simplewrapper from "@/src/components/wrapper/Simplewrapper"
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
 import { Button } from "@/src/components/ui/Button";
 import CommentForm from "@/src/components/forms/CommentForm/page"
 import MutedPara from "@/src/components/ui/typography/MutedPara/page"
@@ -21,7 +21,7 @@ export default function Calculator({ url, data }: { url: string; data: any }) {
   const roundedTotalSum = totalSum.toFixed(2) // Round to 2 decimal places
 
   return (
-    <Simplewrapper data={data}>
+    <SimpleWrapper data={data}>
       <div className="my-10">
         <h2>Welcome to the Grow Learnhub Mid Term Mark Calculator</h2>
         <MutedPara>
@@ -70,6 +70,6 @@ export default function Calculator({ url, data }: { url: string; data: any }) {
         </Button>
         <CommentForm url={url} />
       </div>
-    </Simplewrapper>
+    </SimpleWrapper>
   )
 }

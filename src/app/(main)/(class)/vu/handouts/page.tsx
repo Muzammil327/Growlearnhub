@@ -1,6 +1,6 @@
 import React from "react"
 import { Metadata } from "next"
-import Simplewrapper from "@/src/components/wrapper/Simplewrapper"
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 import { VuHandoutsData } from "@/src/data/vu"
 
@@ -24,7 +24,7 @@ const data = {
 
 export default function Page() {
   return (
-    <Simplewrapper data={data}>
+    <SimpleWrapper data={data}>
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
         {VuHandoutsData.map((data: any) => {
           return (
@@ -36,7 +36,7 @@ export default function Page() {
           )
         })}
       </div>
-    </Simplewrapper>
+    </SimpleWrapper>
   )
 }
 

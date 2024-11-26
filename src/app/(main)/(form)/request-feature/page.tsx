@@ -1,5 +1,5 @@
 import React from "react"
-import Simplewrapper from "@/src/components/wrapper/Simplewrapper"
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
 import { Metadata } from "next"
 
 const data = {
@@ -14,7 +14,7 @@ const data = {
 }
 
 export default function page() {
-  return <Simplewrapper data={data}></Simplewrapper>
+  return <SimpleWrapper data={data}></SimpleWrapper>
 }
 
 export const metadata: Metadata = {

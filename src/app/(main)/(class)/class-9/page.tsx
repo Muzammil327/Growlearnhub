@@ -1,6 +1,6 @@
 import React from "react"
 import { Metadata } from "next"
-import Simplewrapper from "@/src/components/wrapper/Simplewrapper"
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 import UnorderedList from "@/components/elements/list/UnorderedList"
 import Heading3 from "@/src/components/ui/typography/Heading3/page"
@@ -30,7 +30,7 @@ const data = {
 
 export default function Page() {
   return (
-    <Simplewrapper data={data}>
+    <SimpleWrapper data={data}>
       <MutedPara>
         Welcome to the <strong>Class 9 </strong> page! Here, you&apos;ll find a
         comprehensive list of textbooks and resources that are essential for
@@ -117,7 +117,7 @@ export default function Page() {
           }
         ]}
       />
-    </Simplewrapper>
+    </SimpleWrapper>
   )
 }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Metadata } from 'next'
-import Simplewrapper from "@/src/components/wrapper/Simplewrapper"
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
 import CardSmall from '@/src/components/card/cardSmall/cardSmall'
 import { class11Data } from '@/src/data/class11'
 

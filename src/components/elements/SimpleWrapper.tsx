@@ -2,8 +2,8 @@
 import React from "react";
 import SubHeader from "@/src/components/layout/header/subheader/page";
 // import Sidebar from "@/src/components/ui/sidebar/page";
-import Container from "../elements/Container";
-import { ImageContainerLoading } from "../elements/ImageContainer";
+import Container from "./Container";
+import { ImageContainerLoading } from "./ImageContainer";
 import CommentForm from "../forms/CommentForm/page";
 
 
@@ -17,7 +17,7 @@ interface Iprops {
     children?: React.ReactNode;
 }
 
-export default function Simplewrapper({ data, children }: Iprops) {
+export default function SimpleWrapper({ data, children }: Iprops) {
     return (
         <React.Fragment>
             <main>

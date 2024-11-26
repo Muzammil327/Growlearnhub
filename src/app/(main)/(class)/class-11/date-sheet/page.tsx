@@ -1,6 +1,6 @@
 import React from "react"
 import { Metadata } from "next"
-import Simplewrapper from "@/src/components/wrapper/Simplewrapper"
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 import { Class11DateSheetData } from "@/src/data/class11"
 
@@ -25,7 +25,7 @@ const data = {
 
 export default function Page() {
   return (
-    <Simplewrapper data={data}>
+    <SimpleWrapper data={data}>
       <div className="grid gap-4 grid-cols-1 my-5">
         {Class11DateSheetData.map((data: any, index) => {
           return (
@@ -39,7 +39,7 @@ export default function Page() {
           )
         })}
       </div>
-    </Simplewrapper>
+    </SimpleWrapper>
   )
 }
 
