@@ -48,17 +48,20 @@ export async function POST(req: NextRequest) {
         error: "Username, email, and password are required.",
       });
     }
+console.log("1")
+// Check if the email or username already exists
+const existingUserPromise = checkIfUserExists(email, username);
 
-    // Check if the email or username already exists
-    const existingUserPromise = checkIfUserExists(email, username);
-    const salt = await bcryptjs.genSalt(10);
+const salt = await bcryptjs.genSalt(10);
+
     const hashedPasswordPromise = await bcryptjs.hash(password, salt);
 
     const [existingUser, hashedPassword] = await Promise.all([
       existingUserPromise,
       hashedPasswordPromise,
     ]);
-
+    
+    console.log("2")
     // If user exists, generate and send OTP
     if (existingUser) {
       const otpToken = generateOtpToken();
@@ -68,7 +71,8 @@ export async function POST(req: NextRequest) {
         otpToken,
         existingUser.username,
       );
-
+      console.log("3")
+      
       await Promise.all([otpPromise, emailPromise]);
       return NextResponse.json({
         statusbar: 200,
@@ -76,16 +80,20 @@ export async function POST(req: NextRequest) {
         data: existingUser,
       });
     }
-
+    console.log("4")
+    
     // Insert the new user into the database
     const newUser = await insertUser(username, email, hashedPassword);
-
+    
     // Generate and send OTP
     const otpToken = generateOtpToken();
+    console.log("4")
     const otpPromise = insertOtpToken(newUser.id, otpToken);
     const emailPromise = sendActivationEmail(email, otpToken, username);
-
+    console.log("5")
+    
     await Promise.all([otpPromise, emailPromise]);
+    console.log("6")
 
     return NextResponse.json({
       statusbar: 200,

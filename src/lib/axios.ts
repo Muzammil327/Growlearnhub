@@ -3,9 +3,9 @@ import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse } from "axios";
 // Create an Axios instance with default configuration
 const axiosInstance: AxiosInstance = axios.create({
   baseURL: process.env.NEXT_PUBLIC_API_URL || "/api/", // Default base URL
-  // headers: {
-  //   "Content-Type": "application/json", // Set default content type for JSON requests
-  // },
+  headers: {
+    "Content-Type": "application/json", // Set default content type for JSON requests
+  },
   // timeout: 8000,
 });
 
