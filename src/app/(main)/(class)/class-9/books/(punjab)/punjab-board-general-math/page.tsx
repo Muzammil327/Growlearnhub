@@ -60,7 +60,7 @@ export default function Page() {
         Book Board.
       </p>
       <PDFViewer pdfUrl={data.fileId_urdu} />
-    </SimpleWrapper>
+    </Simplewrapper>
   )
 }
 

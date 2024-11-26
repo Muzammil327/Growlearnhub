@@ -39,7 +39,7 @@ export default function Page() {
         Format. This book is officially published by Punjab Text Book Board.
       </p>
       <PDFViewer pdfUrl={data.fileId_urdu} />
-    </SimpleWrapper>
+    </Simplewrapper>
   )
 }
 

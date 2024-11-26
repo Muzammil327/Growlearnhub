@@ -70,6 +70,6 @@ export default function Calculator({ url, data }: { url: string; data: any }) {
         </Button>
         <CommentForm url={url} />
       </div>
-    </SimpleWrapper>
+    </Simplewrapper>
   )
 }

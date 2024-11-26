@@ -117,7 +117,7 @@ export default function Page() {
           }
         ]}
       />
-    </SimpleWrapper>
+    </Simplewrapper>
   )
 }
 

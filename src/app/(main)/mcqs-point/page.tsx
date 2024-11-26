@@ -140,7 +140,7 @@ export default function Page() {
         Our platform is designed to provide quick feedback and detailed
         explanations to help you learn faster and better.
       </MutedPara>
-    </SimpleWrapper>
+    </Simplewrapper>
   )
 }
 

@@ -26,7 +26,7 @@ export default function Page() {
           <CardSmall key={book.id} title={book.title} link={`${book.link}`} />
         ))}
       </div>
-    </SimpleWrapper>
+    </Simplewrapper>
   )
 }
 

@@ -46,7 +46,7 @@ export default function Page() {
           )
         })}
       </div>
-    </SimpleWrapper>
+    </Simplewrapper>
   )
 }
 

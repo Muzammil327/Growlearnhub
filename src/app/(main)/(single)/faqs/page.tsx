@@ -14,7 +14,7 @@ const data = {
 }
 
 export default function page() {
-  return <Simplewrapper data={data}></SimpleWrapper>
+  return <Simplewrapper data={data}></Simplewrapper>
 }
 
 export const metadata: Metadata = {

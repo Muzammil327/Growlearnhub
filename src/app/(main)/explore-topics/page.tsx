@@ -15,7 +15,7 @@ const data = {
 
 export default function Page() {
   return (
-    <Simplewrapper data={data}></SimpleWrapper>
+    <Simplewrapper data={data}></Simplewrapper>
   )
 }
 
