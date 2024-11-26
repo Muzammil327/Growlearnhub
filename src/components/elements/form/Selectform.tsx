@@ -11,7 +11,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "../../ui/select";
+} from "../../ui/Select";
 import { SelectContent } from "@radix-ui/react-select";
 import { IpropsBook } from "@/src/types/book";
 
