@@ -1,6 +1,6 @@
 import React from "react"
 import type { Metadata } from "next"
-import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
+import Simplewrapper from "@/src/components/wrapper/Simplewrapper"
 
 const data = {
   title: "Explore Topics || Growlearnhub",
@@ -15,7 +15,7 @@ const data = {
 
 export default function Page() {
   return (
-    <SimpleWrapper data={data}></SimpleWrapper>
+    <Simplewrapper data={data}></SimpleWrapper>
   )
 }
 

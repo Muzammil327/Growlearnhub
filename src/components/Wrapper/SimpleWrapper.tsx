@@ -17,7 +17,7 @@ interface Iprops {
     children?: React.ReactNode;
 }
 
-export default function SimpleWrapper({ data, children }: Iprops) {
+export default function Simplewrapper({ data, children }: Iprops) {
     return (
         <React.Fragment>
             <main>

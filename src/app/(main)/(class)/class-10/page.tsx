@@ -1,6 +1,6 @@
 import React from "react"
 import { Metadata } from "next"
-import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
+import Simplewrapper from "@/src/components/wrapper/Simplewrapper"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 import UnorderedList from "@/components/elements/list/UnorderedList"
 import Heading3 from "@/src/components/ui/typography/Heading3/page"
@@ -30,7 +30,7 @@ const data = {
 
 export default function Page() {
   return (
-    <SimpleWrapper data={data}>
+    <Simplewrapper data={data}>
       <MutedPara>
         Welcome to the <strong>Class 10 </strong> page! Here, you&apos;ll find a
         comprehensive list of textbooks and resources that are essential for

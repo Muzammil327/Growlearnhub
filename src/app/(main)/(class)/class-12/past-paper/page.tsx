@@ -1,6 +1,6 @@
 import React from "react"
 import { Metadata } from "next"
-import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
+import Simplewrapper from "@/src/components/wrapper/Simplewrapper"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 import Heading2 from "@/src/components/ui/typography/Heading2/page"
 import { Class12PastPaperData } from "@/src/data/class12"
@@ -26,7 +26,7 @@ const data = {
 
 export default function Page() {
   return (
-    <SimpleWrapper data={data}>
+    <Simplewrapper data={data}>
       <div className="grid gap-4 grid-cols-1 my-5">
         {Class12PastPaperData.map((data: any) => {
           return (

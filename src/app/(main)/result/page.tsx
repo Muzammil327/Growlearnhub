@@ -1,7 +1,7 @@
 import React from "react"
 import type { Metadata } from "next"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
+import Simplewrapper from "@/src/components/wrapper/Simplewrapper"
 import Heading2 from "@/src/components/ui/typography/Heading2/page"
 import { SmallCardProps } from "@/src/components/card/cardSmall/types"
 import { ResultData } from "@/src/data/result"
@@ -19,7 +19,7 @@ const data = {
 
 export default function Page() {
   return (
-    <SimpleWrapper data={data}>
+    <Simplewrapper data={data}>
       <Heading2>Class Wise Result</Heading2>
       <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
         {ResultData.map((book: SmallCardProps) => (

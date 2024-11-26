@@ -1,6 +1,6 @@
 import React from "react"
 import { Metadata } from "next"
-import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
+import Simplewrapper from "@/src/components/wrapper/Simplewrapper"
 import PDFViewer from "@/src/components/elements/PDFViewer"
 
 const data = {
@@ -24,7 +24,7 @@ const data = {
 
 export default function Page() {
   return (
-    <SimpleWrapper data={data}>
+    <Simplewrapper data={data}>
       <p>
         Are you looking for a{" "}
         <strong>Class 11 islamiat book punjab board</strong>? Here, you can

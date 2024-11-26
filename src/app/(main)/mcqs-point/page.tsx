@@ -2,7 +2,7 @@ import React from "react"
 import { Metadata } from "next"
 import Heading2 from "@/src/components/ui/typography/Heading2/page"
 import Heading3 from "@/src/components/ui/typography/Heading3/page"
-import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
+import Simplewrapper from "@/src/components/wrapper/Simplewrapper"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 import { SmallCardProps } from "@/src/components/card/cardSmall/types"
 import { McqsClassData, McqsSubjectData } from "@/src/data/mcqs"
@@ -23,7 +23,7 @@ const data = {
 
 export default function Page() {
   return (
-    <SimpleWrapper data={data}>
+    <Simplewrapper data={data}>
       <MutedPara>
         At Growlearnhub, we aim to make your learning journey more engaging and
         effective. Whether you&apos;re preparing for exams or competitive exams,

@@ -1,7 +1,7 @@
 import React from "react"
 import { Metadata } from "next"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
+import Simplewrapper from "@/src/components/wrapper/Simplewrapper"
 import PDFViewer from "@/src/components/elements/PDFViewer"
 
 const data = {
@@ -31,7 +31,7 @@ const data = {
 
 export default function Page() {
   return (
-    <SimpleWrapper data={data}>
+    <Simplewrapper data={data}>
       <div className="grid gap-4 grid-cols-1 my-10">
         {mainData.map((data: any) => {
           return (

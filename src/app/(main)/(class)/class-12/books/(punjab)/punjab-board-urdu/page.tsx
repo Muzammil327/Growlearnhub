@@ -1,7 +1,7 @@
 import React from "react"
 import { Metadata } from "next"
 import PDFViewer from "@/src/components/elements/PDFViewer"
-import SimpleWrapper from "@/src/components/wrapper/SimpleWrapper"
+import Simplewrapper from "@/src/components/wrapper/Simplewrapper"
 
 const data = {
   title: "Urdu Class 12 Book PDF | 12th Class Punjab Text Book",
@@ -24,7 +24,7 @@ const data = {
 
 export default function Page() {
   return (
-    <SimpleWrapper data={data}>
+    <Simplewrapper data={data}>
       <p>
         Are you looking for a <strong>Class 12 urdu book punjab board</strong>?
         Here, you can access all the books you need for free. Our website offers
