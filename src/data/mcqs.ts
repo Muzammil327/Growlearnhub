@@ -45,3 +45,32 @@ export const McqsSubjectData: SmallCardProps[] = [
     link: "/mcqs-point/general-knowledge/",
   },
 ];
+
+export const PhysicsMcqsSubjectData: SmallCardProps[] = [
+  {
+    id: 0,
+    title: "",
+    link: ""
+  }
+]
+export const ChemistryMcqsSubjectData: SmallCardProps[] = [
+  {
+    id: 0,
+    title: "",
+    link: ""
+  }
+]
+export const BiologyMcqsSubjectData: SmallCardProps[] = [
+  {
+    id: 0,
+    title: "",
+    link: ""
+  }
+]
+export const GKMcqsSubjectData: SmallCardProps[] = [
+  {
+    id: 0,
+    title: "",
+    link: ""
+  }
+]
