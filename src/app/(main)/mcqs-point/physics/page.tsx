@@ -12,24 +12,20 @@ const data = {
   canonical: "/mcqs-point/physics/",
   index: true,
   follow: true,
-  image: "/mcqs-point/physics/physics-mcqs-point.png",
+  image: "/mcqs_point/physics_mcqs_point.png",
   url: "https://growlearnhub.com/mcqs-point/physics/",
   keywords: ["mcqs", "quiz", "mcqs physics", "physics mcqs"],
-  clist: [],
-  b1: "Mcqs Point",
-  b1Link: "/mcqs-point/",
-  b2: "Physics"
 }
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
+      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
         {PhysicsMcqsSubjectData.map((book: SmallCardProps) => (
           <CardSmall
             key={book.title}
             title={book.title}
-            link={`${data.canonical}${book.link}`}
+            link={`mcqs-point/physics/${book.link}`}
           />
         ))}
       </div>

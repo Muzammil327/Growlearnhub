@@ -276,11 +276,11 @@ const vuroute = [
   // "vu/handouts/phy301"
 ]
 
-// const mcqspointroute = [
-  // "mcqs-point/physics",
-  // "mcqs-point/chemistry",
+const mcqspointroute = [
+  "mcqs-point/physics",
+  "mcqs-point/chemistry",
+  "mcqs-point/biology",
 
-  // "mcqs-point/biology",
   // "mcqs-point/biology/skeletal-system",
   // "mcqs-point/biology/skeletal-system/bones",
   // "mcqs-point/biology/skeletal-system/skeleton",
@@ -292,7 +292,7 @@ const vuroute = [
   // "mcqs-point/general-knowledge/pakistan",
   // "mcqs-point/general-knowledge/india",
   // "mcqs-point/general-knowledge/world-knowledge",
-// ]
+]
 
 const data = [
   ...singleroute,
@@ -300,7 +300,7 @@ const data = [
   ...class10route,
   ...class11route,
   ...class12route,
-  // ...mcqspointroute,
+  ...mcqspointroute,
   ...vuroute
 ]
 // import sitemapMcqsData from "@/src/app/sitemap/mcqs/sitemapMcqsData"
