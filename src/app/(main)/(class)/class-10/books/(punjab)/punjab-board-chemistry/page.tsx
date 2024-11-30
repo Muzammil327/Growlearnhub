@@ -3,7 +3,7 @@ import { Metadata } from "next"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 import PDFViewer from "@/src/components/elements/PDFViewer"
 import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-
+import MutedPara from "@/src/components/ui/typography/MutedPara/page"
 const data = {
   title: "Chemistry 10th Class Book PDF | Punjab Board Free Download",
   description:
@@ -43,26 +43,26 @@ export default function Page() {
           )
         })}
       </div>
-      <p>
+      <MutedPara>
         Are you looking for a <strong>10th Class chemistry pdf book punjab
           board</strong>? Here, you can access all the books you need for free.
         Our website offers a complete collection of books for students in
         Class 9, 10, 11, and 12. Whether you&apos;re preparing for exams or
         need extra resources, we&apos;ve got you covered.
-      </p>
+      </MutedPara>
       <h3>Download Chemistry class 10 Book English Medium Punjab Board</h3>
-      <p>
+      <MutedPara>
         Here, you can download Matric class 10 Chemistry Text Book in PDF Format
         for English Medium. This book is officially published by Punjab Text
         Book Board.
-      </p>
+      </MutedPara>
       <PDFViewer pdfUrl={data.fileId_english} />
       <h3>Download 10th Class Chemistry Textbook Urdu Medium Punjab Board</h3>
-      <p>
+      <MutedPara>
         Here, you can download Matric class 10 Chemistry Text Book in PDF Format
         for Urdu Medium. This book is officially published by Punjab Text Book
         Board.
-      </p>
+      </MutedPara>
       <PDFViewer pdfUrl={data.fileId_urdu} />
     </SimpleWrapper>
   )

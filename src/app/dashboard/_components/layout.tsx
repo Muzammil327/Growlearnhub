@@ -1,5 +1,4 @@
 "use client";
-
 import { useState, useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
 import Sidebar from "./Sidebar/page";
@@ -20,8 +19,9 @@ export default function DashboardLayout({
 }: Iprops) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
+  
   const pathname = usePathname();
-  const isMobile = window.innerWidth < 1024;
+
   // Explicitly define the type of the ref as HTMLDivElement | null
   const sidebarRef = useRef<HTMLDivElement | null>(null);
 
@@ -38,6 +38,7 @@ export default function DashboardLayout({
 
   useEffect(() => {
     const handleResize = () => {
+      
       if (window.innerWidth >= 1024) {
         setIsSidebarOpen(true); // Open sidebar on larger screens
       } else {
@@ -51,7 +52,7 @@ export default function DashboardLayout({
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, [isMobile]);
+  }, []);
 
   const isActive = (path: string) => pathname === path;
 

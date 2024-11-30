@@ -73,6 +73,7 @@ import { Card } from "@/components/ui/card"
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
+import MutedPara from "@/src/components/ui/typography/MutedPara/page"
 
 const slides = [
   {
@@ -104,7 +105,7 @@ export default function Component() {
               <Card className="flex-1 p-6 flex flex-col justify-between">
                 <div>
                   <h3 className="text-2xl font-bold">2.4k</h3>
-                  <p className="text-sm text-muted-foreground">Positive Reviews</p>
+                  <MutedPara className="text-sm text-muted-foreground">Positive Reviews</MutedPara>
                   <div className="flex mt-2">
                     {[...Array(5)].map((_, i) => (
                       <svg
@@ -178,9 +179,9 @@ export default function Component() {
                   <h1 className="text-3xl md:text-4xl font-bold tracking-tighter">
                     Know StudyHub Empowering Learners Worldwide
                   </h1>
-                  <p className="text-muted-foreground">
+                  <MutedPara className="text-muted-foreground">
                     We are passionate about education and dedicated to providing high-quality learning resources for learners of all backgrounds.
-                  </p>
+                  </MutedPara>
                   <div className="grid gap-4 md:grid-cols-2">
                     <Card className="p-4">
                       <div className="flex items-center space-x-4">
@@ -202,7 +203,7 @@ export default function Component() {
                         </div>
                         <div>
                           <h3 className="font-semibold">Learn with Expert</h3>
-                          <p className="text-sm text-muted-foreground">We are passionate about education.</p>
+                          <MutedPara className="text-sm text-muted-foreground">We are passionate about education.</MutedPara>
                         </div>
                       </div>
                     </Card>
@@ -226,7 +227,7 @@ export default function Component() {
                         </div>
                         <div>
                           <h3 className="font-semibold">Expert Instructors</h3>
-                          <p className="text-sm text-muted-foreground">Learn from industry experts.</p>
+                          <MutedPara className="text-sm text-muted-foreground">Learn from industry experts.</MutedPara>
                         </div>
                       </div>
                     </Card>
@@ -247,7 +248,7 @@ export default function Component() {
                     />
                     <div>
                       <h4 className="font-semibold">William James</h4>
-                      <p className="text-sm text-muted-foreground">CEO, StudyHub Online Education</p>
+                      <MutedPara className="text-sm text-muted-foreground">CEO, StudyHub Online Education</MutedPara>
                     </div>
                   </div>
                   <Button asChild>
@@ -290,9 +291,9 @@ export default function Component() {
                       <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                         {slide.title}
                       </h1>
-                      <p className="text-muted-foreground md:text-lg">
+                      <MutedPara className="text-muted-foreground md:text-lg">
                         {slide.description}
-                      </p>
+                      </MutedPara>
                       <div className="flex flex-col gap-2 min-[400px]:flex-row">
                         <Button size="lg">Get Started</Button>
                         <Button variant="outline" size="lg">
@@ -335,7 +336,7 @@ export default function Component() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-slate-900">
               Why Choose Histudy
             </h2>
-            <p className="text-slate-500">Language Academic?</p>
+            <MutedPara className="text-slate-500">Language Academic?</MutedPara>
           </div>
 
           <div className="relative mt-20">
@@ -370,7 +371,7 @@ export default function Component() {
                       <item.icon className="w-8 h-8 text-blue-500 group-hover:text-blue-600 transition-colors" />
                     </div>
                     <h3 className="text-2xl font-bold mb-2 text-slate-900">{item.number}</h3>
-                    <p className="text-slate-500 text-sm">{item.text}</p>
+                    <MutedPara className="text-slate-500 text-sm">{item.text}</MutedPara>
                   </Card>
                 </div>
               ))}

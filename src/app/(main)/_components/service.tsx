@@ -52,7 +52,7 @@
 //                         {data.name}
 //                       </h4>
 //                     </Link>
-//                     <p className="!my-0 text-gray-600"> {data.description}</p>
+//                     <p className="!my-0 text-gray-600"> {data.description}</MutedPara>
 //                   </div>
 //                 </div>
 //               );
@@ -123,6 +123,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Book, FileText, FileQuestion, ListChecks, MonitorPlay, Zap } from 'lucide-react'
+import MutedPara from "@/src/components/ui/typography/MutedPara/page"
 
 export default function CategoryGrid() {
   const categories = [
@@ -215,10 +216,10 @@ function CategoryCard({ category, className = "" }:any) {
             }`}>
             {category.title}
           </h3>
-          <p className={`mt-2 ${category.featured ? 'text-white/90' : 'text-white opacity-0 transition-opacity group-hover:opacity-100'
+          <MutedPara className={`mt-2 ${category.featured ? 'text-white/90' : 'text-white opacity-0 transition-opacity group-hover:opacity-100'
             }`}>
             {category.count}
-          </p>
+          </MutedPara>
         </div>
       </div>
     </Link>

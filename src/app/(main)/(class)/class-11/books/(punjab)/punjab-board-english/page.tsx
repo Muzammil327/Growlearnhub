@@ -2,7 +2,7 @@ import React from "react"
 import { Metadata } from "next"
 import PDFViewer from "@/src/components/elements/PDFViewer"
 import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-
+import MutedPara from "@/src/components/ui/typography/MutedPara/page"
 const data = {
   title: "English Class 11 Book PDF | 11th Class Punjab Text Book",
   description:
@@ -25,18 +25,18 @@ const data = {
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <p>
+      <MutedPara>
         Are you looking for a <strong>Class 11 english book punjab board</strong>
         ? Here, you can access all the books you need for free. Our website
         offers a complete collection of books for students in Class 9, 10, 11,
         and 12. Whether you&apos;re preparing for exams or need extra resources,
         we&apos;ve got you covered.
-      </p>
+      </MutedPara>
       <h3>Download Class 11 English Book Punjab Board</h3>
-      <p>
+      <MutedPara>
         Here, you can download Matric class 11 English Text Book in PDF Format.
         This book is officially published by Punjab Text Book Board.
-      </p>
+      </MutedPara>
       <PDFViewer pdfUrl={data.fileId_urdu} />
     </SimpleWrapper>
   )

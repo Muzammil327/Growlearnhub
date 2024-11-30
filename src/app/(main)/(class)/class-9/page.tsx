@@ -6,6 +6,7 @@ import UnorderedList from "@/components/elements/list/UnorderedList"
 import Heading3 from "@/src/components/ui/typography/Heading3/page"
 import MutedPara from "@/src/components/ui/typography/MutedPara/page"
 import { class9Data } from "@/src/data/class9"
+import Heading2 from "@/src/components/ui/typography/Heading2/page"
 
 const data = {
   title: "Class 9 Study Guide | Important Resources, MCQs, Tests, Books",
@@ -37,7 +38,7 @@ export default function Page() {
         students in the 9th grade.
       </MutedPara>
 
-      <Heading3>Subjects Covered for Class 9</Heading3>
+      <Heading2>Subjects Covered for Class 9</Heading2>
       <UnorderedList
         items={[
           { description: "Physics" },

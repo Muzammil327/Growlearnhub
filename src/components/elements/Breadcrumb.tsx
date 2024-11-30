@@ -31,7 +31,7 @@ export function DynamicBreadcrumb() {
     const shouldShowEllipsis = segmentCount > 3;
 
     return (
-        <Breadcrumb className="border-t px-8 pt-4">
+        <Breadcrumb className="border-b px-8 py-4">
             <BreadcrumbList>
                 {/* "Home" always displayed */}
                 <BreadcrumbItem>

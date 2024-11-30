@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { Card, CardContent } from "../ui/card";
+import MutedPara from "../ui/typography/MutedPara/page";
 
 interface StatCardProps {
   title: string;
@@ -14,7 +15,7 @@ const StatCard = ({ title, count, icon }: StatCardProps) => {
         <div className="flex items-center gap-4">
           <div className="rounded-xl bg-destructive p-3">{icon}</div>
           <div>
-            <p className="text-sm font-medium text-muted-foreground">{title}</p>
+            <MutedPara className="text-sm font-medium text-muted-foreground">{title}</MutedPara>
             <h3 className="text-2xl font-bold">{count}</h3>
           </div>
         </div>

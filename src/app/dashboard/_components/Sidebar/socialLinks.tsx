@@ -9,6 +9,7 @@ import React from "react";
 import {
   Facebook, Instagram, Linkedin, Twitter
 } from "@/src/components/elements/Icon";
+import MutedPara from "@/src/components/ui/typography/MutedPara/page";
 export default function SocialLinks() {
   return (
     <div className="flex justify-start space-x-4 p-4">
@@ -24,7 +25,7 @@ export default function SocialLinks() {
             </Button>
           </TooltipTrigger>
           <TooltipContent>
-            <p>Facebook</p>
+            <MutedPara>Facebook</MutedPara>
           </TooltipContent>
         </Tooltip>
       </TooltipProvider>
@@ -40,7 +41,7 @@ export default function SocialLinks() {
             </Button>
           </TooltipTrigger>
           <TooltipContent>
-            <p>Twitter</p>
+            <MutedPara>Twitter</MutedPara>
           </TooltipContent>
         </Tooltip>
       </TooltipProvider>
@@ -56,7 +57,7 @@ export default function SocialLinks() {
             </Button>
           </TooltipTrigger>
           <TooltipContent>
-            <p>Instagram</p>
+            <MutedPara>Instagram</MutedPara>
           </TooltipContent>
         </Tooltip>
       </TooltipProvider>
@@ -72,7 +73,7 @@ export default function SocialLinks() {
             </Button>
           </TooltipTrigger>
           <TooltipContent>
-            <p>LinkedIn</p>
+            <MutedPara>LinkedIn</MutedPara>
           </TooltipContent>
         </Tooltip>
       </TooltipProvider>

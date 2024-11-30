@@ -10,9 +10,10 @@ export default function MutedPara({
 }) {
   return (
     <p style={{
-      lineHeight: "2"
+      lineHeight: "2",
+      wordSpacing: "2"
     }}
-      className={cn("text-base text-muted-foreground py-2 tracking-wide", className)}
+      className={cn("text-[18px] text-muted-foreground py-2", className)}
     >{children}</p>
   );
 }

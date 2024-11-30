@@ -4,9 +4,9 @@ import { FetchQuestions, Question } from "../types/question";
 
 // GET single question
 export const useGetItem = (itemId: number) => {
-    return useQuery<Question[], Error>({
+    return useQuery<Question, Error>({
         queryKey: ["question"],
-        queryFn: () => getData<Question[]>(`question/${itemId}`),
+        queryFn: () => getData<Question>(`question/${itemId}`),
     });
 };
 

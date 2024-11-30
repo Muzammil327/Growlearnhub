@@ -4,6 +4,7 @@ import styles from "./HomeTopics.module.scss";
 import TopicCard from "../../../../components/card/TopicCard/page";
 import Container from "../../../../components/elements/Container";
 import { Button } from "../../../../components/ui/Button";
+import MutedPara from "@/src/components/ui/typography/MutedPara/page";
 
 export default function Topics() {
   return (
@@ -17,11 +18,11 @@ export default function Topics() {
               <h3 className="mb-5 text-4xl font-bold text-white">
                 Latest Topics
               </h3>
-              <p className="p3 text-white dark:text-white">
+              <MutedPara className="p3 text-white dark:text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
                 ab ipsum possimus quos totam voluptates accusamus mollitia
                 facilis dolor ducimus.
-              </p>
+              </MutedPara>
             </div>
             <div className="mt-3 flex justify-start md:mt-0 md:justify-end">
               <Button

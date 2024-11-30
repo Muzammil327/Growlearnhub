@@ -41,7 +41,7 @@ export function DataTable<T>({
     });
 
     return (
-        <div className="w-full">
+        <div className="w-full mt-5">
             {/* <div className="flex items-center py-4">
                 <TableFilter table={table} column={filterColumn} placeholder={filterColumnPlaceholder} />
             </div> */}

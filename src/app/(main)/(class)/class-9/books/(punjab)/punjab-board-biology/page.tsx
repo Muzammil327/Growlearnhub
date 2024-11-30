@@ -3,6 +3,9 @@ import { Metadata } from "next"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 import PDFViewer from "@/src/components/elements/PDFViewer"
 import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
+import MutedPara from "@/src/components/ui/typography/MutedPara/page"
+import Heading3 from "@/src/components/ui/typography/Heading3/page"
+import Heading2 from "@/src/components/ui/typography/Heading2/page"
 
 const data = {
   title: "Biology Class 9 Book PDF | 9th Class Punjab Text Book",
@@ -27,6 +30,7 @@ const data = {
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
+      <Heading2>fgh</Heading2>
       <div className="grid gap-4 grid-cols-1 my-5">
         {mainData.map((data: any) => {
           return (
@@ -38,26 +42,26 @@ export default function Page() {
           )
         })}
       </div>
-      <p>
+      <MutedPara>
         Are you looking for a <strong>Class 9 biology book punjab board</strong>
         ? Here, you can access all the books you need for free. Our website
         offers a complete collection of books for students in Class 9, 10, 11,
         and 12. Whether you&apos;re preparing for exams or need extra resources,
         we&apos;ve got you covered.
-      </p>
-      <h3>Download Class 9 Biology Book English Medium Punjab Board</h3>
-      <p>
+      </MutedPara>
+      <Heading3>Download Class 9 Biology Book English Medium Punjab Board</Heading3>
+      <MutedPara>
         Here, you can download Matric class 9 Biology Text Book in PDF Format
         for English Medium. This book is officially published by Punjab Text
         Book Board.
-      </p>
+      </MutedPara>
       <PDFViewer pdfUrl={data.fileId_english} />
-      <h3>Download 9th Class Biology Textbook Urdu Medium Punjab Board</h3>
-      <p>
+      <Heading3>Download 9th Class Biology Textbook Urdu Medium Punjab Board</Heading3>
+      <MutedPara>
         Here, you can download Matric class 9 Biology Text Book in PDF Format
         for Urdu Medium. This book is officially published by Punjab Text Book
         Board.
-      </p>
+      </MutedPara>
       <PDFViewer pdfUrl={data.fileId_urdu} />
     </SimpleWrapper>
   )

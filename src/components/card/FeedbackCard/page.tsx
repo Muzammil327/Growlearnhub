@@ -1,6 +1,7 @@
 import React from "react";
 import "./FeedbackCard.scss";
 import Image from "next/image";
+import MutedPara from "../../ui/typography/MutedPara/page";
 
 export default function FeedbackCard({
   data,
@@ -24,7 +25,7 @@ export default function FeedbackCard({
         </div>
       </div>
       <div className="footer">
-        <p>{data.description}</p>
+        <MutedPara>{data.description}</MutedPara>
       </div>
     </div>
   );

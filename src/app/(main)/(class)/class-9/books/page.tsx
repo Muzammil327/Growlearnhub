@@ -4,6 +4,8 @@ import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
 import CardSmall from "@/src/components/card/cardSmall/cardSmall"
 import Heading2 from "@/src/components/ui/typography/Heading2/page"
 import { Class9BookData } from "@/src/data/class9"
+import Heading3 from "@/src/components/ui/typography/Heading3/page"
+import MutedPara from "@/src/components/ui/typography/MutedPara/page"
 
 const data = {
   title: "9th Class Books | Class 9",
@@ -26,11 +28,14 @@ const data = {
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
+      <Heading2>fgh</Heading2>
+      <MutedPara>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, laudantium molestiae temporibus ea necessitatibus, commodi excepturi, odio quae numquam ratione totam expedita blanditiis veniam aliquam. Impedit eveniet quia doloribus qui!</MutedPara>
       <div className="my-10">
         {Class9BookData.map((data: any) => {
           return (
             <div key={data.title}>
-              <Heading2>{data.title}</Heading2>
+              <Heading3>{data.title}</Heading3>
+              <MutedPara>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis iste et voluptatem consequuntur sequi, aspernatur rem itaque ipsa velit, provident eos, delectus exercitationem. Iusto facere consequuntur libero, iste similique accusantium?</MutedPara>
               <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
                 {data.child.map((data: any) => {
                   return (

@@ -81,15 +81,15 @@ export async function sendActivationEmail(
             <h1>Growlearnhub Account Verification</h1>
           </div>
           <div class="content">
-            <p>Hello, ${username}</p>
-            <p>Thank you for signing up at Growlearnhub. To complete your registration, please use the OTP below:</p>
+            <MutedPara>Hello, ${username}</MutedPara>
+            <MutedPara>Thank you for signing up at Growlearnhub. To complete your registration, please use the OTP below:</MutedPara>
             <div class="otp-code">${otp}</div>
-            <p>If you did not request this, please ignore this email.</p>
-            <p>Best regards,<br>The Growlearnhub Team</p>
+            <MutedPara>If you did not request this, please ignore this email.</MutedPara>
+            <MutedPara>Best regards,<br>The Growlearnhub Team</MutedPara>
           </div>
           <div class="footer">
-            <p>&copy; ${new Date().getFullYear()} Growlearnhub. All rights reserved.</p>
-            <p>If you have any questions, contact us at <a href="mailto:smistore528982@gmail.com">smistore528982@gmail.com</a></p>
+            <MutedPara>&copy; ${new Date().getFullYear()} Growlearnhub. All rights reserved.</MutedPara>
+            <MutedPara>If you have any questions, contact us at <a href="mailto:smistore528982@gmail.com">smistore528982@gmail.com</a></MutedPara>
           </div>
         </div>
       </body>

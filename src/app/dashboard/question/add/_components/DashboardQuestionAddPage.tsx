@@ -3,7 +3,7 @@
 import * as React from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm, useFieldArray } from "react-hook-form";
-import { z } from "zod";
+
 import { Plus, Minus, X } from "@/components/elements/Icon";
 
 import { cn } from "@/src/lib/utils";
@@ -50,33 +50,7 @@ import { InputTags } from "./TagField";
 import { postData } from "@/src/lib/axios";
 import { ApiResponse } from "@/src/types/ApiResponse";
 import { useToast } from "@/src/hooks/use-toast";
-
-const questionSchema = z.object({
-  name: z.string().min(1, "Question name is required"),
-  type: z.enum(["multipleChoice", "trueFalse", "fillInTheBlank"]),
-  options: z.array(z.string()).min(2, "At least two options are required"),
-  correctOptions: z
-    .array(z.number())
-    .min(1, "At least one correct option is required"),
-  explanation: z.string().min(1, "Explanation is required"),
-  difficulty: z.enum(["easy", "medium", "hard"]),
-  time: z.number().min(1, "Time must be at least 1 second"),
-  score: z.number().min(1, "Score must be at least 1"),
-  passMark: z.number().optional(),
-  tags: z.array(z.string()),
-});
-
-const formSchema = z.object({
-  book: z.string().min(1, "Book selection is required"),
-  class: z.string().optional(),
-  chapter: z.string().min(1, "Chapter selection is required"),
-  heading: z.string().optional(),
-  subheading: z.string().optional(),
-  creationType: z.enum(["creation", "testing"]),
-  questions: z.array(questionSchema),
-});
-
-type FormValues = z.infer<typeof formSchema>;
+import { formSchema, QuestionFormValues } from "./QuestionSchema";
 
 export default function DashboardQuestionAddPage({
   userId
@@ -100,9 +74,20 @@ export default function DashboardQuestionAddPage({
     }
   };
 
+  const handleNext = async (step: number) => {
+    const isValidStep = await form.trigger();  // Trigger validation for the form fields
+    if (!isValidStep) {
+      console.log("Validation failed");
+      return;  // Prevent moving to the next step if validation fails
+    } else {
+      // Proceed to the next step if validation succeeds
+      handleButtonClick();
+    }
+  };
+
   const { toast } = useToast();
 
-  const form = useForm<FormValues>({
+  const form = useForm<QuestionFormValues>({
     resolver: zodResolver(formSchema),
     defaultValues: {
       book: "",
@@ -156,10 +141,10 @@ export default function DashboardQuestionAddPage({
   } = useGetSubHeadings(headingId);
 
 
-  const { reset, formState: { errors } } = form;
+  const { reset, getValues, trigger, formState: { errors } } = form;
 
 
-  const onSubmit = async (values: FormValues) => {
+  const onSubmit = async (values: QuestionFormValues) => {
     setIsSubmitting(true);
 
     // Prepare data for the API
@@ -171,8 +156,20 @@ export default function DashboardQuestionAddPage({
       heading: values.heading,
       subheading: values.subheading,
       creationType: values.creationType,
-      questions: values.questions,
+      questions: values.questions.map((question) => ({
+        name: question.name,
+        type: question.type,
+        options: question.options,
+        correctOptions: question.correctOptions,
+        explanation: question.explanation,
+        difficulty: question.difficulty,
+        time: question.time,
+        score: question.score,
+        tags: JSON.stringify(question.tags),
+      })),
     };
+
+    console.log("check false:", values.questions[0].correctOptions);
 
     try {
       const response = await postData<ApiResponse<any>, typeof data>(
@@ -969,6 +966,9 @@ export default function DashboardQuestionAddPage({
                       </CardContent>
                     </Card>
                   ))}
+
+                  {errors.book && <p>{errors.book.message}</p>}
+
                 </div>
               )}
 
@@ -983,8 +983,8 @@ export default function DashboardQuestionAddPage({
                 </Button>
                 <Button
                   type={currentStep === 3 ? "submit" : "button"}
-                  onClick={currentStep === 3 ? undefined : handleButtonClick} // Only handle click if not on the last step
-                  disabled={isSubmitting && isButtonDisabled} // Disable the button dynamically
+                  onClick={() => handleNext(currentStep)} // Wrap the async call in a valid function
+                  disabled={isSubmitting || isButtonDisabled} // Disable the button when submitting or disabled
                 >
                   {currentStep === 3 ? "Create Quiz" : "Next"}
                 </Button>

@@ -48,7 +48,7 @@ export default function Calculator({ url, data }: { url: string; data: any }) {
           <i>VU Mid Mark Calculator’s</i>
           user-friendly interface makes it easy for everyone to use.
         </MutedPara>
-        <p>If any features more, Plz Comment below, Thanks.</p>
+        <MutedPara>If any features more, Plz Comment below, Thanks.</MutedPara>
         <QuizPercentage
           calculatedQuiz={calculatedQuiz}
           setCalculatedQuiz={setCalculatedQuiz}

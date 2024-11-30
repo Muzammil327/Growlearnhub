@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Container from "../../../../components/elements/Container";
+import MutedPara from "@/src/components/ui/typography/MutedPara/page";
 
 export default function Feedback() {
   return (
@@ -17,10 +18,10 @@ export default function Feedback() {
             <h3 className="mb-4 text-3xl font-bold text-black dark:text-white lg:text-4xl">
               Student&apos;s Feedback
             </h3>
-            <p className="p4 text-center">
+            <MutedPara className="p4 text-center">
               Learning communicate to global world and build a bright future and
               career development, increase your skill with our histudy.
-            </p>
+            </MutedPara>
           </div>
           <div className="relative my-10">
             <Swiper

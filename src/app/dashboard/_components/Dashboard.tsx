@@ -82,11 +82,6 @@ export default function Dashboard({ userRole, userId, userUsername }: Session) {
                   count={data?.subheadings || 0}
                   icon={<Users className="h-6 w-6 text-white" />}
                 />
-                <StatCard
-                  title={"Total Tags"}
-                  count={data?.tags || 0}
-                  icon={<Users className="h-6 w-6 text-white" />}
-                />
               </React.Fragment>
             )}
           </React.Fragment>

@@ -5,6 +5,5 @@ export interface IpropsDashboard {
   headings?: number;
   users?: number;
   subheadings?: number;
-  tags?: number;
   questions: number;
 }

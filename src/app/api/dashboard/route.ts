@@ -39,7 +39,6 @@ export async function GET(
       const countSubheading = await pool.query(
         "SELECT COUNT(*) FROM subheadings",
       );
-      const countTag = await pool.query("SELECT COUNT(*) FROM tags");
       const countQuestion = await pool.query("SELECT COUNT(*) FROM questions");
       const countUser = await pool.query("SELECT COUNT(*) FROM users");
 
@@ -49,7 +48,6 @@ export async function GET(
         chapters: parseInt(countChapter.rows[0].count, 10),
         headings: parseInt(countHeading.rows[0].count, 10),
         subheadings: parseInt(countSubheading.rows[0].count, 10),
-        tags: parseInt(countTag.rows[0].count, 10),
         questions: parseInt(countQuestion.rows[0].count, 10),
         users: parseInt(countUser.rows[0].count, 10),
       };
