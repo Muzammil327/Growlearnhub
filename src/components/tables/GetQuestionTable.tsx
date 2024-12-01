@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ActionButtons from "@/src/components/tables/components/ActionButtons";
 import { DataTable } from "@/src/components/tables/components/DataTable";
 import { ColumnDef, Row } from "@tanstack/react-table";
@@ -8,39 +8,49 @@ import { useDeleteItem, usePaginationGetItems } from "@/src/hooks/useQuestion";
 import { Question } from "@/src/types/question";
 import { toast } from "@/src/hooks/use-toast";
 import { formatDate } from "@/src/lib/dateFnsUtils";
- 
+
 const ActionsCell: React.FC<{ itemId: number }> = ({ itemId }) => {
-  const { mutate, isError, isSuccess, error } = useDeleteItem(itemId);
-
-  if (isSuccess) {
-    toast({
-      title: "Success",
-      description: "You have successfully deleted!",
-      variant: "default",
-    });
-  }
-
-  if (isError && error instanceof Error) {
-    toast({
-      title: "Error",
-      description: error.message,
-      variant: "default",
-    });
-  }
+  const [loading, setLoading] = useState(false);
+  const { mutate, isPending, isError, isSuccess, error } = useDeleteItem(itemId);
 
   const handleDelete = async () => {
+    setLoading(true);
     try {
       await mutate();
     } catch (err) {
       console.error("Failed to delete:", err);
+    } finally {
+      setLoading(false);
     }
   };
+
+  useEffect(() => {
+    if (isSuccess) {
+      toast({
+        title: "Success",
+        description: "You have successfully deleted!",
+        variant: "default",
+      });
+    }
+
+    if (isError && error instanceof Error) {
+      toast({
+        title: "Error",
+        description: error.message,
+        variant: "default",
+      });
+    }
+  }, [isSuccess, isError, error]);
+
+
 
   return (
     <ActionButtons
       slug="/dashboard/question"
       id={itemId}
       handleDelete={handleDelete}
+      loading={isPending}
+      setLoading={setLoading}
     />
   );
 };

@@ -52,7 +52,7 @@ export async function POST(req: NextRequest) {
 
         const questionValues = [
           question.name,
-          question.creationType,
+          creationType,
           question.explanation,
           question.difficulty || "medium",
           question.time || 60, // Use 60 if time is not defined

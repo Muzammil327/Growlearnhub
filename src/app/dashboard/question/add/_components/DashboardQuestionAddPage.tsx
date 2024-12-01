@@ -180,6 +180,7 @@ export default function DashboardQuestionAddPage({
         toast({
           title: response.message,
         });
+        setCurrentStep(1);
         reset();
       } else {
         toast({
