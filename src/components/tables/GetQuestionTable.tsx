@@ -10,18 +10,14 @@ import { toast } from "@/src/hooks/use-toast";
 import { formatDate } from "@/src/lib/dateFnsUtils";
 
 const ActionsCell: React.FC<{ itemId: number }> = ({ itemId }) => {
-  const [loading, setLoading] = useState(false);
   const { mutate, isPending, isError, isSuccess, error } = useDeleteItem(itemId);
 
   const handleDelete = async () => {
-    setLoading(true);
     try {
       await mutate();
     } catch (err) {
       console.error("Failed to delete:", err);
-    } finally {
-      setLoading(false);
-    }
+    } 
   };
 
   useEffect(() => {
@@ -50,7 +46,6 @@ const ActionsCell: React.FC<{ itemId: number }> = ({ itemId }) => {
       id={itemId}
       handleDelete={handleDelete}
       loading={isPending}
-      setLoading={setLoading}
     />
   );
 };
