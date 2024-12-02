@@ -21,11 +21,11 @@ export async function GET() {
     const combinedData = [...data1, ...data2];
 
     const slug1 = combinedData.map(item => item.slug);
-    const slug2 = result.rows.map(item => item.slug);
+    // const slug2 = result.rows.map(item => item.slug);
 
     const combinedAllSlug = [
       ...slug1,
-      ...slug2
+      // ...slug2
     ]
 
     const uniqueSlugs = [...new Set(combinedAllSlug)];

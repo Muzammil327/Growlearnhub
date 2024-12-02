@@ -1,15 +1,611 @@
 [
     {
         "id": 1500,
-        "name": "Quiz 1",
-        "slug": "quiz-1",
-        "explanation": "fhfghgf",
-        "tags": ["dfgdfg", "fd", "g", "fdg"],
+        "name": "Which planet is known as Earth's twin?",
+        "slug": "which-planet-is-known-as-earths-twin",
+        "explanation": "Venus is often called Earth's twin due to its similar size and composition.",
+        "tags": [
+            "planet",
+            "earth",
+            "astronomy"
+        ],
         "options": [
-            { "text": "dfgdfg", "isCorrect": false },
-            { "text": "dfgdfgfd", "isCorrect": true },
-            { "text": "gfdgdf", "isCorrect": false },
-            { "text": "gfdgfd", "isCorrect": false }
+            {
+                "text": "Mars",
+                "isCorrect": false
+            },
+            {
+                "text": "Venus",
+                "isCorrect": true
+            },
+            {
+                "text": "Jupiter",
+                "isCorrect": false
+            },
+            {
+                "text": "Saturn",
+                "isCorrect": false
+            }
         ]
-    }    
+    },
+    {
+        "id": 1501,
+        "name": "What is the primary source of energy for Earth?",
+        "slug": "what-is-the-primary-source-of-energy-for-earth",
+        "explanation": "Solar energy is the primary source of energy for Earth, driving climate and weather systems.",
+        "tags": [
+            "energy",
+            "earth",
+            "solar"
+        ],
+        "options": [
+            {
+                "text": "Wind",
+                "isCorrect": false
+            },
+            {
+                "text": "Geothermal",
+                "isCorrect": false
+            },
+            {
+                "text": "Solar",
+                "isCorrect": true
+            },
+            {
+                "text": "Nuclear",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1502,
+        "name": "What is the primary component of the Earth's atmosphere?",
+        "slug": "what-is-the-primary-component-of-the-earths-atmosphere",
+        "explanation": "Nitrogen makes up about 78% of Earth's atmosphere, making it the primary component.",
+        "tags": [
+            "earth",
+            "atmosphere",
+            "nitrogen"
+        ],
+        "options": [
+            {
+                "text": "Oxygen",
+                "isCorrect": false
+            },
+            {
+                "text": "Nitrogen",
+                "isCorrect": true
+            },
+            {
+                "text": "Carbon dioxide",
+                "isCorrect": false
+            },
+            {
+                "text": "Argon",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1503,
+        "name": "Which human organ is capable of regenerating tissue?",
+        "slug": "which-human-organ-is-capable-of-regenerating-tissue",
+        "explanation": "The liver is the only organ in the human body capable of regenerating tissue after damage.",
+        "tags": [
+            "biology",
+            "liver",
+            "regeneration"
+        ],
+        "options": [
+            {
+                "text": "Heart",
+                "isCorrect": false
+            },
+            {
+                "text": "Liver",
+                "isCorrect": true
+            },
+            {
+                "text": "Lungs",
+                "isCorrect": false
+            },
+            {
+                "text": "Kidneys",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1504,
+        "name": "What is the main component of a computer's CPU?",
+        "slug": "what-is-the-main-component-of-a-computers-cpu",
+        "explanation": "The processor is the main component of a CPU, responsible for executing instructions.",
+        "tags": [
+            "technology",
+            "CPU",
+            "computer"
+        ],
+        "options": [
+            {
+                "text": "RAM",
+                "isCorrect": false
+            },
+            {
+                "text": "Motherboard",
+                "isCorrect": false
+            },
+            {
+                "text": "Processor",
+                "isCorrect": true
+            },
+            {
+                "text": "Hard Drive",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1505,
+        "name": "Which planet has the most moons?",
+        "slug": "which-planet-has-the-most-moons",
+        "explanation": "Jupiter has the most moons in the solar system, with 79 confirmed moons as of now.",
+        "tags": [
+            "planet",
+            "moons",
+            "jupiter"
+        ],
+        "options": [
+            {
+                "text": "Earth",
+                "isCorrect": false
+            },
+            {
+                "text": "Mars",
+                "isCorrect": false
+            },
+            {
+                "text": "Jupiter",
+                "isCorrect": true
+            },
+            {
+                "text": "Saturn",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1506,
+        "name": "What is the main purpose of a firewall in computer networks?",
+        "slug": "what-is-the-main-purpose-of-a-firewall-in-computer-networks",
+        "explanation": "A firewall's main purpose is to block unauthorized access to or from private networks.",
+        "tags": [
+            "technology",
+            "security",
+            "firewall"
+        ],
+        "options": [
+            {
+                "text": "Increase speed",
+                "isCorrect": false
+            },
+            {
+                "text": "Block unauthorized access",
+                "isCorrect": true
+            },
+            {
+                "text": "Store data",
+                "isCorrect": false
+            },
+            {
+                "text": "Enhance graphics",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1507,
+        "name": "Which gas is known as laughing gas?",
+        "slug": "which-gas-is-known-as-laughing-gas",
+        "explanation": "Nitrous oxide is commonly referred to as laughing gas because it causes a person to laugh when inhaled.",
+        "tags": [
+            "gas",
+            "laughing gas",
+            "nitrous oxide"
+        ],
+        "options": [
+            {
+                "text": "Nitrous oxide",
+                "isCorrect": true
+            },
+            {
+                "text": "Oxygen",
+                "isCorrect": false
+            },
+            {
+                "text": "Carbon dioxide",
+                "isCorrect": false
+            },
+            {
+                "text": "Helium",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1508,
+        "name": "Who is the author of 'Harry Potter'?",
+        "slug": "who-is-the-author-of-harry-potter",
+        "explanation": "J.K. Rowling is the British author who wrote the 'Harry Potter' series.",
+        "tags": [
+            "author",
+            "harry potter",
+            "books"
+        ],
+        "options": [
+            {
+                "text": "J.K. Rowling",
+                "isCorrect": true
+            },
+            {
+                "text": "J.R.R. Tolkien",
+                "isCorrect": false
+            },
+            {
+                "text": "Stephen King",
+                "isCorrect": false
+            },
+            {
+                "text": "Agatha Christie",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1509,
+        "name": "What is the main language spoken in Egypt?",
+        "slug": "what-is-the-main-language-spoken-in-egypt",
+        "explanation": "Arabic is the official language spoken by the majority of the population in Egypt.",
+        "tags": [
+            "language",
+            "egypt",
+            "arabic"
+        ],
+        "options": [
+            {
+                "text": "Arabic",
+                "isCorrect": true
+            },
+            {
+                "text": "French",
+                "isCorrect": false
+            },
+            {
+                "text": "English",
+                "isCorrect": false
+            },
+            {
+                "text": "Swahili",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1510,
+        "name": "Which animal is known for its ability to change colors?",
+        "slug": "which-animal-is-known-for-its-ability-to-change-colors",
+        "explanation": "Chameleons, octopuses, and cuttlefish are all capable of changing their color to blend in with their environment.",
+        "tags": [
+            "animal",
+            "color change",
+            "chameleon"
+        ],
+        "options": [
+            {
+                "text": "Chameleon",
+                "isCorrect": false
+            },
+            {
+                "text": "Octopus",
+                "isCorrect": false
+            },
+            {
+                "text": "Cuttlefish",
+                "isCorrect": false
+            },
+            {
+                "text": "All of the above",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "id": 1511,
+        "name": "Who discovered gravity?",
+        "slug": "who-discovered-gravity",
+        "explanation": "Isaac Newton is credited with discovering the law of gravity in the 17th century.",
+        "tags": [
+            "gravity",
+            "isaac newton",
+            "discovery"
+        ],
+        "options": [
+            {
+                "text": "Albert Einstein",
+                "isCorrect": false
+            },
+            {
+                "text": "Isaac Newton",
+                "isCorrect": true
+            },
+            {
+                "text": "Galileo Galilei",
+                "isCorrect": false
+            },
+            {
+                "text": "Nikola Tesla",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1512,
+        "name": "Which country is the Eiffel Tower located in?",
+        "slug": "which-country-is-the-eiffel-tower-located-in",
+        "explanation": "The Eiffel Tower is located in France, specifically in Paris, and is one of the most famous landmarks in the world.",
+        "tags": [
+            "landmark",
+            "eiffel tower",
+            "france"
+        ],
+        "options": [
+            {
+                "text": "France",
+                "isCorrect": true
+            },
+            {
+                "text": "Germany",
+                "isCorrect": false
+            },
+            {
+                "text": "Spain",
+                "isCorrect": false
+            },
+            {
+                "text": "Italy",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1513,
+        "name": "What is the main component of the sun?",
+        "slug": "what-is-the-main-component-of-the-sun",
+        "explanation": "Hydrogen is the primary component of the sun, making up about 75% of its mass.",
+        "tags": [
+            "sun",
+            "hydrogen",
+            "astronomy"
+        ],
+        "options": [
+            {
+                "text": "Hydrogen",
+                "isCorrect": true
+            },
+            {
+                "text": "Helium",
+                "isCorrect": false
+            },
+            {
+                "text": "Oxygen",
+                "isCorrect": false
+            },
+            {
+                "text": "Carbon",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1514,
+        "name": "What is the most common blood type?",
+        "slug": "what-is-the-most-common-blood-type",
+        "explanation": "Blood type O is the most common blood type worldwide.",
+        "tags": [
+            "blood type",
+            "O",
+            "health"
+        ],
+        "options": [
+            {
+                "text": "A",
+                "isCorrect": false
+            },
+            {
+                "text": "B",
+                "isCorrect": false
+            },
+            {
+                "text": "AB",
+                "isCorrect": false
+            },
+            {
+                "text": "O",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "id": 1515,
+        "name": "Which planet is known for having the most moons?",
+        "slug": "which-planet-is-known-for-having-the-most-moons",
+        "explanation": "Saturn is the planet known to have the most moons in our solar system.",
+        "tags": [
+            "planet",
+            "moons",
+            "saturn"
+        ],
+        "options": [
+            {
+                "text": "Earth",
+                "isCorrect": false
+            },
+            {
+                "text": "Mars",
+                "isCorrect": false
+            },
+            {
+                "text": "Jupiter",
+                "isCorrect": false
+            },
+            {
+                "text": "Saturn",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "id": 1516,
+        "name": "Which ocean is known as the 'Southern Ocean'?",
+        "slug": "which-ocean-is-known-as-the-southern-ocean",
+        "explanation": "The Southern Ocean, also called the Antarctic Ocean, is the body of water surrounding Antarctica.",
+        "tags": [
+            "ocean",
+            "southern ocean",
+            "antarctic ocean"
+        ],
+        "options": [
+            {
+                "text": "Atlantic Ocean",
+                "isCorrect": false
+            },
+            {
+                "text": "Indian Ocean",
+                "isCorrect": false
+            },
+            {
+                "text": "Pacific Ocean",
+                "isCorrect": false
+            },
+            {
+                "text": "Antarctic Ocean",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "id": 1517,
+        "name": "What is the name of the fairy tale character who lost her glass slipper?",
+        "slug": "what-is-the-name-of-the-fairy-tale-character-who-lost-her-glass-slipper",
+        "explanation": "Cinderella is the fairy tale character who lost her glass slipper, leading to her marriage with a prince.",
+        "tags": [
+            "fairy tale",
+            "cinderella",
+            "glass slipper"
+        ],
+        "options": [
+            {
+                "text": "Snow White",
+                "isCorrect": false
+            },
+            {
+                "text": "Cinderella",
+                "isCorrect": true
+            },
+            {
+                "text": "Rapunzel",
+                "isCorrect": false
+            },
+            {
+                "text": "Sleeping Beauty",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1518,
+        "name": "Which organ is responsible for pumping blood throughout the human body?",
+        "slug": "which-organ-is-responsible-for-pumping-blood-throughout-the-human-body",
+        "explanation": "The heart is responsible for pumping blood throughout the human body, ensuring circulation and oxygen delivery.",
+        "tags": [
+            "heart",
+            "blood",
+            "human body"
+        ],
+        "options": [
+            {
+                "text": "Liver",
+                "isCorrect": false
+            },
+            {
+                "text": "Lungs",
+                "isCorrect": false
+            },
+            {
+                "text": "Heart",
+                "isCorrect": true
+            },
+            {
+                "text": "Kidneys",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1519,
+        "name": "Which planet has the most extensive rings?",
+        "slug": "which-planet-has-the-most-extensive-rings",
+        "explanation": "Saturn has the most extensive and well-known ring system of any planet in our solar system.",
+        "tags": [
+            "planet",
+            "rings",
+            "saturn"
+        ],
+        "options": [
+            {
+                "text": "Saturn",
+                "isCorrect": true
+            },
+            {
+                "text": "Jupiter",
+                "isCorrect": false
+            },
+            {
+                "text": "Uranus",
+                "isCorrect": false
+            },
+            {
+                "text": "Neptune",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1520,
+        "name": "Which technology is used in compact disks?",
+        "slug": "which-technology-is-used-in-compact-disks",
+        "explanation": "Compact Disks (CDs) use laser technology to read and write data stored on the disk's surface.",
+        "tags": [
+            "technology",
+            "compact disks",
+            "laser"
+        ],
+        "options": [
+            {
+                "text": "Laser technology",
+                "isCorrect": true
+            },
+            {
+                "text": "Magnetic tape",
+                "isCorrect": false
+            },
+            {
+                "text": "Optical fiber",
+                "isCorrect": false
+            },
+            {
+                "text": "Hard disk",
+                "isCorrect": false
+            }
+        ]
+    }
 ]
