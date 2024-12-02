@@ -1,27 +1,41 @@
-type SitemapFile = {
-  url: string
-  lastModified?: string | Date
-  changeFrequency?:
-    | "always"
-    | "daily"
-    | "hourly"
-    | "weekly"
-    | "monthly"
-    | "yearly"
-    | "never"
-  priority?: number
-}
+// import fetch from 'node-fetch';
 
-const FRONTEND_URL = process.env.NEXT_PUBLIC_FRONTEND_URL
+type SitemapFile = {
+  url: string;
+  lastModified?: string | Date;
+  changeFrequency?:
+  | "always"
+  | "daily"
+  | "hourly"
+  | "weekly"
+  | "monthly"
+  | "yearly"
+  | "never";
+  priority?: number;
+};
+
+const FRONTEND_URL = process.env.NEXT_PUBLIC_FRONTEND_URL;
 
 export default async function sitemap(): Promise<SitemapFile[]> {
+  // const response = await fetch(`https://growlearnhub.com/api/sitemaps`);
+  // const datas = await response.json() as string[];
+  // console.log("Datas:", datas)
   try {
+    // const RoutesQuestionData: SitemapFile[] = datas
+    //   ? datas.map((data: string) => ({
+    //     url: `${FRONTEND_URL}/${data}/`,
+    //     lastModified: new Date().toISOString(),
+    //     priority: 0.8,
+    //     changeFrequency: "weekly" as "weekly",
+    //   }))
+    //   : [];
+
     const RoutesData: SitemapFile[] = data.map((data) => ({
       url: `${FRONTEND_URL}/${data}/`,
       lastModified: new Date().toISOString(),
       priority: 0.8,
-      changeFrequency: "weekly" as "weekly"
-    }))
+      changeFrequency: "weekly" as "weekly",
+    }));
 
     // Combine all routes
     const routes: SitemapFile[] = [
@@ -29,15 +43,16 @@ export default async function sitemap(): Promise<SitemapFile[]> {
         url: `${FRONTEND_URL}/`,
         lastModified: new Date().toISOString(),
         priority: 1,
-        changeFrequency: "always"
+        changeFrequency: "always",
       },
       ...RoutesData,
-    ]
+      // ...RoutesQuestionData,
+    ];
 
-    return routes
+    return routes;
   } catch (error) {
-    console.error("Error", error)
-    return []
+    console.error("Error", error);
+    return [];
   }
 }
 
@@ -66,8 +81,8 @@ const singleroute = [
   "explore-topics",
   "jobs-opportunities",
   "study-group",
-  "success-stories"
-]
+  "success-stories",
+];
 
 const class9route = [
   "class-9/books",
@@ -101,7 +116,7 @@ const class9route = [
   // "class-9/mcqs/chemistry",
   // "class-9/mcqs/biology",
 
-  "class-9/notes",  
+  "class-9/notes",
   // "class-9/notes/physics",
   // "class-9/notes/chemistry",
   // "class-9/notes/biology",
@@ -130,7 +145,7 @@ const class9route = [
   // "class-9/past-paper/lahore-board-chemistry",
   // "class-9/past-paper/lahore-board-physics",
   // "class-9/past-paper/lahore-board-math",
-  
+
   "class-9/result",
   // "class-9/result/bahawalpur-board",
   // "class-9/result/dg-khan-board",
@@ -141,7 +156,7 @@ const class9route = [
   // "class-9/result/rawalpindi-board",
   // "class-9/result/sahiwal-board",
   // "class-9/result/sargodha-board",
-]
+];
 
 const class10route = [
   "class-10/books",
@@ -165,8 +180,8 @@ const class10route = [
   "class-10/online-test",
   "class-10/pairing-scheme",
   "class-10/past-paper",
-  "class-10/result"
-]
+  "class-10/result",
+];
 
 const class11route = [
   "class-11/books",
@@ -186,8 +201,8 @@ const class11route = [
   "class-11/online-test",
   "class-11/pairing-scheme",
   "class-11/past-paper",
-  "class-11/result"
-]
+  "class-11/result",
+];
 
 const class12route = [
   "class-12/books",
@@ -207,8 +222,8 @@ const class12route = [
   "class-12/online-test",
   "class-12/pairing-scheme",
   "class-12/past-paper",
-  "class-12/result"
-]
+  "class-12/result",
+];
 
 const vuroute = [
   "vu/handouts",
@@ -274,7 +289,7 @@ const vuroute = [
 
   // "vu/handouts/phy101",
   // "vu/handouts/phy301"
-]
+];
 
 const mcqspointroute = [
   "mcqs-point/physics",
@@ -292,7 +307,7 @@ const mcqspointroute = [
   // "mcqs-point/general-knowledge/pakistan",
   // "mcqs-point/general-knowledge/india",
   // "mcqs-point/general-knowledge/world-knowledge",
-]
+];
 
 const data = [
   ...singleroute,
@@ -301,8 +316,8 @@ const data = [
   ...class11route,
   ...class12route,
   ...mcqspointroute,
-  ...vuroute
-]
+  ...vuroute,
+];
 // import sitemapMcqsData from "@/src/app/sitemap/mcqs/sitemapMcqsData"
 
 // // Assuming SitemapFile is the correct type
@@ -527,7 +542,7 @@ const data = [
 
 //   "vu/handouts/phy101",
 //   "vu/handouts/phy301"
-  
+
 // ]
 
 // const mcqspointroute = [

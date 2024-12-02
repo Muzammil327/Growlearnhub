@@ -1,0 +1,117 @@
+import { GetUsers } from "./actions";
+import QuizClient from "./QuizClient";
+
+interface ProductDetail {
+  slug: string;
+}
+
+interface PageProps {
+  params: Promise<ProductDetail>;
+}
+
+// This function fetches the quiz data and renders the page
+export default async function QuizPage({ params }: PageProps) {
+  const slug = (await params).slug;
+  const data = await GetUsers(slug);
+
+  return <QuizClient quizData={data} />
+}
+
+// // Function to sanitize HTML description (strip any tags)
+function sanitizeDescription(description: string) {
+  return description.replace(/<\/?[^>]+(>|$)/g, ''); // Removes HTML tags
+}
+
+export async function generateMetadata({ params }: PageProps) {
+  const slug = (await params).slug;
+
+  try {
+    const data = await GetUsers(slug);
+
+    const keywords = (() => {
+      if (typeof data.tags === 'string') {
+        try {
+          // Try to parse as JSON if tags is a string
+          const parsed = JSON.parse(data.tags);
+          if (Array.isArray(parsed)) {
+            return parsed.join(', ');
+          }
+        } catch {
+          // If parsing fails, assume it's a comma-separated string
+          return data.tags.split(',').map((tag: string) => tag.trim()).join(', ');
+        }
+      } else if (Array.isArray(data.tags)) {
+        // If tags is already an array, join it into a string
+        return data.tags.join(', ');
+      }
+      // Fallback if no valid tags
+      return '';
+    })();
+
+    return {
+      title: data.name,
+      description: sanitizeDescription(data.explanation),
+      keywords: keywords,
+      alternates: {
+        canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/mcqs-point/${slug}`,
+      },
+      robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+          index: true,
+          follow: true,
+        },
+      },
+      openGraph: {
+        title: data.name,
+        description: sanitizeDescription(data.explanation),
+        url: `${process.env.NEXT_PUBLIC_FRONTEND_LINK}/mcqs-point/${slug}`,
+        images: [
+          {
+            alt: data?.name,
+          },
+        ],
+      },
+      twitter: {
+        title: data.name,
+        description: sanitizeDescription(data.explanation),
+        images: {
+          alt: data?.name,
+        },
+      },
+    };
+  } catch (error) {
+    console.error("Error fetching product data:", error);
+    return {
+      title: "Error",
+      description: "Unable to fetch product data",
+      alternates: {
+        canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/mcqs-point/${slug}`,
+      },
+      robots: {
+        index: false,
+        follow: false,
+      },
+      openGraph: {
+        title: "Error",
+        description: "Unable to fetch product data",
+        url: `${process.env.NEXT_PUBLIC_SITE_URL}/mcqs-point/${slug}`,
+        images: [
+          {
+            url: "/default-error-image.jpg",
+            alt: "Error",
+          },
+        ],
+      },
+      twitter: {
+        title: "Error",
+        description: "Unable to fetch product data",
+        images: {
+          url: "/default-error-image.jpg",
+          alt: "Error",
+        },
+      },
+    };
+  }
+}
