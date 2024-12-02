@@ -23,7 +23,7 @@ export default async function sitemap(): Promise<SitemapFile[]> {
   try {
     const RoutesQuestionData: SitemapFile[] = datas.map(
       (data:string) => ({
-        url: `${FRONTEND_URL}/${data}/`,
+        url: `${FRONTEND_URL}/mcqs-point/${data}/`,
         lastModified: new Date().toISOString(),
         priority: 0.8,
         changeFrequency: "weekly" as "weekly",
