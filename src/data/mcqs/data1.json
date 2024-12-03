@@ -2016,5 +2016,1007 @@
                 "isCorrect": false
             }
         ]
+    },
+    {
+        "id": 1570,
+        "question": "Which is the largest province of Pakistan by area?",
+        "slug": "which-is-the-largest-province-of-pakistan-by-area",
+        "explanation": "The largest province of Pakistan by area is Balochistan.",
+        "tags": [
+            "Pakistan",
+            "geography"
+        ],
+        "options": [
+            {
+                "text": "Punjab",
+                "isCorrect": false
+            },
+            {
+                "text": "Balochistan",
+                "isCorrect": true
+            },
+            {
+                "text": "Sindh",
+                "isCorrect": false
+            },
+            {
+                "text": "Khyber Pakhtunkhwa",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1571,
+        "question": "What is the national language of Pakistan?",
+        "slug": "what-is-the-national-language-of-pakistan",
+        "explanation": "The national language of Pakistan is Urdu.",
+        "tags": [
+            "Pakistan",
+            "language"
+        ],
+        "options": [
+            {
+                "text": "Punjabi",
+                "isCorrect": false
+            },
+            {
+                "text": "Urdu",
+                "isCorrect": true
+            },
+            {
+                "text": "Sindhi",
+                "isCorrect": false
+            },
+            {
+                "text": "Pashto",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1572,
+        "question": "When did Pakistan gain independence?",
+        "slug": "when-did-pakistan-gain-independence",
+        "explanation": "Pakistan gained independence on August 14, 1947.",
+        "tags": [
+            "Pakistan",
+            "history"
+        ],
+        "options": [
+            {
+                "text": "1945",
+                "isCorrect": false
+            },
+            {
+                "text": "1947",
+                "isCorrect": true
+            },
+            {
+                "text": "1950",
+                "isCorrect": false
+            },
+            {
+                "text": "1946",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1573,
+        "question": "What does PRA stand for in Pakistan?",
+        "slug": "what-does-pra-stand-for-in-pakistan",
+        "explanation": "PRA stands for Pakistan Revenue Authority.",
+        "tags": [
+            "Pakistan",
+            "organizations"
+        ],
+        "options": [
+            {
+                "text": "Pakistan Railway Association",
+                "isCorrect": false
+            },
+            {
+                "text": "Pakistan Revenue Authority",
+                "isCorrect": true
+            },
+            {
+                "text": "Public Revenue Agency",
+                "isCorrect": false
+            },
+            {
+                "text": "Pakistan Registration Authority",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1574,
+        "question": "What is the primary role of the Pakistan Army?",
+        "slug": "what-is-the-primary-role-of-the-pakistan-army",
+        "explanation": "The primary role of the Pakistan Army is to ensure national security and defend the country against external threats.",
+        "tags": [
+            "Pakistan",
+            "defense"
+        ],
+        "options": [
+            {
+                "text": "Maintain international peace",
+                "isCorrect": false
+            },
+            {
+                "text": "Defend the country against external threats",
+                "isCorrect": true
+            },
+            {
+                "text": "Oversee civilian government activities",
+                "isCorrect": false
+            },
+            {
+                "text": "Support law enforcement during elections",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1575,
+        "question": "Which city in Pakistan is famous for its archaeological sites?",
+        "slug": "which-city-in-pakistan-is-famous-for-its-archaeological-sites",
+        "explanation": "Mohenjo-Daro, an archaeological site of the Indus Valley Civilization, is located in the city of Larkana, Sindh.",
+        "tags": [
+            "Pakistan",
+            "archaeology"
+        ],
+        "options": [
+            {
+                "text": "Karachi",
+                "isCorrect": false
+            },
+            {
+                "text": "Larkana",
+                "isCorrect": true
+            },
+            {
+                "text": "Lahore",
+                "isCorrect": false
+            },
+            {
+                "text": "Peshawar",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1576,
+        "question": "What is the main purpose of the Pakistan Resolution Day?",
+        "slug": "what-is-the-main-purpose-of-the-pakistan-resolution-day",
+        "explanation": "Pakistan Resolution Day commemorates the Lahore Resolution of 1940, which called for an independent state for Muslims in the Indian subcontinent.",
+        "tags": [
+            "Pakistan",
+            "history"
+        ],
+        "options": [
+            {
+                "text": "To celebrate independence",
+                "isCorrect": false
+            },
+            {
+                "text": "To honor the Lahore Resolution",
+                "isCorrect": true
+            },
+            {
+                "text": "To commemorate the creation of Pakistan",
+                "isCorrect": false
+            },
+            {
+                "text": "To recognize national heroes",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1577,
+        "question": "Which Pakistani actress has gained fame in Bollywood?",
+        "slug": "which-pakistani-actress-has-gained-fame-in-bollywood",
+        "explanation": "Mahira Khan is a renowned Pakistani actress who has gained fame in Bollywood, especially for her role in the movie 'Raees.'",
+        "tags": [
+            "Pakistan",
+            "entertainment"
+        ],
+        "options": [
+            {
+                "text": "Sajal Aly",
+                "isCorrect": false
+            },
+            {
+                "text": "Mahira Khan",
+                "isCorrect": true
+            },
+            {
+                "text": "Mehwish Hayat",
+                "isCorrect": false
+            },
+            {
+                "text": "Maya Ali",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1578,
+        "question": "Which region of Pakistan is famous for its fruit orchards?",
+        "slug": "which-region-of-pakistan-is-famous-for-its-fruit-orchards",
+        "explanation": "Balochistan is famous for its vast fruit orchards, producing fruits like apples, cherries, and pomegranates.",
+        "tags": [
+            "Pakistan",
+            "agriculture"
+        ],
+        "options": [
+            {
+                "text": "Punjab",
+                "isCorrect": false
+            },
+            {
+                "text": "Balochistan",
+                "isCorrect": true
+            },
+            {
+                "text": "Sindh",
+                "isCorrect": false
+            },
+            {
+                "text": "Khyber Pakhtunkhwa",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1579,
+        "question": "Which Pakistani singer is known internationally for his song 'Dil Dil Pakistan'?",
+        "slug": "which-pakistani-singer-is-known-internationally-for-his-song-dil-dil-pakistan",
+        "explanation": "'Dil Dil Pakistan' by Junaid Jamshed became an iconic patriotic song, earning international recognition.",
+        "tags": [
+            "Pakistan",
+            "music"
+        ],
+        "options": [
+            {
+                "text": "Nusrat Fateh Ali Khan",
+                "isCorrect": false
+            },
+            {
+                "text": "Junaid Jamshed",
+                "isCorrect": true
+            },
+            {
+                "text": "Atif Aslam",
+                "isCorrect": false
+            },
+            {
+                "text": "Abrar-ul-Haq",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1580,
+        "question": "What is the primary function of the Indus River System Authority (IRSA)?",
+        "slug": "what-is-the-primary-function-of-the-indus-river-system-authority-irsa",
+        "explanation": "The primary function of IRSA is to regulate and distribute water resources among the provinces of Pakistan.",
+        "tags": [
+            "Pakistan",
+            "water management"
+        ],
+        "options": [
+            {
+                "text": "Provide drinking water to rural areas",
+                "isCorrect": false
+            },
+            {
+                "text": "Distribute water resources among provinces",
+                "isCorrect": true
+            },
+            {
+                "text": "Control flood management",
+                "isCorrect": false
+            },
+            {
+                "text": "Ensure clean water access for all",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1581,
+        "question": "Which city is known for the historic Badshahi Mosque?",
+        "slug": "which-city-is-known-for-the-historic-badshahi-mosque",
+        "explanation": "Lahore is home to the Badshahi Mosque, one of the largest and most iconic mosques in Pakistan.",
+        "tags": [
+            "Pakistan",
+            "history"
+        ],
+        "options": [
+            {
+                "text": "Karachi",
+                "isCorrect": false
+            },
+            {
+                "text": "Lahore",
+                "isCorrect": true
+            },
+            {
+                "text": "Islamabad",
+                "isCorrect": false
+            },
+            {
+                "text": "Peshawar",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1582,
+        "question": "What is the main agricultural product of Pakistan?",
+        "slug": "what-is-the-main-agricultural-product-of-pakistan",
+        "explanation": "Wheat is the main agricultural product of Pakistan, being a staple food for the country's population.",
+        "tags": [
+            "Pakistan",
+            "agriculture"
+        ],
+        "options": [
+            {
+                "text": "Rice",
+                "isCorrect": false
+            },
+            {
+                "text": "Wheat",
+                "isCorrect": true
+            },
+            {
+                "text": "Sugarcane",
+                "isCorrect": false
+            },
+            {
+                "text": "Cotton",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1583,
+        "question": "Which Pakistani city is known for its textile industry?",
+        "slug": "which-pakistani-city-is-known-for-its-textile-industry",
+        "explanation": "Faisalabad is known as the textile hub of Pakistan, contributing significantly to the country's economy.",
+        "tags": [
+            "Pakistan",
+            "industry"
+        ],
+        "options": [
+            {
+                "text": "Karachi",
+                "isCorrect": false
+            },
+            {
+                "text": "Faisalabad",
+                "isCorrect": true
+            },
+            {
+                "text": "Lahore",
+                "isCorrect": false
+            },
+            {
+                "text": "Multan",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1584,
+        "question": "Which mineral is Pakistan rich in?",
+        "slug": "which-mineral-is-pakistan-rich-in",
+        "explanation": "Pakistan is rich in copper, particularly found in the Reko Diq area of Balochistan.",
+        "tags": [
+            "Pakistan",
+            "natural-resources"
+        ],
+        "options": [
+            {
+                "text": "Gold",
+                "isCorrect": false
+            },
+            {
+                "text": "Copper",
+                "isCorrect": true
+            },
+            {
+                "text": "Silver",
+                "isCorrect": false
+            },
+            {
+                "text": "Iron",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1585,
+        "question": "What is the traditional dress of men in Pakistan called?",
+        "slug": "what-is-the-traditional-dress-of-men-in-pakistan-called",
+        "explanation": "The traditional dress for men in Pakistan is called Shalwar Kameez, which is worn throughout the country.",
+        "tags": [
+            "Pakistan",
+            "culture"
+        ],
+        "options": [
+            {
+                "text": "Sherwani",
+                "isCorrect": false
+            },
+            {
+                "text": "Shalwar Kameez",
+                "isCorrect": true
+            },
+            {
+                "text": "Kurta Pajama",
+                "isCorrect": false
+            },
+            {
+                "text": "Achkan",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1586,
+        "question": "Which Pakistani city is famous for its mangoes?",
+        "slug": "which-pakistani-city-is-famous-for-its-mangoes",
+        "explanation": "Multan is renowned for its mango production and is often referred to as the 'Mango Capital of Pakistan.'",
+        "tags": [
+            "Pakistan",
+            "agriculture",
+            "fruits"
+        ],
+        "options": [
+            {
+                "text": "Karachi",
+                "isCorrect": false
+            },
+            {
+                "text": "Multan",
+                "isCorrect": true
+            },
+            {
+                "text": "Lahore",
+                "isCorrect": false
+            },
+            {
+                "text": "Peshawar",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1587,
+        "question": "What is the population of Pakistan approximately?",
+        "slug": "what-is-the-population-of-pakistan-approximately",
+        "explanation": "As of 2024, Pakistan's population is approximately 240 million, making it the fifth most populous country in the world.",
+        "tags": [
+            "Pakistan",
+            "demographics"
+        ],
+        "options": [
+            {
+                "text": "200 million",
+                "isCorrect": false
+            },
+            {
+                "text": "240 million",
+                "isCorrect": true
+            },
+            {
+                "text": "300 million",
+                "isCorrect": false
+            },
+            {
+                "text": "180 million",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1588,
+        "question": "Which region is known for its diverse culture and languages in Pakistan?",
+        "slug": "which-region-is-known-for-its-diverse-culture-and-languages-in-pakistan",
+        "explanation": "Sindh is known for its rich cultural heritage and linguistic diversity, including Sindhi, Urdu, and other languages.",
+        "tags": [
+            "Pakistan",
+            "culture",
+            "languages"
+        ],
+        "options": [
+            {
+                "text": "Punjab",
+                "isCorrect": false
+            },
+            {
+                "text": "Sindh",
+                "isCorrect": true
+            },
+            {
+                "text": "Balochistan",
+                "isCorrect": false
+            },
+            {
+                "text": "Khyber Pakhtunkhwa",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1589,
+        "question": "Which Pakistani cricketer is known as the 'Sultan of Swing'?",
+        "slug": "which-pakistani-cricketer-is-known-as-the-sultan-of-swing",
+        "explanation": "Wasim Akram, one of the greatest fast bowlers in cricket history, is famously known as the 'Sultan of Swing' for his mastery of swing bowling.",
+        "tags": [
+            "Pakistan",
+            "sports",
+            "cricket"
+        ],
+        "options": [
+            {
+                "text": "Waqar Younis",
+                "isCorrect": false
+            },
+            {
+                "text": "Wasim Akram",
+                "isCorrect": true
+            },
+            {
+                "text": "Imran Khan",
+                "isCorrect": false
+            },
+            {
+                "text": "Shoaib Akhtar",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1590,
+        "question": "What is the primary source of energy in Pakistan?",
+        "slug": "what-is-the-primary-source-of-energy-in-pakistan",
+        "explanation": "The primary source of energy in Pakistan is natural gas, which is used extensively for power generation and domestic purposes.",
+        "tags": [
+            "Pakistan",
+            "energy",
+            "resources"
+        ],
+        "options": [
+            {
+                "text": "Coal",
+                "isCorrect": false
+            },
+            {
+                "text": "Natural Gas",
+                "isCorrect": true
+            },
+            {
+                "text": "Hydropower",
+                "isCorrect": false
+            },
+            {
+                "text": "Nuclear",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1591,
+        "question": "Which city is known for its rich history and culture, often referred to as the 'City of Gardens'?",
+        "slug": "which-city-is-known-as-the-city-of-gardens",
+        "explanation": "Lahore is often called the 'City of Gardens' due to its historical gardens like Shalimar Bagh and its vibrant cultural heritage.",
+        "tags": [
+            "Pakistan",
+            "history",
+            "culture"
+        ],
+        "options": [
+            {
+                "text": "Islamabad",
+                "isCorrect": false
+            },
+            {
+                "text": "Lahore",
+                "isCorrect": true
+            },
+            {
+                "text": "Karachi",
+                "isCorrect": false
+            },
+            {
+                "text": "Peshawar",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1592,
+        "question": "Which famous mausoleum is located in Lahore?",
+        "slug": "which-famous-mausoleum-is-located-in-lahore",
+        "explanation": "The mausoleum of Emperor Jahangir, a Mughal emperor, is a famous historical site located in Lahore.",
+        "tags": [
+            "Pakistan",
+            "history",
+            "landmarks"
+        ],
+        "options": [
+            {
+                "text": "Mausoleum of Quaid-e-Azam",
+                "isCorrect": false
+            },
+            {
+                "text": "Mausoleum of Jahangir",
+                "isCorrect": true
+            },
+            {
+                "text": "Badshahi Mosque",
+                "isCorrect": false
+            },
+            {
+                "text": "Minar-e-Pakistan",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1593,
+        "question": "Which type of climate is predominant in Pakistan?",
+        "slug": "which-type-of-climate-is-predominant-in-pakistan",
+        "explanation": "Pakistan primarily experiences an arid climate, characterized by hot summers and limited rainfall, though it varies by region.",
+        "tags": [
+            "Pakistan",
+            "climate",
+            "geography"
+        ],
+        "options": [
+            {
+                "text": "Temperate",
+                "isCorrect": false
+            },
+            {
+                "text": "Arid",
+                "isCorrect": true
+            },
+            {
+                "text": "Tropical",
+                "isCorrect": false
+            },
+            {
+                "text": "Mediterranean",
+                "isCorrect": false
+            }
+        ]
+    },
+
+    {
+        "id": 1594,
+        "question": "What is the literacy rate in Pakistan?",
+        "slug": "what-is-the-literacy-rate-in-pakistan",
+        "explanation": "As of recent estimates, the literacy rate in Pakistan is approximately 60%. The literacy rate is higher in urban areas compared to rural regions.",
+        "tags": [
+            "Pakistan",
+            "education",
+            "literacy"
+        ],
+        "options": [
+            {
+                "text": "50%",
+                "isCorrect": false
+            },
+            {
+                "text": "60%",
+                "isCorrect": true
+            },
+            {
+                "text": "70%",
+                "isCorrect": false
+            },
+            {
+                "text": "80%",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1595,
+        "question": "Which animal is commonly associated with the Indus Valley civilization?",
+        "slug": "which-animal-is-associated-with-the-indus-valley-civilization",
+        "explanation": "The unicorn, a mythical animal often depicted in seals from the Indus Valley civilization, is commonly associated with this ancient culture.",
+        "tags": [
+            "Pakistan",
+            "history",
+            "civilizations"
+        ],
+        "options": [
+            {
+                "text": "Lion",
+                "isCorrect": false
+            },
+            {
+                "text": "Unicorn",
+                "isCorrect": true
+            },
+            {
+                "text": "Elephant",
+                "isCorrect": false
+            },
+            {
+                "text": "Horse",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1596,
+        "question": "Which city is known as the 'Heart of Pakistan'?",
+        "slug": "which-city-is-known-as-the-heart-of-pakistan",
+        "explanation": "Lahore is often referred to as the 'Heart of Pakistan' due to its cultural, historical, and political significance in the country.",
+        "tags": [
+            "Pakistan",
+            "cities",
+            "culture"
+        ],
+        "options": [
+            {
+                "text": "Karachi",
+                "isCorrect": false
+            },
+            {
+                "text": "Lahore",
+                "isCorrect": true
+            },
+            {
+                "text": "Islamabad",
+                "isCorrect": false
+            },
+            {
+                "text": "Peshawar",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1597,
+        "question": "What is the primary occupation of people in rural Pakistan?",
+        "slug": "what-is-the-primary-occupation-of-people-in-rural-pakistan",
+        "explanation": "Agriculture is the primary occupation of people in rural Pakistan, with many relying on farming, livestock, and related activities for their livelihoods.",
+        "tags": [
+            "Pakistan",
+            "rural",
+            "agriculture"
+        ],
+        "options": [
+            {
+                "text": "Mining",
+                "isCorrect": false
+            },
+            {
+                "text": "Agriculture",
+                "isCorrect": true
+            },
+            {
+                "text": "Manufacturing",
+                "isCorrect": false
+            },
+            {
+                "text": "Trade",
+                "isCorrect": false
+            }
+        ]
+    },
+
+    {
+        "id": 1598,
+        "question": "Which province is known for its rich mineral resources?",
+        "slug": "which-province-is-known-for-its-rich-mineral-resources",
+        "explanation": "Balochistan is known for its rich mineral resources, including coal, natural gas, and various precious metals.",
+        "tags": [
+            "Pakistan",
+            "minerals",
+            "Balochistan"
+        ],
+        "options": [
+            {
+                "text": "Punjab",
+                "isCorrect": false
+            },
+            {
+                "text": "Balochistan",
+                "isCorrect": true
+            },
+            {
+                "text": "Sindh",
+                "isCorrect": false
+            },
+            {
+                "text": "Khyber Pakhtunkhwa",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1599,
+        "question": "What is the national dish of Pakistan?",
+        "slug": "what-is-the-national-dish-of-pakistan",
+        "explanation": "Biryani is widely considered Pakistan's national dish, loved for its rich flavor and variety across different regions.",
+        "tags": [
+            "Pakistan",
+            "food",
+            "cuisine"
+        ],
+        "options": [
+            {
+                "text": "Karahi",
+                "isCorrect": false
+            },
+            {
+                "text": "Biryani",
+                "isCorrect": true
+            },
+            {
+                "text": "Nihari",
+                "isCorrect": false
+            },
+            {
+                "text": "Haleem",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1600,
+        "question": "What is the main export of Pakistan?",
+        "slug": "what-is-the-main-export-of-pakistan",
+        "explanation": "Textiles, including garments, fabrics, and other related products, are Pakistan's main export, contributing significantly to the economy.",
+        "tags": [
+            "Pakistan",
+            "exports",
+            "economy"
+        ],
+        "options": [
+            {
+                "text": "Oil",
+                "isCorrect": false
+            },
+            {
+                "text": "Textiles",
+                "isCorrect": true
+            },
+            {
+                "text": "Agricultural products",
+                "isCorrect": false
+            },
+            {
+                "text": "Automobiles",
+                "isCorrect": false
+            }
+        ]
+    },
+
+    {
+        "id": 1601,
+        "question": "Which sport is traditionally played in the northern areas of Pakistan?",
+        "slug": "which-sport-is-traditionally-played-in-the-northern-areas-of-pakistan",
+        "explanation": "The traditional sport in the northern areas of Pakistan, especially in the regions of Gilgit-Baltistan, is Polo. It has been played for centuries and remains a significant part of the local culture.",
+        "tags": [
+            "Pakistan",
+            "sports",
+            "Polo"
+        ],
+        "options": [
+            {
+                "text": "Cricket",
+                "isCorrect": false
+            },
+            {
+                "text": "Polo",
+                "isCorrect": true
+            },
+            {
+                "text": "Football",
+                "isCorrect": false
+            },
+            {
+                "text": "Hockey",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1602,
+        "question": "Which Pakistani city is famous for its truck art?",
+        "slug": "which-pakistani-city-is-famous-for-its-truck-art",
+        "explanation": "Karachi is widely known for its truck art, which is a colorful and intricate style of decoration applied to trucks, buses, and other vehicles. This art is part of Pakistan's cultural heritage.",
+        "tags": [
+            "Pakistan",
+            "culture",
+            "art",
+            "Karachi"
+        ],
+        "options": [
+            {
+                "text": "Lahore",
+                "isCorrect": false
+            },
+            {
+                "text": "Karachi",
+                "isCorrect": true
+            },
+            {
+                "text": "Islamabad",
+                "isCorrect": false
+            },
+            {
+                "text": "Peshawar",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1603,
+        "question": "What is the national anthem of Pakistan?",
+        "slug": "what-is-the-national-anthem-of-pakistan",
+        "explanation": "The national anthem of Pakistan is called 'Qaumi Taranah,' composed by Ahmed Ghulamali Chagla. It was adopted in 1952 and is written in Urdu.",
+        "tags": [
+            "Pakistan",
+            "national anthem",
+            "culture"
+        ],
+        "options": [
+            {
+                "text": "Jana Gana Mana",
+                "isCorrect": false
+            },
+            {
+                "text": "Qaumi Taranah",
+                "isCorrect": true
+            },
+            {
+                "text": "Vande Mataram",
+                "isCorrect": false
+            },
+            {
+                "text": "My Country Tis of Thee",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1604,
+        "question": "Who is the founder of Pakistan?",
+        "slug": "who-is-the-founder-of-pakistan",
+        "explanation": "The founder of Pakistan is Muhammad Ali Jinnah, who played a pivotal role in the creation of Pakistan in 1947 and served as its first Governor-General until his death.",
+        "tags": [
+            "Pakistan",
+            "history",
+            "founder"
+        ],
+        "options": [
+            {
+                "text": "Allama Iqbal",
+                "isCorrect": false
+            },
+            {
+                "text": "Muhammad Ali Jinnah",
+                "isCorrect": true
+            },
+            {
+                "text": "Zulfikar Ali Bhutto",
+                "isCorrect": false
+            },
+            {
+                "text": "Benazir Bhutto",
+                "isCorrect": false
+            }
+        ]
     }
 ]

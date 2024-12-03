@@ -7603,6 +7603,17 @@
 //             "slug": "what-is-the-main-religion-practiced-in-pakistan",
 //             "id": 882
 //         },
+
+
+
+
+
+
+
+
+
+
+
 //         {
 //             "question": "Who is the founder of Pakistan?",
 //             "options": [
@@ -7615,8 +7626,10 @@
 //             "slug": "who-is-the-founder-of-pakistan",
 //             "id": 883
 //         },
+
+
 //         {
-//             "question": "What is the national anthem of Pakistan?",
+//             "question": "",
 //             "options": [
 //                 "Aye Quaid-e-Azam",
 //                 "Qaumi Taranah",
@@ -7627,43 +7640,55 @@
 //             "slug": "what-is-the-national-anthem-of-pakistan",
 //             "id": 884
 //         },
+
+
 //         {
-//             "question": "Which Pakistani city is famous for its truck art?",
+//             "question": "",
 //             "options": ["Karachi", "Lahore", "Peshawar", "Islamabad"],
 //             "answer": "Karachi",
 //             "slug": "which-pakistani-city-is-famous-for-its-truck-art",
 //             "id": 885
 //         },
+
+
+
 //         {
-//             "question": "Which sport is traditionally played in the northern areas of Pakistan?",
+//             "question": "",
 //             "options": ["Cricket", "Football", "Polo", "Basketball"],
 //             "answer": "Polo",
 //             "slug": "which-sport-is-traditionally-played-in-the-northern-areas-of-pakistan",
 //             "id": 886
 //         },
+
+
 //         {
-//             "question": "What is the main export of Pakistan?",
+//             "question": "",
 //             "options": ["Textiles", "Rice", "Fruits", "Leather"],
 //             "answer": "Textiles",
 //             "slug": "what-is-the-main-export-of-pakistan",
 //             "id": 887
 //         },
+
+
 //         {
-//             "question": "What is the national dish of Pakistan?",
+//             "question": "",
 //             "options": ["Biryani", "Karahi", "Nihari", "Halwa"],
 //             "answer": "Biryani",
 //             "slug": "what-is-the-national-dish-of-pakistan",
 //             "id": 888
 //         },
+
+
+
 //         {
-//             "question": "Which province is known for its rich mineral resources?",
+//             "question": "",
 //             "options": ["Punjab", "Sindh", "Balochistan", "Khyber Pakhtunkhwa"],
 //             "answer": "Balochistan",
 //             "slug": "which-province-is-known-for-its-rich-mineral-resources",
 //             "id": 889
 //         },
 //         {
-//             "question": "What is the primary occupation of people in rural Pakistan?",
+//             "question": "",
 //             "options": ["Farming", "Teaching", "Engineering", "Health care"],
 //             "answer": "Farming",
 //             "slug": "what-is-the-primary-occupation-of-people-in-rural-pakistan",
@@ -7677,226 +7702,16 @@
 //             "id": 891
 //         },
 //         {
-//             "question": "Which animal is commonly associated with the Indus Valley civilization?",
+//             "question": "",
 //             "options": ["Elephant", "Buffalo", "Cow", "Sheep"],
 //             "answer": "Buffalo",
 //             "slug": "which-animal-is-commonly-associated-with-the-indus-valley-civilization",
 //             "id": 892
 //         },
 //         {
-//             "question": "What is the literacy rate in Pakistan?",
+//             "question": "",
 //             "options": ["50%", "60%", "70%", "80%"],
 //             "answer": "60%",
 //             "slug": "what-is-the-literacy-rate-in-pakistan",
 //             "id": 893
 //         },
-//         {
-//             "question": "Which type of climate is predominant in Pakistan?",
-//             "options": ["Tropical", "Temperate", "Arid", "Polar"],
-//             "answer": "Arid",
-//             "slug": "which-type-of-climate-is-predominant-in-pakistan",
-//             "id": 894
-//         },
-//         {
-//             "question": "Which famous mausoleum is located in Lahore?",
-//             "options": [
-//                 "Mausoleum of Muhammad Ali Jinnah",
-//                 "Badshahi Mosque",
-//                 "Shah Jahan's Tomb",
-//                 "Minar-e-Pakistan"
-//             ],
-//             "answer": "Mausoleum of Muhammad Ali Jinnah",
-//             "slug": "which-famous-mausoleum-is-located-in-lahore",
-//             "id": 895
-//         },
-//         {
-//             "question": "Which city is known for its rich history and culture, often referred to as the 'City of Gardens'?",
-//             "options": ["Karachi", "Lahore", "Multan", "Peshawar"],
-//             "answer": "Lahore",
-//             "slug": "which-city-is-known-for-its-rich-history-and-culture-often-referred-to-as-the-city-of-gardens",
-//             "id": 896
-//         },
-//         {
-//             "question": "What is the primary source of energy in Pakistan?",
-//             "options": ["Natural Gas", "Coal", "Hydropower", "Solar Energy"],
-//             "answer": "Natural Gas",
-//             "slug": "what-is-the-primary-source-of-energy-in-pakistan",
-//             "id": 897
-//         },
-//         {
-//             "question": "Which Pakistani cricketer is known as the 'Sultan of Swing'?",
-//             "options": [
-//                 "Wasim Akram",
-//                 "Imran Khan",
-//                 "Waqar Younis",
-//                 "Inzamam-ul-Haq"
-//             ],
-//             "answer": "Wasim Akram",
-//             "slug": "which-pakistani-cricketer-is-known-as-the-sultan-of-swing",
-//             "id": 898
-//         },
-//         {
-//             "question": "Which region is known for its diverse culture and languages in Pakistan?",
-//             "options": ["Punjab", "Sindh", "Balochistan", "Khyber Pakhtunkhwa"],
-//             "answer": "Khyber Pakhtunkhwa",
-//             "slug": "which-region-is-known-for-its-diverse-culture-and-languages-in-pakistan",
-//             "id": 899
-//         },
-//         {
-//             "question": "What is the population of Pakistan approximately?",
-//             "options": ["150 million", "200 million", "250 million", "300 million"],
-//             "answer": "250 million",
-//             "slug": "what-is-the-population-of-pakistan-approximately",
-//             "id": 900
-//         },
-//         {
-//             "question": "Which Pakistani city is famous for its mangoes?",
-//             "options": ["Multan", "Karachi", "Lahore", "Faisalabad"],
-//             "answer": "Multan",
-//             "slug": "which-pakistani-city-is-famous-for-its-mangoes",
-//             "id": 901
-//         },
-//         {
-//             "question": "What is the traditional dress of men in Pakistan called?",
-//             "options": ["Shalwar Kameez", "Lungi", "Sherwani", "Dhoti"],
-//             "answer": "Shalwar Kameez",
-//             "slug": "what-is-the-traditional-dress-of-men-in-pakistan-called",
-//             "id": 902
-//         },
-//         {
-//             "question": "Which mineral is Pakistan rich in?",
-//             "options": ["Coal", "Gold", "Copper", "Iron"],
-//             "answer": "Copper",
-//             "slug": "which-mineral-is-pakistan-rich-in",
-//             "id": 903
-//         },
-//         {
-//             "question": "Which Pakistani city is known for its textile industry?",
-//             "options": ["Karachi", "Faisalabad", "Lahore", "Peshawar"],
-//             "answer": "Faisalabad",
-//             "slug": "which-pakistani-city-is-known-for-its-textile-industry",
-//             "id": 904
-//         },
-//         {
-//             "question": "What is the main agricultural product of Pakistan?",
-//             "options": ["Cotton", "Rice", "Wheat", "Sugarcane"],
-//             "answer": "Cotton",
-//             "slug": "what-is-the-main-agricultural-product-of-pakistan",
-//             "id": 905
-//         },
-//         {
-//             "question": "Which city is known for the historic Badshahi Mosque?",
-//             "options": ["Karachi", "Lahore", "Multan", "Peshawar"],
-//             "answer": "Lahore",
-//             "slug": "which-city-is-known-for-the-historic-badshahi-mosque",
-//             "id": 906
-//         },
-//         {
-//             "question": "What is the primary function of the Indus River System Authority (IRSA)?",
-//             "options": [
-//                 "Water distribution",
-//                 "Energy production",
-//                 "Flood control",
-//                 "Irrigation"
-//             ],
-//             "answer": "Water distribution",
-//             "slug": "what-is-the-primary-function-of-the-indus-river-system-authority-irsa",
-//             "id": 907
-//         },
-//         {
-//             "question": "Which Pakistani singer is known internationally for his song 'Dil Dil Pakistan'?",
-//             "options": [
-//                 "Nusrat Fateh Ali Khan",
-//                 "Abida Parveen",
-//                 "Vital Signs",
-//                 "Atif Aslam"
-//             ],
-//             "answer": "Vital Signs",
-//             "slug": "which-pakistani-singer-is-known-internationally-for-his-song-dil-dil-pakistan",
-//             "id": 908
-//         },
-//         {
-//             "question": "Which region of Pakistan is famous for its fruit orchards?",
-//             "options": ["Punjab", "Sindh", "Khyber Pakhtunkhwa", "Gilgit-Baltistan"],
-//             "answer": "Gilgit-Baltistan",
-//             "slug": "which-region-of-pakistan-is-famous-for-its-fruit-orchards",
-//             "id": 909
-//         },
-//         {
-//             "question": "Which Pakistani actress has gained fame in Bollywood?",
-//             "options": ["Mahira Khan", "Sajal Aly", "Ayeza Khan", "Mehwish Hayat"],
-//             "answer": "Mahira Khan",
-//             "slug": "which-pakistani-actress-has-gained-fame-in-bollywood",
-//             "id": 910
-//         },
-//         {
-//             "question": "What is the main purpose of the Pakistan Resolution Day?",
-//             "options": [
-//                 "To celebrate Independence",
-//                 "To commemorate the formation of Pakistan",
-//                 "To honor military heroes",
-//                 "To promote unity"
-//             ],
-//             "answer": "To commemorate the formation of Pakistan",
-//             "slug": "what-is-the-main-purpose-of-the-pakistan-resolution-day",
-//             "id": 911
-//         },
-//         {
-//             "question": "Which city in Pakistan is famous for its archaeological sites?",
-//             "options": ["Karachi", "Lahore", "Taxila", "Peshawar"],
-//             "answer": "Taxila",
-//             "slug": "which-city-in-pakistan-is-famous-for-its-archaeological-sites",
-//             "id": 912
-//         },
-//         {
-//             "question": "What is the primary role of the Pakistan Army?",
-//             "options": [
-//                 "Defending the country",
-//                 "Economic development",
-//                 "Education",
-//                 "Health care"
-//             ],
-//             "answer": "Defending the country",
-//             "slug": "what-is-the-primary-role-of-the-pakistan-army",
-//             "id": 913
-//         },
-//         {
-//             "question": "What does PRA stand for in Pakistan?",
-//             "options": [
-//                 "Pakistan Revenue Authority",
-//                 "Pakistan Regulatory Authority",
-//                 "Pakistan Remittance Authority",
-//                 "Pakistan Research Agency"
-//             ],
-//             "answer": "Pakistan Revenue Authority",
-//             "slug": "what-does-pra-stand-for-in-pakistan",
-//             "id": 914
-//         },
-//         {
-//             "question": "When did Pakistan gain independence?",
-//             "options": ["1945", "1947", "1950", "1952"],
-//             "answer": "1947",
-//             "slug": "when-did-pakistan-gain-independence",
-//             "id": 915
-//         },
-//         {
-//             "question": "What is the national language of Pakistan?",
-//             "options": ["Urdu", "Punjabi", "Sindhi", "Pashto"],
-//             "answer": "Urdu",
-//             "slug": "what-is-the-national-language-of-pakistan",
-//             "id": 916
-//         },
-//         {
-//             "question": "Which is the largest province of Pakistan by area?",
-//             "options": ["Punjab", "Sindh", "Khyber Pakhtunkhwa", "Balochistan"],
-//             "answer": "Balochistan",
-//             "slug": "which-is-the-largest-province-of-pakistan-by-area",
-//             "id": 917
-//         },
-//         
-//        
-       
-//     ]
-// }
-
-
