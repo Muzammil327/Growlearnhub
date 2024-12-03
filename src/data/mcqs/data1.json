@@ -607,5 +607,1414 @@
                 "isCorrect": false
             }
         ]
+    },
+    {
+        "id": 1521,
+        "question": "Which planet is known as the Blue Planet?",
+        "slug": "which-planet-is-known-as-the-blue-planet",
+        "explanation": "Earth is called the Blue Planet because over 70% of its surface is covered with water, giving it a blue appearance from space.",
+        "tags": [
+            "earth",
+            "planets",
+            "blue planet"
+        ],
+        "options": [
+            {
+                "text": "Earth",
+                "isCorrect": true
+            },
+            {
+                "text": "Mars",
+                "isCorrect": false
+            },
+            {
+                "text": "Neptune",
+                "isCorrect": false
+            },
+            {
+                "text": "Uranus",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1522,
+        "question": "What is the primary color of a stop sign?",
+        "slug": "what-is-the-primary-color-of-a-stop-sign",
+        "explanation": "Stop signs are red to catch attention and convey a sense of urgency and warning, following international traffic standards.",
+        "tags": [
+            "traffic signs",
+            "colors",
+            "stop sign"
+        ],
+        "options": [
+            {
+                "text": "Red",
+                "isCorrect": true
+            },
+            {
+                "text": "Yellow",
+                "isCorrect": false
+            },
+            {
+                "text": "Green",
+                "isCorrect": false
+            },
+            {
+                "text": "Blue",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1523,
+        "question": "Which animal is known as the Ship of the Desert?",
+        "slug": "which-animal-is-known-as-the-ship-of-the-desert",
+        "explanation": "Camels are called the Ship of the Desert due to their ability to travel long distances in deserts while carrying heavy loads.",
+        "tags": [
+            "animals",
+            "deserts",
+            "camel"
+        ],
+        "options": [
+            {
+                "text": "Camel",
+                "isCorrect": true
+            },
+            {
+                "text": "Horse",
+                "isCorrect": false
+            },
+            {
+                "text": "Elephant",
+                "isCorrect": false
+            },
+            {
+                "text": "Donkey",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1524,
+        "question": "Mohmand Dam is located on which river?",
+        "slug": "mohmand-dam-is-located-on-which-river",
+        "explanation": "Mohmand Dam is built on the Kabul River in Pakistan, aimed at providing water storage and power generation.",
+        "tags": [
+            "rivers",
+            "dams",
+            "pakistan"
+        ],
+        "options": [
+            {
+                "text": "Kabul",
+                "isCorrect": true
+            },
+            {
+                "text": "Indus",
+                "isCorrect": false
+            },
+            {
+                "text": "Jhelum",
+                "isCorrect": false
+            },
+            {
+                "text": "Swat",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1525,
+        "question": "Which country is home to the kangaroo?",
+        "slug": "which-country-is-home-to-the-kangaroo",
+        "explanation": "Australia is the native home of kangaroos, which are marsupials unique to the region.",
+        "tags": [
+            "animals",
+            "australia",
+            "kangaroo"
+        ],
+        "options": [
+            {
+                "text": "Australia",
+                "isCorrect": true
+            },
+            {
+                "text": "New Zealand",
+                "isCorrect": false
+            },
+            {
+                "text": "South Africa",
+                "isCorrect": false
+            },
+            {
+                "text": "Canada",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1526,
+        "question": "What is the name of the longest river in Asia?",
+        "slug": "what-is-the-name-of-the-longest-river-in-asia",
+        "explanation": "The Yangtze River, located in China, is the longest river in Asia and the third longest in the world.",
+        "tags": [
+            "rivers",
+            "asia",
+            "yangtze"
+        ],
+        "options": [
+            {
+                "text": "Yangtze",
+                "isCorrect": true
+            },
+            {
+                "text": "Yellow",
+                "isCorrect": false
+            },
+            {
+                "text": "Ganges",
+                "isCorrect": false
+            },
+            {
+                "text": "Mekong",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1527,
+        "question": "What is the main purpose of the Pakistan Bureau of Statistics?",
+        "slug": "what-is-the-main-purpose-of-the-pakistan-bureau-of-statistics",
+        "explanation": "The Pakistan Bureau of Statistics primarily conducts censuses and gathers statistical data to assist in policymaking and planning.",
+        "tags": [
+            "Pakistan",
+            "bureau of statistics",
+            "census"
+        ],
+        "options": [
+            {
+                "text": "Conducting Census",
+                "isCorrect": true
+            },
+            {
+                "text": "Collecting Taxes",
+                "isCorrect": false
+            },
+            {
+                "text": "Formulating Policies",
+                "isCorrect": false
+            },
+            {
+                "text": "Conducting Elections",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1528,
+        "question": "What does the green color in the Pakistani flag represent?",
+        "slug": "what-does-the-green-color-in-the-pakistani-flag-represent",
+        "explanation": "The green color in the Pakistani flag represents Islam, which is the predominant religion in the country.",
+        "tags": [
+            "Pakistan flag",
+            "Islam",
+            "symbolism"
+        ],
+        "options": [
+            {
+                "text": "Peace",
+                "isCorrect": false
+            },
+            {
+                "text": "Islam",
+                "isCorrect": true
+            },
+            {
+                "text": "Fertility",
+                "isCorrect": false
+            },
+            {
+                "text": "Progress",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1529,
+        "question": "Which Pakistani city is known for producing the best quality basmati rice?",
+        "slug": "which-pakistani-city-is-known-for-producing-the-best-quality-basmati-rice",
+        "explanation": "Jhang is widely recognized for producing high-quality basmati rice, a staple export of Pakistan.",
+        "tags": [
+            "Pakistan",
+            "basmati rice",
+            "Jhang"
+        ],
+        "options": [
+            {
+                "text": "Sialkot",
+                "isCorrect": false
+            },
+            {
+                "text": "Jhang",
+                "isCorrect": true
+            },
+            {
+                "text": "Faisalabad",
+                "isCorrect": false
+            },
+            {
+                "text": "Lahore",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1530,
+        "question": "What is the most populous city in Pakistan?",
+        "slug": "what-is-the-most-populous-city-in-pakistan",
+        "explanation": "Karachi is the most populous city in Pakistan and serves as its economic hub.",
+        "tags": [
+            "Pakistan",
+            "Karachi",
+            "population"
+        ],
+        "options": [
+            {
+                "text": "Karachi",
+                "isCorrect": true
+            },
+            {
+                "text": "Lahore",
+                "isCorrect": false
+            },
+            {
+                "text": "Hyderabad",
+                "isCorrect": false
+            },
+            {
+                "text": "Quetta",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1531,
+        "question": "What is the main theme of Pakistan's national anthem?",
+        "slug": "what-is-the-main-theme-of-pakistans-national-anthem",
+        "explanation": "Pakistan's national anthem emphasizes unity, love for the country, and freedom.",
+        "tags": [
+            "Pakistan",
+            "national anthem",
+            "unity"
+        ],
+        "options": [
+            {
+                "text": "Unity",
+                "isCorrect": false
+            },
+            {
+                "text": "Love for the Country",
+                "isCorrect": false
+            },
+            {
+                "text": "Freedom",
+                "isCorrect": false
+            },
+            {
+                "text": "All of the above",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "id": 1532,
+        "question": "Churna Island is located in which city of Pakistan?",
+        "slug": "churna-island-is-located-in-which-city-of-pakistan",
+        "explanation": "Churna Island is situated near Karachi and is a popular destination for water sports and marine exploration.",
+        "tags": [
+            "Pakistan",
+            "Churna Island",
+            "Karachi"
+        ],
+        "options": [
+            {
+                "text": "Karachi",
+                "isCorrect": true
+            },
+            {
+                "text": "Islamabad",
+                "isCorrect": false
+            },
+            {
+                "text": "Lahore",
+                "isCorrect": false
+            },
+            {
+                "text": "Quetta",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1533,
+        "question": "What is the largest mosque in Pakistan?",
+        "slug": "what-is-the-largest-mosque-in-pakistan",
+        "explanation": "Faisal Mosque, located in Islamabad, is the largest mosque in Pakistan. It is known for its unique design and significant historical importance.",
+        "tags": [
+            "mosques",
+            "Pakistan",
+            "Islamabad"
+        ],
+        "options": [
+            {
+                "text": "Faisal Mosque",
+                "isCorrect": true
+            },
+            {
+                "text": "Badshahi Mosque",
+                "isCorrect": false
+            },
+            {
+                "text": "Minar-e-Pakistan",
+                "isCorrect": false
+            },
+            {
+                "text": "Shah Faisal Mosque",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1534,
+        "question": "Which sport is Pakistan known for winning the World Cup?",
+        "slug": "which-sport-is-pakistan-known-for-winning-the-world-cup",
+        "explanation": "Pakistan won the ICC Cricket World Cup in 1992 under the captaincy of Imran Khan, a significant moment in the country's sports history.",
+        "tags": [
+            "sports",
+            "cricket",
+            "World Cup"
+        ],
+        "options": [
+            {
+                "text": "Cricket",
+                "isCorrect": true
+            },
+            {
+                "text": "Hockey",
+                "isCorrect": false
+            },
+            {
+                "text": "Football",
+                "isCorrect": false
+            },
+            {
+                "text": "Kabaddi",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1535,
+        "question": "What is the popular name for the city of Lahore?",
+        "slug": "what-is-the-popular-name-for-the-city-of-lahore",
+        "explanation": "Lahore is popularly known as 'The City of Gardens' due to its numerous parks and green spaces.",
+        "tags": [
+            "Lahore",
+            "city names",
+            "Pakistan"
+        ],
+        "options": [
+            {
+                "text": "The City of Gardens",
+                "isCorrect": true
+            },
+            {
+                "text": "The City of Lights",
+                "isCorrect": false
+            },
+            {
+                "text": "The City of Angels",
+                "isCorrect": false
+            },
+            {
+                "text": "The City of Joy",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1536,
+        "question": "Which historical figure is known as the Poet of the East in Pakistan?",
+        "slug": "which-historical-figure-is-known-as-the-poet-of-the-east-in-pakistan",
+        "explanation": "Allama Iqbal, also known as the Poet of the East, is celebrated for his inspiring poetry and philosophical contributions to the idea of Pakistan.",
+        "tags": [
+            "poetry",
+            "Allama Iqbal",
+            "Pakistan"
+        ],
+        "options": [
+            {
+                "text": "Allama Iqbal",
+                "isCorrect": true
+            },
+            {
+                "text": "Faiz Ahmed Faiz",
+                "isCorrect": false
+            },
+            {
+                "text": "Ghalib",
+                "isCorrect": false
+            },
+            {
+                "text": "Mirza Rafi Sauda",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1537,
+        "question": "What is the primary agricultural product of Pakistan?",
+        "slug": "what-is-the-primary-agricultural-product-of-pakistan",
+        "explanation": "Cotton is one of Pakistan's most important agricultural products, contributing significantly to the textile industry.",
+        "tags": [
+            "agriculture",
+            "cotton",
+            "Pakistan"
+        ],
+        "options": [
+            {
+                "text": "Wheat",
+                "isCorrect": false
+            },
+            {
+                "text": "Rice",
+                "isCorrect": false
+            },
+            {
+                "text": "Cotton",
+                "isCorrect": true
+            },
+            {
+                "text": "Sugarcane",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1538,
+        "question": "Which of the following countries shares a border with Pakistan?",
+        "slug": "which-of-the-following-countries-shares-a-border-with-pakistan",
+        "explanation": "Pakistan shares its borders with India, Afghanistan, and Iran, making it a strategic country in South Asia.",
+        "tags": [
+            "geography",
+            "Pakistan",
+            "borders"
+        ],
+        "options": [
+            {
+                "text": "India",
+                "isCorrect": false
+            },
+            {
+                "text": "Afghanistan",
+                "isCorrect": false
+            },
+            {
+                "text": "Iran",
+                "isCorrect": false
+            },
+            {
+                "text": "All of the above",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "id": 1539,
+        "question": "What is the most popular television channel in Pakistan?",
+        "slug": "what-is-the-most-popular-television-channel-in-pakistan",
+        "answer": "Geo TV",
+        "explanation": "Geo TV is one of the most watched television channels in Pakistan, known for its news, entertainment, and current affairs programming.",
+        "tags": [
+            "television",
+            "Pakistan",
+            "media"
+        ],
+        "options": [
+            {
+                "text": "Geo TV",
+                "isCorrect": true
+            },
+            {
+                "text": "ARY Digital",
+                "isCorrect": false
+            },
+            {
+                "text": "PTV",
+                "isCorrect": false
+            },
+            {
+                "text": "Dunya News",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1540,
+        "question": "What is the main source of income for Pakistan?",
+        "slug": "what-is-the-main-source-of-income-for-pakistan",
+        "answer": "Agriculture",
+        "explanation": "Agriculture is the main source of income for Pakistan, contributing a significant portion of the country's GDP and providing employment to a large portion of the population.",
+        "tags": [
+            "economy",
+            "Pakistan",
+            "agriculture"
+        ],
+        "options": [
+            {
+                "text": "Agriculture",
+                "isCorrect": true
+            },
+            {
+                "text": "Industry",
+                "isCorrect": false
+            },
+            {
+                "text": "Services",
+                "isCorrect": false
+            },
+            {
+                "text": "Mining",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1541,
+        "question": "Which Pakistani politician served as the first female Prime Minister?",
+        "slug": "which-pakistani-politician-served-as-the-first-female-prime-minister",
+        "answer": "Benazir Bhutto",
+        "explanation": "Benazir Bhutto was the first female Prime Minister of Pakistan, serving from 1988 to 1990 and again from 1993 to 1996.",
+        "tags": [
+            "politics",
+            "Pakistan",
+            "Benazir Bhutto",
+            "first female prime minister"
+        ],
+        "options": [
+            {
+                "text": "Benazir Bhutto",
+                "isCorrect": true
+            },
+            {
+                "text": "Fatima Jinnah",
+                "isCorrect": false
+            },
+            {
+                "text": "Hina Rabbani Khar",
+                "isCorrect": false
+            },
+            {
+                "text": "Marvi Memon",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1542,
+        "question": "Which city is known as the 'Manchester of Pakistan'?",
+        "slug": "which-city-is-known-as-the-manchester-of-pakistan",
+        "answer": "Faisalabad",
+        "explanation": "Faisalabad is known as the 'Manchester of Pakistan' due to its prominent role in the textile industry, similar to Manchester in the UK.",
+        "tags": [
+            "cities",
+            "Pakistan",
+            "Faisalabad",
+            "textiles"
+        ],
+        "options": [
+            {
+                "text": "Karachi",
+                "isCorrect": false
+            },
+            {
+                "text": "Faisalabad",
+                "isCorrect": true
+            },
+            {
+                "text": "Lahore",
+                "isCorrect": false
+            },
+            {
+                "text": "Multan",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1543,
+        "question": "What is the highest military award in Pakistan?",
+        "slug": "what-is-the-highest-military-award-in-pakistan",
+        "answer": "Nishan-e-Haider",
+        "explanation": "Nishan-e-Haider is Pakistan's highest military award, given to soldiers who display extraordinary bravery in combat.",
+        "tags": [
+            "military",
+            "Pakistan",
+            "awards"
+        ],
+        "options": [
+            {
+                "text": "Nishan-e-Haider",
+                "isCorrect": true
+            },
+            {
+                "text": "Tamgha-e-Jurat",
+                "isCorrect": false
+            },
+            {
+                "text": "Sitara-e-Imtiaz",
+                "isCorrect": false
+            },
+            {
+                "text": "President's Pride of Performance",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1544,
+        "question": "Which of the following is a popular tourist destination in Pakistan?",
+        "slug": "which-of-the-following-is-a-popular-tourist-destination-in-pakistan",
+        "answer": "Murree",
+        "explanation": "Murree is a well-known hill station and tourist destination in Pakistan, offering scenic views, cool weather, and a variety of outdoor activities.",
+        "tags": [
+            "tourism",
+            "Pakistan",
+            "Murree",
+            "mountains"
+        ],
+        "options": [
+            {
+                "text": "Murree",
+                "isCorrect": true
+            },
+            {
+                "text": "Karachi",
+                "isCorrect": false
+            },
+            {
+                "text": "Quetta",
+                "isCorrect": false
+            },
+            {
+                "text": "Lahore",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1545,
+        "question": "What is the significance of the Pakistan Resolution?",
+        "slug": "what-is-the-significance-of-the-pakistan-resolution",
+        "answer": "Creation of Pakistan",
+        "explanation": "The Pakistan Resolution, passed in 1940, laid the foundation for the creation of Pakistan by advocating for a separate homeland for Muslims in British India.",
+        "tags": [
+            "history",
+            "Pakistan",
+            "Pakistan Resolution",
+            "independence"
+        ],
+        "options": [
+            {
+                "text": "Creation of Pakistan",
+                "isCorrect": true
+            },
+            {
+                "text": "Independence Day",
+                "isCorrect": false
+            },
+            {
+                "text": "Declaration of the Constitution",
+                "isCorrect": false
+            },
+            {
+                "text": "Formation of the Army",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1546,
+        "question": "Which famous landmark is located in Lahore?",
+        "slug": "which-famous-landmark-is-located-in-lahore",
+        "explanation": "The Badshahi Mosque is one of the largest and most famous mosques in Pakistan, located in Lahore.",
+        "tags": [
+            "landmark",
+            "Lahore",
+            "Pakistan"
+        ],
+        "options": [
+            {
+                "text": "Badshahi Mosque",
+                "isCorrect": true
+            },
+            {
+                "text": "Faisal Mosque",
+                "isCorrect": false
+            },
+            {
+                "text": "Minar-e-Pakistan",
+                "isCorrect": false
+            },
+            {
+                "text": "Karachi Port",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1547,
+        "question": "What is the main industry in Sindh province?",
+        "slug": "what-is-the-main-industry-in-sindh-province",
+        "explanation": "Textile is the main industry in Sindh province, with major textile mills located in the region.",
+        "tags": [
+            "industry",
+            "Sindh",
+            "Pakistan",
+            "textile"
+        ],
+        "options": [
+            {
+                "text": "Textile",
+                "isCorrect": true
+            },
+            {
+                "text": "Agriculture",
+                "isCorrect": false
+            },
+            {
+                "text": "Mining",
+                "isCorrect": false
+            },
+            {
+                "text": "Construction",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1548,
+        "question": "Which political party is associated with the founder of Pakistan?",
+        "slug": "which-political-party-is-associated-with-the-founder-of-pakistan",
+        "explanation": "The Pakistan Muslim League is associated with the founder of Pakistan, Quaid-e-Azam Muhammad Ali Jinnah.",
+        "tags": [
+            "politics",
+            "Pakistan",
+            "founder"
+        ],
+        "options": [
+            {
+                "text": "Pakistan Muslim League",
+                "isCorrect": true
+            },
+            {
+                "text": "Pakistan People's Party",
+                "isCorrect": false
+            },
+            {
+                "text": "Pakistan Tehreek-e-Insaf",
+                "isCorrect": false
+            },
+            {
+                "text": "Muttahida Qaumi Movement",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1549,
+        "question": "What is the age of adulthood in Pakistan?",
+        "slug": "what-is-the-age-of-adulthood-in-pakistan",
+        "explanation": "In Pakistan, the legal age of adulthood is 18, at which individuals can vote and be considered fully responsible.",
+        "tags": [
+            "adulthood",
+            "Pakistan",
+            "legal age"
+        ],
+        "options": [
+            {
+                "text": "18",
+                "isCorrect": true
+            },
+            {
+                "text": "21",
+                "isCorrect": false
+            },
+            {
+                "text": "16",
+                "isCorrect": false
+            },
+            {
+                "text": "25",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1550,
+        "question": "Which of the following is a UNESCO World Heritage Site in Pakistan?",
+        "slug": "which-of-the-following-is-a-unesco-world-heritage-site-in-pakistan",
+        "explanation": "Mohenjo-daro, an ancient city of the Indus Valley Civilization, is a UNESCO World Heritage Site located in Pakistan.",
+        "tags": [
+            "UNESCO",
+            "heritage",
+            "Mohenjo-daro",
+            "Pakistan"
+        ],
+        "options": [
+            {
+                "text": "Mohenjo-daro",
+                "isCorrect": true
+            },
+            {
+                "text": "The Great Wall",
+                "isCorrect": false
+            },
+            {
+                "text": "Taj Mahal",
+                "isCorrect": false
+            },
+            {
+                "text": "Pyramids of Giza",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1551,
+        "question": "What is the national drink of Pakistan?",
+        "slug": "what-is-the-national-drink-of-pakistan",
+        "explanation": "Lassi, a yogurt-based drink, is considered the national drink of Pakistan, particularly popular in the Punjab region.",
+        "tags": [
+            "national drink",
+            "Pakistan",
+            "Lassi"
+        ],
+        "options": [
+            {
+                "text": "Lassi",
+                "isCorrect": true
+            },
+            {
+                "text": "Tea",
+                "isCorrect": false
+            },
+            {
+                "text": "Coconut Water",
+                "isCorrect": false
+            },
+            {
+                "text": "Soda",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1552,
+        "question": "Which province has the highest literacy rate in Pakistan?",
+        "slug": "which-province-has-the-highest-literacy-rate-in-pakistan",
+        "explanation": "Punjab has the highest literacy rate in Pakistan, with a well-developed education system compared to other provinces.",
+        "tags": [
+            "education",
+            "literacy",
+            "Pakistan",
+            "Punjab"
+        ],
+        "options": [
+            {
+                "text": "Punjab",
+                "isCorrect": true
+            },
+            {
+                "text": "Sindh",
+                "isCorrect": false
+            },
+            {
+                "text": "Khyber Pakhtunkhwa",
+                "isCorrect": false
+            },
+            {
+                "text": "Balochistan",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1553,
+        "question": "Who is known as the 'Mother of the Nation' in Pakistan?",
+        "slug": "who-is-known-as-the-mother-of-the-nation-in-pakistan",
+        "explanation": "Fatima Jinnah is referred to as the 'Mother of the Nation' for her pivotal role in the independence movement and her efforts toward the welfare of Pakistan.",
+        "tags": [
+            "Pakistan",
+            "Independence",
+            "Fatima Jinnah"
+        ],
+        "options": [
+            {
+                "text": "Fatima Jinnah",
+                "isCorrect": true
+            },
+            {
+                "text": "Benazir Bhutto",
+                "isCorrect": false
+            },
+            {
+                "text": "Begum Roquiah",
+                "isCorrect": false
+            },
+            {
+                "text": "Liaquat Ali Khan",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1554,
+        "question": "Which city is famous for its mangoes in Pakistan?",
+        "slug": "which-city-is-famous-for-its-mangoes-in-pakistan",
+        "explanation": "Multan is known as the 'City of Mangoes' due to its vast production of high-quality mangoes, which are exported worldwide.",
+        "tags": [
+            "Pakistan",
+            "Fruit",
+            "Mangoes",
+            "Multan"
+        ],
+        "options": [
+            {
+                "text": "Multan",
+                "isCorrect": true
+            },
+            {
+                "text": "Karachi",
+                "isCorrect": false
+            },
+            {
+                "text": "Lahore",
+                "isCorrect": false
+            },
+            {
+                "text": "Peshawar",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1555,
+        "question": "Which festival is celebrated in Pakistan to mark the end of Ramadan?",
+        "slug": "which-festival-is-celebrated-in-pakistan-to-mark-the-end-of-ramadan",
+        "explanation": "Eid al-Fitr is celebrated by Muslims worldwide to mark the end of Ramadan, the holy month of fasting.",
+        "tags": [
+            "Pakistan",
+            "Festival",
+            "Ramadan",
+            "Eid al-Fitr"
+        ],
+        "options": [
+            {
+                "text": "Eid al-Fitr",
+                "isCorrect": true
+            },
+            {
+                "text": "Eid al-Adha",
+                "isCorrect": false
+            },
+            {
+                "text": "Basant",
+                "isCorrect": false
+            },
+            {
+                "text": "Independence Day",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1556,
+        "question": "What is the official name of Pakistan?",
+        "slug": "what-is-the-official-name-of-pakistan",
+        "explanation": "The official name of Pakistan is 'Islamic Republic of Pakistan', which reflects its Islamic identity and political structure.",
+        "tags": [
+            "Pakistan",
+            "Country",
+            "Official Name"
+        ],
+        "options": [
+            {
+                "text": "Islamic Republic of Pakistan",
+                "isCorrect": true
+            },
+            {
+                "text": "Democratic Republic of Pakistan",
+                "isCorrect": false
+            },
+            {
+                "text": "Federal Republic of Pakistan",
+                "isCorrect": false
+            },
+            {
+                "text": "Republic of Pakistan",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1557,
+        "question": "Which region is known for its scenic beauty and is a popular tourist destination in Pakistan?",
+        "slug": "which-region-is-known-for-its-scenic-beauty-in-pakistan",
+        "explanation": "Kashmir is famous for its stunning landscapes, including lush valleys, mountains, and serene lakes, making it a top tourist spot in Pakistan.",
+        "tags": [
+            "Pakistan",
+            "Tourism",
+            "Kashmir",
+            "Scenic Beauty"
+        ],
+        "options": [
+            {
+                "text": "Kashmir",
+                "isCorrect": true
+            },
+            {
+                "text": "Punjab",
+                "isCorrect": false
+            },
+            {
+                "text": "Sindh",
+                "isCorrect": false
+            },
+            {
+                "text": "Balochistan",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1558,
+        "question": "Which ancient civilization was located in present-day Pakistan?",
+        "slug": "which-ancient-civilization-was-located-in-present-day-pakistan",
+        "explanation": "The Indus Valley Civilization, one of the world's oldest, was located in present-day Pakistan and parts of India.",
+        "tags": [
+            "history",
+            "Pakistan",
+            "Indus Valley"
+        ],
+        "options": [
+            {
+                "text": "Mesopotamian",
+                "isCorrect": false
+            },
+            {
+                "text": "Indus Valley",
+                "isCorrect": true
+            },
+            {
+                "text": "Mayan",
+                "isCorrect": false
+            },
+            {
+                "text": "Roman",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1560,
+        "question": "What is the largest city in Pakistan by population?",
+        "slug": "what-is-the-largest-city-in-pakistan-by-population",
+        "explanation": "Karachi is the largest city in Pakistan by population, with millions of residents.",
+        "tags": [
+            "Pakistan",
+            "cities",
+            "Karachi"
+        ],
+        "options": [
+            {
+                "text": "Karachi",
+                "isCorrect": true
+            },
+            {
+                "text": "Lahore",
+                "isCorrect": false
+            },
+            {
+                "text": "Faisalabad",
+                "isCorrect": false
+            },
+            {
+                "text": "Rawalpindi",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1561,
+        "question": "Which of the following is a traditional dish in Pakistan?",
+        "slug": "which-of-the-following-is-a-traditional-dish-in-pakistan",
+        "explanation": "Biryani is a flavorful rice dish with meat and spices, often considered a traditional meal in Pakistan.",
+        "tags": [
+            "food",
+            "Pakistan",
+            "Biryani"
+        ],
+        "options": [
+            {
+                "text": "Biryani",
+                "isCorrect": true
+            },
+            {
+                "text": "Sushi",
+                "isCorrect": false
+            },
+            {
+                "text": "Pasta",
+                "isCorrect": false
+            },
+            {
+                "text": "Pizza",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1562,
+        "question": "What is the primary language spoken in Balochistan?",
+        "slug": "what-is-the-primary-language-spoken-in-balochistan",
+        "explanation": "Balochi is the primary language spoken in Balochistan, though Urdu and Pashto are also used in the region.",
+        "tags": [
+            "language",
+            "Balochistan",
+            "Pakistan"
+        ],
+        "options": [
+            {
+                "text": "Balochi",
+                "isCorrect": true
+            },
+            {
+                "text": "Sindhi",
+                "isCorrect": false
+            },
+            {
+                "text": "Urdu",
+                "isCorrect": false
+            },
+            {
+                "text": "Punjabi",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1563,
+        "question": "What is the significance of Pakistan Day?",
+        "slug": "what-is-the-significance-of-pakistan-day",
+        "explanation": "Pakistan Day commemorates the formation of Pakistan on March 23, 1940, when the Lahore Resolution was passed.",
+        "tags": [
+            "history",
+            "Pakistan",
+            "Pakistan Day"
+        ],
+        "options": [
+            {
+                "text": "Independence from British rule",
+                "isCorrect": false
+            },
+            {
+                "text": "Formation of Pakistan",
+                "isCorrect": true
+            },
+            {
+                "text": "Constitution Day",
+                "isCorrect": false
+            },
+            {
+                "text": "Founding of the Army",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1564,
+        "question": "Which city is known as the City of Lights?",
+        "slug": "which-city-is-known-as-the-city-of-lights",
+        "explanation": "Karachi is often referred to as the 'City of Lights' due to its vibrant nightlife and bustling cityscape.",
+        "tags": [
+            "city",
+            "lights",
+            "Karachi"
+        ],
+        "options": [
+            {
+                "text": "Karachi",
+                "isCorrect": true
+            },
+            {
+                "text": "Lahore",
+                "isCorrect": false
+            },
+            {
+                "text": "Islamabad",
+                "isCorrect": false
+            },
+            {
+                "text": "Peshawar",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1565,
+        "question": "Who was the founder of Pakistan?",
+        "slug": "who-was-the-founder-of-pakistan",
+        "explanation": "The founder of Pakistan was Muhammad Ali Jinnah, who played a pivotal role in the creation of the country.",
+        "tags": [
+            "history",
+            "Pakistan",
+            "founder"
+        ],
+        "options": [
+            {
+                "text": "Allama Iqbal",
+                "isCorrect": false
+            },
+            {
+                "text": "Muhammad Ali Jinnah",
+                "isCorrect": true
+            },
+            {
+                "text": "Liaquat Ali Khan",
+                "isCorrect": false
+            },
+            {
+                "text": "Fatima Jinnah",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1566,
+        "question": "Which mountain is the highest peak in Pakistan?",
+        "slug": "which-mountain-is-the-highest-peak-in-pakistan",
+        "explanation": "K2, located in the Karakoram Range, is the highest peak in Pakistan and the second highest in the world.",
+        "tags": [
+            "mountains",
+            "K2",
+            "Pakistan"
+        ],
+        "options": [
+            {
+                "text": "K2",
+                "isCorrect": true
+            },
+            {
+                "text": "Nanga Parbat",
+                "isCorrect": false
+            },
+            {
+                "text": "Gasherbrum",
+                "isCorrect": false
+            },
+            {
+                "text": "Kaghan",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1567,
+        "question": "What is the main religion in Pakistan?",
+        "slug": "what-is-the-main-religion-in-pakistan",
+        "explanation": "Islam is the main religion in Pakistan, with the majority of the population being Muslim.",
+        "tags": [
+            "religion",
+            "Pakistan",
+            "Islam"
+        ],
+        "options": [
+            {
+                "text": "Hinduism",
+                "isCorrect": false
+            },
+            {
+                "text": "Islam",
+                "isCorrect": true
+            },
+            {
+                "text": "Christianity",
+                "isCorrect": false
+            },
+            {
+                "text": "Buddhism",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1568,
+        "question": "Which of the following is a popular sport in Pakistan?",
+        "slug": "which-of-the-following-is-a-popular-sport-in-pakistan",
+        "explanation": "Cricket, football, and hockey are all popular sports in Pakistan, with cricket being the most popular.",
+        "tags": [
+            "sports",
+            "Pakistan",
+            "cricket"
+        ],
+        "options": [
+            {
+                "text": "Cricket",
+                "isCorrect": true
+            },
+            {
+                "text": "Football",
+                "isCorrect": false
+            },
+            {
+                "text": "Hockey",
+                "isCorrect": false
+            },
+            {
+                "text": "All of the above",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "id": 1569,
+        "question": "What is the significance of Pakistan Day?",
+        "slug": "what-is-the-significance-of-pakistan-day",
+        "explanation": "Pakistan Day commemorates the formation of Pakistan on March 23, 1940, when the Lahore Resolution was passed.",
+        "tags": [
+            "history",
+            "Pakistan",
+            "Pakistan Day"
+        ],
+        "options": [
+            {
+                "text": "Independence from British rule",
+                "isCorrect": false
+            },
+            {
+                "text": "Formation of Pakistan",
+                "isCorrect": true
+            },
+            {
+                "text": "Constitution Day",
+                "isCorrect": false
+            },
+            {
+                "text": "Founding of the Army",
+                "isCorrect": false
+            }
+        ]
     }
 ]
