@@ -13,19 +13,9 @@ const nextConfig = {
         destination: "https://growlearnhub.com/:path*/",  // Ensure trailing slash in the destination URL
         permanent: true,
       },
-      {
-        source: "/sitemap.xml/",
-        destination: "/sitemap.xml",
-        permanent: true,
-      },
-      {
-        source: "/api/:path*/",
-        destination: "/api/:path*",
-        permanent: true,
-      },
     ];
   },
-  trailingSlash: true,
+  trailingSlash: true,  // Ensuring all routes use trailing slashes
   reactStrictMode: true,
 };
 
