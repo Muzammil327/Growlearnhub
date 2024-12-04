@@ -19,10 +19,13 @@ export async function GET(req: NextRequest) {
       return NextResponse.json({ error: "Slug is required" }, { status: 400 });
     }
 
-    // Read data from the JSON files
+    // Dynamically load data based on slug (you can optimize to load only data1.json or data2.json based on some logic)
     const data1 = readJsonFile('data1.json');
     const data2 = readJsonFile('data2.json');
-    const combinedData = [...data1, ...data2];
+    const data3 = readJsonFile('data3.json');
+
+    // Combine data only when needed
+    const combinedData = [...data1, ...data2, ...data3];
 
     // Check if the quiz is found in the combined data
     const quiz = combinedData.find((item) => item.slug === slug);
@@ -81,12 +84,12 @@ export async function GET(req: NextRequest) {
           createdAt: row.created_at,
           options: row.option_id
             ? [
-                {
-                  id: row.option_id,
-                  text: row.option_text,
-                  isCorrect: row.is_correct,
-                },
-              ]
+              {
+                id: row.option_id,
+                text: row.option_text,
+                isCorrect: row.is_correct,
+              },
+            ]
             : [],
         });
       }

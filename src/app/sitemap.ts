@@ -1,34 +1,41 @@
-import fetch from 'node-fetch';
+// import fetch from 'node-fetch';
+
+import axios from "axios";
 
 type SitemapFile = {
   url: string;
   lastModified?: string | Date;
   changeFrequency?:
-    | "always"
-    | "daily"
-    | "hourly"
-    | "weekly"
-    | "monthly"
-    | "yearly"
-    | "never";
+  | "always"
+  | "daily"
+  | "hourly"
+  | "weekly"
+  | "monthly"
+  | "yearly"
+  | "never";
   priority?: number;
 };
 
 const FRONTEND_URL = process.env.NEXT_PUBLIC_SITE_URL;
 
 export default async function sitemap(): Promise<SitemapFile[]> {
-  const response = await fetch(`https://growlearnhub.com/api/sitemaps`);
-  const datas = await response.json() as string[];
-  
+  const response = await axios.get(`https://growlearnhub.com/api/sitemaps/`, {
+    maxRedirects: 10,  // Limit the number of redirects
+  });
+
+  console.log("Response:", response)
+
+  // const datas = await response.json() as string[];
+
   try {
-    const RoutesQuestionData: SitemapFile[] = datas.map(
-      (data:string) => ({
-        url: `${FRONTEND_URL}/mcqs-point/${data}/`,
-        lastModified: new Date().toISOString(),
-        priority: 0.8,
-        changeFrequency: "weekly" as "weekly",
-      }),
-    );
+    // const RoutesQuestionData: SitemapFile[] = datas.map(
+    //   (data: string) => ({
+    //     url: `${FRONTEND_URL}/mcqs-point/${data}/`,
+    //     lastModified: new Date().toISOString(),
+    //     priority: 0.8,
+    //     changeFrequency: "weekly" as "weekly",
+    //   }),
+    // );
 
     const RoutesData: SitemapFile[] = data.map((data) => ({
       url: `${FRONTEND_URL}/${data}/`,
@@ -46,7 +53,7 @@ export default async function sitemap(): Promise<SitemapFile[]> {
         changeFrequency: "always",
       },
       ...RoutesData,
-      ...RoutesQuestionData,
+      // ...RoutesQuestionData,
     ];
 
     return routes;

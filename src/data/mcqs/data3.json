@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1701,
+        "question": "Which animal is known for its ability to regenerate limbs?",
+        "slug": "animal-known-for-regenerating-limbs",
+        "explanation": "The axolotl is known for its remarkable ability to regenerate limbs, spinal cord, and even parts of its heart.",
+        "tags": [
+            "Biology",
+            "Regeneration"
+        ],
+        "options": [
+            {
+                "text": "Starfish",
+                "isCorrect": false
+            },
+            {
+                "text": "Axolotl",
+                "isCorrect": true
+            },
+            {
+                "text": "Salamander",
+                "isCorrect": false
+            },
+            {
+                "text": "Lizard",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1702,
+        "question": "What is the largest planet in our solar system?",
+        "slug": "largest-planet-in-our-solar-system",
+        "explanation": "Jupiter is the largest planet in our solar system, with a diameter of about 86,881 miles (139,822 kilometers).",
+        "tags": [
+            "Astronomy",
+            "Planets"
+        ],
+        "options": [
+            {
+                "text": "Earth",
+                "isCorrect": false
+            },
+            {
+                "text": "Jupiter",
+                "isCorrect": true
+            },
+            {
+                "text": "Saturn",
+                "isCorrect": false
+            },
+            {
+                "text": "Neptune",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1703,
+        "question": "Who is known as the 'Father of Modern Physics'?",
+        "slug": "father-of-modern-physics",
+        "explanation": "Albert Einstein is often referred to as the 'Father of Modern Physics' for his groundbreaking work in the theory of relativity.",
+        "tags": [
+            "Science",
+            "Physics"
+        ],
+        "options": [
+            {
+                "text": "Isaac Newton",
+                "isCorrect": false
+            },
+            {
+                "text": "Albert Einstein",
+                "isCorrect": true
+            },
+            {
+                "text": "Niels Bohr",
+                "isCorrect": false
+            },
+            {
+                "text": "Max Planck",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1704,
+        "question": "Which vitamin is produced by the skin when exposed to sunlight?",
+        "slug": "vitamin-produced-by-skin",
+        "explanation": "Vitamin D is produced by the skin when it is exposed to sunlight.",
+        "tags": [
+            "Biology",
+            "Vitamins"
+        ],
+        "options": [
+            {
+                "text": "Vitamin A",
+                "isCorrect": false
+            },
+            {
+                "text": "Vitamin B",
+                "isCorrect": false
+            },
+            {
+                "text": "Vitamin C",
+                "isCorrect": false
+            },
+            {
+                "text": "Vitamin D",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "id": 1705,
+        "question": "What is the capital city of France?",
+        "slug": "capital-city-of-france",
+        "explanation": "The capital city of France is Paris, known for its iconic landmarks like the Eiffel Tower.",
+        "tags": [
+            "Geography",
+            "Countries"
+        ],
+        "options": [
+            {
+                "text": "Madrid",
+                "isCorrect": false
+            },
+            {
+                "text": "Berlin",
+                "isCorrect": false
+            },
+            {
+                "text": "Paris",
+                "isCorrect": true
+            },
+            {
+                "text": "Rome",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1706,
+        "question": "Which country has the largest population?",
+        "slug": "country-with-largest-population",
+        "explanation": "China has the largest population, followed by India.",
+        "tags": [
+            "Geography",
+            "Population"
+        ],
+        "options": [
+            {
+                "text": "USA",
+                "isCorrect": false
+            },
+            {
+                "text": "India",
+                "isCorrect": false
+            },
+            {
+                "text": "China",
+                "isCorrect": true
+            },
+            {
+                "text": "Russia",
+                "isCorrect": false
+            }
+        ]
+    }
+]

@@ -16,9 +16,10 @@ export async function GET() {
     // Dynamically load data based on slug (you can optimize to load only data1.json or data2.json based on some logic)
     const data1 = readJsonFile('data1.json');
     const data2 = readJsonFile('data2.json');
+    const data3 = readJsonFile('data3.json');
 
     // Combine data only when needed
-    const combinedData = [...data1, ...data2];
+    const combinedData = [...data1, ...data2, ...data3];
 
     const slug1 = combinedData.map(item => item.slug);
     // const slug2 = result.rows.map(item => item.slug);
