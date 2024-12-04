@@ -3889,5 +3889,574 @@
                 "isCorrect": false
             }
         ]
+    },
+    {
+        "id": 1627,
+        "question": "Which is the largest ocean on Earth?",
+        "slug": "which-is-the-largest-ocean-on-earth",
+        "explanation": "The Pacific Ocean is the largest ocean on Earth, covering more than 63 million square miles.",
+        "tags": [
+            "Geography",
+            "World",
+            "Oceans"
+        ],
+        "options": [
+            {
+                "text": "Atlantic Ocean",
+                "isCorrect": false
+            },
+            {
+                "text": "Indian Ocean",
+                "isCorrect": false
+            },
+            {
+                "text": "Pacific Ocean",
+                "isCorrect": true
+            },
+            {
+                "text": "Southern Ocean",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1628,
+        "question": "What is the capital city of Japan?",
+        "slug": "what-is-the-capital-city-of-japan",
+        "explanation": "Tokyo is the capital city of Japan and one of the most populous cities in the world.",
+        "tags": [
+            "Geography",
+            "World",
+            "Capital Cities"
+        ],
+        "options": [
+            {
+                "text": "Osaka",
+                "isCorrect": false
+            },
+            {
+                "text": "Tokyo",
+                "isCorrect": true
+            },
+            {
+                "text": "Kyoto",
+                "isCorrect": false
+            },
+            {
+                "text": "Hiroshima",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1629,
+        "question": "What is the powerhouse of the cell?",
+        "slug": "what-is-the-powerhouse-of-the-cell",
+        "explanation": "The mitochondria are known as the powerhouse of the cell because they generate the energy the cell needs to perform various functions.",
+        "tags": [
+            "Biology",
+            "Cell Biology"
+        ],
+        "options": [
+            {
+                "text": "Nucleus",
+                "isCorrect": false
+            },
+            {
+                "text": "Mitochondria",
+                "isCorrect": true
+            },
+            {
+                "text": "Endoplasmic Reticulum",
+                "isCorrect": false
+            },
+            {
+                "text": "Golgi Apparatus",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1630,
+        "question": "Which organ is responsible for pumping blood throughout the human body?",
+        "slug": "which-organ-is-responsible-for-pumping-blood-throughout-the-human-body",
+        "explanation": "The heart is responsible for pumping blood throughout the body, ensuring oxygen and nutrients are delivered to tissues.",
+        "tags": [
+            "Biology",
+            "Human Anatomy"
+        ],
+        "options": [
+            {
+                "text": "Lungs",
+                "isCorrect": false
+            },
+            {
+                "text": "Heart",
+                "isCorrect": true
+            },
+            {
+                "text": "Kidneys",
+                "isCorrect": false
+            },
+            {
+                "text": "Liver",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1631,
+        "question": "What is the chemical symbol for gold?",
+        "slug": "what-is-the-chemical-symbol-for-gold",
+        "explanation": "The chemical symbol for gold is 'Au', derived from the Latin word 'aurum'.",
+        "tags": [
+            "Chemistry",
+            "Elements"
+        ],
+        "options": [
+            {
+                "text": "Ag",
+                "isCorrect": false
+            },
+            {
+                "text": "Au",
+                "isCorrect": true
+            },
+            {
+                "text": "Pb",
+                "isCorrect": false
+            },
+            {
+                "text": "Fe",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1632,
+        "question": "What is the pH value of pure water?",
+        "slug": "what-is-the-ph-value-of-pure-water",
+        "explanation": "The pH value of pure water is 7, which is considered neutral on the pH scale.",
+        "tags": [
+            "Chemistry",
+            "Acids and Bases"
+        ],
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": false
+            },
+            {
+                "text": "7",
+                "isCorrect": true
+            },
+            {
+                "text": "9",
+                "isCorrect": false
+            },
+            {
+                "text": "10",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1633,
+        "question": "Who is known as the father of modern physics?",
+        "slug": "who-is-known-as-the-father-of-modern-physics",
+        "explanation": "Albert Einstein is known as the father of modern physics, most famous for his theory of relativity.",
+        "tags": [
+            "Physics",
+            "History of Science"
+        ],
+        "options": [
+            {
+                "text": "Isaac Newton",
+                "isCorrect": false
+            },
+            {
+                "text": "Albert Einstein",
+                "isCorrect": true
+            },
+            {
+                "text": "Niels Bohr",
+                "isCorrect": false
+            },
+            {
+                "text": "Galileo Galilei",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1634,
+        "question": "What is the unit of electric current?",
+        "slug": "what-is-the-unit-of-electric-current",
+        "explanation": "The unit of electric current is the Ampere (A), named after the French scientist André-Marie Ampère.",
+        "tags": [
+            "Physics",
+            "Electricity"
+        ],
+        "options": [
+            {
+                "text": "Volt",
+                "isCorrect": false
+            },
+            {
+                "text": "Watt",
+                "isCorrect": false
+            },
+            {
+                "text": "Ampere",
+                "isCorrect": true
+            },
+            {
+                "text": "Ohm",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1635,
+        "question": "What is the synonym of 'happy'?",
+        "slug": "what-is-the-synonym-of-happy",
+        "explanation": "The synonym for 'happy' is 'joyful', which also conveys a sense of pleasure or contentment.",
+        "tags": [
+            "English",
+            "Vocabulary"
+        ],
+        "options": [
+            {
+                "text": "Sad",
+                "isCorrect": false
+            },
+            {
+                "text": "Angry",
+                "isCorrect": false
+            },
+            {
+                "text": "Joyful",
+                "isCorrect": true
+            },
+            {
+                "text": "Tired",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1636,
+        "question": "Which word is an antonym of 'brave'?",
+        "slug": "which-word-is-an-antonym-of-brave",
+        "explanation": "The antonym of 'brave' is 'cowardly', meaning lacking courage.",
+        "tags": [
+            "English",
+            "Vocabulary"
+        ],
+        "options": [
+            {
+                "text": "Bold",
+                "isCorrect": false
+            },
+            {
+                "text": "Cowardly",
+                "isCorrect": true
+            },
+            {
+                "text": "Fearless",
+                "isCorrect": false
+            },
+            {
+                "text": "Courageous",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1637,
+        "question": "Which country is the largest producer of coffee?",
+        "slug": "which-country-is-the-largest-producer-of-coffee",
+        "explanation": "Brazil is the world's largest producer of coffee, contributing around a third of all coffee supply.",
+        "tags": [
+            "World",
+            "Geography",
+            "Coffee"
+        ],
+        "options": [
+            {
+                "text": "Colombia",
+                "isCorrect": false
+            },
+            {
+                "text": "Brazil",
+                "isCorrect": true
+            },
+            {
+                "text": "Vietnam",
+                "isCorrect": false
+            },
+            {
+                "text": "Mexico",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1638,
+        "question": "What is the smallest bone in the human body?",
+        "slug": "what-is-the-smallest-bone-in-the-human-body",
+        "explanation": "The stapes (or stirrup) bone in the ear is the smallest bone in the human body.",
+        "tags": [
+            "Biology",
+            "Human Anatomy"
+        ],
+        "options": [
+            {
+                "text": "Femur",
+                "isCorrect": false
+            },
+            {
+                "text": "Stapes",
+                "isCorrect": true
+            },
+            {
+                "text": "Tibia",
+                "isCorrect": false
+            },
+            {
+                "text": "Ulna",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1639,
+        "question": "What is the chemical formula for water?",
+        "slug": "what-is-the-chemical-formula-for-water",
+        "explanation": "Water has the chemical formula H2O, consisting of two hydrogen atoms and one oxygen atom.",
+        "tags": [
+            "Chemistry",
+            "Elements",
+            "Molecules"
+        ],
+        "options": [
+            {
+                "text": "CO2",
+                "isCorrect": false
+            },
+            {
+                "text": "H2O",
+                "isCorrect": true
+            },
+            {
+                "text": "O2",
+                "isCorrect": false
+            },
+            {
+                "text": "CH4",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1640,
+        "question": "What is the SI unit of force?",
+        "slug": "what-is-the-si-unit-of-force",
+        "explanation": "The SI unit of force is the Newton (N), named after Sir Isaac Newton.",
+        "tags": [
+            "Physics",
+            "Forces",
+            "Units"
+        ],
+        "options": [
+            {
+                "text": "Joule",
+                "isCorrect": false
+            },
+            {
+                "text": "Newton",
+                "isCorrect": true
+            },
+            {
+                "text": "Pascal",
+                "isCorrect": false
+            },
+            {
+                "text": "Watt",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1641,
+        "question": "What is the capital of France?",
+        "slug": "what-is-the-capital-of-france",
+        "explanation": "The capital of France is Paris, known for its landmarks such as the Eiffel Tower and Louvre Museum.",
+        "tags": [
+            "Geography",
+            "World",
+            "Capital Cities"
+        ],
+        "options": [
+            {
+                "text": "Berlin",
+                "isCorrect": false
+            },
+            {
+                "text": "Paris",
+                "isCorrect": true
+            },
+            {
+                "text": "Rome",
+                "isCorrect": false
+            },
+            {
+                "text": "Madrid",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1642,
+        "question": "What is the primary function of red blood cells?",
+        "slug": "what-is-the-primary-function-of-red-blood-cells",
+        "explanation": "The primary function of red blood cells is to transport oxygen from the lungs to the rest of the body and return carbon dioxide to the lungs.",
+        "tags": [
+            "Biology",
+            "Human Anatomy",
+            "Blood"
+        ],
+        "options": [
+            {
+                "text": "Fight infection",
+                "isCorrect": false
+            },
+            {
+                "text": "Transport oxygen",
+                "isCorrect": true
+            },
+            {
+                "text": "Regulate body temperature",
+                "isCorrect": false
+            },
+            {
+                "text": "Carry nutrients",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1643,
+        "question": "What is the atomic number of carbon?",
+        "slug": "what-is-the-atomic-number-of-carbon",
+        "explanation": "The atomic number of carbon is 6, meaning it has six protons in its nucleus.",
+        "tags": [
+            "Chemistry",
+            "Elements",
+            "Periodic Table"
+        ],
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": false
+            },
+            {
+                "text": "6",
+                "isCorrect": true
+            },
+            {
+                "text": "7",
+                "isCorrect": false
+            },
+            {
+                "text": "8",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1644,
+        "question": "What is the speed of light in a vacuum?",
+        "slug": "what-is-the-speed-of-light-in-a-vacuum",
+        "explanation": "The speed of light in a vacuum is approximately 299,792 kilometers per second.",
+        "tags": [
+            "Physics",
+            "Light",
+            "Speed"
+        ],
+        "options": [
+            {
+                "text": "150,000 km/s",
+                "isCorrect": false
+            },
+            {
+                "text": "299,792 km/s",
+                "isCorrect": true
+            },
+            {
+                "text": "1,000,000 km/s",
+                "isCorrect": false
+            },
+            {
+                "text": "450,000 km/s",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1645,
+        "question": "Which of the following is a synonym for 'vivid'?",
+        "slug": "which-of-the-following-is-a-synonym-for-vivid",
+        "explanation": "'Vivid' means producing powerful feelings or strong, clear images in the mind. A synonym is 'bright'.",
+        "tags": [
+            "English",
+            "Vocabulary"
+        ],
+        "options": [
+            {
+                "text": "Dull",
+                "isCorrect": false
+            },
+            {
+                "text": "Vague",
+                "isCorrect": false
+            },
+            {
+                "text": "Bright",
+                "isCorrect": true
+            },
+            {
+                "text": "Blurred",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1646,
+        "question": "Which word is an antonym of 'generous'?",
+        "slug": "which-word-is-an-antonym-of-generous",
+        "explanation": "The antonym of 'generous' is 'stingy', meaning unwilling to share or give.",
+        "tags": [
+            "English",
+            "Vocabulary"
+        ],
+        "options": [
+            {
+                "text": "Kind",
+                "isCorrect": false
+            },
+            {
+                "text": "Stingy",
+                "isCorrect": true
+            },
+            {
+                "text": "Warmhearted",
+                "isCorrect": false
+            },
+            {
+                "text": "Charitable",
+                "isCorrect": false
+            }
+        ]
     }
 ]
