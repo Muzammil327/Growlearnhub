@@ -11,7 +11,7 @@ interface QuizOption {
 
 interface Quiz {
     id: number;
-    name: string;
+    question: string;
     explanation: string;
     tags: string;
     createdAt: string;
@@ -23,7 +23,7 @@ interface QuizClientProps {
 }
 
 const QuizClient: React.FC<QuizClientProps> = ({ quizData }) => {
-    const { name, explanation, options, tags } = quizData;
+    const { question, explanation, options, tags } = quizData;
 
     const description = explanation ? explanation.replace(/<\/?[^>]+(>|$)/g, "") : options.map((option) => option.text).join(", ");
     const keywords = (() => {
@@ -46,10 +46,10 @@ const QuizClient: React.FC<QuizClientProps> = ({ quizData }) => {
 
     return (
         <div>
-            <SubHeader title={name} />
+            <SubHeader title={question} />
             <section className='grid grid-cols-1 md:grid-cols-3 gap-4 container mx-auto'>
                 <div className='col-span-2'>
-                    <CardQuizWithoutLink title={name} correctOption={correctOption} option={option} keywords={keywords} description={description} />
+                    <CardQuizWithoutLink title={question} correctOption={correctOption} option={option} keywords={keywords} description={description} />
                 </div>
                 <div>
                 </div>

@@ -49,7 +49,7 @@ export async function generateMetadata({ params }: PageProps) {
     })();
 
     return {
-      title: data.name,
+      title: data.question,
       description: sanitizeDescription(data.explanation),
       keywords: keywords,
       alternates: {
@@ -64,20 +64,20 @@ export async function generateMetadata({ params }: PageProps) {
         },
       },
       openGraph: {
-        title: data.name,
+        title: data.question,
         description: sanitizeDescription(data.explanation),
-        url: `${process.env.NEXT_PUBLIC_FRONTEND_LINK}/mcqs-point/${slug}`,
+        url: `${process.env.NEXT_PUBLIC_SITE_URL}/mcqs-point/${slug}`,
         images: [
           {
-            alt: data?.name,
+            alt: data.question,
           },
         ],
       },
       twitter: {
-        title: data.name,
+        title: data.question,
         description: sanitizeDescription(data.explanation),
         images: {
-          alt: data?.name,
+          alt: data?.question,
         },
       },
     };
