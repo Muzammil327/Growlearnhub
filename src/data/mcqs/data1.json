@@ -4458,5 +4458,846 @@
                 "isCorrect": false
             }
         ]
+    },
+    {
+        "id": 1647,
+        "question": "What is the capital of Canada?",
+        "slug": "what-is-the-capital-of-canada",
+        "explanation": "Ottawa is the capital city of Canada, located in the province of Ontario.",
+        "tags": [
+            "Geography",
+            "Capital Cities"
+        ],
+        "options": [
+            {
+                "text": "Toronto",
+                "isCorrect": false
+            },
+            {
+                "text": "Ottawa",
+                "isCorrect": true
+            },
+            {
+                "text": "Vancouver",
+                "isCorrect": false
+            },
+            {
+                "text": "Montreal",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1648,
+        "question": "Which planet is known as the 'Red Planet'?",
+        "slug": "which-planet-is-known-as-the-red-planet",
+        "explanation": "Mars is called the 'Red Planet' due to its reddish appearance caused by iron oxide on its surface.",
+        "tags": [
+            "Astronomy",
+            "Planets"
+        ],
+        "options": [
+            {
+                "text": "Venus",
+                "isCorrect": false
+            },
+            {
+                "text": "Earth",
+                "isCorrect": false
+            },
+            {
+                "text": "Mars",
+                "isCorrect": true
+            },
+            {
+                "text": "Jupiter",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1649,
+        "question": "What is the main gas found in the Earth's atmosphere?",
+        "slug": "what-is-the-main-gas-found-in-the-earths-atmosphere",
+        "explanation": "The Earth's atmosphere is made up mostly of nitrogen (78%), followed by oxygen (21%).",
+        "tags": [
+            "Geography",
+            "Atmosphere"
+        ],
+        "options": [
+            {
+                "text": "Oxygen",
+                "isCorrect": false
+            },
+            {
+                "text": "Carbon Dioxide",
+                "isCorrect": false
+            },
+            {
+                "text": "Nitrogen",
+                "isCorrect": true
+            },
+            {
+                "text": "Hydrogen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1650,
+        "question": "Which animal is known for its ability to regenerate lost limbs?",
+        "slug": "which-animal-is-known-for-its-ability-to-regenerate-lost-limbs",
+        "explanation": "The axolotl is famous for its ability to regenerate lost limbs, as well as other body parts like the heart and brain.",
+        "tags": [
+            "Biology",
+            "Regeneration"
+        ],
+        "options": [
+            {
+                "text": "Lizard",
+                "isCorrect": false
+            },
+            {
+                "text": "Axolotl",
+                "isCorrect": true
+            },
+            {
+                "text": "Starfish",
+                "isCorrect": false
+            },
+            {
+                "text": "Frog",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1651,
+        "question": "What is the chemical symbol for silver?",
+        "slug": "what-is-the-chemical-symbol-for-silver",
+        "explanation": "The chemical symbol for silver is 'Ag', derived from the Latin word 'argentum'.",
+        "tags": [
+            "Chemistry",
+            "Elements"
+        ],
+        "options": [
+            {
+                "text": "Si",
+                "isCorrect": false
+            },
+            {
+                "text": "Ag",
+                "isCorrect": true
+            },
+            {
+                "text": "Au",
+                "isCorrect": false
+            },
+            {
+                "text": "Fe",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1652,
+        "question": "What is the most abundant gas in Earth's atmosphere?",
+        "slug": "what-is-the-most-abundant-gas-in-earths-atmosphere",
+        "explanation": "Nitrogen makes up 78% of Earth's atmosphere, making it the most abundant gas.",
+        "tags": [
+            "Science",
+            "Atmosphere"
+        ],
+        "options": [
+            {
+                "text": "Oxygen",
+                "isCorrect": false
+            },
+            {
+                "text": "Carbon Dioxide",
+                "isCorrect": false
+            },
+            {
+                "text": "Nitrogen",
+                "isCorrect": true
+            },
+            {
+                "text": "Argon",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1653,
+        "question": "Which scientist developed the theory of evolution by natural selection?",
+        "slug": "which-scientist-developed-the-theory-of-evolution-by-natural-selection",
+        "explanation": "Charles Darwin is known for developing the theory of evolution by natural selection.",
+        "tags": [
+            "Biology",
+            "Evolution"
+        ],
+        "options": [
+            {
+                "text": "Isaac Newton",
+                "isCorrect": false
+            },
+            {
+                "text": "Albert Einstein",
+                "isCorrect": false
+            },
+            {
+                "text": "Charles Darwin",
+                "isCorrect": true
+            },
+            {
+                "text": "Louis Pasteur",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1654,
+        "question": "Which of these is a noble gas?",
+        "slug": "which-of-these-is-a-noble-gas",
+        "explanation": "Noble gases are elements that are chemically inert, and one example is helium (He).",
+        "tags": [
+            "Chemistry",
+            "Noble Gases"
+        ],
+        "options": [
+            {
+                "text": "Oxygen",
+                "isCorrect": false
+            },
+            {
+                "text": "Helium",
+                "isCorrect": true
+            },
+            {
+                "text": "Nitrogen",
+                "isCorrect": false
+            },
+            {
+                "text": "Hydrogen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1655,
+        "question": "Which planet is the closest to the sun?",
+        "slug": "which-planet-is-the-closest-to-the-sun",
+        "explanation": "Mercury is the closest planet to the sun.",
+        "tags": [
+            "Astronomy",
+            "Planets"
+        ],
+        "options": [
+            {
+                "text": "Earth",
+                "isCorrect": false
+            },
+            {
+                "text": "Venus",
+                "isCorrect": false
+            },
+            {
+                "text": "Mercury",
+                "isCorrect": true
+            },
+            {
+                "text": "Mars",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1656,
+        "question": "Who invented the light bulb?",
+        "slug": "who-invented-the-light-bulb",
+        "explanation": "Thomas Edison is credited with inventing the first practical light bulb.",
+        "tags": [
+            "History",
+            "Inventions"
+        ],
+        "options": [
+            {
+                "text": "Nikola Tesla",
+                "isCorrect": false
+            },
+            {
+                "text": "Thomas Edison",
+                "isCorrect": true
+            },
+            {
+                "text": "Alexander Graham Bell",
+                "isCorrect": false
+            },
+            {
+                "text": "James Watt",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1657,
+        "question": "What is the most common blood type?",
+        "slug": "what-is-the-most-common-blood-type",
+        "explanation": "The most common blood type in the world is O positive (O+).",
+        "tags": [
+            "Biology",
+            "Human Anatomy"
+        ],
+        "options": [
+            {
+                "text": "A+",
+                "isCorrect": false
+            },
+            {
+                "text": "O+",
+                "isCorrect": true
+            },
+            {
+                "text": "B-",
+                "isCorrect": false
+            },
+            {
+                "text": "AB+",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1658,
+        "question": "What is the chemical formula for methane?",
+        "slug": "what-is-the-chemical-formula-for-methane",
+        "explanation": "The chemical formula for methane is CH4, consisting of one carbon atom bonded to four hydrogen atoms.",
+        "tags": [
+            "Chemistry",
+            "Organic Chemistry"
+        ],
+        "options": [
+            {
+                "text": "C2H6",
+                "isCorrect": false
+            },
+            {
+                "text": "CH4",
+                "isCorrect": true
+            },
+            {
+                "text": "C3H8",
+                "isCorrect": false
+            },
+            {
+                "text": "CO2",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1659,
+        "question": "What is the largest planet in our solar system?",
+        "slug": "what-is-the-largest-planet-in-our-solar-system",
+        "explanation": "Jupiter is the largest planet in the solar system, with a diameter of over 86,000 miles.",
+        "tags": [
+            "Astronomy",
+            "Planets"
+        ],
+        "options": [
+            {
+                "text": "Saturn",
+                "isCorrect": false
+            },
+            {
+                "text": "Earth",
+                "isCorrect": false
+            },
+            {
+                "text": "Jupiter",
+                "isCorrect": true
+            },
+            {
+                "text": "Mars",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1660,
+        "question": "Which of the following is a characteristic of mammals?",
+        "slug": "which-of-the-following-is-a-characteristic-of-mammals",
+        "explanation": "Mammals are characterized by having hair or fur and the ability to nurse their young with milk.",
+        "tags": [
+            "Biology",
+            "Zoology"
+        ],
+        "options": [
+            {
+                "text": "Lay eggs",
+                "isCorrect": false
+            },
+            {
+                "text": "Have feathers",
+                "isCorrect": false
+            },
+            {
+                "text": "Have scales",
+                "isCorrect": false
+            },
+            {
+                "text": "Have hair or fur",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "id": 1661,
+        "question": "What is the main component of the Sun?",
+        "slug": "what-is-the-main-component-of-the-sun",
+        "explanation": "The Sun is primarily composed of hydrogen, which undergoes nuclear fusion to produce energy.",
+        "tags": [
+            "Astronomy",
+            "Sun"
+        ],
+        "options": [
+            {
+                "text": "Oxygen",
+                "isCorrect": false
+            },
+            {
+                "text": "Hydrogen",
+                "isCorrect": true
+            },
+            {
+                "text": "Helium",
+                "isCorrect": false
+            },
+            {
+                "text": "Nitrogen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1662,
+        "question": "What is the largest ocean on Earth?",
+        "slug": "what-is-the-largest-ocean-on-earth",
+        "explanation": "The Pacific Ocean is the largest and deepest ocean on Earth.",
+        "tags": [
+            "Geography",
+            "Oceans"
+        ],
+        "options": [
+            {
+                "text": "Atlantic Ocean",
+                "isCorrect": false
+            },
+            {
+                "text": "Pacific Ocean",
+                "isCorrect": true
+            },
+            {
+                "text": "Indian Ocean",
+                "isCorrect": false
+            },
+            {
+                "text": "Arctic Ocean",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1663,
+        "question": "Which element is commonly used in the making of batteries?",
+        "slug": "which-element-is-commonly-used-in-the-making-of-batteries",
+        "explanation": "Lithium is commonly used in the making of rechargeable batteries, especially in portable electronics.",
+        "tags": [
+            "Chemistry",
+            "Elements"
+        ],
+        "options": [
+            {
+                "text": "Iron",
+                "isCorrect": false
+            },
+            {
+                "text": "Lithium",
+                "isCorrect": true
+            },
+            {
+                "text": "Copper",
+                "isCorrect": false
+            },
+            {
+                "text": "Lead",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1664,
+        "question": "What is the SI unit of temperature?",
+        "slug": "what-is-the-si-unit-of-temperature",
+        "explanation": "The SI unit of temperature is the Kelvin (K).",
+        "tags": [
+            "Physics",
+            "Units"
+        ],
+        "options": [
+            {
+                "text": "Celsius",
+                "isCorrect": false
+            },
+            {
+                "text": "Fahrenheit",
+                "isCorrect": false
+            },
+            {
+                "text": "Kelvin",
+                "isCorrect": true
+            },
+            {
+                "text": "Rankine",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1665,
+        "question": "Which of the following is an example of a chemical change?",
+        "slug": "which-of-the-following-is-an-example-of-a-chemical-change",
+        "explanation": "Burning wood is an example of a chemical change, as new substances (like carbon dioxide and water) are formed.",
+        "tags": [
+            "Chemistry",
+            "Chemical Changes"
+        ],
+        "options": [
+            {
+                "text": "Boiling water",
+                "isCorrect": false
+            },
+            {
+                "text": "Freezing water",
+                "isCorrect": false
+            },
+            {
+                "text": "Burning wood",
+                "isCorrect": true
+            },
+            {
+                "text": "Dissolving sugar",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1666,
+        "question": "Which country is famous for producing the most number of cars?",
+        "slug": "which-country-is-famous-for-producing-the-most-number-of-cars",
+        "explanation": "China is the world’s largest producer of cars, with millions of vehicles manufactured annually.",
+        "tags": [
+            "World",
+            "Economy",
+            "Automobiles"
+        ],
+        "options": [
+            {
+                "text": "Germany",
+                "isCorrect": false
+            },
+            {
+                "text": "Japan",
+                "isCorrect": false
+            },
+            {
+                "text": "China",
+                "isCorrect": true
+            },
+            {
+                "text": "USA",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1667,
+        "question": "Which vitamin is primarily produced by the skin when exposed to sunlight?",
+        "slug": "which-vitamin-is-primarily-produced-by-the-skin-when-exposed-to-sunlight",
+        "explanation": "Vitamin D is produced when the skin is exposed to sunlight, particularly UVB rays.",
+        "tags": [
+            "Biology",
+            "Vitamins"
+        ],
+        "options": [
+            {
+                "text": "Vitamin A",
+                "isCorrect": false
+            },
+            {
+                "text": "Vitamin B",
+                "isCorrect": false
+            },
+            {
+                "text": "Vitamin D",
+                "isCorrect": true
+            },
+            {
+                "text": "Vitamin E",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1668,
+        "question": "What is the longest river in the world?",
+        "slug": "what-is-the-longest-river-in-the-world",
+        "explanation": "The Nile River is traditionally considered the longest river in the world, although the Amazon River is also a contender.",
+        "tags": [
+            "Geography",
+            "Rivers"
+        ],
+        "options": [
+            {
+                "text": "Amazon River",
+                "isCorrect": false
+            },
+            {
+                "text": "Nile River",
+                "isCorrect": true
+            },
+            {
+                "text": "Yangtze River",
+                "isCorrect": false
+            },
+            {
+                "text": "Ganges River",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1669,
+        "question": "What is the chemical symbol for potassium?",
+        "slug": "what-is-the-chemical-symbol-for-potassium",
+        "explanation": "The chemical symbol for potassium is 'K', derived from the Latin word 'kalium'.",
+        "tags": [
+            "Chemistry",
+            "Elements"
+        ],
+        "options": [
+            {
+                "text": "P",
+                "isCorrect": false
+            },
+            {
+                "text": "K",
+                "isCorrect": true
+            },
+            {
+                "text": "Po",
+                "isCorrect": false
+            },
+            {
+                "text": "Ka",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1670,
+        "question": "Which of these planets has the most moons?",
+        "slug": "which-of-these-planets-has-the-most-moons",
+        "explanation": "Jupiter has the most moons, with over 79 confirmed moons orbiting it.",
+        "tags": [
+            "Astronomy",
+            "Moons"
+        ],
+        "options": [
+            {
+                "text": "Saturn",
+                "isCorrect": false
+            },
+            {
+                "text": "Mars",
+                "isCorrect": false
+            },
+            {
+                "text": "Jupiter",
+                "isCorrect": true
+            },
+            {
+                "text": "Uranus",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1671,
+        "question": "Which part of the plant is responsible for photosynthesis?",
+        "slug": "which-part-of-the-plant-is-responsible-for-photosynthesis",
+        "explanation": "The leaves of a plant are primarily responsible for photosynthesis.",
+        "tags": [
+            "Biology",
+            "Plants"
+        ],
+        "options": [
+            {
+                "text": "Roots",
+                "isCorrect": false
+            },
+            {
+                "text": "Stem",
+                "isCorrect": false
+            },
+            {
+                "text": "Leaves",
+                "isCorrect": true
+            },
+            {
+                "text": "Flowers",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1672,
+        "question": "Which organ is responsible for pumping blood throughout the body?",
+        "slug": "which-organ-is-responsible-for-pumping-blood-throughout-the-body",
+        "explanation": "The heart is responsible for pumping blood throughout the body, delivering oxygen and nutrients.",
+        "tags": [
+            "Biology",
+            "Human Anatomy"
+        ],
+        "options": [
+            {
+                "text": "Brain",
+                "isCorrect": false
+            },
+            {
+                "text": "Lungs",
+                "isCorrect": false
+            },
+            {
+                "text": "Heart",
+                "isCorrect": true
+            },
+            {
+                "text": "Stomach",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1673,
+        "question": "What is the freezing point of water in Fahrenheit?",
+        "slug": "what-is-the-freezing-point-of-water-in-fahrenheit",
+        "explanation": "The freezing point of water in Fahrenheit is 32°F.",
+        "tags": [
+            "Science",
+            "Temperature"
+        ],
+        "options": [
+            {
+                "text": "0°F",
+                "isCorrect": false
+            },
+            {
+                "text": "32°F",
+                "isCorrect": true
+            },
+            {
+                "text": "100°F",
+                "isCorrect": false
+            },
+            {
+                "text": "212°F",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1674,
+        "question": "Who painted the Mona Lisa?",
+        "slug": "who-painted-the-mona-lisa",
+        "explanation": "Leonardo da Vinci painted the Mona Lisa, one of the most famous artworks in the world.",
+        "tags": [
+            "Art",
+            "History"
+        ],
+        "options": [
+            {
+                "text": "Pablo Picasso",
+                "isCorrect": false
+            },
+            {
+                "text": "Leonardo da Vinci",
+                "isCorrect": true
+            },
+            {
+                "text": "Vincent van Gogh",
+                "isCorrect": false
+            },
+            {
+                "text": "Michelangelo",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1675,
+        "question": "What is the SI unit of force?",
+        "slug": "what-is-the-si-unit-of-force",
+        "explanation": "The SI unit of force is the Newton (N), named after Sir Isaac Newton.",
+        "tags": [
+            "Physics",
+            "Units"
+        ],
+        "options": [
+            {
+                "text": "Joule",
+                "isCorrect": false
+            },
+            {
+                "text": "Newton",
+                "isCorrect": true
+            },
+            {
+                "text": "Pascal",
+                "isCorrect": false
+            },
+            {
+                "text": "Watt",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1676,
+        "question": "What does DNA stand for?",
+        "slug": "what-does-dna-stand-for",
+        "explanation": "DNA stands for Deoxyribonucleic Acid, the molecule that carries genetic information.",
+        "tags": [
+            "Biology",
+            "Genetics"
+        ],
+        "options": [
+            {
+                "text": "Deoxyribonucleic Acid",
+                "isCorrect": true
+            },
+            {
+                "text": "Ribonucleic Acid",
+                "isCorrect": false
+            },
+            {
+                "text": "Deoxyribonucleic Agent",
+                "isCorrect": false
+            },
+            {
+                "text": "Ribonucleic Agent",
+                "isCorrect": false
+            }
+        ]
     }
 ]
