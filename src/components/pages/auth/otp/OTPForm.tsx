@@ -28,7 +28,7 @@ export function OTPForm() {
     try {
       // Use postData to call the API for OTP verification
       const response = await postData<ApiResponse<any>, { otp: string }>(
-        "auth/verify-otp",
+        "auth/verify-otp/",
         { otp: value },
       );
 

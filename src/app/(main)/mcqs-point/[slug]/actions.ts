@@ -2,7 +2,7 @@
 
 export async function GetUsers(slug: string) {
   try {
-    const data = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/question/slug?slug=${slug}`);
+    const data = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/question/slug?slug=${slug}/`);
 
     if (!data.ok) {
       return { error: "Quiz not found" };

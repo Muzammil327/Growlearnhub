@@ -173,7 +173,7 @@ export default function DashboardQuestionAddPage({
 
     try {
       const response = await postData<ApiResponse<any>, typeof data>(
-        "question",
+        "question/",
         data,
       );
       if (response.statusbar === 200) {

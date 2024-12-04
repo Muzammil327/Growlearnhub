@@ -16,7 +16,7 @@ const fetchClassMcqs = async (
         bookName
       )}&chapterName=${encodeURIComponent(
         chapterName
-      )}&page=${currentPage}&limit=${limit}`
+      )}&page=${currentPage}&limit=${limit}/`
     )
     return response.data
   } catch (error) {

@@ -6,7 +6,7 @@ import { IpropsBook } from "@/src/types/book";
 export const useGetBooks = (classId: number) => {
   return useQuery<IpropsBook[], Error>({
     queryKey: ["book"],
-    queryFn: () => getData<IpropsBook[]>(`book?classId=${classId}`),
+    queryFn: () => getData<IpropsBook[]>(`book?classId=${classId}/`),
     enabled: !!classId, // Only fetch if classId is truthy (not undefined or null)
   });
 };

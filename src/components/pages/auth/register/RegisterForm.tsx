@@ -59,7 +59,7 @@ export default function RegisterForm() {
     try {
       // Call the postData function to send registration data to API
       const response = await postData<ApiResponse<any>, typeof data>(
-        "auth/register", // API endpoint
+        "auth/register/", // API endpoint
         data, // Data to be sent
       );
       if (response.statusbar === 200) {

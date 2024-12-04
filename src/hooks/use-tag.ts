@@ -6,6 +6,6 @@ import { IpropsTags } from "@/src/types/tag";
 export const useGetTags = () => {
   return useQuery<IpropsTags[], Error>({
     queryKey: ["tag"],
-    queryFn: () => getData<IpropsTags[]>("tag"),
+    queryFn: () => getData<IpropsTags[]>("tag/"),
   });
 };
