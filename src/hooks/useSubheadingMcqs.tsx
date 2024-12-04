@@ -17,7 +17,7 @@ const fetchSubHeadingMcqs = async (
         headingName
       )}&subHeadingName=${encodeURIComponent(
         subHeadingName
-      )}&page=${currentPage}&limit=${limit}/`
+      )}&page=${currentPage}&limit=${limit}`
     )
     return response.data
   } catch (error) {

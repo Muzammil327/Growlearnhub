@@ -3,7 +3,7 @@ import axios, { AxiosError } from "axios"
 
 const fetchSingleMcqs = async (slug: string) => {
   try {
-    const response = await axios.get(`/api/mcqs/${slug}/`) // Replace with your actual endpoint
+    const response = await axios.get(`/api/mcqs/${slug}`) // Replace with your actual endpoint
     return response.data
   } catch (error) {
     if (error instanceof AxiosError) {

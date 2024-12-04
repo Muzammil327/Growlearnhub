@@ -46,7 +46,6 @@ import { useGetHeadings } from "@/src/hooks/use-heading";
 import { IpropsSubHeading } from "@/src/types/subheading";
 import { IpropsHeading } from "@/src/types/heading";
 import { useGetSubHeadings } from "@/src/hooks/use-subheading";
-import { useGetTags } from "@/src/hooks/use-tag";
 import {
   Command,
   CommandDialog,
@@ -140,7 +139,6 @@ export default function DashboardQuestionAddPage() {
     error: subheadingsError,
     isLoading: subheadingsLoading,
   } = useGetSubHeadings(headingId);
-  const { data: tags, error: tagsError, isLoading: tagsLoading } = useGetTags();
 
   function onSubmit(values: FormValues) {
     console.log(values);
@@ -781,57 +779,6 @@ export default function DashboardQuestionAddPage() {
                                     }
                                   />
                                 </FormControl>
-                                <FormMessage />
-                              </FormItem>
-                            )}
-                          />
-
-                          <FormField
-                            control={form.control}
-                            name={`questions.${index}.tags`}
-                            render={({ field }) => (
-                              <FormItem>
-                                <FormLabel>Tags</FormLabel>
-                                <FormControl className="border">
-                                  <Command>
-                                    <CommandInput placeholder="Search framework..." />
-                                    <CommandList>
-                                      <CommandEmpty>
-                                        No framework found.
-                                      </CommandEmpty>
-                                      <CommandGroup className="">
-                                        {tags?.map((framework) => (
-                                          <CommandItem key={framework.id}>
-                                            {framework.name}
-                                          </CommandItem>
-                                        ))}
-                                      </CommandGroup>
-                                    </CommandList>
-                                  </Command>
-                                </FormControl>
-                                <div className="mt-2 flex flex-wrap gap-2">
-                                  {field.value.map((tag, tagIndex) => (
-                                    <div
-                                      key={tagIndex}
-                                      className="flex items-center rounded-full bg-primary px-2 py-1 text-sm text-primary-foreground"
-                                    >
-                                      {tag}
-                                      <Button
-                                        type="button"
-                                        variant="ghost"
-                                        size="sm"
-                                        className="ml-1 h-4 w-4 p-0"
-                                        onClick={() => {
-                                          const newTags = [...field.value];
-                                          newTags.splice(tagIndex, 1);
-                                          field.onChange(newTags);
-                                        }}
-                                      >
-                                        <X className="h-3 w-3" />
-                                      </Button>
-                                    </div>
-                                  ))}
-                                </div>
                                 <FormMessage />
                               </FormItem>
                             )}

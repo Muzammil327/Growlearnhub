@@ -68,7 +68,7 @@ const SubHeadingMcqsList: React.FC<{
           <CardQuizWithLink
             key={book.id}
             title={book.name}
-            link={`/mcqs-point/${book.slug}/`}
+            link={`/mcqs-point/${book.slug}`}
             option={book.options}
             correctOption={book.correctOptions}
           />

@@ -6,6 +6,6 @@ import { IpropsClass } from "@/src/types/class";
 export const useGetClasses = () => {
   return useQuery<IpropsClass[], Error>({
     queryKey: ["class"],
-    queryFn: () => getData<IpropsClass[]>("class/"),
+    queryFn: () => getData<IpropsClass[]>("class"),
   });
 };

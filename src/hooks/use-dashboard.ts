@@ -7,7 +7,7 @@ import { IpropsDashboard } from "@/src/types/dashboard";
 export const useGetDashboard = (userId: number) => {
   return useQuery<IpropsDashboard, Error>({
     queryKey: ["dashboard"],
-    queryFn: () => getData<IpropsDashboard>(`dashboard?userId=${userId}/`),
+    queryFn: () => getData<IpropsDashboard>(`dashboard?userId=${userId}`),
     enabled: !!userId,
   });
 };

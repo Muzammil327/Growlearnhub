@@ -3,7 +3,7 @@ import axios, { AxiosError } from "axios"
 
 const fetchFormData = async () => {
   try {
-    const response = await axios.get("/api/mcqs/form/")
+    const response = await axios.get("/api/mcqs/form")
     return response.data
   } catch (error) {
     if (error instanceof AxiosError) {
