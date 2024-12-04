@@ -16,6 +16,7 @@ type SitemapFile = {
   priority?: number;
 };
 
+
 const FRONTEND_URL = process.env.NEXT_PUBLIC_SITE_URL;
 
 export default async function sitemap(): Promise<SitemapFile[]> {
