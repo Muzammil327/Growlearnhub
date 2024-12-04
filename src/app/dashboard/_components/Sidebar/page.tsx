@@ -431,11 +431,11 @@ const data = [
   {
     heading: "Learning",
     subheading: [
-      {
-        label: "Classes",
-        path: "/classes",
-        icon: <Video />,
-      },
+      // {
+      //   label: "Classes",
+      //   path: "/classes",
+      //   icon: <Video />,
+      // },
       {
         label: "Questions",
         path: "/question",
@@ -453,29 +453,29 @@ const data = [
       },
     ],
   },
-  {
-    heading: "Resources",
-    subheading: [
-      {
-        label: "E-Books",
-        path: "/resources/ebooks",
-        icon: <FileText />,
-        submenu: [
-          {
-            label: "Add",
-            path: "/question/add",
-          },
-          {
-            label: "View All",
-            path: "/question",
-          },
-        ],
-      },
-      {
-        label: "Video Tutorials",
-        path: "/resources/videos",
-        icon: <Video />,
-      },
-    ],
-  },
+  // {
+  //   heading: "Resources",
+  //   subheading: [
+  //     {
+  //       label: "E-Books",
+  //       path: "/resources/ebooks",
+  //       icon: <FileText />,
+  //       submenu: [
+  //         {
+  //           label: "Add",
+  //           path: "/question/add",
+  //         },
+  //         {
+  //           label: "View All",
+  //           path: "/question",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       label: "Video Tutorials",
+  //       path: "/resources/videos",
+  //       icon: <Video />,
+  //     },
+  //   ],
+  // },
 ];
