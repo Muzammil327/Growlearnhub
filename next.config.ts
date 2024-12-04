@@ -15,7 +15,7 @@ const nextConfig = {
   //     },
   //   ];
   // },
-  // trailingSlash: true,
+  trailingSlash: true,
   // reactStrictMode: true,
   // swcMinify: true,
 };
