@@ -10,13 +10,14 @@ const nextConfig = {
       {
         source: "/:path*",
         has: [{ type: "host", value: "www.growlearnhub.com" }],
-        destination: "https://growlearnhub.com/:path*/",  // Ensure trailing slash in the destination URL
+        destination: "https://growlearnhub.com/:path*",
         permanent: true,
       },
     ];
   },
-  trailingSlash: true,  // Ensuring all routes use trailing slashes
+  trailingSlash: true,
   reactStrictMode: true,
+  swcMinify: true,
 };
 
 export default nextConfig;

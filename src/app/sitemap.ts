@@ -20,18 +20,20 @@ type SitemapFile = {
 const FRONTEND_URL = process.env.NEXT_PUBLIC_SITE_URL;
 
 export default async function sitemap(): Promise<SitemapFile[]> {
-  // const response = await axios.get(`${FRONTEND_URL}/api/sitemaps/`);
-  // const McqsSlug = response.data
+  const response = await axios.get(`${FRONTEND_URL}/api/sitemaps/`);
+  const McqsSlug = response.data
+
+  console.log("McqsSlug:", McqsSlug)
 
   try {
-    // const RoutesQuestionData: SitemapFile[] = McqsSlug.map(
-    //   (data: string) => ({
-    //     url: `${FRONTEND_URL}/mcqs-point/${data}/`,
-    //     lastModified: new Date().toISOString(),
-    //     priority: 0.8,
-    //     changeFrequency: "weekly" as "weekly",
-    //   }),
-    // );
+    const RoutesQuestionData: SitemapFile[] = McqsSlug.map(
+      (data: string) => ({
+        url: `${FRONTEND_URL}/mcqs-point/${data}/`,
+        lastModified: new Date().toISOString(),
+        priority: 0.8,
+        changeFrequency: "weekly" as "weekly",
+      }),
+    );
 
     const RoutesData: SitemapFile[] = data.map((data) => ({
       url: `${FRONTEND_URL}/${data}/`,
