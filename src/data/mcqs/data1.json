@@ -1,34 +1,5 @@
 [
     {
-        "id": 1500,
-        "name": "Which planet is known as Earth's twin?",
-        "slug": "which-planet-is-known-as-earths-twin",
-        "explanation": "Venus is often called Earth's twin due to its similar size and composition.",
-        "tags": [
-            "planet",
-            "earth",
-            "astronomy"
-        ],
-        "options": [
-            {
-                "text": "Mars",
-                "isCorrect": false
-            },
-            {
-                "text": "Venus",
-                "isCorrect": true
-            },
-            {
-                "text": "Jupiter",
-                "isCorrect": false
-            },
-            {
-                "text": "Saturn",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
         "id": 1501,
         "name": "What is the primary source of energy for Earth?",
         "slug": "what-is-the-primary-source-of-energy-for-earth",
@@ -1728,6 +1699,34 @@
         ]
     },
     {
+        "id": 1559,
+        "question": "What is the capital city of France?",
+        "slug": "what-is-the-capital-city-of-france",
+        "explanation": "The capital city of France is Paris, known for its iconic landmarks like the Eiffel Tower.",
+        "tags": [
+            "Geography",
+            "Countries"
+        ],
+        "options": [
+            {
+                "text": "Madrid",
+                "isCorrect": false
+            },
+            {
+                "text": "Berlin",
+                "isCorrect": false
+            },
+            {
+                "text": "Paris",
+                "isCorrect": true
+            },
+            {
+                "text": "Rome",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
         "id": 1560,
         "question": "What is the largest city in Pakistan by population?",
         "slug": "what-is-the-largest-city-in-pakistan-by-population",
@@ -1990,29 +1989,28 @@
     },
     {
         "id": 1569,
-        "question": "What is the significance of Pakistan Day?",
-        "slug": "what-is-the-significance-of-pakistan-day",
-        "explanation": "Pakistan Day commemorates the formation of Pakistan on March 23, 1940, when the Lahore Resolution was passed.",
+        "question": "Which country has the largest population?",
+        "slug": "which-country-has-the-largest-population",
+        "explanation": "China has the largest population, followed by India.",
         "tags": [
-            "history",
-            "Pakistan",
-            "Pakistan Day"
+            "Geography",
+            "Population"
         ],
         "options": [
             {
-                "text": "Independence from British rule",
+                "text": "USA",
                 "isCorrect": false
             },
             {
-                "text": "Formation of Pakistan",
+                "text": "India",
+                "isCorrect": false
+            },
+            {
+                "text": "China",
                 "isCorrect": true
             },
             {
-                "text": "Constitution Day",
-                "isCorrect": false
-            },
-            {
-                "text": "Founding of the Army",
+                "text": "Russia",
                 "isCorrect": false
             }
         ]
@@ -2866,6 +2864,35 @@
             },
             {
                 "text": "Haleem",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1600,
+        "question": "What is the main export of Pakistan?",
+        "slug": "what-is-the-main-export-of-pakistan",
+        "explanation": "Textiles, including garments, fabrics, and other related products, are Pakistan's main export, contributing significantly to the economy.",
+        "tags": [
+            "Pakistan",
+            "exports",
+            "economy"
+        ],
+        "options": [
+            {
+                "text": "Oil",
+                "isCorrect": false
+            },
+            {
+                "text": "Textiles",
+                "isCorrect": true
+            },
+            {
+                "text": "Agricultural products",
+                "isCorrect": false
+            },
+            {
+                "text": "Automobiles",
                 "isCorrect": false
             }
         ]

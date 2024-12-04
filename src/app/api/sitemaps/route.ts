@@ -30,7 +30,17 @@ export async function GET() {
     ]
 
     const uniqueSlugs = [...new Set(combinedAllSlug)];
-    return NextResponse.json(uniqueSlugs, { status: 200 });
+
+    const duplicateSlugs = combinedAllSlug.filter((slug) => {
+      return combinedAllSlug.indexOf(slug) !== combinedAllSlug.lastIndexOf(slug);
+    });
+    
+    const uniqueSlugsOnly = combinedAllSlug.filter((slug) => {
+      return combinedAllSlug.indexOf(slug) === combinedAllSlug.lastIndexOf(slug);
+    });
+
+    return NextResponse.json(uniqueSlugsOnly, { status: 200 });
+    // return NextResponse.json(duplicateSlugs, { status: 200 });
   } catch (error) {
     return NextResponse.json(error, { status: 500 });
   }

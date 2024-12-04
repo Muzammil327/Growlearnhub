@@ -1,34 +1,5 @@
 [
     {
-        "id": 1600,
-        "question": "What is the main export of Pakistan?",
-        "slug": "what-is-the-main-export-of-pakistan",
-        "explanation": "Textiles, including garments, fabrics, and other related products, are Pakistan's main export, contributing significantly to the economy.",
-        "tags": [
-            "Pakistan",
-            "exports",
-            "economy"
-        ],
-        "options": [
-            {
-                "text": "Oil",
-                "isCorrect": false
-            },
-            {
-                "text": "Textiles",
-                "isCorrect": true
-            },
-            {
-                "text": "Agricultural products",
-                "isCorrect": false
-            },
-            {
-                "text": "Automobiles",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
         "id": 1601,
         "question": "Which sport is traditionally played in the northern areas of Pakistan?",
         "slug": "which-sport-is-traditionally-played-in-the-northern-areas-of-pakistan",
@@ -654,6 +625,34 @@
         ]
     },
     {
+        "id": 1623,
+        "question": "What is the largest organ in the human body?",
+        "slug": "what-is-the-largest-organ-in-the-human-body",
+        "explanation": "The skin is the largest organ of the human body, protecting internal organs and regulating temperature.",
+        "tags": [
+            "Biology",
+            "Human Anatomy"
+        ],
+        "options": [
+            {
+                "text": "Heart",
+                "isCorrect": false
+            },
+            {
+                "text": "Liver",
+                "isCorrect": false
+            },
+            {
+                "text": "Skin",
+                "isCorrect": true
+            },
+            {
+                "text": "Lungs",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
         "id": 1624,
         "question": "What is the official language of Pakistan?",
         "slug": "what-is-the-official-language-of-pakistan",
@@ -739,29 +738,28 @@
     },
     {
         "id": 1627,
-        "question": "Which is the largest ocean on Earth?",
-        "slug": "which-is-the-largest-ocean-on-earth",
-        "explanation": "The Pacific Ocean is the largest ocean on Earth, covering more than 63 million square miles.",
+        "question": "What is the tallest mountain in the world?",
+        "slug": "what-is-the-tallest-mountain-in-the-world",
+        "explanation": "Mount Everest is the tallest mountain in the world, standing at 29,032 feet (8,849 meters).",
         "tags": [
             "Geography",
-            "World",
-            "Oceans"
+            "Mountains"
         ],
         "options": [
             {
-                "text": "Atlantic Ocean",
+                "text": "K2",
                 "isCorrect": false
             },
             {
-                "text": "Indian Ocean",
-                "isCorrect": false
-            },
-            {
-                "text": "Pacific Ocean",
+                "text": "Mount Everest",
                 "isCorrect": true
             },
             {
-                "text": "Southern Ocean",
+                "text": "Kangchenjunga",
+                "isCorrect": false
+            },
+            {
+                "text": "Makalu",
                 "isCorrect": false
             }
         ]
@@ -797,62 +795,90 @@
     },
     {
         "id": 1629,
-        "question": "What is the powerhouse of the cell?",
-        "slug": "what-is-the-powerhouse-of-the-cell",
-        "explanation": "The mitochondria are known as the powerhouse of the cell because they generate the energy the cell needs to perform various functions.",
+        "question": "What is the largest species of shark?",
+        "slug": "what-is-the-largest-species-of-shark",
+        "explanation": "The largest species of shark is the whale shark, which can grow up to 40 feet in length.",
         "tags": [
-            "Biology",
-            "Cell Biology"
+            "Marine Biology",
+            "Sharks"
         ],
         "options": [
             {
-                "text": "Nucleus",
+                "text": "Great White Shark",
                 "isCorrect": false
             },
             {
-                "text": "Mitochondria",
+                "text": "Whale Shark",
                 "isCorrect": true
             },
             {
-                "text": "Endoplasmic Reticulum",
+                "text": "Hammerhead Shark",
                 "isCorrect": false
             },
             {
-                "text": "Golgi Apparatus",
+                "text": "Tiger Shark",
                 "isCorrect": false
             }
         ]
     },
     {
         "id": 1630,
-        "question": "Which organ is responsible for pumping blood throughout the human body?",
-        "slug": "which-organ-is-responsible-for-pumping-blood-throughout-the-human-body",
-        "explanation": "The heart is responsible for pumping blood throughout the body, ensuring oxygen and nutrients are delivered to tissues.",
+        "question": "Who developed the theory of evolution by natural selection?",
+        "slug": "who-developed-the-theory-of-evolution-by-natural-selection",
+        "explanation": "Charles Darwin developed the theory of evolution by natural selection, explaining how species evolve over time.",
         "tags": [
             "Biology",
-            "Human Anatomy"
+            "Evolution"
         ],
         "options": [
             {
-                "text": "Lungs",
+                "text": "Gregor Mendel",
                 "isCorrect": false
             },
             {
-                "text": "Heart",
+                "text": "Charles Darwin",
                 "isCorrect": true
             },
             {
-                "text": "Kidneys",
+                "text": "Louis Pasteur",
                 "isCorrect": false
             },
             {
-                "text": "Liver",
+                "text": "Carl Linnaeus",
                 "isCorrect": false
             }
         ]
     },
     {
         "id": 1631,
+        "question": "What is the currency of Japan?",
+        "slug": "what-is-the-currency-of-japan",
+        "explanation": "The currency of Japan is the Japanese Yen (JPY).",
+        "tags": [
+            "Economy",
+            "Currency"
+        ],
+        "options": [
+            {
+                "text": "Yuan",
+                "isCorrect": false
+            },
+            {
+                "text": "Yen",
+                "isCorrect": true
+            },
+            {
+                "text": "Won",
+                "isCorrect": false
+            },
+            {
+                "text": "Ringgit",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1632,
         "question": "What is the chemical symbol for gold?",
         "slug": "what-is-the-chemical-symbol-for-gold",
         "explanation": "The chemical symbol for gold is 'Au', derived from the Latin word 'aurum'.",
@@ -875,34 +901,6 @@
             },
             {
                 "text": "Fe",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1632,
-        "question": "What is the pH value of pure water?",
-        "slug": "what-is-the-ph-value-of-pure-water",
-        "explanation": "The pH value of pure water is 7, which is considered neutral on the pH scale.",
-        "tags": [
-            "Chemistry",
-            "Acids and Bases"
-        ],
-        "options": [
-            {
-                "text": "5",
-                "isCorrect": false
-            },
-            {
-                "text": "7",
-                "isCorrect": true
-            },
-            {
-                "text": "9",
-                "isCorrect": false
-            },
-            {
-                "text": "10",
                 "isCorrect": false
             }
         ]
@@ -965,310 +963,28 @@
     },
     {
         "id": 1635,
-        "question": "What is the synonym of 'happy'?",
-        "slug": "what-is-the-synonym-of-happy",
-        "explanation": "The synonym for 'happy' is 'joyful', which also conveys a sense of pleasure or contentment.",
+        "question": "Which is the most common element in the Earth's crust?",
+        "slug": "which-is-the-most-common-element-in-the-earths-crust",
+        "explanation": "Oxygen is the most common element in the Earth's crust, making up about 46% of its mass.",
         "tags": [
-            "English",
-            "Vocabulary"
+            "Geology",
+            "Earth"
         ],
         "options": [
             {
-                "text": "Sad",
+                "text": "Iron",
                 "isCorrect": false
             },
             {
-                "text": "Angry",
-                "isCorrect": false
-            },
-            {
-                "text": "Joyful",
+                "text": "Oxygen",
                 "isCorrect": true
             },
             {
-                "text": "Tired",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1636,
-        "question": "Which word is an antonym of 'brave'?",
-        "slug": "which-word-is-an-antonym-of-brave",
-        "explanation": "The antonym of 'brave' is 'cowardly', meaning lacking courage.",
-        "tags": [
-            "English",
-            "Vocabulary"
-        ],
-        "options": [
-            {
-                "text": "Bold",
+                "text": "Aluminum",
                 "isCorrect": false
             },
             {
-                "text": "Cowardly",
-                "isCorrect": true
-            },
-            {
-                "text": "Fearless",
-                "isCorrect": false
-            },
-            {
-                "text": "Courageous",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1627,
-        "question": "Which is the largest ocean on Earth?",
-        "slug": "which-is-the-largest-ocean-on-earth",
-        "explanation": "The Pacific Ocean is the largest ocean on Earth, covering more than 63 million square miles.",
-        "tags": [
-            "Geography",
-            "World",
-            "Oceans"
-        ],
-        "options": [
-            {
-                "text": "Atlantic Ocean",
-                "isCorrect": false
-            },
-            {
-                "text": "Indian Ocean",
-                "isCorrect": false
-            },
-            {
-                "text": "Pacific Ocean",
-                "isCorrect": true
-            },
-            {
-                "text": "Southern Ocean",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1628,
-        "question": "What is the capital city of Japan?",
-        "slug": "what-is-the-capital-city-of-japan",
-        "explanation": "Tokyo is the capital city of Japan and one of the most populous cities in the world.",
-        "tags": [
-            "Geography",
-            "World",
-            "Capital Cities"
-        ],
-        "options": [
-            {
-                "text": "Osaka",
-                "isCorrect": false
-            },
-            {
-                "text": "Tokyo",
-                "isCorrect": true
-            },
-            {
-                "text": "Kyoto",
-                "isCorrect": false
-            },
-            {
-                "text": "Hiroshima",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1629,
-        "question": "What is the powerhouse of the cell?",
-        "slug": "what-is-the-powerhouse-of-the-cell",
-        "explanation": "The mitochondria are known as the powerhouse of the cell because they generate the energy the cell needs to perform various functions.",
-        "tags": [
-            "Biology",
-            "Cell Biology"
-        ],
-        "options": [
-            {
-                "text": "Nucleus",
-                "isCorrect": false
-            },
-            {
-                "text": "Mitochondria",
-                "isCorrect": true
-            },
-            {
-                "text": "Endoplasmic Reticulum",
-                "isCorrect": false
-            },
-            {
-                "text": "Golgi Apparatus",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1630,
-        "question": "Which organ is responsible for pumping blood throughout the human body?",
-        "slug": "which-organ-is-responsible-for-pumping-blood-throughout-the-human-body",
-        "explanation": "The heart is responsible for pumping blood throughout the body, ensuring oxygen and nutrients are delivered to tissues.",
-        "tags": [
-            "Biology",
-            "Human Anatomy"
-        ],
-        "options": [
-            {
-                "text": "Lungs",
-                "isCorrect": false
-            },
-            {
-                "text": "Heart",
-                "isCorrect": true
-            },
-            {
-                "text": "Kidneys",
-                "isCorrect": false
-            },
-            {
-                "text": "Liver",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1631,
-        "question": "What is the chemical symbol for gold?",
-        "slug": "what-is-the-chemical-symbol-for-gold",
-        "explanation": "The chemical symbol for gold is 'Au', derived from the Latin word 'aurum'.",
-        "tags": [
-            "Chemistry",
-            "Elements"
-        ],
-        "options": [
-            {
-                "text": "Ag",
-                "isCorrect": false
-            },
-            {
-                "text": "Au",
-                "isCorrect": true
-            },
-            {
-                "text": "Pb",
-                "isCorrect": false
-            },
-            {
-                "text": "Fe",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1632,
-        "question": "What is the pH value of pure water?",
-        "slug": "what-is-the-ph-value-of-pure-water",
-        "explanation": "The pH value of pure water is 7, which is considered neutral on the pH scale.",
-        "tags": [
-            "Chemistry",
-            "Acids and Bases"
-        ],
-        "options": [
-            {
-                "text": "5",
-                "isCorrect": false
-            },
-            {
-                "text": "7",
-                "isCorrect": true
-            },
-            {
-                "text": "9",
-                "isCorrect": false
-            },
-            {
-                "text": "10",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1633,
-        "question": "Who is known as the father of modern physics?",
-        "slug": "who-is-known-as-the-father-of-modern-physics",
-        "explanation": "Albert Einstein is known as the father of modern physics, most famous for his theory of relativity.",
-        "tags": [
-            "Physics",
-            "History of Science"
-        ],
-        "options": [
-            {
-                "text": "Isaac Newton",
-                "isCorrect": false
-            },
-            {
-                "text": "Albert Einstein",
-                "isCorrect": true
-            },
-            {
-                "text": "Niels Bohr",
-                "isCorrect": false
-            },
-            {
-                "text": "Galileo Galilei",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1634,
-        "question": "What is the unit of electric current?",
-        "slug": "what-is-the-unit-of-electric-current",
-        "explanation": "The unit of electric current is the Ampere (A), named after the French scientist André-Marie Ampère.",
-        "tags": [
-            "Physics",
-            "Electricity"
-        ],
-        "options": [
-            {
-                "text": "Volt",
-                "isCorrect": false
-            },
-            {
-                "text": "Watt",
-                "isCorrect": false
-            },
-            {
-                "text": "Ampere",
-                "isCorrect": true
-            },
-            {
-                "text": "Ohm",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1635,
-        "question": "What is the synonym of 'happy'?",
-        "slug": "what-is-the-synonym-of-happy",
-        "explanation": "The synonym for 'happy' is 'joyful', which also conveys a sense of pleasure or contentment.",
-        "tags": [
-            "English",
-            "Vocabulary"
-        ],
-        "options": [
-            {
-                "text": "Sad",
-                "isCorrect": false
-            },
-            {
-                "text": "Angry",
-                "isCorrect": false
-            },
-            {
-                "text": "Joyful",
-                "isCorrect": true
-            },
-            {
-                "text": "Tired",
+                "text": "Silicon",
                 "isCorrect": false
             }
         ]
@@ -1303,6 +1019,119 @@
     },
     {
         "id": 1637,
+        "question": "Which is the largest ocean on Earth?",
+        "slug": "which-is-the-largest-ocean-on-earth",
+        "explanation": "The Pacific Ocean is the largest ocean on Earth, covering more than 63 million square miles.",
+        "tags": [
+            "Geography",
+            "World",
+            "Oceans"
+        ],
+        "options": [
+            {
+                "text": "Atlantic Ocean",
+                "isCorrect": false
+            },
+            {
+                "text": "Indian Ocean",
+                "isCorrect": false
+            },
+            {
+                "text": "Pacific Ocean",
+                "isCorrect": true
+            },
+            {
+                "text": "Southern Ocean",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1638,
+        "question": "What is the powerhouse of the cell?",
+        "slug": "what-is-the-powerhouse-of-the-cell",
+        "explanation": "The mitochondria are known as the powerhouse of the cell because they generate the energy the cell needs to perform various functions.",
+        "tags": [
+            "Biology",
+            "Cell Biology"
+        ],
+        "options": [
+            {
+                "text": "Nucleus",
+                "isCorrect": false
+            },
+            {
+                "text": "Mitochondria",
+                "isCorrect": true
+            },
+            {
+                "text": "Endoplasmic Reticulum",
+                "isCorrect": false
+            },
+            {
+                "text": "Golgi Apparatus",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1639,
+        "question": "What is the pH value of pure water?",
+        "slug": "what-is-the-ph-value-of-pure-water",
+        "explanation": "The pH value of pure water is 7, which is considered neutral on the pH scale.",
+        "tags": [
+            "Chemistry",
+            "Acids and Bases"
+        ],
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": false
+            },
+            {
+                "text": "7",
+                "isCorrect": true
+            },
+            {
+                "text": "9",
+                "isCorrect": false
+            },
+            {
+                "text": "10",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1640,
+        "question": "What is the synonym of 'happy'?",
+        "slug": "what-is-the-synonym-of-happy",
+        "explanation": "The synonym for 'happy' is 'joyful', which also conveys a sense of pleasure or contentment.",
+        "tags": [
+            "English",
+            "Vocabulary"
+        ],
+        "options": [
+            {
+                "text": "Sad",
+                "isCorrect": false
+            },
+            {
+                "text": "Angry",
+                "isCorrect": false
+            },
+            {
+                "text": "Joyful",
+                "isCorrect": true
+            },
+            {
+                "text": "Tired",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1641,
         "question": "Which country is the largest producer of coffee?",
         "slug": "which-country-is-the-largest-producer-of-coffee",
         "explanation": "Brazil is the world's largest producer of coffee, contributing around a third of all coffee supply.",
@@ -1331,7 +1160,7 @@
         ]
     },
     {
-        "id": 1638,
+        "id": 1642,
         "question": "What is the smallest bone in the human body?",
         "slug": "what-is-the-smallest-bone-in-the-human-body",
         "explanation": "The stapes (or stirrup) bone in the ear is the smallest bone in the human body.",
@@ -1359,7 +1188,7 @@
         ]
     },
     {
-        "id": 1639,
+        "id": 1643,
         "question": "What is the chemical formula for water?",
         "slug": "what-is-the-chemical-formula-for-water",
         "explanation": "Water has the chemical formula H2O, consisting of two hydrogen atoms and one oxygen atom.",
@@ -1388,7 +1217,7 @@
         ]
     },
     {
-        "id": 1640,
+        "id": 1644,
         "question": "What is the SI unit of force?",
         "slug": "what-is-the-si-unit-of-force",
         "explanation": "The SI unit of force is the Newton (N), named after Sir Isaac Newton.",
@@ -1417,7 +1246,7 @@
         ]
     },
     {
-        "id": 1641,
+        "id": 1645,
         "question": "What is the capital of France?",
         "slug": "what-is-the-capital-of-france",
         "explanation": "The capital of France is Paris, known for its landmarks such as the Eiffel Tower and Louvre Museum.",
@@ -1446,36 +1275,7 @@
         ]
     },
     {
-        "id": 1642,
-        "question": "What is the primary function of red blood cells?",
-        "slug": "what-is-the-primary-function-of-red-blood-cells",
-        "explanation": "The primary function of red blood cells is to transport oxygen from the lungs to the rest of the body and return carbon dioxide to the lungs.",
-        "tags": [
-            "Biology",
-            "Human Anatomy",
-            "Blood"
-        ],
-        "options": [
-            {
-                "text": "Fight infection",
-                "isCorrect": false
-            },
-            {
-                "text": "Transport oxygen",
-                "isCorrect": true
-            },
-            {
-                "text": "Regulate body temperature",
-                "isCorrect": false
-            },
-            {
-                "text": "Carry nutrients",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1643,
+        "id": 1646,
         "question": "What is the atomic number of carbon?",
         "slug": "what-is-the-atomic-number-of-carbon",
         "explanation": "The atomic number of carbon is 6, meaning it has six protons in its nucleus.",
@@ -1504,7 +1304,7 @@
         ]
     },
     {
-        "id": 1644,
+        "id": 1647,
         "question": "What is the speed of light in a vacuum?",
         "slug": "what-is-the-speed-of-light-in-a-vacuum",
         "explanation": "The speed of light in a vacuum is approximately 299,792 kilometers per second.",
@@ -1533,7 +1333,7 @@
         ]
     },
     {
-        "id": 1645,
+        "id": 1648,
         "question": "Which of the following is a synonym for 'vivid'?",
         "slug": "which-of-the-following-is-a-synonym-for-vivid",
         "explanation": "'Vivid' means producing powerful feelings or strong, clear images in the mind. A synonym is 'bright'.",
@@ -1561,7 +1361,7 @@
         ]
     },
     {
-        "id": 1646,
+        "id": 1649,
         "question": "Which word is an antonym of 'generous'?",
         "slug": "which-word-is-an-antonym-of-generous",
         "explanation": "The antonym of 'generous' is 'stingy', meaning unwilling to share or give.",
@@ -1589,7 +1389,7 @@
         ]
     },
     {
-        "id": 1647,
+        "id": 1650,
         "question": "What is the capital of Canada?",
         "slug": "what-is-the-capital-of-canada",
         "explanation": "Ottawa is the capital city of Canada, located in the province of Ontario.",
@@ -1617,7 +1417,7 @@
         ]
     },
     {
-        "id": 1648,
+        "id": 1651,
         "question": "Which planet is known as the 'Red Planet'?",
         "slug": "which-planet-is-known-as-the-red-planet",
         "explanation": "Mars is called the 'Red Planet' due to its reddish appearance caused by iron oxide on its surface.",
@@ -1645,7 +1445,7 @@
         ]
     },
     {
-        "id": 1649,
+        "id": 1652,
         "question": "What is the main gas found in the Earth's atmosphere?",
         "slug": "what-is-the-main-gas-found-in-the-earths-atmosphere",
         "explanation": "The Earth's atmosphere is made up mostly of nitrogen (78%), followed by oxygen (21%).",
@@ -1673,7 +1473,7 @@
         ]
     },
     {
-        "id": 1650,
+        "id": 1653,
         "question": "Which animal is known for its ability to regenerate lost limbs?",
         "slug": "which-animal-is-known-for-its-ability-to-regenerate-lost-limbs",
         "explanation": "The axolotl is famous for its ability to regenerate lost limbs, as well as other body parts like the heart and brain.",
@@ -1701,7 +1501,7 @@
         ]
     },
     {
-        "id": 1651,
+        "id": 1654,
         "question": "What is the chemical symbol for silver?",
         "slug": "what-is-the-chemical-symbol-for-silver",
         "explanation": "The chemical symbol for silver is 'Ag', derived from the Latin word 'argentum'.",
@@ -1729,7 +1529,7 @@
         ]
     },
     {
-        "id": 1652,
+        "id": 1655,
         "question": "What is the most abundant gas in Earth's atmosphere?",
         "slug": "what-is-the-most-abundant-gas-in-earths-atmosphere",
         "explanation": "Nitrogen makes up 78% of Earth's atmosphere, making it the most abundant gas.",
@@ -1757,7 +1557,7 @@
         ]
     },
     {
-        "id": 1653,
+        "id": 1656,
         "question": "Which scientist developed the theory of evolution by natural selection?",
         "slug": "which-scientist-developed-the-theory-of-evolution-by-natural-selection",
         "explanation": "Charles Darwin is known for developing the theory of evolution by natural selection.",
@@ -1785,7 +1585,7 @@
         ]
     },
     {
-        "id": 1654,
+        "id": 1657,
         "question": "Which of these is a noble gas?",
         "slug": "which-of-these-is-a-noble-gas",
         "explanation": "Noble gases are elements that are chemically inert, and one example is helium (He).",
@@ -1813,7 +1613,7 @@
         ]
     },
     {
-        "id": 1655,
+        "id": 1658,
         "question": "Which planet is the closest to the sun?",
         "slug": "which-planet-is-the-closest-to-the-sun",
         "explanation": "Mercury is the closest planet to the sun.",
@@ -1841,7 +1641,7 @@
         ]
     },
     {
-        "id": 1656,
+        "id": 1659,
         "question": "Who invented the light bulb?",
         "slug": "who-invented-the-light-bulb",
         "explanation": "Thomas Edison is credited with inventing the first practical light bulb.",
@@ -1869,35 +1669,35 @@
         ]
     },
     {
-        "id": 1657,
-        "question": "What is the most common blood type?",
-        "slug": "what-is-the-most-common-blood-type",
-        "explanation": "The most common blood type in the world is O positive (O+).",
+        "id": 1660,
+        "question": "Which vitamin is produced by the skin when exposed to sunlight?",
+        "slug": "which-vitamin-is-produced-by-the-skin-when-exposed-to-sunlight",
+        "explanation": "Vitamin D is produced by the skin when it is exposed to sunlight.",
         "tags": [
             "Biology",
-            "Human Anatomy"
+            "Vitamins"
         ],
         "options": [
             {
-                "text": "A+",
+                "text": "Vitamin A",
                 "isCorrect": false
             },
             {
-                "text": "O+",
+                "text": "Vitamin B",
+                "isCorrect": false
+            },
+            {
+                "text": "Vitamin C",
+                "isCorrect": false
+            },
+            {
+                "text": "Vitamin D",
                 "isCorrect": true
-            },
-            {
-                "text": "B-",
-                "isCorrect": false
-            },
-            {
-                "text": "AB+",
-                "isCorrect": false
             }
         ]
     },
     {
-        "id": 1658,
+        "id": 1661,
         "question": "What is the chemical formula for methane?",
         "slug": "what-is-the-chemical-formula-for-methane",
         "explanation": "The chemical formula for methane is CH4, consisting of one carbon atom bonded to four hydrogen atoms.",
@@ -1982,34 +1782,6 @@
     },
     {
         "id": 1661,
-        "question": "What is the main component of the Sun?",
-        "slug": "what-is-the-main-component-of-the-sun",
-        "explanation": "The Sun is primarily composed of hydrogen, which undergoes nuclear fusion to produce energy.",
-        "tags": [
-            "Astronomy",
-            "Sun"
-        ],
-        "options": [
-            {
-                "text": "Oxygen",
-                "isCorrect": false
-            },
-            {
-                "text": "Hydrogen",
-                "isCorrect": true
-            },
-            {
-                "text": "Helium",
-                "isCorrect": false
-            },
-            {
-                "text": "Nitrogen",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1662,
         "question": "What is the largest ocean on Earth?",
         "slug": "what-is-the-largest-ocean-on-earth",
         "explanation": "The Pacific Ocean is the largest and deepest ocean on Earth.",
@@ -2037,7 +1809,7 @@
         ]
     },
     {
-        "id": 1663,
+        "id": 1662,
         "question": "Which element is commonly used in the making of batteries?",
         "slug": "which-element-is-commonly-used-in-the-making-of-batteries",
         "explanation": "Lithium is commonly used in the making of rechargeable batteries, especially in portable electronics.",
@@ -2065,7 +1837,7 @@
         ]
     },
     {
-        "id": 1664,
+        "id": 1663,
         "question": "What is the SI unit of temperature?",
         "slug": "what-is-the-si-unit-of-temperature",
         "explanation": "The SI unit of temperature is the Kelvin (K).",
@@ -2093,7 +1865,7 @@
         ]
     },
     {
-        "id": 1665,
+        "id": 1664,
         "question": "Which of the following is an example of a chemical change?",
         "slug": "which-of-the-following-is-an-example-of-a-chemical-change",
         "explanation": "Burning wood is an example of a chemical change, as new substances (like carbon dioxide and water) are formed.",
@@ -2121,7 +1893,7 @@
         ]
     },
     {
-        "id": 1666,
+        "id": 1665,
         "question": "Which country is famous for producing the most number of cars?",
         "slug": "which-country-is-famous-for-producing-the-most-number-of-cars",
         "explanation": "China is the world’s largest producer of cars, with millions of vehicles manufactured annually.",
@@ -2150,7 +1922,7 @@
         ]
     },
     {
-        "id": 1667,
+        "id": 1666,
         "question": "Which vitamin is primarily produced by the skin when exposed to sunlight?",
         "slug": "which-vitamin-is-primarily-produced-by-the-skin-when-exposed-to-sunlight",
         "explanation": "Vitamin D is produced when the skin is exposed to sunlight, particularly UVB rays.",
@@ -2178,7 +1950,7 @@
         ]
     },
     {
-        "id": 1668,
+        "id": 1667,
         "question": "What is the longest river in the world?",
         "slug": "what-is-the-longest-river-in-the-world",
         "explanation": "The Nile River is traditionally considered the longest river in the world, although the Amazon River is also a contender.",
@@ -2206,7 +1978,7 @@
         ]
     },
     {
-        "id": 1669,
+        "id": 1668,
         "question": "What is the chemical symbol for potassium?",
         "slug": "what-is-the-chemical-symbol-for-potassium",
         "explanation": "The chemical symbol for potassium is 'K', derived from the Latin word 'kalium'.",
@@ -2234,7 +2006,7 @@
         ]
     },
     {
-        "id": 1670,
+        "id": 1669,
         "question": "Which of these planets has the most moons?",
         "slug": "which-of-these-planets-has-the-most-moons",
         "explanation": "Jupiter has the most moons, with over 79 confirmed moons orbiting it.",
@@ -2262,7 +2034,7 @@
         ]
     },
     {
-        "id": 1671,
+        "id": 1670,
         "question": "Which part of the plant is responsible for photosynthesis?",
         "slug": "which-part-of-the-plant-is-responsible-for-photosynthesis",
         "explanation": "The leaves of a plant are primarily responsible for photosynthesis.",
@@ -2285,6 +2057,34 @@
             },
             {
                 "text": "Flowers",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1671,
+        "question": "What is the primary function of the mitochondria?",
+        "slug": "what-is-the-primary-function-of-the-mitochondria",
+        "explanation": "The mitochondria are known as the powerhouse of the cell, as they generate energy in the form of ATP.",
+        "tags": [
+            "Biology",
+            "Cell Biology"
+        ],
+        "options": [
+            {
+                "text": "Protein synthesis",
+                "isCorrect": false
+            },
+            {
+                "text": "Energy production",
+                "isCorrect": true
+            },
+            {
+                "text": "Cell division",
+                "isCorrect": false
+            },
+            {
+                "text": "DNA storage",
                 "isCorrect": false
             }
         ]
@@ -2375,28 +2175,28 @@
     },
     {
         "id": 1675,
-        "question": "What is the SI unit of force?",
-        "slug": "what-is-the-si-unit-of-force",
-        "explanation": "The SI unit of force is the Newton (N), named after Sir Isaac Newton.",
+        "question": "Which country is the largest by land area?",
+        "slug": "which-country-is-the-largest-by-land-area",
+        "explanation": "Russia is the largest country by land area, covering about 11% of the Earth's land area.",
         "tags": [
-            "Physics",
-            "Units"
+            "Geography",
+            "Countries"
         ],
         "options": [
             {
-                "text": "Joule",
+                "text": "USA",
                 "isCorrect": false
             },
             {
-                "text": "Newton",
+                "text": "China",
+                "isCorrect": false
+            },
+            {
+                "text": "Russia",
                 "isCorrect": true
             },
             {
-                "text": "Pascal",
-                "isCorrect": false
-            },
-            {
-                "text": "Watt",
+                "text": "Canada",
                 "isCorrect": false
             }
         ]
@@ -2432,7 +2232,7 @@
     {
         "id": 1677,
         "question": "What is the largest continent by area?",
-        "slug": "largest-continent-by-area",
+        "slug": "what-is-the-largest-continent-by-area",
         "explanation": "Asia is the largest continent by both area and population.",
         "tags": [
             "Geography",
@@ -2460,7 +2260,7 @@
     {
         "id": 1678,
         "question": "Which element has the chemical symbol 'O'?",
-        "slug": "chemical-symbol-o",
+        "slug": "which-element-has-thechemical-symbol-o",
         "explanation": "The chemical symbol 'O' stands for Oxygen, a vital element for life on Earth.",
         "tags": [
             "Chemistry",
@@ -2488,7 +2288,7 @@
     {
         "id": 1679,
         "question": "Which country is known as the 'Land of the Rising Sun'?",
-        "slug": "land-of-the-rising-sun",
+        "slug": "which-country-is-known-as-the-land-of-the-rising-sun",
         "explanation": "Japan is often referred to as the 'Land of the Rising Sun' because it is located to the east of the Asian continent.",
         "tags": [
             "Geography",
@@ -2516,7 +2316,7 @@
     {
         "id": 1680,
         "question": "What is the primary function of red blood cells?",
-        "slug": "primary-function-of-red-blood-cells",
+        "slug": "what-is-the-primary-function-of-red-blood-cells",
         "explanation": "Red blood cells carry oxygen from the lungs to the rest of the body and return carbon dioxide to be exhaled.",
         "tags": [
             "Biology",
@@ -2544,7 +2344,7 @@
     {
         "id": 1681,
         "question": "Which famous scientist developed the theory of general relativity?",
-        "slug": "theory-of-general-relativity",
+        "slug": "which-famous-scientist-developed-the-theory-of-general-relativity",
         "explanation": "Albert Einstein developed the theory of general relativity, which explains how gravity affects space-time.",
         "tags": [
             "Science",
@@ -2572,7 +2372,7 @@
     {
         "id": 1682,
         "question": "Which planet is closest to the sun?",
-        "slug": "planet-closest-to-the-sun",
+        "slug": "which-planet-is-closest-to-the-sun",
         "explanation": "Mercury is the closest planet to the sun in our solar system.",
         "tags": [
             "Astronomy",
@@ -2600,7 +2400,7 @@
     {
         "id": 1683,
         "question": "What is the square root of 81?",
-        "slug": "square-root-of-81",
+        "slug": "what-is-the-square-root-of-81",
         "explanation": "The square root of 81 is 9 because 9 × 9 = 81.",
         "tags": [
             "Math",
@@ -2627,120 +2427,36 @@
     },
     {
         "id": 1684,
-        "question": "Which country is the largest producer of coffee?",
-        "slug": "largest-producer-of-coffee",
-        "explanation": "Brazil is the largest producer of coffee in the world.",
+        "question": "Which animal is known for its ability to regenerate limbs?",
+        "slug": "which-animal-is-known-for-its-ability-to-regenerate-limbs",
+        "explanation": "The axolotl is known for its remarkable ability to regenerate limbs, spinal cord, and even parts of its heart.",
         "tags": [
-            "World",
-            "Economy"
+            "Biology",
+            "Regeneration"
         ],
         "options": [
             {
-                "text": "Vietnam",
+                "text": "Starfish",
                 "isCorrect": false
             },
             {
-                "text": "Brazil",
+                "text": "Axolotl",
                 "isCorrect": true
             },
             {
-                "text": "Colombia",
+                "text": "Salamander",
                 "isCorrect": false
             },
             {
-                "text": "India",
+                "text": "Lizard",
                 "isCorrect": false
             }
         ]
     },
     {
         "id": 1685,
-        "question": "What is the longest river in the world?",
-        "slug": "longest-river-in-the-world",
-        "explanation": "The Nile River is traditionally considered the longest river in the world, although the Amazon River is also a contender.",
-        "tags": [
-            "Geography",
-            "Rivers"
-        ],
-        "options": [
-            {
-                "text": "Amazon River",
-                "isCorrect": false
-            },
-            {
-                "text": "Nile River",
-                "isCorrect": true
-            },
-            {
-                "text": "Yangtze River",
-                "isCorrect": false
-            },
-            {
-                "text": "Ganges River",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1686,
-        "question": "What is the largest organ in the human body?",
-        "slug": "largest-organ-in-the-human-body",
-        "explanation": "The skin is the largest organ of the human body, protecting internal organs and regulating temperature.",
-        "tags": [
-            "Biology",
-            "Human Anatomy"
-        ],
-        "options": [
-            {
-                "text": "Heart",
-                "isCorrect": false
-            },
-            {
-                "text": "Liver",
-                "isCorrect": false
-            },
-            {
-                "text": "Skin",
-                "isCorrect": true
-            },
-            {
-                "text": "Lungs",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1687,
-        "question": "What is the atomic number of carbon?",
-        "slug": "atomic-number-of-carbon",
-        "explanation": "Carbon has an atomic number of 6.",
-        "tags": [
-            "Chemistry",
-            "Elements"
-        ],
-        "options": [
-            {
-                "text": "4",
-                "isCorrect": false
-            },
-            {
-                "text": "6",
-                "isCorrect": true
-            },
-            {
-                "text": "8",
-                "isCorrect": false
-            },
-            {
-                "text": "10",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1688,
         "question": "Which famous author wrote '1984'?",
-        "slug": "author-of-1984",
+        "slug": "which-famous-author-wrote-1984",
         "explanation": "George Orwell wrote the famous dystopian novel '1984'.",
         "tags": [
             "Literature",
@@ -2766,37 +2482,9 @@
         ]
     },
     {
-        "id": 1689,
-        "question": "What is the chemical symbol for gold?",
-        "slug": "chemical-symbol-for-gold",
-        "explanation": "Gold has the chemical symbol 'Au', derived from the Latin word 'aurum'.",
-        "tags": [
-            "Chemistry",
-            "Elements"
-        ],
-        "options": [
-            {
-                "text": "Ag",
-                "isCorrect": false
-            },
-            {
-                "text": "Au",
-                "isCorrect": true
-            },
-            {
-                "text": "Fe",
-                "isCorrect": false
-            },
-            {
-                "text": "Pb",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1690,
+        "id": 1686,
         "question": "Which animal is the fastest on land?",
-        "slug": "fastest-animal-on-land",
+        "slug": "which-animal-is-the-fastest-on-land",
         "explanation": "The cheetah is the fastest land animal, capable of running up to 75 mph (120 km/h).",
         "tags": [
             "Biology",
@@ -2822,9 +2510,9 @@
         ]
     },
     {
-        "id": 1691,
+        "id": 1687,
         "question": "Which planet has the most moons in our solar system?",
-        "slug": "planet-with-most-moons",
+        "slug": "which-planet-has-the-most-moons-in-our-solar-system",
         "explanation": "Jupiter has the most moons, with 79 known moons orbiting it.",
         "tags": [
             "Astronomy",
@@ -2850,9 +2538,9 @@
         ]
     },
     {
-        "id": 1692,
+        "id": 1688,
         "question": "What is the hardest natural substance on Earth?",
-        "slug": "hardest-natural-substance",
+        "slug": "what-is-the-hardest-natural-substance-on-earth",
         "explanation": "Diamond is the hardest known natural substance on Earth.",
         "tags": [
             "Chemistry",
@@ -2878,9 +2566,9 @@
         ]
     },
     {
-        "id": 1693,
+        "id": 1689,
         "question": "Which gas do plants absorb during photosynthesis?",
-        "slug": "gas-absorbed-by-plants-during-photosynthesis",
+        "slug": "which-gas-do-plants-absorb-during-photosynthesis",
         "explanation": "Plants absorb carbon dioxide (CO2) during photosynthesis, using sunlight to convert it into oxygen and glucose.",
         "tags": [
             "Biology",
@@ -2906,197 +2594,30 @@
         ]
     },
     {
-        "id": 1694,
-        "question": "Which country is the largest by land area?",
-        "slug": "largest-country-by-land-area",
-        "explanation": "Russia is the largest country by land area, covering about 11% of the Earth's land area.",
+        "id": 1690,
+        "name": "Which planet is known as Earth's twin?",
+        "slug": "which-planet-is-known-as-earths-twin",
+        "explanation": "Venus is often called Earth's twin due to its similar size and composition.",
         "tags": [
-            "Geography",
-            "Countries"
+            "planet",
+            "earth",
+            "astronomy"
         ],
         "options": [
             {
-                "text": "USA",
+                "text": "Mars",
                 "isCorrect": false
             },
             {
-                "text": "China",
-                "isCorrect": false
-            },
-            {
-                "text": "Russia",
+                "text": "Venus",
                 "isCorrect": true
             },
             {
-                "text": "Canada",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1695,
-        "question": "Which is the most common element in the Earth's crust?",
-        "slug": "most-common-element-in-earths-crust",
-        "explanation": "Oxygen is the most common element in the Earth's crust, making up about 46% of its mass.",
-        "tags": [
-            "Geology",
-            "Earth"
-        ],
-        "options": [
-            {
-                "text": "Iron",
+                "text": "Jupiter",
                 "isCorrect": false
             },
             {
-                "text": "Oxygen",
-                "isCorrect": true
-            },
-            {
-                "text": "Aluminum",
-                "isCorrect": false
-            },
-            {
-                "text": "Silicon",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1696,
-        "question": "Who developed the theory of evolution by natural selection?",
-        "slug": "theory-of-evolution-by-natural-selection",
-        "explanation": "Charles Darwin developed the theory of evolution by natural selection, explaining how species evolve over time.",
-        "tags": [
-            "Biology",
-            "Evolution"
-        ],
-        "options": [
-            {
-                "text": "Gregor Mendel",
-                "isCorrect": false
-            },
-            {
-                "text": "Charles Darwin",
-                "isCorrect": true
-            },
-            {
-                "text": "Louis Pasteur",
-                "isCorrect": false
-            },
-            {
-                "text": "Carl Linnaeus",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1697,
-        "question": "What is the currency of Japan?",
-        "slug": "currency-of-japan",
-        "explanation": "The currency of Japan is the Japanese Yen (JPY).",
-        "tags": [
-            "Economy",
-            "Currency"
-        ],
-        "options": [
-            {
-                "text": "Yuan",
-                "isCorrect": false
-            },
-            {
-                "text": "Yen",
-                "isCorrect": true
-            },
-            {
-                "text": "Won",
-                "isCorrect": false
-            },
-            {
-                "text": "Ringgit",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1698,
-        "question": "What is the largest species of shark?",
-        "slug": "largest-species-of-shark",
-        "explanation": "The largest species of shark is the whale shark, which can grow up to 40 feet in length.",
-        "tags": [
-            "Marine Biology",
-            "Sharks"
-        ],
-        "options": [
-            {
-                "text": "Great White Shark",
-                "isCorrect": false
-            },
-            {
-                "text": "Whale Shark",
-                "isCorrect": true
-            },
-            {
-                "text": "Hammerhead Shark",
-                "isCorrect": false
-            },
-            {
-                "text": "Tiger Shark",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1699,
-        "question": "What is the tallest mountain in the world?",
-        "slug": "tallest-mountain-in-the-world",
-        "explanation": "Mount Everest is the tallest mountain in the world, standing at 29,032 feet (8,849 meters).",
-        "tags": [
-            "Geography",
-            "Mountains"
-        ],
-        "options": [
-            {
-                "text": "K2",
-                "isCorrect": false
-            },
-            {
-                "text": "Mount Everest",
-                "isCorrect": true
-            },
-            {
-                "text": "Kangchenjunga",
-                "isCorrect": false
-            },
-            {
-                "text": "Makalu",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1700,
-        "question": "What is the primary function of the mitochondria?",
-        "slug": "function-of-mitochondria",
-        "explanation": "The mitochondria are known as the powerhouse of the cell, as they generate energy in the form of ATP.",
-        "tags": [
-            "Biology",
-            "Cell Biology"
-        ],
-        "options": [
-            {
-                "text": "Protein synthesis",
-                "isCorrect": false
-            },
-            {
-                "text": "Energy production",
-                "isCorrect": true
-            },
-            {
-                "text": "Cell division",
-                "isCorrect": false
-            },
-            {
-                "text": "DNA storage",
+                "text": "Saturn",
                 "isCorrect": false
             }
         ]
