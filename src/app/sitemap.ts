@@ -1,5 +1,3 @@
-// import fetch from 'node-fetch';
-
 import axios from "axios";
 
 type SitemapFile = {
@@ -20,6 +18,7 @@ type SitemapFile = {
 const FRONTEND_URL = process.env.NEXT_PUBLIC_SITE_URL;
 
 export default async function sitemap(): Promise<SitemapFile[]> {
+  // const response = await axios.get(`${FRONTEND_URL}/api/sitemaps`);
   const response = await axios.get(`https://growlearnhub.com/api/sitemaps`);
   const McqsSlug = response.data
 

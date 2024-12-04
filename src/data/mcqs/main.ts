@@ -6927,6 +6927,29 @@
 //             "slug": "which-country-is-known-for-its-opera",
 //             "id": 794
 //         },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //         {
 //             "question": "What is the capital of Denmark?",
 //             "options": ["Copenhagen", "Aarhus", "Odense", "Aalborg"],
@@ -6969,6 +6992,24 @@
 //             "slug": "what-is-the-main-ingredient-in-the-dish-pav-bhaji",
 //             "id": 800
 //         },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //         {
 //             "question": "Which country is known for its literature?",
 //             "options": ["Russia", "United States", "France", "Italy"],
@@ -7011,506 +7052,4 @@
 //             "slug": "world-teachers-day-is-celebrated-on",
 //             "id": 806
 //         },
-//         {
-//             "question": "Who wrote 'Romeo and Juliet'?",
-//             "options": [
-//                 "Charles Dickens",
-//                 "Jane Austen",
-//                 "William Shakespeare",
-//                 "Mark Twain"
-//             ],
-//             "answer": "William Shakespeare",
-//             "slug": "who-wroteromeo-and-juliet",
-//             "id": 807
-//         },
-//         {
-//             "question": "What is the freezing point of water?",
-//             "options": ["0°C", "100°C", "32°F", "212°F"],
-//             "answer": "0°C",
-//             "slug": "what-is-the-freezing-point-of-water",
-//             "id": 808
-//         },
-//         {
-//             "question": "What is the capital city of Japan?",
-//             "options": ["Seoul", "Tokyo", "Beijing", "Bangkok"],
-//             "answer": "Tokyo",
-//             "slug": "what-is-the-capital-city-of-japan",
-//             "id": 809
-//         },
-//         {
-//             "question": "Which is the largest continent by area?",
-//             "options": ["Africa", "Asia", "North America", "South America"],
-//             "answer": "Asia",
-//             "slug": "which-is-the-largest-continent-by-area",
-//             "id": 810
-//         },
-//         {
-//             "question": "Who painted the Mona Lisa?",
-//             "options": [
-//                 "Vincent van Gogh",
-//                 "Pablo Picasso",
-//                 "Leonardo da Vinci",
-//                 "Claude Monet"
-//             ],
-//             "answer": "Leonardo da Vinci",
-//             "slug": "who-painted-mona-lisa",
-//             "id": 811
-//         },
-//         {
-//             "question": "In which year did the Titanic sink?",
-//             "options": ["1912", "1914", "1916", "1920"],
-//             "answer": "1912",
-//             "slug": "in-which-year-did-the-titanic-sink",
-//             "id": 812
-//         },
-//         {
-//             "question": "What is the primary ingredient in bread?",
-//             "options": ["Flour", "Sugar", "Salt", "Water"],
-//             "answer": "Flour",
-//             "slug": "what-is-the-primary-ingredient-in-bread",
-//             "id": 813
-//         },
-//         {
-//             "question": "What is the main organ of the human circulatory system?",
-//             "options": ["Liver", "Heart", "Lungs", "Kidneys"],
-//             "answer": "Heart",
-//             "slug": "what-is-the-main-organ-of-the-human-circulatory-system",
-//             "id": 814
-//         },
-//         {
-//             "question": "Which gas is responsible for the greenhouse effect?",
-//             "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Argon"],
-//             "answer": "Carbon Dioxide",
-//             "slug": "which-gas-is-responsible-for-the-greenhouse-effect",
-//             "id": 815
-//         },
-//         {
-//             "question": "What is the main source of energy for the Earth?",
-//             "options": ["Moon", "Sun", "Wind", "Geothermal"],
-//             "answer": "Sun",
-//             "slug": "what-is-the-main-source-of-energy-for-the-earth",
-//             "id": 816
-//         },
-//         {
-//             "question": "What is the smallest bone in the human body?",
-//             "options": ["Femur", "Stapes", "Tibia", "Humerus"],
-//             "answer": "Stapes",
-//             "slug": "what-is-the-smallest-bone-in-the-human-body",
-//             "id": 817
-//         },
-//         {
-//             "question": "Which ocean is the Bermuda Triangle located in?",
-//             "options": [
-//                 "Atlantic Ocean",
-//                 "Pacific Ocean",
-//                 "Indian Ocean",
-//                 "Arctic Ocean"
-//             ],
-//             "answer": "Atlantic Ocean",
-//             "slug": "which-ocean-is-the-bermuda-triangle-located-in",
-//             "id": 818
-//         },
-//         {
-//             "question": "What is the primary diet of a panda?",
-//             "options": ["Bamboo", "Fruits", "Meat", "Insects"],
-//             "answer": "Bamboo",
-//             "slug": "what-is-the-primary-diet-of-a-panda",
-//             "id": 819
-//         },
-//         {
-//             "question": "What is the chemical symbol for sodium?",
-//             "options": ["Na", "K", "Ca", "Mg"],
-//             "answer": "Na",
-//             "slug": "what-is-the-chemical-symbol-for-sodium",
-//             "id": 820
-//         },
-//         {
-//             "question": "Which vitamin is known as ascorbic acid?",
-//             "options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
-//             "answer": "Vitamin C",
-//             "slug": "which-vitamin-is-known-as-ascorbic-acid",
-//             "id": 821
-//         },
-//         {
-//             "question": "What is the primary function of red blood cells?",
-//             "options": [
-//                 "Fight infection",
-//                 "Transport oxygen",
-//                 "Clot blood",
-//                 "Provide immunity"
-//             ],
-//             "answer": "Transport oxygen",
-//             "slug": "what-is-the-primary-function-of-red-blood-cells",
-//             "id": 822
-//         },
-//         {
-//             "question": "What is the freezing point of water in Celsius?",
-//             "options": ["0", "100", "32", "-10"],
-//             "answer": "0",
-//             "slug": "what-is-the-freezing-point-of-water-in-celsius",
-//             "id": 823
-//         },
-//         {
-//             "question": "What is the primary ingredient in a Margherita pizza?",
-//             "options": ["Pepperoni", "Cheese", "Tomato", "Basil"],
-//             "answer": "Tomato",
-//             "slug": "what-is-the-primary-ingredient-in-a-margherita-pizza",
-//             "id": 824
-//         },
-//         {
-//             "question": "What is the most common gas in the Earth's atmosphere?",
-//             "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
-//             "answer": "Nitrogen",
-//             "slug": "what-is-the-most-common-gas-in-the-earths-atmosphere",
-//             "id": 825
-//         },
-//         {
-//             "question": "What is the primary color of a banana?",
-//             "options": ["Green", "Yellow", "Red", "Blue"],
-//             "answer": "Yellow",
-//             "slug": "what-is-the-primary-color-of-a-banana",
-//             "id": 826
-//         },
-//         {
-//             "question": "The World Tourism Day is observed every year on?",
-//             "options": ["September 27", "October 5", "November 1", "December 10"],
-//             "answer": "September 27",
-//             "slug": "the-world-tourism-day-is-observed-every-year-on",
-//             "id": 827
-//         },
-//         {
-//             "question": "What is the main ingredient of hummus?",
-//             "options": ["Chickpeas", "Lentils", "Beans", "Peas"],
-//             "answer": "Chickpeas",
-//             "slug": "what-is-the-main-ingredient-of-hummus",
-//             "id": 828
-//         },
-//         {
-//             "question": "Which country is famous for its pyramids?",
-//             "options": ["Mexico", "Italy", "Egypt", "Greece"],
-//             "answer": "Egypt",
-//             "slug": "which-country-is-famous-for-its-pyramids",
-//             "id": 829
-//         },
-//         {
-//             "question": "What is the national flower of Japan?",
-//             "options": ["Rose", "Cherry Blossom", "Lotus", "Sunflower"],
-//             "answer": "Cherry Blossom",
-//             "slug": "what-is-the-national-flower-of-japan",
-//             "id": 830
-//         },
-//         {
-//             "question": "Which country is known for the Eiffel Tower?",
-//             "options": ["Germany", "Spain", "France", "Italy"],
-//             "answer": "France",
-//             "slug": "which-country-is-known-for-the-eiffel-tower",
-//             "id": 831
-//         },
-//         {
-//             "question": "Which ocean is located between Africa and Australia?",
-//             "options": [
-//                 "Atlantic Ocean",
-//                 "Indian Ocean",
-//                 "Pacific Ocean",
-//                 "Arctic Ocean"
-//             ],
-//             "answer": "Indian Ocean",
-//             "slug": "which-ocean-is-located-between-africa-and-australia",
-//             "id": 832
-//         },
-//         {
-//             "question": "Which continent is the Sahara Desert located in?",
-//             "options": ["Asia", "Africa", "North America", "Australia"],
-//             "answer": "Africa",
-//             "slug": "which-continent-is-the-sahara-desert-located-in",
-//             "id": 833
-//         },
-//         {
-//             "question": "Which chemical element has the symbol 'O'?",
-//             "options": ["Gold", "Oxygen", "Hydrogen", "Carbon"],
-//             "answer": "Oxygen",
-//             "slug": "which-chemical-element-has-the-symbol-o",
-//             "id": 834
-//         },
-//         {
-//             "question": "Which animal is the largest land carnivore?",
-//             "options": ["Polar Bear", "Grizzly Bear", "Lion", "Tiger"],
-//             "answer": "Polar Bear",
-//             "slug": "which-animal-is-the-largest-land-carnivore",
-//             "id": 835
-//         },
-//         {
-//             "question": "What is the primary language spoken in Argentina?",
-//             "options": ["Portuguese", "Spanish", "French", "Italian"],
-//             "answer": "Spanish",
-//             "slug": "what-is-the-primary-language-spoken-in-argentina",
-//             "id": 836
-//         },
-//         {
-//             "question": "Human Rights Watch (HRW) was founded in 1978 as:",
-//             "options": [
-//                 "Asia Watch",
-//                 "Africa Watch",
-//                 "Helsinki Watch",
-//                 "Middle East Watch"
-//             ],
-//             "answer": "Helsinki Watch",
-//             "slug": "human-rights-watch-hrw-was-founded-in-1978-as",
-//             "id": 837
-//         },
-//         {
-//             "question": "What is the currency of Australia?",
-//             "options": ["Dollar", "Euro", "Pound", "Yen"],
-//             "answer": "Dollar",
-//             "slug": "what-is-the-currency-of-australia",
-//             "id": 838
-//         },
-//         {
-//             "question": "What is the boiling point of water in Celsius?",
-//             "options": ["0", "50", "100", "200"],
-//             "answer": "100",
-//             "slug": "what-is-the-boiling-point-of-water-in-celsius",
-//             "id": 839
-//         },
-//         {
-//             "question": "Which planet is the hottest in the solar system?",
-//             "options": ["Mercury", "Venus", "Earth", "Mars"],
-//             "answer": "Venus",
-//             "slug": "which-planet-is-the-hottest-in-the-solar-system",
-//             "id": 840
-//         },
-//         {
-//             "question": "What is the powerhouse of the cell?",
-//             "options": [
-//                 "Nucleus",
-//                 "Mitochondria",
-//                 "Ribosome",
-//                 "Endoplasmic Reticulum"
-//             ],
-//             "answer": "Mitochondria",
-//             "slug": "what-is-the-powerhouse-of-the-cell",
-//             "id": 841
-//         },
-//         {
-//             "question": "Which vitamin is produced when the skin is exposed to sunlight?",
-//             "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
-//             "answer": "Vitamin D",
-//             "slug": "which-vitamin-is-produced-when-the-skin-is-exposed-to-sunlight",
-//             "id": 842
-//         },
-//         {
-//             "question": "What is the most populous country in the world?",
-//             "options": ["India", "United States", "China", "Brazil"],
-//             "answer": "China",
-//             "slug": "what-is-the-most-populous-country-in-the-world",
-//             "id": 843
-//         },
-//         {
-//             "question": "Which part of the plant conducts photosynthesis?",
-//             "options": ["Roots", "Stem", "Leaves", "Flowers"],
-//             "answer": "Leaves",
-//             "slug": "which-part-of-the-plant-conducts-photosynthesis",
-//             "id": 844
-//         },
-//         {
-//             "question": "Which is the smallest planet in our solar system?",
-//             "options": ["Mercury", "Mars", "Venus", "Earth"],
-//             "answer": "Mercury",
-//             "slug": "which-is-the-smallest-planet-in-our-solar-system",
-//             "id": 845
-//         },
-//         {
-//             "question": "Which element is represented by the symbol 'Na'?",
-//             "options": ["Nitrogen", "Sodium", "Neon", "Nickel"],
-//             "answer": "Sodium",
-//             "slug": "which-element-is-represented-by-the-symbol-na",
-//             "id": 846
-//         },
-//         {
-//             "question": "What is the official language of China?",
-//             "options": ["Cantonese", "Mandarin", "English", "Hokkien"],
-//             "answer": "Mandarin",
-//             "slug": "what-is-the-official-language-of-china",
-//             "id": 847
-//         },
-//         {
-//             "question": "Which instrument measures temperature?",
-//             "options": ["Barometer", "Thermometer", "Hygrometer", "Anemometer"],
-//             "answer": "Thermometer",
-//             "slug": "which-instrument-measures-temperature",
-//             "id": 848
-//         },
-//         {
-//             "question": "What is the main gas in the Earth's atmosphere?",
-//             "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
-//             "answer": "Nitrogen",
-//             "slug": "what-is-the-main-gas-in-the-earths-atmosphere",
-//             "id": 849
-//         },
-//         {
-//             "question": "Which animal is known to have the longest lifespan?",
-//             "options": ["Elephant", "Tortoise", "Blue Whale", "Parrot"],
-//             "answer": "Tortoise",
-//             "slug": "which-animal-is-known-to-have-the-longest-lifespan",
-//             "id": 850
-//         },
-//         {
-//             "question": "Which is the deepest lake in the world?",
-//             "options": [
-//                 "Lake Baikal",
-//                 "Caspian Sea",
-//                 "Lake Tanganyika",
-//                 "Lake Superior"
-//             ],
-//             "answer": "Lake Baikal",
-//             "slug": "which-is-the-deepest-lake-in-the-world",
-//             "id": 851
-//         },
-//         {
-//             "question": "What is the largest continent on Earth?",
-//             "options": ["Asia", "Africa", "North America", "Australia"],
-//             "answer": "Asia",
-//             "slug": "what-is-the-largest-continent-on-earth",
-//             "id": 852
-//         },
-//         {
-//             "question": "Which element has the atomic number 1?",
-//             "options": ["Oxygen", "Hydrogen", "Helium", "Carbon"],
-//             "answer": "Hydrogen",
-//             "slug": "which-element-has-the-atomic-number-1",
-//             "id": 853
-//         },
-//         {
-//             "question": "What is the largest land animal?",
-//             "options": ["Elephant", "Giraffe", "Rhino", "Hippopotamus"],
-//             "answer": "Elephant",
-//             "slug": "what-is-the-largest-land-animal",
-//             "id": 854
-//         },
-//         {
-//             "question": "What is the largest island in the world?",
-//             "options": ["Greenland", "New Guinea", "Borneo", "Madagascar"],
-//             "answer": "Greenland",
-//             "slug": "what-is-the-largest-island-in-the-world",
-//             "id": 855
-//         },
-//         {
-//             "question": "Who is known as the father of modern physics?",
-//             "options": [
-//                 "Isaac Newton",
-//                 "Albert Einstein",
-//                 "Galileo Galilei",
-//                 "Niels Bohr"
-//             ],
-//             "answer": "Albert Einstein",
-//             "slug": "who-is-known-as-the-father-of-modern-physics",
-//             "id": 856
-//         },
-//         {
-//             "question": "What is the primary ingredient in sushi?",
-//             "options": ["Fish", "Rice", "Seaweed", "Vegetables"],
-//             "answer": "Rice",
-//             "slug": "what-is-the-primary-ingredient-in-sushi",
-//             "id": 857
-//         },
-//         {
-//             "question": "Which famous scientist developed the theory of general relativity?",
-//             "options": [
-//                 "Isaac Newton",
-//                 "Albert Einstein",
-//                 "Stephen Hawking",
-//                 "Charles Darwin"
-//             ],
-//             "answer": "Albert Einstein",
-//             "slug": "which-famous-scientist-developed-the-theory-of-general-relativity",
-//             "id": 858
-//         },
-//         {
-//             "question": "What is the primary function of the brain?",
-//             "options": [
-//                 "Control body functions",
-//                 "Digest food",
-//                 "Pump blood",
-//                 "Regulate temperature"
-//             ],
-//             "answer": "Control body functions",
-//             "slug": "what-is-the-primary-function-of-the-brain",
-//             "id": 859
-//         },
-//         {
-//             "question": "Which famous landmark is located in Paris?",
-//             "options": ["Eiffel Tower", "Big Ben", "Statue of Liberty", "Colosseum"],
-//             "answer": "Eiffel Tower",
-//             "slug": "which-famous-landmark-is-located-in-paris",
-//             "id": 860
-//         },
-//         {
-//             "question": "What is the most widely consumed beverage in the world?",
-//             "options": ["Tea", "Coffee", "Water", "Juice"],
-//             "answer": "Water",
-//             "slug": "what-is-the-most-widely-consumed-beverage-in-the-world",
-//             "id": 861
-//         },
-//         {
-//             "question": "What is the main function of the liver?",
-//             "options": ["Filter blood", "Pump blood", "Aid digestion", "Store fat"],
-//             "answer": "Filter blood",
-//             "slug": "what-is-the-main-function-of-the-liver",
-//             "id": 862
-//         },
-//         {
-//             "question": "What is the capital city of India?",
-//             "options": ["New Delhi", "Mumbai", "Kolkata", "Chennai"],
-//             "answer": "New Delhi",
-//             "slug": "what-is-the-capital-city-of-india",
-//             "id": 863
-//         },
-//         {
-//             "question": "What is the national game of Pakistan?",
-//             "options": ["Cricket", "Field Hockey", "Football", "Kabaddi"],
-//             "answer": "Field Hockey",
-//             "slug": "what-is-the-national-game-of-pakistan",
-//             "id": 864
-//         },
-//         {
-//             "question": "What is the capital of Pakistan?",
-//             "options": ["Lahore", "Islamabad", "Karachi", "Peshawar"],
-//             "answer": "Islamabad",
-//             "slug": "what-is-the-capital-of-pakistan",
-//             "id": 865
-//         },
-//         {
-//             "question": "Which river is known as the lifeline of Pakistan?",
-//             "options": ["Indus", "Chenab", "Ravi", "Sutlej"],
-//             "answer": "Indus",
-//             "slug": "which-river-is-known-as-the-lifeline-of-pakistan",
-//             "id": 866
-//         },
-//         {
-//             "question": "What is the currency of Pakistan?",
-//             "options": ["Rupee", "Dollar", "Pound", "Yen"],
-//             "answer": "Rupee",
-//             "slug": "what-is-the-currency-of-pakistan",
-//             "id": 867
-//         },
-//         {
-//             "question": "Which city is known as the 'City of Lights' in Pakistan?",
-//             "options": ["Karachi", "Lahore", "Islamabad", "Peshawar"],
-//             "answer": "Karachi",
-//             "slug": "which-city-is-known-as-the-city-of-lights-in-pakistan",
-//             "id": 868
-//         },
-//         {
-//             "question": "What is the official language of Pakistan?",
-//             "options": ["English", "Urdu", "Punjabi", "Sindhi"],
-//             "answer": "Urdu",
-//             "slug": "what-is-the-official-language-of-pakistan",
-//             "id": 869
-//         },
-//         {
-//             "question": "Which mountain range is found in Pakistan?",
-//             "options": ["Himalayas", "Andes", "Rockies", "Alps"],
-//             "answer": "Himalayas",
-//             "slug": "which-mountain-range-is-found-in-pakistan",
-//             "id": 870
-//         },
+

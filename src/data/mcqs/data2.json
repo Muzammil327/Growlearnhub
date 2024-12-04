@@ -2621,5 +2621,295 @@
                 "isCorrect": false
             }
         ]
+    },
+    {
+        "id": 1691,
+        "name": "Who is the father of physics?",
+        "slug": "who-is-the-father-of-physics",
+        "explanation": "The father of physics is often regarded as Isaac Newton or Albert Einstein due to their groundbreaking contributions to the field.",
+        "tags": [
+            "physics",
+            "science",
+            "history"
+        ],
+        "options": [
+            {
+                "text": "Isaac Newton",
+                "isCorrect": true
+            },
+            {
+                "text": "Albert Einstein",
+                "isCorrect": false
+            },
+            {
+                "text": "Galileo Galilei",
+                "isCorrect": false
+            },
+            {
+                "text": "Niels Bohr",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1692,
+        "name": "Which bone is the smallest bone in the human body?",
+        "slug": "which-bone-is-the-smallest-bone-in-the-human-body",
+        "explanation": "The stapes, located in the middle ear, is the smallest bone in the human body.",
+        "tags": [
+            "anatomy",
+            "biology",
+            "human-body"
+        ],
+        "options": [
+            {
+                "text": "Stapes",
+                "isCorrect": true
+            },
+            {
+                "text": "Femur",
+                "isCorrect": false
+            },
+            {
+                "text": "Tibia",
+                "isCorrect": false
+            },
+            {
+                "text": "Humerus",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1693,
+        "name": "Which mountain range is found in Pakistan?",
+        "slug": "which-mountain-range-is-found-in-pakistan",
+        "explanation": "The Karakoram Range, located in northern Pakistan, is famous for housing some of the world's tallest peaks, including K2.",
+        "tags": [
+            "geography",
+            "Pakistan",
+            "mountains"
+        ],
+        "options": [
+            {
+                "text": "Karakoram Range",
+                "isCorrect": true
+            },
+            {
+                "text": "Himalayas",
+                "isCorrect": false
+            },
+            {
+                "text": "Andes",
+                "isCorrect": false
+            },
+            {
+                "text": "Rocky Mountains",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1694,
+        "name": "Which is the largest continent by area?",
+        "slug": "which-is-the-largest-continent-by-area",
+        "explanation": "Asia is the largest continent by area, covering about 44.58 million square kilometers.",
+        "tags": [
+            "geography",
+            "continents",
+            "land"
+        ],
+        "options": [
+            {
+                "text": "Asia",
+                "isCorrect": true
+            },
+            {
+                "text": "Africa",
+                "isCorrect": false
+            },
+            {
+                "text": "North America",
+                "isCorrect": false
+            },
+            {
+                "text": "Europe",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1695,
+        "name": "Which city is known as the 'City of Lights' in Pakistan?",
+        "slug": "which-city-is-known-as-the-city-of-lights-in-pakistan",
+        "explanation": "Karachi is known as the 'City of Lights' due to its vibrant nightlife and significant role in Pakistan's economy.",
+        "tags": [
+            "city",
+            "Pakistan",
+            "culture"
+        ],
+        "options": [
+            {
+                "text": "Karachi",
+                "isCorrect": true
+            },
+            {
+                "text": "Lahore",
+                "isCorrect": false
+            },
+            {
+                "text": "Islamabad",
+                "isCorrect": false
+            },
+            {
+                "text": "Peshawar",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1796,
+        "name": "In which year did the Titanic sink?",
+        "slug": "in-which-year-did-the-titanic-sink",
+        "explanation": "The Titanic sank on April 15, 1912, after hitting an iceberg during its maiden voyage.",
+        "tags": [
+            "history",
+            "disasters",
+            "maritime"
+        ],
+        "options": [
+            {
+                "text": "1912",
+                "isCorrect": true
+            },
+            {
+                "text": "1905",
+                "isCorrect": false
+            },
+            {
+                "text": "1920",
+                "isCorrect": false
+            },
+            {
+                "text": "1918",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1697,
+        "name": "Which river is known as the lifeline of Pakistan?",
+        "slug": "which-river-is-known-as-the-lifeline-of-pakistan",
+        "explanation": "The Indus River is considered the lifeline of Pakistan as it supports the agricultural and irrigation needs of the country.",
+        "tags": [
+            "river",
+            "Pakistan",
+            "geography"
+        ],
+        "options": [
+            {
+                "text": "Indus River",
+                "isCorrect": true
+            },
+            {
+                "text": "Chenab River",
+                "isCorrect": false
+            },
+            {
+                "text": "Ravi River",
+                "isCorrect": false
+            },
+            {
+                "text": "Jhelum River",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1698,
+        "name": "What is the capital of Pakistan?",
+        "slug": "what-is-the-capital-of-pakistan",
+        "explanation": "Islamabad is the capital of Pakistan, serving as the political and administrative center of the country.",
+        "tags": [
+            "capital",
+            "Pakistan",
+            "geography"
+        ],
+        "options": [
+            {
+                "text": "Islamabad",
+                "isCorrect": true
+            },
+            {
+                "text": "Karachi",
+                "isCorrect": false
+            },
+            {
+                "text": "Lahore",
+                "isCorrect": false
+            },
+            {
+                "text": "Peshawar",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1699,
+        "name": "What is the capital city of India?",
+        "slug": "what-is-the-capital-city-of-india",
+        "explanation": "New Delhi is the capital city of India, serving as the seat of all three branches of the Indian government.",
+        "tags": [
+            "capital",
+            "India",
+            "geography"
+        ],
+        "options": [
+            {
+                "text": "New Delhi",
+                "isCorrect": true
+            },
+            {
+                "text": "Mumbai",
+                "isCorrect": false
+            },
+            {
+                "text": "Kolkata",
+                "isCorrect": false
+            },
+            {
+                "text": "Chennai",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 1700,
+        "name": "What is the national game of Pakistan?",
+        "slug": "what-is-the-national-game-of-pakistan",
+        "explanation": "Hockey is the national game of Pakistan, reflecting the country's rich history and achievements in the sport.",
+        "tags": [
+            "sports",
+            "Pakistan",
+            "culture"
+        ],
+        "options": [
+            {
+                "text": "Hockey",
+                "isCorrect": true
+            },
+            {
+                "text": "Cricket",
+                "isCorrect": false
+            },
+            {
+                "text": "Football",
+                "isCorrect": false
+            },
+            {
+                "text": "Squash",
+                "isCorrect": false
+            }
+        ]
     }
 ]
