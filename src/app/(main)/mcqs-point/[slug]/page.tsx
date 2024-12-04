@@ -48,9 +48,27 @@ export async function generateMetadata({ params }: PageProps) {
       return '';
     })();
 
+    const question = data.question;
+    const explanation = data.explanation;
+
+    let title;
+    let description;
+
+    if (question.length > 45) {
+      title = question;
+    } else {
+      title = (question + " " + keywords).substring(0, 50);
+    }
+
+    if (explanation.length > 120) {
+      description = sanitizeDescription(explanation);
+    } else {
+      description = sanitizeDescription(explanation.length > 120 ? " " + explanation.substring(0, 120) : explanation) + " " + keywords + " " + question;
+    }
+
     return {
-      title: data.question,
-      description: sanitizeDescription(data.explanation),
+      title: title,
+      description: description,
       keywords: keywords,
       alternates: {
         canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/mcqs-point/${slug}`,
@@ -64,20 +82,20 @@ export async function generateMetadata({ params }: PageProps) {
         },
       },
       openGraph: {
-        title: data.question,
-        description: sanitizeDescription(data.explanation),
+        title: title,
+        description: description,
         url: `${process.env.NEXT_PUBLIC_SITE_URL}/mcqs-point/${slug}`,
         images: [
           {
-            alt: data.question,
+            alt: title,
           },
         ],
       },
       twitter: {
-        title: data.question,
-        description: sanitizeDescription(data.explanation),
+        title: title,
+        description: description,
         images: {
-          alt: data?.question,
+          alt: title,
         },
       },
     };
