@@ -1,13 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import pool from "@/src/lib/pg"; // Assuming pool is the configured Postgres connection
-import path from 'path';
-import fs from 'fs';
-
-const readJsonFile = (fileName: string) => {
-  const filePath = path.join(process.cwd(), 'src', 'data', 'mcqs', fileName); // Adjust the path to your file location
-  const fileContent = fs.readFileSync(filePath, 'utf-8');
-  return JSON.parse(fileContent);
-};
+import { combinedData } from "@/src/lib/readJsonFile";
 
 export async function GET(req: NextRequest) {
   try {
@@ -18,14 +11,6 @@ export async function GET(req: NextRequest) {
     if (!slug) {
       return NextResponse.json({ error: "Slug is required" }, { status: 400 });
     }
-
-    // Dynamically load data based on slug (you can optimize to load only data1.json or data2.json based on some logic)
-    const data1 = readJsonFile('data1.json');
-    const data2 = readJsonFile('data2.json');
-    const data3 = readJsonFile('data3.json');
-
-    // Combine data only when needed
-    const combinedData = [...data1, ...data2, ...data3];
 
     // Check if the quiz is found in the combined data
     const quiz = combinedData.find((item) => item.slug === slug);

@@ -82,7 +82,7 @@ export function DynamicBreadcrumb() {
                         <BreadcrumbSeparator />
                         <BreadcrumbItem>
                             <BreadcrumbPage>
-                                {formatSegment(lastSegment)}
+                                <strong>{formatSegment(lastSegment)}</strong>
                             </BreadcrumbPage>
                         </BreadcrumbItem>
                     </>

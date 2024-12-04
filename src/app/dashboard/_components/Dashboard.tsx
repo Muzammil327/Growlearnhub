@@ -21,7 +21,7 @@ export default function Dashboard({ userRole, userId, userUsername }: Session) {
 
   return (
     <main className="container mx-auto py-4 md:px-4">
-   
+
       <div className="mb-6">
         <h1 className="text-3xl font-bold capitalize tracking-tight">
           Welcome {userUsername}
@@ -80,6 +80,11 @@ export default function Dashboard({ userRole, userId, userUsername }: Session) {
                 <StatCard
                   title={"Total Sub Heading"}
                   count={data?.subheadings || 0}
+                  icon={<Users className="h-6 w-6 text-white" />}
+                />
+                <StatCard
+                  title={"Total Owned Quiz Private"}
+                  count={data?.countown ?? 0}
                   icon={<Users className="h-6 w-6 text-white" />}
                 />
               </React.Fragment>

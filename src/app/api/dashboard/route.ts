@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import pool from "@/src/lib/pg";
 import { IpropsDashboard } from "@/src/types/dashboard";
+import { combinedData } from "@/src/lib/readJsonFile";
 
 interface ErrorResponse {
   error: string;
@@ -41,6 +42,8 @@ export async function GET(
       );
       const countQuestion = await pool.query("SELECT COUNT(*) FROM questions");
       const countUser = await pool.query("SELECT COUNT(*) FROM users");
+      const countown = combinedData.length as number;
+
 
       counts = {
         books: parseInt(countBook.rows[0].count, 10),
@@ -50,6 +53,7 @@ export async function GET(
         subheadings: parseInt(countSubheading.rows[0].count, 10),
         questions: parseInt(countQuestion.rows[0].count, 10),
         users: parseInt(countUser.rows[0].count, 10),
+        countown: countown
       };
     } else {
       // Regular user: Get counts for user-specific data (e.g., based on their ID)

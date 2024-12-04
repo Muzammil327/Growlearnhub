@@ -32,7 +32,7 @@ export default function CardQuizWithoutLink({
     <div
       className={`cardquiz my-4 rounded-lg border border-gray-300 bg-white p-4 shadow-lg ${className}`}
     >
-      <h3 className="mb-2 text-xl font-semibold text-gray-800">{title}</h3>
+      <h2 className="mb-2 text-xl font-semibold text-gray-800">{title}</h2>
 
       {/* Display the list of options */}
       <ul className="mb-4 list-disc pl-5">
