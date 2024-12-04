@@ -15,7 +15,12 @@ const nextConfig = {
   //     },
   //   ];
   // },
-  // trailingSlash: true,
+  // trailingSlash: (path: string): boolean => {
+  //   if (path.startsWith('/api')) {
+  //     return false;
+  //   }
+  //   return true;
+  // },
   // reactStrictMode: true,
   // swcMinify: true,
 };
