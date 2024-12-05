@@ -11,6 +11,7 @@ const readJsonFile = (fileName: string) => {
 const data1 = readJsonFile("data1.json");
 const data2 = readJsonFile("data2.json");
 const data3 = readJsonFile("data3.json");
+const data4 = readJsonFile("data4.json");
 
 // Combine data only when needed
-export const combinedData = [...data1, ...data2, ...data3];
+export const combinedData = [...data1, ...data2, ...data3, ...data4];
