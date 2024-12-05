@@ -9,7 +9,6 @@ interface PageProps {
   params: Promise<ProductDetail>;
 }
 
-// This function fetches the quiz data and renders the page
 export default async function QuizPage({ params }: PageProps) {
   const slug = (await params).slug;
   const data = await GetUsers(slug);
@@ -17,9 +16,8 @@ export default async function QuizPage({ params }: PageProps) {
   return <QuizClient quizData={data} />
 }
 
-// // Function to sanitize HTML description (strip any tags)
 function sanitizeDescription(description: string) {
-  return description.replace(/<\/?[^>]+(>|$)/g, ''); // Removes HTML tags
+  return description.replace(/<\/?[^>]+(>|$)/g, '');
 }
 
 export async function generateMetadata({ params }: PageProps) {
@@ -31,20 +29,16 @@ export async function generateMetadata({ params }: PageProps) {
     const keywords = (() => {
       if (typeof data.tags === 'string') {
         try {
-          // Try to parse as JSON if tags is a string
           const parsed = JSON.parse(data.tags);
           if (Array.isArray(parsed)) {
             return parsed.join(', ');
           }
         } catch {
-          // If parsing fails, assume it's a comma-separated string
           return data.tags.split(',').map((tag: string) => tag.trim()).join(', ');
         }
       } else if (Array.isArray(data.tags)) {
-        // If tags is already an array, join it into a string
         return data.tags.join(', ');
       }
-      // Fallback if no valid tags
       return '';
     })();
 
