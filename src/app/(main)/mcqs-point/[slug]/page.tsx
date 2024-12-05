@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: PageProps) {
       return '';
     })();
 
-    const question = data.question;
+    const question = data.name;
     const explanation = data.explanation;
 
     let title;

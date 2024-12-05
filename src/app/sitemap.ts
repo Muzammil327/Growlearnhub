@@ -320,6 +320,14 @@ const data = [
   ...mcqspointroute,
   ...vuroute,
 ];
+
+// Assign the combined data to SitemapUrl
+const SitemapUrl = data;
+
+export { 
+  SitemapUrl 
+};
+
 // import sitemapMcqsData from "@/src/app/sitemap/mcqs/sitemapMcqsData"
 
 // // Assuming SitemapFile is the correct type

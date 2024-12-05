@@ -8,6 +8,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { useGetDashboard } from "@/src/hooks/use-dashboard";
 import { format } from "date-fns";
 import { Session } from "@/src/types/ApiResponse";
+import { SitemapUrl } from "../../sitemap";
 
 export default function Dashboard({ userRole, userId, userUsername }: Session) {
   const { data, isLoading, isError } = useGetDashboard(userId);
@@ -48,8 +49,23 @@ export default function Dashboard({ userRole, userId, userUsername }: Session) {
             ) : (
               <React.Fragment>
                 <StatCard
-                  title={"Total Questions"}
+                  title={"Total Questions Supebase"}
                   count={data?.questions || 0}
+                  icon={<Users className="h-6 w-6 text-white" />}
+                />
+                <StatCard
+                  title={"Total Questions Owned"}
+                  count={data?.countown ?? 0}
+                  icon={<Users className="h-6 w-6 text-white" />}
+                />
+                <StatCard
+                  title={"Total Other Page"}
+                  count={SitemapUrl.length ?? 0}
+                  icon={<Users className="h-6 w-6 text-white" />}
+                />
+                <StatCard
+                  title={"Total Sitemap"}
+                  count={(SitemapUrl.length || 0) + (data?.questions || 0) + (data?.countown || 0)}
                   icon={<Users className="h-6 w-6 text-white" />}
                 />
                 <StatCard
@@ -82,11 +98,7 @@ export default function Dashboard({ userRole, userId, userUsername }: Session) {
                   count={data?.subheadings || 0}
                   icon={<Users className="h-6 w-6 text-white" />}
                 />
-                <StatCard
-                  title={"Total Owned Quiz Private"}
-                  count={data?.countown ?? 0}
-                  icon={<Users className="h-6 w-6 text-white" />}
-                />
+
               </React.Fragment>
             )}
           </React.Fragment>

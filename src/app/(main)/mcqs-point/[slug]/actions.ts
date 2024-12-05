@@ -1,15 +1,12 @@
 "use server";
 
+import axios from "axios";
+
 export async function GetUsers(slug: string) {
   try {
-    const data = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/question/slug?slug=${slug}`);
+    const data = await axios.get(`${process.env.NEXT_PUBLIC_SITE_URL}/api/question/slug?slug=${slug}`);
 
-    if (!data.ok) {
-      return { error: "Quiz not found" };
-    }
-
-    const ownApiData = await data.json();
-    return ownApiData;
+    return data.data;
 
   } catch (error) {
     // If an error occurs, log it and return a message or null
