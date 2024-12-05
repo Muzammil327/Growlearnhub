@@ -45,7 +45,7 @@
       @apply text-base tracking-widest;
     }
     a {
-      @apply border-s-primary border-b border-dotted text-primary hover:text-white;
+      @apply border-b border-dotted border-s-primary text-primary hover:text-white;
     }
   }
 }

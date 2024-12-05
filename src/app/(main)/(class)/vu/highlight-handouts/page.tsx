@@ -1,8 +1,8 @@
-import React from "react"
-import { Metadata } from "next"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import { VuHighlightedHandoutsData } from "@/src/data/vu"
+import React from "react";
+import { Metadata } from "next";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import CardSmall from "@/src/components/card/cardSmall/cardSmall";
+import { VuHighlightedHandoutsData } from "@/src/data/vu";
 
 const data = {
   title: "VU Highlight Handouts of All Subjects",
@@ -14,18 +14,18 @@ const data = {
     "highlight handouts",
     "growlearnhub vu highlight handouts",
     "vu highlight handouts",
-    "virtual university highlight handouts"
+    "virtual university highlight handouts",
   ],
   canonical: "/vu/highlight-handouts/",
   url: "https://growlearnhub.com/vu/highlight-handouts/",
   index: true,
   follow: true,
-}
+};
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
+      <div className="my-5 grid grid-cols-1 gap-4 md:grid-cols-2">
         {VuHighlightedHandoutsData.map((data: any) => {
           return (
             <CardSmall
@@ -33,11 +33,11 @@ export default function Page() {
               title={data.name}
               link={`vu/highlight-handouts/${data.slug}`}
             />
-          )
+          );
         })}
       </div>
     </SimpleWrapper>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -51,27 +51,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

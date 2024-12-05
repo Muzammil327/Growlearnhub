@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import './navbar.scss';
+import "./navbar.scss";
 import { useState } from "react";
 import MobileNavbar from "./mobile/page";
 import DesktopNavbar from "./desktop/page";

@@ -1,8 +1,8 @@
-import React from "react"
-import { Metadata } from "next"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import { VuHandoutsData } from "@/src/data/vu"
+import React from "react";
+import { Metadata } from "next";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import CardSmall from "@/src/components/card/cardSmall/cardSmall";
+import { VuHandoutsData } from "@/src/data/vu";
 
 const data = {
   title: "VU Handouts of All Subjects",
@@ -13,19 +13,19 @@ const data = {
     "handouts",
     "growlearnhub vu handouts",
     "vu handouts",
-    "virtual university handouts"
+    "virtual university handouts",
   ],
   image: "/vu/vu_handouts.webp",
   canonical: "/vu/handouts/",
   url: "https://growlearnhub.com/vu/handouts/",
   index: true,
   follow: true,
-}
+};
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
+      <div className="my-5 grid grid-cols-1 gap-4 md:grid-cols-2">
         {VuHandoutsData.map((data: any) => {
           return (
             <CardSmall
@@ -33,11 +33,11 @@ export default function Page() {
               title={data.name}
               link={`vu/handouts/${data.slug}`}
             />
-          )
+          );
         })}
       </div>
     </SimpleWrapper>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -51,27 +51,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

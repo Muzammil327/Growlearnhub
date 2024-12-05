@@ -1,1365 +1,1177 @@
 [
-    {
-        "id": 1701,
-        "name": "What is the main function of the liver?",
-        "slug": "what-is-the-main-function-of-the-liver",
-        "explanation": "The liver plays a vital role in detoxifying the blood, metabolizing nutrients, and producing bile.",
-        "tags": [
-            "biology",
-            "human-body",
-            "health"
-        ],
-        "options": [
-            {
-                "text": "Detoxifies blood and produces bile",
-                "isCorrect": true
-            },
-            {
-                "text": "Pumps blood",
-                "isCorrect": false
-            },
-            {
-                "text": "Regulates temperature",
-                "isCorrect": false
-            },
-            {
-                "text": "Stores oxygen",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1702,
-        "name": "What is the most widely consumed beverage in the world?",
-        "slug": "what-is-the-most-widely-consumed-beverage-in-the-world",
-        "explanation": "Tea is the most widely consumed beverage in the world after water, enjoyed in many cultures globally.",
-        "tags": [
-            "beverage",
-            "food",
-            "culture"
-        ],
-        "options": [
-            {
-                "text": "Tea",
-                "isCorrect": true
-            },
-            {
-                "text": "Coffee",
-                "isCorrect": false
-            },
-            {
-                "text": "Milk",
-                "isCorrect": false
-            },
-            {
-                "text": "Juice",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1703,
-        "name": "Which famous landmark is located in Paris?",
-        "slug": "which-famous-landmark-is-located-in-paris",
-        "explanation": "The Eiffel Tower is a world-famous landmark located in Paris, France, and is one of the most recognizable structures globally.",
-        "tags": [
-            "landmark",
-            "Paris",
-            "travel"
-        ],
-        "options": [
-            {
-                "text": "Eiffel Tower",
-                "isCorrect": true
-            },
-            {
-                "text": "Big Ben",
-                "isCorrect": false
-            },
-            {
-                "text": "Statue of Liberty",
-                "isCorrect": false
-            },
-            {
-                "text": "Colosseum",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1704,
-        "name": "What is the primary function of the brain?",
-        "slug": "what-is-the-primary-function-of-the-brain",
-        "explanation": "The brain controls bodily functions, processes sensory information, and coordinates voluntary and involuntary actions.",
-        "tags": [
-            "biology",
-            "human-body",
-            "health"
-        ],
-        "options": [
-            {
-                "text": "Controls bodily functions and processes information",
-                "isCorrect": true
-            },
-            {
-                "text": "Pumps blood",
-                "isCorrect": false
-            },
-            {
-                "text": "Produces enzymes",
-                "isCorrect": false
-            },
-            {
-                "text": "Filters toxins",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1705,
-        "name": "What is the primary ingredient in sushi?",
-        "slug": "what-is-the-primary-ingredient-in-sushi",
-        "explanation": "The primary ingredient in sushi is vinegared rice, which is combined with other ingredients like seafood and vegetables.",
-        "tags": [
-            "food",
-            "cuisine",
-            "sushi"
-        ],
-        "options": [
-            {
-                "text": "Rice",
-                "isCorrect": true
-            },
-            {
-                "text": "Noodles",
-                "isCorrect": false
-            },
-            {
-                "text": "Bread",
-                "isCorrect": false
-            },
-            {
-                "text": "Corn",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1706,
-        "name": "What is the largest land animal?",
-        "slug": "what-is-the-largest-land-animal",
-        "explanation": "The African elephant is the largest land animal, known for its size and weight, with males reaching up to 6,000 kilograms.",
-        "tags": [
-            "animal",
-            "biology",
-            "wildlife"
-        ],
-        "options": [
-            {
-                "text": "African Elephant",
-                "isCorrect": true
-            },
-            {
-                "text": "Blue Whale",
-                "isCorrect": false
-            },
-            {
-                "text": "Giraffe",
-                "isCorrect": false
-            },
-            {
-                "text": "Hippopotamus",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1707,
-        "name": "Which element has the atomic number 1?",
-        "slug": "which-element-has-the-atomic-number-1",
-        "explanation": "Hydrogen, the lightest and most abundant element in the universe, has the atomic number 1.",
-        "tags": [
-            "chemistry",
-            "science",
-            "elements"
-        ],
-        "options": [
-            {
-                "text": "Hydrogen",
-                "isCorrect": true
-            },
-            {
-                "text": "Oxygen",
-                "isCorrect": false
-            },
-            {
-                "text": "Helium",
-                "isCorrect": false
-            },
-            {
-                "text": "Nitrogen",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1708,
-        "name": "What is the largest continent on Earth?",
-        "slug": "what-is-the-largest-continent-on-earth",
-        "explanation": "Asia is the largest continent, covering about 44.58 million square kilometers and housing the majority of the world's population.",
-        "tags": [
-            "geography",
-            "continents",
-            "world"
-        ],
-        "options": [
-            {
-                "text": "Asia",
-                "isCorrect": true
-            },
-            {
-                "text": "Africa",
-                "isCorrect": false
-            },
-            {
-                "text": "Europe",
-                "isCorrect": false
-            },
-            {
-                "text": "North America",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1709,
-        "name": "Which is the deepest lake in the world?",
-        "slug": "which-is-the-deepest-lake-in-the-world",
-        "explanation": "Lake Baikal, located in Siberia, Russia, is the deepest lake in the world, with a depth of about 1,642 meters.",
-        "tags": [
-            "geography",
-            "lakes",
-            "world"
-        ],
-        "options": [
-            {
-                "text": "Lake Baikal",
-                "isCorrect": true
-            },
-            {
-                "text": "Lake Tanganyika",
-                "isCorrect": false
-            },
-            {
-                "text": "Caspian Sea",
-                "isCorrect": false
-            },
-            {
-                "text": "Great Bear Lake",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1710,
-        "name": "Which animal is known to have the longest lifespan?",
-        "slug": "which-animal-is-known-to-have-the-longest-lifespan",
-        "explanation": "The Greenland shark is known to have the longest lifespan among vertebrates, living up to 400 years.",
-        "tags": [
-            "biology",
-            "animal",
-            "lifespan"
-        ],
-        "options": [
-            {
-                "text": "Greenland Shark",
-                "isCorrect": true
-            },
-            {
-                "text": "Tortoise",
-                "isCorrect": false
-            },
-            {
-                "text": "Blue Whale",
-                "isCorrect": false
-            },
-            {
-                "text": "Elephant",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1711,
-        "name": "What is the primary ingredient in bread?",
-        "slug": "what-is-the-primary-ingredient-in-bread",
-        "explanation": "Flour is the main ingredient used in making bread, providing its structure and texture.",
-        "tags": [
-            "food",
-            "cooking",
-            "ingredients"
-        ],
-        "options": [
-            {
-                "text": "Flour",
-                "isCorrect": true
-            },
-            {
-                "text": "Sugar",
-                "isCorrect": false
-            },
-            {
-                "text": "Salt",
-                "isCorrect": false
-            },
-            {
-                "text": "Butter",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1712,
-        "name": "Which gas is responsible for the greenhouse effect?",
-        "slug": "which-gas-is-responsible-for-the-greenhouse-effect",
-        "explanation": "Carbon dioxide is a major greenhouse gas, contributing to global warming.",
-        "tags": [
-            "environment",
-            "science",
-            "climate"
-        ],
-        "options": [
-            {
-                "text": "Carbon dioxide",
-                "isCorrect": true
-            },
-            {
-                "text": "Oxygen",
-                "isCorrect": false
-            },
-            {
-                "text": "Nitrogen",
-                "isCorrect": false
-            },
-            {
-                "text": "Helium",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1713,
-        "name": "What is the main gas in the Earth's atmosphere?",
-        "slug": "what-is-the-main-gas-in-the-earths-atmosphere",
-        "explanation": "Nitrogen makes up about 78% of the Earth's atmosphere, making it the primary component.",
-        "tags": [
-            "science",
-            "atmosphere",
-            "earth"
-        ],
-        "options": [
-            {
-                "text": "Nitrogen",
-                "isCorrect": true
-            },
-            {
-                "text": "Oxygen",
-                "isCorrect": false
-            },
-            {
-                "text": "Carbon Dioxide",
-                "isCorrect": false
-            },
-            {
-                "text": "Hydrogen",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1714,
-        "name": "Which instrument measures temperature?",
-        "slug": "which-instrument-measures-temperature",
-        "explanation": "A thermometer is a device used to measure temperature, commonly in degrees Celsius or Fahrenheit.",
-        "tags": [
-            "science",
-            "instrument",
-            "temperature"
-        ],
-        "options": [
-            {
-                "text": "Thermometer",
-                "isCorrect": true
-            },
-            {
-                "text": "Barometer",
-                "isCorrect": false
-            },
-            {
-                "text": "Hygrometer",
-                "isCorrect": false
-            },
-            {
-                "text": "Anemometer",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1715,
-        "name": "What is the official language of China?",
-        "slug": "what-is-the-official-language-of-china",
-        "explanation": "Mandarin Chinese is the official language of China, also known as Putonghua.",
-        "tags": [
-            "language",
-            "geography",
-            "china"
-        ],
-        "options": [
-            {
-                "text": "Mandarin",
-                "isCorrect": true
-            },
-            {
-                "text": "Cantonese",
-                "isCorrect": false
-            },
-            {
-                "text": "Wu",
-                "isCorrect": false
-            },
-            {
-                "text": "Hakka",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1716,
-        "name": "Which element is represented by the symbol 'Na'?",
-        "slug": "which-element-is-represented-by-the-symbol-na",
-        "explanation": "Sodium is represented by the symbol 'Na' in the periodic table, derived from its Latin name, Natrium.",
-        "tags": [
-            "chemistry",
-            "elements",
-            "science"
-        ],
-        "options": [
-            {
-                "text": "Sodium",
-                "isCorrect": true
-            },
-            {
-                "text": "Nitrogen",
-                "isCorrect": false
-            },
-            {
-                "text": "Neon",
-                "isCorrect": false
-            },
-            {
-                "text": "Nickel",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1717,
-        "name": "What is the most populous country in the world?",
-        "slug": "what-is-the-most-populous-country-in-the-world",
-        "explanation": "China is the most populous country in the world, with over 1.4 billion people as of the latest estimates.",
-        "tags": [
-            "geography",
-            "population",
-            "world"
-        ],
-        "options": [
-            {
-                "text": "China",
-                "isCorrect": true
-            },
-            {
-                "text": "India",
-                "isCorrect": false
-            },
-            {
-                "text": "United States",
-                "isCorrect": false
-            },
-            {
-                "text": "Indonesia",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1718,
-        "name": "Which part of the plant conducts photosynthesis?",
-        "slug": "which-part-of-the-plant-conducts-photosynthesis",
-        "explanation": "The leaves are the primary site of photosynthesis in plants, where sunlight is converted into energy.",
-        "tags": [
-            "biology",
-            "plants",
-            "photosynthesis"
-        ],
-        "options": [
-            {
-                "text": "Leaves",
-                "isCorrect": true
-            },
-            {
-                "text": "Roots",
-                "isCorrect": false
-            },
-            {
-                "text": "Stem",
-                "isCorrect": false
-            },
-            {
-                "text": "Flowers",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1719,
-        "name": "Which is the smallest planet in our solar system?",
-        "slug": "which-is-the-smallest-planet-in-our-solar-system",
-        "explanation": "Mercury is the smallest planet in the solar system, with a diameter of about 4,880 kilometers.",
-        "tags": [
-            "astronomy",
-            "planets",
-            "solar system"
-        ],
-        "options": [
-            {
-                "text": "Mercury",
-                "isCorrect": true
-            },
-            {
-                "text": "Mars",
-                "isCorrect": false
-            },
-            {
-                "text": "Venus",
-                "isCorrect": false
-            },
-            {
-                "text": "Pluto",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1720,
-        "name": "Human Rights Watch (HRW) was founded in 1978 as:",
-        "slug": "human-rights-watch-hrw-was-founded-in-1978-as",
-        "explanation": "Human Rights Watch was initially established as 'Helsinki Watch' to monitor the Soviet Union's compliance with the Helsinki Accords.",
-        "tags": [
-            "human rights",
-            "history",
-            "organizations"
-        ],
-        "options": [
-            {
-                "text": "Helsinki Watch",
-                "isCorrect": true
-            },
-            {
-                "text": "Human Watch",
-                "isCorrect": false
-            },
-            {
-                "text": "Rights Monitor",
-                "isCorrect": false
-            },
-            {
-                "text": "Freedom Watch",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1721,
-        "name": "What is the currency of Australia?",
-        "slug": "what-is-the-currency-of-australia",
-        "explanation": "The Australian Dollar (AUD) is the official currency of Australia.",
-        "tags": [
-            "geography",
-            "economy",
-            "currency"
-        ],
-        "options": [
-            {
-                "text": "Australian Dollar",
-                "isCorrect": true
-            },
-            {
-                "text": "US Dollar",
-                "isCorrect": false
-            },
-            {
-                "text": "Euro",
-                "isCorrect": false
-            },
-            {
-                "text": "Pound Sterling",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1722,
-        "name": "What is the boiling point of water in Celsius?",
-        "slug": "what-is-the-boiling-point-of-water-in-celsius",
-        "explanation": "Water boils at 100 degrees Celsius under standard atmospheric pressure.",
-        "tags": [
-            "science",
-            "physics",
-            "temperature"
-        ],
-        "options": [
-            {
-                "text": "100°C",
-                "isCorrect": true
-            },
-            {
-                "text": "50°C",
-                "isCorrect": false
-            },
-            {
-                "text": "212°C",
-                "isCorrect": false
-            },
-            {
-                "text": "150°C",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1723,
-        "name": "Which planet is the hottest in the solar system?",
-        "slug": "which-planet-is-the-hottest-in-the-solar-system",
-        "explanation": "Venus is the hottest planet in the solar system due to its thick atmosphere trapping heat through the greenhouse effect.",
-        "tags": [
-            "astronomy",
-            "planets",
-            "solar system"
-        ],
-        "options": [
-            {
-                "text": "Venus",
-                "isCorrect": true
-            },
-            {
-                "text": "Mercury",
-                "isCorrect": false
-            },
-            {
-                "text": "Mars",
-                "isCorrect": false
-            },
-            {
-                "text": "Jupiter",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1724,
-        "name": "Which vitamin is produced when the skin is exposed to sunlight?",
-        "slug": "which-vitamin-is-produced-when-the-skin-is-exposed-to-sunlight",
-        "explanation": "Vitamin D is synthesized in the skin upon exposure to sunlight.",
-        "tags": [
-            "health",
-            "vitamins",
-            "biology"
-        ],
-        "options": [
-            {
-                "text": "Vitamin D",
-                "isCorrect": true
-            },
-            {
-                "text": "Vitamin C",
-                "isCorrect": false
-            },
-            {
-                "text": "Vitamin A",
-                "isCorrect": false
-            },
-            {
-                "text": "Vitamin B",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1725,
-        "name": "What is the largest island in the world?",
-        "slug": "what-is-the-largest-island-in-the-world",
-        "explanation": "Greenland is the largest island in the world, located between the Arctic and Atlantic Oceans.",
-        "tags": [
-            "geography",
-            "island",
-            "world"
-        ],
-        "options": [
-            {
-                "text": "Greenland",
-                "isCorrect": true
-            },
-            {
-                "text": "Australia",
-                "isCorrect": false
-            },
-            {
-                "text": "Madagascar",
-                "isCorrect": false
-            },
-            {
-                "text": "Borneo",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1726,
-        "name": "What is the primary language spoken in Argentina?",
-        "slug": "what-is-the-primary-language-spoken-in-argentina",
-        "explanation": "Spanish is the official and primary language spoken in Argentina.",
-        "tags": [
-            "language",
-            "geography",
-            "argentina"
-        ],
-        "options": [
-            {
-                "text": "Spanish",
-                "isCorrect": true
-            },
-            {
-                "text": "Portuguese",
-                "isCorrect": false
-            },
-            {
-                "text": "French",
-                "isCorrect": false
-            },
-            {
-                "text": "Italian",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1727,
-        "name": "Which animal is the largest land carnivore?",
-        "slug": "which-animal-is-the-largest-land-carnivore",
-        "explanation": "The polar bear is the largest land carnivore, weighing up to 1,500 pounds.",
-        "tags": [
-            "animals",
-            "biology",
-            "carnivores"
-        ],
-        "options": [
-            {
-                "text": "Polar Bear",
-                "isCorrect": true
-            },
-            {
-                "text": "Grizzly Bear",
-                "isCorrect": false
-            },
-            {
-                "text": "Tiger",
-                "isCorrect": false
-            },
-            {
-                "text": "Lion",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1728,
-        "name": "Which chemical element has the symbol 'O'?",
-        "slug": "which-chemical-element-has-the-symbol-o",
-        "explanation": "Oxygen is represented by the symbol 'O' and is essential for life on Earth.",
-        "tags": [
-            "chemistry",
-            "elements",
-            "science"
-        ],
-        "options": [
-            {
-                "text": "Oxygen",
-                "isCorrect": true
-            },
-            {
-                "text": "Osmium",
-                "isCorrect": false
-            },
-            {
-                "text": "Oganesson",
-                "isCorrect": false
-            },
-            {
-                "text": "Oxide",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1729,
-        "name": "Who wrote 'Romeo and Juliet'?",
-        "slug": "who-wrote-romeo-and-juliet",
-        "explanation": "William Shakespeare wrote 'Romeo and Juliet,' one of the most famous tragic plays in literature.",
-        "tags": [
-            "literature",
-            "authors",
-            "classics"
-        ],
-        "options": [
-            {
-                "text": "William Shakespeare",
-                "isCorrect": true
-            },
-            {
-                "text": "Charles Dickens",
-                "isCorrect": false
-            },
-            {
-                "text": "Jane Austen",
-                "isCorrect": false
-            },
-            {
-                "text": "Mark Twain",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1730,
-        "name": "Which continent is the Sahara Desert located in?",
-        "slug": "which-continent-is-the-sahara-desert-located-in",
-        "explanation": "The Sahara Desert, the largest hot desert in the world, is located in Africa.",
-        "tags": [
-            "geography",
-            "deserts",
-            "africa"
-        ],
-        "options": [
-            {
-                "text": "Africa",
-                "isCorrect": true
-            },
-            {
-                "text": "Asia",
-                "isCorrect": false
-            },
-            {
-                "text": "Australia",
-                "isCorrect": false
-            },
-            {
-                "text": "South America",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1731,
-        "name": "Which ocean is located between Africa and Australia?",
-        "slug": "which-ocean-is-located-between-africa-and-australia",
-        "explanation": "The Indian Ocean lies between the continents of Africa and Australia.",
-        "tags": [
-            "geography",
-            "oceans",
-            "world"
-        ],
-        "options": [
-            {
-                "text": "Indian Ocean",
-                "isCorrect": true
-            },
-            {
-                "text": "Pacific Ocean",
-                "isCorrect": false
-            },
-            {
-                "text": "Atlantic Ocean",
-                "isCorrect": false
-            },
-            {
-                "text": "Arctic Ocean",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1732,
-        "name": "Which country is known for the Eiffel Tower?",
-        "slug": "which-country-is-known-for-the-eiffel-tower",
-        "explanation": "The Eiffel Tower, one of the world's most iconic landmarks, is located in France.",
-        "tags": [
-            "geography",
-            "landmarks",
-            "france"
-        ],
-        "options": [
-            {
-                "text": "France",
-                "isCorrect": true
-            },
-            {
-                "text": "Italy",
-                "isCorrect": false
-            },
-            {
-                "text": "Germany",
-                "isCorrect": false
-            },
-            {
-                "text": "Spain",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1733,
-        "name": "What is the most common gas in the Earth's atmosphere?",
-        "slug": "what-is-the-most-common-gas-in-the-earths-atmosphere",
-        "explanation": "Nitrogen makes up about 78% of the Earth's atmosphere, making it the most abundant gas.",
-        "tags": [
-            "science",
-            "atmosphere",
-            "earth"
-        ],
-        "options": [
-            {
-                "text": "Nitrogen",
-                "isCorrect": true
-            },
-            {
-                "text": "Oxygen",
-                "isCorrect": false
-            },
-            {
-                "text": "Carbon Dioxide",
-                "isCorrect": false
-            },
-            {
-                "text": "Argon",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1734,
-        "name": "What is the primary color of a banana?",
-        "slug": "what-is-the-primary-color-of-a-banana",
-        "explanation": "The peel of a ripe banana is yellow, which is its most recognizable color.",
-        "tags": [
-            "biology",
-            "food",
-            "fruits"
-        ],
-        "options": [
-            {
-                "text": "Yellow",
-                "isCorrect": true
-            },
-            {
-                "text": "Green",
-                "isCorrect": false
-            },
-            {
-                "text": "Red",
-                "isCorrect": false
-            },
-            {
-                "text": "Brown",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1735,
-        "name": "The World Tourism Day is observed every year on?",
-        "slug": "the-world-tourism-day-is-observed-every-year-on",
-        "explanation": "World Tourism Day is observed on September 27th to raise awareness about the importance of tourism.",
-        "tags": [
-            "events",
-            "tourism",
-            "global"
-        ],
-        "options": [
-            {
-                "text": "September 27",
-                "isCorrect": true
-            },
-            {
-                "text": "October 10",
-                "isCorrect": false
-            },
-            {
-                "text": "August 15",
-                "isCorrect": false
-            },
-            {
-                "text": "November 21",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1736,
-        "name": "What is the main ingredient of hummus?",
-        "slug": "what-is-the-main-ingredient-of-hummus",
-        "explanation": "Hummus is primarily made from chickpeas blended with tahini, olive oil, and seasonings.",
-        "tags": [
-            "food",
-            "cuisine",
-            "ingredients"
-        ],
-        "options": [
-            {
-                "text": "Chickpeas",
-                "isCorrect": true
-            },
-            {
-                "text": "Lentils",
-                "isCorrect": false
-            },
-            {
-                "text": "Beans",
-                "isCorrect": false
-            },
-            {
-                "text": "Potatoes",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1737,
-        "name": "Which country is famous for its pyramids?",
-        "slug": "which-country-is-famous-for-its-pyramids",
-        "explanation": "Egypt is renowned for its ancient pyramids, including the Great Pyramid of Giza.",
-        "tags": [
-            "geography",
-            "landmarks",
-            "egypt"
-        ],
-        "options": [
-            {
-                "text": "Egypt",
-                "isCorrect": true
-            },
-            {
-                "text": "Mexico",
-                "isCorrect": false
-            },
-            {
-                "text": "Peru",
-                "isCorrect": false
-            },
-            {
-                "text": "China",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1738,
-        "name": "What is the national flower of Japan?",
-        "slug": "what-is-the-national-flower-of-japan",
-        "explanation": "The cherry blossom, or 'Sakura,' is the national flower of Japan and a cultural symbol.",
-        "tags": [
-            "culture",
-            "japan",
-            "flowers"
-        ],
-        "options": [
-            {
-                "text": "Cherry Blossom",
-                "isCorrect": true
-            },
-            {
-                "text": "Lotus",
-                "isCorrect": false
-            },
-            {
-                "text": "Rose",
-                "isCorrect": false
-            },
-            {
-                "text": "Orchid",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1739,
-        "name": "What is the primary diet of a panda?",
-        "slug": "what-is-the-primary-diet-of-a-panda",
-        "explanation": "Pandas primarily eat bamboo, which constitutes over 99% of their diet.",
-        "tags": [
-            "animals",
-            "pandas",
-            "diet"
-        ],
-        "options": [
-            {
-                "text": "Bamboo",
-                "isCorrect": true
-            },
-            {
-                "text": "Fish",
-                "isCorrect": false
-            },
-            {
-                "text": "Fruits",
-                "isCorrect": false
-            },
-            {
-                "text": "Insects",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1740,
-        "name": "What is the primary ingredient in a Margherita pizza?",
-        "slug": "what-is-the-primary-ingredient-in-a-margherita-pizza",
-        "explanation": "A Margherita pizza features mozzarella cheese, tomato sauce, and fresh basil.",
-        "tags": [
-            "food",
-            "pizza",
-            "ingredients"
-        ],
-        "options": [
-            {
-                "text": "Tomato Sauce",
-                "isCorrect": true
-            },
-            {
-                "text": "Pepperoni",
-                "isCorrect": false
-            },
-            {
-                "text": "Olives",
-                "isCorrect": false
-            },
-            {
-                "text": "Mushrooms",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1741,
-        "name": "What is the freezing point of water in Celsius?",
-        "slug": "what-is-the-freezing-point-of-water-in-celsius",
-        "explanation": "Water freezes at 0°C, which is its standard freezing point.",
-        "tags": [
-            "science",
-            "temperature",
-            "water"
-        ],
-        "options": [
-            {
-                "text": "0°C",
-                "isCorrect": true
-            },
-            {
-                "text": "32°C",
-                "isCorrect": false
-            },
-            {
-                "text": "-1°C",
-                "isCorrect": false
-            },
-            {
-                "text": "100°C",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1742,
-        "name": "What is the freezing point of water?",
-        "slug": "what-is-the-freezing-point-of-water",
-        "explanation": "Water freezes at 0 degrees Celsius under standard atmospheric conditions.",
-        "tags": [
-            "science",
-            "physics",
-            "temperature"
-        ],
-        "options": [
-            {
-                "text": "0°C",
-                "isCorrect": true
-            },
-            {
-                "text": "32°C",
-                "isCorrect": false
-            },
-            {
-                "text": "100°C",
-                "isCorrect": false
-            },
-            {
-                "text": "-10°C",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1743,
-        "name": "Which vitamin is known as ascorbic acid?",
-        "slug": "which-vitamin-is-known-as-ascorbic-acid",
-        "explanation": "Vitamin C, also known as ascorbic acid, is essential for the repair of tissues and the immune system.",
-        "tags": [
-            "health",
-            "vitamins",
-            "nutrition"
-        ],
-        "options": [
-            {
-                "text": "Vitamin C",
-                "isCorrect": true
-            },
-            {
-                "text": "Vitamin D",
-                "isCorrect": false
-            },
-            {
-                "text": "Vitamin B12",
-                "isCorrect": false
-            },
-            {
-                "text": "Vitamin A",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1744,
-        "name": "What is the chemical symbol for sodium?",
-        "slug": "what-is-the-chemical-symbol-for-sodium",
-        "explanation": "The chemical symbol for sodium is 'Na', derived from its Latin name 'Natrium'.",
-        "tags": [
-            "chemistry",
-            "elements",
-            "symbols"
-        ],
-        "options": [
-            {
-                "text": "Na",
-                "isCorrect": true
-            },
-            {
-                "text": "S",
-                "isCorrect": false
-            },
-            {
-                "text": "N",
-                "isCorrect": false
-            },
-            {
-                "text": "So",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1745,
-        "name": "Which ocean is the Bermuda Triangle located in?",
-        "slug": "which-ocean-is-the-bermuda-triangle-located-in",
-        "explanation": "The Bermuda Triangle is located in the Atlantic Ocean, known for its mysterious disappearances.",
-        "tags": [
-            "geography",
-            "oceans",
-            "mysteries"
-        ],
-        "options": [
-            {
-                "text": "Atlantic Ocean",
-                "isCorrect": true
-            },
-            {
-                "text": "Pacific Ocean",
-                "isCorrect": false
-            },
-            {
-                "text": "Indian Ocean",
-                "isCorrect": false
-            },
-            {
-                "text": "Arctic Ocean",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1746,
-        "name": "What is the main source of energy for the Earth?",
-        "slug": "what-is-the-main-source-of-energy-for-the-earth",
-        "explanation": "The Sun is the primary source of energy, providing light and heat essential for life on Earth.",
-        "tags": [
-            "science",
-            "energy",
-            "earth"
-        ],
-        "options": [
-            {
-                "text": "The Sun",
-                "isCorrect": true
-            },
-            {
-                "text": "The Moon",
-                "isCorrect": false
-            },
-            {
-                "text": "Volcanoes",
-                "isCorrect": false
-            },
-            {
-                "text": "Fossil fuels",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1747,
-        "name": "What is the main organ of the human circulatory system?",
-        "slug": "what-is-the-main-organ-of-the-human-circulatory-system",
-        "explanation": "The heart is the primary organ responsible for pumping blood throughout the body.",
-        "tags": [
-            "biology",
-            "human body",
-            "circulatory system"
-        ],
-        "options": [
-            {
-                "text": "Heart",
-                "isCorrect": true
-            },
-            {
-                "text": "Lungs",
-                "isCorrect": false
-            },
-            {
-                "text": "Liver",
-                "isCorrect": false
-            },
-            {
-                "text": "Kidneys",
-                "isCorrect": false
-            }
-        ]
-    }
+  {
+    "id": 1701,
+    "name": "What is the main function of the liver?",
+    "slug": "what-is-the-main-function-of-the-liver",
+    "explanation": "The liver plays a vital role in detoxifying the blood, metabolizing nutrients, and producing bile.",
+    "tags": ["biology", "human-body", "health"],
+    "options": [
+      {
+        "text": "Detoxifies blood and produces bile",
+        "isCorrect": true
+      },
+      {
+        "text": "Pumps blood",
+        "isCorrect": false
+      },
+      {
+        "text": "Regulates temperature",
+        "isCorrect": false
+      },
+      {
+        "text": "Stores oxygen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1702,
+    "name": "What is the most widely consumed beverage in the world?",
+    "slug": "what-is-the-most-widely-consumed-beverage-in-the-world",
+    "explanation": "Tea is the most widely consumed beverage in the world after water, enjoyed in many cultures globally.",
+    "tags": ["beverage", "food", "culture"],
+    "options": [
+      {
+        "text": "Tea",
+        "isCorrect": true
+      },
+      {
+        "text": "Coffee",
+        "isCorrect": false
+      },
+      {
+        "text": "Milk",
+        "isCorrect": false
+      },
+      {
+        "text": "Juice",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1703,
+    "name": "Which famous landmark is located in Paris?",
+    "slug": "which-famous-landmark-is-located-in-paris",
+    "explanation": "The Eiffel Tower is a world-famous landmark located in Paris, France, and is one of the most recognizable structures globally.",
+    "tags": ["landmark", "Paris", "travel"],
+    "options": [
+      {
+        "text": "Eiffel Tower",
+        "isCorrect": true
+      },
+      {
+        "text": "Big Ben",
+        "isCorrect": false
+      },
+      {
+        "text": "Statue of Liberty",
+        "isCorrect": false
+      },
+      {
+        "text": "Colosseum",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1704,
+    "name": "What is the primary function of the brain?",
+    "slug": "what-is-the-primary-function-of-the-brain",
+    "explanation": "The brain controls bodily functions, processes sensory information, and coordinates voluntary and involuntary actions.",
+    "tags": ["biology", "human-body", "health"],
+    "options": [
+      {
+        "text": "Controls bodily functions and processes information",
+        "isCorrect": true
+      },
+      {
+        "text": "Pumps blood",
+        "isCorrect": false
+      },
+      {
+        "text": "Produces enzymes",
+        "isCorrect": false
+      },
+      {
+        "text": "Filters toxins",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1705,
+    "name": "What is the primary ingredient in sushi?",
+    "slug": "what-is-the-primary-ingredient-in-sushi",
+    "explanation": "The primary ingredient in sushi is vinegared rice, which is combined with other ingredients like seafood and vegetables.",
+    "tags": ["food", "cuisine", "sushi"],
+    "options": [
+      {
+        "text": "Rice",
+        "isCorrect": true
+      },
+      {
+        "text": "Noodles",
+        "isCorrect": false
+      },
+      {
+        "text": "Bread",
+        "isCorrect": false
+      },
+      {
+        "text": "Corn",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1706,
+    "name": "What is the largest land animal?",
+    "slug": "what-is-the-largest-land-animal",
+    "explanation": "The African elephant is the largest land animal, known for its size and weight, with males reaching up to 6,000 kilograms.",
+    "tags": ["animal", "biology", "wildlife"],
+    "options": [
+      {
+        "text": "African Elephant",
+        "isCorrect": true
+      },
+      {
+        "text": "Blue Whale",
+        "isCorrect": false
+      },
+      {
+        "text": "Giraffe",
+        "isCorrect": false
+      },
+      {
+        "text": "Hippopotamus",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1707,
+    "name": "Which element has the atomic number 1?",
+    "slug": "which-element-has-the-atomic-number-1",
+    "explanation": "Hydrogen, the lightest and most abundant element in the universe, has the atomic number 1.",
+    "tags": ["chemistry", "science", "elements"],
+    "options": [
+      {
+        "text": "Hydrogen",
+        "isCorrect": true
+      },
+      {
+        "text": "Oxygen",
+        "isCorrect": false
+      },
+      {
+        "text": "Helium",
+        "isCorrect": false
+      },
+      {
+        "text": "Nitrogen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1708,
+    "name": "What is the largest continent on Earth?",
+    "slug": "what-is-the-largest-continent-on-earth",
+    "explanation": "Asia is the largest continent, covering about 44.58 million square kilometers and housing the majority of the world's population.",
+    "tags": ["geography", "continents", "world"],
+    "options": [
+      {
+        "text": "Asia",
+        "isCorrect": true
+      },
+      {
+        "text": "Africa",
+        "isCorrect": false
+      },
+      {
+        "text": "Europe",
+        "isCorrect": false
+      },
+      {
+        "text": "North America",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1709,
+    "name": "Which is the deepest lake in the world?",
+    "slug": "which-is-the-deepest-lake-in-the-world",
+    "explanation": "Lake Baikal, located in Siberia, Russia, is the deepest lake in the world, with a depth of about 1,642 meters.",
+    "tags": ["geography", "lakes", "world"],
+    "options": [
+      {
+        "text": "Lake Baikal",
+        "isCorrect": true
+      },
+      {
+        "text": "Lake Tanganyika",
+        "isCorrect": false
+      },
+      {
+        "text": "Caspian Sea",
+        "isCorrect": false
+      },
+      {
+        "text": "Great Bear Lake",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1710,
+    "name": "Which animal is known to have the longest lifespan?",
+    "slug": "which-animal-is-known-to-have-the-longest-lifespan",
+    "explanation": "The Greenland shark is known to have the longest lifespan among vertebrates, living up to 400 years.",
+    "tags": ["biology", "animal", "lifespan"],
+    "options": [
+      {
+        "text": "Greenland Shark",
+        "isCorrect": true
+      },
+      {
+        "text": "Tortoise",
+        "isCorrect": false
+      },
+      {
+        "text": "Blue Whale",
+        "isCorrect": false
+      },
+      {
+        "text": "Elephant",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1711,
+    "name": "What is the primary ingredient in bread?",
+    "slug": "what-is-the-primary-ingredient-in-bread",
+    "explanation": "Flour is the main ingredient used in making bread, providing its structure and texture.",
+    "tags": ["food", "cooking", "ingredients"],
+    "options": [
+      {
+        "text": "Flour",
+        "isCorrect": true
+      },
+      {
+        "text": "Sugar",
+        "isCorrect": false
+      },
+      {
+        "text": "Salt",
+        "isCorrect": false
+      },
+      {
+        "text": "Butter",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1712,
+    "name": "Which gas is responsible for the greenhouse effect?",
+    "slug": "which-gas-is-responsible-for-the-greenhouse-effect",
+    "explanation": "Carbon dioxide is a major greenhouse gas, contributing to global warming.",
+    "tags": ["environment", "science", "climate"],
+    "options": [
+      {
+        "text": "Carbon dioxide",
+        "isCorrect": true
+      },
+      {
+        "text": "Oxygen",
+        "isCorrect": false
+      },
+      {
+        "text": "Nitrogen",
+        "isCorrect": false
+      },
+      {
+        "text": "Helium",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1713,
+    "name": "What is the main gas in the Earth's atmosphere?",
+    "slug": "what-is-the-main-gas-in-the-earths-atmosphere",
+    "explanation": "Nitrogen makes up about 78% of the Earth's atmosphere, making it the primary component.",
+    "tags": ["science", "atmosphere", "earth"],
+    "options": [
+      {
+        "text": "Nitrogen",
+        "isCorrect": true
+      },
+      {
+        "text": "Oxygen",
+        "isCorrect": false
+      },
+      {
+        "text": "Carbon Dioxide",
+        "isCorrect": false
+      },
+      {
+        "text": "Hydrogen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1714,
+    "name": "Which instrument measures temperature?",
+    "slug": "which-instrument-measures-temperature",
+    "explanation": "A thermometer is a device used to measure temperature, commonly in degrees Celsius or Fahrenheit.",
+    "tags": ["science", "instrument", "temperature"],
+    "options": [
+      {
+        "text": "Thermometer",
+        "isCorrect": true
+      },
+      {
+        "text": "Barometer",
+        "isCorrect": false
+      },
+      {
+        "text": "Hygrometer",
+        "isCorrect": false
+      },
+      {
+        "text": "Anemometer",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1715,
+    "name": "What is the official language of China?",
+    "slug": "what-is-the-official-language-of-china",
+    "explanation": "Mandarin Chinese is the official language of China, also known as Putonghua.",
+    "tags": ["language", "geography", "china"],
+    "options": [
+      {
+        "text": "Mandarin",
+        "isCorrect": true
+      },
+      {
+        "text": "Cantonese",
+        "isCorrect": false
+      },
+      {
+        "text": "Wu",
+        "isCorrect": false
+      },
+      {
+        "text": "Hakka",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1716,
+    "name": "Which element is represented by the symbol 'Na'?",
+    "slug": "which-element-is-represented-by-the-symbol-na",
+    "explanation": "Sodium is represented by the symbol 'Na' in the periodic table, derived from its Latin name, Natrium.",
+    "tags": ["chemistry", "elements", "science"],
+    "options": [
+      {
+        "text": "Sodium",
+        "isCorrect": true
+      },
+      {
+        "text": "Nitrogen",
+        "isCorrect": false
+      },
+      {
+        "text": "Neon",
+        "isCorrect": false
+      },
+      {
+        "text": "Nickel",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1717,
+    "name": "What is the most populous country in the world?",
+    "slug": "what-is-the-most-populous-country-in-the-world",
+    "explanation": "China is the most populous country in the world, with over 1.4 billion people as of the latest estimates.",
+    "tags": ["geography", "population", "world"],
+    "options": [
+      {
+        "text": "China",
+        "isCorrect": true
+      },
+      {
+        "text": "India",
+        "isCorrect": false
+      },
+      {
+        "text": "United States",
+        "isCorrect": false
+      },
+      {
+        "text": "Indonesia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1718,
+    "name": "Which part of the plant conducts photosynthesis?",
+    "slug": "which-part-of-the-plant-conducts-photosynthesis",
+    "explanation": "The leaves are the primary site of photosynthesis in plants, where sunlight is converted into energy.",
+    "tags": ["biology", "plants", "photosynthesis"],
+    "options": [
+      {
+        "text": "Leaves",
+        "isCorrect": true
+      },
+      {
+        "text": "Roots",
+        "isCorrect": false
+      },
+      {
+        "text": "Stem",
+        "isCorrect": false
+      },
+      {
+        "text": "Flowers",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1719,
+    "name": "Which is the smallest planet in our solar system?",
+    "slug": "which-is-the-smallest-planet-in-our-solar-system",
+    "explanation": "Mercury is the smallest planet in the solar system, with a diameter of about 4,880 kilometers.",
+    "tags": ["astronomy", "planets", "solar system"],
+    "options": [
+      {
+        "text": "Mercury",
+        "isCorrect": true
+      },
+      {
+        "text": "Mars",
+        "isCorrect": false
+      },
+      {
+        "text": "Venus",
+        "isCorrect": false
+      },
+      {
+        "text": "Pluto",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1720,
+    "name": "Human Rights Watch (HRW) was founded in 1978 as:",
+    "slug": "human-rights-watch-hrw-was-founded-in-1978-as",
+    "explanation": "Human Rights Watch was initially established as 'Helsinki Watch' to monitor the Soviet Union's compliance with the Helsinki Accords.",
+    "tags": ["human rights", "history", "organizations"],
+    "options": [
+      {
+        "text": "Helsinki Watch",
+        "isCorrect": true
+      },
+      {
+        "text": "Human Watch",
+        "isCorrect": false
+      },
+      {
+        "text": "Rights Monitor",
+        "isCorrect": false
+      },
+      {
+        "text": "Freedom Watch",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1721,
+    "name": "What is the currency of Australia?",
+    "slug": "what-is-the-currency-of-australia",
+    "explanation": "The Australian Dollar (AUD) is the official currency of Australia.",
+    "tags": ["geography", "economy", "currency"],
+    "options": [
+      {
+        "text": "Australian Dollar",
+        "isCorrect": true
+      },
+      {
+        "text": "US Dollar",
+        "isCorrect": false
+      },
+      {
+        "text": "Euro",
+        "isCorrect": false
+      },
+      {
+        "text": "Pound Sterling",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1722,
+    "name": "What is the boiling point of water in Celsius?",
+    "slug": "what-is-the-boiling-point-of-water-in-celsius",
+    "explanation": "Water boils at 100 degrees Celsius under standard atmospheric pressure.",
+    "tags": ["science", "physics", "temperature"],
+    "options": [
+      {
+        "text": "100°C",
+        "isCorrect": true
+      },
+      {
+        "text": "50°C",
+        "isCorrect": false
+      },
+      {
+        "text": "212°C",
+        "isCorrect": false
+      },
+      {
+        "text": "150°C",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1723,
+    "name": "Which planet is the hottest in the solar system?",
+    "slug": "which-planet-is-the-hottest-in-the-solar-system",
+    "explanation": "Venus is the hottest planet in the solar system due to its thick atmosphere trapping heat through the greenhouse effect.",
+    "tags": ["astronomy", "planets", "solar system"],
+    "options": [
+      {
+        "text": "Venus",
+        "isCorrect": true
+      },
+      {
+        "text": "Mercury",
+        "isCorrect": false
+      },
+      {
+        "text": "Mars",
+        "isCorrect": false
+      },
+      {
+        "text": "Jupiter",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1724,
+    "name": "Which vitamin is produced when the skin is exposed to sunlight?",
+    "slug": "which-vitamin-is-produced-when-the-skin-is-exposed-to-sunlight",
+    "explanation": "Vitamin D is synthesized in the skin upon exposure to sunlight.",
+    "tags": ["health", "vitamins", "biology"],
+    "options": [
+      {
+        "text": "Vitamin D",
+        "isCorrect": true
+      },
+      {
+        "text": "Vitamin C",
+        "isCorrect": false
+      },
+      {
+        "text": "Vitamin A",
+        "isCorrect": false
+      },
+      {
+        "text": "Vitamin B",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1725,
+    "name": "What is the largest island in the world?",
+    "slug": "what-is-the-largest-island-in-the-world",
+    "explanation": "Greenland is the largest island in the world, located between the Arctic and Atlantic Oceans.",
+    "tags": ["geography", "island", "world"],
+    "options": [
+      {
+        "text": "Greenland",
+        "isCorrect": true
+      },
+      {
+        "text": "Australia",
+        "isCorrect": false
+      },
+      {
+        "text": "Madagascar",
+        "isCorrect": false
+      },
+      {
+        "text": "Borneo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1726,
+    "name": "What is the primary language spoken in Argentina?",
+    "slug": "what-is-the-primary-language-spoken-in-argentina",
+    "explanation": "Spanish is the official and primary language spoken in Argentina.",
+    "tags": ["language", "geography", "argentina"],
+    "options": [
+      {
+        "text": "Spanish",
+        "isCorrect": true
+      },
+      {
+        "text": "Portuguese",
+        "isCorrect": false
+      },
+      {
+        "text": "French",
+        "isCorrect": false
+      },
+      {
+        "text": "Italian",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1727,
+    "name": "Which animal is the largest land carnivore?",
+    "slug": "which-animal-is-the-largest-land-carnivore",
+    "explanation": "The polar bear is the largest land carnivore, weighing up to 1,500 pounds.",
+    "tags": ["animals", "biology", "carnivores"],
+    "options": [
+      {
+        "text": "Polar Bear",
+        "isCorrect": true
+      },
+      {
+        "text": "Grizzly Bear",
+        "isCorrect": false
+      },
+      {
+        "text": "Tiger",
+        "isCorrect": false
+      },
+      {
+        "text": "Lion",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1728,
+    "name": "Which chemical element has the symbol 'O'?",
+    "slug": "which-chemical-element-has-the-symbol-o",
+    "explanation": "Oxygen is represented by the symbol 'O' and is essential for life on Earth.",
+    "tags": ["chemistry", "elements", "science"],
+    "options": [
+      {
+        "text": "Oxygen",
+        "isCorrect": true
+      },
+      {
+        "text": "Osmium",
+        "isCorrect": false
+      },
+      {
+        "text": "Oganesson",
+        "isCorrect": false
+      },
+      {
+        "text": "Oxide",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1729,
+    "name": "Who wrote 'Romeo and Juliet'?",
+    "slug": "who-wrote-romeo-and-juliet",
+    "explanation": "William Shakespeare wrote 'Romeo and Juliet,' one of the most famous tragic plays in literature.",
+    "tags": ["literature", "authors", "classics"],
+    "options": [
+      {
+        "text": "William Shakespeare",
+        "isCorrect": true
+      },
+      {
+        "text": "Charles Dickens",
+        "isCorrect": false
+      },
+      {
+        "text": "Jane Austen",
+        "isCorrect": false
+      },
+      {
+        "text": "Mark Twain",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1730,
+    "name": "Which continent is the Sahara Desert located in?",
+    "slug": "which-continent-is-the-sahara-desert-located-in",
+    "explanation": "The Sahara Desert, the largest hot desert in the world, is located in Africa.",
+    "tags": ["geography", "deserts", "africa"],
+    "options": [
+      {
+        "text": "Africa",
+        "isCorrect": true
+      },
+      {
+        "text": "Asia",
+        "isCorrect": false
+      },
+      {
+        "text": "Australia",
+        "isCorrect": false
+      },
+      {
+        "text": "South America",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1731,
+    "name": "Which ocean is located between Africa and Australia?",
+    "slug": "which-ocean-is-located-between-africa-and-australia",
+    "explanation": "The Indian Ocean lies between the continents of Africa and Australia.",
+    "tags": ["geography", "oceans", "world"],
+    "options": [
+      {
+        "text": "Indian Ocean",
+        "isCorrect": true
+      },
+      {
+        "text": "Pacific Ocean",
+        "isCorrect": false
+      },
+      {
+        "text": "Atlantic Ocean",
+        "isCorrect": false
+      },
+      {
+        "text": "Arctic Ocean",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1732,
+    "name": "Which country is known for the Eiffel Tower?",
+    "slug": "which-country-is-known-for-the-eiffel-tower",
+    "explanation": "The Eiffel Tower, one of the world's most iconic landmarks, is located in France.",
+    "tags": ["geography", "landmarks", "france"],
+    "options": [
+      {
+        "text": "France",
+        "isCorrect": true
+      },
+      {
+        "text": "Italy",
+        "isCorrect": false
+      },
+      {
+        "text": "Germany",
+        "isCorrect": false
+      },
+      {
+        "text": "Spain",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1733,
+    "name": "What is the most common gas in the Earth's atmosphere?",
+    "slug": "what-is-the-most-common-gas-in-the-earths-atmosphere",
+    "explanation": "Nitrogen makes up about 78% of the Earth's atmosphere, making it the most abundant gas.",
+    "tags": ["science", "atmosphere", "earth"],
+    "options": [
+      {
+        "text": "Nitrogen",
+        "isCorrect": true
+      },
+      {
+        "text": "Oxygen",
+        "isCorrect": false
+      },
+      {
+        "text": "Carbon Dioxide",
+        "isCorrect": false
+      },
+      {
+        "text": "Argon",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1734,
+    "name": "What is the primary color of a banana?",
+    "slug": "what-is-the-primary-color-of-a-banana",
+    "explanation": "The peel of a ripe banana is yellow, which is its most recognizable color.",
+    "tags": ["biology", "food", "fruits"],
+    "options": [
+      {
+        "text": "Yellow",
+        "isCorrect": true
+      },
+      {
+        "text": "Green",
+        "isCorrect": false
+      },
+      {
+        "text": "Red",
+        "isCorrect": false
+      },
+      {
+        "text": "Brown",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1735,
+    "name": "The World Tourism Day is observed every year on?",
+    "slug": "the-world-tourism-day-is-observed-every-year-on",
+    "explanation": "World Tourism Day is observed on September 27th to raise awareness about the importance of tourism.",
+    "tags": ["events", "tourism", "global"],
+    "options": [
+      {
+        "text": "September 27",
+        "isCorrect": true
+      },
+      {
+        "text": "October 10",
+        "isCorrect": false
+      },
+      {
+        "text": "August 15",
+        "isCorrect": false
+      },
+      {
+        "text": "November 21",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1736,
+    "name": "What is the main ingredient of hummus?",
+    "slug": "what-is-the-main-ingredient-of-hummus",
+    "explanation": "Hummus is primarily made from chickpeas blended with tahini, olive oil, and seasonings.",
+    "tags": ["food", "cuisine", "ingredients"],
+    "options": [
+      {
+        "text": "Chickpeas",
+        "isCorrect": true
+      },
+      {
+        "text": "Lentils",
+        "isCorrect": false
+      },
+      {
+        "text": "Beans",
+        "isCorrect": false
+      },
+      {
+        "text": "Potatoes",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1737,
+    "name": "Which country is famous for its pyramids?",
+    "slug": "which-country-is-famous-for-its-pyramids",
+    "explanation": "Egypt is renowned for its ancient pyramids, including the Great Pyramid of Giza.",
+    "tags": ["geography", "landmarks", "egypt"],
+    "options": [
+      {
+        "text": "Egypt",
+        "isCorrect": true
+      },
+      {
+        "text": "Mexico",
+        "isCorrect": false
+      },
+      {
+        "text": "Peru",
+        "isCorrect": false
+      },
+      {
+        "text": "China",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1738,
+    "name": "What is the national flower of Japan?",
+    "slug": "what-is-the-national-flower-of-japan",
+    "explanation": "The cherry blossom, or 'Sakura,' is the national flower of Japan and a cultural symbol.",
+    "tags": ["culture", "japan", "flowers"],
+    "options": [
+      {
+        "text": "Cherry Blossom",
+        "isCorrect": true
+      },
+      {
+        "text": "Lotus",
+        "isCorrect": false
+      },
+      {
+        "text": "Rose",
+        "isCorrect": false
+      },
+      {
+        "text": "Orchid",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1739,
+    "name": "What is the primary diet of a panda?",
+    "slug": "what-is-the-primary-diet-of-a-panda",
+    "explanation": "Pandas primarily eat bamboo, which constitutes over 99% of their diet.",
+    "tags": ["animals", "pandas", "diet"],
+    "options": [
+      {
+        "text": "Bamboo",
+        "isCorrect": true
+      },
+      {
+        "text": "Fish",
+        "isCorrect": false
+      },
+      {
+        "text": "Fruits",
+        "isCorrect": false
+      },
+      {
+        "text": "Insects",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1740,
+    "name": "What is the primary ingredient in a Margherita pizza?",
+    "slug": "what-is-the-primary-ingredient-in-a-margherita-pizza",
+    "explanation": "A Margherita pizza features mozzarella cheese, tomato sauce, and fresh basil.",
+    "tags": ["food", "pizza", "ingredients"],
+    "options": [
+      {
+        "text": "Tomato Sauce",
+        "isCorrect": true
+      },
+      {
+        "text": "Pepperoni",
+        "isCorrect": false
+      },
+      {
+        "text": "Olives",
+        "isCorrect": false
+      },
+      {
+        "text": "Mushrooms",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1741,
+    "name": "What is the freezing point of water in Celsius?",
+    "slug": "what-is-the-freezing-point-of-water-in-celsius",
+    "explanation": "Water freezes at 0°C, which is its standard freezing point.",
+    "tags": ["science", "temperature", "water"],
+    "options": [
+      {
+        "text": "0°C",
+        "isCorrect": true
+      },
+      {
+        "text": "32°C",
+        "isCorrect": false
+      },
+      {
+        "text": "-1°C",
+        "isCorrect": false
+      },
+      {
+        "text": "100°C",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1742,
+    "name": "What is the freezing point of water?",
+    "slug": "what-is-the-freezing-point-of-water",
+    "explanation": "Water freezes at 0 degrees Celsius under standard atmospheric conditions.",
+    "tags": ["science", "physics", "temperature"],
+    "options": [
+      {
+        "text": "0°C",
+        "isCorrect": true
+      },
+      {
+        "text": "32°C",
+        "isCorrect": false
+      },
+      {
+        "text": "100°C",
+        "isCorrect": false
+      },
+      {
+        "text": "-10°C",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1743,
+    "name": "Which vitamin is known as ascorbic acid?",
+    "slug": "which-vitamin-is-known-as-ascorbic-acid",
+    "explanation": "Vitamin C, also known as ascorbic acid, is essential for the repair of tissues and the immune system.",
+    "tags": ["health", "vitamins", "nutrition"],
+    "options": [
+      {
+        "text": "Vitamin C",
+        "isCorrect": true
+      },
+      {
+        "text": "Vitamin D",
+        "isCorrect": false
+      },
+      {
+        "text": "Vitamin B12",
+        "isCorrect": false
+      },
+      {
+        "text": "Vitamin A",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1744,
+    "name": "What is the chemical symbol for sodium?",
+    "slug": "what-is-the-chemical-symbol-for-sodium",
+    "explanation": "The chemical symbol for sodium is 'Na', derived from its Latin name 'Natrium'.",
+    "tags": ["chemistry", "elements", "symbols"],
+    "options": [
+      {
+        "text": "Na",
+        "isCorrect": true
+      },
+      {
+        "text": "S",
+        "isCorrect": false
+      },
+      {
+        "text": "N",
+        "isCorrect": false
+      },
+      {
+        "text": "So",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1745,
+    "name": "Which ocean is the Bermuda Triangle located in?",
+    "slug": "which-ocean-is-the-bermuda-triangle-located-in",
+    "explanation": "The Bermuda Triangle is located in the Atlantic Ocean, known for its mysterious disappearances.",
+    "tags": ["geography", "oceans", "mysteries"],
+    "options": [
+      {
+        "text": "Atlantic Ocean",
+        "isCorrect": true
+      },
+      {
+        "text": "Pacific Ocean",
+        "isCorrect": false
+      },
+      {
+        "text": "Indian Ocean",
+        "isCorrect": false
+      },
+      {
+        "text": "Arctic Ocean",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1746,
+    "name": "What is the main source of energy for the Earth?",
+    "slug": "what-is-the-main-source-of-energy-for-the-earth",
+    "explanation": "The Sun is the primary source of energy, providing light and heat essential for life on Earth.",
+    "tags": ["science", "energy", "earth"],
+    "options": [
+      {
+        "text": "The Sun",
+        "isCorrect": true
+      },
+      {
+        "text": "The Moon",
+        "isCorrect": false
+      },
+      {
+        "text": "Volcanoes",
+        "isCorrect": false
+      },
+      {
+        "text": "Fossil fuels",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1747,
+    "name": "What is the main organ of the human circulatory system?",
+    "slug": "what-is-the-main-organ-of-the-human-circulatory-system",
+    "explanation": "The heart is the primary organ responsible for pumping blood throughout the body.",
+    "tags": ["biology", "human body", "circulatory system"],
+    "options": [
+      {
+        "text": "Heart",
+        "isCorrect": true
+      },
+      {
+        "text": "Lungs",
+        "isCorrect": false
+      },
+      {
+        "text": "Liver",
+        "isCorrect": false
+      },
+      {
+        "text": "Kidneys",
+        "isCorrect": false
+      }
+    ]
+  }
 ]

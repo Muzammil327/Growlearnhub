@@ -53,9 +53,9 @@ import { useToast } from "@/src/hooks/use-toast";
 import { formSchema, QuestionFormValues } from "./QuestionSchema";
 
 export default function DashboardQuestionAddPage({
-  userId
+  userId,
 }: {
-  userId: number
+  userId: number;
 }) {
   const [currentStep, setCurrentStep] = React.useState(1);
   const [isSubmitting, setIsSubmitting] = React.useState(false);
@@ -75,10 +75,10 @@ export default function DashboardQuestionAddPage({
   };
 
   const handleNext = async (step: number) => {
-    const isValidStep = await form.trigger();  // Trigger validation for the form fields
+    const isValidStep = await form.trigger(); // Trigger validation for the form fields
     if (!isValidStep) {
       console.log("Validation failed");
-      return;  // Prevent moving to the next step if validation fails
+      return; // Prevent moving to the next step if validation fails
     } else {
       // Proceed to the next step if validation succeeds
       handleButtonClick();
@@ -140,9 +140,12 @@ export default function DashboardQuestionAddPage({
     isLoading: subheadingsLoading,
   } = useGetSubHeadings(headingId);
 
-
-  const { reset, getValues, trigger, formState: { errors } } = form;
-
+  const {
+    reset,
+    getValues,
+    trigger,
+    formState: { errors },
+  } = form;
 
   const onSubmit = async (values: QuestionFormValues) => {
     setIsSubmitting(true);
@@ -590,7 +593,7 @@ export default function DashboardQuestionAddPage({
                           />
 
                           {form.watch(`questions.${index}.type`) ===
-                            "trueFalse" ? (
+                          "trueFalse" ? (
                             <>
                               {["True", "False"].map((option, optionIndex) => (
                                 <FormField
@@ -719,13 +722,13 @@ export default function DashboardQuestionAddPage({
                                                 onCheckedChange={(checked) => {
                                                   const newValue = checked
                                                     ? [
-                                                      ...field.value,
-                                                      optionIndex,
-                                                    ]
+                                                        ...field.value,
+                                                        optionIndex,
+                                                      ]
                                                     : field.value.filter(
-                                                      (v) =>
-                                                        v !== optionIndex,
-                                                    );
+                                                        (v) =>
+                                                          v !== optionIndex,
+                                                      );
                                                   field.onChange(newValue);
                                                 }}
                                               />
@@ -854,7 +857,6 @@ export default function DashboardQuestionAddPage({
                             )}
                           />
 
-
                           {form.watch("creationType") === "testing" && (
                             <FormField
                               control={form.control}
@@ -969,7 +971,6 @@ export default function DashboardQuestionAddPage({
                   ))}
 
                   {errors.book && <p>{errors.book.message}</p>}
-
                 </div>
               )}
 
@@ -997,4 +998,3 @@ export default function DashboardQuestionAddPage({
     </div>
   );
 }
-

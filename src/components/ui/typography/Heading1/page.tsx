@@ -17,7 +17,7 @@ export default function Heading1({
 }: HeadingProps) {
   return (
     <h1
-      className={`my-3 text-3xl font-bold sm:text-4xl lg:text-5xl text-primary ${className || ""} ${variantClasses[variant] || ""}`}
+      className={`my-3 text-3xl font-bold text-primary sm:text-4xl lg:text-5xl ${className || ""} ${variantClasses[variant] || ""}`}
     >
       {children}
     </h1>

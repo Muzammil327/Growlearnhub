@@ -1,9 +1,9 @@
-import React from "react"
-import { Metadata } from "next"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import Heading2 from "@/src/components/ui/typography/Heading2/page"
-import { Class12PastPaperData } from "@/src/data/class12"
+import React from "react";
+import { Metadata } from "next";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import CardSmall from "@/src/components/card/cardSmall/cardSmall";
+import Heading2 from "@/src/components/ui/typography/Heading2/page";
+import { Class12PastPaperData } from "@/src/data/class12";
 
 const data = {
   title: "12th Class Past Paper | Class 12",
@@ -15,24 +15,24 @@ const data = {
     "past paper",
     "class 12 past paper",
     "12th class past paper",
-    "12th class growlearnhub past paper"
+    "12th class growlearnhub past paper",
   ],
   image: "/12th/class_12_past_paper.webp",
   canonical: "/class-12/past-paper/",
   url: "https://growlearnhub.com/class-12/past-paper/",
   index: true,
   follow: true,
-}
+};
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <div className="grid gap-4 grid-cols-1 my-5">
+      <div className="my-5 grid grid-cols-1 gap-4">
         {Class12PastPaperData.map((data: any) => {
           return (
             <div key={data.title}>
               <Heading2 className="">{data.title}</Heading2>
-              <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
+              <div className="my-5 grid grid-cols-1 gap-4 md:grid-cols-2">
                 {data.child.map((data: any) => {
                   return (
                     <CardSmall
@@ -40,15 +40,15 @@ export default function Page() {
                       title={data.name}
                       link={`class-12/past-paper/${data.slug}`}
                     />
-                  )
+                  );
                 })}
               </div>
             </div>
-          )
+          );
         })}
       </div>
     </SimpleWrapper>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -62,27 +62,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

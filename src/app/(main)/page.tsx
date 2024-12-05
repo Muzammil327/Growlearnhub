@@ -38,7 +38,7 @@ const data = {
 export default function Home() {
   return (
     <React.Fragment>
-     <header className="bg-hero bg-hero-2">
+      <header className="bg-hero bg-hero-2">
         <Header />
       </header>
       {/*  <main>

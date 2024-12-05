@@ -1,54 +1,54 @@
-import React, { ChangeEvent, useEffect, useState } from "react"
+import React, { ChangeEvent, useEffect, useState } from "react";
 import { Button } from "@/src/components/ui/Button";
-import { Input } from "@/src/components/ui/Input"
-import { Label } from "@/src/components/ui/Label"
+import { Input } from "@/src/components/ui/Input";
+import { Label } from "@/src/components/ui/Label";
 
 export default function AssignmentPercentage({
   calculatedAssignment,
-  setCalculatedAssignment
+  setCalculatedAssignment,
 }: any) {
-  const [totalAssignment, setTotalAssignment] = useState<number>(0)
-  const [obtainedAssignment, setObtainedAssignment] = useState<number>(0)
-  const [assignmentPercentage, setAssignmentPercentage] = useState<number>(0)
+  const [totalAssignment, setTotalAssignment] = useState<number>(0);
+  const [obtainedAssignment, setObtainedAssignment] = useState<number>(0);
+  const [assignmentPercentage, setAssignmentPercentage] = useState<number>(0);
 
   const calculateAssignmentPercentage = (
     obtainedAssignment: number,
     totalAssignment: number,
-    assignmentPercentage: number
+    assignmentPercentage: number,
   ): number => {
     if (totalAssignment === 0) {
-      return 0
+      return 0;
     }
 
     return (
       (obtainedAssignment / totalAssignment) *
       ((assignmentPercentage / 100) * 100)
-    )
-  }
+    );
+  };
   useEffect(() => {
     const data1 = calculateAssignmentPercentage(
       obtainedAssignment,
       totalAssignment,
-      assignmentPercentage
-    )
+      assignmentPercentage,
+    );
     if (data1) {
-      setCalculatedAssignment(data1)
+      setCalculatedAssignment(data1);
     }
   }, [
     obtainedAssignment,
     assignmentPercentage,
     totalAssignment,
-    setCalculatedAssignment
-  ])
+    setCalculatedAssignment,
+  ]);
 
   const handleDecimalChange = (e: ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value
-    const parsedValue = parseFloat(value) // Convert string to number using parseFloat
+    const value = e.target.value;
+    const parsedValue = parseFloat(value); // Convert string to number using parseFloat
 
-    setObtainedAssignment(parsedValue)
-  }
+    setObtainedAssignment(parsedValue);
+  };
   return (
-    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-1">
+    <div className="mt-1 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
       <div className="my-4">
         <Label htmlFor="quizPercentage" />
         <Input
@@ -81,5 +81,5 @@ export default function AssignmentPercentage({
       </div>
       <Button variant={"destructive"}>{calculatedAssignment}</Button>
     </div>
-  )
+  );
 }

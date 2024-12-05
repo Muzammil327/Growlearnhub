@@ -19,7 +19,7 @@ export default function DashboardLayout({
 }: Iprops) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
-  
+
   const pathname = usePathname();
 
   // Explicitly define the type of the ref as HTMLDivElement | null
@@ -38,7 +38,6 @@ export default function DashboardLayout({
 
   useEffect(() => {
     const handleResize = () => {
-      
       if (window.innerWidth >= 1024) {
         setIsSidebarOpen(true); // Open sidebar on larger screens
       } else {
@@ -81,7 +80,7 @@ export default function DashboardLayout({
         setIsSidebarOpen={setIsSidebarOpen}
       />
       <div
-        className={`px-4 md:pt-12 mt-8 transition-all duration-300 ${isSidebarOpen ? "lg:ml-64" : "lg:ml-16"}`}
+        className={`mt-8 px-4 transition-all duration-300 md:pt-12 ${isSidebarOpen ? "lg:ml-64" : "lg:ml-16"}`}
       >
         <DynamicBreadcrumb />
         {children}

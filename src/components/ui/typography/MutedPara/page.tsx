@@ -9,11 +9,14 @@ export default function MutedPara({
   className?: string;
 }) {
   return (
-    <p style={{
-      lineHeight: "2",
-      wordSpacing: "2"
-    }}
-      className={cn("text-[18px] text-muted-foreground py-2", className)}
-    >{children}</p>
+    <p
+      style={{
+        lineHeight: "2",
+        wordSpacing: "2",
+      }}
+      className={cn("py-2 text-[18px] text-muted-foreground", className)}
+    >
+      {children}
+    </p>
   );
 }

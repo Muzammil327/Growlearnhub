@@ -1,9 +1,9 @@
-import React from "react"
-import { Metadata } from "next"
-import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import PDFViewer from "@/src/components/elements/PDFViewer"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import MutedPara from "@/src/components/ui/typography/MutedPara/page"
+import React from "react";
+import { Metadata } from "next";
+import CardSmall from "@/src/components/card/cardSmall/cardSmall";
+import PDFViewer from "@/src/components/elements/PDFViewer";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import MutedPara from "@/src/components/ui/typography/MutedPara/page";
 const data = {
   title: "Chemistry 10th Class Book PDF | Punjab Board Free Download",
   description:
@@ -19,7 +19,7 @@ const data = {
     "chemistry 10 class book",
     "10th class chemistry book pdf",
     "class 10 chemistry book",
-    "chemistry 10th class book "
+    "chemistry 10th class book ",
   ],
   canonical: "/class-10/books/punjab-board-chemistry/",
   url: "https://growlearnhub.com/class-10/books/punjab-board-chemistry/",
@@ -27,12 +27,12 @@ const data = {
   follow: true,
   fileId_english: "1LhWG65hJibow48tOzY7L_w9gWTWfeqvE",
   fileId_urdu: "14GOV_BVtoIoE8SlNNnxDgLAvrwAMdhU4",
-}
+};
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <div className="grid gap-4 grid-cols-1 my-10">
+      <div className="my-10 grid grid-cols-1 gap-4">
         {mainData.map((data: any) => {
           return (
             <CardSmall
@@ -40,15 +40,16 @@ export default function Page() {
               title={data.name}
               link={`class-10/books/punjab-board-chemistry/${data.slug}-medium`}
             />
-          )
+          );
         })}
       </div>
       <MutedPara>
-        Are you looking for a <strong>10th Class chemistry pdf book punjab
-          board</strong>? Here, you can access all the books you need for free.
-        Our website offers a complete collection of books for students in
-        Class 9, 10, 11, and 12. Whether you&apos;re preparing for exams or
-        need extra resources, we&apos;ve got you covered.
+        Are you looking for a{" "}
+        <strong>10th Class chemistry pdf book punjab board</strong>? Here, you
+        can access all the books you need for free. Our website offers a
+        complete collection of books for students in Class 9, 10, 11, and 12.
+        Whether you&apos;re preparing for exams or need extra resources,
+        we&apos;ve got you covered.
       </MutedPara>
       <h3>Download Chemistry class 10 Book English Medium Punjab Board</h3>
       <MutedPara>
@@ -65,19 +66,19 @@ export default function Page() {
       </MutedPara>
       <PDFViewer pdfUrl={data.fileId_urdu} />
     </SimpleWrapper>
-  )
+  );
 }
 
 const mainData = [
   {
     name: "Class 10 Chemistry Book PDF Punjab Board English Medium",
-    slug: "english"
+    slug: "english",
   },
   {
     name: "10th Chemistry Book Punjab Board Text Book PDF Urdu Medium",
-    slug: "urdu"
-  }
-]
+    slug: "urdu",
+  },
+];
 
 export const metadata: Metadata = {
   title: data.title,
@@ -90,27 +91,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

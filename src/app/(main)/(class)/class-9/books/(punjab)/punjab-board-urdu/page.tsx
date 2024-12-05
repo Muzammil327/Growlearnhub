@@ -1,8 +1,8 @@
-import React from "react"
-import { Metadata } from "next"
-import PDFViewer from "@/src/components/elements/PDFViewer"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import MutedPara from "@/src/components/ui/typography/MutedPara/page"
+import React from "react";
+import { Metadata } from "next";
+import PDFViewer from "@/src/components/elements/PDFViewer";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import MutedPara from "@/src/components/ui/typography/MutedPara/page";
 
 const data = {
   title: "Urdu Class 9 Book PDF | 9th Class Punjab Text Book",
@@ -14,14 +14,14 @@ const data = {
     "class 9 urdu book pdf punjab board",
     "9th class urdu punjab text book",
     "urdu book class 9 punjab board",
-    "class 9 urdu book punjab board"
+    "class 9 urdu book punjab board",
   ],
   canonical: "/class-9/books/punjab-board-urdu/",
   url: "https://growlearnhub.com/class-9/books/punjab-board-urdu/",
   index: true,
   follow: true,
-  fileId_urdu: "1OIiCbYItblJQN0RGgo5Qjv6HSNJXrDQv"
-}
+  fileId_urdu: "1OIiCbYItblJQN0RGgo5Qjv6HSNJXrDQv",
+};
 
 export default function Page() {
   return (
@@ -40,7 +40,7 @@ export default function Page() {
       </MutedPara>
       <PDFViewer pdfUrl={data.fileId_urdu} />
     </SimpleWrapper>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -54,27 +54,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

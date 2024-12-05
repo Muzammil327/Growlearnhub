@@ -1,6 +1,5 @@
 import { z } from "zod";
 
-
 export const questionSchema = z.object({
   name: z.string().min(1, "Question name is required"),
   type: z.enum(["multipleChoice", "trueFalse", "fillInTheBlank"]),

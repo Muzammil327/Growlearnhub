@@ -1,8 +1,8 @@
-import React from "react"
-import { Metadata } from "next"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import { Class9OnlineTestData } from "@/src/data/class9"
+import React from "react";
+import { Metadata } from "next";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import CardSmall from "@/src/components/card/cardSmall/cardSmall";
+import { Class9OnlineTestData } from "@/src/data/class9";
 
 const data = {
   title: "9th Class Online Test | Class 9",
@@ -14,19 +14,19 @@ const data = {
     "online test",
     "class 9 online test",
     "9th class online test",
-    "9th class growlearnhub online test"
+    "9th class growlearnhub online test",
   ],
   image: "/9th/class_9_online_test.webp",
   canonical: "/class-9/online-test/",
   url: "https://growlearnhub.com/class-9/online-test/",
   index: true,
   follow: true,
-}
+};
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <div className="grid gap-4 grid-cols-1 my-5">
+      <div className="my-5 grid grid-cols-1 gap-4">
         {Class9OnlineTestData.map((data: any, index) => {
           return (
             <div key={index}>
@@ -36,11 +36,11 @@ export default function Page() {
                 link={`class-9/online-test/${data.slug}`}
               />
             </div>
-          )
+          );
         })}
       </div>{" "}
     </SimpleWrapper>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -54,27 +54,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

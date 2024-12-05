@@ -1,9 +1,9 @@
-import React from "react"
-import { Metadata } from "next"
-import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import PDFViewer from "@/src/components/elements/PDFViewer"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import MutedPara from "@/src/components/ui/typography/MutedPara/page"
+import React from "react";
+import { Metadata } from "next";
+import CardSmall from "@/src/components/card/cardSmall/cardSmall";
+import PDFViewer from "@/src/components/elements/PDFViewer";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import MutedPara from "@/src/components/ui/typography/MutedPara/page";
 const data = {
   title: "Physics Class 11 Book PDF | 11th Class Punjab Text Book",
   description:
@@ -14,7 +14,7 @@ const data = {
     "class 11 physics book pdf punjab board",
     "11th class physics punjab text book",
     "physics book class 11 punjab board",
-    "class 11 physics book punjab board"
+    "class 11 physics book punjab board",
   ],
   canonical: "/class-11/books/punjab-board-physics/",
   url: "https://growlearnhub.com/class-11/books/punjab-board-physics/",
@@ -22,12 +22,12 @@ const data = {
   follow: true,
   fileId_english: "1my_m9qLxXF3LCw4eCFlCJGexOmsazJmg",
   fileId_urdu: "1_cp-urrPMokhCSCExs-B8uEujlIfqDjd",
-}
+};
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <div className="grid gap-4 grid-cols-1 my-10">
+      <div className="my-10 grid grid-cols-1 gap-4">
         {mainData.map((data: any) => {
           return (
             <CardSmall
@@ -35,15 +35,16 @@ export default function Page() {
               title={data.name}
               link={`class-11/books/punjab-board-physics/${data.slug}-medium`}
             />
-          )
+          );
         })}
       </div>
       <MutedPara>
-        Are you looking for a <strong>Class 11 physics book punjab board</strong>
-        ? Here, you can access all the books you need for free. Our website
-        offers a complete collection of books for students in Class 9, 10, 11,
-        and 12. Whether you&apos;re preparing for exams or need extra resources,
-        we&apos;ve got you covered.
+        Are you looking for a{" "}
+        <strong>Class 11 physics book punjab board</strong>? Here, you can
+        access all the books you need for free. Our website offers a complete
+        collection of books for students in Class 9, 10, 11, and 12. Whether
+        you&apos;re preparing for exams or need extra resources, we&apos;ve got
+        you covered.
       </MutedPara>
       <h3>Download Class 11 Physics Book English Medium Punjab Board</h3>
       <MutedPara>
@@ -60,19 +61,19 @@ export default function Page() {
       </MutedPara>
       <PDFViewer pdfUrl={data.fileId_urdu} />
     </SimpleWrapper>
-  )
+  );
 }
 
 const mainData = [
   {
     name: "Class 11 Physics Book PDF Punjab Board English Medium",
-    slug: "english"
+    slug: "english",
   },
   {
     name: "Physics Class 11 Punjab Board Text Book PDF Urdu Medium",
-    slug: "urdu"
-  }
-]
+    slug: "urdu",
+  },
+];
 
 export const metadata: Metadata = {
   title: data.title,
@@ -85,27 +86,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

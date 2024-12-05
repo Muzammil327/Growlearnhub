@@ -6,5 +6,5 @@ import { getSession } from "@/src/lib/getSession";
 export default async function page() {
   const { session } = await getSession();
   if (!session) redirect("/login");
-  return <GetQuestionTable />
+  return <GetQuestionTable />;
 }

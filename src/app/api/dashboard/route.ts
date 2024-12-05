@@ -44,7 +44,6 @@ export async function GET(
       const countUser = await pool.query("SELECT COUNT(*) FROM users");
       const countown = combinedData.length as number;
 
-
       counts = {
         books: parseInt(countBook.rows[0].count, 10),
         classes: parseInt(countClass.rows[0].count, 10),
@@ -53,7 +52,7 @@ export async function GET(
         subheadings: parseInt(countSubheading.rows[0].count, 10),
         questions: parseInt(countQuestion.rows[0].count, 10),
         users: parseInt(countUser.rows[0].count, 10),
-        countown: countown
+        countown: countown,
       };
     } else {
       // Regular user: Get counts for user-specific data (e.g., based on their ID)

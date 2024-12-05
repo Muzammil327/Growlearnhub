@@ -36,14 +36,14 @@ export async function GET(req: NextRequest) {
       LEFT JOIN question_options qo ON q.id = qo.question_id
       WHERE q.slug = $1
       `,
-      [slug]
+      [slug],
     );
 
     if (result.rows.length === 0) {
       // If no rows are returned from the database, return 404
       return NextResponse.json(
         { error: "No questions or options found for the given slug" },
-        { status: 404 }
+        { status: 404 },
       );
     }
 
@@ -69,12 +69,12 @@ export async function GET(req: NextRequest) {
           createdAt: row.created_at,
           options: row.option_id
             ? [
-              {
-                id: row.option_id,
-                text: row.option_text,
-                isCorrect: row.is_correct,
-              },
-            ]
+                {
+                  id: row.option_id,
+                  text: row.option_text,
+                  isCorrect: row.is_correct,
+                },
+              ]
             : [],
         });
       }
@@ -84,12 +84,11 @@ export async function GET(req: NextRequest) {
 
     // Return the first question (assuming you only need one)
     return NextResponse.json(questions[0], { status: 200 });
-
   } catch (error) {
     console.error("Error fetching questions and options:", error); // Log the error
     return NextResponse.json(
       { error: "Internal server error" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

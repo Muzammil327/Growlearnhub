@@ -1,38 +1,33 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.scss";
 import { Toaster } from "@/components/ui/toaster";
 import Provider from "@/components/provider/page";
-import Script from "next/script"
+import { GoogleAnalytics } from "@next/third-parties/google";
+import { Roboto } from "next/font/google";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const Roboto_init = Roboto({
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "500", "700", "900"],
+  variable: "--font-roboto",
 });
 
 export const metadata: Metadata = {
   title: "growlearnhub",
   keywords: ["Codebloglab"],
   openGraph: {
-    title: "growlearnhub"
+    title: "growlearnhub",
   },
   metadataBase: new URL("https://growlearnhub.com"),
   twitter: {
-    title: "growlearnhub"
-  }
-}
+    title: "growlearnhub",
+  },
+};
 
 const data = {
   applicationName: "Next.js",
   authorName: "Muhammad Muzammil Safdar",
-  domain: "growlearnhub.com"
-}
+  domain: "growlearnhub.com",
+};
 
 export default function RootLayout({
   children,
@@ -88,24 +83,24 @@ export default function RootLayout({
         {/* -- Verification -- */}
         <meta
           name="ahrefs-site-verification"
-          content={`${process.env.NEXT_PUBLIC_AHREFS_SITE_VERIFICATION}`}
+          content={process.env.NEXT_PUBLIC_AHREFS_SITE_VERIFICATION}
         />
 
         <meta
           name="google-site-verification"
-          content="1VFdWs-EKGhKENv4V6Weuup3qg0kkJGDwoI2gzRryEI"
+          content={process.env.NEXT_PUBLIC_GOOGLE_SEARCH_CONSOLE_VERIFICATION}
         />
 
+        <GoogleAnalytics
+          gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_VERIFICATION || ""}
+        />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={` ${Roboto_init.variable} antialiased`}>
         <Provider>
           {children}
           <Toaster />
         </Provider>
       </body>
-      
     </html>
   );
 }

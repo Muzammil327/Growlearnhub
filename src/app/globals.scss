@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+// Fonts
+.roboto {
+  font-family: var(--font-roboto);
+}
+
+/* Body and Global Styles */
+html {
+  @apply font-sans text-base;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  @apply roboto m-0 border bg-stone-50 p-0 leading-relaxed text-stone-900;
+}
+
+*,
+*::before,
+*::after {
+  @apply box-border;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }

@@ -1,8 +1,8 @@
-import React from "react"
-import { Metadata } from "next"
-import PDFViewer from "@/src/components/elements/PDFViewer"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import MutedPara from "@/src/components/ui/typography/MutedPara/page"
+import React from "react";
+import { Metadata } from "next";
+import PDFViewer from "@/src/components/elements/PDFViewer";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import MutedPara from "@/src/components/ui/typography/MutedPara/page";
 const data = {
   title: "Urdu Class 10 Book PDF | 10th Class Punjab Text Book",
   description:
@@ -13,14 +13,14 @@ const data = {
     "class 10 urdu book pdf punjab board",
     "10th class urdu punjab text book",
     "urdu book class 10 punjab board",
-    "class 10 urdu book punjab board"
+    "class 10 urdu book punjab board",
   ],
   canonical: "/class-10/books/punjab-board-urdu/",
   url: "https://growlearnhub.com/class-10/books/punjab-board-urdu/",
   index: true,
   follow: true,
-  fileId_urdu: "1OIiCbYItblJQN0RGgo5Qjv6HSNJXrDQv"
-}
+  fileId_urdu: "1OIiCbYItblJQN0RGgo5Qjv6HSNJXrDQv",
+};
 
 export default function Page() {
   return (
@@ -34,12 +34,12 @@ export default function Page() {
       </MutedPara>
       <h3>Download Class 10 Urdu Book Punjab Board</h3>
       <MutedPara>
-        Here, you can download Matric class 10 Urdu Text Book in PDF Format. This
-        book is officially published by Punjab Text Book Board.
+        Here, you can download Matric class 10 Urdu Text Book in PDF Format.
+        This book is officially published by Punjab Text Book Board.
       </MutedPara>
       <PDFViewer pdfUrl={data.fileId_urdu} />
     </SimpleWrapper>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -53,27 +53,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { useQuery, useMutation } from "@tanstack/react-query";
 import {
   getData,

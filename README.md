@@ -10,10 +10,10 @@ Ternary
 N ary
 Recursive (Correct)
 
-A relational database is 
+A relational database is
 one that consists of two or more tables
 a database that is able to process tables, queries forms reports
-one that consists of two or more tables that are joined in some way  (Correct)
+one that consists of two or more tables that are joined in some way (Correct)
 the same as a flat file database
 
 which of the following describes the job of a database administrator
@@ -58,7 +58,7 @@ Binary
 Ternary
 Nary
 
-Logical database design likr conceptual database design is our --- 
+Logical database design likr conceptual database design is our ---
 Data model
 Weak entity set
 Strong entity set
@@ -76,9 +76,9 @@ Second normal form
 Thrid normal form
 Augmentation
 
-Binary relationships are those which are establish between 
+Binary relationships are those which are establish between
 One entity type
-Two  (Correct)
+Two (Correct)
 Three
 Unlimited entities
 
@@ -96,9 +96,9 @@ Efficiency
 
 The Select operation world horizontally on the table, on the other hand the --- operates on a single table vertically.
 Binary operator
-Project operator  (Correct)
+Project operator (Correct)
 Join operator
-Select operator 
+Select operator
 
 In your opinion, why relational database is widely acceptable?
 Due to its complexity
@@ -108,7 +108,7 @@ Due to its strength (Correct)
 
 The relational between department to empoyee is
 many to many
-one to one 
+one to one
 one to many (Correct)
 many to one
 
@@ -119,7 +119,7 @@ conceptual (Correct)
 internal
 
 Which of the following is correct regarding Data flow diagram?
-Single DFD is required to represent a system 
+Single DFD is required to represent a system
 Created at increasing levels of detail
 The data flow must be bidirectional (Correct)
 Used to represent the relationships among the external entities
@@ -150,11 +150,11 @@ Integer (Correct)
 
 Which feature of database provides conversion from inconsistent state of DB to a consistent state ensuring minimum data loss
 User accessible catalog
-Data Processing 
+Data Processing
 Recovery Service (Correct)
 Authorization service
 
-Free standing data dictionary is created by 
+Free standing data dictionary is created by
 DFD
 Database
 CASE tools (Correct)
@@ -165,9 +165,3 @@ Select operator
 Project operator
 Join operator (Correct)
 Delete operator
-
-
-
-
-
-

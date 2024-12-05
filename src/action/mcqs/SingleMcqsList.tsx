@@ -1,18 +1,18 @@
-"use client"
-import CardQuizWithoutLink from "@/src/components/card/CardQuiz/CardQuizWithoutLink"
-import { Processing } from "@/src/components/elements/Icon"
-import { useSingleMcqs } from "@/src/hooks/useSingleMcqs"
+"use client";
+import CardQuizWithoutLink from "@/src/components/card/CardQuiz/CardQuizWithoutLink";
+import { Processing } from "@/src/components/elements/Icon";
+import { useSingleMcqs } from "@/src/hooks/useSingleMcqs";
 
 const SingleMcqsList = ({ slug }: { slug: string }) => {
-  const { data, error, isLoading } = useSingleMcqs(slug)
+  const { data, error, isLoading } = useSingleMcqs(slug);
 
   if (isLoading)
     return (
-      <div className="flex items-center justify-center h-40 mx-auto">
+      <div className="mx-auto flex h-40 items-center justify-center">
         <Processing />
       </div>
-    )
-  if (error instanceof Error) return <div>Error: {error.message}</div>
+    );
+  if (error instanceof Error) return <div>Error: {error.message}</div>;
 
   return (
     <div className="my-5">
@@ -23,7 +23,7 @@ const SingleMcqsList = ({ slug }: { slug: string }) => {
         correctOption={""}
       />
     </div>
-  )
-}
+  );
+};
 
-export default SingleMcqsList
+export default SingleMcqsList;

@@ -7,7 +7,10 @@ import {
 } from "@/src/components/ui/tooltip";
 import React from "react";
 import {
-  Facebook, Instagram, Linkedin, Twitter
+  Facebook,
+  Instagram,
+  Linkedin,
+  Twitter,
 } from "@/src/components/elements/Icon";
 import MutedPara from "@/src/components/ui/typography/MutedPara/page";
 export default function SocialLinks() {

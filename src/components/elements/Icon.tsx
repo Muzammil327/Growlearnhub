@@ -25,8 +25,12 @@ import {
   Video,
   Book,
   FileText,
-  Facebook, Instagram, Linkedin, Twitter,
-  Plus, Minus
+  Facebook,
+  Instagram,
+  Linkedin,
+  Twitter,
+  Plus,
+  Minus,
 } from "lucide-react";
 import { FaTimes, FaGraduationCap } from "react-icons/fa";
 
@@ -52,7 +56,7 @@ export {
   Edit,
   FaTimes,
   FaGraduationCap,
-  ArrowRight, 
+  ArrowRight,
   Users,
   ChevronRight,
   ChevronDown,
@@ -61,10 +65,10 @@ export {
   Video,
   Book,
   FileText,
-  Facebook, 
-  Instagram, 
-  Linkedin, 
-  Twitter, 
+  Facebook,
+  Instagram,
+  Linkedin,
+  Twitter,
   Plus,
-  Minus
+  Minus,
 };

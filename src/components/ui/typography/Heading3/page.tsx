@@ -3,13 +3,10 @@ interface HeadingProps {
   className?: string;
 }
 
-export default function Heading3({
-  children,
-  className,
-}: HeadingProps) {
+export default function Heading3({ children, className }: HeadingProps) {
   return (
     <h3
-      className={`border-y my-2 py-2 text-xl text-primary font-bold lg:text-2xl ${className || ""}`}
+      className={`my-2 border-y py-2 text-xl font-bold text-primary lg:text-2xl ${className || ""}`}
     >
       {children}
     </h3>

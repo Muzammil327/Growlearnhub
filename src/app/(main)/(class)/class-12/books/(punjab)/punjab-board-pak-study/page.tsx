@@ -1,9 +1,9 @@
-import React from "react"
-import { Metadata } from "next"
-import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import PDFViewer from "@/src/components/elements/PDFViewer"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import MutedPara from "@/src/components/ui/typography/MutedPara/page"
+import React from "react";
+import { Metadata } from "next";
+import CardSmall from "@/src/components/card/cardSmall/cardSmall";
+import PDFViewer from "@/src/components/elements/PDFViewer";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import MutedPara from "@/src/components/ui/typography/MutedPara/page";
 const data = {
   title: "Pak Study Class 12 Book PDF | 12th Class Punjab Text Book",
   description:
@@ -14,7 +14,7 @@ const data = {
     "class 12 pak study book pdf punjab board",
     "12th class pak study punjab text book",
     "pak study book class 12 punjab board",
-    "class 12 pak study book punjab board"
+    "class 12 pak study book punjab board",
   ],
   canonical: "/class-12/books/punjab-board-pak-study/",
   url: "https://growlearnhub.com/class-12/books/punjab-board-pak-study/",
@@ -22,12 +22,12 @@ const data = {
   follow: true,
   fileId_english: "1RKP3Z62EpOE6fY4C7i0eCdDSYZcB38TE",
   fileId_urdu: "1H4DK2mlhoPcIAb7PywX0-5PWcqNr7VqU",
-}
+};
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <div className="grid gap-4 grid-cols-1 my-10">
+      <div className="my-10 grid grid-cols-1 gap-4">
         {mainData.map((data: any) => {
           return (
             <CardSmall
@@ -35,15 +35,14 @@ export default function Page() {
               title={data.name}
               link={`class-12/books/punjab-board-pak-study/${data.slug}-medium`}
             />
-          )
+          );
         })}
       </div>
       <MutedPara>
         Are you looking for a{" "}
         <strong>Class 12 pak study book punjab board</strong>? Here, you can
         access all the books you need for free. Our website offers a complete
-        collection of books for students in Class 
-        , 10, 11, and 12. Whether
+        collection of books for students in Class , 10, 11, and 12. Whether
         you&apos;re preparing for exams or need extra resources, we&apos;ve got
         you covered.
       </MutedPara>
@@ -62,19 +61,19 @@ export default function Page() {
       </MutedPara>
       <PDFViewer pdfUrl={data.fileId_urdu} />
     </SimpleWrapper>
-  )
+  );
 }
 
 const mainData = [
   {
     name: "Class 12 Pak Study Book PDF Punjab Board English Medium",
-    slug: "english"
+    slug: "english",
   },
   {
     name: "Pak Study Class 12 Punjab Board Text Book PDF Urdu Medium",
-    slug: "urdu"
-  }
-]
+    slug: "urdu",
+  },
+];
 
 export const metadata: Metadata = {
   title: data.title,
@@ -87,27 +86,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

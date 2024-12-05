@@ -7,7 +7,7 @@ interface ActionButtonsProps {
   slug: string;
   id: number;
   handleDelete: (id: number) => void;
-  loading: boolean
+  loading: boolean;
 }
 
 const ActionButtons: React.FC<ActionButtonsProps> = ({
@@ -27,14 +27,11 @@ const ActionButtons: React.FC<ActionButtonsProps> = ({
         size={"icon"}
         onClick={() => {
           handleDelete(id);
-        }
-        }
+        }}
         className="border-red-500 bg-red-500 hover:bg-red-700 dark:text-white"
         disabled={loading}
       >
-        {loading ?
-          <Processing /> : <X />
-        }
+        {loading ? <Processing /> : <X />}
       </Button>
     </div>
   );

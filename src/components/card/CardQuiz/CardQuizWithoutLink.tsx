@@ -10,10 +10,10 @@ type QuizOption = {
 interface CardQuizWithoutLinkProps {
   title: string;
   correctOption: string;
-  option: string[];  // Accepting an array of strings for options
+  option: string[]; // Accepting an array of strings for options
   para?: string;
   keywords?: string[]; // Ensure keywords is an optional array of strings
-  description?: string;  // Add description as an optional string prop
+  description?: string; // Add description as an optional string prop
   className?: string;
 }
 
@@ -22,12 +22,10 @@ export default function CardQuizWithoutLink({
   correctOption,
   option,
   para,
-  keywords = [],  // Default to an empty array if no keywords are provided
+  keywords = [], // Default to an empty array if no keywords are provided
   description, // Accept description here
   className,
 }: CardQuizWithoutLinkProps) {
-
-
   return (
     <div
       className={`cardquiz my-4 rounded-lg border border-gray-300 bg-white p-4 shadow-lg ${className}`}
@@ -64,8 +62,12 @@ export default function CardQuizWithoutLink({
       {/* Display tags if parsedTags has items */}
       {keywords.length > 0 && (
         <div className="tags mt-2 text-sm text-gray-500">
-          <strong>Tags:</strong> {keywords.map((tag: any, index: any) => (
-            <span key={index} className="mr-2 inline-block bg-gray-200 px-2 py-1 rounded-full text-sm text-gray-700">
+          <strong>Tags:</strong>{" "}
+          {keywords.map((tag: any, index: any) => (
+            <span
+              key={index}
+              className="mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm text-gray-700"
+            >
               {tag}
             </span>
           ))}

@@ -1,29 +1,28 @@
-"use client"
-import { useState } from "react"
-import { Label } from "../../ui/Label"
-import { Input } from "../../ui/Input"
-import { Textarea } from "../../ui/textarea"
-import { Button } from "../../ui/Button"
-import { Processing } from "../../elements/Icon"
-
+"use client";
+import { useState } from "react";
+import { Label } from "../../ui/Label";
+import { Input } from "../../ui/Input";
+import { Textarea } from "../../ui/textarea";
+import { Button } from "../../ui/Button";
+import { Processing } from "../../elements/Icon";
 
 export default function CommentForm(props: { url: string }) {
-  const [loadingBtn, setLoadingBtn] = useState(false)
-  const [error, setError] = useState(false)
+  const [loadingBtn, setLoadingBtn] = useState(false);
+  const [error, setError] = useState(false);
   const [commentForm, setCommentForm] = useState({
     fname: "",
     lname: "",
     email: "",
     url: props.url,
-    message: ""
-  })
+    message: "",
+  });
 
   const SubmitHandle = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    setLoadingBtn(false)
+    e.preventDefault();
+    setLoadingBtn(false);
     try {
-      setLoadingBtn(true)
-      setError(false)
+      setLoadingBtn(true);
+      setError(false);
       // const data = await PostCommentForm(commentForm)
 
       // if (data.status === '400' || data.status === '500') {
@@ -39,27 +38,27 @@ export default function CommentForm(props: { url: string }) {
       //   })
       // }
     } catch (error) {
-      console.log(error)
-      setError(true)
+      console.log(error);
+      setError(true);
     } finally {
-      setLoadingBtn(false)
+      setLoadingBtn(false);
     }
-  }
+  };
   return (
-    <section className="my-20 relative">
+    <section className="relative my-20">
       <div className="mx-auto max-w-2xl text-center">
-        <h4 className=" font-bold tracking-tight text-emerald-500 lg:text-4xl md:text-3xl text-2xl text-center">
+        <h4 className="text-center text-2xl font-bold tracking-tight text-emerald-500 md:text-3xl lg:text-4xl">
           Comment Here
         </h4>
-        <span className="mt-3 md:text-lg sm:text-base text-sm md:leading-8 leading-7 text-gray-600 dark:text-white text-center">
+        <span className="mt-3 text-center text-sm leading-7 text-gray-600 dark:text-white sm:text-base md:text-lg md:leading-8">
           Plz comment below.
         </span>
       </div>
 
       <form className="mt-16 sm:mt-20" onSubmit={SubmitHandle}>
-        <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2 mb-2">
+        <div className="mb-2 grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
-            <Label htmlFor="fname" >First Name:</Label>
+            <Label htmlFor="fname">First Name:</Label>
             <div className="mt-2.5">
               <Input
                 name="fname"
@@ -73,8 +72,7 @@ export default function CommentForm(props: { url: string }) {
             </div>
           </div>
           <div>
-            <Label htmlFor="lname" >Last Name:</Label>
-
+            <Label htmlFor="lname">Last Name:</Label>
 
             <div className="mt-2.5">
               <Input
@@ -89,7 +87,7 @@ export default function CommentForm(props: { url: string }) {
             </div>
           </div>
           <div className="sm:col-span-2">
-            <Label htmlFor="emails" >Email:</Label>
+            <Label htmlFor="emails">Email:</Label>
 
             <div className="mt-2.5">
               <Input
@@ -105,7 +103,7 @@ export default function CommentForm(props: { url: string }) {
             </div>
           </div>
           <div className="sm:col-span-2">
-            <Label htmlFor="url" >Url:</Label>
+            <Label htmlFor="url">Url:</Label>
 
             <div className="mt-2.5">
               <Input
@@ -121,7 +119,7 @@ export default function CommentForm(props: { url: string }) {
           </div>
 
           <div className="sm:col-span-2">
-            <Label htmlFor="message" >Message:</Label>
+            <Label htmlFor="message">Message:</Label>
 
             <div className="mt-2.5">
               <Textarea
@@ -146,7 +144,7 @@ export default function CommentForm(props: { url: string }) {
           className="w-full"
         >
           {loadingBtn ? (
-            <div className="flex gap-2 justify-center items-center text-center mx-auto">
+            <div className="mx-auto flex items-center justify-center gap-2 text-center">
               <Processing />
               <span>Loading</span>
             </div>
@@ -156,5 +154,5 @@ export default function CommentForm(props: { url: string }) {
         </Button>
       </form>
     </section>
-  )
+  );
 }

@@ -44,7 +44,7 @@ interface SidebarProps {
   userRole: string;
   userEmail: string;
   userUsername: string;
-  setIsSidebarOpen: (value: boolean) => void
+  setIsSidebarOpen: (value: boolean) => void;
 }
 
 const Sidebar: React.FC<SidebarProps> = ({
@@ -60,7 +60,7 @@ const Sidebar: React.FC<SidebarProps> = ({
   userRole,
   userEmail,
   userUsername,
-  setIsSidebarOpen
+  setIsSidebarOpen,
 }) => {
   const [activeDropdown, setActiveDropdown] = useState<number | null>(null);
 
@@ -85,8 +85,12 @@ const Sidebar: React.FC<SidebarProps> = ({
               <X className="h-6 w-6" />
             </Button>
           ) : (
-            <Button size="icon" className="lg:hidden" variant={"destructive"}
-              onClick={toggleSidebar}>
+            <Button
+              size="icon"
+              className="lg:hidden"
+              variant={"destructive"}
+              onClick={toggleSidebar}
+            >
               <Menu className="h-6 w-6" />
             </Button>
           )}
@@ -165,7 +169,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                     {section.heading}
                   </h2>
 
-                  <div className="md:block hidden">
+                  <div className="hidden md:block">
                     <Desktop
                       section={section}
                       activeDropdown={activeDropdown}
@@ -174,7 +178,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                       setActiveDropdown={setActiveDropdown}
                     />
                   </div>
-                  <div className="md:hidden block">
+                  <div className="block md:hidden">
                     <Mobile
                       section={section}
                       activeDropdown={activeDropdown}
@@ -184,7 +188,6 @@ const Sidebar: React.FC<SidebarProps> = ({
                       setActiveDropdown={setActiveDropdown}
                     />
                   </div>
-
                 </div>
               ))}
             </div>
@@ -250,17 +253,19 @@ const Desktop = ({
                   className={`w-full justify-between transition-colors duration-300 ${activeDropdown === subIndex ? "bg-accent text-accent-foreground" : "hover:bg-accent/90"}`}
                 >
                   <div className="flex items-center">
-                    {item.icon && <span className="mr-2 h-4 w-4">{item.icon}</span>}
+                    {item.icon && (
+                      <span className="mr-2 h-4 w-4">{item.icon}</span>
+                    )}
                     {!isSidebarCollapsed && <span>{item.label}</span>}
                   </div>
                   {!isSidebarCollapsed && (
                     <ChevronDown
-                      className={`h-4 w-4 transition-transform text-destructive ${activeDropdown === subIndex ? "rotate-180" : ""}`}
+                      className={`h-4 w-4 text-destructive transition-transform ${activeDropdown === subIndex ? "rotate-180" : ""}`}
                     />
                   )}
                 </Button>
               </CollapsibleTrigger>
-              <CollapsibleContent className="space-y-1 border-l pl-6 mt-2">
+              <CollapsibleContent className="mt-2 space-y-1 border-l pl-6">
                 {item.submenu.map((subItem, subSubIndex) => (
                   <TooltipProvider key={subSubIndex}>
                     <Tooltip>
@@ -271,7 +276,9 @@ const Desktop = ({
                           asChild
                         >
                           <Link href={subItem.path}>
-                            {!isSidebarCollapsed && <span>{subItem.label}</span>}
+                            {!isSidebarCollapsed && (
+                              <span>{subItem.label}</span>
+                            )}
                           </Link>
                         </Button>
                       </TooltipTrigger>
@@ -297,15 +304,15 @@ const Desktop = ({
                     asChild
                   >
                     <Link href={item.path}>
-                      {item.icon && <span className="mr-2 h-4 w-4">{item.icon}</span>}
+                      {item.icon && (
+                        <span className="mr-2 h-4 w-4">{item.icon}</span>
+                      )}
                       {!isSidebarCollapsed && <span>{item.label}</span>}
                     </Link>
                   </Button>
                 </TooltipTrigger>
                 {isSidebarCollapsed && (
-                  <TooltipContent side="right">
-                    {item.label}
-                  </TooltipContent>
+                  <TooltipContent side="right">{item.label}</TooltipContent>
                 )}
               </Tooltip>
             </TooltipProvider>
@@ -322,7 +329,7 @@ const Mobile = ({
   isSidebarCollapsed,
   setActiveDropdown,
   isActive,
-  setIsSidebarOpen
+  setIsSidebarOpen,
 }: {
   section: Section;
   activeDropdown: number | null;
@@ -349,17 +356,19 @@ const Mobile = ({
                   className={`w-full justify-between transition-colors duration-300 ${activeDropdown === subIndex ? "bg-accent text-accent-foreground" : "hover:bg-accent/90"}`}
                 >
                   <div className="flex items-center">
-                    {item.icon && <span className="mr-2 h-4 w-4">{item.icon}</span>}
+                    {item.icon && (
+                      <span className="mr-2 h-4 w-4">{item.icon}</span>
+                    )}
                     {!isSidebarCollapsed && <span>{item.label}</span>}
                   </div>
                   {!isSidebarCollapsed && (
                     <ChevronDown
-                      className={`h-4 w-4 transition-transform text-destructive ${activeDropdown === subIndex ? "rotate-180" : ""}`}
+                      className={`h-4 w-4 text-destructive transition-transform ${activeDropdown === subIndex ? "rotate-180" : ""}`}
                     />
                   )}
                 </Button>
               </CollapsibleTrigger>
-              <CollapsibleContent className="space-y-1 border-l pl-6 mt-2">
+              <CollapsibleContent className="mt-2 space-y-1 border-l pl-6">
                 {item.submenu.map((subItem, subSubIndex) => (
                   <TooltipProvider key={subSubIndex}>
                     <Tooltip>
@@ -371,7 +380,9 @@ const Mobile = ({
                           asChild
                         >
                           <Link href={subItem.path}>
-                            {!isSidebarCollapsed && <span>{subItem.label}</span>}
+                            {!isSidebarCollapsed && (
+                              <span>{subItem.label}</span>
+                            )}
                           </Link>
                         </Button>
                       </TooltipTrigger>
@@ -397,15 +408,15 @@ const Mobile = ({
                     asChild
                   >
                     <Link href={item.path}>
-                      {item.icon && <span className="mr-2 h-4 w-4">{item.icon}</span>}
+                      {item.icon && (
+                        <span className="mr-2 h-4 w-4">{item.icon}</span>
+                      )}
                       {!isSidebarCollapsed && <span>{item.label}</span>}
                     </Link>
                   </Button>
                 </TooltipTrigger>
                 {isSidebarCollapsed && (
-                  <TooltipContent side="right">
-                    {item.label}
-                  </TooltipContent>
+                  <TooltipContent side="right">{item.label}</TooltipContent>
                 )}
               </Tooltip>
             </TooltipProvider>
@@ -415,7 +426,6 @@ const Mobile = ({
     </div>
   );
 };
-
 
 const data = [
   {

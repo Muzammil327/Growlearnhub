@@ -6928,28 +6928,6 @@
 //             "id": 794
 //         },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //         {
 //             "question": "What is the capital of Denmark?",
 //             "options": ["Copenhagen", "Aarhus", "Odense", "Aalborg"],
@@ -6993,23 +6971,6 @@
 //             "id": 800
 //         },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //         {
 //             "question": "Which country is known for its literature?",
 //             "options": ["Russia", "United States", "France", "Italy"],
@@ -7052,4 +7013,3 @@
 //             "slug": "world-teachers-day-is-celebrated-on",
 //             "id": 806
 //         },
-

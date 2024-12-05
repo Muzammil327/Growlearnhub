@@ -120,10 +120,17 @@
 //     slug: "pairing-scheme",
 //   },
 // ];
-import Image from "next/image"
-import Link from "next/link"
-import { Book, FileText, FileQuestion, ListChecks, MonitorPlay, Zap } from 'lucide-react'
-import MutedPara from "@/src/components/ui/typography/MutedPara/page"
+import Image from "next/image";
+import Link from "next/link";
+import {
+  Book,
+  FileText,
+  FileQuestion,
+  ListChecks,
+  MonitorPlay,
+  Zap,
+} from "lucide-react";
+import MutedPara from "@/src/components/ui/typography/MutedPara/page";
 
 export default function CategoryGrid() {
   const categories = [
@@ -131,41 +138,41 @@ export default function CategoryGrid() {
       title: "Books",
       icon: Book,
       image: "/placeholder.svg?height=300&width=400",
-      count: "250+ Books"
+      count: "250+ Books",
     },
     {
       title: "Notes",
       icon: FileText,
       image: "/placeholder.svg?height=300&width=400",
-      count: "100+ Notes"
+      count: "100+ Notes",
     },
     {
       title: "Past Papers",
       icon: FileQuestion,
       image: "/placeholder.svg?height=620&width=400",
       count: "1000+ Papers",
-      featured: true
+      featured: true,
     },
     {
       title: "Pairing Scheme",
       icon: ListChecks,
       image: "/placeholder.svg?height=300&width=400",
-      count: "50+ Schemes"
+      count: "50+ Schemes",
     },
     {
       title: "Online Quiz",
       icon: MonitorPlay,
       image: "/placeholder.svg?height=300&width=400",
-      count: "300+ Quizzes"
+      count: "300+ Quizzes",
     },
     {
       title: "Live Classes",
       icon: Zap,
       image: "/placeholder.svg?height=620&width=400",
       count: "50+ Live Sessions",
-      featured: true
-    }
-  ]
+      featured: true,
+    },
+  ];
 
   return (
     <div className="container mx-auto px-4 py-12">
@@ -186,15 +193,16 @@ export default function CategoryGrid() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-function CategoryCard({ category, className = "" }:any) {
+function CategoryCard({ category, className = "" }: any) {
   return (
     <Link
       href="#"
-      className={`group relative overflow-hidden rounded-xl ${category.featured ? 'bg-red-500' : 'bg-gray-100'
-        } ${className}`}
+      className={`group relative overflow-hidden rounded-xl ${
+        category.featured ? "bg-red-500" : "bg-gray-100"
+      } ${className}`}
     >
       {!category.featured && (
         <Image
@@ -205,23 +213,39 @@ function CategoryCard({ category, className = "" }:any) {
           className="h-full w-full object-cover transition-transform group-hover:scale-110"
         />
       )}
-      <div className={`absolute inset-0 flex flex-col items-center justify-center gap-4 p-6 text-center transition-colors
-        ${category.featured ? 'bg-transparent' : 'bg-black/0 group-hover:bg-red-500/90'}`}>
+      <div
+        className={`absolute inset-0 flex flex-col items-center justify-center gap-4 p-6 text-center transition-colors ${category.featured ? "bg-transparent" : "bg-black/0 group-hover:bg-red-500/90"}`}
+      >
         {category.icon && (
-          <category.icon className={`h-12 w-12 ${category.featured ? 'text-white' : 'text-white opacity-0 transition-opacity group-hover:opacity-100'
-            }`} />
+          <category.icon
+            className={`h-12 w-12 ${
+              category.featured
+                ? "text-white"
+                : "text-white opacity-0 transition-opacity group-hover:opacity-100"
+            }`}
+          />
         )}
         <div>
-          <h3 className={`text-xl font-bold ${category.featured ? 'text-white' : 'text-white opacity-0 transition-opacity group-hover:opacity-100'
-            }`}>
+          <h3
+            className={`text-xl font-bold ${
+              category.featured
+                ? "text-white"
+                : "text-white opacity-0 transition-opacity group-hover:opacity-100"
+            }`}
+          >
             {category.title}
           </h3>
-          <MutedPara className={`mt-2 ${category.featured ? 'text-white/90' : 'text-white opacity-0 transition-opacity group-hover:opacity-100'
-            }`}>
+          <MutedPara
+            className={`mt-2 ${
+              category.featured
+                ? "text-white/90"
+                : "text-white opacity-0 transition-opacity group-hover:opacity-100"
+            }`}
+          >
             {category.count}
           </MutedPara>
         </div>
       </div>
     </Link>
-  )
+  );
 }

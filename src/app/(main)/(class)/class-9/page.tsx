@@ -1,12 +1,12 @@
-import React from "react"
-import { Metadata } from "next"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import UnorderedList from "@/components/elements/list/UnorderedList"
-import Heading3 from "@/src/components/ui/typography/Heading3/page"
-import MutedPara from "@/src/components/ui/typography/MutedPara/page"
-import { class9Data } from "@/src/data/class9"
-import Heading2 from "@/src/components/ui/typography/Heading2/page"
+import React from "react";
+import { Metadata } from "next";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import CardSmall from "@/src/components/card/cardSmall/cardSmall";
+import UnorderedList from "@/components/elements/list/UnorderedList";
+import Heading3 from "@/src/components/ui/typography/Heading3/page";
+import MutedPara from "@/src/components/ui/typography/MutedPara/page";
+import { class9Data } from "@/src/data/class9";
+import Heading2 from "@/src/components/ui/typography/Heading2/page";
 
 const data = {
   title: "Class 9 Study Guide | Important Resources, MCQs, Tests, Books",
@@ -21,13 +21,13 @@ const data = {
     "Online tests for Class 9",
     "Essential books for 9th class",
     "Class 9 tips for success",
-    "GrowLearnHub Class 9 resources"
+    "GrowLearnHub Class 9 resources",
   ],
   canonical: "/class-9/",
   url: "https://growlearnhub.com/class-9/",
   index: true,
   follow: true,
-}
+};
 
 export default function Page() {
   return (
@@ -53,10 +53,10 @@ export default function Page() {
           { description: "Ikhlaqiat" },
           { description: "Islamiyat" },
           { description: "Pak Study" },
-          { description: "Tarjuma Tul Quaran" }
+          { description: "Tarjuma Tul Quaran" },
         ]}
       />
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
+      <div className="my-5 grid grid-cols-1 gap-4 md:grid-cols-2">
         {class9Data.map((data: any) => {
           return (
             <CardSmall
@@ -64,7 +64,7 @@ export default function Page() {
               title={data.name}
               link={`class-9/${data.slug}`}
             />
-          )
+          );
         })}
       </div>
       <Heading3>Online Tests for Class 9</Heading3>
@@ -79,18 +79,18 @@ export default function Page() {
           {
             title: "Convenience",
             description:
-              "Students can take the test from home according to their needs."
+              "Students can take the test from home according to their needs.",
           },
           {
             title: "Instant Feedback",
             description:
-              "Instant grading helps students identify their strengths and weaknesses."
+              "Instant grading helps students identify their strengths and weaknesses.",
           },
           {
             title: "Variety of Questions",
             description:
-              "Exposure to different target formats and difficulty levels will improve preparation."
-          }
+              "Exposure to different target formats and difficulty levels will improve preparation.",
+          },
         ]}
       />
       <Heading3>Past Papers for Class 9</Heading3>
@@ -104,22 +104,22 @@ export default function Page() {
           {
             title: "Knowledge of exam format",
             description:
-              "Understanding the layout and structure of the exam which can reduces anxiety."
+              "Understanding the layout and structure of the exam which can reduces anxiety.",
           },
           {
             title: "Time Management Skills",
             description:
-              "Practicing past papers helps students learn to manage their time effectively during exams."
+              "Practicing past papers helps students learn to manage their time effectively during exams.",
           },
           {
             title: "Identifying Important Topics",
             description:
-              "Past papers often highlight frequently tested concepts, guiding study focus."
-          }
+              "Past papers often highlight frequently tested concepts, guiding study focus.",
+          },
         ]}
       />
     </SimpleWrapper>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -133,27 +133,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

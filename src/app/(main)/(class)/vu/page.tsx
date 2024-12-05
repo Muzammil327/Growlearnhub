@@ -1,27 +1,25 @@
-import React from 'react'
-import { Metadata } from 'next'
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import CardSmall from '@/src/components/card/cardSmall/cardSmall'
-import { vuData } from '@/src/data/vu'
+import React from "react";
+import { Metadata } from "next";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import CardSmall from "@/src/components/card/cardSmall/cardSmall";
+import { vuData } from "@/src/data/vu";
 
 const data = {
-  title: 'Virtual University | Resources and Tips for Vu',
+  title: "Virtual University | Resources and Tips for Vu",
   description:
-    'Virtual University resources and tips page offering study materials, exam guides, and effective learning strategies for VU students.',
-  keywords: ['growlearnhub', 'growlearnhub vu', 'vu', 'virtual university'],
-  image: '/vu.webp',
-  canonical: '/vu/',
-  url: 'https://growlearnhub.com/vu/',
+    "Virtual University resources and tips page offering study materials, exam guides, and effective learning strategies for VU students.",
+  keywords: ["growlearnhub", "growlearnhub vu", "vu", "virtual university"],
+  image: "/vu.webp",
+  canonical: "/vu/",
+  url: "https://growlearnhub.com/vu/",
   index: true,
   follow: true,
-}
+};
 
 export default function Page() {
   return (
-    <SimpleWrapper
-      data={data}
-    >
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
+    <SimpleWrapper data={data}>
+      <div className="my-5 grid grid-cols-1 gap-4 md:grid-cols-2">
         {vuData.map((data: any) => {
           return (
             <CardSmall
@@ -29,11 +27,11 @@ export default function Page() {
               title={data.name}
               link={`vu/${data.slug}`}
             />
-          )
+          );
         })}
       </div>
-    </SimpleWrapper >
-  )
+    </SimpleWrapper>
+  );
 }
 
 export const metadata: Metadata = {
@@ -70,4 +68,4 @@ export const metadata: Metadata = {
       alt: data.title,
     },
   },
-}
+};

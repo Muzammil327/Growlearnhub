@@ -1,5 +1,5 @@
 export interface SmallCardProps {
-    id: number;
-    title: string;
-    link: string
+  id: number;
+  title: string;
+  link: string;
 }

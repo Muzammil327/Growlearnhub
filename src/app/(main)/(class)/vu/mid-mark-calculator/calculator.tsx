@@ -1,24 +1,24 @@
-"use client"
-import QuizPercentage from "./QuizPercentage"
-import GDBPercentage from "./GDBPercentage"
-import MidPercentage from "./MidPercentage"
-import AssignmentPercentage from "./AssignmentPercentage"
-import { useState } from "react"
-import Image from "next/image"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
+"use client";
+import QuizPercentage from "./QuizPercentage";
+import GDBPercentage from "./GDBPercentage";
+import MidPercentage from "./MidPercentage";
+import AssignmentPercentage from "./AssignmentPercentage";
+import { useState } from "react";
+import Image from "next/image";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
 import { Button } from "@/src/components/ui/Button";
-import CommentForm from "@/src/components/forms/CommentForm/page"
-import MutedPara from "@/src/components/ui/typography/MutedPara/page"
+import CommentForm from "@/src/components/forms/CommentForm/page";
+import MutedPara from "@/src/components/ui/typography/MutedPara/page";
 
 export default function Calculator({ url, data }: { url: string; data: any }) {
-  const [calculatedAssignment, setCalculatedAssignment] = useState<number>(0)
-  const [calculatedQuiz, setCalculatedQuiz] = useState<number>(0)
-  const [calculatedGDB, setCalculatedGDB] = useState<number>(0)
-  const [calculatedMid, setCalculatedMid] = useState<number>(0)
+  const [calculatedAssignment, setCalculatedAssignment] = useState<number>(0);
+  const [calculatedQuiz, setCalculatedQuiz] = useState<number>(0);
+  const [calculatedGDB, setCalculatedGDB] = useState<number>(0);
+  const [calculatedMid, setCalculatedMid] = useState<number>(0);
 
   const totalSum =
-    calculatedAssignment + calculatedMid + calculatedGDB + calculatedQuiz
-  const roundedTotalSum = totalSum.toFixed(2) // Round to 2 decimal places
+    calculatedAssignment + calculatedMid + calculatedGDB + calculatedQuiz;
+  const roundedTotalSum = totalSum.toFixed(2); // Round to 2 decimal places
 
   return (
     <SimpleWrapper data={data}>
@@ -65,11 +65,11 @@ export default function Calculator({ url, data }: { url: string; data: any }) {
           calculatedMid={calculatedMid}
           setCalculatedMid={setCalculatedMid}
         />
-        <Button className="w-full mt-5" variant={"destructive"}>
+        <Button className="mt-5 w-full" variant={"destructive"}>
           <i>Here, You calculate total Mid Term Marks:</i> {roundedTotalSum}
         </Button>
         <CommentForm url={url} />
       </div>
     </SimpleWrapper>
-  )
+  );
 }

@@ -1,20 +1,24 @@
-import React from "react"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import { Metadata } from "next"
+import React from "react";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import { Metadata } from "next";
 
 const data = {
   title: "Terms And Conditions | Growlearnhub",
   description: "",
   image: "/single/term_and_condition.webp",
-  keywords: ["growlearnhub", "growlearnhub term and condition", "term and condition"],
+  keywords: [
+    "growlearnhub",
+    "growlearnhub term and condition",
+    "term and condition",
+  ],
   canonical: "/terms-and-conditions/",
   url: "https://growlearnhub.com/terms-and-conditions/",
   index: true,
   follow: true,
-}
+};
 
 export default function page() {
-  return <SimpleWrapper data={data}></SimpleWrapper>
+  return <SimpleWrapper data={data}></SimpleWrapper>;
 }
 
 export const metadata: Metadata = {
@@ -28,27 +32,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

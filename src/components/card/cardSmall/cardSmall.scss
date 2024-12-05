@@ -4,7 +4,7 @@
     0px 8px 15px rgba(0, 0, 0, 0.1),
     0 0 0 1px rgba(255, 255, 255, 0.1);
   transition: box-shadow 0.25s;
-  @apply relative cursor-pointer rounded-md bg-primary dark:bg-primary/10 px-4 pb-4 pt-4;
+  @apply relative cursor-pointer rounded-md bg-primary px-4 pb-4 pt-4 dark:bg-primary/10;
 
   &:before {
     content: "";

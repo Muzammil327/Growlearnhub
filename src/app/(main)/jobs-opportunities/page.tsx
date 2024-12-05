@@ -1,6 +1,6 @@
-import React from "react"
-import type { Metadata } from "next"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
+import React from "react";
+import type { Metadata } from "next";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
 
 const data = {
   title: "Jobs Opportunities || Growlearnhub",
@@ -9,16 +9,16 @@ const data = {
   keywords: [
     "growlearnhub",
     "growlearnhub jobs opportunities",
-    "jobs opportunities"
+    "jobs opportunities",
   ],
   canonical: "/jobs-opportunities/",
   url: "https://growlearnhub.com/jobs-opportunities/",
   index: true,
   follow: true,
-}
+};
 
 export default function Page() {
-  return <SimpleWrapper data={data}></SimpleWrapper>
+  return <SimpleWrapper data={data}></SimpleWrapper>;
 }
 
 export const metadata: Metadata = {
@@ -32,27 +32,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

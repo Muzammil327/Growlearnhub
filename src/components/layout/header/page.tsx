@@ -16,10 +16,11 @@ export default function Header() {
               <h1 className="mb-4 font-sans text-3xl font-semibold uppercase text-black dark:text-white md:text-2xl lg:text-4xl">
                 Empowering Future Minds with Growlearnhub Learning
               </h1>
-              <p className="mb-5 max-w-lg text-primary" 
-              style={{
-                lineHeight:"2"
-              }}
+              <p
+                className="mb-5 max-w-lg text-primary"
+                style={{
+                  lineHeight: "2",
+                }}
               >
                 At <strong> Growlearnhub</strong>, we don&apos;t just teach. But
                 we inspire! Let your full potential with interactive quizzes,

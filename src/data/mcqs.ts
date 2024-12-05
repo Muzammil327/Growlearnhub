@@ -50,27 +50,27 @@ export const PhysicsMcqsSubjectData: SmallCardProps[] = [
   {
     id: 0,
     title: "",
-    link: ""
-  }
-]
+    link: "",
+  },
+];
 export const ChemistryMcqsSubjectData: SmallCardProps[] = [
   {
     id: 0,
     title: "",
-    link: ""
-  }
-]
+    link: "",
+  },
+];
 export const BiologyMcqsSubjectData: SmallCardProps[] = [
   {
     id: 0,
     title: "",
-    link: ""
-  }
-]
+    link: "",
+  },
+];
 export const GKMcqsSubjectData: SmallCardProps[] = [
   {
     id: 0,
     title: "",
-    link: ""
-  }
-]
+    link: "",
+  },
+];

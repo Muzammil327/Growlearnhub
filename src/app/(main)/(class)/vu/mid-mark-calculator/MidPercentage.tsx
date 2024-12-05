@@ -1,47 +1,47 @@
-import React, { ChangeEvent, useEffect, useState } from "react"
+import React, { ChangeEvent, useEffect, useState } from "react";
 import { Button } from "@/src/components/ui/Button";
-import { Input } from "@/src/components/ui/Input"
-import { Label } from "@/src/components/ui/Label"
+import { Input } from "@/src/components/ui/Input";
+import { Label } from "@/src/components/ui/Label";
 
 export default function MidPercentage({
   calculatedMid,
-  setCalculatedMid
+  setCalculatedMid,
 }: any) {
-  const [totalMidMark, setTotalMidMark] = useState<number>(0)
-  const [obtainedMidMark, setObtainedMidMark] = useState<number>(0)
-  const [MidPercentage, setMidPercentage] = useState<number>(0)
+  const [totalMidMark, setTotalMidMark] = useState<number>(0);
+  const [obtainedMidMark, setObtainedMidMark] = useState<number>(0);
+  const [MidPercentage, setMidPercentage] = useState<number>(0);
 
   const calculateMidPercentage = (
     obtainedMidMark: number,
     totalMidMark: number,
-    MidPercentage: number
+    MidPercentage: number,
   ): number => {
     if (totalMidMark === 0) {
-      return 0 // Default value or handle appropriately
+      return 0; // Default value or handle appropriately
     }
 
-    return (obtainedMidMark / totalMidMark) * ((MidPercentage / 100) * 100)
-  }
+    return (obtainedMidMark / totalMidMark) * ((MidPercentage / 100) * 100);
+  };
   useEffect(() => {
     const data1 = calculateMidPercentage(
       obtainedMidMark,
       totalMidMark,
-      MidPercentage
-    )
+      MidPercentage,
+    );
     if (data1) {
-      setCalculatedMid(data1)
+      setCalculatedMid(data1);
     }
-  }, [obtainedMidMark, MidPercentage, totalMidMark, setCalculatedMid])
+  }, [obtainedMidMark, MidPercentage, totalMidMark, setCalculatedMid]);
 
   const handleDecimalChange = (e: ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value
-    const parsedValue = parseFloat(value) // Convert string to number using parseFloat
+    const value = e.target.value;
+    const parsedValue = parseFloat(value); // Convert string to number using parseFloat
 
-    setObtainedMidMark(parsedValue)
-  }
+    setObtainedMidMark(parsedValue);
+  };
 
   return (
-    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-1">
+    <div className="mt-1 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
       <div className="my-4">
         <Label htmlFor="MidPercentage" />
         <Input
@@ -63,9 +63,7 @@ export default function MidPercentage({
         />
       </div>
       <div className="my-4">
-        <Label
-          htmlFor="obtainedMidMark"
-        />
+        <Label htmlFor="obtainedMidMark" />
         <Input
           name="obtainedMidMark"
           type="number"
@@ -76,5 +74,5 @@ export default function MidPercentage({
       </div>
       <Button>{calculatedMid}</Button>
     </div>
-  )
+  );
 }

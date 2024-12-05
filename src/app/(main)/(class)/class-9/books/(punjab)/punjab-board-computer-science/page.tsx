@@ -1,9 +1,9 @@
-import React from "react"
-import { Metadata } from "next"
-import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import PDFViewer from "@/src/components/elements/PDFViewer"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import MutedPara from "@/src/components/ui/typography/MutedPara/page"
+import React from "react";
+import { Metadata } from "next";
+import CardSmall from "@/src/components/card/cardSmall/cardSmall";
+import PDFViewer from "@/src/components/elements/PDFViewer";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import MutedPara from "@/src/components/ui/typography/MutedPara/page";
 
 const data = {
   title: "Computer Science Class 9 Book PDF | 9th Class Punjab Text Book",
@@ -15,20 +15,20 @@ const data = {
     "class 9 computer science book pdf punjab board",
     "9th class computer science punjab text book",
     "computer science book class 9 punjab board",
-    "class 9 computer science book punjab board"
+    "class 9 computer science book punjab board",
   ],
   canonical: "/class-9/books/punjab-board-computer-science/",
   url: "https://growlearnhub.com/class-9/books/punjab-board-computer-science/",
   index: true,
   follow: true,
   fileId_english: "1o5fPLG7_lTK2sAs5smLAgJEopLTf8fsR",
-  fileId_urdu: "1dSyB9KxtY59L541KRu55BmWEVbmy6rnz"
-}
+  fileId_urdu: "1dSyB9KxtY59L541KRu55BmWEVbmy6rnz",
+};
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <div className="grid gap-4 grid-cols-1 my-5">
+      <div className="my-5 grid grid-cols-1 gap-4">
         {mainData.map((data: any) => {
           return (
             <CardSmall
@@ -36,7 +36,7 @@ export default function Page() {
               title={data.name}
               link={`class-9/books/punjab-board-computer-science/${data.slug}-medium`}
             />
-          )
+          );
         })}
       </div>
       <MutedPara>
@@ -66,19 +66,19 @@ export default function Page() {
       </MutedPara>
       <PDFViewer pdfUrl={data.fileId_urdu} />
     </SimpleWrapper>
-  )
+  );
 }
 
 const mainData = [
   {
     name: "Class 9 Computer Science Book PDF Punjab Board English Medium",
-    slug: "english"
+    slug: "english",
   },
   {
     name: "Computer Science Class 9 Punjab Board Text Book PDF Urdu Medium",
-    slug: "urdu"
-  }
-]
+    slug: "urdu",
+  },
+];
 
 export const metadata: Metadata = {
   title: data.title,
@@ -91,27 +91,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

@@ -1,9 +1,9 @@
-import React from "react"
-import { Metadata } from "next"
-import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import { PhysicsMcqsSubjectData } from "@/src/data/mcqs"
-import { SmallCardProps } from "@/src/types/CardType"
+import React from "react";
+import { Metadata } from "next";
+import CardSmall from "@/src/components/card/cardSmall/cardSmall";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import { PhysicsMcqsSubjectData } from "@/src/data/mcqs";
+import { SmallCardProps } from "@/src/types/CardType";
 
 const data = {
   title: "Physics Solved Mcqs Topic Wise",
@@ -15,12 +15,12 @@ const data = {
   image: "/mcqs_point/physics_mcqs_point.png",
   url: "https://growlearnhub.com/mcqs-point/physics/",
   keywords: ["mcqs", "quiz", "mcqs physics", "physics mcqs"],
-}
+};
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
+      <div className="my-5 grid grid-cols-1 gap-4 md:grid-cols-2">
         {PhysicsMcqsSubjectData.map((book: SmallCardProps) => (
           <CardSmall
             key={book.title}
@@ -30,7 +30,7 @@ export default function Page() {
         ))}
       </div>
     </SimpleWrapper>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -44,27 +44,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

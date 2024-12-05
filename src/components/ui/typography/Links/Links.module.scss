@@ -1,5 +1,5 @@
 .link1 {
-  @apply relative text-sm text-primary ease-linear transition-all duration-300 hover:text-primary;
+  @apply relative text-sm text-primary transition-all duration-300 ease-linear hover:text-primary;
 
   &::after {
     content: "";
@@ -16,7 +16,7 @@
 }
 
 .link2 {
-  @apply text-black dark:text-white transition-all duration-300 hover:text-primary;
+  @apply text-black transition-all duration-300 hover:text-primary dark:text-white;
 }
 
 .btnLink {

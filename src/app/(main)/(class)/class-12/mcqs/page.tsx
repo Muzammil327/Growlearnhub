@@ -1,8 +1,8 @@
-import React from "react"
-import { Metadata } from "next"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import { Class12McqsData } from "@/src/data/class12"
+import React from "react";
+import { Metadata } from "next";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import CardSmall from "@/src/components/card/cardSmall/cardSmall";
+import { Class12McqsData } from "@/src/data/class12";
 
 const data = {
   title: "12th Class Mcqs | Class 12",
@@ -13,19 +13,19 @@ const data = {
     "growlearnhub class 12 mcqs",
     "class 12 mcqs",
     "12th class mcqs",
-    "12th class growlearnhub mcqs"
+    "12th class growlearnhub mcqs",
   ],
   image: "/12th/class_12_mcqs.webp",
   canonical: "/class-12/mcqs/",
   url: "https://growlearnhub.com/class-12/mcqs/",
   index: true,
   follow: true,
-}
+};
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <div className="grid gap-4 grid-cols-1 my-5">
+      <div className="my-5 grid grid-cols-1 gap-4">
         {Class12McqsData.map((data: any) => {
           return (
             <CardSmall
@@ -33,11 +33,11 @@ export default function Page() {
               title={data.name}
               link={`class-12/mcqs/${data.slug}`}
             />
-          )
+          );
         })}
       </div>
     </SimpleWrapper>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -51,27 +51,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

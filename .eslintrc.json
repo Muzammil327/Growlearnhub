@@ -1,6 +1,6 @@
 {
-  "extends": ["next/core-web-vitals"],
-  "plugins": ["import"],
+  "extends": ["next/core-web-vitals", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
   "rules": {
     "import/no-unresolved": [2, { "caseSensitive": true }]
   }

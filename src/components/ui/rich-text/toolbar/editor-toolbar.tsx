@@ -24,7 +24,7 @@ interface EditorToolbarProps {
 const EditorToolbar = ({ editor }: EditorToolbarProps) => {
   return (
     <Toolbar
-      className="m-0 flex flex-col sm:flex-row items-start sm:items-center justify-between p-2 space-y-2 sm:space-y-0"
+      className="m-0 flex flex-col items-start justify-between space-y-2 p-2 sm:flex-row sm:items-center sm:space-y-0"
       aria-label="Formatting options"
     >
       {/* Text formatting actions */}
@@ -59,7 +59,9 @@ const EditorToolbar = ({ editor }: EditorToolbarProps) => {
 
           <Toggle
             size="sm"
-            onPressedChange={() => editor.chain().focus().toggleCodeBlock().run()}
+            onPressedChange={() =>
+              editor.chain().focus().toggleCodeBlock().run()
+            }
             pressed={editor.isActive("codeBlock")}
           >
             <Code className="h-4 w-4" />
@@ -117,7 +119,7 @@ const EditorToolbar = ({ editor }: EditorToolbarProps) => {
       </div>
 
       {/* Undo/Redo */}
-      <div className="flex space-x-2 mt-2 sm:mt-0">
+      <div className="mt-2 flex space-x-2 sm:mt-0">
         <ToggleGroup className="flex space-x-2" type="multiple">
           <Toggle
             size="sm"

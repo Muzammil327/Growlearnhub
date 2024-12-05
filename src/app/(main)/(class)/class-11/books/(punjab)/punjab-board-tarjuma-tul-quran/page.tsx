@@ -1,8 +1,8 @@
-import React from "react"
-import { Metadata } from "next"
-import PDFViewer from "@/src/components/elements/PDFViewer"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import MutedPara from "@/src/components/ui/typography/MutedPara/page"
+import React from "react";
+import { Metadata } from "next";
+import PDFViewer from "@/src/components/elements/PDFViewer";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import MutedPara from "@/src/components/ui/typography/MutedPara/page";
 const data = {
   title: "Tarjuma Tul Quran Class 11 Book PDF | 11th Class Punjab Text Book",
   description:
@@ -13,14 +13,14 @@ const data = {
     "class 11 tarjuma-tul-quran book pdf punjab board",
     "11th class tarjuma-tul-quran punjab text book",
     "tarjuma-tul-quran book class 11 punjab board",
-    "class 11 tarjuma-tul-quran book punjab board"
+    "class 11 tarjuma-tul-quran book punjab board",
   ],
   canonical: "/class-11/books/punjab-board-tarjuma-tul-quran/",
   url: "https://growlearnhub.com/class-11/books/punjab-board-tarjuma-tul-quran/",
   index: true,
   follow: true,
   fileId_urdu: "1qKP8ytj1ahOqFTE-y9oul_nFytNWtd6F",
-}
+};
 
 export default function Page() {
   return (
@@ -35,12 +35,12 @@ export default function Page() {
       </MutedPara>
       <h3>Download Class 11 Tarjuma Tul Quran Book Punjab Board</h3>
       <MutedPara>
-        Here, you can download Matric class 11 Tarjuma Tul Quran Text Book in PDF
-        Format. This book is officially published by Punjab Text Book Board.
+        Here, you can download Matric class 11 Tarjuma Tul Quran Text Book in
+        PDF Format. This book is officially published by Punjab Text Book Board.
       </MutedPara>
       <PDFViewer pdfUrl={data.fileId_urdu} />
     </SimpleWrapper>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -54,27 +54,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

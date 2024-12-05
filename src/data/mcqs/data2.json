@@ -1,2915 +1,2577 @@
 [
-    {
-        "id": 1601,
-        "question": "Which sport is traditionally played in the northern areas of Pakistan?",
-        "slug": "which-sport-is-traditionally-played-in-the-northern-areas-of-pakistan",
-        "explanation": "The traditional sport in the northern areas of Pakistan, especially in the regions of Gilgit-Baltistan, is Polo. It has been played for centuries and remains a significant part of the local culture.",
-        "tags": [
-            "Pakistan",
-            "sports",
-            "Polo"
-        ],
-        "options": [
-            {
-                "text": "Cricket",
-                "isCorrect": false
-            },
-            {
-                "text": "Polo",
-                "isCorrect": true
-            },
-            {
-                "text": "Football",
-                "isCorrect": false
-            },
-            {
-                "text": "Hockey",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1602,
-        "question": "Which Pakistani city is famous for its truck art?",
-        "slug": "which-pakistani-city-is-famous-for-its-truck-art",
-        "explanation": "Karachi is widely known for its truck art, which is a colorful and intricate style of decoration applied to trucks, buses, and other vehicles. This art is part of Pakistan's cultural heritage.",
-        "tags": [
-            "Pakistan",
-            "culture",
-            "art",
-            "Karachi"
-        ],
-        "options": [
-            {
-                "text": "Lahore",
-                "isCorrect": false
-            },
-            {
-                "text": "Karachi",
-                "isCorrect": true
-            },
-            {
-                "text": "Islamabad",
-                "isCorrect": false
-            },
-            {
-                "text": "Peshawar",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1603,
-        "question": "What is the national anthem of Pakistan?",
-        "slug": "what-is-the-national-anthem-of-pakistan",
-        "explanation": "The national anthem of Pakistan is called 'Qaumi Taranah,' composed by Ahmed Ghulamali Chagla. It was adopted in 1952 and is written in Urdu.",
-        "tags": [
-            "Pakistan",
-            "national anthem",
-            "culture"
-        ],
-        "options": [
-            {
-                "text": "Jana Gana Mana",
-                "isCorrect": false
-            },
-            {
-                "text": "Qaumi Taranah",
-                "isCorrect": true
-            },
-            {
-                "text": "Vande Mataram",
-                "isCorrect": false
-            },
-            {
-                "text": "My Country Tis of Thee",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1604,
-        "question": "Who is the founder of Pakistan?",
-        "slug": "who-is-the-founder-of-pakistan",
-        "explanation": "The founder of Pakistan is Muhammad Ali Jinnah, who played a pivotal role in the creation of Pakistan in 1947 and served as its first Governor-General until his death.",
-        "tags": [
-            "Pakistan",
-            "history",
-            "founder"
-        ],
-        "options": [
-            {
-                "text": "Allama Iqbal",
-                "isCorrect": false
-            },
-            {
-                "text": "Muhammad Ali Jinnah",
-                "isCorrect": true
-            },
-            {
-                "text": "Zulfikar Ali Bhutto",
-                "isCorrect": false
-            },
-            {
-                "text": "Benazir Bhutto",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1605,
-        "question": "Which historical site is known as the 'Mohenjo-Daro'?",
-        "slug": "which-historical-site-is-known-as-the-mohenjo-daro",
-        "explanation": "Mohenjo-Daro is an ancient city of the Indus Valley Civilization, located in present-day Pakistan.",
-        "tags": [
-            "History",
-            "Archaeology",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Harappa",
-                "isCorrect": false
-            },
-            {
-                "text": "Mohenjo-Daro",
-                "isCorrect": true
-            },
-            {
-                "text": "Lahore",
-                "isCorrect": false
-            },
-            {
-                "text": "Karachi",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1606,
-        "question": "What is the primary language spoken in Sindh province?",
-        "slug": "what-is-the-primary-language-spoken-in-sindh-province",
-        "explanation": "Sindhi is the primary language spoken in the Sindh province of Pakistan.",
-        "tags": [
-            "Language",
-            "Pakistan",
-            "Sindh"
-        ],
-        "options": [
-            {
-                "text": "Pashto",
-                "isCorrect": false
-            },
-            {
-                "text": "Urdu",
-                "isCorrect": false
-            },
-            {
-                "text": "Sindhi",
-                "isCorrect": true
-            },
-            {
-                "text": "Punjabi",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1607,
-        "question": "Which is the largest city in Pakistan by population?",
-        "slug": "which-is-the-largest-city-in-pakistan-by-population",
-        "explanation": "Karachi is the largest city in Pakistan by population.",
-        "tags": [
-            "Geography",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Lahore",
-                "isCorrect": false
-            },
-            {
-                "text": "Karachi",
-                "isCorrect": true
-            },
-            {
-                "text": "Islamabad",
-                "isCorrect": false
-            },
-            {
-                "text": "Quetta",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1608,
-        "question": "What is the primary source of income in Pakistan?",
-        "slug": "what-is-the-primary-source-of-income-in-pakistan",
-        "explanation": "Agriculture is one of the primary sources of income for Pakistan, along with textiles and remittances.",
-        "tags": [
-            "Economy",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Agriculture",
-                "isCorrect": true
-            },
-            {
-                "text": "Mining",
-                "isCorrect": false
-            },
-            {
-                "text": "Tourism",
-                "isCorrect": false
-            },
-            {
-                "text": "Manufacturing",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1609,
-        "question": "What is the main religion practiced in Pakistan?",
-        "slug": "what-is-the-main-religion-practiced-in-pakistan",
-        "explanation": "Islam is the main religion practiced in Pakistan, with the majority of the population being Muslim.",
-        "tags": [
-            "Religion",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Christianity",
-                "isCorrect": false
-            },
-            {
-                "text": "Islam",
-                "isCorrect": true
-            },
-            {
-                "text": "Hinduism",
-                "isCorrect": false
-            },
-            {
-                "text": "Buddhism",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1610,
-        "question": "Which festival is famous for kite flying in Pakistan?",
-        "slug": "which-festival-is-famous-for-kite-flying-in-pakistan",
-        "explanation": "The Basant Festival, celebrated in Lahore, is famous for kite flying.",
-        "tags": [
-            "Culture",
-            "Festivals",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Eid",
-                "isCorrect": false
-            },
-            {
-                "text": "Basant",
-                "isCorrect": true
-            },
-            {
-                "text": "Diwali",
-                "isCorrect": false
-            },
-            {
-                "text": "Christmas",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1611,
-        "question": "Which festival is celebrated to mark the end of Ramadan in Pakistan?",
-        "slug": "which-festival-is-celebrated-to-mark-the-end-of-ramadan-in-pakistan",
-        "explanation": "Eid-ul-Fitr is celebrated to mark the end of Ramadan in Pakistan and is one of the most important Islamic festivals.",
-        "tags": [
-            "Festivals",
-            "Religion",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Eid-ul-Fitr",
-                "isCorrect": true
-            },
-            {
-                "text": "Eid-ul-Adha",
-                "isCorrect": false
-            },
-            {
-                "text": "Basant",
-                "isCorrect": false
-            },
-            {
-                "text": "Independence Day",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1612,
-        "question": "What is the national flower of Pakistan?",
-        "slug": "what-is-the-national-flower-of-pakistan",
-        "explanation": "The Jasmine is the national flower of Pakistan, symbolizing purity and simplicity.",
-        "tags": [
-            "Nature",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Rose",
-                "isCorrect": false
-            },
-            {
-                "text": "Jasmine",
-                "isCorrect": true
-            },
-            {
-                "text": "Lotus",
-                "isCorrect": false
-            },
-            {
-                "text": "Tulip",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1613,
-        "question": "What is the highest peak in Pakistan?",
-        "slug": "what-is-the-highest-peak-in-pakistan",
-        "explanation": "K2 is the highest peak in Pakistan, and it is also the second highest mountain in the world.",
-        "tags": [
-            "Geography",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "K2",
-                "isCorrect": true
-            },
-            {
-                "text": "Mount Everest",
-                "isCorrect": false
-            },
-            {
-                "text": "Nanga Parbat",
-                "isCorrect": false
-            },
-            {
-                "text": "Kangchenjunga",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1614,
-        "question": "Which day is celebrated as Pakistan Day?",
-        "slug": "which-day-is-celebrated-as-pakistan-day",
-        "explanation": "Pakistan Day is celebrated on March 23 to commemorate the Lahore Resolution of 1940, which laid the foundation for the creation of Pakistan.",
-        "tags": [
-            "History",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "August 14",
-                "isCorrect": false
-            },
-            {
-                "text": "March 23",
-                "isCorrect": true
-            },
-            {
-                "text": "December 25",
-                "isCorrect": false
-            },
-            {
-                "text": "November 14",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1615,
-        "question": "What is the national animal of Pakistan?",
-        "slug": "what-is-the-national-animal-of-pakistan",
-        "explanation": "The Markhor is the national animal of Pakistan. It is a wild goat known for its twisted horns.",
-        "tags": [
-            "Nature",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Lion",
-                "isCorrect": false
-            },
-            {
-                "text": "Markhor",
-                "isCorrect": true
-            },
-            {
-                "text": "Tiger",
-                "isCorrect": false
-            },
-            {
-                "text": "Elephant",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1616,
-        "question": "What is the largest province of Pakistan by area?",
-        "slug": "what-is-the-largest-province-of-pakistan-by-area",
-        "explanation": "Balochistan is the largest province of Pakistan by area, covering almost 44% of the country's total land area.",
-        "tags": [
-            "Geography",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Punjab",
-                "isCorrect": false
-            },
-            {
-                "text": "Sindh",
-                "isCorrect": false
-            },
-            {
-                "text": "Khyber Pakhtunkhwa",
-                "isCorrect": false
-            },
-            {
-                "text": "Balochistan",
-                "isCorrect": true
-            }
-        ]
-    },
-    {
-        "id": 1617,
-        "question": "What is the national bird of Pakistan?",
-        "slug": "what-is-the-national-bird-of-pakistan",
-        "explanation": "The Markhor is also the national bird of Pakistan, symbolizing strength and resilience.",
-        "tags": [
-            "Nature",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Peacock",
-                "isCorrect": false
-            },
-            {
-                "text": "Eagle",
-                "isCorrect": true
-            },
-            {
-                "text": "Pigeon",
-                "isCorrect": false
-            },
-            {
-                "text": "Parrot",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1618,
-        "question": "What is the date of independence of Pakistan?",
-        "slug": "what-is-the-date-of-independence-of-pakistan",
-        "explanation": "Pakistan gained independence from British rule on August 14, 1947.",
-        "tags": [
-            "History",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "August 14, 1947",
-                "isCorrect": true
-            },
-            {
-                "text": "January 1, 1948",
-                "isCorrect": false
-            },
-            {
-                "text": "July 4, 1947",
-                "isCorrect": false
-            },
-            {
-                "text": "November 14, 1947",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1619,
-        "question": "What is the national sport of Pakistan?",
-        "slug": "what-is-the-national-sport-of-pakistan",
-        "explanation": "Field hockey is considered the national sport of Pakistan, with the country having won numerous international tournaments.",
-        "tags": [
-            "Sports",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Cricket",
-                "isCorrect": false
-            },
-            {
-                "text": "Football",
-                "isCorrect": false
-            },
-            {
-                "text": "Field Hockey",
-                "isCorrect": true
-            },
-            {
-                "text": "Badminton",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1620,
-        "question": "What is the currency of Pakistan?",
-        "slug": "what-is-the-currency-of-pakistan",
-        "explanation": "The currency of Pakistan is the Pakistani Rupee (PKR).",
-        "tags": [
-            "Economy",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Dollar",
-                "isCorrect": false
-            },
-            {
-                "text": "Rupee",
-                "isCorrect": true
-            },
-            {
-                "text": "Euro",
-                "isCorrect": false
-            },
-            {
-                "text": "Pound",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1621,
-        "question": "What is the longest river in Pakistan?",
-        "slug": "what-is-the-longest-river-in-pakistan",
-        "explanation": "The Indus River is the longest river in Pakistan, stretching over 3,000 kilometers.",
-        "tags": [
-            "Geography",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Jhelum",
-                "isCorrect": false
-            },
-            {
-                "text": "Chenab",
-                "isCorrect": false
-            },
-            {
-                "text": "Indus",
-                "isCorrect": true
-            },
-            {
-                "text": "Ravi",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1622,
-        "question": "Who was the first president of Pakistan?",
-        "slug": "who-was-the-first-president-of-pakistan",
-        "explanation": "Iskander Mirza was the first president of Pakistan, serving from 1956 to 1958.",
-        "tags": [
-            "History",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Liaquat Ali Khan",
-                "isCorrect": false
-            },
-            {
-                "text": "Zulfikar Ali Bhutto",
-                "isCorrect": false
-            },
-            {
-                "text": "Iskander Mirza",
-                "isCorrect": true
-            },
-            {
-                "text": "Pervez Musharraf",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1623,
-        "question": "What is the largest organ in the human body?",
-        "slug": "what-is-the-largest-organ-in-the-human-body",
-        "explanation": "The skin is the largest organ of the human body, protecting internal organs and regulating temperature.",
-        "tags": [
-            "Biology",
-            "Human Anatomy"
-        ],
-        "options": [
-            {
-                "text": "Heart",
-                "isCorrect": false
-            },
-            {
-                "text": "Liver",
-                "isCorrect": false
-            },
-            {
-                "text": "Skin",
-                "isCorrect": true
-            },
-            {
-                "text": "Lungs",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1624,
-        "question": "What is the official language of Pakistan?",
-        "slug": "what-is-the-official-language-of-pakistan",
-        "explanation": "Urdu is the official language of Pakistan, although many regional languages are also widely spoken.",
-        "tags": [
-            "Language",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Punjabi",
-                "isCorrect": false
-            },
-            {
-                "text": "Urdu",
-                "isCorrect": true
-            },
-            {
-                "text": "Pashto",
-                "isCorrect": false
-            },
-            {
-                "text": "Sindhi",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1625,
-        "question": "What is the largest desert in Pakistan?",
-        "slug": "what-is-the-largest-desert-in-pakistan",
-        "explanation": "The Thar Desert is the largest desert in Pakistan, extending over 175,000 square kilometers.",
-        "tags": [
-            "Geography",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Kharan Desert",
-                "isCorrect": false
-            },
-            {
-                "text": "Thar Desert",
-                "isCorrect": true
-            },
-            {
-                "text": "Cholistan Desert",
-                "isCorrect": false
-            },
-            {
-                "text": "Makran Coastal Desert",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1626,
-        "question": "What is the famous historical mosque in Lahore?",
-        "slug": "what-is-the-famous-historical-mosque-in-lahore",
-        "explanation": "The Badshahi Mosque in Lahore is one of the largest and most iconic mosques in the world.",
-        "tags": [
-            "History",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Masjid al-Haram",
-                "isCorrect": false
-            },
-            {
-                "text": "Faisal Mosque",
-                "isCorrect": false
-            },
-            {
-                "text": "Badshahi Mosque",
-                "isCorrect": true
-            },
-            {
-                "text": "Sohbat Pur Mosque",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1627,
-        "question": "What is the tallest mountain in the world?",
-        "slug": "what-is-the-tallest-mountain-in-the-world",
-        "explanation": "Mount Everest is the tallest mountain in the world, standing at 29,032 feet (8,849 meters).",
-        "tags": [
-            "Geography",
-            "Mountains"
-        ],
-        "options": [
-            {
-                "text": "K2",
-                "isCorrect": false
-            },
-            {
-                "text": "Mount Everest",
-                "isCorrect": true
-            },
-            {
-                "text": "Kangchenjunga",
-                "isCorrect": false
-            },
-            {
-                "text": "Makalu",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1628,
-        "question": "What is the capital city of Japan?",
-        "slug": "what-is-the-capital-city-of-japan",
-        "explanation": "Tokyo is the capital city of Japan and one of the most populous cities in the world.",
-        "tags": [
-            "Geography",
-            "World",
-            "Capital Cities"
-        ],
-        "options": [
-            {
-                "text": "Osaka",
-                "isCorrect": false
-            },
-            {
-                "text": "Tokyo",
-                "isCorrect": true
-            },
-            {
-                "text": "Kyoto",
-                "isCorrect": false
-            },
-            {
-                "text": "Hiroshima",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1629,
-        "question": "What is the largest species of shark?",
-        "slug": "what-is-the-largest-species-of-shark",
-        "explanation": "The largest species of shark is the whale shark, which can grow up to 40 feet in length.",
-        "tags": [
-            "Marine Biology",
-            "Sharks"
-        ],
-        "options": [
-            {
-                "text": "Great White Shark",
-                "isCorrect": false
-            },
-            {
-                "text": "Whale Shark",
-                "isCorrect": true
-            },
-            {
-                "text": "Hammerhead Shark",
-                "isCorrect": false
-            },
-            {
-                "text": "Tiger Shark",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1630,
-        "question": "Who developed the theory of evolution by natural selection?",
-        "slug": "who-developed-the-theory-of-evolution-by-natural-selection",
-        "explanation": "Charles Darwin developed the theory of evolution by natural selection, explaining how species evolve over time.",
-        "tags": [
-            "Biology",
-            "Evolution"
-        ],
-        "options": [
-            {
-                "text": "Gregor Mendel",
-                "isCorrect": false
-            },
-            {
-                "text": "Charles Darwin",
-                "isCorrect": true
-            },
-            {
-                "text": "Louis Pasteur",
-                "isCorrect": false
-            },
-            {
-                "text": "Carl Linnaeus",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1631,
-        "question": "What is the currency of Japan?",
-        "slug": "what-is-the-currency-of-japan",
-        "explanation": "The currency of Japan is the Japanese Yen (JPY).",
-        "tags": [
-            "Economy",
-            "Currency"
-        ],
-        "options": [
-            {
-                "text": "Yuan",
-                "isCorrect": false
-            },
-            {
-                "text": "Yen",
-                "isCorrect": true
-            },
-            {
-                "text": "Won",
-                "isCorrect": false
-            },
-            {
-                "text": "Ringgit",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1632,
-        "question": "What is the chemical symbol for gold?",
-        "slug": "what-is-the-chemical-symbol-for-gold",
-        "explanation": "The chemical symbol for gold is 'Au', derived from the Latin word 'aurum'.",
-        "tags": [
-            "Chemistry",
-            "Elements"
-        ],
-        "options": [
-            {
-                "text": "Ag",
-                "isCorrect": false
-            },
-            {
-                "text": "Au",
-                "isCorrect": true
-            },
-            {
-                "text": "Pb",
-                "isCorrect": false
-            },
-            {
-                "text": "Fe",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1633,
-        "question": "Who is known as the father of modern physics?",
-        "slug": "who-is-known-as-the-father-of-modern-physics",
-        "explanation": "Albert Einstein is known as the father of modern physics, most famous for his theory of relativity.",
-        "tags": [
-            "Physics",
-            "History of Science"
-        ],
-        "options": [
-            {
-                "text": "Isaac Newton",
-                "isCorrect": false
-            },
-            {
-                "text": "Albert Einstein",
-                "isCorrect": true
-            },
-            {
-                "text": "Niels Bohr",
-                "isCorrect": false
-            },
-            {
-                "text": "Galileo Galilei",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1634,
-        "question": "What is the unit of electric current?",
-        "slug": "what-is-the-unit-of-electric-current",
-        "explanation": "The unit of electric current is the Ampere (A), named after the French scientist André-Marie Ampère.",
-        "tags": [
-            "Physics",
-            "Electricity"
-        ],
-        "options": [
-            {
-                "text": "Volt",
-                "isCorrect": false
-            },
-            {
-                "text": "Watt",
-                "isCorrect": false
-            },
-            {
-                "text": "Ampere",
-                "isCorrect": true
-            },
-            {
-                "text": "Ohm",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1635,
-        "question": "Which is the most common element in the Earth's crust?",
-        "slug": "which-is-the-most-common-element-in-the-earths-crust",
-        "explanation": "Oxygen is the most common element in the Earth's crust, making up about 46% of its mass.",
-        "tags": [
-            "Geology",
-            "Earth"
-        ],
-        "options": [
-            {
-                "text": "Iron",
-                "isCorrect": false
-            },
-            {
-                "text": "Oxygen",
-                "isCorrect": true
-            },
-            {
-                "text": "Aluminum",
-                "isCorrect": false
-            },
-            {
-                "text": "Silicon",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1636,
-        "question": "Which word is an antonym of 'brave'?",
-        "slug": "which-word-is-an-antonym-of-brave",
-        "explanation": "The antonym of 'brave' is 'cowardly', meaning lacking courage.",
-        "tags": [
-            "English",
-            "Vocabulary"
-        ],
-        "options": [
-            {
-                "text": "Bold",
-                "isCorrect": false
-            },
-            {
-                "text": "Cowardly",
-                "isCorrect": true
-            },
-            {
-                "text": "Fearless",
-                "isCorrect": false
-            },
-            {
-                "text": "Courageous",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1637,
-        "question": "Which is the largest ocean on Earth?",
-        "slug": "which-is-the-largest-ocean-on-earth",
-        "explanation": "The Pacific Ocean is the largest ocean on Earth, covering more than 63 million square miles.",
-        "tags": [
-            "Geography",
-            "World",
-            "Oceans"
-        ],
-        "options": [
-            {
-                "text": "Atlantic Ocean",
-                "isCorrect": false
-            },
-            {
-                "text": "Indian Ocean",
-                "isCorrect": false
-            },
-            {
-                "text": "Pacific Ocean",
-                "isCorrect": true
-            },
-            {
-                "text": "Southern Ocean",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1638,
-        "question": "What is the powerhouse of the cell?",
-        "slug": "what-is-the-powerhouse-of-the-cell",
-        "explanation": "The mitochondria are known as the powerhouse of the cell because they generate the energy the cell needs to perform various functions.",
-        "tags": [
-            "Biology",
-            "Cell Biology"
-        ],
-        "options": [
-            {
-                "text": "Nucleus",
-                "isCorrect": false
-            },
-            {
-                "text": "Mitochondria",
-                "isCorrect": true
-            },
-            {
-                "text": "Endoplasmic Reticulum",
-                "isCorrect": false
-            },
-            {
-                "text": "Golgi Apparatus",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1639,
-        "question": "What is the pH value of pure water?",
-        "slug": "what-is-the-ph-value-of-pure-water",
-        "explanation": "The pH value of pure water is 7, which is considered neutral on the pH scale.",
-        "tags": [
-            "Chemistry",
-            "Acids and Bases"
-        ],
-        "options": [
-            {
-                "text": "5",
-                "isCorrect": false
-            },
-            {
-                "text": "7",
-                "isCorrect": true
-            },
-            {
-                "text": "9",
-                "isCorrect": false
-            },
-            {
-                "text": "10",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1640,
-        "question": "What is the synonym of 'happy'?",
-        "slug": "what-is-the-synonym-of-happy",
-        "explanation": "The synonym for 'happy' is 'joyful', which also conveys a sense of pleasure or contentment.",
-        "tags": [
-            "English",
-            "Vocabulary"
-        ],
-        "options": [
-            {
-                "text": "Sad",
-                "isCorrect": false
-            },
-            {
-                "text": "Angry",
-                "isCorrect": false
-            },
-            {
-                "text": "Joyful",
-                "isCorrect": true
-            },
-            {
-                "text": "Tired",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1641,
-        "question": "Which country is the largest producer of coffee?",
-        "slug": "which-country-is-the-largest-producer-of-coffee",
-        "explanation": "Brazil is the world's largest producer of coffee, contributing around a third of all coffee supply.",
-        "tags": [
-            "World",
-            "Geography",
-            "Coffee"
-        ],
-        "options": [
-            {
-                "text": "Colombia",
-                "isCorrect": false
-            },
-            {
-                "text": "Brazil",
-                "isCorrect": true
-            },
-            {
-                "text": "Vietnam",
-                "isCorrect": false
-            },
-            {
-                "text": "Mexico",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1642,
-        "question": "What is the smallest bone in the human body?",
-        "slug": "what-is-the-smallest-bone-in-the-human-body",
-        "explanation": "The stapes (or stirrup) bone in the ear is the smallest bone in the human body.",
-        "tags": [
-            "Biology",
-            "Human Anatomy"
-        ],
-        "options": [
-            {
-                "text": "Femur",
-                "isCorrect": false
-            },
-            {
-                "text": "Stapes",
-                "isCorrect": true
-            },
-            {
-                "text": "Tibia",
-                "isCorrect": false
-            },
-            {
-                "text": "Ulna",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1643,
-        "question": "What is the chemical formula for water?",
-        "slug": "what-is-the-chemical-formula-for-water",
-        "explanation": "Water has the chemical formula H2O, consisting of two hydrogen atoms and one oxygen atom.",
-        "tags": [
-            "Chemistry",
-            "Elements",
-            "Molecules"
-        ],
-        "options": [
-            {
-                "text": "CO2",
-                "isCorrect": false
-            },
-            {
-                "text": "H2O",
-                "isCorrect": true
-            },
-            {
-                "text": "O2",
-                "isCorrect": false
-            },
-            {
-                "text": "CH4",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1644,
-        "question": "What is the SI unit of force?",
-        "slug": "what-is-the-si-unit-of-force",
-        "explanation": "The SI unit of force is the Newton (N), named after Sir Isaac Newton.",
-        "tags": [
-            "Physics",
-            "Forces",
-            "Units"
-        ],
-        "options": [
-            {
-                "text": "Joule",
-                "isCorrect": false
-            },
-            {
-                "text": "Newton",
-                "isCorrect": true
-            },
-            {
-                "text": "Pascal",
-                "isCorrect": false
-            },
-            {
-                "text": "Watt",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1645,
-        "question": "What is the capital of France?",
-        "slug": "what-is-the-capital-of-france",
-        "explanation": "The capital of France is Paris, known for its landmarks such as the Eiffel Tower and Louvre Museum.",
-        "tags": [
-            "Geography",
-            "World",
-            "Capital Cities"
-        ],
-        "options": [
-            {
-                "text": "Berlin",
-                "isCorrect": false
-            },
-            {
-                "text": "Paris",
-                "isCorrect": true
-            },
-            {
-                "text": "Rome",
-                "isCorrect": false
-            },
-            {
-                "text": "Madrid",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1646,
-        "question": "What is the atomic number of carbon?",
-        "slug": "what-is-the-atomic-number-of-carbon",
-        "explanation": "The atomic number of carbon is 6, meaning it has six protons in its nucleus.",
-        "tags": [
-            "Chemistry",
-            "Elements",
-            "Periodic Table"
-        ],
-        "options": [
-            {
-                "text": "5",
-                "isCorrect": false
-            },
-            {
-                "text": "6",
-                "isCorrect": true
-            },
-            {
-                "text": "7",
-                "isCorrect": false
-            },
-            {
-                "text": "8",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1647,
-        "question": "What is the speed of light in a vacuum?",
-        "slug": "what-is-the-speed-of-light-in-a-vacuum",
-        "explanation": "The speed of light in a vacuum is approximately 299,792 kilometers per second.",
-        "tags": [
-            "Physics",
-            "Light",
-            "Speed"
-        ],
-        "options": [
-            {
-                "text": "150,000 km/s",
-                "isCorrect": false
-            },
-            {
-                "text": "299,792 km/s",
-                "isCorrect": true
-            },
-            {
-                "text": "1,000,000 km/s",
-                "isCorrect": false
-            },
-            {
-                "text": "450,000 km/s",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1648,
-        "question": "Which of the following is a synonym for 'vivid'?",
-        "slug": "which-of-the-following-is-a-synonym-for-vivid",
-        "explanation": "'Vivid' means producing powerful feelings or strong, clear images in the mind. A synonym is 'bright'.",
-        "tags": [
-            "English",
-            "Vocabulary"
-        ],
-        "options": [
-            {
-                "text": "Dull",
-                "isCorrect": false
-            },
-            {
-                "text": "Vague",
-                "isCorrect": false
-            },
-            {
-                "text": "Bright",
-                "isCorrect": true
-            },
-            {
-                "text": "Blurred",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1649,
-        "question": "Which word is an antonym of 'generous'?",
-        "slug": "which-word-is-an-antonym-of-generous",
-        "explanation": "The antonym of 'generous' is 'stingy', meaning unwilling to share or give.",
-        "tags": [
-            "English",
-            "Vocabulary"
-        ],
-        "options": [
-            {
-                "text": "Kind",
-                "isCorrect": false
-            },
-            {
-                "text": "Stingy",
-                "isCorrect": true
-            },
-            {
-                "text": "Warmhearted",
-                "isCorrect": false
-            },
-            {
-                "text": "Charitable",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1650,
-        "question": "What is the capital of Canada?",
-        "slug": "what-is-the-capital-of-canada",
-        "explanation": "Ottawa is the capital city of Canada, located in the province of Ontario.",
-        "tags": [
-            "Geography",
-            "Capital Cities"
-        ],
-        "options": [
-            {
-                "text": "Toronto",
-                "isCorrect": false
-            },
-            {
-                "text": "Ottawa",
-                "isCorrect": true
-            },
-            {
-                "text": "Vancouver",
-                "isCorrect": false
-            },
-            {
-                "text": "Montreal",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1651,
-        "question": "Which planet is known as the 'Red Planet'?",
-        "slug": "which-planet-is-known-as-the-red-planet",
-        "explanation": "Mars is called the 'Red Planet' due to its reddish appearance caused by iron oxide on its surface.",
-        "tags": [
-            "Astronomy",
-            "Planets"
-        ],
-        "options": [
-            {
-                "text": "Venus",
-                "isCorrect": false
-            },
-            {
-                "text": "Earth",
-                "isCorrect": false
-            },
-            {
-                "text": "Mars",
-                "isCorrect": true
-            },
-            {
-                "text": "Jupiter",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1652,
-        "question": "What is the main gas found in the Earth's atmosphere?",
-        "slug": "what-is-the-main-gas-found-in-the-earths-atmosphere",
-        "explanation": "The Earth's atmosphere is made up mostly of nitrogen (78%), followed by oxygen (21%).",
-        "tags": [
-            "Geography",
-            "Atmosphere"
-        ],
-        "options": [
-            {
-                "text": "Oxygen",
-                "isCorrect": false
-            },
-            {
-                "text": "Carbon Dioxide",
-                "isCorrect": false
-            },
-            {
-                "text": "Nitrogen",
-                "isCorrect": true
-            },
-            {
-                "text": "Hydrogen",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1653,
-        "question": "Which animal is known for its ability to regenerate lost limbs?",
-        "slug": "which-animal-is-known-for-its-ability-to-regenerate-lost-limbs",
-        "explanation": "The axolotl is famous for its ability to regenerate lost limbs, as well as other body parts like the heart and brain.",
-        "tags": [
-            "Biology",
-            "Regeneration"
-        ],
-        "options": [
-            {
-                "text": "Lizard",
-                "isCorrect": false
-            },
-            {
-                "text": "Axolotl",
-                "isCorrect": true
-            },
-            {
-                "text": "Starfish",
-                "isCorrect": false
-            },
-            {
-                "text": "Frog",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1654,
-        "question": "What is the chemical symbol for silver?",
-        "slug": "what-is-the-chemical-symbol-for-silver",
-        "explanation": "The chemical symbol for silver is 'Ag', derived from the Latin word 'argentum'.",
-        "tags": [
-            "Chemistry",
-            "Elements"
-        ],
-        "options": [
-            {
-                "text": "Si",
-                "isCorrect": false
-            },
-            {
-                "text": "Ag",
-                "isCorrect": true
-            },
-            {
-                "text": "Au",
-                "isCorrect": false
-            },
-            {
-                "text": "Fe",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1655,
-        "question": "What is the most abundant gas in Earth's atmosphere?",
-        "slug": "what-is-the-most-abundant-gas-in-earths-atmosphere",
-        "explanation": "Nitrogen makes up 78% of Earth's atmosphere, making it the most abundant gas.",
-        "tags": [
-            "Science",
-            "Atmosphere"
-        ],
-        "options": [
-            {
-                "text": "Oxygen",
-                "isCorrect": false
-            },
-            {
-                "text": "Carbon Dioxide",
-                "isCorrect": false
-            },
-            {
-                "text": "Nitrogen",
-                "isCorrect": true
-            },
-            {
-                "text": "Argon",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1656,
-        "question": "Which scientist developed the theory of evolution by natural selection?",
-        "slug": "which-scientist-developed-the-theory-of-evolution-by-natural-selection",
-        "explanation": "Charles Darwin is known for developing the theory of evolution by natural selection.",
-        "tags": [
-            "Biology",
-            "Evolution"
-        ],
-        "options": [
-            {
-                "text": "Isaac Newton",
-                "isCorrect": false
-            },
-            {
-                "text": "Albert Einstein",
-                "isCorrect": false
-            },
-            {
-                "text": "Charles Darwin",
-                "isCorrect": true
-            },
-            {
-                "text": "Louis Pasteur",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1657,
-        "question": "Which of these is a noble gas?",
-        "slug": "which-of-these-is-a-noble-gas",
-        "explanation": "Noble gases are elements that are chemically inert, and one example is helium (He).",
-        "tags": [
-            "Chemistry",
-            "Noble Gases"
-        ],
-        "options": [
-            {
-                "text": "Oxygen",
-                "isCorrect": false
-            },
-            {
-                "text": "Helium",
-                "isCorrect": true
-            },
-            {
-                "text": "Nitrogen",
-                "isCorrect": false
-            },
-            {
-                "text": "Hydrogen",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1658,
-        "question": "Which planet is the closest to the sun?",
-        "slug": "which-planet-is-the-closest-to-the-sun",
-        "explanation": "Mercury is the closest planet to the sun.",
-        "tags": [
-            "Astronomy",
-            "Planets"
-        ],
-        "options": [
-            {
-                "text": "Earth",
-                "isCorrect": false
-            },
-            {
-                "text": "Venus",
-                "isCorrect": false
-            },
-            {
-                "text": "Mercury",
-                "isCorrect": true
-            },
-            {
-                "text": "Mars",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1659,
-        "question": "Who invented the light bulb?",
-        "slug": "who-invented-the-light-bulb",
-        "explanation": "Thomas Edison is credited with inventing the first practical light bulb.",
-        "tags": [
-            "History",
-            "Inventions"
-        ],
-        "options": [
-            {
-                "text": "Nikola Tesla",
-                "isCorrect": false
-            },
-            {
-                "text": "Thomas Edison",
-                "isCorrect": true
-            },
-            {
-                "text": "Alexander Graham Bell",
-                "isCorrect": false
-            },
-            {
-                "text": "James Watt",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1660,
-        "question": "Which vitamin is produced by the skin when exposed to sunlight?",
-        "slug": "which-vitamin-is-produced-by-the-skin-when-exposed-to-sunlight",
-        "explanation": "Vitamin D is produced by the skin when it is exposed to sunlight.",
-        "tags": [
-            "Biology",
-            "Vitamins"
-        ],
-        "options": [
-            {
-                "text": "Vitamin A",
-                "isCorrect": false
-            },
-            {
-                "text": "Vitamin B",
-                "isCorrect": false
-            },
-            {
-                "text": "Vitamin C",
-                "isCorrect": false
-            },
-            {
-                "text": "Vitamin D",
-                "isCorrect": true
-            }
-        ]
-    },
-    {
-        "id": 1661,
-        "question": "What is the chemical formula for methane?",
-        "slug": "what-is-the-chemical-formula-for-methane",
-        "explanation": "The chemical formula for methane is CH4, consisting of one carbon atom bonded to four hydrogen atoms.",
-        "tags": [
-            "Chemistry",
-            "Organic Chemistry"
-        ],
-        "options": [
-            {
-                "text": "C2H6",
-                "isCorrect": false
-            },
-            {
-                "text": "CH4",
-                "isCorrect": true
-            },
-            {
-                "text": "C3H8",
-                "isCorrect": false
-            },
-            {
-                "text": "CO2",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1659,
-        "question": "What is the largest planet in our solar system?",
-        "slug": "what-is-the-largest-planet-in-our-solar-system",
-        "explanation": "Jupiter is the largest planet in the solar system, with a diameter of over 86,000 miles.",
-        "tags": [
-            "Astronomy",
-            "Planets"
-        ],
-        "options": [
-            {
-                "text": "Saturn",
-                "isCorrect": false
-            },
-            {
-                "text": "Earth",
-                "isCorrect": false
-            },
-            {
-                "text": "Jupiter",
-                "isCorrect": true
-            },
-            {
-                "text": "Mars",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1660,
-        "question": "Which of the following is a characteristic of mammals?",
-        "slug": "which-of-the-following-is-a-characteristic-of-mammals",
-        "explanation": "Mammals are characterized by having hair or fur and the ability to nurse their young with milk.",
-        "tags": [
-            "Biology",
-            "Zoology"
-        ],
-        "options": [
-            {
-                "text": "Lay eggs",
-                "isCorrect": false
-            },
-            {
-                "text": "Have feathers",
-                "isCorrect": false
-            },
-            {
-                "text": "Have scales",
-                "isCorrect": false
-            },
-            {
-                "text": "Have hair or fur",
-                "isCorrect": true
-            }
-        ]
-    },
-    {
-        "id": 1661,
-        "question": "What is the largest ocean on Earth?",
-        "slug": "what-is-the-largest-ocean-on-earth",
-        "explanation": "The Pacific Ocean is the largest and deepest ocean on Earth.",
-        "tags": [
-            "Geography",
-            "Oceans"
-        ],
-        "options": [
-            {
-                "text": "Atlantic Ocean",
-                "isCorrect": false
-            },
-            {
-                "text": "Pacific Ocean",
-                "isCorrect": true
-            },
-            {
-                "text": "Indian Ocean",
-                "isCorrect": false
-            },
-            {
-                "text": "Arctic Ocean",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1662,
-        "question": "Which element is commonly used in the making of batteries?",
-        "slug": "which-element-is-commonly-used-in-the-making-of-batteries",
-        "explanation": "Lithium is commonly used in the making of rechargeable batteries, especially in portable electronics.",
-        "tags": [
-            "Chemistry",
-            "Elements"
-        ],
-        "options": [
-            {
-                "text": "Iron",
-                "isCorrect": false
-            },
-            {
-                "text": "Lithium",
-                "isCorrect": true
-            },
-            {
-                "text": "Copper",
-                "isCorrect": false
-            },
-            {
-                "text": "Lead",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1663,
-        "question": "What is the SI unit of temperature?",
-        "slug": "what-is-the-si-unit-of-temperature",
-        "explanation": "The SI unit of temperature is the Kelvin (K).",
-        "tags": [
-            "Physics",
-            "Units"
-        ],
-        "options": [
-            {
-                "text": "Celsius",
-                "isCorrect": false
-            },
-            {
-                "text": "Fahrenheit",
-                "isCorrect": false
-            },
-            {
-                "text": "Kelvin",
-                "isCorrect": true
-            },
-            {
-                "text": "Rankine",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1664,
-        "question": "Which of the following is an example of a chemical change?",
-        "slug": "which-of-the-following-is-an-example-of-a-chemical-change",
-        "explanation": "Burning wood is an example of a chemical change, as new substances (like carbon dioxide and water) are formed.",
-        "tags": [
-            "Chemistry",
-            "Chemical Changes"
-        ],
-        "options": [
-            {
-                "text": "Boiling water",
-                "isCorrect": false
-            },
-            {
-                "text": "Freezing water",
-                "isCorrect": false
-            },
-            {
-                "text": "Burning wood",
-                "isCorrect": true
-            },
-            {
-                "text": "Dissolving sugar",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1665,
-        "question": "Which country is famous for producing the most number of cars?",
-        "slug": "which-country-is-famous-for-producing-the-most-number-of-cars",
-        "explanation": "China is the world’s largest producer of cars, with millions of vehicles manufactured annually.",
-        "tags": [
-            "World",
-            "Economy",
-            "Automobiles"
-        ],
-        "options": [
-            {
-                "text": "Germany",
-                "isCorrect": false
-            },
-            {
-                "text": "Japan",
-                "isCorrect": false
-            },
-            {
-                "text": "China",
-                "isCorrect": true
-            },
-            {
-                "text": "USA",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1666,
-        "question": "Which vitamin is primarily produced by the skin when exposed to sunlight?",
-        "slug": "which-vitamin-is-primarily-produced-by-the-skin-when-exposed-to-sunlight",
-        "explanation": "Vitamin D is produced when the skin is exposed to sunlight, particularly UVB rays.",
-        "tags": [
-            "Biology",
-            "Vitamins"
-        ],
-        "options": [
-            {
-                "text": "Vitamin A",
-                "isCorrect": false
-            },
-            {
-                "text": "Vitamin B",
-                "isCorrect": false
-            },
-            {
-                "text": "Vitamin D",
-                "isCorrect": true
-            },
-            {
-                "text": "Vitamin E",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1667,
-        "question": "What is the longest river in the world?",
-        "slug": "what-is-the-longest-river-in-the-world",
-        "explanation": "The Nile River is traditionally considered the longest river in the world, although the Amazon River is also a contender.",
-        "tags": [
-            "Geography",
-            "Rivers"
-        ],
-        "options": [
-            {
-                "text": "Amazon River",
-                "isCorrect": false
-            },
-            {
-                "text": "Nile River",
-                "isCorrect": true
-            },
-            {
-                "text": "Yangtze River",
-                "isCorrect": false
-            },
-            {
-                "text": "Ganges River",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1668,
-        "question": "What is the chemical symbol for potassium?",
-        "slug": "what-is-the-chemical-symbol-for-potassium",
-        "explanation": "The chemical symbol for potassium is 'K', derived from the Latin word 'kalium'.",
-        "tags": [
-            "Chemistry",
-            "Elements"
-        ],
-        "options": [
-            {
-                "text": "P",
-                "isCorrect": false
-            },
-            {
-                "text": "K",
-                "isCorrect": true
-            },
-            {
-                "text": "Po",
-                "isCorrect": false
-            },
-            {
-                "text": "Ka",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1669,
-        "question": "Which of these planets has the most moons?",
-        "slug": "which-of-these-planets-has-the-most-moons",
-        "explanation": "Jupiter has the most moons, with over 79 confirmed moons orbiting it.",
-        "tags": [
-            "Astronomy",
-            "Moons"
-        ],
-        "options": [
-            {
-                "text": "Saturn",
-                "isCorrect": false
-            },
-            {
-                "text": "Mars",
-                "isCorrect": false
-            },
-            {
-                "text": "Jupiter",
-                "isCorrect": true
-            },
-            {
-                "text": "Uranus",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1670,
-        "question": "Which part of the plant is responsible for photosynthesis?",
-        "slug": "which-part-of-the-plant-is-responsible-for-photosynthesis",
-        "explanation": "The leaves of a plant are primarily responsible for photosynthesis.",
-        "tags": [
-            "Biology",
-            "Plants"
-        ],
-        "options": [
-            {
-                "text": "Roots",
-                "isCorrect": false
-            },
-            {
-                "text": "Stem",
-                "isCorrect": false
-            },
-            {
-                "text": "Leaves",
-                "isCorrect": true
-            },
-            {
-                "text": "Flowers",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1671,
-        "question": "What is the primary function of the mitochondria?",
-        "slug": "what-is-the-primary-function-of-the-mitochondria",
-        "explanation": "The mitochondria are known as the powerhouse of the cell, as they generate energy in the form of ATP.",
-        "tags": [
-            "Biology",
-            "Cell Biology"
-        ],
-        "options": [
-            {
-                "text": "Protein synthesis",
-                "isCorrect": false
-            },
-            {
-                "text": "Energy production",
-                "isCorrect": true
-            },
-            {
-                "text": "Cell division",
-                "isCorrect": false
-            },
-            {
-                "text": "DNA storage",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1672,
-        "question": "Which organ is responsible for pumping blood throughout the body?",
-        "slug": "which-organ-is-responsible-for-pumping-blood-throughout-the-body",
-        "explanation": "The heart is responsible for pumping blood throughout the body, delivering oxygen and nutrients.",
-        "tags": [
-            "Biology",
-            "Human Anatomy"
-        ],
-        "options": [
-            {
-                "text": "Brain",
-                "isCorrect": false
-            },
-            {
-                "text": "Lungs",
-                "isCorrect": false
-            },
-            {
-                "text": "Heart",
-                "isCorrect": true
-            },
-            {
-                "text": "Stomach",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1673,
-        "question": "What is the freezing point of water in Fahrenheit?",
-        "slug": "what-is-the-freezing-point-of-water-in-fahrenheit",
-        "explanation": "The freezing point of water in Fahrenheit is 32°F.",
-        "tags": [
-            "Science",
-            "Temperature"
-        ],
-        "options": [
-            {
-                "text": "0°F",
-                "isCorrect": false
-            },
-            {
-                "text": "32°F",
-                "isCorrect": true
-            },
-            {
-                "text": "100°F",
-                "isCorrect": false
-            },
-            {
-                "text": "212°F",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1674,
-        "question": "Who painted the Mona Lisa?",
-        "slug": "who-painted-the-mona-lisa",
-        "explanation": "Leonardo da Vinci painted the Mona Lisa, one of the most famous artworks in the world.",
-        "tags": [
-            "Art",
-            "History"
-        ],
-        "options": [
-            {
-                "text": "Pablo Picasso",
-                "isCorrect": false
-            },
-            {
-                "text": "Leonardo da Vinci",
-                "isCorrect": true
-            },
-            {
-                "text": "Vincent van Gogh",
-                "isCorrect": false
-            },
-            {
-                "text": "Michelangelo",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1675,
-        "question": "Which country is the largest by land area?",
-        "slug": "which-country-is-the-largest-by-land-area",
-        "explanation": "Russia is the largest country by land area, covering about 11% of the Earth's land area.",
-        "tags": [
-            "Geography",
-            "Countries"
-        ],
-        "options": [
-            {
-                "text": "USA",
-                "isCorrect": false
-            },
-            {
-                "text": "China",
-                "isCorrect": false
-            },
-            {
-                "text": "Russia",
-                "isCorrect": true
-            },
-            {
-                "text": "Canada",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1676,
-        "question": "What does DNA stand for?",
-        "slug": "what-does-dna-stand-for",
-        "explanation": "DNA stands for Deoxyribonucleic Acid, the molecule that carries genetic information.",
-        "tags": [
-            "Biology",
-            "Genetics"
-        ],
-        "options": [
-            {
-                "text": "Deoxyribonucleic Acid",
-                "isCorrect": true
-            },
-            {
-                "text": "Ribonucleic Acid",
-                "isCorrect": false
-            },
-            {
-                "text": "Deoxyribonucleic Agent",
-                "isCorrect": false
-            },
-            {
-                "text": "Ribonucleic Agent",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1677,
-        "question": "What is the largest continent by area?",
-        "slug": "what-is-the-largest-continent-by-area",
-        "explanation": "Asia is the largest continent by both area and population.",
-        "tags": [
-            "Geography",
-            "Continents"
-        ],
-        "options": [
-            {
-                "text": "Asia",
-                "isCorrect": true
-            },
-            {
-                "text": "Africa",
-                "isCorrect": false
-            },
-            {
-                "text": "North America",
-                "isCorrect": false
-            },
-            {
-                "text": "Australia",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1678,
-        "question": "Which element has the chemical symbol 'O'?",
-        "slug": "which-element-has-thechemical-symbol-o",
-        "explanation": "The chemical symbol 'O' stands for Oxygen, a vital element for life on Earth.",
-        "tags": [
-            "Chemistry",
-            "Elements"
-        ],
-        "options": [
-            {
-                "text": "Oxygen",
-                "isCorrect": true
-            },
-            {
-                "text": "Osmium",
-                "isCorrect": false
-            },
-            {
-                "text": "Ozone",
-                "isCorrect": false
-            },
-            {
-                "text": "Opium",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1679,
-        "question": "Which country is known as the 'Land of the Rising Sun'?",
-        "slug": "which-country-is-known-as-the-land-of-the-rising-sun",
-        "explanation": "Japan is often referred to as the 'Land of the Rising Sun' because it is located to the east of the Asian continent.",
-        "tags": [
-            "Geography",
-            "Countries"
-        ],
-        "options": [
-            {
-                "text": "China",
-                "isCorrect": false
-            },
-            {
-                "text": "Japan",
-                "isCorrect": true
-            },
-            {
-                "text": "South Korea",
-                "isCorrect": false
-            },
-            {
-                "text": "India",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1680,
-        "question": "What is the primary function of red blood cells?",
-        "slug": "what-is-the-primary-function-of-red-blood-cells",
-        "explanation": "Red blood cells carry oxygen from the lungs to the rest of the body and return carbon dioxide to be exhaled.",
-        "tags": [
-            "Biology",
-            "Human Anatomy"
-        ],
-        "options": [
-            {
-                "text": "Fight infections",
-                "isCorrect": false
-            },
-            {
-                "text": "Transport oxygen",
-                "isCorrect": true
-            },
-            {
-                "text": "Regulate body temperature",
-                "isCorrect": false
-            },
-            {
-                "text": "Aid digestion",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1681,
-        "question": "Which famous scientist developed the theory of general relativity?",
-        "slug": "which-famous-scientist-developed-the-theory-of-general-relativity",
-        "explanation": "Albert Einstein developed the theory of general relativity, which explains how gravity affects space-time.",
-        "tags": [
-            "Science",
-            "Physics"
-        ],
-        "options": [
-            {
-                "text": "Isaac Newton",
-                "isCorrect": false
-            },
-            {
-                "text": "Galileo Galilei",
-                "isCorrect": false
-            },
-            {
-                "text": "Albert Einstein",
-                "isCorrect": true
-            },
-            {
-                "text": "Nikola Tesla",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1682,
-        "question": "Which planet is closest to the sun?",
-        "slug": "which-planet-is-closest-to-the-sun",
-        "explanation": "Mercury is the closest planet to the sun in our solar system.",
-        "tags": [
-            "Astronomy",
-            "Planets"
-        ],
-        "options": [
-            {
-                "text": "Earth",
-                "isCorrect": false
-            },
-            {
-                "text": "Venus",
-                "isCorrect": false
-            },
-            {
-                "text": "Mercury",
-                "isCorrect": true
-            },
-            {
-                "text": "Mars",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1683,
-        "question": "What is the square root of 81?",
-        "slug": "what-is-the-square-root-of-81",
-        "explanation": "The square root of 81 is 9 because 9 × 9 = 81.",
-        "tags": [
-            "Math",
-            "Mathematics"
-        ],
-        "options": [
-            {
-                "text": "7",
-                "isCorrect": false
-            },
-            {
-                "text": "8",
-                "isCorrect": false
-            },
-            {
-                "text": "9",
-                "isCorrect": true
-            },
-            {
-                "text": "10",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1684,
-        "question": "Which animal is known for its ability to regenerate limbs?",
-        "slug": "which-animal-is-known-for-its-ability-to-regenerate-limbs",
-        "explanation": "The axolotl is known for its remarkable ability to regenerate limbs, spinal cord, and even parts of its heart.",
-        "tags": [
-            "Biology",
-            "Regeneration"
-        ],
-        "options": [
-            {
-                "text": "Starfish",
-                "isCorrect": false
-            },
-            {
-                "text": "Axolotl",
-                "isCorrect": true
-            },
-            {
-                "text": "Salamander",
-                "isCorrect": false
-            },
-            {
-                "text": "Lizard",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1685,
-        "question": "Which famous author wrote '1984'?",
-        "slug": "which-famous-author-wrote-1984",
-        "explanation": "George Orwell wrote the famous dystopian novel '1984'.",
-        "tags": [
-            "Literature",
-            "Books"
-        ],
-        "options": [
-            {
-                "text": "Aldous Huxley",
-                "isCorrect": false
-            },
-            {
-                "text": "George Orwell",
-                "isCorrect": true
-            },
-            {
-                "text": "J.K. Rowling",
-                "isCorrect": false
-            },
-            {
-                "text": "F. Scott Fitzgerald",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1686,
-        "question": "Which animal is the fastest on land?",
-        "slug": "which-animal-is-the-fastest-on-land",
-        "explanation": "The cheetah is the fastest land animal, capable of running up to 75 mph (120 km/h).",
-        "tags": [
-            "Biology",
-            "Animals"
-        ],
-        "options": [
-            {
-                "text": "Lion",
-                "isCorrect": false
-            },
-            {
-                "text": "Tiger",
-                "isCorrect": false
-            },
-            {
-                "text": "Cheetah",
-                "isCorrect": true
-            },
-            {
-                "text": "Elephant",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1687,
-        "question": "Which planet has the most moons in our solar system?",
-        "slug": "which-planet-has-the-most-moons-in-our-solar-system",
-        "explanation": "Jupiter has the most moons, with 79 known moons orbiting it.",
-        "tags": [
-            "Astronomy",
-            "Planets"
-        ],
-        "options": [
-            {
-                "text": "Mars",
-                "isCorrect": false
-            },
-            {
-                "text": "Saturn",
-                "isCorrect": false
-            },
-            {
-                "text": "Jupiter",
-                "isCorrect": true
-            },
-            {
-                "text": "Earth",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1688,
-        "question": "What is the hardest natural substance on Earth?",
-        "slug": "what-is-the-hardest-natural-substance-on-earth",
-        "explanation": "Diamond is the hardest known natural substance on Earth.",
-        "tags": [
-            "Chemistry",
-            "Materials"
-        ],
-        "options": [
-            {
-                "text": "Gold",
-                "isCorrect": false
-            },
-            {
-                "text": "Iron",
-                "isCorrect": false
-            },
-            {
-                "text": "Diamond",
-                "isCorrect": true
-            },
-            {
-                "text": "Graphite",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1689,
-        "question": "Which gas do plants absorb during photosynthesis?",
-        "slug": "which-gas-do-plants-absorb-during-photosynthesis",
-        "explanation": "Plants absorb carbon dioxide (CO2) during photosynthesis, using sunlight to convert it into oxygen and glucose.",
-        "tags": [
-            "Biology",
-            "Photosynthesis"
-        ],
-        "options": [
-            {
-                "text": "Oxygen",
-                "isCorrect": false
-            },
-            {
-                "text": "Carbon Dioxide",
-                "isCorrect": true
-            },
-            {
-                "text": "Nitrogen",
-                "isCorrect": false
-            },
-            {
-                "text": "Hydrogen",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1690,
-        "name": "Which planet is known as Earth's twin?",
-        "slug": "which-planet-is-known-as-earths-twin",
-        "explanation": "Venus is often called Earth's twin due to its similar size and composition.",
-        "tags": [
-            "planet",
-            "earth",
-            "astronomy"
-        ],
-        "options": [
-            {
-                "text": "Mars",
-                "isCorrect": false
-            },
-            {
-                "text": "Venus",
-                "isCorrect": true
-            },
-            {
-                "text": "Jupiter",
-                "isCorrect": false
-            },
-            {
-                "text": "Saturn",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1691,
-        "name": "Who is the father of physics?",
-        "slug": "who-is-the-father-of-physics",
-        "explanation": "The father of physics is often regarded as Isaac Newton or Albert Einstein due to their groundbreaking contributions to the field.",
-        "tags": [
-            "physics",
-            "science",
-            "history"
-        ],
-        "options": [
-            {
-                "text": "Isaac Newton",
-                "isCorrect": true
-            },
-            {
-                "text": "Albert Einstein",
-                "isCorrect": false
-            },
-            {
-                "text": "Galileo Galilei",
-                "isCorrect": false
-            },
-            {
-                "text": "Niels Bohr",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1692,
-        "name": "Which bone is the smallest bone in the human body?",
-        "slug": "which-bone-is-the-smallest-bone-in-the-human-body",
-        "explanation": "The stapes, located in the middle ear, is the smallest bone in the human body.",
-        "tags": [
-            "anatomy",
-            "biology",
-            "human-body"
-        ],
-        "options": [
-            {
-                "text": "Stapes",
-                "isCorrect": true
-            },
-            {
-                "text": "Femur",
-                "isCorrect": false
-            },
-            {
-                "text": "Tibia",
-                "isCorrect": false
-            },
-            {
-                "text": "Humerus",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1693,
-        "name": "Which mountain range is found in Pakistan?",
-        "slug": "which-mountain-range-is-found-in-pakistan",
-        "explanation": "The Karakoram Range, located in northern Pakistan, is famous for housing some of the world's tallest peaks, including K2.",
-        "tags": [
-            "geography",
-            "Pakistan",
-            "mountains"
-        ],
-        "options": [
-            {
-                "text": "Karakoram Range",
-                "isCorrect": true
-            },
-            {
-                "text": "Himalayas",
-                "isCorrect": false
-            },
-            {
-                "text": "Andes",
-                "isCorrect": false
-            },
-            {
-                "text": "Rocky Mountains",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1694,
-        "name": "Which is the largest continent by area?",
-        "slug": "which-is-the-largest-continent-by-area",
-        "explanation": "Asia is the largest continent by area, covering about 44.58 million square kilometers.",
-        "tags": [
-            "geography",
-            "continents",
-            "land"
-        ],
-        "options": [
-            {
-                "text": "Asia",
-                "isCorrect": true
-            },
-            {
-                "text": "Africa",
-                "isCorrect": false
-            },
-            {
-                "text": "North America",
-                "isCorrect": false
-            },
-            {
-                "text": "Europe",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1695,
-        "name": "Which city is known as the 'City of Lights' in Pakistan?",
-        "slug": "which-city-is-known-as-the-city-of-lights-in-pakistan",
-        "explanation": "Karachi is known as the 'City of Lights' due to its vibrant nightlife and significant role in Pakistan's economy.",
-        "tags": [
-            "city",
-            "Pakistan",
-            "culture"
-        ],
-        "options": [
-            {
-                "text": "Karachi",
-                "isCorrect": true
-            },
-            {
-                "text": "Lahore",
-                "isCorrect": false
-            },
-            {
-                "text": "Islamabad",
-                "isCorrect": false
-            },
-            {
-                "text": "Peshawar",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1796,
-        "name": "In which year did the Titanic sink?",
-        "slug": "in-which-year-did-the-titanic-sink",
-        "explanation": "The Titanic sank on April 15, 1912, after hitting an iceberg during its maiden voyage.",
-        "tags": [
-            "history",
-            "disasters",
-            "maritime"
-        ],
-        "options": [
-            {
-                "text": "1912",
-                "isCorrect": true
-            },
-            {
-                "text": "1905",
-                "isCorrect": false
-            },
-            {
-                "text": "1920",
-                "isCorrect": false
-            },
-            {
-                "text": "1918",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1697,
-        "name": "Which river is known as the lifeline of Pakistan?",
-        "slug": "which-river-is-known-as-the-lifeline-of-pakistan",
-        "explanation": "The Indus River is considered the lifeline of Pakistan as it supports the agricultural and irrigation needs of the country.",
-        "tags": [
-            "river",
-            "Pakistan",
-            "geography"
-        ],
-        "options": [
-            {
-                "text": "Indus River",
-                "isCorrect": true
-            },
-            {
-                "text": "Chenab River",
-                "isCorrect": false
-            },
-            {
-                "text": "Ravi River",
-                "isCorrect": false
-            },
-            {
-                "text": "Jhelum River",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1698,
-        "name": "What is the capital of Pakistan?",
-        "slug": "what-is-the-capital-of-pakistan",
-        "explanation": "Islamabad is the capital of Pakistan, serving as the political and administrative center of the country.",
-        "tags": [
-            "capital",
-            "Pakistan",
-            "geography"
-        ],
-        "options": [
-            {
-                "text": "Islamabad",
-                "isCorrect": true
-            },
-            {
-                "text": "Karachi",
-                "isCorrect": false
-            },
-            {
-                "text": "Lahore",
-                "isCorrect": false
-            },
-            {
-                "text": "Peshawar",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1699,
-        "name": "What is the capital city of India?",
-        "slug": "what-is-the-capital-city-of-india",
-        "explanation": "New Delhi is the capital city of India, serving as the seat of all three branches of the Indian government.",
-        "tags": [
-            "capital",
-            "India",
-            "geography"
-        ],
-        "options": [
-            {
-                "text": "New Delhi",
-                "isCorrect": true
-            },
-            {
-                "text": "Mumbai",
-                "isCorrect": false
-            },
-            {
-                "text": "Kolkata",
-                "isCorrect": false
-            },
-            {
-                "text": "Chennai",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1700,
-        "name": "What is the national game of Pakistan?",
-        "slug": "what-is-the-national-game-of-pakistan",
-        "explanation": "Hockey is the national game of Pakistan, reflecting the country's rich history and achievements in the sport.",
-        "tags": [
-            "sports",
-            "Pakistan",
-            "culture"
-        ],
-        "options": [
-            {
-                "text": "Hockey",
-                "isCorrect": true
-            },
-            {
-                "text": "Cricket",
-                "isCorrect": false
-            },
-            {
-                "text": "Football",
-                "isCorrect": false
-            },
-            {
-                "text": "Squash",
-                "isCorrect": false
-            }
-        ]
-    }
+  {
+    "id": 1601,
+    "question": "Which sport is traditionally played in the northern areas of Pakistan?",
+    "slug": "which-sport-is-traditionally-played-in-the-northern-areas-of-pakistan",
+    "explanation": "The traditional sport in the northern areas of Pakistan, especially in the regions of Gilgit-Baltistan, is Polo. It has been played for centuries and remains a significant part of the local culture.",
+    "tags": ["Pakistan", "sports", "Polo"],
+    "options": [
+      {
+        "text": "Cricket",
+        "isCorrect": false
+      },
+      {
+        "text": "Polo",
+        "isCorrect": true
+      },
+      {
+        "text": "Football",
+        "isCorrect": false
+      },
+      {
+        "text": "Hockey",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1602,
+    "question": "Which Pakistani city is famous for its truck art?",
+    "slug": "which-pakistani-city-is-famous-for-its-truck-art",
+    "explanation": "Karachi is widely known for its truck art, which is a colorful and intricate style of decoration applied to trucks, buses, and other vehicles. This art is part of Pakistan's cultural heritage.",
+    "tags": ["Pakistan", "culture", "art", "Karachi"],
+    "options": [
+      {
+        "text": "Lahore",
+        "isCorrect": false
+      },
+      {
+        "text": "Karachi",
+        "isCorrect": true
+      },
+      {
+        "text": "Islamabad",
+        "isCorrect": false
+      },
+      {
+        "text": "Peshawar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1603,
+    "question": "What is the national anthem of Pakistan?",
+    "slug": "what-is-the-national-anthem-of-pakistan",
+    "explanation": "The national anthem of Pakistan is called 'Qaumi Taranah,' composed by Ahmed Ghulamali Chagla. It was adopted in 1952 and is written in Urdu.",
+    "tags": ["Pakistan", "national anthem", "culture"],
+    "options": [
+      {
+        "text": "Jana Gana Mana",
+        "isCorrect": false
+      },
+      {
+        "text": "Qaumi Taranah",
+        "isCorrect": true
+      },
+      {
+        "text": "Vande Mataram",
+        "isCorrect": false
+      },
+      {
+        "text": "My Country Tis of Thee",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1604,
+    "question": "Who is the founder of Pakistan?",
+    "slug": "who-is-the-founder-of-pakistan",
+    "explanation": "The founder of Pakistan is Muhammad Ali Jinnah, who played a pivotal role in the creation of Pakistan in 1947 and served as its first Governor-General until his death.",
+    "tags": ["Pakistan", "history", "founder"],
+    "options": [
+      {
+        "text": "Allama Iqbal",
+        "isCorrect": false
+      },
+      {
+        "text": "Muhammad Ali Jinnah",
+        "isCorrect": true
+      },
+      {
+        "text": "Zulfikar Ali Bhutto",
+        "isCorrect": false
+      },
+      {
+        "text": "Benazir Bhutto",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1605,
+    "question": "Which historical site is known as the 'Mohenjo-Daro'?",
+    "slug": "which-historical-site-is-known-as-the-mohenjo-daro",
+    "explanation": "Mohenjo-Daro is an ancient city of the Indus Valley Civilization, located in present-day Pakistan.",
+    "tags": ["History", "Archaeology", "Pakistan"],
+    "options": [
+      {
+        "text": "Harappa",
+        "isCorrect": false
+      },
+      {
+        "text": "Mohenjo-Daro",
+        "isCorrect": true
+      },
+      {
+        "text": "Lahore",
+        "isCorrect": false
+      },
+      {
+        "text": "Karachi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1606,
+    "question": "What is the primary language spoken in Sindh province?",
+    "slug": "what-is-the-primary-language-spoken-in-sindh-province",
+    "explanation": "Sindhi is the primary language spoken in the Sindh province of Pakistan.",
+    "tags": ["Language", "Pakistan", "Sindh"],
+    "options": [
+      {
+        "text": "Pashto",
+        "isCorrect": false
+      },
+      {
+        "text": "Urdu",
+        "isCorrect": false
+      },
+      {
+        "text": "Sindhi",
+        "isCorrect": true
+      },
+      {
+        "text": "Punjabi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1607,
+    "question": "Which is the largest city in Pakistan by population?",
+    "slug": "which-is-the-largest-city-in-pakistan-by-population",
+    "explanation": "Karachi is the largest city in Pakistan by population.",
+    "tags": ["Geography", "Pakistan"],
+    "options": [
+      {
+        "text": "Lahore",
+        "isCorrect": false
+      },
+      {
+        "text": "Karachi",
+        "isCorrect": true
+      },
+      {
+        "text": "Islamabad",
+        "isCorrect": false
+      },
+      {
+        "text": "Quetta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1608,
+    "question": "What is the primary source of income in Pakistan?",
+    "slug": "what-is-the-primary-source-of-income-in-pakistan",
+    "explanation": "Agriculture is one of the primary sources of income for Pakistan, along with textiles and remittances.",
+    "tags": ["Economy", "Pakistan"],
+    "options": [
+      {
+        "text": "Agriculture",
+        "isCorrect": true
+      },
+      {
+        "text": "Mining",
+        "isCorrect": false
+      },
+      {
+        "text": "Tourism",
+        "isCorrect": false
+      },
+      {
+        "text": "Manufacturing",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1609,
+    "question": "What is the main religion practiced in Pakistan?",
+    "slug": "what-is-the-main-religion-practiced-in-pakistan",
+    "explanation": "Islam is the main religion practiced in Pakistan, with the majority of the population being Muslim.",
+    "tags": ["Religion", "Pakistan"],
+    "options": [
+      {
+        "text": "Christianity",
+        "isCorrect": false
+      },
+      {
+        "text": "Islam",
+        "isCorrect": true
+      },
+      {
+        "text": "Hinduism",
+        "isCorrect": false
+      },
+      {
+        "text": "Buddhism",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1610,
+    "question": "Which festival is famous for kite flying in Pakistan?",
+    "slug": "which-festival-is-famous-for-kite-flying-in-pakistan",
+    "explanation": "The Basant Festival, celebrated in Lahore, is famous for kite flying.",
+    "tags": ["Culture", "Festivals", "Pakistan"],
+    "options": [
+      {
+        "text": "Eid",
+        "isCorrect": false
+      },
+      {
+        "text": "Basant",
+        "isCorrect": true
+      },
+      {
+        "text": "Diwali",
+        "isCorrect": false
+      },
+      {
+        "text": "Christmas",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1611,
+    "question": "Which festival is celebrated to mark the end of Ramadan in Pakistan?",
+    "slug": "which-festival-is-celebrated-to-mark-the-end-of-ramadan-in-pakistan",
+    "explanation": "Eid-ul-Fitr is celebrated to mark the end of Ramadan in Pakistan and is one of the most important Islamic festivals.",
+    "tags": ["Festivals", "Religion", "Pakistan"],
+    "options": [
+      {
+        "text": "Eid-ul-Fitr",
+        "isCorrect": true
+      },
+      {
+        "text": "Eid-ul-Adha",
+        "isCorrect": false
+      },
+      {
+        "text": "Basant",
+        "isCorrect": false
+      },
+      {
+        "text": "Independence Day",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1612,
+    "question": "What is the national flower of Pakistan?",
+    "slug": "what-is-the-national-flower-of-pakistan",
+    "explanation": "The Jasmine is the national flower of Pakistan, symbolizing purity and simplicity.",
+    "tags": ["Nature", "Pakistan"],
+    "options": [
+      {
+        "text": "Rose",
+        "isCorrect": false
+      },
+      {
+        "text": "Jasmine",
+        "isCorrect": true
+      },
+      {
+        "text": "Lotus",
+        "isCorrect": false
+      },
+      {
+        "text": "Tulip",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1613,
+    "question": "What is the highest peak in Pakistan?",
+    "slug": "what-is-the-highest-peak-in-pakistan",
+    "explanation": "K2 is the highest peak in Pakistan, and it is also the second highest mountain in the world.",
+    "tags": ["Geography", "Pakistan"],
+    "options": [
+      {
+        "text": "K2",
+        "isCorrect": true
+      },
+      {
+        "text": "Mount Everest",
+        "isCorrect": false
+      },
+      {
+        "text": "Nanga Parbat",
+        "isCorrect": false
+      },
+      {
+        "text": "Kangchenjunga",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1614,
+    "question": "Which day is celebrated as Pakistan Day?",
+    "slug": "which-day-is-celebrated-as-pakistan-day",
+    "explanation": "Pakistan Day is celebrated on March 23 to commemorate the Lahore Resolution of 1940, which laid the foundation for the creation of Pakistan.",
+    "tags": ["History", "Pakistan"],
+    "options": [
+      {
+        "text": "August 14",
+        "isCorrect": false
+      },
+      {
+        "text": "March 23",
+        "isCorrect": true
+      },
+      {
+        "text": "December 25",
+        "isCorrect": false
+      },
+      {
+        "text": "November 14",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1615,
+    "question": "What is the national animal of Pakistan?",
+    "slug": "what-is-the-national-animal-of-pakistan",
+    "explanation": "The Markhor is the national animal of Pakistan. It is a wild goat known for its twisted horns.",
+    "tags": ["Nature", "Pakistan"],
+    "options": [
+      {
+        "text": "Lion",
+        "isCorrect": false
+      },
+      {
+        "text": "Markhor",
+        "isCorrect": true
+      },
+      {
+        "text": "Tiger",
+        "isCorrect": false
+      },
+      {
+        "text": "Elephant",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1616,
+    "question": "What is the largest province of Pakistan by area?",
+    "slug": "what-is-the-largest-province-of-pakistan-by-area",
+    "explanation": "Balochistan is the largest province of Pakistan by area, covering almost 44% of the country's total land area.",
+    "tags": ["Geography", "Pakistan"],
+    "options": [
+      {
+        "text": "Punjab",
+        "isCorrect": false
+      },
+      {
+        "text": "Sindh",
+        "isCorrect": false
+      },
+      {
+        "text": "Khyber Pakhtunkhwa",
+        "isCorrect": false
+      },
+      {
+        "text": "Balochistan",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1617,
+    "question": "What is the national bird of Pakistan?",
+    "slug": "what-is-the-national-bird-of-pakistan",
+    "explanation": "The Markhor is also the national bird of Pakistan, symbolizing strength and resilience.",
+    "tags": ["Nature", "Pakistan"],
+    "options": [
+      {
+        "text": "Peacock",
+        "isCorrect": false
+      },
+      {
+        "text": "Eagle",
+        "isCorrect": true
+      },
+      {
+        "text": "Pigeon",
+        "isCorrect": false
+      },
+      {
+        "text": "Parrot",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1618,
+    "question": "What is the date of independence of Pakistan?",
+    "slug": "what-is-the-date-of-independence-of-pakistan",
+    "explanation": "Pakistan gained independence from British rule on August 14, 1947.",
+    "tags": ["History", "Pakistan"],
+    "options": [
+      {
+        "text": "August 14, 1947",
+        "isCorrect": true
+      },
+      {
+        "text": "January 1, 1948",
+        "isCorrect": false
+      },
+      {
+        "text": "July 4, 1947",
+        "isCorrect": false
+      },
+      {
+        "text": "November 14, 1947",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1619,
+    "question": "What is the national sport of Pakistan?",
+    "slug": "what-is-the-national-sport-of-pakistan",
+    "explanation": "Field hockey is considered the national sport of Pakistan, with the country having won numerous international tournaments.",
+    "tags": ["Sports", "Pakistan"],
+    "options": [
+      {
+        "text": "Cricket",
+        "isCorrect": false
+      },
+      {
+        "text": "Football",
+        "isCorrect": false
+      },
+      {
+        "text": "Field Hockey",
+        "isCorrect": true
+      },
+      {
+        "text": "Badminton",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1620,
+    "question": "What is the currency of Pakistan?",
+    "slug": "what-is-the-currency-of-pakistan",
+    "explanation": "The currency of Pakistan is the Pakistani Rupee (PKR).",
+    "tags": ["Economy", "Pakistan"],
+    "options": [
+      {
+        "text": "Dollar",
+        "isCorrect": false
+      },
+      {
+        "text": "Rupee",
+        "isCorrect": true
+      },
+      {
+        "text": "Euro",
+        "isCorrect": false
+      },
+      {
+        "text": "Pound",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1621,
+    "question": "What is the longest river in Pakistan?",
+    "slug": "what-is-the-longest-river-in-pakistan",
+    "explanation": "The Indus River is the longest river in Pakistan, stretching over 3,000 kilometers.",
+    "tags": ["Geography", "Pakistan"],
+    "options": [
+      {
+        "text": "Jhelum",
+        "isCorrect": false
+      },
+      {
+        "text": "Chenab",
+        "isCorrect": false
+      },
+      {
+        "text": "Indus",
+        "isCorrect": true
+      },
+      {
+        "text": "Ravi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1622,
+    "question": "Who was the first president of Pakistan?",
+    "slug": "who-was-the-first-president-of-pakistan",
+    "explanation": "Iskander Mirza was the first president of Pakistan, serving from 1956 to 1958.",
+    "tags": ["History", "Pakistan"],
+    "options": [
+      {
+        "text": "Liaquat Ali Khan",
+        "isCorrect": false
+      },
+      {
+        "text": "Zulfikar Ali Bhutto",
+        "isCorrect": false
+      },
+      {
+        "text": "Iskander Mirza",
+        "isCorrect": true
+      },
+      {
+        "text": "Pervez Musharraf",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1623,
+    "question": "What is the largest organ in the human body?",
+    "slug": "what-is-the-largest-organ-in-the-human-body",
+    "explanation": "The skin is the largest organ of the human body, protecting internal organs and regulating temperature.",
+    "tags": ["Biology", "Human Anatomy"],
+    "options": [
+      {
+        "text": "Heart",
+        "isCorrect": false
+      },
+      {
+        "text": "Liver",
+        "isCorrect": false
+      },
+      {
+        "text": "Skin",
+        "isCorrect": true
+      },
+      {
+        "text": "Lungs",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1624,
+    "question": "What is the official language of Pakistan?",
+    "slug": "what-is-the-official-language-of-pakistan",
+    "explanation": "Urdu is the official language of Pakistan, although many regional languages are also widely spoken.",
+    "tags": ["Language", "Pakistan"],
+    "options": [
+      {
+        "text": "Punjabi",
+        "isCorrect": false
+      },
+      {
+        "text": "Urdu",
+        "isCorrect": true
+      },
+      {
+        "text": "Pashto",
+        "isCorrect": false
+      },
+      {
+        "text": "Sindhi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1625,
+    "question": "What is the largest desert in Pakistan?",
+    "slug": "what-is-the-largest-desert-in-pakistan",
+    "explanation": "The Thar Desert is the largest desert in Pakistan, extending over 175,000 square kilometers.",
+    "tags": ["Geography", "Pakistan"],
+    "options": [
+      {
+        "text": "Kharan Desert",
+        "isCorrect": false
+      },
+      {
+        "text": "Thar Desert",
+        "isCorrect": true
+      },
+      {
+        "text": "Cholistan Desert",
+        "isCorrect": false
+      },
+      {
+        "text": "Makran Coastal Desert",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1626,
+    "question": "What is the famous historical mosque in Lahore?",
+    "slug": "what-is-the-famous-historical-mosque-in-lahore",
+    "explanation": "The Badshahi Mosque in Lahore is one of the largest and most iconic mosques in the world.",
+    "tags": ["History", "Pakistan"],
+    "options": [
+      {
+        "text": "Masjid al-Haram",
+        "isCorrect": false
+      },
+      {
+        "text": "Faisal Mosque",
+        "isCorrect": false
+      },
+      {
+        "text": "Badshahi Mosque",
+        "isCorrect": true
+      },
+      {
+        "text": "Sohbat Pur Mosque",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1627,
+    "question": "What is the tallest mountain in the world?",
+    "slug": "what-is-the-tallest-mountain-in-the-world",
+    "explanation": "Mount Everest is the tallest mountain in the world, standing at 29,032 feet (8,849 meters).",
+    "tags": ["Geography", "Mountains"],
+    "options": [
+      {
+        "text": "K2",
+        "isCorrect": false
+      },
+      {
+        "text": "Mount Everest",
+        "isCorrect": true
+      },
+      {
+        "text": "Kangchenjunga",
+        "isCorrect": false
+      },
+      {
+        "text": "Makalu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1628,
+    "question": "What is the capital city of Japan?",
+    "slug": "what-is-the-capital-city-of-japan",
+    "explanation": "Tokyo is the capital city of Japan and one of the most populous cities in the world.",
+    "tags": ["Geography", "World", "Capital Cities"],
+    "options": [
+      {
+        "text": "Osaka",
+        "isCorrect": false
+      },
+      {
+        "text": "Tokyo",
+        "isCorrect": true
+      },
+      {
+        "text": "Kyoto",
+        "isCorrect": false
+      },
+      {
+        "text": "Hiroshima",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1629,
+    "question": "What is the largest species of shark?",
+    "slug": "what-is-the-largest-species-of-shark",
+    "explanation": "The largest species of shark is the whale shark, which can grow up to 40 feet in length.",
+    "tags": ["Marine Biology", "Sharks"],
+    "options": [
+      {
+        "text": "Great White Shark",
+        "isCorrect": false
+      },
+      {
+        "text": "Whale Shark",
+        "isCorrect": true
+      },
+      {
+        "text": "Hammerhead Shark",
+        "isCorrect": false
+      },
+      {
+        "text": "Tiger Shark",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1630,
+    "question": "Who developed the theory of evolution by natural selection?",
+    "slug": "who-developed-the-theory-of-evolution-by-natural-selection",
+    "explanation": "Charles Darwin developed the theory of evolution by natural selection, explaining how species evolve over time.",
+    "tags": ["Biology", "Evolution"],
+    "options": [
+      {
+        "text": "Gregor Mendel",
+        "isCorrect": false
+      },
+      {
+        "text": "Charles Darwin",
+        "isCorrect": true
+      },
+      {
+        "text": "Louis Pasteur",
+        "isCorrect": false
+      },
+      {
+        "text": "Carl Linnaeus",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1631,
+    "question": "What is the currency of Japan?",
+    "slug": "what-is-the-currency-of-japan",
+    "explanation": "The currency of Japan is the Japanese Yen (JPY).",
+    "tags": ["Economy", "Currency"],
+    "options": [
+      {
+        "text": "Yuan",
+        "isCorrect": false
+      },
+      {
+        "text": "Yen",
+        "isCorrect": true
+      },
+      {
+        "text": "Won",
+        "isCorrect": false
+      },
+      {
+        "text": "Ringgit",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1632,
+    "question": "What is the chemical symbol for gold?",
+    "slug": "what-is-the-chemical-symbol-for-gold",
+    "explanation": "The chemical symbol for gold is 'Au', derived from the Latin word 'aurum'.",
+    "tags": ["Chemistry", "Elements"],
+    "options": [
+      {
+        "text": "Ag",
+        "isCorrect": false
+      },
+      {
+        "text": "Au",
+        "isCorrect": true
+      },
+      {
+        "text": "Pb",
+        "isCorrect": false
+      },
+      {
+        "text": "Fe",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1633,
+    "question": "Who is known as the father of modern physics?",
+    "slug": "who-is-known-as-the-father-of-modern-physics",
+    "explanation": "Albert Einstein is known as the father of modern physics, most famous for his theory of relativity.",
+    "tags": ["Physics", "History of Science"],
+    "options": [
+      {
+        "text": "Isaac Newton",
+        "isCorrect": false
+      },
+      {
+        "text": "Albert Einstein",
+        "isCorrect": true
+      },
+      {
+        "text": "Niels Bohr",
+        "isCorrect": false
+      },
+      {
+        "text": "Galileo Galilei",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1634,
+    "question": "What is the unit of electric current?",
+    "slug": "what-is-the-unit-of-electric-current",
+    "explanation": "The unit of electric current is the Ampere (A), named after the French scientist André-Marie Ampère.",
+    "tags": ["Physics", "Electricity"],
+    "options": [
+      {
+        "text": "Volt",
+        "isCorrect": false
+      },
+      {
+        "text": "Watt",
+        "isCorrect": false
+      },
+      {
+        "text": "Ampere",
+        "isCorrect": true
+      },
+      {
+        "text": "Ohm",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1635,
+    "question": "Which is the most common element in the Earth's crust?",
+    "slug": "which-is-the-most-common-element-in-the-earths-crust",
+    "explanation": "Oxygen is the most common element in the Earth's crust, making up about 46% of its mass.",
+    "tags": ["Geology", "Earth"],
+    "options": [
+      {
+        "text": "Iron",
+        "isCorrect": false
+      },
+      {
+        "text": "Oxygen",
+        "isCorrect": true
+      },
+      {
+        "text": "Aluminum",
+        "isCorrect": false
+      },
+      {
+        "text": "Silicon",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1636,
+    "question": "Which word is an antonym of 'brave'?",
+    "slug": "which-word-is-an-antonym-of-brave",
+    "explanation": "The antonym of 'brave' is 'cowardly', meaning lacking courage.",
+    "tags": ["English", "Vocabulary"],
+    "options": [
+      {
+        "text": "Bold",
+        "isCorrect": false
+      },
+      {
+        "text": "Cowardly",
+        "isCorrect": true
+      },
+      {
+        "text": "Fearless",
+        "isCorrect": false
+      },
+      {
+        "text": "Courageous",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1637,
+    "question": "Which is the largest ocean on Earth?",
+    "slug": "which-is-the-largest-ocean-on-earth",
+    "explanation": "The Pacific Ocean is the largest ocean on Earth, covering more than 63 million square miles.",
+    "tags": ["Geography", "World", "Oceans"],
+    "options": [
+      {
+        "text": "Atlantic Ocean",
+        "isCorrect": false
+      },
+      {
+        "text": "Indian Ocean",
+        "isCorrect": false
+      },
+      {
+        "text": "Pacific Ocean",
+        "isCorrect": true
+      },
+      {
+        "text": "Southern Ocean",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1638,
+    "question": "What is the powerhouse of the cell?",
+    "slug": "what-is-the-powerhouse-of-the-cell",
+    "explanation": "The mitochondria are known as the powerhouse of the cell because they generate the energy the cell needs to perform various functions.",
+    "tags": ["Biology", "Cell Biology"],
+    "options": [
+      {
+        "text": "Nucleus",
+        "isCorrect": false
+      },
+      {
+        "text": "Mitochondria",
+        "isCorrect": true
+      },
+      {
+        "text": "Endoplasmic Reticulum",
+        "isCorrect": false
+      },
+      {
+        "text": "Golgi Apparatus",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1639,
+    "question": "What is the pH value of pure water?",
+    "slug": "what-is-the-ph-value-of-pure-water",
+    "explanation": "The pH value of pure water is 7, which is considered neutral on the pH scale.",
+    "tags": ["Chemistry", "Acids and Bases"],
+    "options": [
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "7",
+        "isCorrect": true
+      },
+      {
+        "text": "9",
+        "isCorrect": false
+      },
+      {
+        "text": "10",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1640,
+    "question": "What is the synonym of 'happy'?",
+    "slug": "what-is-the-synonym-of-happy",
+    "explanation": "The synonym for 'happy' is 'joyful', which also conveys a sense of pleasure or contentment.",
+    "tags": ["English", "Vocabulary"],
+    "options": [
+      {
+        "text": "Sad",
+        "isCorrect": false
+      },
+      {
+        "text": "Angry",
+        "isCorrect": false
+      },
+      {
+        "text": "Joyful",
+        "isCorrect": true
+      },
+      {
+        "text": "Tired",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1641,
+    "question": "Which country is the largest producer of coffee?",
+    "slug": "which-country-is-the-largest-producer-of-coffee",
+    "explanation": "Brazil is the world's largest producer of coffee, contributing around a third of all coffee supply.",
+    "tags": ["World", "Geography", "Coffee"],
+    "options": [
+      {
+        "text": "Colombia",
+        "isCorrect": false
+      },
+      {
+        "text": "Brazil",
+        "isCorrect": true
+      },
+      {
+        "text": "Vietnam",
+        "isCorrect": false
+      },
+      {
+        "text": "Mexico",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1642,
+    "question": "What is the smallest bone in the human body?",
+    "slug": "what-is-the-smallest-bone-in-the-human-body",
+    "explanation": "The stapes (or stirrup) bone in the ear is the smallest bone in the human body.",
+    "tags": ["Biology", "Human Anatomy"],
+    "options": [
+      {
+        "text": "Femur",
+        "isCorrect": false
+      },
+      {
+        "text": "Stapes",
+        "isCorrect": true
+      },
+      {
+        "text": "Tibia",
+        "isCorrect": false
+      },
+      {
+        "text": "Ulna",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1643,
+    "question": "What is the chemical formula for water?",
+    "slug": "what-is-the-chemical-formula-for-water",
+    "explanation": "Water has the chemical formula H2O, consisting of two hydrogen atoms and one oxygen atom.",
+    "tags": ["Chemistry", "Elements", "Molecules"],
+    "options": [
+      {
+        "text": "CO2",
+        "isCorrect": false
+      },
+      {
+        "text": "H2O",
+        "isCorrect": true
+      },
+      {
+        "text": "O2",
+        "isCorrect": false
+      },
+      {
+        "text": "CH4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1644,
+    "question": "What is the SI unit of force?",
+    "slug": "what-is-the-si-unit-of-force",
+    "explanation": "The SI unit of force is the Newton (N), named after Sir Isaac Newton.",
+    "tags": ["Physics", "Forces", "Units"],
+    "options": [
+      {
+        "text": "Joule",
+        "isCorrect": false
+      },
+      {
+        "text": "Newton",
+        "isCorrect": true
+      },
+      {
+        "text": "Pascal",
+        "isCorrect": false
+      },
+      {
+        "text": "Watt",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1645,
+    "question": "What is the capital of France?",
+    "slug": "what-is-the-capital-of-france",
+    "explanation": "The capital of France is Paris, known for its landmarks such as the Eiffel Tower and Louvre Museum.",
+    "tags": ["Geography", "World", "Capital Cities"],
+    "options": [
+      {
+        "text": "Berlin",
+        "isCorrect": false
+      },
+      {
+        "text": "Paris",
+        "isCorrect": true
+      },
+      {
+        "text": "Rome",
+        "isCorrect": false
+      },
+      {
+        "text": "Madrid",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1646,
+    "question": "What is the atomic number of carbon?",
+    "slug": "what-is-the-atomic-number-of-carbon",
+    "explanation": "The atomic number of carbon is 6, meaning it has six protons in its nucleus.",
+    "tags": ["Chemistry", "Elements", "Periodic Table"],
+    "options": [
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "6",
+        "isCorrect": true
+      },
+      {
+        "text": "7",
+        "isCorrect": false
+      },
+      {
+        "text": "8",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1647,
+    "question": "What is the speed of light in a vacuum?",
+    "slug": "what-is-the-speed-of-light-in-a-vacuum",
+    "explanation": "The speed of light in a vacuum is approximately 299,792 kilometers per second.",
+    "tags": ["Physics", "Light", "Speed"],
+    "options": [
+      {
+        "text": "150,000 km/s",
+        "isCorrect": false
+      },
+      {
+        "text": "299,792 km/s",
+        "isCorrect": true
+      },
+      {
+        "text": "1,000,000 km/s",
+        "isCorrect": false
+      },
+      {
+        "text": "450,000 km/s",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1648,
+    "question": "Which of the following is a synonym for 'vivid'?",
+    "slug": "which-of-the-following-is-a-synonym-for-vivid",
+    "explanation": "'Vivid' means producing powerful feelings or strong, clear images in the mind. A synonym is 'bright'.",
+    "tags": ["English", "Vocabulary"],
+    "options": [
+      {
+        "text": "Dull",
+        "isCorrect": false
+      },
+      {
+        "text": "Vague",
+        "isCorrect": false
+      },
+      {
+        "text": "Bright",
+        "isCorrect": true
+      },
+      {
+        "text": "Blurred",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1649,
+    "question": "Which word is an antonym of 'generous'?",
+    "slug": "which-word-is-an-antonym-of-generous",
+    "explanation": "The antonym of 'generous' is 'stingy', meaning unwilling to share or give.",
+    "tags": ["English", "Vocabulary"],
+    "options": [
+      {
+        "text": "Kind",
+        "isCorrect": false
+      },
+      {
+        "text": "Stingy",
+        "isCorrect": true
+      },
+      {
+        "text": "Warmhearted",
+        "isCorrect": false
+      },
+      {
+        "text": "Charitable",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1650,
+    "question": "What is the capital of Canada?",
+    "slug": "what-is-the-capital-of-canada",
+    "explanation": "Ottawa is the capital city of Canada, located in the province of Ontario.",
+    "tags": ["Geography", "Capital Cities"],
+    "options": [
+      {
+        "text": "Toronto",
+        "isCorrect": false
+      },
+      {
+        "text": "Ottawa",
+        "isCorrect": true
+      },
+      {
+        "text": "Vancouver",
+        "isCorrect": false
+      },
+      {
+        "text": "Montreal",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1651,
+    "question": "Which planet is known as the 'Red Planet'?",
+    "slug": "which-planet-is-known-as-the-red-planet",
+    "explanation": "Mars is called the 'Red Planet' due to its reddish appearance caused by iron oxide on its surface.",
+    "tags": ["Astronomy", "Planets"],
+    "options": [
+      {
+        "text": "Venus",
+        "isCorrect": false
+      },
+      {
+        "text": "Earth",
+        "isCorrect": false
+      },
+      {
+        "text": "Mars",
+        "isCorrect": true
+      },
+      {
+        "text": "Jupiter",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1652,
+    "question": "What is the main gas found in the Earth's atmosphere?",
+    "slug": "what-is-the-main-gas-found-in-the-earths-atmosphere",
+    "explanation": "The Earth's atmosphere is made up mostly of nitrogen (78%), followed by oxygen (21%).",
+    "tags": ["Geography", "Atmosphere"],
+    "options": [
+      {
+        "text": "Oxygen",
+        "isCorrect": false
+      },
+      {
+        "text": "Carbon Dioxide",
+        "isCorrect": false
+      },
+      {
+        "text": "Nitrogen",
+        "isCorrect": true
+      },
+      {
+        "text": "Hydrogen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1653,
+    "question": "Which animal is known for its ability to regenerate lost limbs?",
+    "slug": "which-animal-is-known-for-its-ability-to-regenerate-lost-limbs",
+    "explanation": "The axolotl is famous for its ability to regenerate lost limbs, as well as other body parts like the heart and brain.",
+    "tags": ["Biology", "Regeneration"],
+    "options": [
+      {
+        "text": "Lizard",
+        "isCorrect": false
+      },
+      {
+        "text": "Axolotl",
+        "isCorrect": true
+      },
+      {
+        "text": "Starfish",
+        "isCorrect": false
+      },
+      {
+        "text": "Frog",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1654,
+    "question": "What is the chemical symbol for silver?",
+    "slug": "what-is-the-chemical-symbol-for-silver",
+    "explanation": "The chemical symbol for silver is 'Ag', derived from the Latin word 'argentum'.",
+    "tags": ["Chemistry", "Elements"],
+    "options": [
+      {
+        "text": "Si",
+        "isCorrect": false
+      },
+      {
+        "text": "Ag",
+        "isCorrect": true
+      },
+      {
+        "text": "Au",
+        "isCorrect": false
+      },
+      {
+        "text": "Fe",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1655,
+    "question": "What is the most abundant gas in Earth's atmosphere?",
+    "slug": "what-is-the-most-abundant-gas-in-earths-atmosphere",
+    "explanation": "Nitrogen makes up 78% of Earth's atmosphere, making it the most abundant gas.",
+    "tags": ["Science", "Atmosphere"],
+    "options": [
+      {
+        "text": "Oxygen",
+        "isCorrect": false
+      },
+      {
+        "text": "Carbon Dioxide",
+        "isCorrect": false
+      },
+      {
+        "text": "Nitrogen",
+        "isCorrect": true
+      },
+      {
+        "text": "Argon",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1656,
+    "question": "Which scientist developed the theory of evolution by natural selection?",
+    "slug": "which-scientist-developed-the-theory-of-evolution-by-natural-selection",
+    "explanation": "Charles Darwin is known for developing the theory of evolution by natural selection.",
+    "tags": ["Biology", "Evolution"],
+    "options": [
+      {
+        "text": "Isaac Newton",
+        "isCorrect": false
+      },
+      {
+        "text": "Albert Einstein",
+        "isCorrect": false
+      },
+      {
+        "text": "Charles Darwin",
+        "isCorrect": true
+      },
+      {
+        "text": "Louis Pasteur",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1657,
+    "question": "Which of these is a noble gas?",
+    "slug": "which-of-these-is-a-noble-gas",
+    "explanation": "Noble gases are elements that are chemically inert, and one example is helium (He).",
+    "tags": ["Chemistry", "Noble Gases"],
+    "options": [
+      {
+        "text": "Oxygen",
+        "isCorrect": false
+      },
+      {
+        "text": "Helium",
+        "isCorrect": true
+      },
+      {
+        "text": "Nitrogen",
+        "isCorrect": false
+      },
+      {
+        "text": "Hydrogen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1658,
+    "question": "Which planet is the closest to the sun?",
+    "slug": "which-planet-is-the-closest-to-the-sun",
+    "explanation": "Mercury is the closest planet to the sun.",
+    "tags": ["Astronomy", "Planets"],
+    "options": [
+      {
+        "text": "Earth",
+        "isCorrect": false
+      },
+      {
+        "text": "Venus",
+        "isCorrect": false
+      },
+      {
+        "text": "Mercury",
+        "isCorrect": true
+      },
+      {
+        "text": "Mars",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1659,
+    "question": "Who invented the light bulb?",
+    "slug": "who-invented-the-light-bulb",
+    "explanation": "Thomas Edison is credited with inventing the first practical light bulb.",
+    "tags": ["History", "Inventions"],
+    "options": [
+      {
+        "text": "Nikola Tesla",
+        "isCorrect": false
+      },
+      {
+        "text": "Thomas Edison",
+        "isCorrect": true
+      },
+      {
+        "text": "Alexander Graham Bell",
+        "isCorrect": false
+      },
+      {
+        "text": "James Watt",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1660,
+    "question": "Which vitamin is produced by the skin when exposed to sunlight?",
+    "slug": "which-vitamin-is-produced-by-the-skin-when-exposed-to-sunlight",
+    "explanation": "Vitamin D is produced by the skin when it is exposed to sunlight.",
+    "tags": ["Biology", "Vitamins"],
+    "options": [
+      {
+        "text": "Vitamin A",
+        "isCorrect": false
+      },
+      {
+        "text": "Vitamin B",
+        "isCorrect": false
+      },
+      {
+        "text": "Vitamin C",
+        "isCorrect": false
+      },
+      {
+        "text": "Vitamin D",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1661,
+    "question": "What is the chemical formula for methane?",
+    "slug": "what-is-the-chemical-formula-for-methane",
+    "explanation": "The chemical formula for methane is CH4, consisting of one carbon atom bonded to four hydrogen atoms.",
+    "tags": ["Chemistry", "Organic Chemistry"],
+    "options": [
+      {
+        "text": "C2H6",
+        "isCorrect": false
+      },
+      {
+        "text": "CH4",
+        "isCorrect": true
+      },
+      {
+        "text": "C3H8",
+        "isCorrect": false
+      },
+      {
+        "text": "CO2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1659,
+    "question": "What is the largest planet in our solar system?",
+    "slug": "what-is-the-largest-planet-in-our-solar-system",
+    "explanation": "Jupiter is the largest planet in the solar system, with a diameter of over 86,000 miles.",
+    "tags": ["Astronomy", "Planets"],
+    "options": [
+      {
+        "text": "Saturn",
+        "isCorrect": false
+      },
+      {
+        "text": "Earth",
+        "isCorrect": false
+      },
+      {
+        "text": "Jupiter",
+        "isCorrect": true
+      },
+      {
+        "text": "Mars",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1660,
+    "question": "Which of the following is a characteristic of mammals?",
+    "slug": "which-of-the-following-is-a-characteristic-of-mammals",
+    "explanation": "Mammals are characterized by having hair or fur and the ability to nurse their young with milk.",
+    "tags": ["Biology", "Zoology"],
+    "options": [
+      {
+        "text": "Lay eggs",
+        "isCorrect": false
+      },
+      {
+        "text": "Have feathers",
+        "isCorrect": false
+      },
+      {
+        "text": "Have scales",
+        "isCorrect": false
+      },
+      {
+        "text": "Have hair or fur",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1661,
+    "question": "What is the largest ocean on Earth?",
+    "slug": "what-is-the-largest-ocean-on-earth",
+    "explanation": "The Pacific Ocean is the largest and deepest ocean on Earth.",
+    "tags": ["Geography", "Oceans"],
+    "options": [
+      {
+        "text": "Atlantic Ocean",
+        "isCorrect": false
+      },
+      {
+        "text": "Pacific Ocean",
+        "isCorrect": true
+      },
+      {
+        "text": "Indian Ocean",
+        "isCorrect": false
+      },
+      {
+        "text": "Arctic Ocean",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1662,
+    "question": "Which element is commonly used in the making of batteries?",
+    "slug": "which-element-is-commonly-used-in-the-making-of-batteries",
+    "explanation": "Lithium is commonly used in the making of rechargeable batteries, especially in portable electronics.",
+    "tags": ["Chemistry", "Elements"],
+    "options": [
+      {
+        "text": "Iron",
+        "isCorrect": false
+      },
+      {
+        "text": "Lithium",
+        "isCorrect": true
+      },
+      {
+        "text": "Copper",
+        "isCorrect": false
+      },
+      {
+        "text": "Lead",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1663,
+    "question": "What is the SI unit of temperature?",
+    "slug": "what-is-the-si-unit-of-temperature",
+    "explanation": "The SI unit of temperature is the Kelvin (K).",
+    "tags": ["Physics", "Units"],
+    "options": [
+      {
+        "text": "Celsius",
+        "isCorrect": false
+      },
+      {
+        "text": "Fahrenheit",
+        "isCorrect": false
+      },
+      {
+        "text": "Kelvin",
+        "isCorrect": true
+      },
+      {
+        "text": "Rankine",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1664,
+    "question": "Which of the following is an example of a chemical change?",
+    "slug": "which-of-the-following-is-an-example-of-a-chemical-change",
+    "explanation": "Burning wood is an example of a chemical change, as new substances (like carbon dioxide and water) are formed.",
+    "tags": ["Chemistry", "Chemical Changes"],
+    "options": [
+      {
+        "text": "Boiling water",
+        "isCorrect": false
+      },
+      {
+        "text": "Freezing water",
+        "isCorrect": false
+      },
+      {
+        "text": "Burning wood",
+        "isCorrect": true
+      },
+      {
+        "text": "Dissolving sugar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1665,
+    "question": "Which country is famous for producing the most number of cars?",
+    "slug": "which-country-is-famous-for-producing-the-most-number-of-cars",
+    "explanation": "China is the world’s largest producer of cars, with millions of vehicles manufactured annually.",
+    "tags": ["World", "Economy", "Automobiles"],
+    "options": [
+      {
+        "text": "Germany",
+        "isCorrect": false
+      },
+      {
+        "text": "Japan",
+        "isCorrect": false
+      },
+      {
+        "text": "China",
+        "isCorrect": true
+      },
+      {
+        "text": "USA",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1666,
+    "question": "Which vitamin is primarily produced by the skin when exposed to sunlight?",
+    "slug": "which-vitamin-is-primarily-produced-by-the-skin-when-exposed-to-sunlight",
+    "explanation": "Vitamin D is produced when the skin is exposed to sunlight, particularly UVB rays.",
+    "tags": ["Biology", "Vitamins"],
+    "options": [
+      {
+        "text": "Vitamin A",
+        "isCorrect": false
+      },
+      {
+        "text": "Vitamin B",
+        "isCorrect": false
+      },
+      {
+        "text": "Vitamin D",
+        "isCorrect": true
+      },
+      {
+        "text": "Vitamin E",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1667,
+    "question": "What is the longest river in the world?",
+    "slug": "what-is-the-longest-river-in-the-world",
+    "explanation": "The Nile River is traditionally considered the longest river in the world, although the Amazon River is also a contender.",
+    "tags": ["Geography", "Rivers"],
+    "options": [
+      {
+        "text": "Amazon River",
+        "isCorrect": false
+      },
+      {
+        "text": "Nile River",
+        "isCorrect": true
+      },
+      {
+        "text": "Yangtze River",
+        "isCorrect": false
+      },
+      {
+        "text": "Ganges River",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1668,
+    "question": "What is the chemical symbol for potassium?",
+    "slug": "what-is-the-chemical-symbol-for-potassium",
+    "explanation": "The chemical symbol for potassium is 'K', derived from the Latin word 'kalium'.",
+    "tags": ["Chemistry", "Elements"],
+    "options": [
+      {
+        "text": "P",
+        "isCorrect": false
+      },
+      {
+        "text": "K",
+        "isCorrect": true
+      },
+      {
+        "text": "Po",
+        "isCorrect": false
+      },
+      {
+        "text": "Ka",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1669,
+    "question": "Which of these planets has the most moons?",
+    "slug": "which-of-these-planets-has-the-most-moons",
+    "explanation": "Jupiter has the most moons, with over 79 confirmed moons orbiting it.",
+    "tags": ["Astronomy", "Moons"],
+    "options": [
+      {
+        "text": "Saturn",
+        "isCorrect": false
+      },
+      {
+        "text": "Mars",
+        "isCorrect": false
+      },
+      {
+        "text": "Jupiter",
+        "isCorrect": true
+      },
+      {
+        "text": "Uranus",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1670,
+    "question": "Which part of the plant is responsible for photosynthesis?",
+    "slug": "which-part-of-the-plant-is-responsible-for-photosynthesis",
+    "explanation": "The leaves of a plant are primarily responsible for photosynthesis.",
+    "tags": ["Biology", "Plants"],
+    "options": [
+      {
+        "text": "Roots",
+        "isCorrect": false
+      },
+      {
+        "text": "Stem",
+        "isCorrect": false
+      },
+      {
+        "text": "Leaves",
+        "isCorrect": true
+      },
+      {
+        "text": "Flowers",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1671,
+    "question": "What is the primary function of the mitochondria?",
+    "slug": "what-is-the-primary-function-of-the-mitochondria",
+    "explanation": "The mitochondria are known as the powerhouse of the cell, as they generate energy in the form of ATP.",
+    "tags": ["Biology", "Cell Biology"],
+    "options": [
+      {
+        "text": "Protein synthesis",
+        "isCorrect": false
+      },
+      {
+        "text": "Energy production",
+        "isCorrect": true
+      },
+      {
+        "text": "Cell division",
+        "isCorrect": false
+      },
+      {
+        "text": "DNA storage",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1672,
+    "question": "Which organ is responsible for pumping blood throughout the body?",
+    "slug": "which-organ-is-responsible-for-pumping-blood-throughout-the-body",
+    "explanation": "The heart is responsible for pumping blood throughout the body, delivering oxygen and nutrients.",
+    "tags": ["Biology", "Human Anatomy"],
+    "options": [
+      {
+        "text": "Brain",
+        "isCorrect": false
+      },
+      {
+        "text": "Lungs",
+        "isCorrect": false
+      },
+      {
+        "text": "Heart",
+        "isCorrect": true
+      },
+      {
+        "text": "Stomach",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1673,
+    "question": "What is the freezing point of water in Fahrenheit?",
+    "slug": "what-is-the-freezing-point-of-water-in-fahrenheit",
+    "explanation": "The freezing point of water in Fahrenheit is 32°F.",
+    "tags": ["Science", "Temperature"],
+    "options": [
+      {
+        "text": "0°F",
+        "isCorrect": false
+      },
+      {
+        "text": "32°F",
+        "isCorrect": true
+      },
+      {
+        "text": "100°F",
+        "isCorrect": false
+      },
+      {
+        "text": "212°F",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1674,
+    "question": "Who painted the Mona Lisa?",
+    "slug": "who-painted-the-mona-lisa",
+    "explanation": "Leonardo da Vinci painted the Mona Lisa, one of the most famous artworks in the world.",
+    "tags": ["Art", "History"],
+    "options": [
+      {
+        "text": "Pablo Picasso",
+        "isCorrect": false
+      },
+      {
+        "text": "Leonardo da Vinci",
+        "isCorrect": true
+      },
+      {
+        "text": "Vincent van Gogh",
+        "isCorrect": false
+      },
+      {
+        "text": "Michelangelo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1675,
+    "question": "Which country is the largest by land area?",
+    "slug": "which-country-is-the-largest-by-land-area",
+    "explanation": "Russia is the largest country by land area, covering about 11% of the Earth's land area.",
+    "tags": ["Geography", "Countries"],
+    "options": [
+      {
+        "text": "USA",
+        "isCorrect": false
+      },
+      {
+        "text": "China",
+        "isCorrect": false
+      },
+      {
+        "text": "Russia",
+        "isCorrect": true
+      },
+      {
+        "text": "Canada",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1676,
+    "question": "What does DNA stand for?",
+    "slug": "what-does-dna-stand-for",
+    "explanation": "DNA stands for Deoxyribonucleic Acid, the molecule that carries genetic information.",
+    "tags": ["Biology", "Genetics"],
+    "options": [
+      {
+        "text": "Deoxyribonucleic Acid",
+        "isCorrect": true
+      },
+      {
+        "text": "Ribonucleic Acid",
+        "isCorrect": false
+      },
+      {
+        "text": "Deoxyribonucleic Agent",
+        "isCorrect": false
+      },
+      {
+        "text": "Ribonucleic Agent",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1677,
+    "question": "What is the largest continent by area?",
+    "slug": "what-is-the-largest-continent-by-area",
+    "explanation": "Asia is the largest continent by both area and population.",
+    "tags": ["Geography", "Continents"],
+    "options": [
+      {
+        "text": "Asia",
+        "isCorrect": true
+      },
+      {
+        "text": "Africa",
+        "isCorrect": false
+      },
+      {
+        "text": "North America",
+        "isCorrect": false
+      },
+      {
+        "text": "Australia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1678,
+    "question": "Which element has the chemical symbol 'O'?",
+    "slug": "which-element-has-thechemical-symbol-o",
+    "explanation": "The chemical symbol 'O' stands for Oxygen, a vital element for life on Earth.",
+    "tags": ["Chemistry", "Elements"],
+    "options": [
+      {
+        "text": "Oxygen",
+        "isCorrect": true
+      },
+      {
+        "text": "Osmium",
+        "isCorrect": false
+      },
+      {
+        "text": "Ozone",
+        "isCorrect": false
+      },
+      {
+        "text": "Opium",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1679,
+    "question": "Which country is known as the 'Land of the Rising Sun'?",
+    "slug": "which-country-is-known-as-the-land-of-the-rising-sun",
+    "explanation": "Japan is often referred to as the 'Land of the Rising Sun' because it is located to the east of the Asian continent.",
+    "tags": ["Geography", "Countries"],
+    "options": [
+      {
+        "text": "China",
+        "isCorrect": false
+      },
+      {
+        "text": "Japan",
+        "isCorrect": true
+      },
+      {
+        "text": "South Korea",
+        "isCorrect": false
+      },
+      {
+        "text": "India",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1680,
+    "question": "What is the primary function of red blood cells?",
+    "slug": "what-is-the-primary-function-of-red-blood-cells",
+    "explanation": "Red blood cells carry oxygen from the lungs to the rest of the body and return carbon dioxide to be exhaled.",
+    "tags": ["Biology", "Human Anatomy"],
+    "options": [
+      {
+        "text": "Fight infections",
+        "isCorrect": false
+      },
+      {
+        "text": "Transport oxygen",
+        "isCorrect": true
+      },
+      {
+        "text": "Regulate body temperature",
+        "isCorrect": false
+      },
+      {
+        "text": "Aid digestion",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1681,
+    "question": "Which famous scientist developed the theory of general relativity?",
+    "slug": "which-famous-scientist-developed-the-theory-of-general-relativity",
+    "explanation": "Albert Einstein developed the theory of general relativity, which explains how gravity affects space-time.",
+    "tags": ["Science", "Physics"],
+    "options": [
+      {
+        "text": "Isaac Newton",
+        "isCorrect": false
+      },
+      {
+        "text": "Galileo Galilei",
+        "isCorrect": false
+      },
+      {
+        "text": "Albert Einstein",
+        "isCorrect": true
+      },
+      {
+        "text": "Nikola Tesla",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1682,
+    "question": "Which planet is closest to the sun?",
+    "slug": "which-planet-is-closest-to-the-sun",
+    "explanation": "Mercury is the closest planet to the sun in our solar system.",
+    "tags": ["Astronomy", "Planets"],
+    "options": [
+      {
+        "text": "Earth",
+        "isCorrect": false
+      },
+      {
+        "text": "Venus",
+        "isCorrect": false
+      },
+      {
+        "text": "Mercury",
+        "isCorrect": true
+      },
+      {
+        "text": "Mars",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1683,
+    "question": "What is the square root of 81?",
+    "slug": "what-is-the-square-root-of-81",
+    "explanation": "The square root of 81 is 9 because 9 × 9 = 81.",
+    "tags": ["Math", "Mathematics"],
+    "options": [
+      {
+        "text": "7",
+        "isCorrect": false
+      },
+      {
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "text": "9",
+        "isCorrect": true
+      },
+      {
+        "text": "10",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1684,
+    "question": "Which animal is known for its ability to regenerate limbs?",
+    "slug": "which-animal-is-known-for-its-ability-to-regenerate-limbs",
+    "explanation": "The axolotl is known for its remarkable ability to regenerate limbs, spinal cord, and even parts of its heart.",
+    "tags": ["Biology", "Regeneration"],
+    "options": [
+      {
+        "text": "Starfish",
+        "isCorrect": false
+      },
+      {
+        "text": "Axolotl",
+        "isCorrect": true
+      },
+      {
+        "text": "Salamander",
+        "isCorrect": false
+      },
+      {
+        "text": "Lizard",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1685,
+    "question": "Which famous author wrote '1984'?",
+    "slug": "which-famous-author-wrote-1984",
+    "explanation": "George Orwell wrote the famous dystopian novel '1984'.",
+    "tags": ["Literature", "Books"],
+    "options": [
+      {
+        "text": "Aldous Huxley",
+        "isCorrect": false
+      },
+      {
+        "text": "George Orwell",
+        "isCorrect": true
+      },
+      {
+        "text": "J.K. Rowling",
+        "isCorrect": false
+      },
+      {
+        "text": "F. Scott Fitzgerald",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1686,
+    "question": "Which animal is the fastest on land?",
+    "slug": "which-animal-is-the-fastest-on-land",
+    "explanation": "The cheetah is the fastest land animal, capable of running up to 75 mph (120 km/h).",
+    "tags": ["Biology", "Animals"],
+    "options": [
+      {
+        "text": "Lion",
+        "isCorrect": false
+      },
+      {
+        "text": "Tiger",
+        "isCorrect": false
+      },
+      {
+        "text": "Cheetah",
+        "isCorrect": true
+      },
+      {
+        "text": "Elephant",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1687,
+    "question": "Which planet has the most moons in our solar system?",
+    "slug": "which-planet-has-the-most-moons-in-our-solar-system",
+    "explanation": "Jupiter has the most moons, with 79 known moons orbiting it.",
+    "tags": ["Astronomy", "Planets"],
+    "options": [
+      {
+        "text": "Mars",
+        "isCorrect": false
+      },
+      {
+        "text": "Saturn",
+        "isCorrect": false
+      },
+      {
+        "text": "Jupiter",
+        "isCorrect": true
+      },
+      {
+        "text": "Earth",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1688,
+    "question": "What is the hardest natural substance on Earth?",
+    "slug": "what-is-the-hardest-natural-substance-on-earth",
+    "explanation": "Diamond is the hardest known natural substance on Earth.",
+    "tags": ["Chemistry", "Materials"],
+    "options": [
+      {
+        "text": "Gold",
+        "isCorrect": false
+      },
+      {
+        "text": "Iron",
+        "isCorrect": false
+      },
+      {
+        "text": "Diamond",
+        "isCorrect": true
+      },
+      {
+        "text": "Graphite",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1689,
+    "question": "Which gas do plants absorb during photosynthesis?",
+    "slug": "which-gas-do-plants-absorb-during-photosynthesis",
+    "explanation": "Plants absorb carbon dioxide (CO2) during photosynthesis, using sunlight to convert it into oxygen and glucose.",
+    "tags": ["Biology", "Photosynthesis"],
+    "options": [
+      {
+        "text": "Oxygen",
+        "isCorrect": false
+      },
+      {
+        "text": "Carbon Dioxide",
+        "isCorrect": true
+      },
+      {
+        "text": "Nitrogen",
+        "isCorrect": false
+      },
+      {
+        "text": "Hydrogen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1690,
+    "name": "Which planet is known as Earth's twin?",
+    "slug": "which-planet-is-known-as-earths-twin",
+    "explanation": "Venus is often called Earth's twin due to its similar size and composition.",
+    "tags": ["planet", "earth", "astronomy"],
+    "options": [
+      {
+        "text": "Mars",
+        "isCorrect": false
+      },
+      {
+        "text": "Venus",
+        "isCorrect": true
+      },
+      {
+        "text": "Jupiter",
+        "isCorrect": false
+      },
+      {
+        "text": "Saturn",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1691,
+    "name": "Who is the father of physics?",
+    "slug": "who-is-the-father-of-physics",
+    "explanation": "The father of physics is often regarded as Isaac Newton or Albert Einstein due to their groundbreaking contributions to the field.",
+    "tags": ["physics", "science", "history"],
+    "options": [
+      {
+        "text": "Isaac Newton",
+        "isCorrect": true
+      },
+      {
+        "text": "Albert Einstein",
+        "isCorrect": false
+      },
+      {
+        "text": "Galileo Galilei",
+        "isCorrect": false
+      },
+      {
+        "text": "Niels Bohr",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1692,
+    "name": "Which bone is the smallest bone in the human body?",
+    "slug": "which-bone-is-the-smallest-bone-in-the-human-body",
+    "explanation": "The stapes, located in the middle ear, is the smallest bone in the human body.",
+    "tags": ["anatomy", "biology", "human-body"],
+    "options": [
+      {
+        "text": "Stapes",
+        "isCorrect": true
+      },
+      {
+        "text": "Femur",
+        "isCorrect": false
+      },
+      {
+        "text": "Tibia",
+        "isCorrect": false
+      },
+      {
+        "text": "Humerus",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1693,
+    "name": "Which mountain range is found in Pakistan?",
+    "slug": "which-mountain-range-is-found-in-pakistan",
+    "explanation": "The Karakoram Range, located in northern Pakistan, is famous for housing some of the world's tallest peaks, including K2.",
+    "tags": ["geography", "Pakistan", "mountains"],
+    "options": [
+      {
+        "text": "Karakoram Range",
+        "isCorrect": true
+      },
+      {
+        "text": "Himalayas",
+        "isCorrect": false
+      },
+      {
+        "text": "Andes",
+        "isCorrect": false
+      },
+      {
+        "text": "Rocky Mountains",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1694,
+    "name": "Which is the largest continent by area?",
+    "slug": "which-is-the-largest-continent-by-area",
+    "explanation": "Asia is the largest continent by area, covering about 44.58 million square kilometers.",
+    "tags": ["geography", "continents", "land"],
+    "options": [
+      {
+        "text": "Asia",
+        "isCorrect": true
+      },
+      {
+        "text": "Africa",
+        "isCorrect": false
+      },
+      {
+        "text": "North America",
+        "isCorrect": false
+      },
+      {
+        "text": "Europe",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1695,
+    "name": "Which city is known as the 'City of Lights' in Pakistan?",
+    "slug": "which-city-is-known-as-the-city-of-lights-in-pakistan",
+    "explanation": "Karachi is known as the 'City of Lights' due to its vibrant nightlife and significant role in Pakistan's economy.",
+    "tags": ["city", "Pakistan", "culture"],
+    "options": [
+      {
+        "text": "Karachi",
+        "isCorrect": true
+      },
+      {
+        "text": "Lahore",
+        "isCorrect": false
+      },
+      {
+        "text": "Islamabad",
+        "isCorrect": false
+      },
+      {
+        "text": "Peshawar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1796,
+    "name": "In which year did the Titanic sink?",
+    "slug": "in-which-year-did-the-titanic-sink",
+    "explanation": "The Titanic sank on April 15, 1912, after hitting an iceberg during its maiden voyage.",
+    "tags": ["history", "disasters", "maritime"],
+    "options": [
+      {
+        "text": "1912",
+        "isCorrect": true
+      },
+      {
+        "text": "1905",
+        "isCorrect": false
+      },
+      {
+        "text": "1920",
+        "isCorrect": false
+      },
+      {
+        "text": "1918",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1697,
+    "name": "Which river is known as the lifeline of Pakistan?",
+    "slug": "which-river-is-known-as-the-lifeline-of-pakistan",
+    "explanation": "The Indus River is considered the lifeline of Pakistan as it supports the agricultural and irrigation needs of the country.",
+    "tags": ["river", "Pakistan", "geography"],
+    "options": [
+      {
+        "text": "Indus River",
+        "isCorrect": true
+      },
+      {
+        "text": "Chenab River",
+        "isCorrect": false
+      },
+      {
+        "text": "Ravi River",
+        "isCorrect": false
+      },
+      {
+        "text": "Jhelum River",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1698,
+    "name": "What is the capital of Pakistan?",
+    "slug": "what-is-the-capital-of-pakistan",
+    "explanation": "Islamabad is the capital of Pakistan, serving as the political and administrative center of the country.",
+    "tags": ["capital", "Pakistan", "geography"],
+    "options": [
+      {
+        "text": "Islamabad",
+        "isCorrect": true
+      },
+      {
+        "text": "Karachi",
+        "isCorrect": false
+      },
+      {
+        "text": "Lahore",
+        "isCorrect": false
+      },
+      {
+        "text": "Peshawar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1699,
+    "name": "What is the capital city of India?",
+    "slug": "what-is-the-capital-city-of-india",
+    "explanation": "New Delhi is the capital city of India, serving as the seat of all three branches of the Indian government.",
+    "tags": ["capital", "India", "geography"],
+    "options": [
+      {
+        "text": "New Delhi",
+        "isCorrect": true
+      },
+      {
+        "text": "Mumbai",
+        "isCorrect": false
+      },
+      {
+        "text": "Kolkata",
+        "isCorrect": false
+      },
+      {
+        "text": "Chennai",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1700,
+    "name": "What is the national game of Pakistan?",
+    "slug": "what-is-the-national-game-of-pakistan",
+    "explanation": "Hockey is the national game of Pakistan, reflecting the country's rich history and achievements in the sport.",
+    "tags": ["sports", "Pakistan", "culture"],
+    "options": [
+      {
+        "text": "Hockey",
+        "isCorrect": true
+      },
+      {
+        "text": "Cricket",
+        "isCorrect": false
+      },
+      {
+        "text": "Football",
+        "isCorrect": false
+      },
+      {
+        "text": "Squash",
+        "isCorrect": false
+      }
+    ]
+  }
 ]

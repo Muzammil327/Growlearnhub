@@ -1,6 +1,6 @@
-import React from "react"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import { Metadata } from "next"
+import React from "react";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import { Metadata } from "next";
 
 const data = {
   title: "About Us | Growlearnhub",
@@ -11,10 +11,10 @@ const data = {
   url: "https://growlearnhub.com/about-us/",
   index: true,
   follow: true,
-}
+};
 
 export default function page() {
-  return <SimpleWrapper data={data}></SimpleWrapper>
+  return <SimpleWrapper data={data}></SimpleWrapper>;
 }
 
 export const metadata: Metadata = {
@@ -28,27 +28,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

@@ -1,8 +1,8 @@
-import React from "react"
-import { Metadata } from "next"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import { Class12NotesData } from "@/src/data/class12"
+import React from "react";
+import { Metadata } from "next";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import CardSmall from "@/src/components/card/cardSmall/cardSmall";
+import { Class12NotesData } from "@/src/data/class12";
 
 const data = {
   title: "12th Class Notes | Class 12",
@@ -14,19 +14,19 @@ const data = {
     "notes",
     "class 12 notes",
     "12th class notes",
-    "12th class growlearnhub notes"
+    "12th class growlearnhub notes",
   ],
   image: "/12th/class_12_notes.webp",
   canonical: "/class-12/notes/",
   url: "https://growlearnhub.com/class-12/notes/",
   index: true,
   follow: true,
-}
+};
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <div className="grid gap-4 grid-cols-1 my-5">
+      <div className="my-5 grid grid-cols-1 gap-4">
         {Class12NotesData.map((data: any) => {
           return (
             <CardSmall
@@ -34,11 +34,11 @@ export default function Page() {
               title={data.name}
               link={`class-12/notes/${data.slug}`}
             />
-          )
+          );
         })}
       </div>
     </SimpleWrapper>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -52,27 +52,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

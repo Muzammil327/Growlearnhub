@@ -13,11 +13,11 @@ export default async function QuizPage({ params }: PageProps) {
   const slug = (await params).slug;
   const data = await GetUsers(slug);
 
-  return <QuizClient quizData={data} />
+  return <QuizClient quizData={data} />;
 }
 
 function sanitizeDescription(description: string) {
-  return description.replace(/<\/?[^>]+(>|$)/g, '');
+  return description.replace(/<\/?[^>]+(>|$)/g, "");
 }
 
 export async function generateMetadata({ params }: PageProps) {
@@ -27,19 +27,22 @@ export async function generateMetadata({ params }: PageProps) {
     const data = await GetUsers(slug);
 
     const keywords = (() => {
-      if (typeof data.tags === 'string') {
+      if (typeof data.tags === "string") {
         try {
           const parsed = JSON.parse(data.tags);
           if (Array.isArray(parsed)) {
-            return parsed.join(', ');
+            return parsed.join(", ");
           }
         } catch {
-          return data.tags.split(',').map((tag: string) => tag.trim()).join(', ');
+          return data.tags
+            .split(",")
+            .map((tag: string) => tag.trim())
+            .join(", ");
         }
       } else if (Array.isArray(data.tags)) {
-        return data.tags.join(', ');
+        return data.tags.join(", ");
       }
-      return '';
+      return "";
     })();
 
     const question = data.name;
@@ -57,7 +60,16 @@ export async function generateMetadata({ params }: PageProps) {
     if (explanation.length > 120) {
       description = sanitizeDescription(explanation);
     } else {
-      description = sanitizeDescription(explanation.length > 120 ? " " + explanation.substring(0, 120) : explanation) + " " + keywords + " " + question;
+      description =
+        sanitizeDescription(
+          explanation.length > 120
+            ? " " + explanation.substring(0, 120)
+            : explanation,
+        ) +
+        " " +
+        keywords +
+        " " +
+        question;
     }
 
     return {

@@ -1,40 +1,40 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react";
 import { Button } from "@/src/components/ui/Button";
-import { Input } from "@/src/components/ui/Input"
-import { Label } from "@/src/components/ui/Label"
+import { Input } from "@/src/components/ui/Input";
+import { Label } from "@/src/components/ui/Label";
 
 export default function QuizPercentage({
   calculatedQuiz,
-  setCalculatedQuiz
+  setCalculatedQuiz,
 }: any) {
-  const [quizPercentage, setQuizPercentage] = useState<number>(0)
-  const [totalQuiz, setTotalQuiz] = useState<number>(0)
-  const [obtainedQuiz, setObtainedQuiz] = useState<number>(0)
+  const [quizPercentage, setQuizPercentage] = useState<number>(0);
+  const [totalQuiz, setTotalQuiz] = useState<number>(0);
+  const [obtainedQuiz, setObtainedQuiz] = useState<number>(0);
 
   const calculateQuizPercentage = (
     obtainedQuiz: number,
     totalQuiz: number,
-    quizPercentage: number
+    quizPercentage: number,
   ): number => {
     if (totalQuiz === 0) {
-      return 0
+      return 0;
     }
 
-    return (obtainedQuiz / totalQuiz) * ((quizPercentage / 100) * 100)
-  }
+    return (obtainedQuiz / totalQuiz) * ((quizPercentage / 100) * 100);
+  };
   useEffect(() => {
     const data1 = calculateQuizPercentage(
       obtainedQuiz,
       totalQuiz,
-      quizPercentage
-    )
+      quizPercentage,
+    );
     if (data1) {
-      setCalculatedQuiz(data1)
+      setCalculatedQuiz(data1);
     }
-  }, [obtainedQuiz, quizPercentage, setCalculatedQuiz, totalQuiz])
+  }, [obtainedQuiz, quizPercentage, setCalculatedQuiz, totalQuiz]);
 
   return (
-    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-1">
+    <div className="mt-1 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
       <div className="my-4">
         <Label htmlFor="quizPercentage" />
         <Input
@@ -67,5 +67,5 @@ export default function QuizPercentage({
       </div>
       <Button>{calculatedQuiz}</Button>
     </div>
-  )
+  );
 }

@@ -1,9 +1,9 @@
-import React from "react"
-import { Metadata } from "next"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import Heading2 from "@/src/components/ui/typography/Heading2/page"
-import { Class12BookData } from "@/src/data/class12"
+import React from "react";
+import { Metadata } from "next";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import CardSmall from "@/src/components/card/cardSmall/cardSmall";
+import Heading2 from "@/src/components/ui/typography/Heading2/page";
+import { Class12BookData } from "@/src/data/class12";
 
 const data = {
   title: "12th Class Books | Class 12",
@@ -14,14 +14,14 @@ const data = {
     "growlearnhub class 12 books",
     "class 12 books",
     "12th class books",
-    "12th class growlearnhub books"
+    "12th class growlearnhub books",
   ],
   image: "/12th/class_12_book.webp",
   canonical: "/class-12/books/",
   url: "https://growlearnhub.com/class-12/books/",
   index: true,
   follow: true,
-}
+};
 
 export default function Page() {
   return (
@@ -31,7 +31,7 @@ export default function Page() {
           return (
             <div key={data.title}>
               <Heading2>{data.title}</Heading2>
-              <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-5">
+              <div className="my-5 grid grid-cols-1 gap-4 md:grid-cols-2">
                 {data.child.map((data: any) => {
                   return (
                     <CardSmall
@@ -39,15 +39,15 @@ export default function Page() {
                       title={data.name}
                       link={`class-12/books/${data.slug}`}
                     />
-                  )
+                  );
                 })}
               </div>
             </div>
-          )
+          );
         })}
       </div>
     </SimpleWrapper>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -61,27 +61,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

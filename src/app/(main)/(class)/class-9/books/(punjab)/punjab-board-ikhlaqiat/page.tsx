@@ -1,27 +1,27 @@
-import React from "react"
-import { Metadata } from "next"
-import PDFViewer from "@/src/components/elements/PDFViewer"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import MutedPara from "@/src/components/ui/typography/MutedPara/page"
+import React from "react";
+import { Metadata } from "next";
+import PDFViewer from "@/src/components/elements/PDFViewer";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import MutedPara from "@/src/components/ui/typography/MutedPara/page";
 
 const data = {
   title: "Ikhlaqiat Class 9 Book PDF | 9th Class Punjab Text Book",
   description:
     "Download the official Ikhlaqiat Class 9 textbook PDF by Punjab Board. This comprehensive guide covers the entire syllabus with clear explanation.",
-    image: "/9th/book/punjab/class_9_ikhlaqiat_book_punjab_board.webp",
-    keywords: [
-      "ikhlaqiat class 9 punjab text book pdf",
-      "class 9 ikhlaqiat book pdf punjab board",
-      "9th class ikhlaqiat punjab text book",
-      "ikhlaqiat book class 9 punjab board",
-      "class 9 ikhlaqiat book punjab board"
-    ],
+  image: "/9th/book/punjab/class_9_ikhlaqiat_book_punjab_board.webp",
+  keywords: [
+    "ikhlaqiat class 9 punjab text book pdf",
+    "class 9 ikhlaqiat book pdf punjab board",
+    "9th class ikhlaqiat punjab text book",
+    "ikhlaqiat book class 9 punjab board",
+    "class 9 ikhlaqiat book punjab board",
+  ],
   canonical: "/class-9/books/punjab-board-ikhlaqiat/",
   url: "https://growlearnhub.com/class-9/books/punjab-board-ikhlaqiat/",
   index: true,
   follow: true,
   fileId_urdu: "1fwK6qscOFekmeFq0XIPVeN9Ww3eBg6jF",
-}
+};
 
 export default function Page() {
   return (
@@ -41,7 +41,7 @@ export default function Page() {
       </MutedPara>
       <PDFViewer pdfUrl={data.fileId_urdu} />
     </SimpleWrapper>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -55,27 +55,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};
