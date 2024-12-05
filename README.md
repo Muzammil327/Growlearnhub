@@ -165,3 +165,10 @@ Select operator
 Project operator
 Join operator (Correct)
 Delete operator
+
+
+cvhgfh
+fgh
+gf
+hfgh
+gf
