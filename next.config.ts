@@ -9,8 +9,8 @@ const nextConfig = {
     return [
       {
         source: "/:path*",
-        has: [{ type: "host", value: "growlearnhub.com" }], // Check for non-www domain
-        destination: "https://www.growlearnhub.com/:path*", // Redirect to www version
+        has: [{ type: "host", value: "www.growlearnhub.com" }], // Check for non-www domain
+        destination: "https://growlearnhub.com/:path*", // Redirect to www version
         permanent: true,
       },
     ];
