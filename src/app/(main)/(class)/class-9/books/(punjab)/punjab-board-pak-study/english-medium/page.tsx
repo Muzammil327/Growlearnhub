@@ -1,23 +1,15 @@
 import React from "react";
 import { Metadata } from "next";
 import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
-import CardSmall from "@/src/components/card/cardSmall/cardSmall";
-import { Class11McqsData } from "@/src/data/class11";
 
 const data = {
-  title: "11th Class Mcqs | Class 11",
+  title: "Urdu Medium Pak Study Class 9 Book PDF",
   description:
-    "Class 11 MCQs page offering a wide range of practice questions, online tests, and detailed answers for thorough exam preparation.",
-  keywords: [
-    "growlearnhub mcqs",
-    "growlearnhub class 11 mcqs",
-    "class 11 mcqs",
-    "11th class mcqs",
-    "11th class growlearnhub mcqs",
-  ],
-  image: "/11th/class_11_mcqs.webp",
-  canonical: "/class-11/mcqs/",
-  url: "https://growlearnhub.com/class-11/mcqs/",
+    "Download the official Pak Study Class 9 textbook PDF by Punjab Board. This comprehensive guide covers the entire syllabus with clear explanation.",
+  keywords: [],
+  image: "/9th/book/punjab/class_9_pak_study_book_punjab_board.webp",
+  canonical: "/class-9/books/punjab-board-pak-study/english-medium/",
+  url: "https://growlearnhub.com/class-9/books/punjab-board-pak-study/english-medium/",
   index: true,
   follow: true,
 };
@@ -25,18 +17,6 @@ const data = {
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <div className="my-5 grid grid-cols-1 gap-4">
-        {Class11McqsData.map((data: any) => {
-          return (
-            <CardSmall
-              key={data.name}
-              title={data.name}
-              link={`class-11/mcqs/${data.slug}`}
-            />
-          );
-        })}
-      </div>
-      
     </SimpleWrapper>
   );
 }
