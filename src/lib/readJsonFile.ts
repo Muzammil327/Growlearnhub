@@ -17,10 +17,10 @@ const filesToLoad = [
   "data2.json", 
   "data3.json", 
   "data4.json",
-  "data5.json"
-  // "data6.json", 
-  // "data7.json", 
-  // "data8.json"
+  "data5.json",
+  "data6.json", 
+  "data7.json", 
+  "data8.json"
 ];
 
 const combinedData = filesToLoad.flatMap(readJsonFile);

@@ -6735,3 +6735,885 @@
 
 
 // give me this to above format and add more related that 
+
+// Google trends
+// keywordstools or keword shetter or google auto complete 
+// chatgpt asking about 
+// Add Contextual Phrases
+// -- Informational Context
+// -- Visiting Context
+// -- Cultural Context
+// -- Comparative Context
+// -- Geographical Context
+// -- Historical Context
+// -- Miscellaneous Context
+
+
+
+// dam
+// mohmand dam
+// tarbela dam
+// Who
+// Who started
+
+// mangla dam
+// bara dam
+// diamer basha dam site
+// khan khwar hydropower plant
+// awan dam
+// duber khwar hydroelectric plant
+
+// river 
+// Kabul river
+// Indus river
+// Jhelum river
+// Swat river
+
+
+// Who started Mohmand Dam?
+// Who is funding Mohmand Dam?
+// Which dam is built on the Swat River?
+// What is the installed capacity of Mohmand Dam?
+// Which dam has the largest storage capacity in Pakistan?
+// What is the largest dam in the world by storage capacity?
+// Which dam is the biggest in Asia?
+// Which is the smallest dam in the world?
+// Is Tarbela Dam the world's largest dam?
+// Which dam produces the most electricity in Pakistan?
+// What is earth's biggest dam?
+// Which is the largest river in Pakistan?
+// Which river is called the Nile of Pakistan?
+// Which is the biggest city in Pakistan?
+// What is the world's largest river?
+// Which is the world's longest?
+// Which is the smallest river in the world?
+// Which is the largest river in Asia?
+// Which is the deepest river in the world?
+// Which is the smallest country in Asia?
+// What is the longest in China?
+// What is the world's largest wall?
+// Which is the longest country in the world?
+// Where is the biggest bridge in the world?
+// Where is the most beautiful bridge in the world?
+// What is the longest road over water?
+// Which country has most bridges?
+// Which country has the oldest bridge?
+// What city has more than 400 bridges?
+// Which country has the shortest bridge?
+// What country has a famous bridge?
+// Which country has longest sea bridge?
+// What is the shortest border with Canada?
+// What is the official name of Canada?
+// What is the biggest border in the world?
+// Which country is very close to Canada?
+// What country is opposite to Canada?
+// Which city is the largest in Canada?
+// What was Canada called before Canada?
+// What is the nickname of Canada?
+// How old will Canada be in 2024?
+// Who found Canada first?
+// Who live in Canada first?
+// Who developed Canada?
+// What happened in 1999 in Canada?
+// When did Toronto call in the army?
+// What happened in Pakistan in 1999?
+// What happened in 1947 in Canada?
+// Is a child born in Canada automatically a Canadian citizen?
+// How was Pakistan in 1947?
+// Are Canadians UK citizens?
+// How to get PR in Canada?
+// Can I live in Canada if I'm British?
+// Which countries allow dual citizenship with Canada?
+// Does Pakistan allow dual citizenship with Canada?
+// Where can Canadians move easily?
+// Which country is best for dual citizenship?
+// Which country passport is best?
+// Which country gives citizenship fastest?
+// Which citizenship is best?
+// What is the weakest citizenship?
+// Which country gives citizenship easily for Pakistanis?
+// Does Turkey give citizenship?
+// How strong is the Turkish passport?
+// How to get UAE citizenship?
+// What happens if I marry a Turkish citizen?
+// What are the disadvantages of Turkish citizenship?
+// Can you marry 2 people in Turkey?
+// How to get permanent residency in Turkey?
+// How to get TRC in Turkey?
+// Can foreigners buy an apartment in Turkey?
+// How much does a work permit cost in Turkey?
+// Is Turkey easy to get a job?
+// How much is the TRC card in Turkey?
+// How much is work per hour in Turkey?
+// Are salaries low in Turkey?
+// What work is common in Turkey?
+// What is the monthly salary of Labour in Turkey?
+// Is Turkey a good place to work?
+// How much is the salary of a foreigner in Turkey?
+// Which country has highest Labour salary?
+// Which country is best for earning money?
+// How much does Canada pay per hour?
+// How much does Switzerland pay per hour?
+// What is the average salary in Germany?
+// Is education free in Switzerland?
+// How to get PR in Switzerland?
+// Can I move to Switzerland without a job?
+// Is PR easy in Switzerland?
+// What is a C permit in Switzerland?
+// How can I settle in Switzerland?
+// What is a L permit in Switzerland?
+// Can I stay in Switzerland after divorce?
+// Can I live in Switzerland if I marry a Swiss citizen?
+// How much is child support in Switzerland?
+// What is the N permit in Switzerland?
+// Where is Mohmand Dam situated?
+// On which river is Bhasha dam situated?
+// Who funded the Mohmand Dam?
+// On which river is the Tarbela Dam built?
+// On which river is the Mangla Dam?
+// Which is the 2nd largest dam after Tarbela?
+// Which is Pakistan 3 largest dam?
+// What is the world's largest dam?
+// Which is the small dam of Pak?
+// Which is the largest barrage of Pakistan?
+// Which is the largest river in Pakistan?
+// Which is the largest district in Pakistan?
+// Which is the smallest city in Pakistan?
+// Which is the largest Tehsil in Pakistan?
+// Which is the smallest district in Punjab?
+// Which city is big in Punjab?
+// Which is the smallest village in Punjab?
+// How many rivers are in Punjab?
+// Who is called the lion of Punjab?
+// Which is the newest district of Punjab?
+// What is the old name of Punjab?
+// What is the nickname of Punjab?
+// Who was the first CM of Punjab?
+// Which city is known as Steel Town in Punjab?
+// Which city is known as city of Gold in Punjab?
+// Which city is known as Royal city of Punjab?
+// Which is the Manchester of Punjab?
+// Which city is known as city of Brass?
+// Which city is known as iron city of India?
+// Which city is known as Steel City of China?
+// Which city is known as Steel City of USA?
+// Why is Gobindgarh famous?
+// Which is the capital of Steel City?
+// Who named Punjab?
+// What city is nicknamed Steel City?
+// Which is the famous steel town?
+// What is the real name of Steel City of India?
+// Which is the iron town of India?
+// What is the population of Mandi Gobindgarh?
+// Which city is called Steel City of Haryana?
+// What is the pin code of Mandi Gobindgarh?
+// Which city is called Steel City of Karnataka?
+// Which city is called London of India?
+// What is the nickname of Hyderabad?
+// Which city is called the city of love in India?
+// Which city is called Rome of India?
+// What is the nickname of Mumbai?
+// Which English city is Steel City?
+// What is the nickname of Kolkata?
+// Which state is known as steel city of Punjab?
+// Which country is Steel City?
+// What is the nickname for the Steel City?
+// What is the nickname of Bengaluru?
+// Which city is called California of India?
+// What is the steel capital city?
+// What is the nickname of Steel City of India?
+// What is the old name of Ballari?
+// Which city is known as Rome of the East?
+// What is the nickname of Chennai?
+// Which city is known as Royal city in Karnataka?
+// What is Bellary famous for?
+// Which city is called Steel City of Punjab?
+// What is the nickname of Coimbatore?
+// Which city is known as Steel City of USA?
+// What is the nickname of Bangalore?
+// What is Bangalore old name?
+// Which is the largest city in India?
+// What is the nick name of Mumbai?
+// What is Bangalore second name?
+// What is the nickname of Kerala?
+// Which is the largest city in Karnataka?
+// What is the modern name of Bangalore?
+// What is the nickname of Paris?
+// Which river is near Bangalore?
+// What is the nickname of Mysore?
+// Which language is spoken most in Bangalore?
+// What is Bangalore people called?
+// What is Bangalore famous for?
+// Which language is spoken in Karnataka?
+// What does Bangalore eat?
+// What is the old name of Bangalore?
+// What is the famous culture in Bangalore?
+// Why does Bangalore have two names?
+// Why is Bangalore not a metro city?
+// Why Bangalore is unique?
+// How big is Bangalore vs Chennai area?
+// Which city is bigger, Hyderabad or Bangalore?
+// Which city is richer Chennai or Bangalore?
+// Which city is bigger Mumbai or Bangalore?
+// Which is more developed, Hyderabad or Bangalore?
+// What is the world's biggest city?
+// Which is the smallest city in India?
+// Which is the poorest city in India?
+// What is the smallest city in Pakistan?
+// What is India's cheapest city?
+// What is the cheapest country in the world?
+// Which is costliest city in India?
+// Which is the best city in India to buy a house?
+// Which is the best place to live in India?
+// What is the least expensive city in the world?
+// Which country is so cheaper than India?
+// Why is Pakistan the cheapest country?
+// Which is the most beautiful country in the world?
+// Which country is best for living?
+// Which is the most expensive country in the world?
+// Which country is cheapest and safest?
+// How many countries are in this world?
+// Which is the cheapest beautiful country in the world?
+// What is the cheapest Arab country to live in?
+// Which is the cheapest thing in the world?
+// Which country has lowest fees?
+// Which is cheaper, India or Thailand?
+// Which country has the highest budget in the world?
+// Which country is lowest cost of living?
+// Which country is the cheapest to visit?
+// Which is the cheapest country in Asia?
+// What is the best country to live in?
+// What is the safest and cheapest country in the world?
+// Which country has the cheapest rent?
+// Which country is best for cost of living?
+// What is the cheapest house in the world?
+// Which country has highest house rent?
+// Where is rent the highest in the world?
+// What city has the best cost of living?
+// How much is rent in Thailand?
+// What is the cheapest and safest country to retire in?
+// Where's the cheapest place to live in Canada?
+// Which country has less fees?
+// Where is the safest cheapest place to live in the world?
+// What is the cheapest country in Europe?
+// What is the cheapest country to live in Asia?
+// Where is rent the cheapest in the country?
+// What is the world's cheapest country?
+// Which country is the cheapest for expats in 2024?
+// Which country is cheaper to stay?
+// What is the cheapest city to live in?
+// Which country is the cheapest to live in Europe?
+// Who started Mohmand Dam in Pakistan?
+// Which dam is built on the Swat River?
+// Which is the biggest dam in Pakistan?
+// Is Mohmand Dam under construction?
+// Who is funding Mohmand Dam?
+// What are the upcoming dam projects in Pakistan?
+// Which is the smallest dam in Pakistan?
+// Which dams are under construction in wapda?
+// Is Diamer Bhasha Dam complete?
+// Which is the largest hydropower project in Pakistan?
+// What is the world's largest dam project?
+// Which is the second dam of Pakistan?
+// How many dams are there in Pakistan in 2024?
+// How many dams are there in Punjab, Pakistan?
+// What is the decade of dams in Pakistan?
+// Which is Pakistan 3 largest dam?
+// When dams are built?
+// What is the biggest upcoming hydropower project in Nepal?
+// Which is the small dam of Pak?
+// What is a dam project?
+// What is the new dam project in India?
+// Which dam has the largest electricity generating potential in Pakistan?
+// What is the largest dam project?
+// What are the advantages of building a dam at the Diamer Bhasha site?
+// Which is the new dam project in Jammu and Kashmir?
+// What is the decade of dams?
+// Which is the second largest dam in Pakistan?
+// Who funded Tarbela Dam?
+// Which is Asia's 2 biggest dam?
+// Which dam in Pakistan has the largest storage capacity?
+// What is the biggest dam in the world?
+// Which is the largest dam in Punjab?
+// Is Tarbela Dam located in Swabi?
+// Which is the longest dam?
+// How much did the Tarbela Dam cost?
+// Which dam is under-construction in Pakistan?
+// Which is Pakistan smallest dam?
+// Which is the 2nd largest concrete dam?
+// Which is the second oldest dam?
+// Which is the largest hydroelectric dam in Pakistan?
+// What is the ranking of Mangla Dam in the world?
+// Which dam is on river Jhelum?
+// What are the top 10 largest dams in the world?
+// How many dams in Pakistan in 2024?
+// Which is Pakistan's 3 largest dam?
+// Which country accepted Pakistan first?
+// Are there dams in Russia?
+// Which dam was first built in Pakistan?
+// How many dams are in Punjab?
+// Is Diamer Bhasha Dam complete?
+// Who made Tarbela Dam?
+// How many dams are there in China?
+// How many canals are there in Pakistan?
+// What is the world's largest dam?
+// How many dams are there in America?
+// Which dams of Pakistan produce electricity?
+// Which is Pakistan 3 largest dam?
+// What is the capacity of a dam?
+// What is the name of the lake in Islamabad?
+// Which country has most number of dams?
+// How many dams are there in Turkey?
+// Who owns dams?
+// How many dams are in China?
+// Why are they removing dams?
+// How many dams are in the world?
+// What is biggest dam in the world?
+// How many dams are there in the UK?
+// How many dams are there in Canada?
+// What are the 5 dams?
+// How many dams are present in Pakistan?
+// How many dams are there in Australia?
+// How many dams are there in India?
+// How many dams are there in Africa?
+// What is the most common type of dam?
+// Why remove dams?
+// What are the different types of dams?
+// What is the tallest dam USA?
+// On which river Mohmand Dam is supposed to be constructed?
+// Who is the contractor of Mohmand Dam?
+// On which river is Bhasha dam situated?
+// Which dam in Pakistan is under construction?
+// What is the capacity of Mohmand Dam?
+// Which is the biggest dam in Pakistan?
+// Which dam is built on which river in Pakistan?
+// Which is the biggest dam in the world?
+// On which river is the Tarbela Dam?
+// Which dam is on the Jhelum River?
+// Who started Diamer Bhasha Dam in Pakistan?
+// Where is Mohmand Dam situated?
+// Which dam in Pakistan is the world largest earth filled dam built on the River Indus?
+// On which river is the Kalabagh dam situated?
+// How many dams are under construction in Pakistan?
+// On which river Whatsapp dam is built?
+// Which of the following dam is located on Mahanadi River?
+// Which is the second largest dam in Pakistan?
+// On which river is Malakand dam situated?
+// Which dam is situated in Islamabad?
+// Which dam is on Indus River in Pakistan?
+// Which river is Gobind Sagar dam on?
+// On which river is the hub dam situated?
+// When was Mohmand Dam built?
+// Which dam in Pakistan is the world's largest earth filled dam built on the River Indus?
+// On which river is the Jinping I dam located?
+// How many dams are there in Pakistan?
+// On which river is Warsak dam?
+// Where is Kalabagh Dam situated?
+// Is Diamer Bhasha Dam completed?
+// What is the length of Tarbela Dam?
+// On which river is the Dasu dam?
+// Where is the Amir Bhasha dam?
+// How much electricity is produced by Tarbela Dam?
+// Who started Mohmand Dam?
+// Which dam is built on which river in Pakistan?
+// On which river is Muhammad dam?
+// What are the benefits of Basha dam?
+// Which dam is on the Jhelum River?
+// How many dams are there in Punjab, Pakistan?
+// Who started Diamer-Bhasha Dam in Pakistan?
+// Which dam in Pakistan is the world largest earth filled dam built on the River Indus?
+// On which river is the Tarbela Dam?
+// How many dams are under construction in Pakistan?
+// On which river Whatsapp dam is built?
+// Which of the following dam is located on Mahanadi River?
+// Which is the second largest dam in Pakistan?
+// On which river is Malakand dam situated?
+// Where is Mohmand Dam situated?
+// Which dam is situated in Islamabad?
+// On which river is the hub dam situated?
+// Which river is Gobind Sagar dam on?
+// On which river is Diamer Basha dam?
+// On which river Ghazi Barotha dam is built?
+// Which dam is built on Kabul River?
+// On which river is tipaimukh dam constructed?
+// Who is funding Mohmand Dam?
+// What is the capacity of Mohmand Dam?
+// On which river the dharoi dam is built?
+// On which river Baglihar dam is being constructed?
+// On which river Dasu dam is constructed?
+// Where is Hirakud dam built on which river?
+// Who started Mohmand Dam project?
+// On which river is the Warsak dam constructed?
+// Which dam is constructed on Swat River?
+// Which dam is being constructed in Pakistan?
+// In which region of Rawalpindi the Mujahid dam will be constructed?
+// How many dams are present in Pakistan?
+// What is the generation capacity of Mohmand Dam?
+// Where is the Amir Bhasha dam?
+// On which river Mohmand Dam is proposed to be constructed?
+// Which dam in Pakistan is under construction?
+// Who is the contractor of Mohmand Dam?
+// What is the catchment area of the Mohmand Dam?
+// Where is Mohmand Dam situated?
+// Which zone is Mohmand?
+// Who is funding Mohmand Dam?
+// Which is the largest dam in KPK?
+// What is the capacity of Mohmand Dam?
+// How high is Mohmand Lake?
+// In which part of Pakistan are most of the dams?
+// In which province is Dasu dam located?
+// How many dams are under construction in Pakistan?
+// What is the catchment of Mahanadi?
+// Who initiated Mohmand Dam?
+// On which river Basha dam is located?
+// Who initiated Diamer Bhasha Dam?
+// On which river Whatsapp dam is built?
+// Which of the following dam was built in the upper course of the river Brahmaputra?
+// What is the generation capacity of Mohmand Dam?
+// Which of the following dam is built on Mahanadi River?
+// On which river Baglihar dam is being constructed?
+// Which of the following dam is built on the Betwa River?
+// What is the capacity of Dasu dam?
+// On which river is tipaimukh dam constructed?
+// How many dams are present in Pakistan?
+// On which river the dharoi dam is built?
+// Which of the following rivers is the Hirakud Dam based on?
+// In which district is Diamer Bhasha Dam?
+// On which river is the Dasu dam?
+// Which river is the Gomal dam constructed on?
+// What is the elevation of the Mohmand Dam?
+// Which dam is being constructed in Pakistan?
+// Which city is Mohmand Dam in?
+// Which among the following dam is constructed over river Yarlung Tsangpo Brahmaputra in Tibet?
+// Who is funding Mohmand Dam?
+// How many dams are there in Pakistan?
+// Which dam is in Balochistan?
+// Where is Hirakud dam built on which river?
+// In which city is Tarbela Dam located?
+// Which is the second largest dam in Pakistan?
+// What is the largest dam in the world?
+// Which dam is located in Haripur and Attock?
+// Which is the largest dam in Punjab?
+// Which two rivers meet at Attock?
+// What is the old name of Attock?
+// Which river joins China in Pakistan?
+// Which two rivers meet at Mithankot?
+// Which two rivers meet at Muzaffarabad?
+// Where rivers meet gilgit?
+// Which two rivers meet at Alaknanda?
+// Which two rivers meet in Prayag?
+// What are the 5 famous Prayags?
+// How to reach Devprayag?
+// Why Devprayag is famous?
+// How to go to Karnaprayag by train?
+// Can we see Himalayas from Devprayag?
+// Is Devprayag hilly area?
+// Can we see Himalayas from Kathmandu?
+// Is Alaknanda a Himalayan river?
+// Why is Alaknanda River muddy?
+// What is prayag?
+// Which is the longest river in India?
+// What is the world's largest river?
+// What are the 5 famous rivers in India?
+// Which is the largest river in Asia?
+// Which is the deepest river in the world?
+// What is the smallest country in Asia?
+// What is the main river in China?
+// Which river flows in Turkey?
+// Is the mother river of China?
+// What is the famous river in Russia called?
+// Which country has the most rivers?
+// How many rivers are there in Pakistan?
+// How many rivers are in Canada?
+// What is the longest river in the world?
+// Does Toronto have a river?
+// Are there any rivers in Brazil?
+// How many rivers are there in Earth?
+// What are Canada's states called?
+// How many rivers are there in Bangladesh?
+// How many rivers are there in China?
+// How many rivers does India have?
+// How old is Bangladesh today?
+// How many rivers are there in Sri Lanka?
+// How many rivers are there in Russia?
+// How many rivers are there in Australia?
+// How many rivers are in Malaysia?
+// How many rivers are there in the USA?
+// Which country has the highest number of rivers?
+// How many rivers are there in the UK?
+// What is Bangladesh famous for?
+// How many rivers are there in Nepal?
+// How many rivers are there in India?
+// What is Bangladesh called the land of?
+// What is the previous name of Padma River?
+// What are the seven rivers?
+// Which river is called the White Gold Mine in Bangladesh?
+// What sports are Bangladesh good at?
+// Which is the long river in India?
+// How many rivers are there in the Philippines?
+// Which river is flowing through Grand Canyon in Arizona, USA?
+// Which is the longest river of Nepal?
+// Which river flows from India to Bangladesh?
+// What are the three main rivers in Pakistan and Bangladesh?
+// What is the longest river in the world?
+// Which two rivers meet in Bangladesh?
+// Which country has the most rivers?
+// What is the biggest river in Bangladesh?
+// How many rivers are in Pakistan?
+// What are the 5 rivers name in Bangladesh?
+// Which river has 3 names?
+// Which city has five rivers?
+// Which river flows in Dhaka?
+// What are the four great rivers list them?
+// How old is Bangladesh today?
+// How many rivers are there?
+// What is Brahmaputra called in Bangladesh?
+// What are the 5 rivers?
+// Which is the longest river in Bangladesh?
+// What is the capital of Bangladesh?
+// What is the old name of Dhaka?
+// What is Bangladesh called now?
+// Which city is called the city of mosques?
+// What is Bangladesh famous for?
+// Why did Bangladesh separate from Pakistan?
+// What is the largest city in Bangladesh?
+// What is Bangladesh official name?
+// Why is Dhaka famous?
+// What language is in Bangladesh?
+// Why is Dhaka special?
+// Which is the richest area in Dhaka?
+// What is the tourist capital of Bangladesh?
+// What was Dhaka called before?
+// What is the big capital in Bangladesh?
+// What is a person from Bangladesh called?
+// Why is Dhaka so populated?
+// Which city is bigger, Kolkata or Dhaka?
+// What is the red profile in Bangladesh?
+// What is the most populated city in Bangladesh?
+// What is Bangladesh called?
+// Is Bangladesh part of India or Pakistan?
+// What religion is Bangladesh?
+// Is Bangladesh richer than India and Pakistan?
+// How old is Pakistan as a country?
+// What is the old name of Bangladesh?
+// What did Pakistan used to be called?
+// What is the population of Muslims in Bangladesh?
+// When did Pakistan own Bangladesh?
+// Is Pakistan older than India?
+// Is Bangladesh safe to visit?
+// Who divided Pakistan and Bangladesh from India?
+// What is the largest city in Bangladesh by population?
+// How old is Bangladesh today?
+// Is Bangladesh a poor country or not?
+// What is the national religion of Bangladesh?
+// Why did Bangladesh separate from India?
+// What is Bangladesh famous for?
+// What do Pakistan and Bangladesh have in common?
+// Is Bangladesh an Arab country?
+// What language is in Bangladesh?
+// Who runs Bangladesh?
+// Who brought Islam to Bangladesh?
+// When did Bangladesh separate from Pakistan?
+// How many babies born in Bangladesh?
+// What is the official name of Bangladesh?
+// What is the special name of Bangladesh?
+// What is the English name of Bangladesh?
+// Who is in power in Bangladesh?
+// What is the second name of Bangladesh?
+// What is the two letter for Bangladesh?
+// Why is Bangladesh so populated?
+// Is Bangladesh a rich or poor country?
+// Is Bangladesh bigger than Pakistan in population?
+// Why is Dhaka so polluted?
+// What are the most overpopulated countries in the world?
+// Is Bangladesh part of Pakistan?
+// Is overpopulation a problem in Pakistan?
+// What is the most densely populated country in the world?
+// What is the red profile in Bangladesh?
+// Why do people stay in Bangladesh?
+// What is Bangladesh special for?
+// How to behave in Bangladesh?
+// Why are Bangladeshis moving to India?
+// Is Bangladesh a poor country or not?
+// Why do Bangladeshi youth want to leave the country?
+// Which country is best for migration from Bangladesh?
+// Why is Bangladesh famous for tourism?
+// Why is Bangladesh not developed?
+// Why do people move away from Bangladesh?
+// Why do people migrate from Bangladesh?
+// Which country has the most Bangladeshis?
+// What are the disadvantages of living in Bangladesh?
+// Where is Tarbela Dam is located in Pakistan?
+// Which dam is located in Haripur and Attock?
+// Which is the largest dam in the world in Pakistan?
+// Which dam is located in Swabi?
+// What is famous in Swabi?
+// What is the Tarbela and mangla dam?
+// Which is the 2nd largest dam after Tarbela?
+// In which city is Mangla Dam?
+// What is the world's largest dam?
+// Which dam is the biggest in Asia?
+// Which is the smallest dam in the world?
+// How many dams are there in Pakistan?
+// Who made Tarbela Dam?
+// Which country accepted Pakistan first?
+// How many dams are in Punjab?
+// What are the 5 dams?
+// Where are the five rivers of Punjab?
+// What is the capacity of a dam?
+// What is 1 dam equal to?
+// What happens when a dam is 100% full?
+// What is the formula of dam?
+// What is called dam?
+// How do you convert 1 km to dam?
+// What is the height of a dam?
+// What is the age of a dam?
+// How many cm is a dam?
+// How deep is high dam?
+// What is the deepest dam in the world?
+// How old is the High Dam?
+// How deep should my dam be?
+// How to calculate water in a dam?
+// What is the best shape for a dam?
+// What happens when a dam is too full?
+// How to create a dam?
+// How do you find a leak in a dam?
+// How to calculate the size of a dam?
+// What is a small dam?
+// How to measure water level in a dam?
+// How do I choose a dam?
+// Where is the deepest dam in the world?
+// How wide is a dam?
+// How to calculate megalitres?
+// How much pressure is on a dam?
+// Why is a dam thicker at the bottom?
+// How do you check dam spacing?
+// How do you calculate dam water pressure?
+// What is the maximum height of a check dam?
+// How do you find the area of a dam?
+// What is the zone of a dam?
+// How do you measure hole spacing?
+// How to design check dams?
+// What is the shape of a check dam?
+// How do you calculate dams?
+// How water is measured in dams?
+// What is a rock check dam?
+// How do you calculate the flow of water in a dam?
+// How do you calculate dam liner?
+// How do you calculate dam pressure?
+// What is the size of a check dam?
+// What is the slope of a check dam?
+// What is a check dam for soil erosion?
+// How do you detect soil erosion?
+// What is a porous dam?
+// What causes erosion in dams?
+// What causes erosion of soil?
+// What is piping in a dam?
+// What are the two major causes of dam failure?
+// What dam broke in 2024?
+// What is meant by arch dam?
+// What if a dam breaks?
+// Who is responsible for dam failure?
+// Which is the world's weakest dam?
+// How to prevent dam failure?
+// What is it called when a dam breaks?
+// What is the biggest dam in the world?
+// What is the elementary profile of a gravity dam?
+// What are the methods of dam failure?
+// How many dams have failed?
+// When was the South Fork dam built?
+// What are the breaching characteristics of dam failures?
+// Why did the Banqiao Dam collapse?
+// What dam broke during Helene?
+// In which city is Tarbela Dam situated?
+// In which province is mangla dam located?
+// Which dam is located in Swabi?
+// What is the biggest dam in Pakistan?
+// What is the world's largest dam?
+// Which is the small dam of Pak?
+// Which is the second largest dam in?
+// Which is the largest river in Pakistan?
+// What is the smallest dam in the world?
+// How many dams are in Punjab?
+// Which dam in Pakistan has the largest storage capacity?
+// How many canals are there in Pakistan?
+// In which city is Tarbela Dam?
+// Which is the largest soil dam?
+// Which dam is on river Jhelum?
+// How many dams in Pakistan in 2024?
+// What is biggest dam in the world?
+// Which is Pakistan smallest dam?
+// Which is the biggest river in Pakistan?
+// How many barrages are in KPK?
+// Which is the second biggest dam in Pakistan?
+// What is tarbela 5?
+// In which city is the Kalabagh dam?
+// Which river is Warsak Dam on?
+// What type of dam is Tarbela?
+// How many rivers are there in Pakistan?
+// Which dam is built on Kabul River?
+// How to visit Tarbela Dam?
+// Which dam is located in Haripur and Attock?
+// Which is the largest dam in the world?
+// In which province of Pakistan hub dam is present?
+// How many dams are there in the Indus River in Pakistan?
+// Which is the third largest dam in Pakistan?
+// In which state is Malakand dam situated?
+// In which province is Dasu dam located?
+// Is Tarbela Dam in sindh?
+// In which province is Mangla Dam?
+// Which dam is situated in Islamabad?
+// Which dam is located in Sindh?
+// Where is Mohmand Dam situated?
+// In which province is Bhasha dam?
+// Where is Warsak dam of Pakistan is situated?
+// Which province is the Gariep Dam?
+// In which province is the Kalabagh dam?
+// Where is Satpara Dam located?
+// Is Dasu Dam completed?
+// In which province is Ghazi Barotha dam?
+// In which province is Tarbela Dam?
+// Which province is the largest dam in Pakistan?
+// What is the capacity of Tarbela Dam electricity?
+// Who is the contractor of Dasu Dam?
+// On which river is Bhasha dam situated?
+// When was Mohmand dam built?
+// In which province of Pakistan Hingol dam is constructed?
+// How many dams are present in Pakistan?
+// In which district of Pakistan Kalabagh dam is located?
+// In which province is hub dam located?
+// What is the capacity of Bhasha dam?
+// In which province can you find Gariep Dam?
+// In which province is Tarbela Dam located?
+// Which dams are under construction in Pakistan?
+// How much electricity is produced by Tarbela Dam?
+// How much electricity does Mangla Dam produce?
+// In which province is Diamer Bhasha Dam?
+// In which state is Malakand dam situated?
+// What is the cost of Dasu dam in Pakistan?
+// How many big dams are there in Pakistan?
+// In which province is Mangla Dam?
+// Which dam is situated in Islamabad?
+// Which dam is located in Sindh?
+// Where is Mohmand Dam situated?
+// Is tarbela dam in sindh?
+// Where is Warsak dam of Pakistan is situated?
+// In which province is Tarbela Dam located?
+// In which province is mangla dam?
+// Which province is the largest dam in Pakistan?
+// Which dam is located in Swabi?
+// What is famous in Swabi?
+// In which province Hub Dam is located?
+// Why is Tarbela Dam famous?
+// Which is the biggest dam in the world?
+// In which province is Ghazi Barotha dam?
+// Which is the small dam of Pak?
+// In which province is Bhasha dam?
+// In which province is the Kalabagh dam?
+// How to visit Tarbela Dam?
+// In which province of Pakistan is Mirani dam located?
+// Which dam is located in Haripur and Attock?
+// Which is the second biggest dam in Pakistan?
+// In which province is Dasu dam located?
+// What is tarbela 5?
+// Which province is Warsak Dam in?
+// Which dam is in Balochistan?
+// Where is Satpara Dam located?
+// In which province is Diamer Bhasha Dam?
+// Where is Mohmand Dam situated?
+// In which province is hub dam located?
+// Which dam is located in Sindh?
+// In which state is Malakand dam situated?
+// Which province is the Gariep Dam?
+// In which province of Pakistan Hingol dam is constructed?
+// How many big dams are there in Pakistan?
+// In which district of Pakistan Kalabagh dam is located?
+// What is the capacity of Tarbela Dam?
+// Is Dasu Dam completed?
+// How many dams are under construction in Pakistan?
+// In which province is Mangla Dam?
+// Is Tarbela Dam in sindh?
+// In which province is Diamer Bhasha Dam located?
+// Which dam is situated in Islamabad?
+// In which province of Pakistan hub dam is present?
+// In which province is Ghazi Barotha dam?
+// In which province can you find Gariep Dam?
+// When was Mohmand dam built?
+// Who is the contractor of Dasu Dam?
+// What is the capacity of Bhasha dam?
+// What is the capacity of Tarbela Dam electricity?
+// In which district of Nepal is Upper Tamakoshi hydroelectric project located?
+// How much electricity does Mangla Dam produce?
+// In which city is Tarbela Dam located?
+// Which is the biggest dam in Pakistan?
+// Which is the largest electricity producing dam in Pakistan?
+// What is the world's largest dam?
+// Is Pakistan a member of WHO?
+// What are the three main goals of WHO?
+// What is WHO and its function?
+// Where is the WHO headquarters located?
+// What is the short note of World Health Organization?
+// WHO theme 2024?
+// What is the structure of the World Health Organization?
+// What is global health and why is it important?
+// What is the mission and vision of WHO?
+// What is people and its function?
+// What is the main function of a human?
+// What is people with example?
+// What is the importance of people?
+// What is the main importance of human?
+// Why is the people function important?
+// What is the most important need of people?
+// What is the fundamental of human life?
+// What are the 7 human needs?
+// What are the basic quality of human being?
+// What are the basic needs of life?
+// Is love a basic human need?
+// What are the top 7 basic necessities of life?
+// What are the six basic human needs?
+// What are the basic needs of a family?
+// What are life necessities?
+// What are the 5 needs of humans?
+// What are the basic human needs in space?
+// What does a human need to be happy?
+// What are the 7 basic human needs?
+// What are personal needs?
+// What are the five types of needs?
+// What are three basic needs of life?
+// What are the social needs of humans?
+// What are the important things everyone needs?
+// What are the 6 needs of humans?
+// What are examples of needs?
+// What is the basic needs approach?
+// What are 5 needs and wants?
+// What is the basic human needs theory?
+// What are the 20 basic needs of a person?
+// What are the seven needs of a human?
+// What are the characteristics of a need?
+// What are an individual's basic needs?
+// What are social needs?
+// What do most people need help with?
+// Why do humans need shelter?
+// What are the 7 needs of Maslow?
+// What is the most important thing to a person?
+// What are the 6 core needs?
+// What are the 4 basic needs of man?
+// What are wants in life?
+// What are some needs and wants?
+// What is the basic needs theory of development?
+// Why do people need importance?
+// What are human needs pdf?
+// What is the fundamental of human life?
+// What are the seven needs of human beings?
+// What are the basic quality of human being?
+// What are the 7 hierarchies of needs according to Maslow?
+// What are the top 7 basic necessities of life?
+// What are the six human needs?
+// What are humans' three basic needs?
+// What are the basic needs of life?
+// What are the 5 needs of humans?
+// What is the most important thing for a person?
+// What are life necessities?
+// What are the basic needs and wants?
+// What are the 7 basic human needs?
+// What are the five types of needs?
