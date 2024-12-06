@@ -16,6 +16,8 @@ const nextConfig = {
     ];
   },
   trailingSlash: true,
+  reactStrictMode: true,
+  swcMinify: true,
 };
 
 export default nextConfig;
