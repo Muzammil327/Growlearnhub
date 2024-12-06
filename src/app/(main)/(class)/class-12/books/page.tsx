@@ -18,7 +18,7 @@ const data = {
   ],
   image: "/12th/class_12_book.webp",
   canonical: "/class-12/books/",
-  url: "https://growlearnhub.com/class-12/books/",
+  url: "https://www.growlearnhub.com/class-12/books/",
   index: true,
   follow: true,
 };

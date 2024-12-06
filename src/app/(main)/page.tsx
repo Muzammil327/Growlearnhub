@@ -19,7 +19,7 @@ const data = {
   index: true,
   follow: true,
   image: "/opengraph-image.jpg",
-  url: "https://growlearnhub.com/",
+  url: "https://www.growlearnhub.com/",
   keywords: [
     "growlearnhub",
     "growlearnhub class 9",

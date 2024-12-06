@@ -1,2902 +1,2502 @@
 [
-    {
-        "id": 1801,
-        "name": "What is the main ingredient in gazpacho?",
-        "slug": "what-is-the-main-ingredient-in-gazpacho",
-        "explanation": "Tomatoes are the primary ingredient in gazpacho, a cold Spanish soup.",
-        "tags": [
-            "food",
-            "Spanish cuisine",
-            "ingredients"
-        ],
-        "options": [
-            {
-                "text": "Tomatoes",
-                "isCorrect": true
-            },
-            {
-                "text": "Cucumber",
-                "isCorrect": false
-            },
-            {
-                "text": "Peppers",
-                "isCorrect": false
-            },
-            {
-                "text": "Garlic",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1802,
-        "name": "Which country is known for its museums?",
-        "slug": "which-country-is-known-for-its-museums",
-        "explanation": "France is famous for its world-class museums, including the Louvre, which houses the Mona Lisa and other renowned artworks.",
-        "tags": [
-            "culture",
-            "museums",
-            "France"
-        ],
-        "options": [
-            {
-                "text": "France",
-                "isCorrect": true
-            },
-            {
-                "text": "Italy",
-                "isCorrect": false
-            },
-            {
-                "text": "Germany",
-                "isCorrect": false
-            },
-            {
-                "text": "Russia",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1803,
-        "name": "Which country is known for its pyramids?",
-        "slug": "which-country-is-known-for-its-pyramids",
-        "explanation": "Egypt is famous for its ancient pyramids, including the Great Pyramid of Giza, one of the Seven Wonders of the Ancient World.",
-        "tags": [
-            "culture",
-            "landmarks",
-            "Egypt"
-        ],
-        "options": [
-            {
-                "text": "Egypt",
-                "isCorrect": true
-            },
-            {
-                "text": "Mexico",
-                "isCorrect": false
-            },
-            {
-                "text": "Peru",
-                "isCorrect": false
-            },
-            {
-                "text": "India",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1804,
-        "name": "Which country is famous for its tulip fields?",
-        "slug": "which-country-is-famous-for-its-tulip-fields",
-        "explanation": "The Netherlands is renowned for its vibrant tulip fields, which bloom during the spring season.",
-        "tags": [
-            "culture",
-            "nature",
-            "Netherlands"
-        ],
-        "options": [
-            {
-                "text": "Netherlands",
-                "isCorrect": true
-            },
-            {
-                "text": "France",
-                "isCorrect": false
-            },
-            {
-                "text": "Switzerland",
-                "isCorrect": false
-            },
-            {
-                "text": "Germany",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1805,
-        "name": "Which country is known for its maple syrup production?",
-        "slug": "which-country-is-known-for-its-maple-syrup-production",
-        "explanation": "Canada is the largest producer of maple syrup, particularly in the province of Quebec.",
-        "tags": [
-            "culture",
-            "food",
-            "Canada"
-        ],
-        "options": [
-            {
-                "text": "Canada",
-                "isCorrect": true
-            },
-            {
-                "text": "United States",
-                "isCorrect": false
-            },
-            {
-                "text": "Sweden",
-                "isCorrect": false
-            },
-            {
-                "text": "Norway",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1806,
-        "name": "Which country is known for its fjords?",
-        "slug": "which-country-is-known-for-its-fjords",
-        "explanation": "Norway is famous for its fjords, which are deep, glacially carved valleys filled with seawater.",
-        "tags": [
-            "culture",
-            "landscapes",
-            "Norway"
-        ],
-        "options": [
-            {
-                "text": "Norway",
-                "isCorrect": true
-            },
-            {
-                "text": "Sweden",
-                "isCorrect": false
-            },
-            {
-                "text": "Iceland",
-                "isCorrect": false
-            },
-            {
-                "text": "Denmark",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1807,
-        "name": "What is the main ingredient in the dish 'falafel'?",
-        "slug": "what-is-the-main-ingredient-in-the-dish-falafel",
-        "explanation": "Falafel is a popular Middle Eastern dish made primarily from chickpeas or fava beans, which are deep-fried into crispy balls.",
-        "tags": [
-            "food",
-            "Middle Eastern",
-            "falafel"
-        ],
-        "options": [
-            {
-                "text": "Chickpeas",
-                "isCorrect": true
-            },
-            {
-                "text": "Lentils",
-                "isCorrect": false
-            },
-            {
-                "text": "Meat",
-                "isCorrect": false
-            },
-            {
-                "text": "Rice",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1808,
-        "name": "What is the main ingredient in the dish 'guacamole'?",
-        "slug": "what-is-the-main-ingredient-in-the-dish-guacamole",
-        "explanation": "Guacamole is a traditional Mexican dip made from mashed avocados, often seasoned with lime, salt, and other ingredients.",
-        "tags": [
-            "food",
-            "Mexican",
-            "avocado"
-        ],
-        "options": [
-            {
-                "text": "Avocado",
-                "isCorrect": true
-            },
-            {
-                "text": "Tomato",
-                "isCorrect": false
-            },
-            {
-                "text": "Cucumber",
-                "isCorrect": false
-            },
-            {
-                "text": "Onion",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1809,
-        "name": "What is the main ingredient in the dish 'sushi'?",
-        "slug": "what-is-the-main-ingredient-in-the-dish-sushi",
-        "explanation": "Sushi is a Japanese dish typically made with vinegared rice, often accompanied by fish, vegetables, and sometimes seaweed.",
-        "tags": [
-            "food",
-            "Japanese",
-            "sushi"
-        ],
-        "options": [
-            {
-                "text": "Rice",
-                "isCorrect": true
-            },
-            {
-                "text": "Fish",
-                "isCorrect": false
-            },
-            {
-                "text": "Seaweed",
-                "isCorrect": false
-            },
-            {
-                "text": "Tofu",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1810,
-        "name": "What is the main ingredient in the dish 'risotto'?",
-        "slug": "what-is-the-main-ingredient-in-the-dish-risotto",
-        "explanation": "Risotto is an Italian dish made primarily from Arborio rice, which is cooked to a creamy consistency.",
-        "tags": [
-            "food",
-            "Italian",
-            "risotto"
-        ],
-        "options": [
-            {
-                "text": "Rice",
-                "isCorrect": true
-            },
-            {
-                "text": "Pasta",
-                "isCorrect": false
-            },
-            {
-                "text": "Bread",
-                "isCorrect": false
-            },
-            {
-                "text": "Potatoes",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1811,
-        "name": "What is the main ingredient in the dish 'hummus'?",
-        "slug": "what-is-the-main-ingredient-in-the-dish-hummus",
-        "explanation": "Hummus is a Middle Eastern dip made from blended chickpeas, tahini, lemon juice, and olive oil.",
-        "tags": [
-            "food",
-            "Middle Eastern",
-            "hummus"
-        ],
-        "options": [
-            {
-                "text": "Chickpeas",
-                "isCorrect": true
-            },
-            {
-                "text": "Lentils",
-                "isCorrect": false
-            },
-            {
-                "text": "Peas",
-                "isCorrect": false
-            },
-            {
-                "text": "Beans",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1812,
-        "name": "Which country is known for its literature?",
-        "slug": "which-country-is-known-for-its-literature",
-        "explanation": "Russia is known for its rich literary tradition, with famous writers such as Leo Tolstoy, Fyodor Dostoevsky, and Anton Chekhov.",
-        "tags": [
-            "literature",
-            "Russia",
-            "famous authors"
-        ],
-        "options": [
-            {
-                "text": "Russia",
-                "isCorrect": true
-            },
-            {
-                "text": "United States",
-                "isCorrect": false
-            },
-            {
-                "text": "France",
-                "isCorrect": false
-            },
-            {
-                "text": "Italy",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1813,
-        "name": "Which country is known for its poetry?",
-        "slug": "which-country-is-known-for-its-poetry",
-        "explanation": "Persia (modern-day Iran) is renowned for its rich tradition of poetry, with famous poets such as Rumi, Hafez, and Omar Khayyam.",
-        "tags": [
-            "literature",
-            "poetry",
-            "Persia"
-        ],
-        "options": [
-            {
-                "text": "Persia (Iran)",
-                "isCorrect": true
-            },
-            {
-                "text": "United Kingdom",
-                "isCorrect": false
-            },
-            {
-                "text": "India",
-                "isCorrect": false
-            },
-            {
-                "text": "China",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1814,
-        "name": "Which country is known for its classical literature?",
-        "slug": "which-country-is-known-for-its-classical-literature",
-        "explanation": "Greece is famous for its classical literature, including the works of Homer, Sophocles, and Aristophanes.",
-        "tags": [
-            "literature",
-            "classical",
-            "Greece"
-        ],
-        "options": [
-            {
-                "text": "Greece",
-                "isCorrect": true
-            },
-            {
-                "text": "Egypt",
-                "isCorrect": false
-            },
-            {
-                "text": "Rome",
-                "isCorrect": false
-            },
-            {
-                "text": "India",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1815,
-        "name": "Which country is known for its gothic literature?",
-        "slug": "which-country-is-known-for-its-gothic-literature",
-        "explanation": "England is known for its gothic literature, with famous works such as Mary Shelley's 'Frankenstein' and Bram Stoker's 'Dracula.'",
-        "tags": [
-            "literature",
-            "gothic",
-            "England"
-        ],
-        "options": [
-            {
-                "text": "England",
-                "isCorrect": true
-            },
-            {
-                "text": "Germany",
-                "isCorrect": false
-            },
-            {
-                "text": "France",
-                "isCorrect": false
-            },
-            {
-                "text": "United States",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1816,
-        "name": "Which country is known for its modernist literature?",
-        "slug": "which-country-is-known-for-its-modernist-literature",
-        "explanation": "The United States is known for its modernist literature, with key figures such as F. Scott Fitzgerald, Ernest Hemingway, and William Faulkner.",
-        "tags": [
-            "literature",
-            "modernist",
-            "United States"
-        ],
-        "options": [
-            {
-                "text": "United States",
-                "isCorrect": true
-            },
-            {
-                "text": "Canada",
-                "isCorrect": false
-            },
-            {
-                "text": "Mexico",
-                "isCorrect": false
-            },
-            {
-                "text": "Argentina",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1817,
-        "name": "Which country is known for its Nobel Prize-winning literature?",
-        "slug": "which-country-is-known-for-its-nobel-prize-winning-literature",
-        "explanation": "Sweden is known for its Nobel Prize in Literature, awarded to authors such as Selma Lagerlöf, Tomas Tranströmer, and more.",
-        "tags": [
-            "literature",
-            "Nobel Prize",
-            "Sweden"
-        ],
-        "options": [
-            {
-                "text": "Sweden",
-                "isCorrect": true
-            },
-            {
-                "text": "Norway",
-                "isCorrect": false
-            },
-            {
-                "text": "Finland",
-                "isCorrect": false
-            },
-            {
-                "text": "Denmark",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1818,
-        "name": "What is the main ingredient in the dish 'pav bhaji'?",
-        "slug": "what-is-the-main-ingredient-in-the-dish-pav-bhaji",
-        "explanation": "The main ingredient in pav bhaji is potatoes, which are mashed and mixed with a variety of vegetables and spices to create a flavorful curry-like dish.",
-        "tags": [
-            "food",
-            "Indian cuisine",
-            "pav bhaji"
-        ],
-        "options": [
-            {
-                "text": "Potatoes",
-                "isCorrect": true
-            },
-            {
-                "text": "Bread",
-                "isCorrect": false
-            },
-            {
-                "text": "Vegetables",
-                "isCorrect": false
-            },
-            {
-                "text": "Spices",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1819,
-        "name": "What is the main ingredient in the dish 'spaghetti carbonara'?",
-        "slug": "what-is-the-main-ingredient-in-the-dish-spaghetti-carbonara",
-        "explanation": "The main ingredient in spaghetti carbonara is pasta, typically spaghetti, which is combined with eggs, cheese, pancetta, and black pepper.",
-        "tags": [
-            "food",
-            "Italian cuisine",
-            "spaghetti carbonara"
-        ],
-        "options": [
-            {
-                "text": "Pasta",
-                "isCorrect": true
-            },
-            {
-                "text": "Eggs",
-                "isCorrect": false
-            },
-            {
-                "text": "Cheese",
-                "isCorrect": false
-            },
-            {
-                "text": "Pancetta",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1820,
-        "name": "What is the main ingredient in the dish 'paella'?",
-        "slug": "what-is-the-main-ingredient-in-the-dish-paella",
-        "explanation": "The main ingredient in paella is rice, which is cooked with a variety of proteins such as seafood, chicken, or rabbit, along with saffron and other seasonings.",
-        "tags": [
-            "food",
-            "Spanish cuisine",
-            "paella"
-        ],
-        "options": [
-            {
-                "text": "Rice",
-                "isCorrect": true
-            },
-            {
-                "text": "Seafood",
-                "isCorrect": false
-            },
-            {
-                "text": "Saffron",
-                "isCorrect": false
-            },
-            {
-                "text": "Chicken",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1821,
-        "name": "Which country is known for its culture and traditions?",
-        "slug": "which-country-is-known-for-its-culture-and-traditions",
-        "explanation": "India is known for its rich culture and traditions, including its diverse languages, festivals, music, dance, and religious practices.",
-        "tags": [
-            "culture",
-            "traditions",
-            "India"
-        ],
-        "options": [
-            {
-                "text": "India",
-                "isCorrect": true
-            },
-            {
-                "text": "Japan",
-                "isCorrect": false
-            },
-            {
-                "text": "Egypt",
-                "isCorrect": false
-            },
-            {
-                "text": "Greece",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1822,
-        "name": "Which country is known for its tea culture and traditions?",
-        "slug": "which-country-is-known-for-its-tea-culture-and-traditions",
-        "explanation": "China is known for its rich tea culture, which includes centuries-old traditions of tea preparation, tea ceremonies, and a wide variety of teas.",
-        "tags": [
-            "culture",
-            "tea",
-            "China"
-        ],
-        "options": [
-            {
-                "text": "China",
-                "isCorrect": true
-            },
-            {
-                "text": "India",
-                "isCorrect": false
-            },
-            {
-                "text": "Japan",
-                "isCorrect": false
-            },
-            {
-                "text": "England",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1823,
-        "name": "Which country is known for its traditional samurai culture?",
-        "slug": "which-country-is-known-for-its-traditional-samurai-culture",
-        "explanation": "Japan is known for its samurai culture, a historic warrior class that played a major role in Japanese society for centuries.",
-        "tags": [
-            "culture",
-            "samurai",
-            "Japan"
-        ],
-        "options": [
-            {
-                "text": "Japan",
-                "isCorrect": true
-            },
-            {
-                "text": "China",
-                "isCorrect": false
-            },
-            {
-                "text": "South Korea",
-                "isCorrect": false
-            },
-            {
-                "text": "Thailand",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1824,
-        "name": "Which country is known for its ancient pyramids and pharaoh culture?",
-        "slug": "which-country-is-known-for-its-ancient-pyramids-and-pharaoh-culture",
-        "explanation": "Egypt is known for its ancient pyramids and the rich culture of the pharaohs, who ruled Egypt thousands of years ago and built monumental structures.",
-        "tags": [
-            "culture",
-            "pharaoh",
-            "Egypt"
-        ],
-        "options": [
-            {
-                "text": "Egypt",
-                "isCorrect": true
-            },
-            {
-                "text": "Greece",
-                "isCorrect": false
-            },
-            {
-                "text": "Rome",
-                "isCorrect": false
-            },
-            {
-                "text": "Mexico",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1825,
-        "name": "Which country is known for its Carnival celebrations?",
-        "slug": "which-country-is-known-for-its-carnival-celebrations",
-        "explanation": "Brazil is known for its vibrant Carnival celebrations, featuring samba music, elaborate costumes, parades, and street parties.",
-        "tags": [
-            "culture",
-            "Carnival",
-            "Brazil"
-        ],
-        "options": [
-            {
-                "text": "Brazil",
-                "isCorrect": true
-            },
-            {
-                "text": "Italy",
-                "isCorrect": false
-            },
-            {
-                "text": "France",
-                "isCorrect": false
-            },
-            {
-                "text": "Spain",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1826,
-        "name": "Which country is known for its flamenco dance tradition?",
-        "slug": "which-country-is-known-for-its-flamenco-dance-tradition",
-        "explanation": "Spain is known for its flamenco dance tradition, a passionate and rhythmic style of dance and music that originated in Andalusia.",
-        "tags": [
-            "culture",
-            "flamenco",
-            "Spain"
-        ],
-        "options": [
-            {
-                "text": "Spain",
-                "isCorrect": true
-            },
-            {
-                "text": "Mexico",
-                "isCorrect": false
-            },
-            {
-                "text": "Argentina",
-                "isCorrect": false
-            },
-            {
-                "text": "Colombia",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1827,
-        "name": "Which country is known for its desserts?",
-        "slug": "which-country-is-known-for-its-desserts",
-        "explanation": "France is known for its exquisite desserts, including pastries like croissants, macarons, and crème brûlée.",
-        "tags": [
-            "desserts",
-            "France",
-            "pastries"
-        ],
-        "options": [
-            {
-                "text": "France",
-                "isCorrect": true
-            },
-            {
-                "text": "Italy",
-                "isCorrect": false
-            },
-            {
-                "text": "United States",
-                "isCorrect": false
-            },
-            {
-                "text": "Japan",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1828,
-        "name": "Which country is known for its gelato?",
-        "slug": "which-country-is-known-for-its-gelato",
-        "explanation": "Italy is renowned for its gelato, a rich and creamy style of ice cream that comes in a variety of flavors.",
-        "tags": [
-            "desserts",
-            "Italy",
-            "gelato"
-        ],
-        "options": [
-            {
-                "text": "Italy",
-                "isCorrect": true
-            },
-            {
-                "text": "France",
-                "isCorrect": false
-            },
-            {
-                "text": "United States",
-                "isCorrect": false
-            },
-            {
-                "text": "Germany",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1829,
-        "name": "Which country is known for its chocolate?",
-        "slug": "which-country-is-known-for-its-chocolate",
-        "explanation": "Switzerland is famous for its high-quality chocolate, which has been produced using traditional methods for centuries.",
-        "tags": [
-            "desserts",
-            "Switzerland",
-            "chocolate"
-        ],
-        "options": [
-            {
-                "text": "Switzerland",
-                "isCorrect": true
-            },
-            {
-                "text": "Belgium",
-                "isCorrect": false
-            },
-            {
-                "text": "France",
-                "isCorrect": false
-            },
-            {
-                "text": "United Kingdom",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1830,
-        "name": "Which country is known for its traditional baklava?",
-        "slug": "which-country-is-known-for-its-traditional-baklava",
-        "explanation": "Turkey is famous for baklava, a rich, sweet pastry made from layers of filo dough filled with chopped nuts and sweetened with honey.",
-        "tags": [
-            "desserts",
-            "Turkey",
-            "baklava"
-        ],
-        "options": [
-            {
-                "text": "Turkey",
-                "isCorrect": true
-            },
-            {
-                "text": "Greece",
-                "isCorrect": false
-            },
-            {
-                "text": "Lebanon",
-                "isCorrect": false
-            },
-            {
-                "text": "Egypt",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1831,
-        "name": "Which country is known for its apple pie?",
-        "slug": "which-country-is-known-for-its-apple-pie",
-        "explanation": "The United States is famous for its classic apple pie, often served with a dollop of whipped cream or ice cream.",
-        "tags": [
-            "desserts",
-            "United States",
-            "apple pie"
-        ],
-        "options": [
-            {
-                "text": "United States",
-                "isCorrect": true
-            },
-            {
-                "text": "United Kingdom",
-                "isCorrect": false
-            },
-            {
-                "text": "Canada",
-                "isCorrect": false
-            },
-            {
-                "text": "France",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1832,
-        "name": "Which country is known for its Art Deco architecture?",
-        "slug": "which-country-is-known-for-its-art-deco-architecture",
-        "explanation": "The United States, especially in cities like New York and Miami, is known for its Art Deco architecture, with buildings like the Chrysler Building and the Miami Beach hotels.",
-        "tags": [
-            "architecture",
-            "Art Deco",
-            "United States"
-        ],
-        "options": [
-            {
-                "text": "United States",
-                "isCorrect": true
-            },
-            {
-                "text": "France",
-                "isCorrect": false
-            },
-            {
-                "text": "Italy",
-                "isCorrect": false
-            },
-            {
-                "text": "Spain",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1833,
-        "name": "Which country is known for its tea?",
-        "slug": "which-country-is-known-for-its-tea",
-        "explanation": "China is known for its long history of tea cultivation and consumption, and is considered the birthplace of tea.",
-        "tags": [
-            "food",
-            "culture",
-            "China"
-        ],
-        "options": [
-            {
-                "text": "China",
-                "isCorrect": true
-            },
-            {
-                "text": "India",
-                "isCorrect": false
-            },
-            {
-                "text": "Japan",
-                "isCorrect": false
-            },
-            {
-                "text": "United Kingdom",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1834,
-        "name": "Which country is known for its coffee?",
-        "slug": "which-country-is-known-for-its-coffee",
-        "explanation": "Brazil is the world’s largest producer of coffee and is famous for its coffee beans.",
-        "tags": [
-            "food",
-            "culture",
-            "Brazil"
-        ],
-        "options": [
-            {
-                "text": "Brazil",
-                "isCorrect": true
-            },
-            {
-                "text": "Ethiopia",
-                "isCorrect": false
-            },
-            {
-                "text": "Colombia",
-                "isCorrect": false
-            },
-            {
-                "text": "Vietnam",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1835,
-        "name": "Which country is known for its beer?",
-        "slug": "which-country-is-known-for-its-beer",
-        "explanation": "Germany is famous for its beer culture, with a long tradition of brewing, including iconic styles like Pilsner and Weissbier.",
-        "tags": [
-            "food",
-            "Germany",
-            "beer"
-        ],
-        "options": [
-            {
-                "text": "Germany",
-                "isCorrect": true
-            },
-            {
-                "text": "Belgium",
-                "isCorrect": false
-            },
-            {
-                "text": "Czech Republic",
-                "isCorrect": false
-            },
-            {
-                "text": "United States",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1836,
-        "name": "What is the main ingredient in the dish 'curry'?",
-        "slug": "what-is-the-main-ingredient-in-the-dish-curry",
-        "explanation": "The main ingredient in curry is spices, which are blended to create a flavorful sauce. These spices can include turmeric, cumin, coriander, and chili, among others.",
-        "tags": [
-            "cooking",
-            "Indian cuisine",
-            "spices"
-        ],
-        "options": [
-            {
-                "text": "Spices",
-                "isCorrect": true
-            },
-            {
-                "text": "Meat",
-                "isCorrect": false
-            },
-            {
-                "text": "Vegetables",
-                "isCorrect": false
-            },
-            {
-                "text": "Rice",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1837,
-        "name": "What is the main ingredient in the dish 'stew'?",
-        "slug": "what-is-the-main-ingredient-in-the-dish-stew",
-        "explanation": "The main ingredient in stew is usually meat, which is simmered with vegetables and broth to create a flavorful dish.",
-        "tags": [
-            "cooking",
-            "comfort food",
-            "meat"
-        ],
-        "options": [
-            {
-                "text": "Meat",
-                "isCorrect": true
-            },
-            {
-                "text": "Spices",
-                "isCorrect": false
-            },
-            {
-                "text": "Vegetables",
-                "isCorrect": false
-            },
-            {
-                "text": "Rice",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1838,
-        "name": "What is the main ingredient in the dish 'burrito'?",
-        "slug": "what-is-the-main-ingredient-in-the-dish-burrito",
-        "explanation": "The main ingredient in a burrito is a large flour tortilla, which is filled with ingredients like rice, beans, meat, and cheese.",
-        "tags": [
-            "cooking",
-            "Mexican cuisine",
-            "tortilla"
-        ],
-        "options": [
-            {
-                "text": "Flour tortilla",
-                "isCorrect": true
-            },
-            {
-                "text": "Rice",
-                "isCorrect": false
-            },
-            {
-                "text": "Beans",
-                "isCorrect": false
-            },
-            {
-                "text": "Meat",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1839,
-        "name": "What is the capital of Hungary?",
-        "slug": "what-is-the-capital-of-hungary",
-        "explanation": "The capital of Hungary is Budapest, which is known for its stunning architecture and rich history.",
-        "tags": [
-            "capital",
-            "Hungary",
-            "Budapest"
-        ],
-        "options": [
-            {
-                "text": "Budapest",
-                "isCorrect": true
-            },
-            {
-                "text": "Debrecen",
-                "isCorrect": false
-            },
-            {
-                "text": "Szeged",
-                "isCorrect": false
-            },
-            {
-                "text": "Miskolc",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1840,
-        "name": "What is the capital of Japan?",
-        "slug": "what-is-the-capital-of-japan",
-        "explanation": "The capital of Japan is Tokyo, a bustling metropolis known for its blend of traditional culture and modern technology.",
-        "tags": [
-            "capital",
-            "Japan",
-            "Tokyo"
-        ],
-        "options": [
-            {
-                "text": "Tokyo",
-                "isCorrect": true
-            },
-            {
-                "text": "Osaka",
-                "isCorrect": false
-            },
-            {
-                "text": "Kyoto",
-                "isCorrect": false
-            },
-            {
-                "text": "Hiroshima",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1841,
-        "name": "What is the capital of Brazil?",
-        "slug": "what-is-the-capital-of-brazil",
-        "explanation": "The capital of Brazil is Brasília, a planned city known for its modernist architecture designed by Oscar Niemeyer.",
-        "tags": [
-            "capital",
-            "Brazil",
-            "Brasília"
-        ],
-        "options": [
-            {
-                "text": "Brasília",
-                "isCorrect": true
-            },
-            {
-                "text": "Rio de Janeiro",
-                "isCorrect": false
-            },
-            {
-                "text": "São Paulo",
-                "isCorrect": false
-            },
-            {
-                "text": "Salvador",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1842,
-        "name": "What is the capital of Australia?",
-        "slug": "what-is-the-capital-of-australia",
-        "explanation": "The capital of Australia is Canberra, located between Sydney and Melbourne, and is the political center of the country.",
-        "tags": [
-            "capital",
-            "Australia",
-            "Canberra"
-        ],
-        "options": [
-            {
-                "text": "Canberra",
-                "isCorrect": true
-            },
-            {
-                "text": "Sydney",
-                "isCorrect": false
-            },
-            {
-                "text": "Melbourne",
-                "isCorrect": false
-            },
-            {
-                "text": "Brisbane",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1843,
-        "name": "What is the capital of Germany?",
-        "slug": "what-is-the-capital-of-germany",
-        "explanation": "The capital of Germany is Berlin, known for its rich history, cultural heritage, and historical landmarks like the Brandenburg Gate.",
-        "tags": [
-            "capital",
-            "Germany",
-            "Berlin"
-        ],
-        "options": [
-            {
-                "text": "Berlin",
-                "isCorrect": true
-            },
-            {
-                "text": "Munich",
-                "isCorrect": false
-            },
-            {
-                "text": "Frankfurt",
-                "isCorrect": false
-            },
-            {
-                "text": "Hamburg",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1844,
-        "name": "Which country is known for its opera?",
-        "slug": "which-country-is-known-for-its-opera",
-        "explanation": "Italy is famously known for its opera, being the birthplace of renowned composers like Verdi and Puccini.",
-        "tags": [
-            "opera",
-            "Italy",
-            "culture"
-        ],
-        "options": [
-            {
-                "text": "Italy",
-                "isCorrect": true
-            },
-            {
-                "text": "Austria",
-                "isCorrect": false
-            },
-            {
-                "text": "Germany",
-                "isCorrect": false
-            },
-            {
-                "text": "France",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1845,
-        "name": "Which country is known for its classical music?",
-        "slug": "which-country-is-known-for-its-classical-music",
-        "explanation": "Austria is known for its classical music, home to famous composers such as Mozart, Beethoven, and Strauss.",
-        "tags": [
-            "classical music",
-            "Austria",
-            "culture"
-        ],
-        "options": [
-            {
-                "text": "Austria",
-                "isCorrect": true
-            },
-            {
-                "text": "Germany",
-                "isCorrect": false
-            },
-            {
-                "text": "Italy",
-                "isCorrect": false
-            },
-            {
-                "text": "France",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1846,
-        "name": "Which country is known for its ballet?",
-        "slug": "which-country-is-known-for-its-ballet",
-        "explanation": "Russia is renowned for its ballet traditions, with famous ballet companies such as the Bolshoi Ballet.",
-        "tags": [
-            "ballet",
-            "Russia",
-            "culture"
-        ],
-        "options": [
-            {
-                "text": "Russia",
-                "isCorrect": true
-            },
-            {
-                "text": "France",
-                "isCorrect": false
-            },
-            {
-                "text": "United States",
-                "isCorrect": false
-            },
-            {
-                "text": "Italy",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1847,
-        "name": "Which country is known for its art and painting traditions?",
-        "slug": "which-country-is-known-for-its-art-and-painting-traditions",
-        "explanation": "France is famous for its artistic heritage, being home to iconic painters like Monet, Picasso, and Van Gogh.",
-        "tags": [
-            "art",
-            "France",
-            "painting"
-        ],
-        "options": [
-            {
-                "text": "France",
-                "isCorrect": true
-            },
-            {
-                "text": "Spain",
-                "isCorrect": false
-            },
-            {
-                "text": "Italy",
-                "isCorrect": false
-            },
-            {
-                "text": "Germany",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1848,
-        "name": "Which country is known for its theater?",
-        "slug": "which-country-is-known-for-its-theater",
-        "explanation": "England is known for its strong theater tradition, especially for playwrights like Shakespeare and the West End theaters.",
-        "tags": [
-            "theater",
-            "England",
-            "culture"
-        ],
-        "options": [
-            {
-                "text": "England",
-                "isCorrect": true
-            },
-            {
-                "text": "United States",
-                "isCorrect": false
-            },
-            {
-                "text": "France",
-                "isCorrect": false
-            },
-            {
-                "text": "Germany",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1849,
-        "name": "Which country is known for its jazz music?",
-        "slug": "which-country-is-known-for-its-jazz-music",
-        "explanation": "The United States is the birthplace of jazz music, with cities like New Orleans being the heart of its development.",
-        "tags": [
-            "jazz music",
-            "United States",
-            "culture"
-        ],
-        "options": [
-            {
-                "text": "United States",
-                "isCorrect": true
-            },
-            {
-                "text": "Canada",
-                "isCorrect": false
-            },
-            {
-                "text": "Brazil",
-                "isCorrect": false
-            },
-            {
-                "text": "United Kingdom",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1850,
-        "name": "What is the capital of Denmark?",
-        "slug": "what-is-the-capital-of-denmark",
-        "explanation": "Copenhagen is the capital and largest city of Denmark, known for its historical and cultural significance.",
-        "tags": [
-            "Denmark",
-            "capital cities",
-            "Europe"
-        ],
-        "options": [
-            {
-                "text": "Copenhagen",
-                "isCorrect": true
-            },
-            {
-                "text": "Aarhus",
-                "isCorrect": false
-            },
-            {
-                "text": "Odense",
-                "isCorrect": false
-            },
-            {
-                "text": "Aalborg",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1851,
-        "name": "What is the capital of Sweden?",
-        "slug": "what-is-the-capital-of-sweden",
-        "explanation": "Stockholm is the capital of Sweden and is known for its beautiful archipelago and cultural landmarks.",
-        "tags": [
-            "Sweden",
-            "capital cities",
-            "Europe"
-        ],
-        "options": [
-            {
-                "text": "Stockholm",
-                "isCorrect": true
-            },
-            {
-                "text": "Gothenburg",
-                "isCorrect": false
-            },
-            {
-                "text": "Malmö",
-                "isCorrect": false
-            },
-            {
-                "text": "Uppsala",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1852,
-        "name": "What is the capital of Norway?",
-        "slug": "what-is-the-capital-of-norway",
-        "explanation": "Oslo is the capital of Norway, known for its green spaces and modern architecture.",
-        "tags": [
-            "Norway",
-            "capital cities",
-            "Europe"
-        ],
-        "options": [
-            {
-                "text": "Oslo",
-                "isCorrect": true
-            },
-            {
-                "text": "Bergen",
-                "isCorrect": false
-            },
-            {
-                "text": "Stavanger",
-                "isCorrect": false
-            },
-            {
-                "text": "Trondheim",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1853,
-        "name": "What is the capital of Finland?",
-        "slug": "what-is-the-capital-of-finland",
-        "explanation": "Helsinki is the capital of Finland, known for its design, architecture, and proximity to the sea.",
-        "tags": [
-            "Finland",
-            "capital cities",
-            "Europe"
-        ],
-        "options": [
-            {
-                "text": "Helsinki",
-                "isCorrect": true
-            },
-            {
-                "text": "Espoo",
-                "isCorrect": false
-            },
-            {
-                "text": "Tampere",
-                "isCorrect": false
-            },
-            {
-                "text": "Oulu",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1854,
-        "name": "What is the capital of Iceland?",
-        "slug": "what-is-the-capital-of-iceland",
-        "explanation": "Reykjavik is the capital and largest city of Iceland, known for its geothermal activity and cultural events.",
-        "tags": [
-            "Iceland",
-            "capital cities",
-            "Europe"
-        ],
-        "options": [
-            {
-                "text": "Reykjavik",
-                "isCorrect": true
-            },
-            {
-                "text": "Akureyri",
-                "isCorrect": false
-            },
-            {
-                "text": "Reykjanesbær",
-                "isCorrect": false
-            },
-            {
-                "text": "Kopavogur",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1855,
-        "name": "Which country is known for its beaches?",
-        "slug": "which-country-is-known-for-its-beaches",
-        "explanation": "The Maldives is famous for its stunning white-sand beaches and crystal-clear waters, attracting beach lovers from around the world.",
-        "tags": [
-            "beaches",
-            "tourism",
-            "Maldives"
-        ],
-        "options": [
-            {
-                "text": "Maldives",
-                "isCorrect": true
-            },
-            {
-                "text": "Australia",
-                "isCorrect": false
-            },
-            {
-                "text": "Hawaii",
-                "isCorrect": false
-            },
-            {
-                "text": "Greece",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1856,
-        "name": "Which country is known for its stunning beaches?",
-        "slug": "which-country-is-known-for-its-stunning-beaches",
-        "explanation": "Australia is renowned for its beautiful beaches, such as Bondi Beach, famous for surfing and beach culture.",
-        "tags": [
-            "beaches",
-            "Australia",
-            "surfing"
-        ],
-        "options": [
-            {
-                "text": "Australia",
-                "isCorrect": true
-            },
-            {
-                "text": "Thailand",
-                "isCorrect": false
-            },
-            {
-                "text": "Brazil",
-                "isCorrect": false
-            },
-            {
-                "text": "South Africa",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1857,
-        "name": "Which country is famous for its tropical beaches?",
-        "slug": "which-country-is-famous-for-its-tropical-beaches",
-        "explanation": "Thailand is famous for its tropical beaches, with destinations like Phuket and Koh Samui attracting millions of visitors.",
-        "tags": [
-            "beaches",
-            "Thailand",
-            "tropical"
-        ],
-        "options": [
-            {
-                "text": "Thailand",
-                "isCorrect": true
-            },
-            {
-                "text": "Mexico",
-                "isCorrect": false
-            },
-            {
-                "text": "India",
-                "isCorrect": false
-            },
-            {
-                "text": "Indonesia",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1858,
-        "name": "Which country is known for its famous beach resorts?",
-        "slug": "which-country-is-known-for-its-famous-beach-resorts",
-        "explanation": "Hawaii is famous for its world-class beach resorts, with destinations like Waikiki Beach offering incredible surfing and relaxation.",
-        "tags": [
-            "Hawaii",
-            "beaches",
-            "resorts"
-        ],
-        "options": [
-            {
-                "text": "Hawaii",
-                "isCorrect": true
-            },
-            {
-                "text": "Philippines",
-                "isCorrect": false
-            },
-            {
-                "text": "Portugal",
-                "isCorrect": false
-            },
-            {
-                "text": "Barbados",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1859,
-        "name": "Which country is known for its beautiful beaches and coral reefs?",
-        "slug": "which-country-is-known-for-its-beautiful-beaches-and-coral-reefs",
-        "explanation": "The Bahamas is known for its beautiful beaches and extensive coral reefs, making it a popular destination for divers and beach lovers.",
-        "tags": [
-            "Bahamas",
-            "beaches",
-            "coral reefs"
-        ],
-        "options": [
-            {
-                "text": "Bahamas",
-                "isCorrect": true
-            },
-            {
-                "text": "Egypt",
-                "isCorrect": false
-            },
-            {
-                "text": "Cuba",
-                "isCorrect": false
-            },
-            {
-                "text": "Jamaica",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1860,
-        "name": "What is the main ingredient in the dish 'stir fry'?",
-        "slug": "what-is-the-main-ingredient-in-the-dish-stir-fry",
-        "explanation": "Stir fry is primarily made with a variety of vegetables, often combined with meat or tofu and served with rice.",
-        "tags": [
-            "cooking",
-            "stir fry",
-            "vegetables"
-        ],
-        "options": [
-            {
-                "text": "Vegetables",
-                "isCorrect": true
-            },
-            {
-                "text": "Rice",
-                "isCorrect": false
-            },
-            {
-                "text": "Meat",
-                "isCorrect": false
-            },
-            {
-                "text": "Sauce",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1861,
-        "name": "What is the main ingredient in the dish 'tacos'?",
-        "slug": "what-is-the-main-ingredient-in-the-dish-tacos",
-        "explanation": "Tacos are a Mexican dish made with a tortilla as the base, typically filled with meats, vegetables, or beans.",
-        "tags": [
-            "cooking",
-            "tacos",
-            "Mexico"
-        ],
-        "options": [
-            {
-                "text": "Tortilla",
-                "isCorrect": true
-            },
-            {
-                "text": "Rice",
-                "isCorrect": false
-            },
-            {
-                "text": "Bread",
-                "isCorrect": false
-            },
-            {
-                "text": "Potatoes",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1862,
-        "name": "What is the main ingredient in the dish 'pizza'?",
-        "slug": "what-is-the-main-ingredient-in-the-dish-pizza",
-        "explanation": "Pizza is an Italian dish made primarily from dough, topped with tomatoes, cheese, and various other ingredients.",
-        "tags": [
-            "cooking",
-            "pizza",
-            "Italy"
-        ],
-        "options": [
-            {
-                "text": "Dough",
-                "isCorrect": true
-            },
-            {
-                "text": "Rice",
-                "isCorrect": false
-            },
-            {
-                "text": "Pasta",
-                "isCorrect": false
-            },
-            {
-                "text": "Noodles",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1863,
-        "name": "Which country is known for its skiing resorts?",
-        "slug": "which-country-is-known-for-its-skiing-resorts",
-        "explanation": "Switzerland is renowned for its luxury skiing resorts, including famous locations like Zermatt and St. Moritz.",
-        "tags": [
-            "travel",
-            "skiing",
-            "Switzerland"
-        ],
-        "options": [
-            {
-                "text": "Switzerland",
-                "isCorrect": true
-            },
-            {
-                "text": "Austria",
-                "isCorrect": false
-            },
-            {
-                "text": "France",
-                "isCorrect": false
-            },
-            {
-                "text": "Canada",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1864,
-        "name": "Which country is known for its tropical beaches?",
-        "slug": "which-country-is-known-for-its-tropical-beaches",
-        "explanation": "The Maldives is famous for its pristine tropical beaches and crystal-clear waters.",
-        "tags": [
-            "travel",
-            "beaches",
-            "Maldives"
-        ],
-        "options": [
-            {
-                "text": "Maldives",
-                "isCorrect": true
-            },
-            {
-                "text": "Hawaii",
-                "isCorrect": false
-            },
-            {
-                "text": "Australia",
-                "isCorrect": false
-            },
-            {
-                "text": "Greece",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1865,
-        "name": "Which country is known for its iconic Great Wall?",
-        "slug": "which-country-is-known-for-its-iconic-great-wall",
-        "explanation": "China is famous for the Great Wall, one of the most recognizable landmarks in the world.",
-        "tags": [
-            "travel",
-            "China",
-            "landmarks"
-        ],
-        "options": [
-            {
-                "text": "China",
-                "isCorrect": true
-            },
-            {
-                "text": "Japan",
-                "isCorrect": false
-            },
-            {
-                "text": "India",
-                "isCorrect": false
-            },
-            {
-                "text": "Mexico",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1866,
-        "name": "Which country is known for its ancient pyramids?",
-        "slug": "which-country-is-known-for-its-ancient-pyramids",
-        "explanation": "Egypt is renowned for the ancient pyramids, including the famous Great Pyramid of Giza.",
-        "tags": [
-            "travel",
-            "Egypt",
-            "history"
-        ],
-        "options": [
-            {
-                "text": "Egypt",
-                "isCorrect": true
-            },
-            {
-                "text": "Greece",
-                "isCorrect": false
-            },
-            {
-                "text": "Mexico",
-                "isCorrect": false
-            },
-            {
-                "text": "Italy",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1867,
-        "name": "Which country is known for its ancient Colosseum?",
-        "slug": "which-country-is-known-for-its-ancient-colosseum",
-        "explanation": "Italy is famous for the Colosseum, an ancient amphitheater located in Rome.",
-        "tags": [
-            "travel",
-            "Italy",
-            "history"
-        ],
-        "options": [
-            {
-                "text": "Italy",
-                "isCorrect": true
-            },
-            {
-                "text": "Greece",
-                "isCorrect": false
-            },
-            {
-                "text": "Spain",
-                "isCorrect": false
-            },
-            {
-                "text": "Turkey",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1868,
-        "name": "What is the main ingredient in the dish 'chili'?",
-        "slug": "what-is-the-main-ingredient-in-the-dish-chili",
-        "explanation": "Chili peppers are the key ingredient in chili, providing the dish with its characteristic heat and flavor.",
-        "tags": [
-            "food",
-            "cooking",
-            "chili"
-        ],
-        "options": [
-            {
-                "text": "Chili peppers",
-                "isCorrect": true
-            },
-            {
-                "text": "Meat",
-                "isCorrect": false
-            },
-            {
-                "text": "Beans",
-                "isCorrect": false
-            },
-            {
-                "text": "Rice",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1869,
-        "name": "What is the main ingredient in the dish 'crepes'?",
-        "slug": "what-is-the-main-ingredient-in-the-dish-crepes",
-        "explanation": "The main ingredient in crepes is flour, which is mixed with eggs, milk, and other ingredients to create a thin batter.",
-        "tags": [
-            "cooking",
-            "French cuisine",
-            "desserts"
-        ],
-        "options": [
-            {
-                "text": "Flour",
-                "isCorrect": true
-            },
-            {
-                "text": "Eggs",
-                "isCorrect": false
-            },
-            {
-                "text": "Milk",
-                "isCorrect": false
-            },
-            {
-                "text": "Sugar",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1870,
-        "name": "What is the main ingredient in the dish 'gnocchi'?",
-        "slug": "what-is-the-main-ingredient-in-the-dish-gnocchi",
-        "explanation": "The main ingredient in gnocchi is potatoes, which are combined with flour to make the dough.",
-        "tags": [
-            "cooking",
-            "Italian cuisine",
-            "pasta"
-        ],
-        "options": [
-            {
-                "text": "Potatoes",
-                "isCorrect": true
-            },
-            {
-                "text": "Flour",
-                "isCorrect": false
-            },
-            {
-                "text": "Cheese",
-                "isCorrect": false
-            },
-            {
-                "text": "Eggs",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1871,
-        "name": "What is the capital of the Philippines?",
-        "slug": "what-is-the-capital-of-the-philippines",
-        "explanation": "The capital of the Philippines is Manila, a bustling city known for its rich history and vibrant culture.",
-        "tags": [
-            "geography",
-            "Asia",
-            "capitals"
-        ],
-        "options": [
-            {
-                "text": "Manila",
-                "isCorrect": true
-            },
-            {
-                "text": "Quezon City",
-                "isCorrect": false
-            },
-            {
-                "text": "Cebu City",
-                "isCorrect": false
-            },
-            {
-                "text": "Davao City",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1872,
-        "name": "What is the capital of South Korea?",
-        "slug": "what-is-the-capital-of-south-korea",
-        "explanation": "The capital of South Korea is Seoul, a vibrant metropolis known for its technology, history, and cultural heritage.",
-        "tags": [
-            "geography",
-            "Asia",
-            "capitals"
-        ],
-        "options": [
-            {
-                "text": "Seoul",
-                "isCorrect": true
-            },
-            {
-                "text": "Busan",
-                "isCorrect": false
-            },
-            {
-                "text": "Incheon",
-                "isCorrect": false
-            },
-            {
-                "text": "Daegu",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1873,
-        "name": "Which country is known for its folklore tales?",
-        "slug": "which-country-is-known-for-its-folklore-tales",
-        "explanation": "Ireland is famous for its rich folklore, including tales of leprechauns, banshees, and other mythical creatures.",
-        "tags": [
-            "culture",
-            "folklore",
-            "Ireland"
-        ],
-        "options": [
-            {
-                "text": "Ireland",
-                "isCorrect": true
-            },
-            {
-                "text": "Japan",
-                "isCorrect": false
-            },
-            {
-                "text": "Russia",
-                "isCorrect": false
-            },
-            {
-                "text": "Brazil",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1874,
-        "name": "Which country is known for its samurai legends?",
-        "slug": "which-country-is-known-for-its-samurai-legends",
-        "explanation": "Japan is renowned for its samurai legends, which reflect its history and culture.",
-        "tags": [
-            "culture",
-            "folklore",
-            "Japan"
-        ],
-        "options": [
-            {
-                "text": "Japan",
-                "isCorrect": true
-            },
-            {
-                "text": "China",
-                "isCorrect": false
-            },
-            {
-                "text": "South Korea",
-                "isCorrect": false
-            },
-            {
-                "text": "Vietnam",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1875,
-        "name": "Which country is known for its fairy tale castles?",
-        "slug": "which-country-is-known-for-its-fairy-tale-castles",
-        "explanation": "Germany is famous for its fairy tale castles, including Neuschwanstein Castle, which inspired Disney's Sleeping Beauty castle.",
-        "tags": [
-            "culture",
-            "folklore",
-            "Germany"
-        ],
-        "options": [
-            {
-                "text": "Germany",
-                "isCorrect": true
-            },
-            {
-                "text": "France",
-                "isCorrect": false
-            },
-            {
-                "text": "Switzerland",
-                "isCorrect": false
-            },
-            {
-                "text": "Austria",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1876,
-        "name": "Which country is known for its mythological gods like Zeus and Athena?",
-        "slug": "which-country-is-known-for-its-mythological-gods",
-        "explanation": "Greece is renowned for its mythology, featuring gods like Zeus, Athena, and Apollo.",
-        "tags": [
-            "culture",
-            "folklore",
-            "Greece"
-        ],
-        "options": [
-            {
-                "text": "Greece",
-                "isCorrect": true
-            },
-            {
-                "text": "Italy",
-                "isCorrect": false
-            },
-            {
-                "text": "Egypt",
-                "isCorrect": false
-            },
-            {
-                "text": "Turkey",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1877,
-        "name": "Which country is known for its tales of vikings?",
-        "slug": "which-country-is-known-for-its-tales-of-vikings",
-        "explanation": "Norway is known for its Viking heritage and tales of seafaring warriors.",
-        "tags": [
-            "culture",
-            "folklore",
-            "Norway"
-        ],
-        "options": [
-            {
-                "text": "Norway",
-                "isCorrect": true
-            },
-            {
-                "text": "Sweden",
-                "isCorrect": false
-            },
-            {
-                "text": "Denmark",
-                "isCorrect": false
-            },
-            {
-                "text": "Iceland",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1878,
-        "name": "What is the main ingredient in the dish 'soufflé'?",
-        "slug": "what-is-the-main-ingredient-in-the-dish-souffle",
-        "explanation": "Eggs are the main ingredient in soufflé, providing the airy and fluffy texture that the dish is known for.",
-        "tags": [
-            "cooking",
-            "French cuisine",
-            "dessert"
-        ],
-        "options": [
-            {
-                "text": "Eggs",
-                "isCorrect": true
-            },
-            {
-                "text": "Flour",
-                "isCorrect": false
-            },
-            {
-                "text": "Sugar",
-                "isCorrect": false
-            },
-            {
-                "text": "Butter",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1879,
-        "name": "What is the main ingredient in the dish 'carbonara'?",
-        "slug": "what-is-the-main-ingredient-in-the-dish-carbonara",
-        "explanation": "Egg yolks are a key ingredient in carbonara, used to create its creamy sauce along with cheese and pancetta.",
-        "tags": [
-            "cooking",
-            "Italian cuisine",
-            "pasta"
-        ],
-        "options": [
-            {
-                "text": "Egg yolks",
-                "isCorrect": true
-            },
-            {
-                "text": "Cream",
-                "isCorrect": false
-            },
-            {
-                "text": "Butter",
-                "isCorrect": false
-            },
-            {
-                "text": "Garlic",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1880,
-        "name": "Which country is known for its wildlife?",
-        "slug": "which-country-is-known-for-its-wildlife",
-        "explanation": "Australia is renowned for its unique wildlife, including kangaroos, koalas, and a diverse range of marsupials, reptiles, and birds.",
-        "tags": [
-            "wildlife",
-            "travel",
-            "nature"
-        ],
-        "options": [
-            {
-                "text": "Australia",
-                "isCorrect": true
-            },
-            {
-                "text": "South Africa",
-                "isCorrect": false
-            },
-            {
-                "text": "Brazil",
-                "isCorrect": false
-            },
-            {
-                "text": "India",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1881,
-        "name": "Which country is famous for its safaris?",
-        "slug": "which-country-is-famous-for-its-safaris",
-        "explanation": "South Africa is famous for its safaris, offering the opportunity to see the Big Five animals in their natural habitat.",
-        "tags": [
-            "wildlife",
-            "safari",
-            "travel"
-        ],
-        "options": [
-            {
-                "text": "South Africa",
-                "isCorrect": true
-            },
-            {
-                "text": "Kenya",
-                "isCorrect": false
-            },
-            {
-                "text": "Tanzania",
-                "isCorrect": false
-            },
-            {
-                "text": "Botswana",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1882,
-        "name": "Which country is known for the Amazon rainforest?",
-        "slug": "which-country-is-known-for-the-amazon-rainforest",
-        "explanation": "Brazil is home to the largest portion of the Amazon rainforest, one of the most biodiverse places on Earth.",
-        "tags": [
-            "wildlife",
-            "nature",
-            "rainforest"
-        ],
-        "options": [
-            {
-                "text": "Brazil",
-                "isCorrect": true
-            },
-            {
-                "text": "Peru",
-                "isCorrect": false
-            },
-            {
-                "text": "Colombia",
-                "isCorrect": false
-            },
-            {
-                "text": "Ecuador",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1883,
-        "name": "Which country is famous for its national parks?",
-        "slug": "which-country-is-famous-for-its-national-parks",
-        "explanation": "The United States is famous for its national parks, including Yellowstone, Yosemite, and the Grand Canyon.",
-        "tags": [
-            "wildlife",
-            "travel",
-            "nature"
-        ],
-        "options": [
-            {
-                "text": "United States",
-                "isCorrect": true
-            },
-            {
-                "text": "Canada",
-                "isCorrect": false
-            },
-            {
-                "text": "Australia",
-                "isCorrect": false
-            },
-            {
-                "text": "India",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1884,
-        "name": "Which country is known for its biodiversity?",
-        "slug": "which-country-is-known-for-its-biodiversity",
-        "explanation": "India is known for its incredible biodiversity, with a wide range of ecosystems from Himalayan peaks to tropical rainforests.",
-        "tags": [
-            "wildlife",
-            "nature",
-            "biodiversity"
-        ],
-        "options": [
-            {
-                "text": "India",
-                "isCorrect": true
-            },
-            {
-                "text": "Indonesia",
-                "isCorrect": false
-            },
-            {
-                "text": "Madagascar",
-                "isCorrect": false
-            },
-            {
-                "text": "Mexico",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1885,
-        "name": "Which country is known for its cuisine?",
-        "slug": "which-country-is-known-for-its-cuisine",
-        "explanation": "Italy is famous for its cuisine, particularly dishes like pasta, pizza, and risotto, which have gained worldwide popularity.",
-        "tags": [
-            "food",
-            "cuisine",
-            "Italy"
-        ],
-        "options": [
-            {
-                "text": "Italy",
-                "isCorrect": true
-            },
-            {
-                "text": "India",
-                "isCorrect": false
-            },
-            {
-                "text": "Japan",
-                "isCorrect": false
-            },
-            {
-                "text": "Thailand",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1886,
-        "name": "Which country is famous for its sushi?",
-        "slug": "which-country-is-famous-for-its-sushi",
-        "explanation": "Japan is renowned for its sushi, a traditional dish featuring vinegared rice, seafood, and vegetables.",
-        "tags": [
-            "food",
-            "cuisine",
-            "Japan"
-        ],
-        "options": [
-            {
-                "text": "Japan",
-                "isCorrect": true
-            },
-            {
-                "text": "China",
-                "isCorrect": false
-            },
-            {
-                "text": "Korea",
-                "isCorrect": false
-            },
-            {
-                "text": "Thailand",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1887,
-        "name": "Which country is known for its curries?",
-        "slug": "which-country-is-known-for-its-curries",
-        "explanation": "India is famous for its wide variety of curries, which are known for their rich flavors and use of aromatic spices.",
-        "tags": [
-            "food",
-            "cuisine",
-            "India"
-        ],
-        "options": [
-            {
-                "text": "India",
-                "isCorrect": true
-            },
-            {
-                "text": "Pakistan",
-                "isCorrect": false
-            },
-            {
-                "text": "Sri Lanka",
-                "isCorrect": false
-            },
-            {
-                "text": "Bangladesh",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1888,
-        "name": "Which country is known for its tacos?",
-        "slug": "which-country-is-known-for-its-tacos",
-        "explanation": "Mexico is known for its tacos, a traditional dish featuring a folded tortilla filled with various ingredients such as meat, beans, and vegetables.",
-        "tags": [
-            "food",
-            "cuisine",
-            "Mexico"
-        ],
-        "options": [
-            {
-                "text": "Mexico",
-                "isCorrect": true
-            },
-            {
-                "text": "Spain",
-                "isCorrect": false
-            },
-            {
-                "text": "Colombia",
-                "isCorrect": false
-            },
-            {
-                "text": "Argentina",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1889,
-        "name": "Which country is known for its art and culture?",
-        "slug": "which-country-is-known-for-its-art-and-culture",
-        "explanation": "Italy is renowned for its rich art and culture, home to masterpieces like Michelangelo's David and Da Vinci's Last Supper.",
-        "tags": [
-            "art",
-            "culture",
-            "Italy"
-        ],
-        "options": [
-            {
-                "text": "Italy",
-                "isCorrect": true
-            },
-            {
-                "text": "France",
-                "isCorrect": false
-            },
-            {
-                "text": "Greece",
-                "isCorrect": false
-            },
-            {
-                "text": "Egypt",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1890,
-        "name": "Which country is famous for its ancient architecture?",
-        "slug": "which-country-is-famous-for-its-ancient-architecture",
-        "explanation": "Greece is celebrated for its ancient architecture, particularly the Parthenon and other structures from the classical period.",
-        "tags": [
-            "art",
-            "architecture",
-            "Greece"
-        ],
-        "options": [
-            {
-                "text": "Greece",
-                "isCorrect": true
-            },
-            {
-                "text": "Egypt",
-                "isCorrect": false
-            },
-            {
-                "text": "Italy",
-                "isCorrect": false
-            },
-            {
-                "text": "India",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1891,
-        "name": "Which country is known for its impressionist paintings?",
-        "slug": "which-country-is-known-for-its-impressionist-paintings",
-        "explanation": "France is known for its impressionist painters like Monet, Degas, and Renoir, who revolutionized the art world in the 19th century.",
-        "tags": [
-            "art",
-            "culture",
-            "France"
-        ],
-        "options": [
-            {
-                "text": "France",
-                "isCorrect": true
-            },
-            {
-                "text": "Italy",
-                "isCorrect": false
-            },
-            {
-                "text": "Spain",
-                "isCorrect": false
-            },
-            {
-                "text": "Netherlands",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1892,
-        "name": "Which country is known for its modern art movements?",
-        "slug": "which-country-is-known-for-its-modern-art-movements",
-        "explanation": "Spain is known for its contribution to modern art, with artists like Picasso and Dalí leading revolutionary art movements.",
-        "tags": [
-            "art",
-            "modern art",
-            "Spain"
-        ],
-        "options": [
-            {
-                "text": "Spain",
-                "isCorrect": true
-            },
-            {
-                "text": "France",
-                "isCorrect": false
-            },
-            {
-                "text": "Italy",
-                "isCorrect": false
-            },
-            {
-                "text": "Germany",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1893,
-        "name": "Which country is famous for its cultural festivals?",
-        "slug": "which-country-is-famous-for-its-cultural-festivals",
-        "explanation": "India is known for its vibrant cultural festivals like Diwali, Holi, and Durga Puja, which celebrate its diverse heritage.",
-        "tags": [
-            "culture",
-            "festivals",
-            "India"
-        ],
-        "options": [
-            {
-                "text": "India",
-                "isCorrect": true
-            },
-            {
-                "text": "Brazil",
-                "isCorrect": false
-            },
-            {
-                "text": "China",
-                "isCorrect": false
-            },
-            {
-                "text": "Mexico",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1894,
-        "name": "Which country is famous for its chocolate?",
-        "slug": "which-country-is-famous-for-its-chocolate",
-        "explanation": "Switzerland is famous for its high-quality chocolate, which has a smooth texture and rich flavor.",
-        "tags": [
-            "food",
-            "cuisine",
-            "Switzerland"
-        ],
-        "options": [
-            {
-                "text": "Switzerland",
-                "isCorrect": true
-            },
-            {
-                "text": "Belgium",
-                "isCorrect": false
-            },
-            {
-                "text": "France",
-                "isCorrect": false
-            },
-            {
-                "text": "Germany",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1895,
-        "name": "What is the primary ingredient in hummus?",
-        "slug": "what-is-the-primary-ingredient-in-hummus",
-        "explanation": "Hummus is primarily made from chickpeas, which are blended with tahini, olive oil, lemon juice, and garlic.",
-        "tags": [
-            "food",
-            "Middle Eastern cuisine",
-            "chickpeas"
-        ],
-        "options": [
-            {
-                "text": "Chickpeas",
-                "isCorrect": true
-            },
-            {
-                "text": "Lentils",
-                "isCorrect": false
-            },
-            {
-                "text": "Potatoes",
-                "isCorrect": false
-            },
-            {
-                "text": "Rice",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1896,
-        "name": "Which country is the origin of pizza?",
-        "slug": "which-country-is-the-origin-of-pizza",
-        "explanation": "Pizza originated in Italy, with the city of Naples being credited for its invention.",
-        "tags": [
-            "food",
-            "cuisine",
-            "Italy"
-        ],
-        "options": [
-            {
-                "text": "Italy",
-                "isCorrect": true
-            },
-            {
-                "text": "France",
-                "isCorrect": false
-            },
-            {
-                "text": "United States",
-                "isCorrect": false
-            },
-            {
-                "text": "Greece",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1897,
-        "name": "Which country is known for its national parks?",
-        "slug": "which-country-is-known-for-its-national-parks",
-        "explanation": "The United States is famous for its national parks, including Yellowstone, Yosemite, and the Grand Canyon.",
-        "tags": [
-            "nature",
-            "national parks",
-            "United States"
-        ],
-        "options": [
-            {
-                "text": "United States",
-                "isCorrect": true
-            },
-            {
-                "text": "Canada",
-                "isCorrect": false
-            },
-            {
-                "text": "Australia",
-                "isCorrect": false
-            },
-            {
-                "text": "Brazil",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1898,
-        "name": "Which country is famous for its wildlife safaris?",
-        "slug": "which-country-is-famous-for-its-wildlife-safaris",
-        "explanation": "Kenya is world-renowned for its wildlife safaris, offering opportunities to see the 'Big Five' and the Great Migration.",
-        "tags": [
-            "wildlife",
-            "safaris",
-            "Kenya"
-        ],
-        "options": [
-            {
-                "text": "Kenya",
-                "isCorrect": true
-            },
-            {
-                "text": "South Africa",
-                "isCorrect": false
-            },
-            {
-                "text": "India",
-                "isCorrect": false
-            },
-            {
-                "text": "Australia",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1899,
-        "name": "Which country is known for the Great Barrier Reef?",
-        "slug": "which-country-is-known-for-the-great-barrier-reef",
-        "explanation": "Australia is home to the Great Barrier Reef, the world's largest coral reef system.",
-        "tags": [
-            "nature",
-            "reefs",
-            "Australia"
-        ],
-        "options": [
-            {
-                "text": "Australia",
-                "isCorrect": true
-            },
-            {
-                "text": "New Zealand",
-                "isCorrect": false
-            },
-            {
-                "text": "Fiji",
-                "isCorrect": false
-            },
-            {
-                "text": "Indonesia",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 1900,
-        "name": "Which country is known for its Amazon rainforest?",
-        "slug": "which-country-is-known-for-its-amazon-rainforest",
-        "explanation": "Brazil contains the majority of the Amazon rainforest, often called the 'lungs of the Earth.'",
-        "tags": [
-            "nature",
-            "rainforests",
-            "Brazil"
-        ],
-        "options": [
-            {
-                "text": "Brazil",
-                "isCorrect": true
-            },
-            {
-                "text": "Colombia",
-                "isCorrect": false
-            },
-            {
-                "text": "Peru",
-                "isCorrect": false
-            },
-            {
-                "text": "Ecuador",
-                "isCorrect": false
-            }
-        ]
-    }
+  {
+    "id": 1801,
+    "name": "What is the main ingredient in gazpacho?",
+    "slug": "what-is-the-main-ingredient-in-gazpacho",
+    "explanation": "Tomatoes are the primary ingredient in gazpacho, a cold Spanish soup.",
+    "tags": ["food", "Spanish cuisine", "ingredients"],
+    "options": [
+      {
+        "text": "Tomatoes",
+        "isCorrect": true
+      },
+      {
+        "text": "Cucumber",
+        "isCorrect": false
+      },
+      {
+        "text": "Peppers",
+        "isCorrect": false
+      },
+      {
+        "text": "Garlic",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1802,
+    "name": "Which country is known for its museums?",
+    "slug": "which-country-is-known-for-its-museums",
+    "explanation": "France is famous for its world-class museums, including the Louvre, which houses the Mona Lisa and other renowned artworks.",
+    "tags": ["culture", "museums", "France"],
+    "options": [
+      {
+        "text": "France",
+        "isCorrect": true
+      },
+      {
+        "text": "Italy",
+        "isCorrect": false
+      },
+      {
+        "text": "Germany",
+        "isCorrect": false
+      },
+      {
+        "text": "Russia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1803,
+    "name": "Which country is known for its pyramids?",
+    "slug": "which-country-is-known-for-its-pyramids",
+    "explanation": "Egypt is famous for its ancient pyramids, including the Great Pyramid of Giza, one of the Seven Wonders of the Ancient World.",
+    "tags": ["culture", "landmarks", "Egypt"],
+    "options": [
+      {
+        "text": "Egypt",
+        "isCorrect": true
+      },
+      {
+        "text": "Mexico",
+        "isCorrect": false
+      },
+      {
+        "text": "Peru",
+        "isCorrect": false
+      },
+      {
+        "text": "India",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1804,
+    "name": "Which country is famous for its tulip fields?",
+    "slug": "which-country-is-famous-for-its-tulip-fields",
+    "explanation": "The Netherlands is renowned for its vibrant tulip fields, which bloom during the spring season.",
+    "tags": ["culture", "nature", "Netherlands"],
+    "options": [
+      {
+        "text": "Netherlands",
+        "isCorrect": true
+      },
+      {
+        "text": "France",
+        "isCorrect": false
+      },
+      {
+        "text": "Switzerland",
+        "isCorrect": false
+      },
+      {
+        "text": "Germany",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1805,
+    "name": "Which country is known for its maple syrup production?",
+    "slug": "which-country-is-known-for-its-maple-syrup-production",
+    "explanation": "Canada is the largest producer of maple syrup, particularly in the province of Quebec.",
+    "tags": ["culture", "food", "Canada"],
+    "options": [
+      {
+        "text": "Canada",
+        "isCorrect": true
+      },
+      {
+        "text": "United States",
+        "isCorrect": false
+      },
+      {
+        "text": "Sweden",
+        "isCorrect": false
+      },
+      {
+        "text": "Norway",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1806,
+    "name": "Which country is known for its fjords?",
+    "slug": "which-country-is-known-for-its-fjords",
+    "explanation": "Norway is famous for its fjords, which are deep, glacially carved valleys filled with seawater.",
+    "tags": ["culture", "landscapes", "Norway"],
+    "options": [
+      {
+        "text": "Norway",
+        "isCorrect": true
+      },
+      {
+        "text": "Sweden",
+        "isCorrect": false
+      },
+      {
+        "text": "Iceland",
+        "isCorrect": false
+      },
+      {
+        "text": "Denmark",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1807,
+    "name": "What is the main ingredient in the dish 'falafel'?",
+    "slug": "what-is-the-main-ingredient-in-the-dish-falafel",
+    "explanation": "Falafel is a popular Middle Eastern dish made primarily from chickpeas or fava beans, which are deep-fried into crispy balls.",
+    "tags": ["food", "Middle Eastern", "falafel"],
+    "options": [
+      {
+        "text": "Chickpeas",
+        "isCorrect": true
+      },
+      {
+        "text": "Lentils",
+        "isCorrect": false
+      },
+      {
+        "text": "Meat",
+        "isCorrect": false
+      },
+      {
+        "text": "Rice",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1808,
+    "name": "What is the main ingredient in the dish 'guacamole'?",
+    "slug": "what-is-the-main-ingredient-in-the-dish-guacamole",
+    "explanation": "Guacamole is a traditional Mexican dip made from mashed avocados, often seasoned with lime, salt, and other ingredients.",
+    "tags": ["food", "Mexican", "avocado"],
+    "options": [
+      {
+        "text": "Avocado",
+        "isCorrect": true
+      },
+      {
+        "text": "Tomato",
+        "isCorrect": false
+      },
+      {
+        "text": "Cucumber",
+        "isCorrect": false
+      },
+      {
+        "text": "Onion",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1809,
+    "name": "What is the main ingredient in the dish 'sushi'?",
+    "slug": "what-is-the-main-ingredient-in-the-dish-sushi",
+    "explanation": "Sushi is a Japanese dish typically made with vinegared rice, often accompanied by fish, vegetables, and sometimes seaweed.",
+    "tags": ["food", "Japanese", "sushi"],
+    "options": [
+      {
+        "text": "Rice",
+        "isCorrect": true
+      },
+      {
+        "text": "Fish",
+        "isCorrect": false
+      },
+      {
+        "text": "Seaweed",
+        "isCorrect": false
+      },
+      {
+        "text": "Tofu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1810,
+    "name": "What is the main ingredient in the dish 'risotto'?",
+    "slug": "what-is-the-main-ingredient-in-the-dish-risotto",
+    "explanation": "Risotto is an Italian dish made primarily from Arborio rice, which is cooked to a creamy consistency.",
+    "tags": ["food", "Italian", "risotto"],
+    "options": [
+      {
+        "text": "Rice",
+        "isCorrect": true
+      },
+      {
+        "text": "Pasta",
+        "isCorrect": false
+      },
+      {
+        "text": "Bread",
+        "isCorrect": false
+      },
+      {
+        "text": "Potatoes",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1811,
+    "name": "What is the main ingredient in the dish 'hummus'?",
+    "slug": "what-is-the-main-ingredient-in-the-dish-hummus",
+    "explanation": "Hummus is a Middle Eastern dip made from blended chickpeas, tahini, lemon juice, and olive oil.",
+    "tags": ["food", "Middle Eastern", "hummus"],
+    "options": [
+      {
+        "text": "Chickpeas",
+        "isCorrect": true
+      },
+      {
+        "text": "Lentils",
+        "isCorrect": false
+      },
+      {
+        "text": "Peas",
+        "isCorrect": false
+      },
+      {
+        "text": "Beans",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1812,
+    "name": "Which country is known for its literature?",
+    "slug": "which-country-is-known-for-its-literature",
+    "explanation": "Russia is known for its rich literary tradition, with famous writers such as Leo Tolstoy, Fyodor Dostoevsky, and Anton Chekhov.",
+    "tags": ["literature", "Russia", "famous authors"],
+    "options": [
+      {
+        "text": "Russia",
+        "isCorrect": true
+      },
+      {
+        "text": "United States",
+        "isCorrect": false
+      },
+      {
+        "text": "France",
+        "isCorrect": false
+      },
+      {
+        "text": "Italy",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1813,
+    "name": "Which country is known for its poetry?",
+    "slug": "which-country-is-known-for-its-poetry",
+    "explanation": "Persia (modern-day Iran) is renowned for its rich tradition of poetry, with famous poets such as Rumi, Hafez, and Omar Khayyam.",
+    "tags": ["literature", "poetry", "Persia"],
+    "options": [
+      {
+        "text": "Persia (Iran)",
+        "isCorrect": true
+      },
+      {
+        "text": "United Kingdom",
+        "isCorrect": false
+      },
+      {
+        "text": "India",
+        "isCorrect": false
+      },
+      {
+        "text": "China",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1814,
+    "name": "Which country is known for its classical literature?",
+    "slug": "which-country-is-known-for-its-classical-literature",
+    "explanation": "Greece is famous for its classical literature, including the works of Homer, Sophocles, and Aristophanes.",
+    "tags": ["literature", "classical", "Greece"],
+    "options": [
+      {
+        "text": "Greece",
+        "isCorrect": true
+      },
+      {
+        "text": "Egypt",
+        "isCorrect": false
+      },
+      {
+        "text": "Rome",
+        "isCorrect": false
+      },
+      {
+        "text": "India",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1815,
+    "name": "Which country is known for its gothic literature?",
+    "slug": "which-country-is-known-for-its-gothic-literature",
+    "explanation": "England is known for its gothic literature, with famous works such as Mary Shelley's 'Frankenstein' and Bram Stoker's 'Dracula.'",
+    "tags": ["literature", "gothic", "England"],
+    "options": [
+      {
+        "text": "England",
+        "isCorrect": true
+      },
+      {
+        "text": "Germany",
+        "isCorrect": false
+      },
+      {
+        "text": "France",
+        "isCorrect": false
+      },
+      {
+        "text": "United States",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1816,
+    "name": "Which country is known for its modernist literature?",
+    "slug": "which-country-is-known-for-its-modernist-literature",
+    "explanation": "The United States is known for its modernist literature, with key figures such as F. Scott Fitzgerald, Ernest Hemingway, and William Faulkner.",
+    "tags": ["literature", "modernist", "United States"],
+    "options": [
+      {
+        "text": "United States",
+        "isCorrect": true
+      },
+      {
+        "text": "Canada",
+        "isCorrect": false
+      },
+      {
+        "text": "Mexico",
+        "isCorrect": false
+      },
+      {
+        "text": "Argentina",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1817,
+    "name": "Which country is known for its Nobel Prize-winning literature?",
+    "slug": "which-country-is-known-for-its-nobel-prize-winning-literature",
+    "explanation": "Sweden is known for its Nobel Prize in Literature, awarded to authors such as Selma Lagerlöf, Tomas Tranströmer, and more.",
+    "tags": ["literature", "Nobel Prize", "Sweden"],
+    "options": [
+      {
+        "text": "Sweden",
+        "isCorrect": true
+      },
+      {
+        "text": "Norway",
+        "isCorrect": false
+      },
+      {
+        "text": "Finland",
+        "isCorrect": false
+      },
+      {
+        "text": "Denmark",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1818,
+    "name": "What is the main ingredient in the dish 'pav bhaji'?",
+    "slug": "what-is-the-main-ingredient-in-the-dish-pav-bhaji",
+    "explanation": "The main ingredient in pav bhaji is potatoes, which are mashed and mixed with a variety of vegetables and spices to create a flavorful curry-like dish.",
+    "tags": ["food", "Indian cuisine", "pav bhaji"],
+    "options": [
+      {
+        "text": "Potatoes",
+        "isCorrect": true
+      },
+      {
+        "text": "Bread",
+        "isCorrect": false
+      },
+      {
+        "text": "Vegetables",
+        "isCorrect": false
+      },
+      {
+        "text": "Spices",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1819,
+    "name": "What is the main ingredient in the dish 'spaghetti carbonara'?",
+    "slug": "what-is-the-main-ingredient-in-the-dish-spaghetti-carbonara",
+    "explanation": "The main ingredient in spaghetti carbonara is pasta, typically spaghetti, which is combined with eggs, cheese, pancetta, and black pepper.",
+    "tags": ["food", "Italian cuisine", "spaghetti carbonara"],
+    "options": [
+      {
+        "text": "Pasta",
+        "isCorrect": true
+      },
+      {
+        "text": "Eggs",
+        "isCorrect": false
+      },
+      {
+        "text": "Cheese",
+        "isCorrect": false
+      },
+      {
+        "text": "Pancetta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1820,
+    "name": "What is the main ingredient in the dish 'paella'?",
+    "slug": "what-is-the-main-ingredient-in-the-dish-paella",
+    "explanation": "The main ingredient in paella is rice, which is cooked with a variety of proteins such as seafood, chicken, or rabbit, along with saffron and other seasonings.",
+    "tags": ["food", "Spanish cuisine", "paella"],
+    "options": [
+      {
+        "text": "Rice",
+        "isCorrect": true
+      },
+      {
+        "text": "Seafood",
+        "isCorrect": false
+      },
+      {
+        "text": "Saffron",
+        "isCorrect": false
+      },
+      {
+        "text": "Chicken",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1821,
+    "name": "Which country is known for its culture and traditions?",
+    "slug": "which-country-is-known-for-its-culture-and-traditions",
+    "explanation": "India is known for its rich culture and traditions, including its diverse languages, festivals, music, dance, and religious practices.",
+    "tags": ["culture", "traditions", "India"],
+    "options": [
+      {
+        "text": "India",
+        "isCorrect": true
+      },
+      {
+        "text": "Japan",
+        "isCorrect": false
+      },
+      {
+        "text": "Egypt",
+        "isCorrect": false
+      },
+      {
+        "text": "Greece",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1822,
+    "name": "Which country is known for its tea culture and traditions?",
+    "slug": "which-country-is-known-for-its-tea-culture-and-traditions",
+    "explanation": "China is known for its rich tea culture, which includes centuries-old traditions of tea preparation, tea ceremonies, and a wide variety of teas.",
+    "tags": ["culture", "tea", "China"],
+    "options": [
+      {
+        "text": "China",
+        "isCorrect": true
+      },
+      {
+        "text": "India",
+        "isCorrect": false
+      },
+      {
+        "text": "Japan",
+        "isCorrect": false
+      },
+      {
+        "text": "England",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1823,
+    "name": "Which country is known for its traditional samurai culture?",
+    "slug": "which-country-is-known-for-its-traditional-samurai-culture",
+    "explanation": "Japan is known for its samurai culture, a historic warrior class that played a major role in Japanese society for centuries.",
+    "tags": ["culture", "samurai", "Japan"],
+    "options": [
+      {
+        "text": "Japan",
+        "isCorrect": true
+      },
+      {
+        "text": "China",
+        "isCorrect": false
+      },
+      {
+        "text": "South Korea",
+        "isCorrect": false
+      },
+      {
+        "text": "Thailand",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1824,
+    "name": "Which country is known for its ancient pyramids and pharaoh culture?",
+    "slug": "which-country-is-known-for-its-ancient-pyramids-and-pharaoh-culture",
+    "explanation": "Egypt is known for its ancient pyramids and the rich culture of the pharaohs, who ruled Egypt thousands of years ago and built monumental structures.",
+    "tags": ["culture", "pharaoh", "Egypt"],
+    "options": [
+      {
+        "text": "Egypt",
+        "isCorrect": true
+      },
+      {
+        "text": "Greece",
+        "isCorrect": false
+      },
+      {
+        "text": "Rome",
+        "isCorrect": false
+      },
+      {
+        "text": "Mexico",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1825,
+    "name": "Which country is known for its Carnival celebrations?",
+    "slug": "which-country-is-known-for-its-carnival-celebrations",
+    "explanation": "Brazil is known for its vibrant Carnival celebrations, featuring samba music, elaborate costumes, parades, and street parties.",
+    "tags": ["culture", "Carnival", "Brazil"],
+    "options": [
+      {
+        "text": "Brazil",
+        "isCorrect": true
+      },
+      {
+        "text": "Italy",
+        "isCorrect": false
+      },
+      {
+        "text": "France",
+        "isCorrect": false
+      },
+      {
+        "text": "Spain",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1826,
+    "name": "Which country is known for its flamenco dance tradition?",
+    "slug": "which-country-is-known-for-its-flamenco-dance-tradition",
+    "explanation": "Spain is known for its flamenco dance tradition, a passionate and rhythmic style of dance and music that originated in Andalusia.",
+    "tags": ["culture", "flamenco", "Spain"],
+    "options": [
+      {
+        "text": "Spain",
+        "isCorrect": true
+      },
+      {
+        "text": "Mexico",
+        "isCorrect": false
+      },
+      {
+        "text": "Argentina",
+        "isCorrect": false
+      },
+      {
+        "text": "Colombia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1827,
+    "name": "Which country is known for its desserts?",
+    "slug": "which-country-is-known-for-its-desserts",
+    "explanation": "France is known for its exquisite desserts, including pastries like croissants, macarons, and crème brûlée.",
+    "tags": ["desserts", "France", "pastries"],
+    "options": [
+      {
+        "text": "France",
+        "isCorrect": true
+      },
+      {
+        "text": "Italy",
+        "isCorrect": false
+      },
+      {
+        "text": "United States",
+        "isCorrect": false
+      },
+      {
+        "text": "Japan",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1828,
+    "name": "Which country is known for its gelato?",
+    "slug": "which-country-is-known-for-its-gelato",
+    "explanation": "Italy is renowned for its gelato, a rich and creamy style of ice cream that comes in a variety of flavors.",
+    "tags": ["desserts", "Italy", "gelato"],
+    "options": [
+      {
+        "text": "Italy",
+        "isCorrect": true
+      },
+      {
+        "text": "France",
+        "isCorrect": false
+      },
+      {
+        "text": "United States",
+        "isCorrect": false
+      },
+      {
+        "text": "Germany",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1829,
+    "name": "Which country is known for its chocolate?",
+    "slug": "which-country-is-known-for-its-chocolate",
+    "explanation": "Switzerland is famous for its high-quality chocolate, which has been produced using traditional methods for centuries.",
+    "tags": ["desserts", "Switzerland", "chocolate"],
+    "options": [
+      {
+        "text": "Switzerland",
+        "isCorrect": true
+      },
+      {
+        "text": "Belgium",
+        "isCorrect": false
+      },
+      {
+        "text": "France",
+        "isCorrect": false
+      },
+      {
+        "text": "United Kingdom",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1830,
+    "name": "Which country is known for its traditional baklava?",
+    "slug": "which-country-is-known-for-its-traditional-baklava",
+    "explanation": "Turkey is famous for baklava, a rich, sweet pastry made from layers of filo dough filled with chopped nuts and sweetened with honey.",
+    "tags": ["desserts", "Turkey", "baklava"],
+    "options": [
+      {
+        "text": "Turkey",
+        "isCorrect": true
+      },
+      {
+        "text": "Greece",
+        "isCorrect": false
+      },
+      {
+        "text": "Lebanon",
+        "isCorrect": false
+      },
+      {
+        "text": "Egypt",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1831,
+    "name": "Which country is known for its apple pie?",
+    "slug": "which-country-is-known-for-its-apple-pie",
+    "explanation": "The United States is famous for its classic apple pie, often served with a dollop of whipped cream or ice cream.",
+    "tags": ["desserts", "United States", "apple pie"],
+    "options": [
+      {
+        "text": "United States",
+        "isCorrect": true
+      },
+      {
+        "text": "United Kingdom",
+        "isCorrect": false
+      },
+      {
+        "text": "Canada",
+        "isCorrect": false
+      },
+      {
+        "text": "France",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1832,
+    "name": "Which country is known for its Art Deco architecture?",
+    "slug": "which-country-is-known-for-its-art-deco-architecture",
+    "explanation": "The United States, especially in cities like New York and Miami, is known for its Art Deco architecture, with buildings like the Chrysler Building and the Miami Beach hotels.",
+    "tags": ["architecture", "Art Deco", "United States"],
+    "options": [
+      {
+        "text": "United States",
+        "isCorrect": true
+      },
+      {
+        "text": "France",
+        "isCorrect": false
+      },
+      {
+        "text": "Italy",
+        "isCorrect": false
+      },
+      {
+        "text": "Spain",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1833,
+    "name": "Which country is known for its tea?",
+    "slug": "which-country-is-known-for-its-tea",
+    "explanation": "China is known for its long history of tea cultivation and consumption, and is considered the birthplace of tea.",
+    "tags": ["food", "culture", "China"],
+    "options": [
+      {
+        "text": "China",
+        "isCorrect": true
+      },
+      {
+        "text": "India",
+        "isCorrect": false
+      },
+      {
+        "text": "Japan",
+        "isCorrect": false
+      },
+      {
+        "text": "United Kingdom",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1834,
+    "name": "Which country is known for its coffee?",
+    "slug": "which-country-is-known-for-its-coffee",
+    "explanation": "Brazil is the world’s largest producer of coffee and is famous for its coffee beans.",
+    "tags": ["food", "culture", "Brazil"],
+    "options": [
+      {
+        "text": "Brazil",
+        "isCorrect": true
+      },
+      {
+        "text": "Ethiopia",
+        "isCorrect": false
+      },
+      {
+        "text": "Colombia",
+        "isCorrect": false
+      },
+      {
+        "text": "Vietnam",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1835,
+    "name": "Which country is known for its beer?",
+    "slug": "which-country-is-known-for-its-beer",
+    "explanation": "Germany is famous for its beer culture, with a long tradition of brewing, including iconic styles like Pilsner and Weissbier.",
+    "tags": ["food", "Germany", "beer"],
+    "options": [
+      {
+        "text": "Germany",
+        "isCorrect": true
+      },
+      {
+        "text": "Belgium",
+        "isCorrect": false
+      },
+      {
+        "text": "Czech Republic",
+        "isCorrect": false
+      },
+      {
+        "text": "United States",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1836,
+    "name": "What is the main ingredient in the dish 'curry'?",
+    "slug": "what-is-the-main-ingredient-in-the-dish-curry",
+    "explanation": "The main ingredient in curry is spices, which are blended to create a flavorful sauce. These spices can include turmeric, cumin, coriander, and chili, among others.",
+    "tags": ["cooking", "Indian cuisine", "spices"],
+    "options": [
+      {
+        "text": "Spices",
+        "isCorrect": true
+      },
+      {
+        "text": "Meat",
+        "isCorrect": false
+      },
+      {
+        "text": "Vegetables",
+        "isCorrect": false
+      },
+      {
+        "text": "Rice",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1837,
+    "name": "What is the main ingredient in the dish 'stew'?",
+    "slug": "what-is-the-main-ingredient-in-the-dish-stew",
+    "explanation": "The main ingredient in stew is usually meat, which is simmered with vegetables and broth to create a flavorful dish.",
+    "tags": ["cooking", "comfort food", "meat"],
+    "options": [
+      {
+        "text": "Meat",
+        "isCorrect": true
+      },
+      {
+        "text": "Spices",
+        "isCorrect": false
+      },
+      {
+        "text": "Vegetables",
+        "isCorrect": false
+      },
+      {
+        "text": "Rice",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1838,
+    "name": "What is the main ingredient in the dish 'burrito'?",
+    "slug": "what-is-the-main-ingredient-in-the-dish-burrito",
+    "explanation": "The main ingredient in a burrito is a large flour tortilla, which is filled with ingredients like rice, beans, meat, and cheese.",
+    "tags": ["cooking", "Mexican cuisine", "tortilla"],
+    "options": [
+      {
+        "text": "Flour tortilla",
+        "isCorrect": true
+      },
+      {
+        "text": "Rice",
+        "isCorrect": false
+      },
+      {
+        "text": "Beans",
+        "isCorrect": false
+      },
+      {
+        "text": "Meat",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1839,
+    "name": "What is the capital of Hungary?",
+    "slug": "what-is-the-capital-of-hungary",
+    "explanation": "The capital of Hungary is Budapest, which is known for its stunning architecture and rich history.",
+    "tags": ["capital", "Hungary", "Budapest"],
+    "options": [
+      {
+        "text": "Budapest",
+        "isCorrect": true
+      },
+      {
+        "text": "Debrecen",
+        "isCorrect": false
+      },
+      {
+        "text": "Szeged",
+        "isCorrect": false
+      },
+      {
+        "text": "Miskolc",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1840,
+    "name": "What is the capital of Japan?",
+    "slug": "what-is-the-capital-of-japan",
+    "explanation": "The capital of Japan is Tokyo, a bustling metropolis known for its blend of traditional culture and modern technology.",
+    "tags": ["capital", "Japan", "Tokyo"],
+    "options": [
+      {
+        "text": "Tokyo",
+        "isCorrect": true
+      },
+      {
+        "text": "Osaka",
+        "isCorrect": false
+      },
+      {
+        "text": "Kyoto",
+        "isCorrect": false
+      },
+      {
+        "text": "Hiroshima",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1841,
+    "name": "What is the capital of Brazil?",
+    "slug": "what-is-the-capital-of-brazil",
+    "explanation": "The capital of Brazil is Brasília, a planned city known for its modernist architecture designed by Oscar Niemeyer.",
+    "tags": ["capital", "Brazil", "Brasília"],
+    "options": [
+      {
+        "text": "Brasília",
+        "isCorrect": true
+      },
+      {
+        "text": "Rio de Janeiro",
+        "isCorrect": false
+      },
+      {
+        "text": "São Paulo",
+        "isCorrect": false
+      },
+      {
+        "text": "Salvador",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1842,
+    "name": "What is the capital of Australia?",
+    "slug": "what-is-the-capital-of-australia",
+    "explanation": "The capital of Australia is Canberra, located between Sydney and Melbourne, and is the political center of the country.",
+    "tags": ["capital", "Australia", "Canberra"],
+    "options": [
+      {
+        "text": "Canberra",
+        "isCorrect": true
+      },
+      {
+        "text": "Sydney",
+        "isCorrect": false
+      },
+      {
+        "text": "Melbourne",
+        "isCorrect": false
+      },
+      {
+        "text": "Brisbane",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1843,
+    "name": "What is the capital of Germany?",
+    "slug": "what-is-the-capital-of-germany",
+    "explanation": "The capital of Germany is Berlin, known for its rich history, cultural heritage, and historical landmarks like the Brandenburg Gate.",
+    "tags": ["capital", "Germany", "Berlin"],
+    "options": [
+      {
+        "text": "Berlin",
+        "isCorrect": true
+      },
+      {
+        "text": "Munich",
+        "isCorrect": false
+      },
+      {
+        "text": "Frankfurt",
+        "isCorrect": false
+      },
+      {
+        "text": "Hamburg",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1844,
+    "name": "Which country is known for its opera?",
+    "slug": "which-country-is-known-for-its-opera",
+    "explanation": "Italy is famously known for its opera, being the birthplace of renowned composers like Verdi and Puccini.",
+    "tags": ["opera", "Italy", "culture"],
+    "options": [
+      {
+        "text": "Italy",
+        "isCorrect": true
+      },
+      {
+        "text": "Austria",
+        "isCorrect": false
+      },
+      {
+        "text": "Germany",
+        "isCorrect": false
+      },
+      {
+        "text": "France",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1845,
+    "name": "Which country is known for its classical music?",
+    "slug": "which-country-is-known-for-its-classical-music",
+    "explanation": "Austria is known for its classical music, home to famous composers such as Mozart, Beethoven, and Strauss.",
+    "tags": ["classical music", "Austria", "culture"],
+    "options": [
+      {
+        "text": "Austria",
+        "isCorrect": true
+      },
+      {
+        "text": "Germany",
+        "isCorrect": false
+      },
+      {
+        "text": "Italy",
+        "isCorrect": false
+      },
+      {
+        "text": "France",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1846,
+    "name": "Which country is known for its ballet?",
+    "slug": "which-country-is-known-for-its-ballet",
+    "explanation": "Russia is renowned for its ballet traditions, with famous ballet companies such as the Bolshoi Ballet.",
+    "tags": ["ballet", "Russia", "culture"],
+    "options": [
+      {
+        "text": "Russia",
+        "isCorrect": true
+      },
+      {
+        "text": "France",
+        "isCorrect": false
+      },
+      {
+        "text": "United States",
+        "isCorrect": false
+      },
+      {
+        "text": "Italy",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1847,
+    "name": "Which country is known for its art and painting traditions?",
+    "slug": "which-country-is-known-for-its-art-and-painting-traditions",
+    "explanation": "France is famous for its artistic heritage, being home to iconic painters like Monet, Picasso, and Van Gogh.",
+    "tags": ["art", "France", "painting"],
+    "options": [
+      {
+        "text": "France",
+        "isCorrect": true
+      },
+      {
+        "text": "Spain",
+        "isCorrect": false
+      },
+      {
+        "text": "Italy",
+        "isCorrect": false
+      },
+      {
+        "text": "Germany",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1848,
+    "name": "Which country is known for its theater?",
+    "slug": "which-country-is-known-for-its-theater",
+    "explanation": "England is known for its strong theater tradition, especially for playwrights like Shakespeare and the West End theaters.",
+    "tags": ["theater", "England", "culture"],
+    "options": [
+      {
+        "text": "England",
+        "isCorrect": true
+      },
+      {
+        "text": "United States",
+        "isCorrect": false
+      },
+      {
+        "text": "France",
+        "isCorrect": false
+      },
+      {
+        "text": "Germany",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1849,
+    "name": "Which country is known for its jazz music?",
+    "slug": "which-country-is-known-for-its-jazz-music",
+    "explanation": "The United States is the birthplace of jazz music, with cities like New Orleans being the heart of its development.",
+    "tags": ["jazz music", "United States", "culture"],
+    "options": [
+      {
+        "text": "United States",
+        "isCorrect": true
+      },
+      {
+        "text": "Canada",
+        "isCorrect": false
+      },
+      {
+        "text": "Brazil",
+        "isCorrect": false
+      },
+      {
+        "text": "United Kingdom",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1850,
+    "name": "What is the capital of Denmark?",
+    "slug": "what-is-the-capital-of-denmark",
+    "explanation": "Copenhagen is the capital and largest city of Denmark, known for its historical and cultural significance.",
+    "tags": ["Denmark", "capital cities", "Europe"],
+    "options": [
+      {
+        "text": "Copenhagen",
+        "isCorrect": true
+      },
+      {
+        "text": "Aarhus",
+        "isCorrect": false
+      },
+      {
+        "text": "Odense",
+        "isCorrect": false
+      },
+      {
+        "text": "Aalborg",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1851,
+    "name": "What is the capital of Sweden?",
+    "slug": "what-is-the-capital-of-sweden",
+    "explanation": "Stockholm is the capital of Sweden and is known for its beautiful archipelago and cultural landmarks.",
+    "tags": ["Sweden", "capital cities", "Europe"],
+    "options": [
+      {
+        "text": "Stockholm",
+        "isCorrect": true
+      },
+      {
+        "text": "Gothenburg",
+        "isCorrect": false
+      },
+      {
+        "text": "Malmö",
+        "isCorrect": false
+      },
+      {
+        "text": "Uppsala",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1852,
+    "name": "What is the capital of Norway?",
+    "slug": "what-is-the-capital-of-norway",
+    "explanation": "Oslo is the capital of Norway, known for its green spaces and modern architecture.",
+    "tags": ["Norway", "capital cities", "Europe"],
+    "options": [
+      {
+        "text": "Oslo",
+        "isCorrect": true
+      },
+      {
+        "text": "Bergen",
+        "isCorrect": false
+      },
+      {
+        "text": "Stavanger",
+        "isCorrect": false
+      },
+      {
+        "text": "Trondheim",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1853,
+    "name": "What is the capital of Finland?",
+    "slug": "what-is-the-capital-of-finland",
+    "explanation": "Helsinki is the capital of Finland, known for its design, architecture, and proximity to the sea.",
+    "tags": ["Finland", "capital cities", "Europe"],
+    "options": [
+      {
+        "text": "Helsinki",
+        "isCorrect": true
+      },
+      {
+        "text": "Espoo",
+        "isCorrect": false
+      },
+      {
+        "text": "Tampere",
+        "isCorrect": false
+      },
+      {
+        "text": "Oulu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1854,
+    "name": "What is the capital of Iceland?",
+    "slug": "what-is-the-capital-of-iceland",
+    "explanation": "Reykjavik is the capital and largest city of Iceland, known for its geothermal activity and cultural events.",
+    "tags": ["Iceland", "capital cities", "Europe"],
+    "options": [
+      {
+        "text": "Reykjavik",
+        "isCorrect": true
+      },
+      {
+        "text": "Akureyri",
+        "isCorrect": false
+      },
+      {
+        "text": "Reykjanesbær",
+        "isCorrect": false
+      },
+      {
+        "text": "Kopavogur",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1855,
+    "name": "Which country is known for its beaches?",
+    "slug": "which-country-is-known-for-its-beaches",
+    "explanation": "The Maldives is famous for its stunning white-sand beaches and crystal-clear waters, attracting beach lovers from around the world.",
+    "tags": ["beaches", "tourism", "Maldives"],
+    "options": [
+      {
+        "text": "Maldives",
+        "isCorrect": true
+      },
+      {
+        "text": "Australia",
+        "isCorrect": false
+      },
+      {
+        "text": "Hawaii",
+        "isCorrect": false
+      },
+      {
+        "text": "Greece",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1856,
+    "name": "Which country is known for its stunning beaches?",
+    "slug": "which-country-is-known-for-its-stunning-beaches",
+    "explanation": "Australia is renowned for its beautiful beaches, such as Bondi Beach, famous for surfing and beach culture.",
+    "tags": ["beaches", "Australia", "surfing"],
+    "options": [
+      {
+        "text": "Australia",
+        "isCorrect": true
+      },
+      {
+        "text": "Thailand",
+        "isCorrect": false
+      },
+      {
+        "text": "Brazil",
+        "isCorrect": false
+      },
+      {
+        "text": "South Africa",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1857,
+    "name": "Which country is famous for its tropical beaches?",
+    "slug": "which-country-is-famous-for-its-tropical-beaches",
+    "explanation": "Thailand is famous for its tropical beaches, with destinations like Phuket and Koh Samui attracting millions of visitors.",
+    "tags": ["beaches", "Thailand", "tropical"],
+    "options": [
+      {
+        "text": "Thailand",
+        "isCorrect": true
+      },
+      {
+        "text": "Mexico",
+        "isCorrect": false
+      },
+      {
+        "text": "India",
+        "isCorrect": false
+      },
+      {
+        "text": "Indonesia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1858,
+    "name": "Which country is known for its famous beach resorts?",
+    "slug": "which-country-is-known-for-its-famous-beach-resorts",
+    "explanation": "Hawaii is famous for its world-class beach resorts, with destinations like Waikiki Beach offering incredible surfing and relaxation.",
+    "tags": ["Hawaii", "beaches", "resorts"],
+    "options": [
+      {
+        "text": "Hawaii",
+        "isCorrect": true
+      },
+      {
+        "text": "Philippines",
+        "isCorrect": false
+      },
+      {
+        "text": "Portugal",
+        "isCorrect": false
+      },
+      {
+        "text": "Barbados",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1859,
+    "name": "Which country is known for its beautiful beaches and coral reefs?",
+    "slug": "which-country-is-known-for-its-beautiful-beaches-and-coral-reefs",
+    "explanation": "The Bahamas is known for its beautiful beaches and extensive coral reefs, making it a popular destination for divers and beach lovers.",
+    "tags": ["Bahamas", "beaches", "coral reefs"],
+    "options": [
+      {
+        "text": "Bahamas",
+        "isCorrect": true
+      },
+      {
+        "text": "Egypt",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuba",
+        "isCorrect": false
+      },
+      {
+        "text": "Jamaica",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1860,
+    "name": "What is the main ingredient in the dish 'stir fry'?",
+    "slug": "what-is-the-main-ingredient-in-the-dish-stir-fry",
+    "explanation": "Stir fry is primarily made with a variety of vegetables, often combined with meat or tofu and served with rice.",
+    "tags": ["cooking", "stir fry", "vegetables"],
+    "options": [
+      {
+        "text": "Vegetables",
+        "isCorrect": true
+      },
+      {
+        "text": "Rice",
+        "isCorrect": false
+      },
+      {
+        "text": "Meat",
+        "isCorrect": false
+      },
+      {
+        "text": "Sauce",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1861,
+    "name": "What is the main ingredient in the dish 'tacos'?",
+    "slug": "what-is-the-main-ingredient-in-the-dish-tacos",
+    "explanation": "Tacos are a Mexican dish made with a tortilla as the base, typically filled with meats, vegetables, or beans.",
+    "tags": ["cooking", "tacos", "Mexico"],
+    "options": [
+      {
+        "text": "Tortilla",
+        "isCorrect": true
+      },
+      {
+        "text": "Rice",
+        "isCorrect": false
+      },
+      {
+        "text": "Bread",
+        "isCorrect": false
+      },
+      {
+        "text": "Potatoes",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1862,
+    "name": "What is the main ingredient in the dish 'pizza'?",
+    "slug": "what-is-the-main-ingredient-in-the-dish-pizza",
+    "explanation": "Pizza is an Italian dish made primarily from dough, topped with tomatoes, cheese, and various other ingredients.",
+    "tags": ["cooking", "pizza", "Italy"],
+    "options": [
+      {
+        "text": "Dough",
+        "isCorrect": true
+      },
+      {
+        "text": "Rice",
+        "isCorrect": false
+      },
+      {
+        "text": "Pasta",
+        "isCorrect": false
+      },
+      {
+        "text": "Noodles",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1863,
+    "name": "Which country is known for its skiing resorts?",
+    "slug": "which-country-is-known-for-its-skiing-resorts",
+    "explanation": "Switzerland is renowned for its luxury skiing resorts, including famous locations like Zermatt and St. Moritz.",
+    "tags": ["travel", "skiing", "Switzerland"],
+    "options": [
+      {
+        "text": "Switzerland",
+        "isCorrect": true
+      },
+      {
+        "text": "Austria",
+        "isCorrect": false
+      },
+      {
+        "text": "France",
+        "isCorrect": false
+      },
+      {
+        "text": "Canada",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1864,
+    "name": "Which country is known for its tropical beaches?",
+    "slug": "which-country-is-known-for-its-tropical-beaches",
+    "explanation": "The Maldives is famous for its pristine tropical beaches and crystal-clear waters.",
+    "tags": ["travel", "beaches", "Maldives"],
+    "options": [
+      {
+        "text": "Maldives",
+        "isCorrect": true
+      },
+      {
+        "text": "Hawaii",
+        "isCorrect": false
+      },
+      {
+        "text": "Australia",
+        "isCorrect": false
+      },
+      {
+        "text": "Greece",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1865,
+    "name": "Which country is known for its iconic Great Wall?",
+    "slug": "which-country-is-known-for-its-iconic-great-wall",
+    "explanation": "China is famous for the Great Wall, one of the most recognizable landmarks in the world.",
+    "tags": ["travel", "China", "landmarks"],
+    "options": [
+      {
+        "text": "China",
+        "isCorrect": true
+      },
+      {
+        "text": "Japan",
+        "isCorrect": false
+      },
+      {
+        "text": "India",
+        "isCorrect": false
+      },
+      {
+        "text": "Mexico",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1866,
+    "name": "Which country is known for its ancient pyramids?",
+    "slug": "which-country-is-known-for-its-ancient-pyramids",
+    "explanation": "Egypt is renowned for the ancient pyramids, including the famous Great Pyramid of Giza.",
+    "tags": ["travel", "Egypt", "history"],
+    "options": [
+      {
+        "text": "Egypt",
+        "isCorrect": true
+      },
+      {
+        "text": "Greece",
+        "isCorrect": false
+      },
+      {
+        "text": "Mexico",
+        "isCorrect": false
+      },
+      {
+        "text": "Italy",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1867,
+    "name": "Which country is known for its ancient Colosseum?",
+    "slug": "which-country-is-known-for-its-ancient-colosseum",
+    "explanation": "Italy is famous for the Colosseum, an ancient amphitheater located in Rome.",
+    "tags": ["travel", "Italy", "history"],
+    "options": [
+      {
+        "text": "Italy",
+        "isCorrect": true
+      },
+      {
+        "text": "Greece",
+        "isCorrect": false
+      },
+      {
+        "text": "Spain",
+        "isCorrect": false
+      },
+      {
+        "text": "Turkey",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1868,
+    "name": "What is the main ingredient in the dish 'chili'?",
+    "slug": "what-is-the-main-ingredient-in-the-dish-chili",
+    "explanation": "Chili peppers are the key ingredient in chili, providing the dish with its characteristic heat and flavor.",
+    "tags": ["food", "cooking", "chili"],
+    "options": [
+      {
+        "text": "Chili peppers",
+        "isCorrect": true
+      },
+      {
+        "text": "Meat",
+        "isCorrect": false
+      },
+      {
+        "text": "Beans",
+        "isCorrect": false
+      },
+      {
+        "text": "Rice",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1869,
+    "name": "What is the main ingredient in the dish 'crepes'?",
+    "slug": "what-is-the-main-ingredient-in-the-dish-crepes",
+    "explanation": "The main ingredient in crepes is flour, which is mixed with eggs, milk, and other ingredients to create a thin batter.",
+    "tags": ["cooking", "French cuisine", "desserts"],
+    "options": [
+      {
+        "text": "Flour",
+        "isCorrect": true
+      },
+      {
+        "text": "Eggs",
+        "isCorrect": false
+      },
+      {
+        "text": "Milk",
+        "isCorrect": false
+      },
+      {
+        "text": "Sugar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1870,
+    "name": "What is the main ingredient in the dish 'gnocchi'?",
+    "slug": "what-is-the-main-ingredient-in-the-dish-gnocchi",
+    "explanation": "The main ingredient in gnocchi is potatoes, which are combined with flour to make the dough.",
+    "tags": ["cooking", "Italian cuisine", "pasta"],
+    "options": [
+      {
+        "text": "Potatoes",
+        "isCorrect": true
+      },
+      {
+        "text": "Flour",
+        "isCorrect": false
+      },
+      {
+        "text": "Cheese",
+        "isCorrect": false
+      },
+      {
+        "text": "Eggs",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1871,
+    "name": "What is the capital of the Philippines?",
+    "slug": "what-is-the-capital-of-the-philippines",
+    "explanation": "The capital of the Philippines is Manila, a bustling city known for its rich history and vibrant culture.",
+    "tags": ["geography", "Asia", "capitals"],
+    "options": [
+      {
+        "text": "Manila",
+        "isCorrect": true
+      },
+      {
+        "text": "Quezon City",
+        "isCorrect": false
+      },
+      {
+        "text": "Cebu City",
+        "isCorrect": false
+      },
+      {
+        "text": "Davao City",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1872,
+    "name": "What is the capital of South Korea?",
+    "slug": "what-is-the-capital-of-south-korea",
+    "explanation": "The capital of South Korea is Seoul, a vibrant metropolis known for its technology, history, and cultural heritage.",
+    "tags": ["geography", "Asia", "capitals"],
+    "options": [
+      {
+        "text": "Seoul",
+        "isCorrect": true
+      },
+      {
+        "text": "Busan",
+        "isCorrect": false
+      },
+      {
+        "text": "Incheon",
+        "isCorrect": false
+      },
+      {
+        "text": "Daegu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1873,
+    "name": "Which country is known for its folklore tales?",
+    "slug": "which-country-is-known-for-its-folklore-tales",
+    "explanation": "Ireland is famous for its rich folklore, including tales of leprechauns, banshees, and other mythical creatures.",
+    "tags": ["culture", "folklore", "Ireland"],
+    "options": [
+      {
+        "text": "Ireland",
+        "isCorrect": true
+      },
+      {
+        "text": "Japan",
+        "isCorrect": false
+      },
+      {
+        "text": "Russia",
+        "isCorrect": false
+      },
+      {
+        "text": "Brazil",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1874,
+    "name": "Which country is known for its samurai legends?",
+    "slug": "which-country-is-known-for-its-samurai-legends",
+    "explanation": "Japan is renowned for its samurai legends, which reflect its history and culture.",
+    "tags": ["culture", "folklore", "Japan"],
+    "options": [
+      {
+        "text": "Japan",
+        "isCorrect": true
+      },
+      {
+        "text": "China",
+        "isCorrect": false
+      },
+      {
+        "text": "South Korea",
+        "isCorrect": false
+      },
+      {
+        "text": "Vietnam",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1875,
+    "name": "Which country is known for its fairy tale castles?",
+    "slug": "which-country-is-known-for-its-fairy-tale-castles",
+    "explanation": "Germany is famous for its fairy tale castles, including Neuschwanstein Castle, which inspired Disney's Sleeping Beauty castle.",
+    "tags": ["culture", "folklore", "Germany"],
+    "options": [
+      {
+        "text": "Germany",
+        "isCorrect": true
+      },
+      {
+        "text": "France",
+        "isCorrect": false
+      },
+      {
+        "text": "Switzerland",
+        "isCorrect": false
+      },
+      {
+        "text": "Austria",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1876,
+    "name": "Which country is known for its mythological gods like Zeus and Athena?",
+    "slug": "which-country-is-known-for-its-mythological-gods",
+    "explanation": "Greece is renowned for its mythology, featuring gods like Zeus, Athena, and Apollo.",
+    "tags": ["culture", "folklore", "Greece"],
+    "options": [
+      {
+        "text": "Greece",
+        "isCorrect": true
+      },
+      {
+        "text": "Italy",
+        "isCorrect": false
+      },
+      {
+        "text": "Egypt",
+        "isCorrect": false
+      },
+      {
+        "text": "Turkey",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1877,
+    "name": "Which country is known for its tales of vikings?",
+    "slug": "which-country-is-known-for-its-tales-of-vikings",
+    "explanation": "Norway is known for its Viking heritage and tales of seafaring warriors.",
+    "tags": ["culture", "folklore", "Norway"],
+    "options": [
+      {
+        "text": "Norway",
+        "isCorrect": true
+      },
+      {
+        "text": "Sweden",
+        "isCorrect": false
+      },
+      {
+        "text": "Denmark",
+        "isCorrect": false
+      },
+      {
+        "text": "Iceland",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1878,
+    "name": "What is the main ingredient in the dish 'soufflé'?",
+    "slug": "what-is-the-main-ingredient-in-the-dish-souffle",
+    "explanation": "Eggs are the main ingredient in soufflé, providing the airy and fluffy texture that the dish is known for.",
+    "tags": ["cooking", "French cuisine", "dessert"],
+    "options": [
+      {
+        "text": "Eggs",
+        "isCorrect": true
+      },
+      {
+        "text": "Flour",
+        "isCorrect": false
+      },
+      {
+        "text": "Sugar",
+        "isCorrect": false
+      },
+      {
+        "text": "Butter",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1879,
+    "name": "What is the main ingredient in the dish 'carbonara'?",
+    "slug": "what-is-the-main-ingredient-in-the-dish-carbonara",
+    "explanation": "Egg yolks are a key ingredient in carbonara, used to create its creamy sauce along with cheese and pancetta.",
+    "tags": ["cooking", "Italian cuisine", "pasta"],
+    "options": [
+      {
+        "text": "Egg yolks",
+        "isCorrect": true
+      },
+      {
+        "text": "Cream",
+        "isCorrect": false
+      },
+      {
+        "text": "Butter",
+        "isCorrect": false
+      },
+      {
+        "text": "Garlic",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1880,
+    "name": "Which country is known for its wildlife?",
+    "slug": "which-country-is-known-for-its-wildlife",
+    "explanation": "Australia is renowned for its unique wildlife, including kangaroos, koalas, and a diverse range of marsupials, reptiles, and birds.",
+    "tags": ["wildlife", "travel", "nature"],
+    "options": [
+      {
+        "text": "Australia",
+        "isCorrect": true
+      },
+      {
+        "text": "South Africa",
+        "isCorrect": false
+      },
+      {
+        "text": "Brazil",
+        "isCorrect": false
+      },
+      {
+        "text": "India",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1881,
+    "name": "Which country is famous for its safaris?",
+    "slug": "which-country-is-famous-for-its-safaris",
+    "explanation": "South Africa is famous for its safaris, offering the opportunity to see the Big Five animals in their natural habitat.",
+    "tags": ["wildlife", "safari", "travel"],
+    "options": [
+      {
+        "text": "South Africa",
+        "isCorrect": true
+      },
+      {
+        "text": "Kenya",
+        "isCorrect": false
+      },
+      {
+        "text": "Tanzania",
+        "isCorrect": false
+      },
+      {
+        "text": "Botswana",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1882,
+    "name": "Which country is known for the Amazon rainforest?",
+    "slug": "which-country-is-known-for-the-amazon-rainforest",
+    "explanation": "Brazil is home to the largest portion of the Amazon rainforest, one of the most biodiverse places on Earth.",
+    "tags": ["wildlife", "nature", "rainforest"],
+    "options": [
+      {
+        "text": "Brazil",
+        "isCorrect": true
+      },
+      {
+        "text": "Peru",
+        "isCorrect": false
+      },
+      {
+        "text": "Colombia",
+        "isCorrect": false
+      },
+      {
+        "text": "Ecuador",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1883,
+    "name": "Which country is famous for its national parks?",
+    "slug": "which-country-is-famous-for-its-national-parks",
+    "explanation": "The United States is famous for its national parks, including Yellowstone, Yosemite, and the Grand Canyon.",
+    "tags": ["wildlife", "travel", "nature"],
+    "options": [
+      {
+        "text": "United States",
+        "isCorrect": true
+      },
+      {
+        "text": "Canada",
+        "isCorrect": false
+      },
+      {
+        "text": "Australia",
+        "isCorrect": false
+      },
+      {
+        "text": "India",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1884,
+    "name": "Which country is known for its biodiversity?",
+    "slug": "which-country-is-known-for-its-biodiversity",
+    "explanation": "India is known for its incredible biodiversity, with a wide range of ecosystems from Himalayan peaks to tropical rainforests.",
+    "tags": ["wildlife", "nature", "biodiversity"],
+    "options": [
+      {
+        "text": "India",
+        "isCorrect": true
+      },
+      {
+        "text": "Indonesia",
+        "isCorrect": false
+      },
+      {
+        "text": "Madagascar",
+        "isCorrect": false
+      },
+      {
+        "text": "Mexico",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1885,
+    "name": "Which country is known for its cuisine?",
+    "slug": "which-country-is-known-for-its-cuisine",
+    "explanation": "Italy is famous for its cuisine, particularly dishes like pasta, pizza, and risotto, which have gained worldwide popularity.",
+    "tags": ["food", "cuisine", "Italy"],
+    "options": [
+      {
+        "text": "Italy",
+        "isCorrect": true
+      },
+      {
+        "text": "India",
+        "isCorrect": false
+      },
+      {
+        "text": "Japan",
+        "isCorrect": false
+      },
+      {
+        "text": "Thailand",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1886,
+    "name": "Which country is famous for its sushi?",
+    "slug": "which-country-is-famous-for-its-sushi",
+    "explanation": "Japan is renowned for its sushi, a traditional dish featuring vinegared rice, seafood, and vegetables.",
+    "tags": ["food", "cuisine", "Japan"],
+    "options": [
+      {
+        "text": "Japan",
+        "isCorrect": true
+      },
+      {
+        "text": "China",
+        "isCorrect": false
+      },
+      {
+        "text": "Korea",
+        "isCorrect": false
+      },
+      {
+        "text": "Thailand",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1887,
+    "name": "Which country is known for its curries?",
+    "slug": "which-country-is-known-for-its-curries",
+    "explanation": "India is famous for its wide variety of curries, which are known for their rich flavors and use of aromatic spices.",
+    "tags": ["food", "cuisine", "India"],
+    "options": [
+      {
+        "text": "India",
+        "isCorrect": true
+      },
+      {
+        "text": "Pakistan",
+        "isCorrect": false
+      },
+      {
+        "text": "Sri Lanka",
+        "isCorrect": false
+      },
+      {
+        "text": "Bangladesh",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1888,
+    "name": "Which country is known for its tacos?",
+    "slug": "which-country-is-known-for-its-tacos",
+    "explanation": "Mexico is known for its tacos, a traditional dish featuring a folded tortilla filled with various ingredients such as meat, beans, and vegetables.",
+    "tags": ["food", "cuisine", "Mexico"],
+    "options": [
+      {
+        "text": "Mexico",
+        "isCorrect": true
+      },
+      {
+        "text": "Spain",
+        "isCorrect": false
+      },
+      {
+        "text": "Colombia",
+        "isCorrect": false
+      },
+      {
+        "text": "Argentina",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1889,
+    "name": "Which country is known for its art and culture?",
+    "slug": "which-country-is-known-for-its-art-and-culture",
+    "explanation": "Italy is renowned for its rich art and culture, home to masterpieces like Michelangelo's David and Da Vinci's Last Supper.",
+    "tags": ["art", "culture", "Italy"],
+    "options": [
+      {
+        "text": "Italy",
+        "isCorrect": true
+      },
+      {
+        "text": "France",
+        "isCorrect": false
+      },
+      {
+        "text": "Greece",
+        "isCorrect": false
+      },
+      {
+        "text": "Egypt",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1890,
+    "name": "Which country is famous for its ancient architecture?",
+    "slug": "which-country-is-famous-for-its-ancient-architecture",
+    "explanation": "Greece is celebrated for its ancient architecture, particularly the Parthenon and other structures from the classical period.",
+    "tags": ["art", "architecture", "Greece"],
+    "options": [
+      {
+        "text": "Greece",
+        "isCorrect": true
+      },
+      {
+        "text": "Egypt",
+        "isCorrect": false
+      },
+      {
+        "text": "Italy",
+        "isCorrect": false
+      },
+      {
+        "text": "India",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1891,
+    "name": "Which country is known for its impressionist paintings?",
+    "slug": "which-country-is-known-for-its-impressionist-paintings",
+    "explanation": "France is known for its impressionist painters like Monet, Degas, and Renoir, who revolutionized the art world in the 19th century.",
+    "tags": ["art", "culture", "France"],
+    "options": [
+      {
+        "text": "France",
+        "isCorrect": true
+      },
+      {
+        "text": "Italy",
+        "isCorrect": false
+      },
+      {
+        "text": "Spain",
+        "isCorrect": false
+      },
+      {
+        "text": "Netherlands",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1892,
+    "name": "Which country is known for its modern art movements?",
+    "slug": "which-country-is-known-for-its-modern-art-movements",
+    "explanation": "Spain is known for its contribution to modern art, with artists like Picasso and Dalí leading revolutionary art movements.",
+    "tags": ["art", "modern art", "Spain"],
+    "options": [
+      {
+        "text": "Spain",
+        "isCorrect": true
+      },
+      {
+        "text": "France",
+        "isCorrect": false
+      },
+      {
+        "text": "Italy",
+        "isCorrect": false
+      },
+      {
+        "text": "Germany",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1893,
+    "name": "Which country is famous for its cultural festivals?",
+    "slug": "which-country-is-famous-for-its-cultural-festivals",
+    "explanation": "India is known for its vibrant cultural festivals like Diwali, Holi, and Durga Puja, which celebrate its diverse heritage.",
+    "tags": ["culture", "festivals", "India"],
+    "options": [
+      {
+        "text": "India",
+        "isCorrect": true
+      },
+      {
+        "text": "Brazil",
+        "isCorrect": false
+      },
+      {
+        "text": "China",
+        "isCorrect": false
+      },
+      {
+        "text": "Mexico",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1894,
+    "name": "Which country is famous for its chocolate?",
+    "slug": "which-country-is-famous-for-its-chocolate",
+    "explanation": "Switzerland is famous for its high-quality chocolate, which has a smooth texture and rich flavor.",
+    "tags": ["food", "cuisine", "Switzerland"],
+    "options": [
+      {
+        "text": "Switzerland",
+        "isCorrect": true
+      },
+      {
+        "text": "Belgium",
+        "isCorrect": false
+      },
+      {
+        "text": "France",
+        "isCorrect": false
+      },
+      {
+        "text": "Germany",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1895,
+    "name": "What is the primary ingredient in hummus?",
+    "slug": "what-is-the-primary-ingredient-in-hummus",
+    "explanation": "Hummus is primarily made from chickpeas, which are blended with tahini, olive oil, lemon juice, and garlic.",
+    "tags": ["food", "Middle Eastern cuisine", "chickpeas"],
+    "options": [
+      {
+        "text": "Chickpeas",
+        "isCorrect": true
+      },
+      {
+        "text": "Lentils",
+        "isCorrect": false
+      },
+      {
+        "text": "Potatoes",
+        "isCorrect": false
+      },
+      {
+        "text": "Rice",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1896,
+    "name": "Which country is the origin of pizza?",
+    "slug": "which-country-is-the-origin-of-pizza",
+    "explanation": "Pizza originated in Italy, with the city of Naples being credited for its invention.",
+    "tags": ["food", "cuisine", "Italy"],
+    "options": [
+      {
+        "text": "Italy",
+        "isCorrect": true
+      },
+      {
+        "text": "France",
+        "isCorrect": false
+      },
+      {
+        "text": "United States",
+        "isCorrect": false
+      },
+      {
+        "text": "Greece",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1897,
+    "name": "Which country is known for its national parks?",
+    "slug": "which-country-is-known-for-its-national-parks",
+    "explanation": "The United States is famous for its national parks, including Yellowstone, Yosemite, and the Grand Canyon.",
+    "tags": ["nature", "national parks", "United States"],
+    "options": [
+      {
+        "text": "United States",
+        "isCorrect": true
+      },
+      {
+        "text": "Canada",
+        "isCorrect": false
+      },
+      {
+        "text": "Australia",
+        "isCorrect": false
+      },
+      {
+        "text": "Brazil",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1898,
+    "name": "Which country is famous for its wildlife safaris?",
+    "slug": "which-country-is-famous-for-its-wildlife-safaris",
+    "explanation": "Kenya is world-renowned for its wildlife safaris, offering opportunities to see the 'Big Five' and the Great Migration.",
+    "tags": ["wildlife", "safaris", "Kenya"],
+    "options": [
+      {
+        "text": "Kenya",
+        "isCorrect": true
+      },
+      {
+        "text": "South Africa",
+        "isCorrect": false
+      },
+      {
+        "text": "India",
+        "isCorrect": false
+      },
+      {
+        "text": "Australia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1899,
+    "name": "Which country is known for the Great Barrier Reef?",
+    "slug": "which-country-is-known-for-the-great-barrier-reef",
+    "explanation": "Australia is home to the Great Barrier Reef, the world's largest coral reef system.",
+    "tags": ["nature", "reefs", "Australia"],
+    "options": [
+      {
+        "text": "Australia",
+        "isCorrect": true
+      },
+      {
+        "text": "New Zealand",
+        "isCorrect": false
+      },
+      {
+        "text": "Fiji",
+        "isCorrect": false
+      },
+      {
+        "text": "Indonesia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1900,
+    "name": "Which country is known for its Amazon rainforest?",
+    "slug": "which-country-is-known-for-its-amazon-rainforest",
+    "explanation": "Brazil contains the majority of the Amazon rainforest, often called the 'lungs of the Earth.'",
+    "tags": ["nature", "rainforests", "Brazil"],
+    "options": [
+      {
+        "text": "Brazil",
+        "isCorrect": true
+      },
+      {
+        "text": "Colombia",
+        "isCorrect": false
+      },
+      {
+        "text": "Peru",
+        "isCorrect": false
+      },
+      {
+        "text": "Ecuador",
+        "isCorrect": false
+      }
+    ]
+  }
 ]

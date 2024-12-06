@@ -17,7 +17,7 @@ const data = {
     "class 12 math book punjab board",
   ],
   canonical: "/class-12/books/punjab-board-math/",
-  url: "https://growlearnhub.com/class-12/books/punjab-board-math/",
+  url: "https://www.growlearnhub.com/class-12/books/punjab-board-math/",
   index: true,
   follow: true,
   fileId_english: "1m0c4RwJH1loIwLaWurWOarhBYzncf2lQ",

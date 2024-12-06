@@ -17,7 +17,7 @@ const data = {
     "class 10 pak study book punjab board",
   ],
   canonical: "/class-10/books/punjab-board-pak-study/",
-  url: "https://growlearnhub.com/class-10/books/punjab-board-pak-study/",
+  url: "https://www.growlearnhub.com/class-10/books/punjab-board-pak-study/",
   index: true,
   follow: true,
   fileId_english: "1RKP3Z62EpOE6fY4C7i0eCdDSYZcB38TE",

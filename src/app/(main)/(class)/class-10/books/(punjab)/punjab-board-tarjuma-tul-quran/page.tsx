@@ -16,7 +16,7 @@ const data = {
     "class 10 tarjuma-tul-quran book punjab board",
   ],
   canonical: "/class-10/books/punjab-board-tarjuma-tul-quran/",
-  url: "https://growlearnhub.com/class-10/books/punjab-board-tarjuma-tul-quran/",
+  url: "https://www.growlearnhub.com/class-10/books/punjab-board-tarjuma-tul-quran/",
   index: true,
   follow: true,
   fileId_urdu: "1qKP8ytj1ahOqFTE-y9oul_nFytNWtd6F",

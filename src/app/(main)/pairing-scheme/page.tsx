@@ -12,7 +12,7 @@ const data = {
   image: "/pairing-scheme-all-classes-growlearnhub.webp",
   keywords: ["growlearnhub", "growlearnhub pairing scheme"],
   canonical: "/pairing-scheme/",
-  url: "https://growlearnhub.com/pairing-scheme/",
+  url: "https://www.growlearnhub.com/pairing-scheme/",
   index: true,
   follow: true,
 };

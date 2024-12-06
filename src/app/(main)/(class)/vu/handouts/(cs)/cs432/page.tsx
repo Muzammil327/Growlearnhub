@@ -1,8 +1,8 @@
-import React from "react"
-import { Metadata } from "next"
-import Link from "next/link"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import PDFViewer from "@/src/components/elements/PDFViewer"
+import React from "react";
+import { Metadata } from "next";
+import Link from "next/link";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import PDFViewer from "@/src/components/elements/PDFViewer";
 
 const data = {
   title: "VU 432 Handouts Pdf Download",
@@ -12,27 +12,24 @@ const data = {
   index: true,
   follow: true,
   image: "/vu/handouts/cs432_handouts.webp",
-  url: "https://growlearnhub.com/vu/handouts/cs432/",
+  url: "https://www.growlearnhub.com/vu/handouts/cs432/",
   keywords: [
     "growlearnhub",
     "vu 432 handouts",
     "growlearnhub 432 handouts",
     "432 handouts",
-    "virtual university 432 handouts"
+    "virtual university 432 handouts",
   ],
-  fileId: ""
-}
+  fileId: "",
+};
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
       <p className="p5">
         Welcome to your one-stop source for <em>CS432 Handouts</em> from
-        <Link href="https://www.vu.edu.pk/">
-          Virtual University (VU)
-        </Link>
-        . Download the handouts in PDF format for free and study at your own
-        pace.
+        <Link href="https://www.vu.edu.pk/">Virtual University (VU)</Link>.
+        Download the handouts in PDF format for free and study at your own pace.
       </p>
       <h3>Download VU 432 Handouts</h3>
       <p>
@@ -41,7 +38,7 @@ export default function Page() {
       </p>
       <PDFViewer pdfUrl={data.fileId} />
     </SimpleWrapper>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -55,27 +52,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

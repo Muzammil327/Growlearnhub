@@ -18,7 +18,7 @@ const data = {
   ],
   image: "/9th/class_9_notes.webp",
   canonical: "/class-9/notes/",
-  url: "https://growlearnhub.com/class-9/notes/",
+  url: "https://www.growlearnhub.com/class-9/notes/",
   index: true,
   follow: true,
 };

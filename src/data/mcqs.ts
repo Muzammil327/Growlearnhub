@@ -27,22 +27,22 @@ export const McqsSubjectData: SmallCardProps[] = [
   {
     id: 0,
     title: "Physics",
-    link: "/mcqs-point/physics/",
+    link: "/mcqs-point/physics",
   },
   {
     id: 1,
     title: "Chemistry",
-    link: "/mcqs-point/chemistry/",
+    link: "/mcqs-point/chemistry",
   },
   {
     id: 2,
     title: "Biology",
-    link: "/mcqs-point/biology/",
+    link: "/mcqs-point/biology",
   },
   {
     id: 3,
     title: "General Knowledge",
-    link: "/mcqs-point/general-knowledge/",
+    link: "/mcqs-point/general-knowledge",
   },
 ];
 

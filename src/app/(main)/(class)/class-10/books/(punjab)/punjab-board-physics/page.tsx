@@ -17,7 +17,7 @@ const data = {
     "class 10 physics book punjab board",
   ],
   canonical: "/class-10/books/punjab-board-physics/",
-  url: "https://growlearnhub.com/class-10/books/punjab-board-physics/",
+  url: "https://www.growlearnhub.com/class-10/books/punjab-board-physics/",
   index: true,
   follow: true,
   fileId_english: "1my_m9qLxXF3LCw4eCFlCJGexOmsazJmg",

@@ -27,7 +27,7 @@ export default function Accordation({ data }: { data: Iprops[] }) {
               <AccordionItemButton>{data.title}</AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel className="mx-2 my-0">
-            <p className="p5 py-4 px-4">{data.para}</p>
+              <p className="p5 px-4 py-4">{data.para}</p>
             </AccordionItemPanel>
           </AccordionItem>
         );

@@ -9,16 +9,13 @@ const data = {
   keywords: [],
   image: "/10th/book/punjab/class_10_computer-science_book_punjab_board.webp",
   canonical: "/class-10/books/punjab-board-computer-science/urdu-medium/",
-  url: "https://growlearnhub.com/class-10/books/punjab-board-computer-science/urdu-medium/",
+  url: "https://www.growlearnhub.com/class-10/books/punjab-board-computer-science/urdu-medium/",
   index: true,
   follow: true,
 };
 
 export default function Page() {
-  return (
-    <SimpleWrapper data={data}>
-    </SimpleWrapper>
-  );
+  return <SimpleWrapper data={data}></SimpleWrapper>;
 }
 
 export const metadata: Metadata = {

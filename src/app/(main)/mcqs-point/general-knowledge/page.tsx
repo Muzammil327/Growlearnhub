@@ -1,8 +1,8 @@
-import React from "react"
-import { Metadata } from "next"
-import CardSmall from "@/src/components/card/cardSmall/cardSmall"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import { GKMcqsSubjectData } from "@/src/data/mcqs"
+import React from "react";
+import { Metadata } from "next";
+import CardSmall from "@/src/components/card/cardSmall/cardSmall";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import { GKMcqsSubjectData } from "@/src/data/mcqs";
 import { SmallCardProps } from "@/src/types/CardType";
 
 const data = {
@@ -12,34 +12,34 @@ const data = {
   canonical: "/mcqs-point/general-knowledge/",
   index: true,
   follow: true,
-  url: "https://growlearnhub.com/mcqs-point/general-knowledge/",
+  url: "https://www.growlearnhub.com/mcqs-point/general-knowledge/",
   image: "/mcqs-point/general-knowledge/general-knowledge-mcqs-point.png",
   keywords: [
     "mcqs",
     "quiz",
     "mcqs general-knowledge",
-    "general-knowledge mcqs"
+    "general-knowledge mcqs",
   ],
   clist: [],
   b1: "Mcqs Point",
   b1Link: "/mcqs-point/",
-  b2: "General Knowledge"
-}
+  b2: "General Knowledge",
+};
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
-      <div className="grid gap-4 md:grid-cols-2 grid-cols-1 my-10">
+      <div className="my-10 grid grid-cols-1 gap-4 md:grid-cols-2">
         {GKMcqsSubjectData.map((book: SmallCardProps) => (
-           <CardSmall
-           key={book.title}
-           title={book.title}
-           link={`mcqs-point/general-knowledge/${book.link}`}
-         />
+          <CardSmall
+            key={book.title}
+            title={book.title}
+            link={`mcqs-point/general-knowledge/${book.link}`}
+          />
         ))}
       </div>
     </SimpleWrapper>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -53,27 +53,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

@@ -17,7 +17,7 @@ const data = {
     "virtual university mid mcqs",
   ],
   canonical: "/vu/mid-mcqs/",
-  url: "https://growlearnhub.com/vu/mid-mcqs/",
+  url: "https://www.growlearnhub.com/vu/mid-mcqs/",
   index: true,
   follow: true,
 };

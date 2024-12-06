@@ -23,7 +23,7 @@ const data = {
     "GrowLearnHub Class 10 resources",
   ],
   canonical: "/class-10/",
-  url: "https://growlearnhub.com/class-10/",
+  url: "https://www.growlearnhub.com/class-10/",
   index: true,
   follow: true,
 };

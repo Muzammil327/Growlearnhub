@@ -1,2907 +1,2506 @@
 [
-    {
-        "id": 2001,
-        "question": "Who is known as the father of modern biology?",
-        "slug": "who-is-known-as-the-father-of-modern-biology",
-        "explanation": "Charles Darwin is often regarded as the father of modern biology due to his pioneering work in the theory of evolution.",
-        "tags": [
-            "biology",
-            "history",
-            "evolution"
-        ],
-        "options": [
-            {
-                "text": "Charles Darwin",
-                "isCorrect": true
-            },
-            {
-                "text": "Gregor Mendel",
-                "isCorrect": false
-            },
-            {
-                "text": "Louis Pasteur",
-                "isCorrect": false
-            },
-            {
-                "text": "Galileo Galilei",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2002,
-        "question": "Who discovered the structure of DNA?",
-        "slug": "who-discovered-the-structure-of-dna",
-        "explanation": "James Watson and Francis Crick discovered the structure of DNA in 1953, with significant contributions from Rosalind Franklin.",
-        "tags": [
-            "DNA",
-            "discovery",
-            "biology"
-        ],
-        "options": [
-            {
-                "text": "James Watson and Francis Crick",
-                "isCorrect": true
-            },
-            {
-                "text": "Rosalind Franklin",
-                "isCorrect": false
-            },
-            {
-                "text": "Albert Einstein",
-                "isCorrect": false
-            },
-            {
-                "text": "Charles Darwin",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2003,
-        "question": "Who is credited with the theory of evolution?",
-        "slug": "who-is-credited-with-the-theory-of-evolution",
-        "explanation": "Charles Darwin is credited with the theory of evolution, explaining how species evolve over time through natural selection.",
-        "tags": [
-            "evolution",
-            "biology",
-            "darwin"
-        ],
-        "options": [
-            {
-                "text": "Charles Darwin",
-                "isCorrect": true
-            },
-            {
-                "text": "Gregor Mendel",
-                "isCorrect": false
-            },
-            {
-                "text": "Jean-Baptiste Lamarck",
-                "isCorrect": false
-            },
-            {
-                "text": "Louis Pasteur",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2004,
-        "question": "Who developed the cell theory?",
-        "slug": "who-developed-the-cell-theory",
-        "explanation": "Matthias Schleiden, Theodor Schwann, and Rudolf Virchow developed the cell theory, stating that all living organisms are made of cells.",
-        "tags": [
-            "biology",
-            "cell theory",
-            "scientists"
-        ],
-        "options": [
-            {
-                "text": "Matthias Schleiden, Theodor Schwann, and Rudolf Virchow",
-                "isCorrect": true
-            },
-            {
-                "text": "Robert Hooke",
-                "isCorrect": false
-            },
-            {
-                "text": "Louis Pasteur",
-                "isCorrect": false
-            },
-            {
-                "text": "Gregor Mendel",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2005,
-        "question": "Who was the first to observe cells under a microscope?",
-        "slug": "who-was-the-first-to-observe-cells-under-a-microscope",
-        "explanation": "Robert Hooke was the first to observe and describe cells under a microscope in 1665.",
-        "tags": [
-            "biology",
-            "microscope",
-            "history"
-        ],
-        "options": [
-            {
-                "text": "Robert Hooke",
-                "isCorrect": true
-            },
-            {
-                "text": "Anton van Leeuwenhoek",
-                "isCorrect": false
-            },
-            {
-                "text": "Galileo Galilei",
-                "isCorrect": false
-            },
-            {
-                "text": "Louis Pasteur",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2006,
-        "question": "Who discovered the process of photosynthesis?",
-        "slug": "who-discovered-the-process-of-photosynthesis",
-        "explanation": "Jan Ingenhousz discovered the process of photosynthesis in 1779, showing that plants produce oxygen in the presence of sunlight.",
-        "tags": [
-            "photosynthesis",
-            "plants",
-            "discovery"
-        ],
-        "options": [
-            {
-                "text": "Jan Ingenhousz",
-                "isCorrect": true
-            },
-            {
-                "text": "Jean-Baptiste Lamarck",
-                "isCorrect": false
-            },
-            {
-                "text": "Charles Darwin",
-                "isCorrect": false
-            },
-            {
-                "text": "Gregor Mendel",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2007,
-        "question": "Who identified the circulatory system in humans?",
-        "slug": "who-identified-the-circulatory-system-in-humans",
-        "explanation": "William Harvey identified the circulatory system in humans and described how blood circulates through the body in the 17th century.",
-        "tags": [
-            "circulatory system",
-            "human anatomy",
-            "William Harvey"
-        ],
-        "options": [
-            {
-                "text": "William Harvey",
-                "isCorrect": true
-            },
-            {
-                "text": "Andreas Vesalius",
-                "isCorrect": false
-            },
-            {
-                "text": "Hippocrates",
-                "isCorrect": false
-            },
-            {
-                "text": "Galen",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2008,
-        "question": "Who discovered the concept of immunity?",
-        "slug": "who-discovered-the-concept-of-immunity",
-        "explanation": "Edward Jenner is credited with discovering the concept of immunity by developing the smallpox vaccine in 1796.",
-        "tags": [
-            "immunity",
-            "vaccination",
-            "Edward Jenner"
-        ],
-        "options": [
-            {
-                "text": "Edward Jenner",
-                "isCorrect": true
-            },
-            {
-                "text": "Louis Pasteur",
-                "isCorrect": false
-            },
-            {
-                "text": "Ignaz Semmelweis",
-                "isCorrect": false
-            },
-            {
-                "text": "Alexander Fleming",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2009,
-        "question": "Who first described the law of inheritance in genetics?",
-        "slug": "who-first-described-the-law-of-inheritance-in-genetics",
-        "explanation": "Gregor Mendel first described the law of inheritance in genetics, which became the foundation of modern genetics.",
-        "tags": [
-            "genetics",
-            "Mendel",
-            "inheritance"
-        ],
-        "options": [
-            {
-                "text": "Gregor Mendel",
-                "isCorrect": true
-            },
-            {
-                "text": "Charles Darwin",
-                "isCorrect": false
-            },
-            {
-                "text": "Louis Pasteur",
-                "isCorrect": false
-            },
-            {
-                "text": "William Harvey",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2010,
-        "question": "Who proposed the theory of natural selection?",
-        "slug": "who-proposed-the-theory-of-natural-selection",
-        "explanation": "Charles Darwin proposed the theory of natural selection as a mechanism for evolution.",
-        "tags": [
-            "evolution",
-            "natural selection",
-            "Darwin"
-        ],
-        "options": [
-            {
-                "text": "Charles Darwin",
-                "isCorrect": true
-            },
-            {
-                "text": "Alfred Russel Wallace",
-                "isCorrect": false
-            },
-            {
-                "text": "Jean-Baptiste Lamarck",
-                "isCorrect": false
-            },
-            {
-                "text": "Gregor Mendel",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2011,
-        "question": "Who developed the theory of the four humors?",
-        "slug": "who-developed-the-theory-of-the-four-humors",
-        "explanation": "Hippocrates is credited with developing the theory of the four humors, which proposed that human health is governed by the balance of four bodily fluids.",
-        "tags": [
-            "theory",
-            "four humors",
-            "Hippocrates"
-        ],
-        "options": [
-            {
-                "text": "Hippocrates",
-                "isCorrect": true
-            },
-            {
-                "text": "Aristotle",
-                "isCorrect": false
-            },
-            {
-                "text": "Galen",
-                "isCorrect": false
-            },
-            {
-                "text": "Claudius Ptolemy",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2012,
-        "question": "Who invented the microscope?",
-        "slug": "who-invented-the-microscope",
-        "explanation": "Zacharias Janssen is generally credited with inventing the microscope in the late 16th century, although other scientists contributed to its development.",
-        "tags": [
-            "microscope",
-            "invention",
-            "history"
-        ],
-        "options": [
-            {
-                "text": "Zacharias Janssen",
-                "isCorrect": true
-            },
-            {
-                "text": "Anton van Leeuwenhoek",
-                "isCorrect": false
-            },
-            {
-                "text": "Robert Hooke",
-                "isCorrect": false
-            },
-            {
-                "text": "Galileo Galilei",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2013,
-        "question": "Who was the first to classify living organisms?",
-        "slug": "who-was-the-first-to-classify-living-organisms",
-        "explanation": "Carl Linnaeus is credited with being the first to classify living organisms in a systematic way, developing the binomial nomenclature system.",
-        "tags": [
-            "classification",
-            "biology",
-            "Linnaeus"
-        ],
-        "options": [
-            {
-                "text": "Carl Linnaeus",
-                "isCorrect": true
-            },
-            {
-                "text": "Aristotle",
-                "isCorrect": false
-            },
-            {
-                "text": "Charles Darwin",
-                "isCorrect": false
-            },
-            {
-                "text": "Jean-Baptiste Lamarck",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2014,
-        "question": "Who coined the term 'cell'?",
-        "slug": "who-coined-the-term-cell",
-        "explanation": "Robert Hooke coined the term 'cell' after observing the structure of cork under a microscope in 1665.",
-        "tags": [
-            "cell",
-            "discovery",
-            "Robert Hooke"
-        ],
-        "options": [
-            {
-                "text": "Robert Hooke",
-                "isCorrect": true
-            },
-            {
-                "text": "Anton van Leeuwenhoek",
-                "isCorrect": false
-            },
-            {
-                "text": "Matthias Schleiden",
-                "isCorrect": false
-            },
-            {
-                "text": "Theodor Schwann",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2015,
-        "question": "Who discovered penicillin?",
-        "slug": "who-discovered-penicillin",
-        "explanation": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine by introducing the first widely used antibiotic.",
-        "tags": [
-            "penicillin",
-            "discovery",
-            "medicine"
-        ],
-        "options": [
-            {
-                "text": "Alexander Fleming",
-                "isCorrect": true
-            },
-            {
-                "text": "Louis Pasteur",
-                "isCorrect": false
-            },
-            {
-                "text": "Robert Koch",
-                "isCorrect": false
-            },
-            {
-                "text": "Joseph Lister",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2016,
-        "question": "Who is the father of modern chemistry?",
-        "slug": "who-is-the-father-of-modern-chemistry",
-        "explanation": "Antoine Lavoisier is often called the father of modern chemistry for his work in defining and measuring chemical reactions and the law of conservation of mass.",
-        "tags": [
-            "chemistry",
-            "Lavoisier",
-            "history"
-        ],
-        "options": [
-            {
-                "text": "Antoine Lavoisier",
-                "isCorrect": true
-            },
-            {
-                "text": "Marie Curie",
-                "isCorrect": false
-            },
-            {
-                "text": "Dmitri Mendeleev",
-                "isCorrect": false
-            },
-            {
-                "text": "Robert Boyle",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2017,
-        "question": "Who discovered the periodic table of elements?",
-        "slug": "who-discovered-the-periodic-table-of-elements",
-        "explanation": "Dmitri Mendeleev is credited with discovering the periodic table of elements in 1869, arranging elements by atomic mass.",
-        "tags": [
-            "periodic table",
-            "chemistry",
-            "Mendeleev"
-        ],
-        "options": [
-            {
-                "text": "Dmitri Mendeleev",
-                "isCorrect": true
-            },
-            {
-                "text": "Marie Curie",
-                "isCorrect": false
-            },
-            {
-                "text": "John Dalton",
-                "isCorrect": false
-            },
-            {
-                "text": "J.J. Thomson",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2018,
-        "question": "Who developed the atomic theory of matter?",
-        "slug": "who-developed-the-atomic-theory-of-matter",
-        "explanation": "John Dalton developed the atomic theory of matter, which states that matter is composed of atoms and that atoms of a given element are identical in mass and properties.",
-        "tags": [
-            "atomic theory",
-            "John Dalton",
-            "chemistry"
-        ],
-        "options": [
-            {
-                "text": "John Dalton",
-                "isCorrect": true
-            },
-            {
-                "text": "Ernest Rutherford",
-                "isCorrect": false
-            },
-            {
-                "text": "J.J. Thomson",
-                "isCorrect": false
-            },
-            {
-                "text": "Niels Bohr",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2019,
-        "question": "Who is credited with the discovery of oxygen?",
-        "slug": "who-is-credited-with-the-discovery-of-oxygen",
-        "explanation": "Joseph Priestley is credited with the discovery of oxygen in 1774, although Carl Wilhelm Scheele also discovered it independently around the same time.",
-        "tags": [
-            "oxygen",
-            "discovery",
-            "Joseph Priestley"
-        ],
-        "options": [
-            {
-                "text": "Joseph Priestley",
-                "isCorrect": true
-            },
-            {
-                "text": "Carl Wilhelm Scheele",
-                "isCorrect": false
-            },
-            {
-                "text": "Antoine Lavoisier",
-                "isCorrect": false
-            },
-            {
-                "text": "Henry Cavendish",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2020,
-        "question": "Who invented the first practical battery?",
-        "slug": "who-invented-the-first-practical-battery",
-        "explanation": "Alessandro Volta invented the first practical battery in 1800, known as the voltaic pile, which produced a steady electric current.",
-        "tags": [
-            "battery",
-            "invention",
-            "electricity"
-        ],
-        "options": [
-            {
-                "text": "Alessandro Volta",
-                "isCorrect": true
-            },
-            {
-                "text": "Benjamin Franklin",
-                "isCorrect": false
-            },
-            {
-                "text": "Michael Faraday",
-                "isCorrect": false
-            },
-            {
-                "text": "Thomas Edison",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2021,
-        "question": "Who discovered the electron?",
-        "slug": "who-discovered-the-electron",
-        "explanation": "J.J. Thomson is credited with the discovery of the electron in 1897 through his work with cathode rays.",
-        "tags": [
-            "electron",
-            "discovery",
-            "J.J. Thomson"
-        ],
-        "options": [
-            {
-                "text": "J.J. Thomson",
-                "isCorrect": true
-            },
-            {
-                "text": "Ernest Rutherford",
-                "isCorrect": false
-            },
-            {
-                "text": "Niels Bohr",
-                "isCorrect": false
-            },
-            {
-                "text": "James Clerk Maxwell",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2022,
-        "question": "Who proposed the theory of acids and bases?",
-        "slug": "who-proposed-the-theory-of-acids-and-bases",
-        "explanation": "The theory of acids and bases was proposed by Johannes Bronsted and Thomas Lowry, who defined acids as proton donors and bases as proton acceptors.",
-        "tags": [
-            "acids",
-            "bases",
-            "theory",
-            "Bronsted",
-            "Lowry"
-        ],
-        "options": [
-            {
-                "text": "Johannes Bronsted and Thomas Lowry",
-                "isCorrect": true
-            },
-            {
-                "text": "Svante Arrhenius",
-                "isCorrect": false
-            },
-            {
-                "text": "Gilbert N. Lewis",
-                "isCorrect": false
-            },
-            {
-                "text": "Robert Boyle",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2023,
-        "question": "Who discovered the concept of radioactivity?",
-        "slug": "who-discovered-the-concept-of-radioactivity",
-        "explanation": "Marie Curie, along with her husband Pierre Curie, is credited with the discovery of radioactivity, a term she coined.",
-        "tags": [
-            "radioactivity",
-            "Marie Curie",
-            "discovery"
-        ],
-        "options": [
-            {
-                "text": "Marie Curie",
-                "isCorrect": true
-            },
-            {
-                "text": "Henri Becquerel",
-                "isCorrect": false
-            },
-            {
-                "text": "Ernest Rutherford",
-                "isCorrect": false
-            },
-            {
-                "text": "Albert Einstein",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2024,
-        "question": "Who created the first synthetic element?",
-        "slug": "who-created-the-first-synthetic-element",
-        "explanation": "Glenn T. Seaborg is credited with creating the first synthetic element, plutonium, in 1940.",
-        "tags": [
-            "synthetic element",
-            "Glenn Seaborg",
-            "plutonium"
-        ],
-        "options": [
-            {
-                "text": "Glenn T. Seaborg",
-                "isCorrect": true
-            },
-            {
-                "text": "Marie Curie",
-                "isCorrect": false
-            },
-            {
-                "text": "Enrico Fermi",
-                "isCorrect": false
-            },
-            {
-                "text": "J. Robert Oppenheimer",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2025,
-        "question": "Who is known for his work on the discovery of noble gases?",
-        "slug": "who-is-known-for-his-work-on-the-discovery-of-noble-gases",
-        "explanation": "Lord Rayleigh, along with William Ramsay, discovered noble gases, including argon, in the late 19th century.",
-        "tags": [
-            "noble gases",
-            "Lord Rayleigh",
-            "William Ramsay"
-        ],
-        "options": [
-            {
-                "text": "Lord Rayleigh and William Ramsay",
-                "isCorrect": true
-            },
-            {
-                "text": "Dmitri Mendeleev",
-                "isCorrect": false
-            },
-            {
-                "text": "Henry Moseley",
-                "isCorrect": false
-            },
-            {
-                "text": "Marie Curie",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2026,
-        "question": "Who first synthesized organic compounds from inorganic materials?",
-        "slug": "who-first-synthesized-organic-compounds-from-inorganic-materials",
-        "explanation": "Friedrich Wöhler is famous for synthesizing urea, an organic compound, from inorganic substances in 1828.",
-        "tags": [
-            "synthesis",
-            "organic chemistry",
-            "Friedrich Wöhler"
-        ],
-        "options": [
-            {
-                "text": "Friedrich Wöhler",
-                "isCorrect": true
-            },
-            {
-                "text": "August Kekulé",
-                "isCorrect": false
-            },
-            {
-                "text": "Dmitri Mendeleev",
-                "isCorrect": false
-            },
-            {
-                "text": "Michael Faraday",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2027,
-        "question": "Who developed the concept of chemical bonding?",
-        "slug": "who-developed-the-concept-of-chemical-bonding",
-        "explanation": "Gilbert N. Lewis and Linus Pauling developed the concept of chemical bonding, particularly covalent and ionic bonds, in the early 20th century.",
-        "tags": [
-            "chemical bonding",
-            "Lewis",
-            "Pauling"
-        ],
-        "options": [
-            {
-                "text": "Gilbert N. Lewis and Linus Pauling",
-                "isCorrect": true
-            },
-            {
-                "text": "Ernest Rutherford",
-                "isCorrect": false
-            },
-            {
-                "text": "J.J. Thomson",
-                "isCorrect": false
-            },
-            {
-                "text": "Niels Bohr",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2028,
-        "question": "Who discovered the laws of chemical combination?",
-        "slug": "who-discovered-the-laws-of-chemical-combination",
-        "explanation": "Joseph Proust is credited with discovering the laws of chemical combination, including the law of definite proportions in the early 19th century.",
-        "tags": [
-            "chemical laws",
-            "Joseph Proust",
-            "chemistry"
-        ],
-        "options": [
-            {
-                "text": "Joseph Proust",
-                "isCorrect": true
-            },
-            {
-                "text": "John Dalton",
-                "isCorrect": false
-            },
-            {
-                "text": "Robert Boyle",
-                "isCorrect": false
-            },
-            {
-                "text": "Dmitri Mendeleev",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2029,
-        "question": "Who developed the first periodic law?",
-        "slug": "who-developed-the-first-periodic-law",
-        "explanation": "Dmitri Mendeleev is known for developing the first periodic law, which led to the creation of the periodic table of elements.",
-        "tags": [
-            "periodic law",
-            "Mendeleev",
-            "chemistry"
-        ],
-        "options": [
-            {
-                "text": "Dmitri Mendeleev",
-                "isCorrect": true
-            },
-            {
-                "text": "Henry Moseley",
-                "isCorrect": false
-            },
-            {
-                "text": "John Dalton",
-                "isCorrect": false
-            },
-            {
-                "text": "Marie Curie",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2030,
-        "question": "Who first identified the chemical structure of benzene?",
-        "slug": "who-first-identified-the-chemical-structure-of-benzene",
-        "explanation": "Friedrich August Kekulé is credited with first identifying the chemical structure of benzene in 1865, proposing a hexagonal ring structure.",
-        "tags": [
-            "benzene",
-            "structure",
-            "Kekulé"
-        ],
-        "options": [
-            {
-                "text": "Friedrich August Kekulé",
-                "isCorrect": true
-            },
-            {
-                "text": "August Kekulé",
-                "isCorrect": false
-            },
-            {
-                "text": "Linus Pauling",
-                "isCorrect": false
-            },
-            {
-                "text": "Gilbert N. Lewis",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2031,
-        "question": "Who led the Islamic expansion into Persia?",
-        "slug": "who-led-the-islamic-expansion-into-persia",
-        "explanation": "The Islamic expansion into Persia was led by General Khalid ibn al-Walid, who played a significant role in the Battle of Qadisiyyah and the subsequent conquest of Persia.",
-        "tags": [
-            "Khalid ibn al-Walid",
-            "Islamic expansion",
-            "Persia"
-        ],
-        "options": [
-            {
-                "text": "Khalid ibn al-Walid",
-                "isCorrect": true
-            },
-            {
-                "text": "Umar ibn al-Khattab",
-                "isCorrect": false
-            },
-            {
-                "text": "Ali ibn Abi Talib",
-                "isCorrect": false
-            },
-            {
-                "text": "Abu Bakr al-Siddiq",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2032,
-        "question": "Who is the author of 'Pride and Prejudice'?",
-        "slug": "who-is-the-author-of-pride-and-prejudice",
-        "explanation": "'Pride and Prejudice' was written by Jane Austen, first published in 1813. It is one of her most beloved novels.",
-        "tags": [
-            "Pride and Prejudice",
-            "Jane Austen",
-            "novel"
-        ],
-        "options": [
-            {
-                "text": "Jane Austen",
-                "isCorrect": true
-            },
-            {
-                "text": "Charlotte Brontë",
-                "isCorrect": false
-            },
-            {
-                "text": "Virginia Woolf",
-                "isCorrect": false
-            },
-            {
-                "text": "Emily Dickinson",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2033,
-        "question": "Who wrote 'The Canterbury Tales'?",
-        "slug": "who-wrote-the-canterbury-tales",
-        "explanation": "'The Canterbury Tales' was written by Geoffrey Chaucer in the late 14th century. It is a collection of stories told by pilgrims on their way to Canterbury.",
-        "tags": [
-            "The Canterbury Tales",
-            "Geoffrey Chaucer",
-            "poetry"
-        ],
-        "options": [
-            {
-                "text": "Geoffrey Chaucer",
-                "isCorrect": true
-            },
-            {
-                "text": "William Shakespeare",
-                "isCorrect": false
-            },
-            {
-                "text": "John Milton",
-                "isCorrect": false
-            },
-            {
-                "text": "Edmund Spenser",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2034,
-        "question": "Who is known as the 'Father of English Literature'?",
-        "slug": "who-is-known-as-the-father-of-english-literature",
-        "explanation": "Geoffrey Chaucer is often called the 'Father of English Literature' due to his influential works, particularly 'The Canterbury Tales'.",
-        "tags": [
-            "Father of English Literature",
-            "Geoffrey Chaucer",
-            "literature"
-        ],
-        "options": [
-            {
-                "text": "Geoffrey Chaucer",
-                "isCorrect": true
-            },
-            {
-                "text": "William Shakespeare",
-                "isCorrect": false
-            },
-            {
-                "text": "John Milton",
-                "isCorrect": false
-            },
-            {
-                "text": "Edmund Spenser",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2035,
-        "question": "Who wrote 'The Divine Comedy'?",
-        "slug": "who-wrote-the-divine-comedy",
-        "explanation": "'The Divine Comedy' was written by Dante Alighieri in the early 14th century, telling the story of the soul's journey through Hell, Purgatory, and Paradise.",
-        "tags": [
-            "The Divine Comedy",
-            "Dante Alighieri",
-            "epic poem"
-        ],
-        "options": [
-            {
-                "text": "Dante Alighieri",
-                "isCorrect": true
-            },
-            {
-                "text": "Geoffrey Chaucer",
-                "isCorrect": false
-            },
-            {
-                "text": "John Milton",
-                "isCorrect": false
-            },
-            {
-                "text": "Virgil",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2036,
-        "question": "Who is famous for the plays 'Hamlet' and 'Macbeth'?",
-        "slug": "who-is-famous-for-the-plays-hamlet-and-macbeth",
-        "explanation": "William Shakespeare is famous for writing the tragedies 'Hamlet' and 'Macbeth', both of which are considered some of his greatest works.",
-        "tags": [
-            "Hamlet",
-            "Macbeth",
-            "Shakespeare",
-            "plays"
-        ],
-        "options": [
-            {
-                "text": "William Shakespeare",
-                "isCorrect": true
-            },
-            {
-                "text": "Christopher Marlowe",
-                "isCorrect": false
-            },
-            {
-                "text": "John Milton",
-                "isCorrect": false
-            },
-            {
-                "text": "Ben Jonson",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2037,
-        "question": "Who wrote '1984' and 'Animal Farm'?",
-        "slug": "who-wrote-1984-and-animal-farm",
-        "explanation": "'1984' and 'Animal Farm' were written by George Orwell, whose works often explore themes of totalitarianism and social injustice.",
-        "tags": [
-            "1984",
-            "Animal Farm",
-            "George Orwell",
-            "dystopia"
-        ],
-        "options": [
-            {
-                "text": "George Orwell",
-                "isCorrect": true
-            },
-            {
-                "text": "Aldous Huxley",
-                "isCorrect": false
-            },
-            {
-                "text": "Ray Bradbury",
-                "isCorrect": false
-            },
-            {
-                "text": "Kurt Vonnegut",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2038,
-        "question": "Who was the first poet laureate of the United Kingdom?",
-        "slug": "who-was-the-first-poet-laureate-of-the-united-kingdom",
-        "explanation": "John Dryden was appointed as the first poet laureate of the United Kingdom in 1668, a position that honors poets who have made significant contributions to English literature.",
-        "tags": [
-            "poet laureate",
-            "John Dryden",
-            "literature"
-        ],
-        "options": [
-            {
-                "text": "John Dryden",
-                "isCorrect": true
-            },
-            {
-                "text": "Alexander Pope",
-                "isCorrect": false
-            },
-            {
-                "text": "William Wordsworth",
-                "isCorrect": false
-            },
-            {
-                "text": "Samuel Taylor Coleridge",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2039,
-        "question": "Who wrote 'A Midsummer Night's Dream'?",
-        "slug": "who-wrote-a-midsummer-nights-dream",
-        "explanation": "'A Midsummer Night's Dream' is a comedy written by William Shakespeare, filled with love, magic, and mistaken identities.",
-        "tags": [
-            "A Midsummer Night's Dream",
-            "Shakespeare",
-            "comedy"
-        ],
-        "options": [
-            {
-                "text": "William Shakespeare",
-                "isCorrect": true
-            },
-            {
-                "text": "Christopher Marlowe",
-                "isCorrect": false
-            },
-            {
-                "text": "Ben Jonson",
-                "isCorrect": false
-            },
-            {
-                "text": "John Milton",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2040,
-        "question": "Who wrote 'The Great Gatsby'?",
-        "slug": "who-wrote-the-great-gatsby",
-        "explanation": "'The Great Gatsby' was written by F. Scott Fitzgerald, and is considered a classic work of 20th-century American literature.",
-        "tags": [
-            "The Great Gatsby",
-            "F. Scott Fitzgerald",
-            "novel"
-        ],
-        "options": [
-            {
-                "text": "F. Scott Fitzgerald",
-                "isCorrect": true
-            },
-            {
-                "text": "Ernest Hemingway",
-                "isCorrect": false
-            },
-            {
-                "text": "John Steinbeck",
-                "isCorrect": false
-            },
-            {
-                "text": "William Faulkner",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2041,
-        "question": "Who is considered the greatest writer in the English language?",
-        "slug": "who-is-considered-the-greatest-writer-in-the-english-language",
-        "explanation": "William Shakespeare is often regarded as the greatest writer in the English language due to his influential plays, poetry, and his contribution to the English lexicon.",
-        "tags": [
-            "Shakespeare",
-            "English literature",
-            "greatest writer"
-        ],
-        "options": [
-            {
-                "text": "William Shakespeare",
-                "isCorrect": true
-            },
-            {
-                "text": "Charles Dickens",
-                "isCorrect": false
-            },
-            {
-                "text": "Geoffrey Chaucer",
-                "isCorrect": false
-            },
-            {
-                "text": "John Milton",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2042,
-        "question": "Who was the first woman to write a science fiction novel?",
-        "slug": "who-was-the-first-woman-to-write-a-science-fiction-novel",
-        "explanation": "Mary Shelley is credited as the first woman to write a science fiction novel with her famous work 'Frankenstein', published in 1818.",
-        "tags": [
-            "Mary Shelley",
-            "science fiction",
-            "Frankenstein"
-        ],
-        "options": [
-            {
-                "text": "Mary Shelley",
-                "isCorrect": true
-            },
-            {
-                "text": "Margaret Cavendish",
-                "isCorrect": false
-            },
-            {
-                "text": "Jane Austen",
-                "isCorrect": false
-            },
-            {
-                "text": "Charlotte Perkins Gilman",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2043,
-        "question": "Who is known for his metaphysical poetry?",
-        "slug": "who-is-known-for-his-metaphysical-poetry",
-        "explanation": "John Donne is known for his metaphysical poetry, a style characterized by complex metaphors and themes of love, religion, and morality.",
-        "tags": [
-            "John Donne",
-            "metaphysical poetry",
-            "poetry"
-        ],
-        "options": [
-            {
-                "text": "John Donne",
-                "isCorrect": true
-            },
-            {
-                "text": "William Blake",
-                "isCorrect": false
-            },
-            {
-                "text": "Andrew Marvell",
-                "isCorrect": false
-            },
-            {
-                "text": "Samuel Taylor Coleridge",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2044,
-        "question": "Who wrote 'Moby Dick'?",
-        "slug": "who-wrote-moby-dick",
-        "explanation": "'Moby Dick' was written by Herman Melville and is considered a classic American novel, exploring themes of obsession, revenge, and the natural world.",
-        "tags": [
-            "Moby Dick",
-            "Herman Melville",
-            "novel"
-        ],
-        "options": [
-            {
-                "text": "Herman Melville",
-                "isCorrect": true
-            },
-            {
-                "text": "Nathaniel Hawthorne",
-                "isCorrect": false
-            },
-            {
-                "text": "Mark Twain",
-                "isCorrect": false
-            },
-            {
-                "text": "Edgar Allan Poe",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2045,
-        "question": "Who is known for writing 'Wuthering Heights'?",
-        "slug": "who-is-known-for-writing-wuthering-heights",
-        "explanation": "'Wuthering Heights' was written by Emily Brontë and is considered one of the greatest works of English literature, known for its intense and tragic love story.",
-        "tags": [
-            "Wuthering Heights",
-            "Emily Brontë",
-            "novel"
-        ],
-        "options": [
-            {
-                "text": "Emily Brontë",
-                "isCorrect": true
-            },
-            {
-                "text": "Charlotte Brontë",
-                "isCorrect": false
-            },
-            {
-                "text": "Jane Austen",
-                "isCorrect": false
-            },
-            {
-                "text": "Virginia Woolf",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2046,
-        "question": "Who is known for his contributions to Islamic medicine?",
-        "slug": "who-is-known-for-his-contributions-to-islamic-medicine",
-        "explanation": "Ibn Sina (Avicenna) is known for his contributions to Islamic medicine. His work 'The Canon of Medicine' was a significant text in both the Islamic and European medical traditions.",
-        "tags": [
-            "Ibn Sina",
-            "Islamic medicine",
-            "contributions"
-        ],
-        "options": [
-            {
-                "text": "Ibn Sina",
-                "isCorrect": true
-            },
-            {
-                "text": "Al-Razi",
-                "isCorrect": false
-            },
-            {
-                "text": "Ibn Khaldun",
-                "isCorrect": false
-            },
-            {
-                "text": "Al-Biruni",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2047,
-        "question": "Who was the first Prime Minister of Pakistan?",
-        "slug": "who-was-the-first-prime-minister-of-pakistan",
-        "explanation": "Liaquat Ali Khan was the first Prime Minister of Pakistan, serving from 1947 until his assassination in 1951.",
-        "tags": [
-            "first Prime Minister",
-            "Liaquat Ali Khan",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Liaquat Ali Khan",
-                "isCorrect": true
-            },
-            {
-                "text": "Muhammad Ali Jinnah",
-                "isCorrect": false
-            },
-            {
-                "text": "Zulfikar Ali Bhutto",
-                "isCorrect": false
-            },
-            {
-                "text": "Benazir Bhutto",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2048,
-        "question": "Who is known as the 'Quaid-e-Azam'?",
-        "slug": "who-is-known-as-the-quaid-e-azam",
-        "explanation": "Muhammad Ali Jinnah is known as the 'Quaid-e-Azam' (Great Leader) for his pivotal role in the creation of Pakistan.",
-        "tags": [
-            "Quaid-e-Azam",
-            "Muhammad Ali Jinnah",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Muhammad Ali Jinnah",
-                "isCorrect": true
-            },
-            {
-                "text": "Liaquat Ali Khan",
-                "isCorrect": false
-            },
-            {
-                "text": "Zulfikar Ali Bhutto",
-                "isCorrect": false
-            },
-            {
-                "text": "Benazir Bhutto",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2049,
-        "question": "Who led the Pakistan Movement for independence?",
-        "slug": "who-led-the-pakistan-movement-for-independence",
-        "explanation": "The Pakistan Movement for independence was led by Muhammad Ali Jinnah, who advocated for the creation of a separate nation for Muslims of the Indian subcontinent.",
-        "tags": [
-            "Pakistan Movement",
-            "Muhammad Ali Jinnah",
-            "independence"
-        ],
-        "options": [
-            {
-                "text": "Muhammad Ali Jinnah",
-                "isCorrect": true
-            },
-            {
-                "text": "Liaquat Ali Khan",
-                "isCorrect": false
-            },
-            {
-                "text": "Allama Iqbal",
-                "isCorrect": false
-            },
-            {
-                "text": "Zulfikar Ali Bhutto",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2050,
-        "question": "Who was the first to establish a system of Islamic universities?",
-        "slug": "who-was-the-first-to-establish-a-system-of-islamic-universities",
-        "explanation": "The first to establish a system of Islamic universities was the Fatimid Caliph Al-Hakim bi-Amr Allah. He founded Al-Azhar University in Cairo, which remains one of the oldest and most prestigious Islamic universities in the world.",
-        "tags": [
-            "Al-Hakim bi-Amr Allah",
-            "Islamic universities",
-            "Al-Azhar"
-        ],
-        "options": [
-            {
-                "text": "Al-Hakim bi-Amr Allah",
-                "isCorrect": true
-            },
-            {
-                "text": "Al-Mahdi Billah",
-                "isCorrect": false
-            },
-            {
-                "text": "Umar ibn al-Khattab",
-                "isCorrect": false
-            },
-            {
-                "text": "Imam Bukhari",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2051,
-        "question": "Who was the first woman Prime Minister of Pakistan?",
-        "slug": "who-was-the-first-woman-prime-minister-of-pakistan",
-        "explanation": "Benazir Bhutto was the first woman Prime Minister of Pakistan, serving two non-consecutive terms from 1988 to 1990 and 1993 to 1996.",
-        "tags": [
-            "first woman Prime Minister",
-            "Benazir Bhutto",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Benazir Bhutto",
-                "isCorrect": true
-            },
-            {
-                "text": "Fatima Jinnah",
-                "isCorrect": false
-            },
-            {
-                "text": "Khadija Aziz",
-                "isCorrect": false
-            },
-            {
-                "text": "Hina Rabbani Khar",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2052,
-        "question": "Who was the first governor-general of Pakistan?",
-        "slug": "who-was-the-first-governor-general-of-pakistan",
-        "explanation": "Quaid-e-Azam Muhammad Ali Jinnah was the first Governor-General of Pakistan, holding the position from 1947 until his death in 1948.",
-        "tags": [
-            "first governor-general",
-            "Muhammad Ali Jinnah",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Muhammad Ali Jinnah",
-                "isCorrect": true
-            },
-            {
-                "text": "Liaquat Ali Khan",
-                "isCorrect": false
-            },
-            {
-                "text": "Iskander Mirza",
-                "isCorrect": false
-            },
-            {
-                "text": "Ghulam Mohammad",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2053,
-        "question": "Who were the key figures in the All India Muslim League?",
-        "slug": "who-were-the-key-figures-in-the-all-india-muslim-league",
-        "explanation": "Key figures in the All India Muslim League included Muhammad Ali Jinnah, Allama Iqbal, Liaquat Ali Khan, and Nawabzada Liaquat Ali Khan.",
-        "tags": [
-            "All India Muslim League",
-            "Muhammad Ali Jinnah",
-            "Indian history"
-        ],
-        "options": [
-            {
-                "text": "Muhammad Ali Jinnah",
-                "isCorrect": true
-            },
-            {
-                "text": "Liaquat Ali Khan",
-                "isCorrect": true
-            },
-            {
-                "text": "Allama Iqbal",
-                "isCorrect": true
-            },
-            {
-                "text": "Mahatma Gandhi",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2054,
-        "question": "Who was the first chief justice of Pakistan?",
-        "slug": "who-was-the-first-chief-justice-of-pakistan",
-        "explanation": "The first Chief Justice of Pakistan was Mian Abdur Rashid, who held the position from 1947 to 1954.",
-        "tags": [
-            "first chief justice",
-            "Mian Abdur Rashid",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Mian Abdur Rashid",
-                "isCorrect": true
-            },
-            {
-                "text": "Iftikhar Muhammad Chaudhry",
-                "isCorrect": false
-            },
-            {
-                "text": "Aftab Hussain Malik",
-                "isCorrect": false
-            },
-            {
-                "text": "Rana Bhagwandas",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2055,
-        "question": "Who led the Pakistan Army during the 1965 war?",
-        "slug": "who-led-the-pakistan-army-during-the-1965-war",
-        "explanation": "General Ayub Khan led the Pakistan Army during the 1965 war with India, which is known as the Indo-Pakistani War of 1965.",
-        "tags": [
-            "1965 war",
-            "Pakistan Army",
-            "General Ayub Khan"
-        ],
-        "options": [
-            {
-                "text": "General Ayub Khan",
-                "isCorrect": true
-            },
-            {
-                "text": "General Yahya Khan",
-                "isCorrect": false
-            },
-            {
-                "text": "General Zia-ul-Haq",
-                "isCorrect": false
-            },
-            {
-                "text": "General Pervez Musharraf",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2056,
-        "question": "Who was the first Pakistani Nobel laureate?",
-        "slug": "who-was-the-first-pakistani-nobel-laureate",
-        "explanation": "The first Pakistani Nobel laureate was Dr. Abdus Salam, who won the Nobel Prize in Physics in 1979 for his contribution to electroweak unification.",
-        "tags": [
-            "Nobel laureate",
-            "Abdus Salam",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Dr. Abdus Salam",
-                "isCorrect": true
-            },
-            {
-                "text": "Dr. Abdul Qadeer Khan",
-                "isCorrect": false
-            },
-            {
-                "text": "Malala Yousafzai",
-                "isCorrect": false
-            },
-            {
-                "text": "Imran Khan",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2057,
-        "question": "Who wrote the national anthem of Pakistan?",
-        "slug": "who-wrote-the-national-anthem-of-pakistan",
-        "explanation": "The national anthem of Pakistan was written by Hafeez Jalandhari, and the music was composed by Ahmed Ghulamali Chagla.",
-        "tags": [
-            "national anthem",
-            "Hafeez Jalandhari",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Hafeez Jalandhari",
-                "isCorrect": true
-            },
-            {
-                "text": "Allama Iqbal",
-                "isCorrect": false
-            },
-            {
-                "text": "Faiz Ahmed Faiz",
-                "isCorrect": false
-            },
-            {
-                "text": "Nusrat Fateh Ali Khan",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2058,
-        "question": "Who was the first person to fly in the Pakistan Air Force?",
-        "slug": "who-was-the-first-person-to-fly-in-the-pakistan-air-force",
-        "explanation": "Group Captain Cecil Chaudhry was one of the first persons to fly in the Pakistan Air Force and is known for his significant contributions during the 1965 war.",
-        "tags": [
-            "Pakistan Air Force",
-            "Cecil Chaudhry",
-            "aviation"
-        ],
-        "options": [
-            {
-                "text": "Group Captain Cecil Chaudhry",
-                "isCorrect": true
-            },
-            {
-                "text": "Air Marshal Asghar Khan",
-                "isCorrect": false
-            },
-            {
-                "text": "Air Commodore M.M. Alam",
-                "isCorrect": false
-            },
-            {
-                "text": "Wing Commander Imtiaz Bhatti",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2059,
-        "question": "Who played a key role in the creation of the Kashmir issue?",
-        "slug": "who-played-a-key-role-in-the-creation-of-the-kashmir-issue",
-        "explanation": "The Kashmir issue was initially caused by the partition of India in 1947, and key figures like Maharaja Hari Singh, Jawaharlal Nehru, and Muhammad Ali Jinnah played significant roles in its creation.",
-        "tags": [
-            "Kashmir issue",
-            "partition of India",
-            "Jawaharlal Nehru"
-        ],
-        "options": [
-            {
-                "text": "Maharaja Hari Singh",
-                "isCorrect": true
-            },
-            {
-                "text": "Jawaharlal Nehru",
-                "isCorrect": true
-            },
-            {
-                "text": "Muhammad Ali Jinnah",
-                "isCorrect": true
-            },
-            {
-                "text": "Indira Gandhi",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2060,
-        "question": "Who was the first woman to receive the Nishan-e-Haider?",
-        "slug": "who-was-the-first-woman-to-receive-the-nishan-e-haider",
-        "explanation": "The first woman to receive the Nishan-e-Haider, Pakistan's highest military honor, was Pilot Officer Shahana Iqbal in 1971, posthumously awarded for her bravery in the war.",
-        "tags": [
-            "Nishan-e-Haider",
-            "Shahana Iqbal",
-            "military honor"
-        ],
-        "options": [
-            {
-                "text": "Pilot Officer Shahana Iqbal",
-                "isCorrect": true
-            },
-            {
-                "text": "Squadron Leader Sarfaraz Ahmed",
-                "isCorrect": false
-            },
-            {
-                "text": "Nazia Iqbal",
-                "isCorrect": false
-            },
-            {
-                "text": "Zehra Shahid",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2061,
-        "question": "Who was the first caliph of Islam?",
-        "slug": "who-was-the-first-caliph-of-islam",
-        "explanation": "The first caliph of Islam was Abu Bakr al-Siddiq, who became the leader of the Muslim community after the death of the Prophet Muhammad.",
-        "tags": [
-            "first caliph",
-            "Abu Bakr",
-            "Islam"
-        ],
-        "options": [
-            {
-                "text": "Abu Bakr al-Siddiq",
-                "isCorrect": true
-            },
-            {
-                "text": "Ali ibn Abi Talib",
-                "isCorrect": false
-            },
-            {
-                "text": "Uthman ibn Affan",
-                "isCorrect": false
-            },
-            {
-                "text": "Omar ibn al-Khattab",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2062,
-        "question": "Who is considered the final prophet in Islam?",
-        "slug": "who-is-considered-the-final-prophet-in-islam",
-        "explanation": "Prophet Muhammad is considered the final prophet in Islam, also known as the Seal of the Prophets.",
-        "tags": [
-            "final prophet",
-            "Prophet Muhammad",
-            "Islam"
-        ],
-        "options": [
-            {
-                "text": "Prophet Muhammad",
-                "isCorrect": true
-            },
-            {
-                "text": "Prophet Isa (Jesus)",
-                "isCorrect": false
-            },
-            {
-                "text": "Prophet Musa (Moses)",
-                "isCorrect": false
-            },
-            {
-                "text": "Prophet Ibrahim (Abraham)",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2063,
-        "question": "Who was the first woman to embrace Islam?",
-        "slug": "who-was-the-first-woman-to-embrace-islam",
-        "explanation": "The first woman to embrace Islam was Khadijah bint Khuwaylid, the wife of Prophet Muhammad.",
-        "tags": [
-            "first woman",
-            "Khadijah",
-            "Islam"
-        ],
-        "options": [
-            {
-                "text": "Khadijah bint Khuwaylid",
-                "isCorrect": true
-            },
-            {
-                "text": "Aisha bint Abi Bakr",
-                "isCorrect": false
-            },
-            {
-                "text": "Fatimah bint Muhammad",
-                "isCorrect": false
-            },
-            {
-                "text": "Zaynab bint Jahsh",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2064,
-        "question": "Who was the first person to compile the Quran?",
-        "slug": "who-was-the-first-person-to-compile-the-quran",
-        "explanation": "The first person to compile the Quran into a book was Caliph Abu Bakr al-Siddiq, under the guidance of Zayd ibn Thabit.",
-        "tags": [
-            "compile Quran",
-            "Abu Bakr",
-            "Zayd ibn Thabit",
-            "Islam"
-        ],
-        "options": [
-            {
-                "text": "Abu Bakr al-Siddiq",
-                "isCorrect": true
-            },
-            {
-                "text": "Uthman ibn Affan",
-                "isCorrect": false
-            },
-            {
-                "text": "Ali ibn Abi Talib",
-                "isCorrect": false
-            },
-            {
-                "text": "Zayd ibn Thabit",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2065,
-        "question": "Who was the first martyr in Islam?",
-        "slug": "who-was-the-first-martyr-in-islam",
-        "explanation": "The first martyr in Islam was Sumayyah bint Khayyat, who was killed for her faith by the Quraysh during the early years of Islam.",
-        "tags": [
-            "first martyr",
-            "Sumayyah",
-            "Islam"
-        ],
-        "options": [
-            {
-                "text": "Sumayyah bint Khayyat",
-                "isCorrect": true
-            },
-            {
-                "text": "Bilal ibn Rabah",
-                "isCorrect": false
-            },
-            {
-                "text": "Umm Salama",
-                "isCorrect": false
-            },
-            {
-                "text": "Abu Bakr al-Siddiq",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2066,
-        "question": "Who was the companion known for his wisdom and knowledge?",
-        "slug": "who-was-the-companion-known-for-his-wisdom-and-knowledge",
-        "explanation": "The companion known for his wisdom and knowledge was Ali ibn Abi Talib, who was not only the cousin but also the son-in-law of Prophet Muhammad.",
-        "tags": [
-            "wisdom",
-            "Ali ibn Abi Talib",
-            "Islam"
-        ],
-        "options": [
-            {
-                "text": "Ali ibn Abi Talib",
-                "isCorrect": true
-            },
-            {
-                "text": "Abu Hurairah",
-                "isCorrect": false
-            },
-            {
-                "text": "Abu Bakr al-Siddiq",
-                "isCorrect": false
-            },
-            {
-                "text": "Umar ibn al-Khattab",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2067,
-        "question": "Who wrote the famous book 'Riyadh-as-Saliheen'?",
-        "slug": "who-wrote-the-famous-book-riyadh-as-saliheen",
-        "explanation": "The famous book 'Riyadh-as-Saliheen' was written by Imam Nawawi. It is a compilation of hadiths that serve as a guide to Islamic ethics.",
-        "tags": [
-            "Riyadh-as-Saliheen",
-            "Imam Nawawi",
-            "Islamic books"
-        ],
-        "options": [
-            {
-                "text": "Imam Nawawi",
-                "isCorrect": true
-            },
-            {
-                "text": "Imam Malik",
-                "isCorrect": false
-            },
-            {
-                "text": "Imam Bukhari",
-                "isCorrect": false
-            },
-            {
-                "text": "Imam Muslim",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2068,
-        "question": "Who was the first to spread Islam in Spain?",
-        "slug": "who-was-the-first-to-spread-islam-in-spain",
-        "explanation": "The first to spread Islam in Spain was Tariq ibn Ziyad, who led the Muslim conquest of Iberia in 711 AD.",
-        "tags": [
-            "Islam in Spain",
-            "Tariq ibn Ziyad",
-            "conquest of Iberia"
-        ],
-        "options": [
-            {
-                "text": "Tariq ibn Ziyad",
-                "isCorrect": true
-            },
-            {
-                "text": "Abu Bakr al-Siddiq",
-                "isCorrect": false
-            },
-            {
-                "text": "Umar ibn al-Khattab",
-                "isCorrect": false
-            },
-            {
-                "text": "Al-Mansur",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2069,
-        "question": "Who is known as the father of Islamic jurisprudence?",
-        "slug": "who-is-known-as-the-father-of-islamic-jurisprudence",
-        "explanation": "Imam Abu Hanifa is known as the father of Islamic jurisprudence for his contributions to the development of Islamic law.",
-        "tags": [
-            "father of jurisprudence",
-            "Imam Abu Hanifa",
-            "Islamic law"
-        ],
-        "options": [
-            {
-                "text": "Imam Abu Hanifa",
-                "isCorrect": true
-            },
-            {
-                "text": "Imam Malik",
-                "isCorrect": false
-            },
-            {
-                "text": "Imam Shafi'i",
-                "isCorrect": false
-            },
-            {
-                "text": "Imam Ahmad ibn Hanbal",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2070,
-        "question": "Who was the founder of the Umayyad dynasty?",
-        "slug": "who-was-the-founder-of-the-umayyad-dynasty",
-        "explanation": "The founder of the Umayyad dynasty was Muawiya ibn Abi Sufyan, who became the first caliph of the Umayyad Caliphate.",
-        "tags": [
-            "Umayyad dynasty",
-            "Muawiya ibn Abi Sufyan",
-            "Islamic history"
-        ],
-        "options": [
-            {
-                "text": "Muawiya ibn Abi Sufyan",
-                "isCorrect": true
-            },
-            {
-                "text": "Abu Bakr al-Siddiq",
-                "isCorrect": false
-            },
-            {
-                "text": "Umar ibn al-Khattab",
-                "isCorrect": false
-            },
-            {
-                "text": "Ali ibn Abi Talib",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2071,
-        "question": "Who was the first Muslim ruler of India?",
-        "slug": "who-was-the-first-muslim-ruler-of-india",
-        "explanation": "The first Muslim ruler of India was Muhammad Ghori, who established the Delhi Sultanate in 1192 AD.",
-        "tags": [
-            "first Muslim ruler",
-            "Muhammad Ghori",
-            "Delhi Sultanate"
-        ],
-        "options": [
-            {
-                "text": "Muhammad Ghori",
-                "isCorrect": true
-            },
-            {
-                "text": "Qutb-ud-Din Aibak",
-                "isCorrect": false
-            },
-            {
-                "text": "Babar",
-                "isCorrect": false
-            },
-            {
-                "text": "Aurangzeb",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2072,
-        "question": "Who is known for his contributions to Islamic science and mathematics?",
-        "slug": "who-is-known-for-his-contributions-to-islamic-science-and-mathematics",
-        "explanation": "Al-Khwarizmi is known for his contributions to Islamic science and mathematics, particularly in algebra and the development of algorithms.",
-        "tags": [
-            "Islamic science",
-            "Al-Khwarizmi",
-            "mathematics"
-        ],
-        "options": [
-            {
-                "text": "Al-Khwarizmi",
-                "isCorrect": true
-            },
-            {
-                "text": "Avicenna",
-                "isCorrect": false
-            },
-            {
-                "text": "Al-Razi",
-                "isCorrect": false
-            },
-            {
-                "text": "Ibn al-Haytham",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2073,
-        "question": "Who was the last prophet in Islam?",
-        "slug": "who-was-the-last-prophet-in-islam",
-        "explanation": "Prophet Muhammad is considered the last prophet in Islam, and he is known as the Seal of the Prophets.",
-        "tags": [
-            "last prophet",
-            "Prophet Muhammad",
-            "Islam"
-        ],
-        "options": [
-            {
-                "text": "Prophet Muhammad",
-                "isCorrect": true
-            },
-            {
-                "text": "Prophet Isa (Jesus)",
-                "isCorrect": false
-            },
-            {
-                "text": "Prophet Musa (Moses)",
-                "isCorrect": false
-            },
-            {
-                "text": "Prophet Ibrahim (Abraham)",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2074,
-        "question": "Who established the Abbasid dynasty?",
-        "slug": "who-established-the-abbasid-dynasty",
-        "explanation": "The Abbasid dynasty was established by Abu Muslim and Abbas ibn Abd al-Muttalib in 750 AD.",
-        "tags": [
-            "Abbasid dynasty",
-            "Abu Muslim",
-            "Islamic history"
-        ],
-        "options": [
-            {
-                "text": "Abu Muslim",
-                "isCorrect": true
-            },
-            {
-                "text": "Muawiya ibn Abi Sufyan",
-                "isCorrect": false
-            },
-            {
-                "text": "Ali ibn Abi Talib",
-                "isCorrect": false
-            },
-            {
-                "text": "Umar ibn al-Khattab",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2075,
-        "question": "Who was the first to translate the Quran into English?",
-        "slug": "who-was-the-first-to-translate-the-quran-into-english",
-        "explanation": "The first person to translate the Quran into English was Muhammad Marmaduke Pickthall, in 1930.",
-        "tags": [
-            "Quran translation",
-            "Marmaduke Pickthall",
-            "Islam"
-        ],
-        "options": [
-            {
-                "text": "Muhammad Marmaduke Pickthall",
-                "isCorrect": true
-            },
-            {
-                "text": "Yusuf Ali",
-                "isCorrect": false
-            },
-            {
-                "text": "Richard Bell",
-                "isCorrect": false
-            },
-            {
-                "text": "George Sale",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2076,
-        "question": "Who discovered the law of independent assortment in genetics?",
-        "slug": "who-discovered-the-law-of-independent-assortment-in-genetics",
-        "explanation": "Gregor Mendel discovered the law of independent assortment, which states that genes for different traits are inherited independently of each other.",
-        "tags": [
-            "genetics",
-            "Mendel",
-            "independent assortment"
-        ],
-        "options": [
-            {
-                "text": "Gregor Mendel",
-                "isCorrect": true
-            },
-            {
-                "text": "Charles Darwin",
-                "isCorrect": false
-            },
-            {
-                "text": "Thomas Hunt Morgan",
-                "isCorrect": false
-            },
-            {
-                "text": "Louis Pasteur",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2077,
-        "question": "Who is known for the discovery of insulin?",
-        "slug": "who-is-known-for-the-discovery-of-insulin",
-        "explanation": "Frederick Banting and Charles Best are credited with the discovery of insulin in 1921, revolutionizing the treatment of diabetes.",
-        "tags": [
-            "insulin",
-            "Frederick Banting",
-            "Charles Best"
-        ],
-        "options": [
-            {
-                "text": "Frederick Banting",
-                "isCorrect": true
-            },
-            {
-                "text": "Charles Best",
-                "isCorrect": true
-            },
-            {
-                "text": "Alexis Thérèse Petit",
-                "isCorrect": false
-            },
-            {
-                "text": "Joseph Lister",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2078,
-        "question": "Who introduced the concept of the species concept?",
-        "slug": "who-introduced-the-concept-of-the-species-concept",
-        "explanation": "The concept of species as distinct entities was formalized by Carl Linnaeus, who developed the binomial nomenclature system for naming species.",
-        "tags": [
-            "species concept",
-            "Carl Linnaeus",
-            "taxonomy"
-        ],
-        "options": [
-            {
-                "text": "Carl Linnaeus",
-                "isCorrect": true
-            },
-            {
-                "text": "Charles Darwin",
-                "isCorrect": false
-            },
-            {
-                "text": "Gregor Mendel",
-                "isCorrect": false
-            },
-            {
-                "text": "Jean-Baptiste Lamarck",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2079,
-        "question": "Who is considered the father of embryology?",
-        "slug": "who-is-considered-the-father-of-embryology",
-        "explanation": "Aristotle is often considered the father of embryology due to his work on the development of embryos in various species.",
-        "tags": [
-            "embryology",
-            "Aristotle",
-            "science"
-        ],
-        "options": [
-            {
-                "text": "Aristotle",
-                "isCorrect": true
-            },
-            {
-                "text": "René Descartes",
-                "isCorrect": false
-            },
-            {
-                "text": "William Harvey",
-                "isCorrect": false
-            },
-            {
-                "text": "Gregor Mendel",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2080,
-        "question": "Who was the first to describe the process of mitosis?",
-        "slug": "who-was-the-first-to-describe-the-process-of-mitosis",
-        "explanation": "The process of mitosis was first described by Walther Flemming in 1879.",
-        "tags": [
-            "mitosis",
-            "Walther Flemming",
-            "cell biology"
-        ],
-        "options": [
-            {
-                "text": "Walther Flemming",
-                "isCorrect": true
-            },
-            {
-                "text": "Gregor Mendel",
-                "isCorrect": false
-            },
-            {
-                "text": "Robert Hooke",
-                "isCorrect": false
-            },
-            {
-                "text": "Charles Darwin",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2081,
-        "question": "Who discovered the lymphatic system?",
-        "slug": "who-discovered-the-lymphatic-system",
-        "explanation": "The lymphatic system was discovered by Thomas Bartholin, a Danish physician, in 1652.",
-        "tags": [
-            "lymphatic system",
-            "Thomas Bartholin",
-            "biology"
-        ],
-        "options": [
-            {
-                "text": "Thomas Bartholin",
-                "isCorrect": true
-            },
-            {
-                "text": "Hippocrates",
-                "isCorrect": false
-            },
-            {
-                "text": "William Harvey",
-                "isCorrect": false
-            },
-            {
-                "text": "Andreas Vesalius",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2082,
-        "question": "Who proposed the theory of inheritance of acquired characteristics?",
-        "slug": "who-proposed-the-theory-of-inheritance-of-acquired-characteristics",
-        "explanation": "Jean-Baptiste Lamarck proposed the theory of inheritance of acquired characteristics, suggesting that traits acquired during an organism's lifetime can be passed down to its offspring.",
-        "tags": [
-            "Lamarck",
-            "inheritance",
-            "evolution"
-        ],
-        "options": [
-            {
-                "text": "Jean-Baptiste Lamarck",
-                "isCorrect": true
-            },
-            {
-                "text": "Charles Darwin",
-                "isCorrect": false
-            },
-            {
-                "text": "Gregor Mendel",
-                "isCorrect": false
-            },
-            {
-                "text": "Alfred Russel Wallace",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2083,
-        "question": "Who first observed the process of cell division?",
-        "slug": "who-first-observed-the-process-of-cell-division",
-        "explanation": "The process of cell division was first observed by Robert Hooke in 1665, but it was later fully described by Walther Flemming in the 19th century.",
-        "tags": [
-            "cell division",
-            "Robert Hooke",
-            "Walther Flemming"
-        ],
-        "options": [
-            {
-                "text": "Robert Hooke",
-                "isCorrect": false
-            },
-            {
-                "text": "Walther Flemming",
-                "isCorrect": true
-            },
-            {
-                "text": "Gregor Mendel",
-                "isCorrect": false
-            },
-            {
-                "text": "Louis Pasteur",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2084,
-        "question": "Who introduced the concept of the central dogma in molecular biology?",
-        "slug": "who-introduced-the-concept-of-the-central-dogma-in-molecular-biology",
-        "explanation": "The concept of the central dogma in molecular biology was introduced by Francis Crick in 1958, describing the flow of genetic information from DNA to RNA to protein.",
-        "tags": [
-            "central dogma",
-            "Francis Crick",
-            "molecular biology"
-        ],
-        "options": [
-            {
-                "text": "Francis Crick",
-                "isCorrect": true
-            },
-            {
-                "text": "James Watson",
-                "isCorrect": false
-            },
-            {
-                "text": "Charles Darwin",
-                "isCorrect": false
-            },
-            {
-                "text": "Gregor Mendel",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2085,
-        "question": "Who was the first to propose the idea of spontaneous generation?",
-        "slug": "who-was-the-first-to-propose-the-idea-of-spontaneous-generation",
-        "explanation": "The idea of spontaneous generation, the belief that living organisms could arise from non-living matter, was proposed by Aristotle in ancient Greece.",
-        "tags": [
-            "spontaneous generation",
-            "Aristotle",
-            "biology"
-        ],
-        "options": [
-            {
-                "text": "Aristotle",
-                "isCorrect": true
-            },
-            {
-                "text": "Louis Pasteur",
-                "isCorrect": false
-            },
-            {
-                "text": "Francesco Redi",
-                "isCorrect": false
-            },
-            {
-                "text": "Anton van Leeuwenhoek",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2086,
-        "question": "Who discovered the law of segregation in genetics?",
-        "slug": "who-discovered-the-law-of-segregation-in-genetics",
-        "explanation": "The law of segregation, which states that alleles separate during gamete formation, was discovered by Gregor Mendel.",
-        "tags": [
-            "law of segregation",
-            "Gregor Mendel",
-            "genetics"
-        ],
-        "options": [
-            {
-                "text": "Gregor Mendel",
-                "isCorrect": true
-            },
-            {
-                "text": "Charles Darwin",
-                "isCorrect": false
-            },
-            {
-                "text": "Thomas Hunt Morgan",
-                "isCorrect": false
-            },
-            {
-                "text": "Jean-Baptiste Lamarck",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2087,
-        "question": "Who is famous for studying the inheritance of traits in pea plants?",
-        "slug": "who-is-famous-for-studying-the-inheritance-of-traits-in-pea-plants",
-        "explanation": "Gregor Mendel is famous for studying the inheritance of traits in pea plants, leading to the discovery of the basic principles of heredity.",
-        "tags": [
-            "pea plants",
-            "Gregor Mendel",
-            "genetics"
-        ],
-        "options": [
-            {
-                "text": "Gregor Mendel",
-                "isCorrect": true
-            },
-            {
-                "text": "Charles Darwin",
-                "isCorrect": false
-            },
-            {
-                "text": "Thomas Hunt Morgan",
-                "isCorrect": false
-            },
-            {
-                "text": "Alfred Russel Wallace",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2088,
-        "question": "Who discovered that genes are located on chromosomes?",
-        "slug": "who-discovered-that-genes-are-located-on-chromosomes",
-        "explanation": "The discovery that genes are located on chromosomes was made by Thomas Hunt Morgan through his work on fruit flies.",
-        "tags": [
-            "genes",
-            "chromosomes",
-            "Thomas Hunt Morgan"
-        ],
-        "options": [
-            {
-                "text": "Thomas Hunt Morgan",
-                "isCorrect": true
-            },
-            {
-                "text": "Gregor Mendel",
-                "isCorrect": false
-            },
-            {
-                "text": "Erwin Chargaff",
-                "isCorrect": false
-            },
-            {
-                "text": "Watson and Crick",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2089,
-        "question": "Who is known for his research on the immune system and vaccines?",
-        "slug": "who-is-known-for-his-research-on-the-immune-system-and-vaccines",
-        "explanation": "Louis Pasteur is known for his groundbreaking research on the immune system and the development of vaccines, including those for rabies and anthrax.",
-        "tags": [
-            "immune system",
-            "Louis Pasteur",
-            "vaccines"
-        ],
-        "options": [
-            {
-                "text": "Louis Pasteur",
-                "isCorrect": true
-            },
-            {
-                "text": "Edward Jenner",
-                "isCorrect": false
-            },
-            {
-                "text": "Jonas Salk",
-                "isCorrect": false
-            },
-            {
-                "text": "Albert Calmette",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2090,
-        "question": "Who is credited with the development of the first rabies vaccine?",
-        "slug": "who-is-credited-with-the-development-of-the-first-rabies-vaccine",
-        "explanation": "Louis Pasteur is credited with the development of the first rabies vaccine in 1885, saving countless lives from the fatal disease.",
-        "tags": [
-            "rabies vaccine",
-            "Louis Pasteur",
-            "vaccines"
-        ],
-        "options": [
-            {
-                "text": "Louis Pasteur",
-                "isCorrect": true
-            },
-            {
-                "text": "Edward Jenner",
-                "isCorrect": false
-            },
-            {
-                "text": "Jonas Salk",
-                "isCorrect": false
-            },
-            {
-                "text": "Albert Calmette",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2091,
-        "question": "Who discovered the electron's charge-to-mass ratio?",
-        "slug": "who-discovered-the-electrons-charge-to-mass-ratio",
-        "explanation": "The electron's charge-to-mass ratio was discovered by J.J. Thomson in 1897 through his cathode ray tube experiment.",
-        "tags": [
-            "electron",
-            "J.J. Thomson",
-            "charge-to-mass ratio"
-        ],
-        "options": [
-            {
-                "text": "J.J. Thomson",
-                "isCorrect": true
-            },
-            {
-                "text": "Ernest Rutherford",
-                "isCorrect": false
-            },
-            {
-                "text": "Niels Bohr",
-                "isCorrect": false
-            },
-            {
-                "text": "James Clerk Maxwell",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2092,
-        "question": "Who is known for the development of the theory of atomic orbitals?",
-        "slug": "who-is-known-for-the-development-of-the-theory-of-atomic-orbitals",
-        "explanation": "The theory of atomic orbitals was developed by Niels Bohr and further refined by Erwin Schrödinger and Werner Heisenberg as part of the quantum mechanical model of the atom.",
-        "tags": [
-            "atomic orbitals",
-            "Niels Bohr",
-            "quantum mechanics"
-        ],
-        "options": [
-            {
-                "text": "Niels Bohr",
-                "isCorrect": true
-            },
-            {
-                "text": "Erwin Schrödinger",
-                "isCorrect": false
-            },
-            {
-                "text": "Werner Heisenberg",
-                "isCorrect": false
-            },
-            {
-                "text": "Albert Einstein",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2093,
-        "question": "Who was the first to propose the idea of atomic number?",
-        "slug": "who-was-the-first-to-propose-the-idea-of-atomic-number",
-        "explanation": "The concept of atomic number was first proposed by Henry Moseley in 1913, based on his X-ray spectra experiments.",
-        "tags": [
-            "atomic number",
-            "Henry Moseley",
-            "periodic table"
-        ],
-        "options": [
-            {
-                "text": "Henry Moseley",
-                "isCorrect": true
-            },
-            {
-                "text": "Dmitri Mendeleev",
-                "isCorrect": false
-            },
-            {
-                "text": "Ernest Rutherford",
-                "isCorrect": false
-            },
-            {
-                "text": "John Dalton",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2094,
-        "question": "Who discovered that the atom is mostly empty space?",
-        "slug": "who-discovered-that-the-atom-is-mostly-empty-space",
-        "explanation": "The discovery that the atom is mostly empty space was made by Ernest Rutherford through his gold foil experiment in 1909.",
-        "tags": [
-            "atomic structure",
-            "Ernest Rutherford",
-            "gold foil experiment"
-        ],
-        "options": [
-            {
-                "text": "Ernest Rutherford",
-                "isCorrect": true
-            },
-            {
-                "text": "J.J. Thomson",
-                "isCorrect": false
-            },
-            {
-                "text": "Niels Bohr",
-                "isCorrect": false
-            },
-            {
-                "text": "John Dalton",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2095,
-        "question": "Who developed the concept of 'molecular weight' in chemistry?",
-        "slug": "who-developed-the-concept-of-molecular-weight-in-chemistry",
-        "explanation": "The concept of molecular weight (molar mass) was developed by Dmitri Mendeleev, who also created the periodic table of elements.",
-        "tags": [
-            "molecular weight",
-            "Dmitri Mendeleev",
-            "chemistry"
-        ],
-        "options": [
-            {
-                "text": "Dmitri Mendeleev",
-                "isCorrect": true
-            },
-            {
-                "text": "John Dalton",
-                "isCorrect": false
-            },
-            {
-                "text": "Marie Curie",
-                "isCorrect": false
-            },
-            {
-                "text": "Robert Boyle",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2096,
-        "question": "Who is known for discovering the principle of conservation of mass?",
-        "slug": "who-is-known-for-discovering-the-principle-of-conservation-of-mass",
-        "explanation": "The principle of conservation of mass, which states that mass is neither created nor destroyed in chemical reactions, was discovered by Antoine Lavoisier.",
-        "tags": [
-            "conservation of mass",
-            "Antoine Lavoisier",
-            "chemistry"
-        ],
-        "options": [
-            {
-                "text": "Antoine Lavoisier",
-                "isCorrect": true
-            },
-            {
-                "text": "Dmitri Mendeleev",
-                "isCorrect": false
-            },
-            {
-                "text": "Marie Curie",
-                "isCorrect": false
-            },
-            {
-                "text": "Robert Boyle",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2097,
-        "question": "Who invented the periodic law?",
-        "slug": "who-invented-the-periodic-law",
-        "explanation": "The periodic law, which states that the properties of elements are periodic functions of their atomic numbers, was invented by Dmitri Mendeleev.",
-        "tags": [
-            "periodic law",
-            "Dmitri Mendeleev",
-            "periodic table"
-        ],
-        "options": [
-            {
-                "text": "Dmitri Mendeleev",
-                "isCorrect": true
-            },
-            {
-                "text": "Henry Moseley",
-                "isCorrect": false
-            },
-            {
-                "text": "John Dalton",
-                "isCorrect": false
-            },
-            {
-                "text": "J.J. Thomson",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2098,
-        "question": "Who discovered the concept of chemical equilibrium?",
-        "slug": "who-discovered-the-concept-of-chemical-equilibrium",
-        "explanation": "The concept of chemical equilibrium, where the rate of the forward reaction equals the rate of the reverse reaction, was introduced by Henri Le Chatelier.",
-        "tags": [
-            "chemical equilibrium",
-            "Henri Le Chatelier",
-            "chemistry"
-        ],
-        "options": [
-            {
-                "text": "Henri Le Chatelier",
-                "isCorrect": true
-            },
-            {
-                "text": "Graham's Law",
-                "isCorrect": false
-            },
-            {
-                "text": "Dmitri Mendeleev",
-                "isCorrect": false
-            },
-            {
-                "text": "Robert Boyle",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2099,
-        "question": "Who was the first to identify the proton?",
-        "slug": "who-was-the-first-to-identify-the-proton",
-        "explanation": "The proton was first identified by Ernest Rutherford in 1917 through his experiments on the nature of atomic nuclei.",
-        "tags": [
-            "proton",
-            "Ernest Rutherford",
-            "atomic structure"
-        ],
-        "options": [
-            {
-                "text": "Ernest Rutherford",
-                "isCorrect": true
-            },
-            {
-                "text": "J.J. Thomson",
-                "isCorrect": false
-            },
-            {
-                "text": "Niels Bohr",
-                "isCorrect": false
-            },
-            {
-                "text": "James Chadwick",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2100,
-        "question": "Who formulated the laws of electrolysis?",
-        "slug": "who-formulated-the-laws-of-electrolysis",
-        "explanation": "The laws of electrolysis were formulated by Michael Faraday in 1833, which describe the relationship between electric charge and the amount of substance that undergoes a reaction in electrolysis.",
-        "tags": [
-            "laws of electrolysis",
-            "Michael Faraday",
-            "chemistry"
-        ],
-        "options": [
-            {
-                "text": "Michael Faraday",
-                "isCorrect": true
-            },
-            {
-                "text": "John Dalton",
-                "isCorrect": false
-            },
-            {
-                "text": "J.J. Thomson",
-                "isCorrect": false
-            },
-            {
-                "text": "Dmitri Mendeleev",
-                "isCorrect": false
-            }
-        ]
-    }
+  {
+    "id": 2001,
+    "question": "Who is known as the father of modern biology?",
+    "slug": "who-is-known-as-the-father-of-modern-biology",
+    "explanation": "Charles Darwin is often regarded as the father of modern biology due to his pioneering work in the theory of evolution.",
+    "tags": ["biology", "history", "evolution"],
+    "options": [
+      {
+        "text": "Charles Darwin",
+        "isCorrect": true
+      },
+      {
+        "text": "Gregor Mendel",
+        "isCorrect": false
+      },
+      {
+        "text": "Louis Pasteur",
+        "isCorrect": false
+      },
+      {
+        "text": "Galileo Galilei",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2002,
+    "question": "Who discovered the structure of DNA?",
+    "slug": "who-discovered-the-structure-of-dna",
+    "explanation": "James Watson and Francis Crick discovered the structure of DNA in 1953, with significant contributions from Rosalind Franklin.",
+    "tags": ["DNA", "discovery", "biology"],
+    "options": [
+      {
+        "text": "James Watson and Francis Crick",
+        "isCorrect": true
+      },
+      {
+        "text": "Rosalind Franklin",
+        "isCorrect": false
+      },
+      {
+        "text": "Albert Einstein",
+        "isCorrect": false
+      },
+      {
+        "text": "Charles Darwin",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2003,
+    "question": "Who is credited with the theory of evolution?",
+    "slug": "who-is-credited-with-the-theory-of-evolution",
+    "explanation": "Charles Darwin is credited with the theory of evolution, explaining how species evolve over time through natural selection.",
+    "tags": ["evolution", "biology", "darwin"],
+    "options": [
+      {
+        "text": "Charles Darwin",
+        "isCorrect": true
+      },
+      {
+        "text": "Gregor Mendel",
+        "isCorrect": false
+      },
+      {
+        "text": "Jean-Baptiste Lamarck",
+        "isCorrect": false
+      },
+      {
+        "text": "Louis Pasteur",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2004,
+    "question": "Who developed the cell theory?",
+    "slug": "who-developed-the-cell-theory",
+    "explanation": "Matthias Schleiden, Theodor Schwann, and Rudolf Virchow developed the cell theory, stating that all living organisms are made of cells.",
+    "tags": ["biology", "cell theory", "scientists"],
+    "options": [
+      {
+        "text": "Matthias Schleiden, Theodor Schwann, and Rudolf Virchow",
+        "isCorrect": true
+      },
+      {
+        "text": "Robert Hooke",
+        "isCorrect": false
+      },
+      {
+        "text": "Louis Pasteur",
+        "isCorrect": false
+      },
+      {
+        "text": "Gregor Mendel",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2005,
+    "question": "Who was the first to observe cells under a microscope?",
+    "slug": "who-was-the-first-to-observe-cells-under-a-microscope",
+    "explanation": "Robert Hooke was the first to observe and describe cells under a microscope in 1665.",
+    "tags": ["biology", "microscope", "history"],
+    "options": [
+      {
+        "text": "Robert Hooke",
+        "isCorrect": true
+      },
+      {
+        "text": "Anton van Leeuwenhoek",
+        "isCorrect": false
+      },
+      {
+        "text": "Galileo Galilei",
+        "isCorrect": false
+      },
+      {
+        "text": "Louis Pasteur",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2006,
+    "question": "Who discovered the process of photosynthesis?",
+    "slug": "who-discovered-the-process-of-photosynthesis",
+    "explanation": "Jan Ingenhousz discovered the process of photosynthesis in 1779, showing that plants produce oxygen in the presence of sunlight.",
+    "tags": ["photosynthesis", "plants", "discovery"],
+    "options": [
+      {
+        "text": "Jan Ingenhousz",
+        "isCorrect": true
+      },
+      {
+        "text": "Jean-Baptiste Lamarck",
+        "isCorrect": false
+      },
+      {
+        "text": "Charles Darwin",
+        "isCorrect": false
+      },
+      {
+        "text": "Gregor Mendel",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2007,
+    "question": "Who identified the circulatory system in humans?",
+    "slug": "who-identified-the-circulatory-system-in-humans",
+    "explanation": "William Harvey identified the circulatory system in humans and described how blood circulates through the body in the 17th century.",
+    "tags": ["circulatory system", "human anatomy", "William Harvey"],
+    "options": [
+      {
+        "text": "William Harvey",
+        "isCorrect": true
+      },
+      {
+        "text": "Andreas Vesalius",
+        "isCorrect": false
+      },
+      {
+        "text": "Hippocrates",
+        "isCorrect": false
+      },
+      {
+        "text": "Galen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2008,
+    "question": "Who discovered the concept of immunity?",
+    "slug": "who-discovered-the-concept-of-immunity",
+    "explanation": "Edward Jenner is credited with discovering the concept of immunity by developing the smallpox vaccine in 1796.",
+    "tags": ["immunity", "vaccination", "Edward Jenner"],
+    "options": [
+      {
+        "text": "Edward Jenner",
+        "isCorrect": true
+      },
+      {
+        "text": "Louis Pasteur",
+        "isCorrect": false
+      },
+      {
+        "text": "Ignaz Semmelweis",
+        "isCorrect": false
+      },
+      {
+        "text": "Alexander Fleming",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2009,
+    "question": "Who first described the law of inheritance in genetics?",
+    "slug": "who-first-described-the-law-of-inheritance-in-genetics",
+    "explanation": "Gregor Mendel first described the law of inheritance in genetics, which became the foundation of modern genetics.",
+    "tags": ["genetics", "Mendel", "inheritance"],
+    "options": [
+      {
+        "text": "Gregor Mendel",
+        "isCorrect": true
+      },
+      {
+        "text": "Charles Darwin",
+        "isCorrect": false
+      },
+      {
+        "text": "Louis Pasteur",
+        "isCorrect": false
+      },
+      {
+        "text": "William Harvey",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2010,
+    "question": "Who proposed the theory of natural selection?",
+    "slug": "who-proposed-the-theory-of-natural-selection",
+    "explanation": "Charles Darwin proposed the theory of natural selection as a mechanism for evolution.",
+    "tags": ["evolution", "natural selection", "Darwin"],
+    "options": [
+      {
+        "text": "Charles Darwin",
+        "isCorrect": true
+      },
+      {
+        "text": "Alfred Russel Wallace",
+        "isCorrect": false
+      },
+      {
+        "text": "Jean-Baptiste Lamarck",
+        "isCorrect": false
+      },
+      {
+        "text": "Gregor Mendel",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2011,
+    "question": "Who developed the theory of the four humors?",
+    "slug": "who-developed-the-theory-of-the-four-humors",
+    "explanation": "Hippocrates is credited with developing the theory of the four humors, which proposed that human health is governed by the balance of four bodily fluids.",
+    "tags": ["theory", "four humors", "Hippocrates"],
+    "options": [
+      {
+        "text": "Hippocrates",
+        "isCorrect": true
+      },
+      {
+        "text": "Aristotle",
+        "isCorrect": false
+      },
+      {
+        "text": "Galen",
+        "isCorrect": false
+      },
+      {
+        "text": "Claudius Ptolemy",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2012,
+    "question": "Who invented the microscope?",
+    "slug": "who-invented-the-microscope",
+    "explanation": "Zacharias Janssen is generally credited with inventing the microscope in the late 16th century, although other scientists contributed to its development.",
+    "tags": ["microscope", "invention", "history"],
+    "options": [
+      {
+        "text": "Zacharias Janssen",
+        "isCorrect": true
+      },
+      {
+        "text": "Anton van Leeuwenhoek",
+        "isCorrect": false
+      },
+      {
+        "text": "Robert Hooke",
+        "isCorrect": false
+      },
+      {
+        "text": "Galileo Galilei",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2013,
+    "question": "Who was the first to classify living organisms?",
+    "slug": "who-was-the-first-to-classify-living-organisms",
+    "explanation": "Carl Linnaeus is credited with being the first to classify living organisms in a systematic way, developing the binomial nomenclature system.",
+    "tags": ["classification", "biology", "Linnaeus"],
+    "options": [
+      {
+        "text": "Carl Linnaeus",
+        "isCorrect": true
+      },
+      {
+        "text": "Aristotle",
+        "isCorrect": false
+      },
+      {
+        "text": "Charles Darwin",
+        "isCorrect": false
+      },
+      {
+        "text": "Jean-Baptiste Lamarck",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2014,
+    "question": "Who coined the term 'cell'?",
+    "slug": "who-coined-the-term-cell",
+    "explanation": "Robert Hooke coined the term 'cell' after observing the structure of cork under a microscope in 1665.",
+    "tags": ["cell", "discovery", "Robert Hooke"],
+    "options": [
+      {
+        "text": "Robert Hooke",
+        "isCorrect": true
+      },
+      {
+        "text": "Anton van Leeuwenhoek",
+        "isCorrect": false
+      },
+      {
+        "text": "Matthias Schleiden",
+        "isCorrect": false
+      },
+      {
+        "text": "Theodor Schwann",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2015,
+    "question": "Who discovered penicillin?",
+    "slug": "who-discovered-penicillin",
+    "explanation": "Alexander Fleming discovered penicillin in 1928, revolutionizing medicine by introducing the first widely used antibiotic.",
+    "tags": ["penicillin", "discovery", "medicine"],
+    "options": [
+      {
+        "text": "Alexander Fleming",
+        "isCorrect": true
+      },
+      {
+        "text": "Louis Pasteur",
+        "isCorrect": false
+      },
+      {
+        "text": "Robert Koch",
+        "isCorrect": false
+      },
+      {
+        "text": "Joseph Lister",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2016,
+    "question": "Who is the father of modern chemistry?",
+    "slug": "who-is-the-father-of-modern-chemistry",
+    "explanation": "Antoine Lavoisier is often called the father of modern chemistry for his work in defining and measuring chemical reactions and the law of conservation of mass.",
+    "tags": ["chemistry", "Lavoisier", "history"],
+    "options": [
+      {
+        "text": "Antoine Lavoisier",
+        "isCorrect": true
+      },
+      {
+        "text": "Marie Curie",
+        "isCorrect": false
+      },
+      {
+        "text": "Dmitri Mendeleev",
+        "isCorrect": false
+      },
+      {
+        "text": "Robert Boyle",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2017,
+    "question": "Who discovered the periodic table of elements?",
+    "slug": "who-discovered-the-periodic-table-of-elements",
+    "explanation": "Dmitri Mendeleev is credited with discovering the periodic table of elements in 1869, arranging elements by atomic mass.",
+    "tags": ["periodic table", "chemistry", "Mendeleev"],
+    "options": [
+      {
+        "text": "Dmitri Mendeleev",
+        "isCorrect": true
+      },
+      {
+        "text": "Marie Curie",
+        "isCorrect": false
+      },
+      {
+        "text": "John Dalton",
+        "isCorrect": false
+      },
+      {
+        "text": "J.J. Thomson",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2018,
+    "question": "Who developed the atomic theory of matter?",
+    "slug": "who-developed-the-atomic-theory-of-matter",
+    "explanation": "John Dalton developed the atomic theory of matter, which states that matter is composed of atoms and that atoms of a given element are identical in mass and properties.",
+    "tags": ["atomic theory", "John Dalton", "chemistry"],
+    "options": [
+      {
+        "text": "John Dalton",
+        "isCorrect": true
+      },
+      {
+        "text": "Ernest Rutherford",
+        "isCorrect": false
+      },
+      {
+        "text": "J.J. Thomson",
+        "isCorrect": false
+      },
+      {
+        "text": "Niels Bohr",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2019,
+    "question": "Who is credited with the discovery of oxygen?",
+    "slug": "who-is-credited-with-the-discovery-of-oxygen",
+    "explanation": "Joseph Priestley is credited with the discovery of oxygen in 1774, although Carl Wilhelm Scheele also discovered it independently around the same time.",
+    "tags": ["oxygen", "discovery", "Joseph Priestley"],
+    "options": [
+      {
+        "text": "Joseph Priestley",
+        "isCorrect": true
+      },
+      {
+        "text": "Carl Wilhelm Scheele",
+        "isCorrect": false
+      },
+      {
+        "text": "Antoine Lavoisier",
+        "isCorrect": false
+      },
+      {
+        "text": "Henry Cavendish",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2020,
+    "question": "Who invented the first practical battery?",
+    "slug": "who-invented-the-first-practical-battery",
+    "explanation": "Alessandro Volta invented the first practical battery in 1800, known as the voltaic pile, which produced a steady electric current.",
+    "tags": ["battery", "invention", "electricity"],
+    "options": [
+      {
+        "text": "Alessandro Volta",
+        "isCorrect": true
+      },
+      {
+        "text": "Benjamin Franklin",
+        "isCorrect": false
+      },
+      {
+        "text": "Michael Faraday",
+        "isCorrect": false
+      },
+      {
+        "text": "Thomas Edison",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2021,
+    "question": "Who discovered the electron?",
+    "slug": "who-discovered-the-electron",
+    "explanation": "J.J. Thomson is credited with the discovery of the electron in 1897 through his work with cathode rays.",
+    "tags": ["electron", "discovery", "J.J. Thomson"],
+    "options": [
+      {
+        "text": "J.J. Thomson",
+        "isCorrect": true
+      },
+      {
+        "text": "Ernest Rutherford",
+        "isCorrect": false
+      },
+      {
+        "text": "Niels Bohr",
+        "isCorrect": false
+      },
+      {
+        "text": "James Clerk Maxwell",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2022,
+    "question": "Who proposed the theory of acids and bases?",
+    "slug": "who-proposed-the-theory-of-acids-and-bases",
+    "explanation": "The theory of acids and bases was proposed by Johannes Bronsted and Thomas Lowry, who defined acids as proton donors and bases as proton acceptors.",
+    "tags": ["acids", "bases", "theory", "Bronsted", "Lowry"],
+    "options": [
+      {
+        "text": "Johannes Bronsted and Thomas Lowry",
+        "isCorrect": true
+      },
+      {
+        "text": "Svante Arrhenius",
+        "isCorrect": false
+      },
+      {
+        "text": "Gilbert N. Lewis",
+        "isCorrect": false
+      },
+      {
+        "text": "Robert Boyle",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2023,
+    "question": "Who discovered the concept of radioactivity?",
+    "slug": "who-discovered-the-concept-of-radioactivity",
+    "explanation": "Marie Curie, along with her husband Pierre Curie, is credited with the discovery of radioactivity, a term she coined.",
+    "tags": ["radioactivity", "Marie Curie", "discovery"],
+    "options": [
+      {
+        "text": "Marie Curie",
+        "isCorrect": true
+      },
+      {
+        "text": "Henri Becquerel",
+        "isCorrect": false
+      },
+      {
+        "text": "Ernest Rutherford",
+        "isCorrect": false
+      },
+      {
+        "text": "Albert Einstein",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2024,
+    "question": "Who created the first synthetic element?",
+    "slug": "who-created-the-first-synthetic-element",
+    "explanation": "Glenn T. Seaborg is credited with creating the first synthetic element, plutonium, in 1940.",
+    "tags": ["synthetic element", "Glenn Seaborg", "plutonium"],
+    "options": [
+      {
+        "text": "Glenn T. Seaborg",
+        "isCorrect": true
+      },
+      {
+        "text": "Marie Curie",
+        "isCorrect": false
+      },
+      {
+        "text": "Enrico Fermi",
+        "isCorrect": false
+      },
+      {
+        "text": "J. Robert Oppenheimer",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2025,
+    "question": "Who is known for his work on the discovery of noble gases?",
+    "slug": "who-is-known-for-his-work-on-the-discovery-of-noble-gases",
+    "explanation": "Lord Rayleigh, along with William Ramsay, discovered noble gases, including argon, in the late 19th century.",
+    "tags": ["noble gases", "Lord Rayleigh", "William Ramsay"],
+    "options": [
+      {
+        "text": "Lord Rayleigh and William Ramsay",
+        "isCorrect": true
+      },
+      {
+        "text": "Dmitri Mendeleev",
+        "isCorrect": false
+      },
+      {
+        "text": "Henry Moseley",
+        "isCorrect": false
+      },
+      {
+        "text": "Marie Curie",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2026,
+    "question": "Who first synthesized organic compounds from inorganic materials?",
+    "slug": "who-first-synthesized-organic-compounds-from-inorganic-materials",
+    "explanation": "Friedrich Wöhler is famous for synthesizing urea, an organic compound, from inorganic substances in 1828.",
+    "tags": ["synthesis", "organic chemistry", "Friedrich Wöhler"],
+    "options": [
+      {
+        "text": "Friedrich Wöhler",
+        "isCorrect": true
+      },
+      {
+        "text": "August Kekulé",
+        "isCorrect": false
+      },
+      {
+        "text": "Dmitri Mendeleev",
+        "isCorrect": false
+      },
+      {
+        "text": "Michael Faraday",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2027,
+    "question": "Who developed the concept of chemical bonding?",
+    "slug": "who-developed-the-concept-of-chemical-bonding",
+    "explanation": "Gilbert N. Lewis and Linus Pauling developed the concept of chemical bonding, particularly covalent and ionic bonds, in the early 20th century.",
+    "tags": ["chemical bonding", "Lewis", "Pauling"],
+    "options": [
+      {
+        "text": "Gilbert N. Lewis and Linus Pauling",
+        "isCorrect": true
+      },
+      {
+        "text": "Ernest Rutherford",
+        "isCorrect": false
+      },
+      {
+        "text": "J.J. Thomson",
+        "isCorrect": false
+      },
+      {
+        "text": "Niels Bohr",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2028,
+    "question": "Who discovered the laws of chemical combination?",
+    "slug": "who-discovered-the-laws-of-chemical-combination",
+    "explanation": "Joseph Proust is credited with discovering the laws of chemical combination, including the law of definite proportions in the early 19th century.",
+    "tags": ["chemical laws", "Joseph Proust", "chemistry"],
+    "options": [
+      {
+        "text": "Joseph Proust",
+        "isCorrect": true
+      },
+      {
+        "text": "John Dalton",
+        "isCorrect": false
+      },
+      {
+        "text": "Robert Boyle",
+        "isCorrect": false
+      },
+      {
+        "text": "Dmitri Mendeleev",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2029,
+    "question": "Who developed the first periodic law?",
+    "slug": "who-developed-the-first-periodic-law",
+    "explanation": "Dmitri Mendeleev is known for developing the first periodic law, which led to the creation of the periodic table of elements.",
+    "tags": ["periodic law", "Mendeleev", "chemistry"],
+    "options": [
+      {
+        "text": "Dmitri Mendeleev",
+        "isCorrect": true
+      },
+      {
+        "text": "Henry Moseley",
+        "isCorrect": false
+      },
+      {
+        "text": "John Dalton",
+        "isCorrect": false
+      },
+      {
+        "text": "Marie Curie",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2030,
+    "question": "Who first identified the chemical structure of benzene?",
+    "slug": "who-first-identified-the-chemical-structure-of-benzene",
+    "explanation": "Friedrich August Kekulé is credited with first identifying the chemical structure of benzene in 1865, proposing a hexagonal ring structure.",
+    "tags": ["benzene", "structure", "Kekulé"],
+    "options": [
+      {
+        "text": "Friedrich August Kekulé",
+        "isCorrect": true
+      },
+      {
+        "text": "August Kekulé",
+        "isCorrect": false
+      },
+      {
+        "text": "Linus Pauling",
+        "isCorrect": false
+      },
+      {
+        "text": "Gilbert N. Lewis",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2031,
+    "question": "Who led the Islamic expansion into Persia?",
+    "slug": "who-led-the-islamic-expansion-into-persia",
+    "explanation": "The Islamic expansion into Persia was led by General Khalid ibn al-Walid, who played a significant role in the Battle of Qadisiyyah and the subsequent conquest of Persia.",
+    "tags": ["Khalid ibn al-Walid", "Islamic expansion", "Persia"],
+    "options": [
+      {
+        "text": "Khalid ibn al-Walid",
+        "isCorrect": true
+      },
+      {
+        "text": "Umar ibn al-Khattab",
+        "isCorrect": false
+      },
+      {
+        "text": "Ali ibn Abi Talib",
+        "isCorrect": false
+      },
+      {
+        "text": "Abu Bakr al-Siddiq",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2032,
+    "question": "Who is the author of 'Pride and Prejudice'?",
+    "slug": "who-is-the-author-of-pride-and-prejudice",
+    "explanation": "'Pride and Prejudice' was written by Jane Austen, first published in 1813. It is one of her most beloved novels.",
+    "tags": ["Pride and Prejudice", "Jane Austen", "novel"],
+    "options": [
+      {
+        "text": "Jane Austen",
+        "isCorrect": true
+      },
+      {
+        "text": "Charlotte Brontë",
+        "isCorrect": false
+      },
+      {
+        "text": "Virginia Woolf",
+        "isCorrect": false
+      },
+      {
+        "text": "Emily Dickinson",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2033,
+    "question": "Who wrote 'The Canterbury Tales'?",
+    "slug": "who-wrote-the-canterbury-tales",
+    "explanation": "'The Canterbury Tales' was written by Geoffrey Chaucer in the late 14th century. It is a collection of stories told by pilgrims on their way to Canterbury.",
+    "tags": ["The Canterbury Tales", "Geoffrey Chaucer", "poetry"],
+    "options": [
+      {
+        "text": "Geoffrey Chaucer",
+        "isCorrect": true
+      },
+      {
+        "text": "William Shakespeare",
+        "isCorrect": false
+      },
+      {
+        "text": "John Milton",
+        "isCorrect": false
+      },
+      {
+        "text": "Edmund Spenser",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2034,
+    "question": "Who is known as the 'Father of English Literature'?",
+    "slug": "who-is-known-as-the-father-of-english-literature",
+    "explanation": "Geoffrey Chaucer is often called the 'Father of English Literature' due to his influential works, particularly 'The Canterbury Tales'.",
+    "tags": ["Father of English Literature", "Geoffrey Chaucer", "literature"],
+    "options": [
+      {
+        "text": "Geoffrey Chaucer",
+        "isCorrect": true
+      },
+      {
+        "text": "William Shakespeare",
+        "isCorrect": false
+      },
+      {
+        "text": "John Milton",
+        "isCorrect": false
+      },
+      {
+        "text": "Edmund Spenser",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2035,
+    "question": "Who wrote 'The Divine Comedy'?",
+    "slug": "who-wrote-the-divine-comedy",
+    "explanation": "'The Divine Comedy' was written by Dante Alighieri in the early 14th century, telling the story of the soul's journey through Hell, Purgatory, and Paradise.",
+    "tags": ["The Divine Comedy", "Dante Alighieri", "epic poem"],
+    "options": [
+      {
+        "text": "Dante Alighieri",
+        "isCorrect": true
+      },
+      {
+        "text": "Geoffrey Chaucer",
+        "isCorrect": false
+      },
+      {
+        "text": "John Milton",
+        "isCorrect": false
+      },
+      {
+        "text": "Virgil",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2036,
+    "question": "Who is famous for the plays 'Hamlet' and 'Macbeth'?",
+    "slug": "who-is-famous-for-the-plays-hamlet-and-macbeth",
+    "explanation": "William Shakespeare is famous for writing the tragedies 'Hamlet' and 'Macbeth', both of which are considered some of his greatest works.",
+    "tags": ["Hamlet", "Macbeth", "Shakespeare", "plays"],
+    "options": [
+      {
+        "text": "William Shakespeare",
+        "isCorrect": true
+      },
+      {
+        "text": "Christopher Marlowe",
+        "isCorrect": false
+      },
+      {
+        "text": "John Milton",
+        "isCorrect": false
+      },
+      {
+        "text": "Ben Jonson",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2037,
+    "question": "Who wrote '1984' and 'Animal Farm'?",
+    "slug": "who-wrote-1984-and-animal-farm",
+    "explanation": "'1984' and 'Animal Farm' were written by George Orwell, whose works often explore themes of totalitarianism and social injustice.",
+    "tags": ["1984", "Animal Farm", "George Orwell", "dystopia"],
+    "options": [
+      {
+        "text": "George Orwell",
+        "isCorrect": true
+      },
+      {
+        "text": "Aldous Huxley",
+        "isCorrect": false
+      },
+      {
+        "text": "Ray Bradbury",
+        "isCorrect": false
+      },
+      {
+        "text": "Kurt Vonnegut",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2038,
+    "question": "Who was the first poet laureate of the United Kingdom?",
+    "slug": "who-was-the-first-poet-laureate-of-the-united-kingdom",
+    "explanation": "John Dryden was appointed as the first poet laureate of the United Kingdom in 1668, a position that honors poets who have made significant contributions to English literature.",
+    "tags": ["poet laureate", "John Dryden", "literature"],
+    "options": [
+      {
+        "text": "John Dryden",
+        "isCorrect": true
+      },
+      {
+        "text": "Alexander Pope",
+        "isCorrect": false
+      },
+      {
+        "text": "William Wordsworth",
+        "isCorrect": false
+      },
+      {
+        "text": "Samuel Taylor Coleridge",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2039,
+    "question": "Who wrote 'A Midsummer Night's Dream'?",
+    "slug": "who-wrote-a-midsummer-nights-dream",
+    "explanation": "'A Midsummer Night's Dream' is a comedy written by William Shakespeare, filled with love, magic, and mistaken identities.",
+    "tags": ["A Midsummer Night's Dream", "Shakespeare", "comedy"],
+    "options": [
+      {
+        "text": "William Shakespeare",
+        "isCorrect": true
+      },
+      {
+        "text": "Christopher Marlowe",
+        "isCorrect": false
+      },
+      {
+        "text": "Ben Jonson",
+        "isCorrect": false
+      },
+      {
+        "text": "John Milton",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2040,
+    "question": "Who wrote 'The Great Gatsby'?",
+    "slug": "who-wrote-the-great-gatsby",
+    "explanation": "'The Great Gatsby' was written by F. Scott Fitzgerald, and is considered a classic work of 20th-century American literature.",
+    "tags": ["The Great Gatsby", "F. Scott Fitzgerald", "novel"],
+    "options": [
+      {
+        "text": "F. Scott Fitzgerald",
+        "isCorrect": true
+      },
+      {
+        "text": "Ernest Hemingway",
+        "isCorrect": false
+      },
+      {
+        "text": "John Steinbeck",
+        "isCorrect": false
+      },
+      {
+        "text": "William Faulkner",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2041,
+    "question": "Who is considered the greatest writer in the English language?",
+    "slug": "who-is-considered-the-greatest-writer-in-the-english-language",
+    "explanation": "William Shakespeare is often regarded as the greatest writer in the English language due to his influential plays, poetry, and his contribution to the English lexicon.",
+    "tags": ["Shakespeare", "English literature", "greatest writer"],
+    "options": [
+      {
+        "text": "William Shakespeare",
+        "isCorrect": true
+      },
+      {
+        "text": "Charles Dickens",
+        "isCorrect": false
+      },
+      {
+        "text": "Geoffrey Chaucer",
+        "isCorrect": false
+      },
+      {
+        "text": "John Milton",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2042,
+    "question": "Who was the first woman to write a science fiction novel?",
+    "slug": "who-was-the-first-woman-to-write-a-science-fiction-novel",
+    "explanation": "Mary Shelley is credited as the first woman to write a science fiction novel with her famous work 'Frankenstein', published in 1818.",
+    "tags": ["Mary Shelley", "science fiction", "Frankenstein"],
+    "options": [
+      {
+        "text": "Mary Shelley",
+        "isCorrect": true
+      },
+      {
+        "text": "Margaret Cavendish",
+        "isCorrect": false
+      },
+      {
+        "text": "Jane Austen",
+        "isCorrect": false
+      },
+      {
+        "text": "Charlotte Perkins Gilman",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2043,
+    "question": "Who is known for his metaphysical poetry?",
+    "slug": "who-is-known-for-his-metaphysical-poetry",
+    "explanation": "John Donne is known for his metaphysical poetry, a style characterized by complex metaphors and themes of love, religion, and morality.",
+    "tags": ["John Donne", "metaphysical poetry", "poetry"],
+    "options": [
+      {
+        "text": "John Donne",
+        "isCorrect": true
+      },
+      {
+        "text": "William Blake",
+        "isCorrect": false
+      },
+      {
+        "text": "Andrew Marvell",
+        "isCorrect": false
+      },
+      {
+        "text": "Samuel Taylor Coleridge",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2044,
+    "question": "Who wrote 'Moby Dick'?",
+    "slug": "who-wrote-moby-dick",
+    "explanation": "'Moby Dick' was written by Herman Melville and is considered a classic American novel, exploring themes of obsession, revenge, and the natural world.",
+    "tags": ["Moby Dick", "Herman Melville", "novel"],
+    "options": [
+      {
+        "text": "Herman Melville",
+        "isCorrect": true
+      },
+      {
+        "text": "Nathaniel Hawthorne",
+        "isCorrect": false
+      },
+      {
+        "text": "Mark Twain",
+        "isCorrect": false
+      },
+      {
+        "text": "Edgar Allan Poe",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2045,
+    "question": "Who is known for writing 'Wuthering Heights'?",
+    "slug": "who-is-known-for-writing-wuthering-heights",
+    "explanation": "'Wuthering Heights' was written by Emily Brontë and is considered one of the greatest works of English literature, known for its intense and tragic love story.",
+    "tags": ["Wuthering Heights", "Emily Brontë", "novel"],
+    "options": [
+      {
+        "text": "Emily Brontë",
+        "isCorrect": true
+      },
+      {
+        "text": "Charlotte Brontë",
+        "isCorrect": false
+      },
+      {
+        "text": "Jane Austen",
+        "isCorrect": false
+      },
+      {
+        "text": "Virginia Woolf",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2046,
+    "question": "Who is known for his contributions to Islamic medicine?",
+    "slug": "who-is-known-for-his-contributions-to-islamic-medicine",
+    "explanation": "Ibn Sina (Avicenna) is known for his contributions to Islamic medicine. His work 'The Canon of Medicine' was a significant text in both the Islamic and European medical traditions.",
+    "tags": ["Ibn Sina", "Islamic medicine", "contributions"],
+    "options": [
+      {
+        "text": "Ibn Sina",
+        "isCorrect": true
+      },
+      {
+        "text": "Al-Razi",
+        "isCorrect": false
+      },
+      {
+        "text": "Ibn Khaldun",
+        "isCorrect": false
+      },
+      {
+        "text": "Al-Biruni",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2047,
+    "question": "Who was the first Prime Minister of Pakistan?",
+    "slug": "who-was-the-first-prime-minister-of-pakistan",
+    "explanation": "Liaquat Ali Khan was the first Prime Minister of Pakistan, serving from 1947 until his assassination in 1951.",
+    "tags": ["first Prime Minister", "Liaquat Ali Khan", "Pakistan"],
+    "options": [
+      {
+        "text": "Liaquat Ali Khan",
+        "isCorrect": true
+      },
+      {
+        "text": "Muhammad Ali Jinnah",
+        "isCorrect": false
+      },
+      {
+        "text": "Zulfikar Ali Bhutto",
+        "isCorrect": false
+      },
+      {
+        "text": "Benazir Bhutto",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2048,
+    "question": "Who is known as the 'Quaid-e-Azam'?",
+    "slug": "who-is-known-as-the-quaid-e-azam",
+    "explanation": "Muhammad Ali Jinnah is known as the 'Quaid-e-Azam' (Great Leader) for his pivotal role in the creation of Pakistan.",
+    "tags": ["Quaid-e-Azam", "Muhammad Ali Jinnah", "Pakistan"],
+    "options": [
+      {
+        "text": "Muhammad Ali Jinnah",
+        "isCorrect": true
+      },
+      {
+        "text": "Liaquat Ali Khan",
+        "isCorrect": false
+      },
+      {
+        "text": "Zulfikar Ali Bhutto",
+        "isCorrect": false
+      },
+      {
+        "text": "Benazir Bhutto",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2049,
+    "question": "Who led the Pakistan Movement for independence?",
+    "slug": "who-led-the-pakistan-movement-for-independence",
+    "explanation": "The Pakistan Movement for independence was led by Muhammad Ali Jinnah, who advocated for the creation of a separate nation for Muslims of the Indian subcontinent.",
+    "tags": ["Pakistan Movement", "Muhammad Ali Jinnah", "independence"],
+    "options": [
+      {
+        "text": "Muhammad Ali Jinnah",
+        "isCorrect": true
+      },
+      {
+        "text": "Liaquat Ali Khan",
+        "isCorrect": false
+      },
+      {
+        "text": "Allama Iqbal",
+        "isCorrect": false
+      },
+      {
+        "text": "Zulfikar Ali Bhutto",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2050,
+    "question": "Who was the first to establish a system of Islamic universities?",
+    "slug": "who-was-the-first-to-establish-a-system-of-islamic-universities",
+    "explanation": "The first to establish a system of Islamic universities was the Fatimid Caliph Al-Hakim bi-Amr Allah. He founded Al-Azhar University in Cairo, which remains one of the oldest and most prestigious Islamic universities in the world.",
+    "tags": ["Al-Hakim bi-Amr Allah", "Islamic universities", "Al-Azhar"],
+    "options": [
+      {
+        "text": "Al-Hakim bi-Amr Allah",
+        "isCorrect": true
+      },
+      {
+        "text": "Al-Mahdi Billah",
+        "isCorrect": false
+      },
+      {
+        "text": "Umar ibn al-Khattab",
+        "isCorrect": false
+      },
+      {
+        "text": "Imam Bukhari",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2051,
+    "question": "Who was the first woman Prime Minister of Pakistan?",
+    "slug": "who-was-the-first-woman-prime-minister-of-pakistan",
+    "explanation": "Benazir Bhutto was the first woman Prime Minister of Pakistan, serving two non-consecutive terms from 1988 to 1990 and 1993 to 1996.",
+    "tags": ["first woman Prime Minister", "Benazir Bhutto", "Pakistan"],
+    "options": [
+      {
+        "text": "Benazir Bhutto",
+        "isCorrect": true
+      },
+      {
+        "text": "Fatima Jinnah",
+        "isCorrect": false
+      },
+      {
+        "text": "Khadija Aziz",
+        "isCorrect": false
+      },
+      {
+        "text": "Hina Rabbani Khar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2052,
+    "question": "Who was the first governor-general of Pakistan?",
+    "slug": "who-was-the-first-governor-general-of-pakistan",
+    "explanation": "Quaid-e-Azam Muhammad Ali Jinnah was the first Governor-General of Pakistan, holding the position from 1947 until his death in 1948.",
+    "tags": ["first governor-general", "Muhammad Ali Jinnah", "Pakistan"],
+    "options": [
+      {
+        "text": "Muhammad Ali Jinnah",
+        "isCorrect": true
+      },
+      {
+        "text": "Liaquat Ali Khan",
+        "isCorrect": false
+      },
+      {
+        "text": "Iskander Mirza",
+        "isCorrect": false
+      },
+      {
+        "text": "Ghulam Mohammad",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2053,
+    "question": "Who were the key figures in the All India Muslim League?",
+    "slug": "who-were-the-key-figures-in-the-all-india-muslim-league",
+    "explanation": "Key figures in the All India Muslim League included Muhammad Ali Jinnah, Allama Iqbal, Liaquat Ali Khan, and Nawabzada Liaquat Ali Khan.",
+    "tags": [
+      "All India Muslim League",
+      "Muhammad Ali Jinnah",
+      "Indian history"
+    ],
+    "options": [
+      {
+        "text": "Muhammad Ali Jinnah",
+        "isCorrect": true
+      },
+      {
+        "text": "Liaquat Ali Khan",
+        "isCorrect": true
+      },
+      {
+        "text": "Allama Iqbal",
+        "isCorrect": true
+      },
+      {
+        "text": "Mahatma Gandhi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2054,
+    "question": "Who was the first chief justice of Pakistan?",
+    "slug": "who-was-the-first-chief-justice-of-pakistan",
+    "explanation": "The first Chief Justice of Pakistan was Mian Abdur Rashid, who held the position from 1947 to 1954.",
+    "tags": ["first chief justice", "Mian Abdur Rashid", "Pakistan"],
+    "options": [
+      {
+        "text": "Mian Abdur Rashid",
+        "isCorrect": true
+      },
+      {
+        "text": "Iftikhar Muhammad Chaudhry",
+        "isCorrect": false
+      },
+      {
+        "text": "Aftab Hussain Malik",
+        "isCorrect": false
+      },
+      {
+        "text": "Rana Bhagwandas",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2055,
+    "question": "Who led the Pakistan Army during the 1965 war?",
+    "slug": "who-led-the-pakistan-army-during-the-1965-war",
+    "explanation": "General Ayub Khan led the Pakistan Army during the 1965 war with India, which is known as the Indo-Pakistani War of 1965.",
+    "tags": ["1965 war", "Pakistan Army", "General Ayub Khan"],
+    "options": [
+      {
+        "text": "General Ayub Khan",
+        "isCorrect": true
+      },
+      {
+        "text": "General Yahya Khan",
+        "isCorrect": false
+      },
+      {
+        "text": "General Zia-ul-Haq",
+        "isCorrect": false
+      },
+      {
+        "text": "General Pervez Musharraf",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2056,
+    "question": "Who was the first Pakistani Nobel laureate?",
+    "slug": "who-was-the-first-pakistani-nobel-laureate",
+    "explanation": "The first Pakistani Nobel laureate was Dr. Abdus Salam, who won the Nobel Prize in Physics in 1979 for his contribution to electroweak unification.",
+    "tags": ["Nobel laureate", "Abdus Salam", "Pakistan"],
+    "options": [
+      {
+        "text": "Dr. Abdus Salam",
+        "isCorrect": true
+      },
+      {
+        "text": "Dr. Abdul Qadeer Khan",
+        "isCorrect": false
+      },
+      {
+        "text": "Malala Yousafzai",
+        "isCorrect": false
+      },
+      {
+        "text": "Imran Khan",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2057,
+    "question": "Who wrote the national anthem of Pakistan?",
+    "slug": "who-wrote-the-national-anthem-of-pakistan",
+    "explanation": "The national anthem of Pakistan was written by Hafeez Jalandhari, and the music was composed by Ahmed Ghulamali Chagla.",
+    "tags": ["national anthem", "Hafeez Jalandhari", "Pakistan"],
+    "options": [
+      {
+        "text": "Hafeez Jalandhari",
+        "isCorrect": true
+      },
+      {
+        "text": "Allama Iqbal",
+        "isCorrect": false
+      },
+      {
+        "text": "Faiz Ahmed Faiz",
+        "isCorrect": false
+      },
+      {
+        "text": "Nusrat Fateh Ali Khan",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2058,
+    "question": "Who was the first person to fly in the Pakistan Air Force?",
+    "slug": "who-was-the-first-person-to-fly-in-the-pakistan-air-force",
+    "explanation": "Group Captain Cecil Chaudhry was one of the first persons to fly in the Pakistan Air Force and is known for his significant contributions during the 1965 war.",
+    "tags": ["Pakistan Air Force", "Cecil Chaudhry", "aviation"],
+    "options": [
+      {
+        "text": "Group Captain Cecil Chaudhry",
+        "isCorrect": true
+      },
+      {
+        "text": "Air Marshal Asghar Khan",
+        "isCorrect": false
+      },
+      {
+        "text": "Air Commodore M.M. Alam",
+        "isCorrect": false
+      },
+      {
+        "text": "Wing Commander Imtiaz Bhatti",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2059,
+    "question": "Who played a key role in the creation of the Kashmir issue?",
+    "slug": "who-played-a-key-role-in-the-creation-of-the-kashmir-issue",
+    "explanation": "The Kashmir issue was initially caused by the partition of India in 1947, and key figures like Maharaja Hari Singh, Jawaharlal Nehru, and Muhammad Ali Jinnah played significant roles in its creation.",
+    "tags": ["Kashmir issue", "partition of India", "Jawaharlal Nehru"],
+    "options": [
+      {
+        "text": "Maharaja Hari Singh",
+        "isCorrect": true
+      },
+      {
+        "text": "Jawaharlal Nehru",
+        "isCorrect": true
+      },
+      {
+        "text": "Muhammad Ali Jinnah",
+        "isCorrect": true
+      },
+      {
+        "text": "Indira Gandhi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2060,
+    "question": "Who was the first woman to receive the Nishan-e-Haider?",
+    "slug": "who-was-the-first-woman-to-receive-the-nishan-e-haider",
+    "explanation": "The first woman to receive the Nishan-e-Haider, Pakistan's highest military honor, was Pilot Officer Shahana Iqbal in 1971, posthumously awarded for her bravery in the war.",
+    "tags": ["Nishan-e-Haider", "Shahana Iqbal", "military honor"],
+    "options": [
+      {
+        "text": "Pilot Officer Shahana Iqbal",
+        "isCorrect": true
+      },
+      {
+        "text": "Squadron Leader Sarfaraz Ahmed",
+        "isCorrect": false
+      },
+      {
+        "text": "Nazia Iqbal",
+        "isCorrect": false
+      },
+      {
+        "text": "Zehra Shahid",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2061,
+    "question": "Who was the first caliph of Islam?",
+    "slug": "who-was-the-first-caliph-of-islam",
+    "explanation": "The first caliph of Islam was Abu Bakr al-Siddiq, who became the leader of the Muslim community after the death of the Prophet Muhammad.",
+    "tags": ["first caliph", "Abu Bakr", "Islam"],
+    "options": [
+      {
+        "text": "Abu Bakr al-Siddiq",
+        "isCorrect": true
+      },
+      {
+        "text": "Ali ibn Abi Talib",
+        "isCorrect": false
+      },
+      {
+        "text": "Uthman ibn Affan",
+        "isCorrect": false
+      },
+      {
+        "text": "Omar ibn al-Khattab",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2062,
+    "question": "Who is considered the final prophet in Islam?",
+    "slug": "who-is-considered-the-final-prophet-in-islam",
+    "explanation": "Prophet Muhammad is considered the final prophet in Islam, also known as the Seal of the Prophets.",
+    "tags": ["final prophet", "Prophet Muhammad", "Islam"],
+    "options": [
+      {
+        "text": "Prophet Muhammad",
+        "isCorrect": true
+      },
+      {
+        "text": "Prophet Isa (Jesus)",
+        "isCorrect": false
+      },
+      {
+        "text": "Prophet Musa (Moses)",
+        "isCorrect": false
+      },
+      {
+        "text": "Prophet Ibrahim (Abraham)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2063,
+    "question": "Who was the first woman to embrace Islam?",
+    "slug": "who-was-the-first-woman-to-embrace-islam",
+    "explanation": "The first woman to embrace Islam was Khadijah bint Khuwaylid, the wife of Prophet Muhammad.",
+    "tags": ["first woman", "Khadijah", "Islam"],
+    "options": [
+      {
+        "text": "Khadijah bint Khuwaylid",
+        "isCorrect": true
+      },
+      {
+        "text": "Aisha bint Abi Bakr",
+        "isCorrect": false
+      },
+      {
+        "text": "Fatimah bint Muhammad",
+        "isCorrect": false
+      },
+      {
+        "text": "Zaynab bint Jahsh",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2064,
+    "question": "Who was the first person to compile the Quran?",
+    "slug": "who-was-the-first-person-to-compile-the-quran",
+    "explanation": "The first person to compile the Quran into a book was Caliph Abu Bakr al-Siddiq, under the guidance of Zayd ibn Thabit.",
+    "tags": ["compile Quran", "Abu Bakr", "Zayd ibn Thabit", "Islam"],
+    "options": [
+      {
+        "text": "Abu Bakr al-Siddiq",
+        "isCorrect": true
+      },
+      {
+        "text": "Uthman ibn Affan",
+        "isCorrect": false
+      },
+      {
+        "text": "Ali ibn Abi Talib",
+        "isCorrect": false
+      },
+      {
+        "text": "Zayd ibn Thabit",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2065,
+    "question": "Who was the first martyr in Islam?",
+    "slug": "who-was-the-first-martyr-in-islam",
+    "explanation": "The first martyr in Islam was Sumayyah bint Khayyat, who was killed for her faith by the Quraysh during the early years of Islam.",
+    "tags": ["first martyr", "Sumayyah", "Islam"],
+    "options": [
+      {
+        "text": "Sumayyah bint Khayyat",
+        "isCorrect": true
+      },
+      {
+        "text": "Bilal ibn Rabah",
+        "isCorrect": false
+      },
+      {
+        "text": "Umm Salama",
+        "isCorrect": false
+      },
+      {
+        "text": "Abu Bakr al-Siddiq",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2066,
+    "question": "Who was the companion known for his wisdom and knowledge?",
+    "slug": "who-was-the-companion-known-for-his-wisdom-and-knowledge",
+    "explanation": "The companion known for his wisdom and knowledge was Ali ibn Abi Talib, who was not only the cousin but also the son-in-law of Prophet Muhammad.",
+    "tags": ["wisdom", "Ali ibn Abi Talib", "Islam"],
+    "options": [
+      {
+        "text": "Ali ibn Abi Talib",
+        "isCorrect": true
+      },
+      {
+        "text": "Abu Hurairah",
+        "isCorrect": false
+      },
+      {
+        "text": "Abu Bakr al-Siddiq",
+        "isCorrect": false
+      },
+      {
+        "text": "Umar ibn al-Khattab",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2067,
+    "question": "Who wrote the famous book 'Riyadh-as-Saliheen'?",
+    "slug": "who-wrote-the-famous-book-riyadh-as-saliheen",
+    "explanation": "The famous book 'Riyadh-as-Saliheen' was written by Imam Nawawi. It is a compilation of hadiths that serve as a guide to Islamic ethics.",
+    "tags": ["Riyadh-as-Saliheen", "Imam Nawawi", "Islamic books"],
+    "options": [
+      {
+        "text": "Imam Nawawi",
+        "isCorrect": true
+      },
+      {
+        "text": "Imam Malik",
+        "isCorrect": false
+      },
+      {
+        "text": "Imam Bukhari",
+        "isCorrect": false
+      },
+      {
+        "text": "Imam Muslim",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2068,
+    "question": "Who was the first to spread Islam in Spain?",
+    "slug": "who-was-the-first-to-spread-islam-in-spain",
+    "explanation": "The first to spread Islam in Spain was Tariq ibn Ziyad, who led the Muslim conquest of Iberia in 711 AD.",
+    "tags": ["Islam in Spain", "Tariq ibn Ziyad", "conquest of Iberia"],
+    "options": [
+      {
+        "text": "Tariq ibn Ziyad",
+        "isCorrect": true
+      },
+      {
+        "text": "Abu Bakr al-Siddiq",
+        "isCorrect": false
+      },
+      {
+        "text": "Umar ibn al-Khattab",
+        "isCorrect": false
+      },
+      {
+        "text": "Al-Mansur",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2069,
+    "question": "Who is known as the father of Islamic jurisprudence?",
+    "slug": "who-is-known-as-the-father-of-islamic-jurisprudence",
+    "explanation": "Imam Abu Hanifa is known as the father of Islamic jurisprudence for his contributions to the development of Islamic law.",
+    "tags": ["father of jurisprudence", "Imam Abu Hanifa", "Islamic law"],
+    "options": [
+      {
+        "text": "Imam Abu Hanifa",
+        "isCorrect": true
+      },
+      {
+        "text": "Imam Malik",
+        "isCorrect": false
+      },
+      {
+        "text": "Imam Shafi'i",
+        "isCorrect": false
+      },
+      {
+        "text": "Imam Ahmad ibn Hanbal",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2070,
+    "question": "Who was the founder of the Umayyad dynasty?",
+    "slug": "who-was-the-founder-of-the-umayyad-dynasty",
+    "explanation": "The founder of the Umayyad dynasty was Muawiya ibn Abi Sufyan, who became the first caliph of the Umayyad Caliphate.",
+    "tags": ["Umayyad dynasty", "Muawiya ibn Abi Sufyan", "Islamic history"],
+    "options": [
+      {
+        "text": "Muawiya ibn Abi Sufyan",
+        "isCorrect": true
+      },
+      {
+        "text": "Abu Bakr al-Siddiq",
+        "isCorrect": false
+      },
+      {
+        "text": "Umar ibn al-Khattab",
+        "isCorrect": false
+      },
+      {
+        "text": "Ali ibn Abi Talib",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2071,
+    "question": "Who was the first Muslim ruler of India?",
+    "slug": "who-was-the-first-muslim-ruler-of-india",
+    "explanation": "The first Muslim ruler of India was Muhammad Ghori, who established the Delhi Sultanate in 1192 AD.",
+    "tags": ["first Muslim ruler", "Muhammad Ghori", "Delhi Sultanate"],
+    "options": [
+      {
+        "text": "Muhammad Ghori",
+        "isCorrect": true
+      },
+      {
+        "text": "Qutb-ud-Din Aibak",
+        "isCorrect": false
+      },
+      {
+        "text": "Babar",
+        "isCorrect": false
+      },
+      {
+        "text": "Aurangzeb",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2072,
+    "question": "Who is known for his contributions to Islamic science and mathematics?",
+    "slug": "who-is-known-for-his-contributions-to-islamic-science-and-mathematics",
+    "explanation": "Al-Khwarizmi is known for his contributions to Islamic science and mathematics, particularly in algebra and the development of algorithms.",
+    "tags": ["Islamic science", "Al-Khwarizmi", "mathematics"],
+    "options": [
+      {
+        "text": "Al-Khwarizmi",
+        "isCorrect": true
+      },
+      {
+        "text": "Avicenna",
+        "isCorrect": false
+      },
+      {
+        "text": "Al-Razi",
+        "isCorrect": false
+      },
+      {
+        "text": "Ibn al-Haytham",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2073,
+    "question": "Who was the last prophet in Islam?",
+    "slug": "who-was-the-last-prophet-in-islam",
+    "explanation": "Prophet Muhammad is considered the last prophet in Islam, and he is known as the Seal of the Prophets.",
+    "tags": ["last prophet", "Prophet Muhammad", "Islam"],
+    "options": [
+      {
+        "text": "Prophet Muhammad",
+        "isCorrect": true
+      },
+      {
+        "text": "Prophet Isa (Jesus)",
+        "isCorrect": false
+      },
+      {
+        "text": "Prophet Musa (Moses)",
+        "isCorrect": false
+      },
+      {
+        "text": "Prophet Ibrahim (Abraham)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2074,
+    "question": "Who established the Abbasid dynasty?",
+    "slug": "who-established-the-abbasid-dynasty",
+    "explanation": "The Abbasid dynasty was established by Abu Muslim and Abbas ibn Abd al-Muttalib in 750 AD.",
+    "tags": ["Abbasid dynasty", "Abu Muslim", "Islamic history"],
+    "options": [
+      {
+        "text": "Abu Muslim",
+        "isCorrect": true
+      },
+      {
+        "text": "Muawiya ibn Abi Sufyan",
+        "isCorrect": false
+      },
+      {
+        "text": "Ali ibn Abi Talib",
+        "isCorrect": false
+      },
+      {
+        "text": "Umar ibn al-Khattab",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2075,
+    "question": "Who was the first to translate the Quran into English?",
+    "slug": "who-was-the-first-to-translate-the-quran-into-english",
+    "explanation": "The first person to translate the Quran into English was Muhammad Marmaduke Pickthall, in 1930.",
+    "tags": ["Quran translation", "Marmaduke Pickthall", "Islam"],
+    "options": [
+      {
+        "text": "Muhammad Marmaduke Pickthall",
+        "isCorrect": true
+      },
+      {
+        "text": "Yusuf Ali",
+        "isCorrect": false
+      },
+      {
+        "text": "Richard Bell",
+        "isCorrect": false
+      },
+      {
+        "text": "George Sale",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2076,
+    "question": "Who discovered the law of independent assortment in genetics?",
+    "slug": "who-discovered-the-law-of-independent-assortment-in-genetics",
+    "explanation": "Gregor Mendel discovered the law of independent assortment, which states that genes for different traits are inherited independently of each other.",
+    "tags": ["genetics", "Mendel", "independent assortment"],
+    "options": [
+      {
+        "text": "Gregor Mendel",
+        "isCorrect": true
+      },
+      {
+        "text": "Charles Darwin",
+        "isCorrect": false
+      },
+      {
+        "text": "Thomas Hunt Morgan",
+        "isCorrect": false
+      },
+      {
+        "text": "Louis Pasteur",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2077,
+    "question": "Who is known for the discovery of insulin?",
+    "slug": "who-is-known-for-the-discovery-of-insulin",
+    "explanation": "Frederick Banting and Charles Best are credited with the discovery of insulin in 1921, revolutionizing the treatment of diabetes.",
+    "tags": ["insulin", "Frederick Banting", "Charles Best"],
+    "options": [
+      {
+        "text": "Frederick Banting",
+        "isCorrect": true
+      },
+      {
+        "text": "Charles Best",
+        "isCorrect": true
+      },
+      {
+        "text": "Alexis Thérèse Petit",
+        "isCorrect": false
+      },
+      {
+        "text": "Joseph Lister",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2078,
+    "question": "Who introduced the concept of the species concept?",
+    "slug": "who-introduced-the-concept-of-the-species-concept",
+    "explanation": "The concept of species as distinct entities was formalized by Carl Linnaeus, who developed the binomial nomenclature system for naming species.",
+    "tags": ["species concept", "Carl Linnaeus", "taxonomy"],
+    "options": [
+      {
+        "text": "Carl Linnaeus",
+        "isCorrect": true
+      },
+      {
+        "text": "Charles Darwin",
+        "isCorrect": false
+      },
+      {
+        "text": "Gregor Mendel",
+        "isCorrect": false
+      },
+      {
+        "text": "Jean-Baptiste Lamarck",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2079,
+    "question": "Who is considered the father of embryology?",
+    "slug": "who-is-considered-the-father-of-embryology",
+    "explanation": "Aristotle is often considered the father of embryology due to his work on the development of embryos in various species.",
+    "tags": ["embryology", "Aristotle", "science"],
+    "options": [
+      {
+        "text": "Aristotle",
+        "isCorrect": true
+      },
+      {
+        "text": "René Descartes",
+        "isCorrect": false
+      },
+      {
+        "text": "William Harvey",
+        "isCorrect": false
+      },
+      {
+        "text": "Gregor Mendel",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2080,
+    "question": "Who was the first to describe the process of mitosis?",
+    "slug": "who-was-the-first-to-describe-the-process-of-mitosis",
+    "explanation": "The process of mitosis was first described by Walther Flemming in 1879.",
+    "tags": ["mitosis", "Walther Flemming", "cell biology"],
+    "options": [
+      {
+        "text": "Walther Flemming",
+        "isCorrect": true
+      },
+      {
+        "text": "Gregor Mendel",
+        "isCorrect": false
+      },
+      {
+        "text": "Robert Hooke",
+        "isCorrect": false
+      },
+      {
+        "text": "Charles Darwin",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2081,
+    "question": "Who discovered the lymphatic system?",
+    "slug": "who-discovered-the-lymphatic-system",
+    "explanation": "The lymphatic system was discovered by Thomas Bartholin, a Danish physician, in 1652.",
+    "tags": ["lymphatic system", "Thomas Bartholin", "biology"],
+    "options": [
+      {
+        "text": "Thomas Bartholin",
+        "isCorrect": true
+      },
+      {
+        "text": "Hippocrates",
+        "isCorrect": false
+      },
+      {
+        "text": "William Harvey",
+        "isCorrect": false
+      },
+      {
+        "text": "Andreas Vesalius",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2082,
+    "question": "Who proposed the theory of inheritance of acquired characteristics?",
+    "slug": "who-proposed-the-theory-of-inheritance-of-acquired-characteristics",
+    "explanation": "Jean-Baptiste Lamarck proposed the theory of inheritance of acquired characteristics, suggesting that traits acquired during an organism's lifetime can be passed down to its offspring.",
+    "tags": ["Lamarck", "inheritance", "evolution"],
+    "options": [
+      {
+        "text": "Jean-Baptiste Lamarck",
+        "isCorrect": true
+      },
+      {
+        "text": "Charles Darwin",
+        "isCorrect": false
+      },
+      {
+        "text": "Gregor Mendel",
+        "isCorrect": false
+      },
+      {
+        "text": "Alfred Russel Wallace",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2083,
+    "question": "Who first observed the process of cell division?",
+    "slug": "who-first-observed-the-process-of-cell-division",
+    "explanation": "The process of cell division was first observed by Robert Hooke in 1665, but it was later fully described by Walther Flemming in the 19th century.",
+    "tags": ["cell division", "Robert Hooke", "Walther Flemming"],
+    "options": [
+      {
+        "text": "Robert Hooke",
+        "isCorrect": false
+      },
+      {
+        "text": "Walther Flemming",
+        "isCorrect": true
+      },
+      {
+        "text": "Gregor Mendel",
+        "isCorrect": false
+      },
+      {
+        "text": "Louis Pasteur",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2084,
+    "question": "Who introduced the concept of the central dogma in molecular biology?",
+    "slug": "who-introduced-the-concept-of-the-central-dogma-in-molecular-biology",
+    "explanation": "The concept of the central dogma in molecular biology was introduced by Francis Crick in 1958, describing the flow of genetic information from DNA to RNA to protein.",
+    "tags": ["central dogma", "Francis Crick", "molecular biology"],
+    "options": [
+      {
+        "text": "Francis Crick",
+        "isCorrect": true
+      },
+      {
+        "text": "James Watson",
+        "isCorrect": false
+      },
+      {
+        "text": "Charles Darwin",
+        "isCorrect": false
+      },
+      {
+        "text": "Gregor Mendel",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2085,
+    "question": "Who was the first to propose the idea of spontaneous generation?",
+    "slug": "who-was-the-first-to-propose-the-idea-of-spontaneous-generation",
+    "explanation": "The idea of spontaneous generation, the belief that living organisms could arise from non-living matter, was proposed by Aristotle in ancient Greece.",
+    "tags": ["spontaneous generation", "Aristotle", "biology"],
+    "options": [
+      {
+        "text": "Aristotle",
+        "isCorrect": true
+      },
+      {
+        "text": "Louis Pasteur",
+        "isCorrect": false
+      },
+      {
+        "text": "Francesco Redi",
+        "isCorrect": false
+      },
+      {
+        "text": "Anton van Leeuwenhoek",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2086,
+    "question": "Who discovered the law of segregation in genetics?",
+    "slug": "who-discovered-the-law-of-segregation-in-genetics",
+    "explanation": "The law of segregation, which states that alleles separate during gamete formation, was discovered by Gregor Mendel.",
+    "tags": ["law of segregation", "Gregor Mendel", "genetics"],
+    "options": [
+      {
+        "text": "Gregor Mendel",
+        "isCorrect": true
+      },
+      {
+        "text": "Charles Darwin",
+        "isCorrect": false
+      },
+      {
+        "text": "Thomas Hunt Morgan",
+        "isCorrect": false
+      },
+      {
+        "text": "Jean-Baptiste Lamarck",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2087,
+    "question": "Who is famous for studying the inheritance of traits in pea plants?",
+    "slug": "who-is-famous-for-studying-the-inheritance-of-traits-in-pea-plants",
+    "explanation": "Gregor Mendel is famous for studying the inheritance of traits in pea plants, leading to the discovery of the basic principles of heredity.",
+    "tags": ["pea plants", "Gregor Mendel", "genetics"],
+    "options": [
+      {
+        "text": "Gregor Mendel",
+        "isCorrect": true
+      },
+      {
+        "text": "Charles Darwin",
+        "isCorrect": false
+      },
+      {
+        "text": "Thomas Hunt Morgan",
+        "isCorrect": false
+      },
+      {
+        "text": "Alfred Russel Wallace",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2088,
+    "question": "Who discovered that genes are located on chromosomes?",
+    "slug": "who-discovered-that-genes-are-located-on-chromosomes",
+    "explanation": "The discovery that genes are located on chromosomes was made by Thomas Hunt Morgan through his work on fruit flies.",
+    "tags": ["genes", "chromosomes", "Thomas Hunt Morgan"],
+    "options": [
+      {
+        "text": "Thomas Hunt Morgan",
+        "isCorrect": true
+      },
+      {
+        "text": "Gregor Mendel",
+        "isCorrect": false
+      },
+      {
+        "text": "Erwin Chargaff",
+        "isCorrect": false
+      },
+      {
+        "text": "Watson and Crick",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2089,
+    "question": "Who is known for his research on the immune system and vaccines?",
+    "slug": "who-is-known-for-his-research-on-the-immune-system-and-vaccines",
+    "explanation": "Louis Pasteur is known for his groundbreaking research on the immune system and the development of vaccines, including those for rabies and anthrax.",
+    "tags": ["immune system", "Louis Pasteur", "vaccines"],
+    "options": [
+      {
+        "text": "Louis Pasteur",
+        "isCorrect": true
+      },
+      {
+        "text": "Edward Jenner",
+        "isCorrect": false
+      },
+      {
+        "text": "Jonas Salk",
+        "isCorrect": false
+      },
+      {
+        "text": "Albert Calmette",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2090,
+    "question": "Who is credited with the development of the first rabies vaccine?",
+    "slug": "who-is-credited-with-the-development-of-the-first-rabies-vaccine",
+    "explanation": "Louis Pasteur is credited with the development of the first rabies vaccine in 1885, saving countless lives from the fatal disease.",
+    "tags": ["rabies vaccine", "Louis Pasteur", "vaccines"],
+    "options": [
+      {
+        "text": "Louis Pasteur",
+        "isCorrect": true
+      },
+      {
+        "text": "Edward Jenner",
+        "isCorrect": false
+      },
+      {
+        "text": "Jonas Salk",
+        "isCorrect": false
+      },
+      {
+        "text": "Albert Calmette",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2091,
+    "question": "Who discovered the electron's charge-to-mass ratio?",
+    "slug": "who-discovered-the-electrons-charge-to-mass-ratio",
+    "explanation": "The electron's charge-to-mass ratio was discovered by J.J. Thomson in 1897 through his cathode ray tube experiment.",
+    "tags": ["electron", "J.J. Thomson", "charge-to-mass ratio"],
+    "options": [
+      {
+        "text": "J.J. Thomson",
+        "isCorrect": true
+      },
+      {
+        "text": "Ernest Rutherford",
+        "isCorrect": false
+      },
+      {
+        "text": "Niels Bohr",
+        "isCorrect": false
+      },
+      {
+        "text": "James Clerk Maxwell",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2092,
+    "question": "Who is known for the development of the theory of atomic orbitals?",
+    "slug": "who-is-known-for-the-development-of-the-theory-of-atomic-orbitals",
+    "explanation": "The theory of atomic orbitals was developed by Niels Bohr and further refined by Erwin Schrödinger and Werner Heisenberg as part of the quantum mechanical model of the atom.",
+    "tags": ["atomic orbitals", "Niels Bohr", "quantum mechanics"],
+    "options": [
+      {
+        "text": "Niels Bohr",
+        "isCorrect": true
+      },
+      {
+        "text": "Erwin Schrödinger",
+        "isCorrect": false
+      },
+      {
+        "text": "Werner Heisenberg",
+        "isCorrect": false
+      },
+      {
+        "text": "Albert Einstein",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2093,
+    "question": "Who was the first to propose the idea of atomic number?",
+    "slug": "who-was-the-first-to-propose-the-idea-of-atomic-number",
+    "explanation": "The concept of atomic number was first proposed by Henry Moseley in 1913, based on his X-ray spectra experiments.",
+    "tags": ["atomic number", "Henry Moseley", "periodic table"],
+    "options": [
+      {
+        "text": "Henry Moseley",
+        "isCorrect": true
+      },
+      {
+        "text": "Dmitri Mendeleev",
+        "isCorrect": false
+      },
+      {
+        "text": "Ernest Rutherford",
+        "isCorrect": false
+      },
+      {
+        "text": "John Dalton",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2094,
+    "question": "Who discovered that the atom is mostly empty space?",
+    "slug": "who-discovered-that-the-atom-is-mostly-empty-space",
+    "explanation": "The discovery that the atom is mostly empty space was made by Ernest Rutherford through his gold foil experiment in 1909.",
+    "tags": ["atomic structure", "Ernest Rutherford", "gold foil experiment"],
+    "options": [
+      {
+        "text": "Ernest Rutherford",
+        "isCorrect": true
+      },
+      {
+        "text": "J.J. Thomson",
+        "isCorrect": false
+      },
+      {
+        "text": "Niels Bohr",
+        "isCorrect": false
+      },
+      {
+        "text": "John Dalton",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2095,
+    "question": "Who developed the concept of 'molecular weight' in chemistry?",
+    "slug": "who-developed-the-concept-of-molecular-weight-in-chemistry",
+    "explanation": "The concept of molecular weight (molar mass) was developed by Dmitri Mendeleev, who also created the periodic table of elements.",
+    "tags": ["molecular weight", "Dmitri Mendeleev", "chemistry"],
+    "options": [
+      {
+        "text": "Dmitri Mendeleev",
+        "isCorrect": true
+      },
+      {
+        "text": "John Dalton",
+        "isCorrect": false
+      },
+      {
+        "text": "Marie Curie",
+        "isCorrect": false
+      },
+      {
+        "text": "Robert Boyle",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2096,
+    "question": "Who is known for discovering the principle of conservation of mass?",
+    "slug": "who-is-known-for-discovering-the-principle-of-conservation-of-mass",
+    "explanation": "The principle of conservation of mass, which states that mass is neither created nor destroyed in chemical reactions, was discovered by Antoine Lavoisier.",
+    "tags": ["conservation of mass", "Antoine Lavoisier", "chemistry"],
+    "options": [
+      {
+        "text": "Antoine Lavoisier",
+        "isCorrect": true
+      },
+      {
+        "text": "Dmitri Mendeleev",
+        "isCorrect": false
+      },
+      {
+        "text": "Marie Curie",
+        "isCorrect": false
+      },
+      {
+        "text": "Robert Boyle",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2097,
+    "question": "Who invented the periodic law?",
+    "slug": "who-invented-the-periodic-law",
+    "explanation": "The periodic law, which states that the properties of elements are periodic functions of their atomic numbers, was invented by Dmitri Mendeleev.",
+    "tags": ["periodic law", "Dmitri Mendeleev", "periodic table"],
+    "options": [
+      {
+        "text": "Dmitri Mendeleev",
+        "isCorrect": true
+      },
+      {
+        "text": "Henry Moseley",
+        "isCorrect": false
+      },
+      {
+        "text": "John Dalton",
+        "isCorrect": false
+      },
+      {
+        "text": "J.J. Thomson",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2098,
+    "question": "Who discovered the concept of chemical equilibrium?",
+    "slug": "who-discovered-the-concept-of-chemical-equilibrium",
+    "explanation": "The concept of chemical equilibrium, where the rate of the forward reaction equals the rate of the reverse reaction, was introduced by Henri Le Chatelier.",
+    "tags": ["chemical equilibrium", "Henri Le Chatelier", "chemistry"],
+    "options": [
+      {
+        "text": "Henri Le Chatelier",
+        "isCorrect": true
+      },
+      {
+        "text": "Graham's Law",
+        "isCorrect": false
+      },
+      {
+        "text": "Dmitri Mendeleev",
+        "isCorrect": false
+      },
+      {
+        "text": "Robert Boyle",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2099,
+    "question": "Who was the first to identify the proton?",
+    "slug": "who-was-the-first-to-identify-the-proton",
+    "explanation": "The proton was first identified by Ernest Rutherford in 1917 through his experiments on the nature of atomic nuclei.",
+    "tags": ["proton", "Ernest Rutherford", "atomic structure"],
+    "options": [
+      {
+        "text": "Ernest Rutherford",
+        "isCorrect": true
+      },
+      {
+        "text": "J.J. Thomson",
+        "isCorrect": false
+      },
+      {
+        "text": "Niels Bohr",
+        "isCorrect": false
+      },
+      {
+        "text": "James Chadwick",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2100,
+    "question": "Who formulated the laws of electrolysis?",
+    "slug": "who-formulated-the-laws-of-electrolysis",
+    "explanation": "The laws of electrolysis were formulated by Michael Faraday in 1833, which describe the relationship between electric charge and the amount of substance that undergoes a reaction in electrolysis.",
+    "tags": ["laws of electrolysis", "Michael Faraday", "chemistry"],
+    "options": [
+      {
+        "text": "Michael Faraday",
+        "isCorrect": true
+      },
+      {
+        "text": "John Dalton",
+        "isCorrect": false
+      },
+      {
+        "text": "J.J. Thomson",
+        "isCorrect": false
+      },
+      {
+        "text": "Dmitri Mendeleev",
+        "isCorrect": false
+      }
+    ]
+  }
 ]

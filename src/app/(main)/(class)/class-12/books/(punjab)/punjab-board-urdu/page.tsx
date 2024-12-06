@@ -16,7 +16,7 @@ const data = {
     "class 12 urdu book punjab board",
   ],
   canonical: "/class-12/books/punjab-board-urdu/",
-  url: "https://growlearnhub.com/class-12/books/punjab-board-urdu/",
+  url: "https://www.growlearnhub.com/class-12/books/punjab-board-urdu/",
   index: true,
   follow: true,
   fileId_urdu: "1OIiCbYItblJQN0RGgo5Qjv6HSNJXrDQv",

@@ -1,41 +1,47 @@
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import { removeDashAndUppercase } from "@/src/lib/removeDashAndUppercase"
-import React from "react"
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import { removeDashAndUppercase } from "@/src/lib/removeDashAndUppercase";
+import React from "react";
 
 interface McqsBookChapter {
-  chapter: string
-  book: string
+  chapter: string;
+  book: string;
 }
 
 interface PageProps {
   params: Promise<McqsBookChapter>;
 }
 
-let image = "/11th/class_11_mcqs.webp"
+let image = "/11th/class_11_mcqs.webp";
 
 export default async function page({ params }: PageProps) {
   const { book, chapter } = await params;
-  const slug1 = book
-  const slug2 = chapter
+  const slug1 = book;
+  const slug2 = chapter;
   const SlugRemoveDashAndUppercase1 = removeDashAndUppercase(slug1);
   const SlugRemoveDashAndUppercase2 = removeDashAndUppercase(slug2);
 
   return (
-    <SimpleWrapper data={{
-      title: "Class 11 " + SlugRemoveDashAndUppercase1 + " " + SlugRemoveDashAndUppercase2 + " " + "Mcqs",
-      canonical: `/class-11/mcqs/${slug1}/${slug2}`,
-      image: image,
-      url: `https://growlearnhub.com/class-11/mcqs/${slug1}/${slug2}`,
-    }}>
-
-    </SimpleWrapper>
-  )
+    <SimpleWrapper
+      data={{
+        title:
+          "Class 11 " +
+          SlugRemoveDashAndUppercase1 +
+          " " +
+          SlugRemoveDashAndUppercase2 +
+          " " +
+          "Mcqs",
+        canonical: `/class-11/mcqs/${slug1}/${slug2}`,
+        image: image,
+        url: `https://www.growlearnhub.com/class-11/mcqs/${slug1}/${slug2}`,
+      }}
+    ></SimpleWrapper>
+  );
 }
 
 export async function generateMetadata({ params }: PageProps) {
   const { book, chapter } = await params;
-  const slug1 = book
-  const slug2 = chapter
+  const slug1 = book;
+  const slug2 = chapter;
   const SlugRemoveDashAndUppercase1 = removeDashAndUppercase(slug1);
   const SlugRemoveDashAndUppercase2 = removeDashAndUppercase(slug2);
 
@@ -43,9 +49,21 @@ export async function generateMetadata({ params }: PageProps) {
   let canonical = `/class-11/mcqs/${slug1}/${slug2}/`;
 
   try {
-
-    let title = "Class 11 " + SlugRemoveDashAndUppercase1 + " " + SlugRemoveDashAndUppercase2 + " " + "Mcqs";
-    let description = "Class 11" + " " + SlugRemoveDashAndUppercase1 + " " + SlugRemoveDashAndUppercase2 + " " + "MCQs page offering a wide range of practice questions, online tests, and detailed answers for thorough exam preparation.";
+    let title =
+      "Class 11 " +
+      SlugRemoveDashAndUppercase1 +
+      " " +
+      SlugRemoveDashAndUppercase2 +
+      " " +
+      "Mcqs";
+    let description =
+      "Class 11" +
+      " " +
+      SlugRemoveDashAndUppercase1 +
+      " " +
+      SlugRemoveDashAndUppercase2 +
+      " " +
+      "MCQs page offering a wide range of practice questions, online tests, and detailed answers for thorough exam preparation.";
     let keywords = [
       "class 11 biology mcqs",
       "class 11 chemistry mcqs",
@@ -53,7 +71,7 @@ export async function generateMetadata({ params }: PageProps) {
       "class 11 physics mcqs",
       "class 11 history mcqs",
       "class 11 geography mcqs",
-    ]
+    ];
 
     return {
       title: title,
@@ -105,7 +123,8 @@ export async function generateMetadata({ params }: PageProps) {
       openGraph: {
         title: "Error",
         description: "Unable to fetch product data",
-        url: url, images: [
+        url: url,
+        images: [
           {
             url: "/default-error-image.jpg",
             alt: "Error",

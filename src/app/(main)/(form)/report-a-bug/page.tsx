@@ -8,7 +8,7 @@ const data = {
   image: "/single/report_bug.webp",
   keywords: ["growlearnhub", "growlearnhub report bug", "report bug"],
   canonical: "/report-a-bug/",
-  url: "https://growlearnhub.com/report-a-bug/",
+  url: "https://www.growlearnhub.com/report-a-bug/",
   index: true,
   follow: true,
 };

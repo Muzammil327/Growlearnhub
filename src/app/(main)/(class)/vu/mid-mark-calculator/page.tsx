@@ -17,7 +17,7 @@ const data = {
   ],
   image: "/vu/vu_mid_mark_calculator.png",
   canonical: "/vu/mid-mark-calculator/",
-  url: "https://growlearnhub.com/vu/mid-mark-calculator/",
+  url: "https://www.growlearnhub.com/vu/mid-mark-calculator/",
   index: true,
   follow: true,
 };

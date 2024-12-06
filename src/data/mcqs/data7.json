@@ -1,1337 +1,1152 @@
 [
-    {
-        "id": 2101,
-        "question": "Who introduced the concept of acids as proton donors?",
-        "slug": "who-introduced-the-concept-of-acids-as-proton-donors",
-        "explanation": "The concept of acids as proton donors was introduced by Brønsted and Lowry in 1923 as part of their Brønsted-Lowry acid-base theory.",
-        "tags": [
-            "acids",
-            "proton donors",
-            "Brønsted-Lowry"
-        ],
-        "options": [
-            {
-                "text": "Brønsted and Lowry",
-                "isCorrect": true
-            },
-            {
-                "text": "Arrhenius",
-                "isCorrect": false
-            },
-            {
-                "text": "Lewis",
-                "isCorrect": false
-            },
-            {
-                "text": "Lewis Carroll",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2102,
-        "question": "Who discovered the concept of isotopes?",
-        "slug": "who-discovered-the-concept-of-isotopes",
-        "explanation": "The concept of isotopes was discovered by Frederick Soddy in 1912, who found that certain elements had atoms with the same number of protons but different numbers of neutrons.",
-        "tags": [
-            "isotopes",
-            "Frederick Soddy",
-            "chemistry"
-        ],
-        "options": [
-            {
-                "text": "Frederick Soddy",
-                "isCorrect": true
-            },
-            {
-                "text": "Marie Curie",
-                "isCorrect": false
-            },
-            {
-                "text": "Ernest Rutherford",
-                "isCorrect": false
-            },
-            {
-                "text": "John Dalton",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2103,
-        "question": "Who developed the periodic table with 18 columns?",
-        "slug": "who-developed-the-periodic-table-with-18-columns",
-        "explanation": "The periodic table with 18 columns was developed by Glenn T. Seaborg in 1945, extending Mendeleev's table and placing the actinide series below the lanthanide series.",
-        "tags": [
-            "periodic table",
-            "Glenn T. Seaborg",
-            "chemistry"
-        ],
-        "options": [
-            {
-                "text": "Glenn T. Seaborg",
-                "isCorrect": true
-            },
-            {
-                "text": "Dmitri Mendeleev",
-                "isCorrect": false
-            },
-            {
-                "text": "Henry Moseley",
-                "isCorrect": false
-            },
-            {
-                "text": "Marie Curie",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2104,
-        "question": "Who was the first to measure the atomic masses of elements?",
-        "slug": "who-was-the-first-to-measure-the-atomic-masses-of-elements",
-        "explanation": "John Dalton was the first to propose the atomic theory and measure atomic masses of elements in the early 19th century.",
-        "tags": [
-            "atomic masses",
-            "John Dalton",
-            "chemistry"
-        ],
-        "options": [
-            {
-                "text": "John Dalton",
-                "isCorrect": true
-            },
-            {
-                "text": "Dmitri Mendeleev",
-                "isCorrect": false
-            },
-            {
-                "text": "J.J. Thomson",
-                "isCorrect": false
-            },
-            {
-                "text": "Henry Moseley",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2105,
-        "question": "Who proposed the theory of resonance in chemistry?",
-        "slug": "who-proposed-the-theory-of-resonance-in-chemistry",
-        "explanation": "The theory of resonance in chemistry was proposed by Linus Pauling in the 1930s to explain the delocalized electrons in molecules.",
-        "tags": [
-            "resonance",
-            "Linus Pauling",
-            "chemistry"
-        ],
-        "options": [
-            {
-                "text": "Linus Pauling",
-                "isCorrect": true
-            },
-            {
-                "text": "Marie Curie",
-                "isCorrect": false
-            },
-            {
-                "text": "Dmitri Mendeleev",
-                "isCorrect": false
-            },
-            {
-                "text": "Robert Hooke",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2106,
-        "question": "Who is the author of 'The Catcher in the Rye'?",
-        "slug": "who-is-the-author-of-the-catcher-in-the-rye",
-        "explanation": "'The Catcher in the Rye' is a novel written by J.D. Salinger, first published in 1951, which explores themes of adolescence, alienation, and identity.",
-        "tags": [
-            "The Catcher in the Rye",
-            "J.D. Salinger",
-            "literature"
-        ],
-        "options": [
-            {
-                "text": "J.D. Salinger",
-                "isCorrect": true
-            },
-            {
-                "text": "F. Scott Fitzgerald",
-                "isCorrect": false
-            },
-            {
-                "text": "Ernest Hemingway",
-                "isCorrect": false
-            },
-            {
-                "text": "George Orwell",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2107,
-        "question": "Who wrote 'Frankenstein'?",
-        "slug": "who-wrote-frankenstein",
-        "explanation": "'Frankenstein', a novel about a scientist who creates a monster, was written by Mary Shelley and published in 1818.",
-        "tags": [
-            "Frankenstein",
-            "Mary Shelley",
-            "literature"
-        ],
-        "options": [
-            {
-                "text": "Mary Shelley",
-                "isCorrect": true
-            },
-            {
-                "text": "Bram Stoker",
-                "isCorrect": false
-            },
-            {
-                "text": "Charles Dickens",
-                "isCorrect": false
-            },
-            {
-                "text": "Oscar Wilde",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2108,
-        "question": "Who is known for the novel 'Don Quixote'?",
-        "slug": "who-is-known-for-the-novel-don-quixote",
-        "explanation": "'Don Quixote', one of the most important works of literature, was written by Miguel de Cervantes and first published in 1605.",
-        "tags": [
-            "Don Quixote",
-            "Miguel de Cervantes",
-            "literature"
-        ],
-        "options": [
-            {
-                "text": "Miguel de Cervantes",
-                "isCorrect": true
-            },
-            {
-                "text": "William Shakespeare",
-                "isCorrect": false
-            },
-            {
-                "text": "Homer",
-                "isCorrect": false
-            },
-            {
-                "text": "Charles Dickens",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2109,
-        "question": "Who wrote 'The Hobbit'?",
-        "slug": "who-wrote-the-hobbit",
-        "explanation": "'The Hobbit', a fantasy novel about the adventures of Bilbo Baggins, was written by J.R.R. Tolkien and first published in 1937.",
-        "tags": [
-            "The Hobbit",
-            "J.R.R. Tolkien",
-            "literature"
-        ],
-        "options": [
-            {
-                "text": "J.R.R. Tolkien",
-                "isCorrect": true
-            },
-            {
-                "text": "C.S. Lewis",
-                "isCorrect": false
-            },
-            {
-                "text": "J.K. Rowling",
-                "isCorrect": false
-            },
-            {
-                "text": "George R.R. Martin",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2110,
-        "question": "Who is famous for writing 'The Picture of Dorian Gray'?",
-        "slug": "who-is-famous-for-writing-the-picture-of-dorian-gray",
-        "explanation": "'The Picture of Dorian Gray', a philosophical novel about the consequences of vanity, was written by Oscar Wilde and first published in 1890.",
-        "tags": [
-            "The Picture of Dorian Gray",
-            "Oscar Wilde",
-            "literature"
-        ],
-        "options": [
-            {
-                "text": "Oscar Wilde",
-                "isCorrect": true
-            },
-            {
-                "text": "George Orwell",
-                "isCorrect": false
-            },
-            {
-                "text": "Virginia Woolf",
-                "isCorrect": false
-            },
-            {
-                "text": "Charles Dickens",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2111,
-        "question": "Who wrote 'To Kill a Mockingbird'?",
-        "slug": "who-wrote-to-kill-a-mockingbird",
-        "explanation": "'To Kill a Mockingbird' is a novel written by Harper Lee, first published in 1960. It explores themes of racial injustice and moral growth.",
-        "tags": [
-            "To Kill a Mockingbird",
-            "Harper Lee",
-            "literature"
-        ],
-        "options": [
-            {
-                "text": "Harper Lee",
-                "isCorrect": true
-            },
-            {
-                "text": "J.D. Salinger",
-                "isCorrect": false
-            },
-            {
-                "text": "F. Scott Fitzgerald",
-                "isCorrect": false
-            },
-            {
-                "text": "John Steinbeck",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2112,
-        "question": "Who was the first woman to win the Nobel Prize in Literature?",
-        "slug": "who-was-the-first-woman-to-win-the-nobel-prize-in-literature",
-        "explanation": "The first woman to win the Nobel Prize in Literature was Selma Lagerlöf in 1909. She was a Swedish author and poet.",
-        "tags": [
-            "Nobel Prize",
-            "Selma Lagerlöf",
-            "literature"
-        ],
-        "options": [
-            {
-                "text": "Selma Lagerlöf",
-                "isCorrect": true
-            },
-            {
-                "text": "Virginia Woolf",
-                "isCorrect": false
-            },
-            {
-                "text": "Toni Morrison",
-                "isCorrect": false
-            },
-            {
-                "text": "Maya Angelou",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2113,
-        "question": "Who is the author of 'The Chronicles of Narnia' series?",
-        "slug": "who-is-the-author-of-the-chronicles-of-narnia-series",
-        "explanation": "'The Chronicles of Narnia' series was written by C.S. Lewis and consists of seven fantasy novels that have been highly influential in children's literature.",
-        "tags": [
-            "The Chronicles of Narnia",
-            "C.S. Lewis",
-            "literature"
-        ],
-        "options": [
-            {
-                "text": "C.S. Lewis",
-                "isCorrect": true
-            },
-            {
-                "text": "J.R.R. Tolkien",
-                "isCorrect": false
-            },
-            {
-                "text": "J.K. Rowling",
-                "isCorrect": false
-            },
-            {
-                "text": "C.S. Lewis Carroll",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2114,
-        "question": "Who wrote the play 'Othello'?",
-        "slug": "who-wrote-the-play-othello",
-        "explanation": "'Othello' is a tragedy written by William Shakespeare, first performed in 1604. It explores themes of jealousy, betrayal, and racism.",
-        "tags": [
-            "Othello",
-            "William Shakespeare",
-            "literature"
-        ],
-        "options": [
-            {
-                "text": "William Shakespeare",
-                "isCorrect": true
-            },
-            {
-                "text": "Christopher Marlowe",
-                "isCorrect": false
-            },
-            {
-                "text": "Ben Jonson",
-                "isCorrect": false
-            },
-            {
-                "text": "John Milton",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2115,
-        "question": "Who is known for writing 'Dracula'?",
-        "slug": "who-is-known-for-writing-dracula",
-        "explanation": "'Dracula', a novel about the infamous vampire, was written by Bram Stoker and first published in 1897. It has since become a classic of Gothic literature.",
-        "tags": [
-            "Dracula",
-            "Bram Stoker",
-            "literature"
-        ],
-        "options": [
-            {
-                "text": "Bram Stoker",
-                "isCorrect": true
-            },
-            {
-                "text": "Mary Shelley",
-                "isCorrect": false
-            },
-            {
-                "text": "Franz Kafka",
-                "isCorrect": false
-            },
-            {
-                "text": "Oscar Wilde",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2116,
-        "question": "Who wrote 'Brave New World'?",
-        "slug": "who-wrote-brave-new-world",
-        "explanation": "'Brave New World' is a dystopian novel written by Aldous Huxley, first published in 1932. It explores the consequences of a technologically advanced, yet oppressive society.",
-        "tags": [
-            "Brave New World",
-            "Aldous Huxley",
-            "literature"
-        ],
-        "options": [
-            {
-                "text": "Aldous Huxley",
-                "isCorrect": true
-            },
-            {
-                "text": "George Orwell",
-                "isCorrect": false
-            },
-            {
-                "text": "Ray Bradbury",
-                "isCorrect": false
-            },
-            {
-                "text": "H.G. Wells",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2117,
-        "question": "Who is considered the father of modern poetry in English?",
-        "slug": "who-is-considered-the-father-of-modern-poetry-in-english",
-        "explanation": "T.S. Eliot is often considered the father of modern poetry in English, due to his innovations in form and his influence on 20th-century literature.",
-        "tags": [
-            "T.S. Eliot",
-            "modern poetry",
-            "literature"
-        ],
-        "options": [
-            {
-                "text": "T.S. Eliot",
-                "isCorrect": true
-            },
-            {
-                "text": "William Wordsworth",
-                "isCorrect": false
-            },
-            {
-                "text": "W.B. Yeats",
-                "isCorrect": false
-            },
-            {
-                "text": "Ezra Pound",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2118,
-        "question": "Who wrote 'The Raven'?",
-        "slug": "who-wrote-the-raven",
-        "explanation": "'The Raven', a narrative poem about grief and loss, was written by Edgar Allan Poe and first published in 1845.",
-        "tags": [
-            "The Raven",
-            "Edgar Allan Poe",
-            "literature"
-        ],
-        "options": [
-            {
-                "text": "Edgar Allan Poe",
-                "isCorrect": true
-            },
-            {
-                "text": "Nathaniel Hawthorne",
-                "isCorrect": false
-            },
-            {
-                "text": "Walt Whitman",
-                "isCorrect": false
-            },
-            {
-                "text": "Herman Melville",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2119,
-        "question": "Who wrote 'The Adventures of Sherlock Holmes'?",
-        "slug": "who-wrote-the-adventures-of-sherlock-holmes",
-        "explanation": "'The Adventures of Sherlock Holmes' is a collection of short stories written by Sir Arthur Conan Doyle, first published in 1892. The stories feature the famous detective Sherlock Holmes.",
-        "tags": [
-            "Sherlock Holmes",
-            "Sir Arthur Conan Doyle",
-            "literature"
-        ],
-        "options": [
-            {
-                "text": "Sir Arthur Conan Doyle",
-                "isCorrect": true
-            },
-            {
-                "text": "Agatha Christie",
-                "isCorrect": false
-            },
-            {
-                "text": "Edgar Allan Poe",
-                "isCorrect": false
-            },
-            {
-                "text": "G.K. Chesterton",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2120,
-        "question": "Who is the author of 'The Old Man and the Sea'?",
-        "slug": "who-is-the-author-of-the-old-man-and-the-sea",
-        "explanation": "'The Old Man and the Sea', a novel about the struggle between an aging fisherman and a giant marlin, was written by Ernest Hemingway and published in 1952.",
-        "tags": [
-            "The Old Man and the Sea",
-            "Ernest Hemingway",
-            "literature"
-        ],
-        "options": [
-            {
-                "text": "Ernest Hemingway",
-                "isCorrect": true
-            },
-            {
-                "text": "F. Scott Fitzgerald",
-                "isCorrect": false
-            },
-            {
-                "text": "William Faulkner",
-                "isCorrect": false
-            },
-            {
-                "text": "John Steinbeck",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2121,
-        "question": "Who was the first woman to fly an aircraft in Pakistan?",
-        "slug": "who-was-the-first-woman-to-fly-an-aircraft-in-pakistan",
-        "explanation": "The first woman to fly an aircraft in Pakistan was Shukria Khatoon. She achieved this milestone in 1959.",
-        "tags": [
-            "Shukria Khatoon",
-            "aviation",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Shukria Khatoon",
-                "isCorrect": true
-            },
-            {
-                "text": "Benazir Bhutto",
-                "isCorrect": false
-            },
-            {
-                "text": "Fatima Jinnah",
-                "isCorrect": false
-            },
-            {
-                "text": "Begum Rana Liaquat Ali Khan",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2122,
-        "question": "Who is known for his role in the development of Pakistan's nuclear program?",
-        "slug": "who-is-known-for-his-role-in-the-development-of-pakistans-nuclear-program",
-        "explanation": "Dr. Abdul Qadeer Khan is known for his significant role in Pakistan's nuclear program. He is regarded as the father of Pakistan's nuclear bomb.",
-        "tags": [
-            "Abdul Qadeer Khan",
-            "nuclear program",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Dr. Abdul Qadeer Khan",
-                "isCorrect": true
-            },
-            {
-                "text": "Zulfikar Ali Bhutto",
-                "isCorrect": false
-            },
-            {
-                "text": "Pervez Musharraf",
-                "isCorrect": false
-            },
-            {
-                "text": "Benazir Bhutto",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2123,
-        "question": "Who was the first governor of Sindh after the creation of Pakistan?",
-        "slug": "who-was-the-first-governor-of-sindh-after-the-creation-of-pakistan",
-        "explanation": "The first governor of Sindh after the creation of Pakistan was Ghulam Hussain Hidayatullah, who served from 1947 to 1948.",
-        "tags": [
-            "Ghulam Hussain Hidayatullah",
-            "Sindh",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Ghulam Hussain Hidayatullah",
-                "isCorrect": true
-            },
-            {
-                "text": "Ibrahim Ismail Chundrigar",
-                "isCorrect": false
-            },
-            {
-                "text": "Ghulam Mohammad Sadiq",
-                "isCorrect": false
-            },
-            {
-                "text": "Khan Abdul Ghaffar Khan",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2124,
-        "question": "Who led Pakistan during the 1971 war?",
-        "slug": "who-led-pakistan-during-the-1971-war",
-        "explanation": "During the 1971 war, also known as the Bangladesh Liberation War, Pakistan was led by President Yahya Khan and Prime Minister Zulfikar Ali Bhutto.",
-        "tags": [
-            "Yahya Khan",
-            "Zulfikar Ali Bhutto",
-            "1971 War",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Yahya Khan",
-                "isCorrect": true
-            },
-            {
-                "text": "Zulfikar Ali Bhutto",
-                "isCorrect": true
-            },
-            {
-                "text": "Pervez Musharraf",
-                "isCorrect": false
-            },
-            {
-                "text": "Benazir Bhutto",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2125,
-        "question": "Who was Pakistan’s first foreign minister?",
-        "slug": "who-was-pakistans-first-foreign-minister",
-        "explanation": "Pakistan's first foreign minister was Sir Zafrullah Khan, who served from 1947 to 1954.",
-        "tags": [
-            "Zafrullah Khan",
-            "foreign minister",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Sir Zafrullah Khan",
-                "isCorrect": true
-            },
-            {
-                "text": "Liaquat Ali Khan",
-                "isCorrect": false
-            },
-            {
-                "text": "Zulfikar Ali Bhutto",
-                "isCorrect": false
-            },
-            {
-                "text": "Shah Mehmood Qureshi",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2126,
-        "question": "Who was the first Muslim to win the Nobel Peace Prize from Pakistan?",
-        "slug": "who-was-the-first-muslim-to-win-the-nobel-peace-prize-from-pakistan",
-        "explanation": "The first Muslim from Pakistan to win the Nobel Peace Prize was Dr. Muhammad Abdus Salam, who won it in 1979 for his contributions to theoretical physics.",
-        "tags": [
-            "Abdus Salam",
-            "Nobel Peace Prize",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Dr. Muhammad Abdus Salam",
-                "isCorrect": true
-            },
-            {
-                "text": "Malala Yousafzai",
-                "isCorrect": false
-            },
-            {
-                "text": "Benazir Bhutto",
-                "isCorrect": false
-            },
-            {
-                "text": "Abdul Sattar Edhi",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2127,
-        "question": "Who was the leader of Pakistan during the Green Revolution?",
-        "slug": "who-was-the-leader-of-pakistan-during-the-green-revolution",
-        "explanation": "The Green Revolution in Pakistan, aimed at improving agricultural productivity, was led by President Ayub Khan, with the help of his agricultural reforms during the 1960s.",
-        "tags": [
-            "Ayub Khan",
-            "Green Revolution",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Ayub Khan",
-                "isCorrect": true
-            },
-            {
-                "text": "Zulfikar Ali Bhutto",
-                "isCorrect": false
-            },
-            {
-                "text": "Pervez Musharraf",
-                "isCorrect": false
-            },
-            {
-                "text": "Benazir Bhutto",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2128,
-        "question": "Who introduced the controversial Green Card system in Pakistan?",
-        "slug": "who-introduced-the-controversial-green-card-system-in-pakistan",
-        "explanation": "The Green Card system was introduced by the government of Zulfikar Ali Bhutto in the 1970s, which aimed at facilitating workers' migration but led to widespread controversy.",
-        "tags": [
-            "Green Card",
-            "Zulfikar Ali Bhutto",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Zulfikar Ali Bhutto",
-                "isCorrect": true
-            },
-            {
-                "text": "Benazir Bhutto",
-                "isCorrect": false
-            },
-            {
-                "text": "Pervez Musharraf",
-                "isCorrect": false
-            },
-            {
-                "text": "Nawaz Sharif",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2129,
-        "question": "Who is credited with starting Pakistan's first nuclear reactor?",
-        "slug": "who-is-credited-with-starting-pakistans-first-nuclear-reactor",
-        "explanation": "The first nuclear reactor in Pakistan was established under the leadership of Dr. Abdul Qadeer Khan, and the project was carried out by Pakistan Atomic Energy Commission (PAEC).",
-        "tags": [
-            "Dr. Abdul Qadeer Khan",
-            "nuclear reactor",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Dr. Abdul Qadeer Khan",
-                "isCorrect": true
-            },
-            {
-                "text": "Zulfikar Ali Bhutto",
-                "isCorrect": false
-            },
-            {
-                "text": "Pervez Musharraf",
-                "isCorrect": false
-            },
-            {
-                "text": "Benazir Bhutto",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2130,
-        "question": "Who was the first woman speaker of the National Assembly of Pakistan?",
-        "slug": "who-was-the-first-woman-speaker-of-the-national-assembly-of-pakistan",
-        "explanation": "The first woman speaker of the National Assembly of Pakistan was Dr. Fahmida Mirza, who served from 2008 to 2013.",
-        "tags": [
-            "Dr. Fahmida Mirza",
-            "Pakistan",
-            "National Assembly"
-        ],
-        "options": [
-            {
-                "text": "Dr. Fahmida Mirza",
-                "isCorrect": true
-            },
-            {
-                "text": "Benazir Bhutto",
-                "isCorrect": false
-            },
-            {
-                "text": "Hina Rabbani Khar",
-                "isCorrect": false
-            },
-            {
-                "text": "Asma Jahangir",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2131,
-        "question": "Who was the architect of Pakistan's two-nation theory?",
-        "slug": "who-was-the-architect-of-pakistans-two-nation-theory",
-        "explanation": "The architect of Pakistan's two-nation theory was Sir Muhammad Iqbal. He proposed the idea that Muslims and Hindus in South Asia are two distinct nations with their own customs, religion, and culture.",
-        "tags": [
-            "Muhammad Iqbal",
-            "two-nation theory",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Sir Muhammad Iqbal",
-                "isCorrect": true
-            },
-            {
-                "text": "Allama Iqbal",
-                "isCorrect": true
-            },
-            {
-                "text": "Quaid-e-Azam Muhammad Ali Jinnah",
-                "isCorrect": false
-            },
-            {
-                "text": "Maulana Azad",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2132,
-        "question": "Who was Pakistan's first military ruler?",
-        "slug": "who-was-pakistans-first-military-ruler",
-        "explanation": "Pakistan's first military ruler was General Ayub Khan, who came to power after a military coup in 1958 and ruled until 1969.",
-        "tags": [
-            "Ayub Khan",
-            "military ruler",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "General Ayub Khan",
-                "isCorrect": true
-            },
-            {
-                "text": "General Zia-ul-Haq",
-                "isCorrect": false
-            },
-            {
-                "text": "General Pervez Musharraf",
-                "isCorrect": false
-            },
-            {
-                "text": "General Yahya Khan",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2133,
-        "question": "Who introduced the idea of a separate Muslim nation (Pakistan)?",
-        "slug": "who-introduced-the-idea-of-a-separate-muslim-nation-pakistan",
-        "explanation": "The idea of a separate Muslim nation, which led to the creation of Pakistan, was introduced by Muhammad Ali Jinnah, the founder of Pakistan, who advocated for the political and cultural rights of Muslims in British India.",
-        "tags": [
-            "Muhammad Ali Jinnah",
-            "Pakistan",
-            "Muslim nation"
-        ],
-        "options": [
-            {
-                "text": "Muhammad Ali Jinnah",
-                "isCorrect": true
-            },
-            {
-                "text": "Sir Muhammad Iqbal",
-                "isCorrect": false
-            },
-            {
-                "text": "Allama Iqbal",
-                "isCorrect": false
-            },
-            {
-                "text": "Liaquat Ali Khan",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2134,
-        "question": "Who led the Pakistan People’s Party (PPP) before Benazir Bhutto?",
-        "slug": "who-led-the-pakistan-peoples-party-ppp-before-benazir-bhutto",
-        "explanation": "Before Benazir Bhutto, the Pakistan People’s Party (PPP) was led by her father, Zulfikar Ali Bhutto, who served as the Prime Minister of Pakistan and founded the party in 1967.",
-        "tags": [
-            "Zulfikar Ali Bhutto",
-            "PPP",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Zulfikar Ali Bhutto",
-                "isCorrect": true
-            },
-            {
-                "text": "Benazir Bhutto",
-                "isCorrect": false
-            },
-            {
-                "text": "Asif Ali Zardari",
-                "isCorrect": false
-            },
-            {
-                "text": "Pervez Musharraf",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2135,
-        "question": "Who was the first Pakistani to receive an honorary doctorate from Harvard University?",
-        "slug": "who-was-the-first-pakistani-to-receive-an-honorary-doctorate-from-harvard-university",
-        "explanation": "The first Pakistani to receive an honorary doctorate from Harvard University was Dr. Abdus Salam, who was awarded the honor in recognition of his contributions to theoretical physics.",
-        "tags": [
-            "Abdus Salam",
-            "Harvard University",
-            "Pakistan"
-        ],
-        "options": [
-            {
-                "text": "Dr. Abdus Salam",
-                "isCorrect": true
-            },
-            {
-                "text": "Malala Yousafzai",
-                "isCorrect": false
-            },
-            {
-                "text": "Benazir Bhutto",
-                "isCorrect": false
-            },
-            {
-                "text": "Nawaz Sharif",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2136,
-        "question": "Who is the first to be martyred in the Battle of Uhud?",
-        "slug": "who-is-the-first-to-be-martyred-in-the-battle-of-uhud",
-        "explanation": "The first to be martyred in the Battle of Uhud was Mus'ab ibn Umair, who was a companion of Prophet Muhammad (PBUH) and played a key role in the battle.",
-        "tags": [
-            "Mus'ab ibn Umair",
-            "Battle of Uhud",
-            "martyr"
-        ],
-        "options": [
-            {
-                "text": "Mus'ab ibn Umair",
-                "isCorrect": true
-            },
-            {
-                "text": "Hamza ibn Abdul-Muttalib",
-                "isCorrect": false
-            },
-            {
-                "text": "Abu Bakr al-Siddiq",
-                "isCorrect": false
-            },
-            {
-                "text": "Ali ibn Abi Talib",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2137,
-        "question": "Who is known for spreading Islam to the people of Indonesia?",
-        "slug": "who-is-known-for-spreading-islam-to-the-people-of-indonesia",
-        "explanation": "Islam was spread to Indonesia primarily by traders and missionaries, but the most prominent figure known for this was Sheikh Ali Imam, who played a key role in converting the population in the 13th century.",
-        "tags": [
-            "Sheikh Ali Imam",
-            "Islam",
-            "Indonesia"
-        ],
-        "options": [
-            {
-                "text": "Sheikh Ali Imam",
-                "isCorrect": true
-            },
-            {
-                "text": "Ibn Battuta",
-                "isCorrect": false
-            },
-            {
-                "text": "Zayd ibn Thabit",
-                "isCorrect": false
-            },
-            {
-                "text": "Al-Ghazali",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2138,
-        "question": "Who wrote the famous book 'Al-Muwatta'?",
-        "slug": "who-wrote-the-famous-book-al-muwatta",
-        "explanation": "'Al-Muwatta' was written by Imam Malik ibn Anas. It is one of the earliest and most respected books in Islamic jurisprudence.",
-        "tags": [
-            "Imam Malik",
-            "Al-Muwatta",
-            "Islamic jurisprudence"
-        ],
-        "options": [
-            {
-                "text": "Imam Malik ibn Anas",
-                "isCorrect": true
-            },
-            {
-                "text": "Imam Bukhari",
-                "isCorrect": false
-            },
-            {
-                "text": "Imam Muslim",
-                "isCorrect": false
-            },
-            {
-                "text": "Imam Abu Hanifa",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2139,
-        "question": "Who was the first person to embrace Islam in Medina?",
-        "slug": "who-was-the-first-person-to-embrace-islam-in-medina",
-        "explanation": "The first person to embrace Islam in Medina was As'ad ibn Zurarah, who was among the first to accept Islam in the city and later became one of the early companions of Prophet Muhammad (PBUH).",
-        "tags": [
-            "As'ad ibn Zurarah",
-            "Medina",
-            "Islam"
-        ],
-        "options": [
-            {
-                "text": "As'ad ibn Zurarah",
-                "isCorrect": true
-            },
-            {
-                "text": "Abu Bakr al-Siddiq",
-                "isCorrect": false
-            },
-            {
-                "text": "Umar ibn al-Khattab",
-                "isCorrect": false
-            },
-            {
-                "text": "Ali ibn Abi Talib",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2140,
-        "question": "Who is known as the 'Sword of Allah' for his military leadership?",
-        "slug": "who-is-known-as-the-sword-of-allah-for-his-military-leadership",
-        "explanation": "The title 'Sword of Allah' was given to Khalid ibn al-Walid due to his exceptional military leadership and victories in the early Islamic conquests.",
-        "tags": [
-            "Khalid ibn al-Walid",
-            "Sword of Allah",
-            "Islamic leadership"
-        ],
-        "options": [
-            {
-                "text": "Khalid ibn al-Walid",
-                "isCorrect": true
-            },
-            {
-                "text": "Umar ibn al-Khattab",
-                "isCorrect": false
-            },
-            {
-                "text": "Ali ibn Abi Talib",
-                "isCorrect": false
-            },
-            {
-                "text": "Abu Bakr al-Siddiq",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2141,
-        "question": "Who is the founder of the Fatimid dynasty in Islam?",
-        "slug": "who-is-the-founder-of-the-fatimid-dynasty-in-islam",
-        "explanation": "The founder of the Fatimid dynasty in Islam was Al-Mahdi Billah, who established the dynasty in 909 CE in North Africa, claiming descent from Fatimah, the daughter of Prophet Muhammad (PBUH).",
-        "tags": [
-            "Fatimid dynasty",
-            "Al-Mahdi Billah",
-            "Islamic history"
-        ],
-        "options": [
-            {
-                "text": "Al-Mahdi Billah",
-                "isCorrect": true
-            },
-            {
-                "text": "Abu Muslim",
-                "isCorrect": false
-            },
-            {
-                "text": "Al-Qaim",
-                "isCorrect": false
-            },
-            {
-                "text": "Ubayd Allah al-Mahdi",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2142,
-        "question": "Who compiled the Hadiths of the Prophet Muhammad (PBUH)?",
-        "slug": "who-compiled-the-hadiths-of-the-prophet-muhammad-pbuh",
-        "explanation": "The Hadiths of the Prophet Muhammad (PBUH) were compiled by several scholars, with the most famous being Imam Bukhari, who compiled 'Sahih Bukhari', one of the most authoritative collections of Hadiths.",
-        "tags": [
-            "Imam Bukhari",
-            "Hadith",
-            "Islamic scholarship"
-        ],
-        "options": [
-            {
-                "text": "Imam Bukhari",
-                "isCorrect": true
-            },
-            {
-                "text": "Imam Muslim",
-                "isCorrect": false
-            },
-            {
-                "text": "Imam Malik",
-                "isCorrect": false
-            },
-            {
-                "text": "Imam Abu Hanifa",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2143,
-        "question": "Who was the first caliph of the Abbasid dynasty?",
-        "slug": "who-was-the-first-caliph-of-the-abbasid-dynasty",
-        "explanation": "The first caliph of the Abbasid dynasty was Al-Saffah, who founded the dynasty in 750 CE after overthrowing the Umayyad caliphate.",
-        "tags": [
-            "Abbasid dynasty",
-            "Al-Saffah",
-            "Islamic history"
-        ],
-        "options": [
-            {
-                "text": "Al-Saffah",
-                "isCorrect": true
-            },
-            {
-                "text": "Al-Mansur",
-                "isCorrect": false
-            },
-            {
-                "text": "Al-Mahdi",
-                "isCorrect": false
-            },
-            {
-                "text": "Al-Rashid",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2144,
-        "question": "Who was the first Muslim to perform Hajj?",
-        "slug": "who-was-the-first-muslim-to-perform-hajj",
-        "explanation": "The first Muslim to perform Hajj was Prophet Muhammad (PBUH) in 630 CE, after the conquest of Mecca. This event is known as the Farewell Pilgrimage.",
-        "tags": [
-            "Prophet Muhammad",
-            "Hajj",
-            "Islamic history"
-        ],
-        "options": [
-            {
-                "text": "Prophet Muhammad (PBUH)",
-                "isCorrect": true
-            },
-            {
-                "text": "Abu Bakr al-Siddiq",
-                "isCorrect": false
-            },
-            {
-                "text": "Umar ibn al-Khattab",
-                "isCorrect": false
-            },
-            {
-                "text": "Ali ibn Abi Talib",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2145,
-        "question": "Who was the first to invent the Islamic way of the calendar?",
-        "slug": "who-was-the-first-to-invent-the-islamic-way-of-the-calendar",
-        "explanation": "The first to invent the Islamic calendar was Caliph Umar ibn al-Khattab, who established the lunar-based calendar in 638 CE to better align the Muslim community's activities and rituals.",
-        "tags": [
-            "Umar ibn al-Khattab",
-            "Islamic calendar",
-            "history"
-        ],
-        "options": [
-            {
-                "text": "Umar ibn al-Khattab",
-                "isCorrect": true
-            },
-            {
-                "text": "Abu Bakr al-Siddiq",
-                "isCorrect": false
-            },
-            {
-                "text": "Ali ibn Abi Talib",
-                "isCorrect": false
-            },
-            {
-                "text": "Uthman ibn Affan",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "id": 2146,
-        "question": "Who wrote 'The Book of Knowledge' in Islamic tradition?",
-        "slug": "who-wrote-the-book-of-knowledge-in-islamic-tradition",
-        "explanation": "'The Book of Knowledge' (Kitab al-Ilm) was written by Imam Abu Hanifa, who was one of the greatest Islamic scholars and the founder of the Hanafi school of thought.",
-        "tags": [
-            "Imam Abu Hanifa",
-            "Islamic tradition",
-            "knowledge"
-        ],
-        "options": [
-            {
-                "text": "Imam Abu Hanifa",
-                "isCorrect": true
-            },
-            {
-                "text": "Imam Malik",
-                "isCorrect": false
-            },
-            {
-                "text": "Imam Bukhari",
-                "isCorrect": false
-            },
-            {
-                "text": "Imam Shafi'i",
-                "isCorrect": false
-            }
-        ]
-    }
+  {
+    "id": 2101,
+    "question": "Who introduced the concept of acids as proton donors?",
+    "slug": "who-introduced-the-concept-of-acids-as-proton-donors",
+    "explanation": "The concept of acids as proton donors was introduced by Brønsted and Lowry in 1923 as part of their Brønsted-Lowry acid-base theory.",
+    "tags": ["acids", "proton donors", "Brønsted-Lowry"],
+    "options": [
+      {
+        "text": "Brønsted and Lowry",
+        "isCorrect": true
+      },
+      {
+        "text": "Arrhenius",
+        "isCorrect": false
+      },
+      {
+        "text": "Lewis",
+        "isCorrect": false
+      },
+      {
+        "text": "Lewis Carroll",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2102,
+    "question": "Who discovered the concept of isotopes?",
+    "slug": "who-discovered-the-concept-of-isotopes",
+    "explanation": "The concept of isotopes was discovered by Frederick Soddy in 1912, who found that certain elements had atoms with the same number of protons but different numbers of neutrons.",
+    "tags": ["isotopes", "Frederick Soddy", "chemistry"],
+    "options": [
+      {
+        "text": "Frederick Soddy",
+        "isCorrect": true
+      },
+      {
+        "text": "Marie Curie",
+        "isCorrect": false
+      },
+      {
+        "text": "Ernest Rutherford",
+        "isCorrect": false
+      },
+      {
+        "text": "John Dalton",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2103,
+    "question": "Who developed the periodic table with 18 columns?",
+    "slug": "who-developed-the-periodic-table-with-18-columns",
+    "explanation": "The periodic table with 18 columns was developed by Glenn T. Seaborg in 1945, extending Mendeleev's table and placing the actinide series below the lanthanide series.",
+    "tags": ["periodic table", "Glenn T. Seaborg", "chemistry"],
+    "options": [
+      {
+        "text": "Glenn T. Seaborg",
+        "isCorrect": true
+      },
+      {
+        "text": "Dmitri Mendeleev",
+        "isCorrect": false
+      },
+      {
+        "text": "Henry Moseley",
+        "isCorrect": false
+      },
+      {
+        "text": "Marie Curie",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2104,
+    "question": "Who was the first to measure the atomic masses of elements?",
+    "slug": "who-was-the-first-to-measure-the-atomic-masses-of-elements",
+    "explanation": "John Dalton was the first to propose the atomic theory and measure atomic masses of elements in the early 19th century.",
+    "tags": ["atomic masses", "John Dalton", "chemistry"],
+    "options": [
+      {
+        "text": "John Dalton",
+        "isCorrect": true
+      },
+      {
+        "text": "Dmitri Mendeleev",
+        "isCorrect": false
+      },
+      {
+        "text": "J.J. Thomson",
+        "isCorrect": false
+      },
+      {
+        "text": "Henry Moseley",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2105,
+    "question": "Who proposed the theory of resonance in chemistry?",
+    "slug": "who-proposed-the-theory-of-resonance-in-chemistry",
+    "explanation": "The theory of resonance in chemistry was proposed by Linus Pauling in the 1930s to explain the delocalized electrons in molecules.",
+    "tags": ["resonance", "Linus Pauling", "chemistry"],
+    "options": [
+      {
+        "text": "Linus Pauling",
+        "isCorrect": true
+      },
+      {
+        "text": "Marie Curie",
+        "isCorrect": false
+      },
+      {
+        "text": "Dmitri Mendeleev",
+        "isCorrect": false
+      },
+      {
+        "text": "Robert Hooke",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2106,
+    "question": "Who is the author of 'The Catcher in the Rye'?",
+    "slug": "who-is-the-author-of-the-catcher-in-the-rye",
+    "explanation": "'The Catcher in the Rye' is a novel written by J.D. Salinger, first published in 1951, which explores themes of adolescence, alienation, and identity.",
+    "tags": ["The Catcher in the Rye", "J.D. Salinger", "literature"],
+    "options": [
+      {
+        "text": "J.D. Salinger",
+        "isCorrect": true
+      },
+      {
+        "text": "F. Scott Fitzgerald",
+        "isCorrect": false
+      },
+      {
+        "text": "Ernest Hemingway",
+        "isCorrect": false
+      },
+      {
+        "text": "George Orwell",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2107,
+    "question": "Who wrote 'Frankenstein'?",
+    "slug": "who-wrote-frankenstein",
+    "explanation": "'Frankenstein', a novel about a scientist who creates a monster, was written by Mary Shelley and published in 1818.",
+    "tags": ["Frankenstein", "Mary Shelley", "literature"],
+    "options": [
+      {
+        "text": "Mary Shelley",
+        "isCorrect": true
+      },
+      {
+        "text": "Bram Stoker",
+        "isCorrect": false
+      },
+      {
+        "text": "Charles Dickens",
+        "isCorrect": false
+      },
+      {
+        "text": "Oscar Wilde",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2108,
+    "question": "Who is known for the novel 'Don Quixote'?",
+    "slug": "who-is-known-for-the-novel-don-quixote",
+    "explanation": "'Don Quixote', one of the most important works of literature, was written by Miguel de Cervantes and first published in 1605.",
+    "tags": ["Don Quixote", "Miguel de Cervantes", "literature"],
+    "options": [
+      {
+        "text": "Miguel de Cervantes",
+        "isCorrect": true
+      },
+      {
+        "text": "William Shakespeare",
+        "isCorrect": false
+      },
+      {
+        "text": "Homer",
+        "isCorrect": false
+      },
+      {
+        "text": "Charles Dickens",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2109,
+    "question": "Who wrote 'The Hobbit'?",
+    "slug": "who-wrote-the-hobbit",
+    "explanation": "'The Hobbit', a fantasy novel about the adventures of Bilbo Baggins, was written by J.R.R. Tolkien and first published in 1937.",
+    "tags": ["The Hobbit", "J.R.R. Tolkien", "literature"],
+    "options": [
+      {
+        "text": "J.R.R. Tolkien",
+        "isCorrect": true
+      },
+      {
+        "text": "C.S. Lewis",
+        "isCorrect": false
+      },
+      {
+        "text": "J.K. Rowling",
+        "isCorrect": false
+      },
+      {
+        "text": "George R.R. Martin",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2110,
+    "question": "Who is famous for writing 'The Picture of Dorian Gray'?",
+    "slug": "who-is-famous-for-writing-the-picture-of-dorian-gray",
+    "explanation": "'The Picture of Dorian Gray', a philosophical novel about the consequences of vanity, was written by Oscar Wilde and first published in 1890.",
+    "tags": ["The Picture of Dorian Gray", "Oscar Wilde", "literature"],
+    "options": [
+      {
+        "text": "Oscar Wilde",
+        "isCorrect": true
+      },
+      {
+        "text": "George Orwell",
+        "isCorrect": false
+      },
+      {
+        "text": "Virginia Woolf",
+        "isCorrect": false
+      },
+      {
+        "text": "Charles Dickens",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2111,
+    "question": "Who wrote 'To Kill a Mockingbird'?",
+    "slug": "who-wrote-to-kill-a-mockingbird",
+    "explanation": "'To Kill a Mockingbird' is a novel written by Harper Lee, first published in 1960. It explores themes of racial injustice and moral growth.",
+    "tags": ["To Kill a Mockingbird", "Harper Lee", "literature"],
+    "options": [
+      {
+        "text": "Harper Lee",
+        "isCorrect": true
+      },
+      {
+        "text": "J.D. Salinger",
+        "isCorrect": false
+      },
+      {
+        "text": "F. Scott Fitzgerald",
+        "isCorrect": false
+      },
+      {
+        "text": "John Steinbeck",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2112,
+    "question": "Who was the first woman to win the Nobel Prize in Literature?",
+    "slug": "who-was-the-first-woman-to-win-the-nobel-prize-in-literature",
+    "explanation": "The first woman to win the Nobel Prize in Literature was Selma Lagerlöf in 1909. She was a Swedish author and poet.",
+    "tags": ["Nobel Prize", "Selma Lagerlöf", "literature"],
+    "options": [
+      {
+        "text": "Selma Lagerlöf",
+        "isCorrect": true
+      },
+      {
+        "text": "Virginia Woolf",
+        "isCorrect": false
+      },
+      {
+        "text": "Toni Morrison",
+        "isCorrect": false
+      },
+      {
+        "text": "Maya Angelou",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2113,
+    "question": "Who is the author of 'The Chronicles of Narnia' series?",
+    "slug": "who-is-the-author-of-the-chronicles-of-narnia-series",
+    "explanation": "'The Chronicles of Narnia' series was written by C.S. Lewis and consists of seven fantasy novels that have been highly influential in children's literature.",
+    "tags": ["The Chronicles of Narnia", "C.S. Lewis", "literature"],
+    "options": [
+      {
+        "text": "C.S. Lewis",
+        "isCorrect": true
+      },
+      {
+        "text": "J.R.R. Tolkien",
+        "isCorrect": false
+      },
+      {
+        "text": "J.K. Rowling",
+        "isCorrect": false
+      },
+      {
+        "text": "C.S. Lewis Carroll",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2114,
+    "question": "Who wrote the play 'Othello'?",
+    "slug": "who-wrote-the-play-othello",
+    "explanation": "'Othello' is a tragedy written by William Shakespeare, first performed in 1604. It explores themes of jealousy, betrayal, and racism.",
+    "tags": ["Othello", "William Shakespeare", "literature"],
+    "options": [
+      {
+        "text": "William Shakespeare",
+        "isCorrect": true
+      },
+      {
+        "text": "Christopher Marlowe",
+        "isCorrect": false
+      },
+      {
+        "text": "Ben Jonson",
+        "isCorrect": false
+      },
+      {
+        "text": "John Milton",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2115,
+    "question": "Who is known for writing 'Dracula'?",
+    "slug": "who-is-known-for-writing-dracula",
+    "explanation": "'Dracula', a novel about the infamous vampire, was written by Bram Stoker and first published in 1897. It has since become a classic of Gothic literature.",
+    "tags": ["Dracula", "Bram Stoker", "literature"],
+    "options": [
+      {
+        "text": "Bram Stoker",
+        "isCorrect": true
+      },
+      {
+        "text": "Mary Shelley",
+        "isCorrect": false
+      },
+      {
+        "text": "Franz Kafka",
+        "isCorrect": false
+      },
+      {
+        "text": "Oscar Wilde",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2116,
+    "question": "Who wrote 'Brave New World'?",
+    "slug": "who-wrote-brave-new-world",
+    "explanation": "'Brave New World' is a dystopian novel written by Aldous Huxley, first published in 1932. It explores the consequences of a technologically advanced, yet oppressive society.",
+    "tags": ["Brave New World", "Aldous Huxley", "literature"],
+    "options": [
+      {
+        "text": "Aldous Huxley",
+        "isCorrect": true
+      },
+      {
+        "text": "George Orwell",
+        "isCorrect": false
+      },
+      {
+        "text": "Ray Bradbury",
+        "isCorrect": false
+      },
+      {
+        "text": "H.G. Wells",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2117,
+    "question": "Who is considered the father of modern poetry in English?",
+    "slug": "who-is-considered-the-father-of-modern-poetry-in-english",
+    "explanation": "T.S. Eliot is often considered the father of modern poetry in English, due to his innovations in form and his influence on 20th-century literature.",
+    "tags": ["T.S. Eliot", "modern poetry", "literature"],
+    "options": [
+      {
+        "text": "T.S. Eliot",
+        "isCorrect": true
+      },
+      {
+        "text": "William Wordsworth",
+        "isCorrect": false
+      },
+      {
+        "text": "W.B. Yeats",
+        "isCorrect": false
+      },
+      {
+        "text": "Ezra Pound",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2118,
+    "question": "Who wrote 'The Raven'?",
+    "slug": "who-wrote-the-raven",
+    "explanation": "'The Raven', a narrative poem about grief and loss, was written by Edgar Allan Poe and first published in 1845.",
+    "tags": ["The Raven", "Edgar Allan Poe", "literature"],
+    "options": [
+      {
+        "text": "Edgar Allan Poe",
+        "isCorrect": true
+      },
+      {
+        "text": "Nathaniel Hawthorne",
+        "isCorrect": false
+      },
+      {
+        "text": "Walt Whitman",
+        "isCorrect": false
+      },
+      {
+        "text": "Herman Melville",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2119,
+    "question": "Who wrote 'The Adventures of Sherlock Holmes'?",
+    "slug": "who-wrote-the-adventures-of-sherlock-holmes",
+    "explanation": "'The Adventures of Sherlock Holmes' is a collection of short stories written by Sir Arthur Conan Doyle, first published in 1892. The stories feature the famous detective Sherlock Holmes.",
+    "tags": ["Sherlock Holmes", "Sir Arthur Conan Doyle", "literature"],
+    "options": [
+      {
+        "text": "Sir Arthur Conan Doyle",
+        "isCorrect": true
+      },
+      {
+        "text": "Agatha Christie",
+        "isCorrect": false
+      },
+      {
+        "text": "Edgar Allan Poe",
+        "isCorrect": false
+      },
+      {
+        "text": "G.K. Chesterton",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2120,
+    "question": "Who is the author of 'The Old Man and the Sea'?",
+    "slug": "who-is-the-author-of-the-old-man-and-the-sea",
+    "explanation": "'The Old Man and the Sea', a novel about the struggle between an aging fisherman and a giant marlin, was written by Ernest Hemingway and published in 1952.",
+    "tags": ["The Old Man and the Sea", "Ernest Hemingway", "literature"],
+    "options": [
+      {
+        "text": "Ernest Hemingway",
+        "isCorrect": true
+      },
+      {
+        "text": "F. Scott Fitzgerald",
+        "isCorrect": false
+      },
+      {
+        "text": "William Faulkner",
+        "isCorrect": false
+      },
+      {
+        "text": "John Steinbeck",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2121,
+    "question": "Who was the first woman to fly an aircraft in Pakistan?",
+    "slug": "who-was-the-first-woman-to-fly-an-aircraft-in-pakistan",
+    "explanation": "The first woman to fly an aircraft in Pakistan was Shukria Khatoon. She achieved this milestone in 1959.",
+    "tags": ["Shukria Khatoon", "aviation", "Pakistan"],
+    "options": [
+      {
+        "text": "Shukria Khatoon",
+        "isCorrect": true
+      },
+      {
+        "text": "Benazir Bhutto",
+        "isCorrect": false
+      },
+      {
+        "text": "Fatima Jinnah",
+        "isCorrect": false
+      },
+      {
+        "text": "Begum Rana Liaquat Ali Khan",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2122,
+    "question": "Who is known for his role in the development of Pakistan's nuclear program?",
+    "slug": "who-is-known-for-his-role-in-the-development-of-pakistans-nuclear-program",
+    "explanation": "Dr. Abdul Qadeer Khan is known for his significant role in Pakistan's nuclear program. He is regarded as the father of Pakistan's nuclear bomb.",
+    "tags": ["Abdul Qadeer Khan", "nuclear program", "Pakistan"],
+    "options": [
+      {
+        "text": "Dr. Abdul Qadeer Khan",
+        "isCorrect": true
+      },
+      {
+        "text": "Zulfikar Ali Bhutto",
+        "isCorrect": false
+      },
+      {
+        "text": "Pervez Musharraf",
+        "isCorrect": false
+      },
+      {
+        "text": "Benazir Bhutto",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2123,
+    "question": "Who was the first governor of Sindh after the creation of Pakistan?",
+    "slug": "who-was-the-first-governor-of-sindh-after-the-creation-of-pakistan",
+    "explanation": "The first governor of Sindh after the creation of Pakistan was Ghulam Hussain Hidayatullah, who served from 1947 to 1948.",
+    "tags": ["Ghulam Hussain Hidayatullah", "Sindh", "Pakistan"],
+    "options": [
+      {
+        "text": "Ghulam Hussain Hidayatullah",
+        "isCorrect": true
+      },
+      {
+        "text": "Ibrahim Ismail Chundrigar",
+        "isCorrect": false
+      },
+      {
+        "text": "Ghulam Mohammad Sadiq",
+        "isCorrect": false
+      },
+      {
+        "text": "Khan Abdul Ghaffar Khan",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2124,
+    "question": "Who led Pakistan during the 1971 war?",
+    "slug": "who-led-pakistan-during-the-1971-war",
+    "explanation": "During the 1971 war, also known as the Bangladesh Liberation War, Pakistan was led by President Yahya Khan and Prime Minister Zulfikar Ali Bhutto.",
+    "tags": ["Yahya Khan", "Zulfikar Ali Bhutto", "1971 War", "Pakistan"],
+    "options": [
+      {
+        "text": "Yahya Khan",
+        "isCorrect": true
+      },
+      {
+        "text": "Zulfikar Ali Bhutto",
+        "isCorrect": true
+      },
+      {
+        "text": "Pervez Musharraf",
+        "isCorrect": false
+      },
+      {
+        "text": "Benazir Bhutto",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2125,
+    "question": "Who was Pakistan’s first foreign minister?",
+    "slug": "who-was-pakistans-first-foreign-minister",
+    "explanation": "Pakistan's first foreign minister was Sir Zafrullah Khan, who served from 1947 to 1954.",
+    "tags": ["Zafrullah Khan", "foreign minister", "Pakistan"],
+    "options": [
+      {
+        "text": "Sir Zafrullah Khan",
+        "isCorrect": true
+      },
+      {
+        "text": "Liaquat Ali Khan",
+        "isCorrect": false
+      },
+      {
+        "text": "Zulfikar Ali Bhutto",
+        "isCorrect": false
+      },
+      {
+        "text": "Shah Mehmood Qureshi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2126,
+    "question": "Who was the first Muslim to win the Nobel Peace Prize from Pakistan?",
+    "slug": "who-was-the-first-muslim-to-win-the-nobel-peace-prize-from-pakistan",
+    "explanation": "The first Muslim from Pakistan to win the Nobel Peace Prize was Dr. Muhammad Abdus Salam, who won it in 1979 for his contributions to theoretical physics.",
+    "tags": ["Abdus Salam", "Nobel Peace Prize", "Pakistan"],
+    "options": [
+      {
+        "text": "Dr. Muhammad Abdus Salam",
+        "isCorrect": true
+      },
+      {
+        "text": "Malala Yousafzai",
+        "isCorrect": false
+      },
+      {
+        "text": "Benazir Bhutto",
+        "isCorrect": false
+      },
+      {
+        "text": "Abdul Sattar Edhi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2127,
+    "question": "Who was the leader of Pakistan during the Green Revolution?",
+    "slug": "who-was-the-leader-of-pakistan-during-the-green-revolution",
+    "explanation": "The Green Revolution in Pakistan, aimed at improving agricultural productivity, was led by President Ayub Khan, with the help of his agricultural reforms during the 1960s.",
+    "tags": ["Ayub Khan", "Green Revolution", "Pakistan"],
+    "options": [
+      {
+        "text": "Ayub Khan",
+        "isCorrect": true
+      },
+      {
+        "text": "Zulfikar Ali Bhutto",
+        "isCorrect": false
+      },
+      {
+        "text": "Pervez Musharraf",
+        "isCorrect": false
+      },
+      {
+        "text": "Benazir Bhutto",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2128,
+    "question": "Who introduced the controversial Green Card system in Pakistan?",
+    "slug": "who-introduced-the-controversial-green-card-system-in-pakistan",
+    "explanation": "The Green Card system was introduced by the government of Zulfikar Ali Bhutto in the 1970s, which aimed at facilitating workers' migration but led to widespread controversy.",
+    "tags": ["Green Card", "Zulfikar Ali Bhutto", "Pakistan"],
+    "options": [
+      {
+        "text": "Zulfikar Ali Bhutto",
+        "isCorrect": true
+      },
+      {
+        "text": "Benazir Bhutto",
+        "isCorrect": false
+      },
+      {
+        "text": "Pervez Musharraf",
+        "isCorrect": false
+      },
+      {
+        "text": "Nawaz Sharif",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2129,
+    "question": "Who is credited with starting Pakistan's first nuclear reactor?",
+    "slug": "who-is-credited-with-starting-pakistans-first-nuclear-reactor",
+    "explanation": "The first nuclear reactor in Pakistan was established under the leadership of Dr. Abdul Qadeer Khan, and the project was carried out by Pakistan Atomic Energy Commission (PAEC).",
+    "tags": ["Dr. Abdul Qadeer Khan", "nuclear reactor", "Pakistan"],
+    "options": [
+      {
+        "text": "Dr. Abdul Qadeer Khan",
+        "isCorrect": true
+      },
+      {
+        "text": "Zulfikar Ali Bhutto",
+        "isCorrect": false
+      },
+      {
+        "text": "Pervez Musharraf",
+        "isCorrect": false
+      },
+      {
+        "text": "Benazir Bhutto",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2130,
+    "question": "Who was the first woman speaker of the National Assembly of Pakistan?",
+    "slug": "who-was-the-first-woman-speaker-of-the-national-assembly-of-pakistan",
+    "explanation": "The first woman speaker of the National Assembly of Pakistan was Dr. Fahmida Mirza, who served from 2008 to 2013.",
+    "tags": ["Dr. Fahmida Mirza", "Pakistan", "National Assembly"],
+    "options": [
+      {
+        "text": "Dr. Fahmida Mirza",
+        "isCorrect": true
+      },
+      {
+        "text": "Benazir Bhutto",
+        "isCorrect": false
+      },
+      {
+        "text": "Hina Rabbani Khar",
+        "isCorrect": false
+      },
+      {
+        "text": "Asma Jahangir",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2131,
+    "question": "Who was the architect of Pakistan's two-nation theory?",
+    "slug": "who-was-the-architect-of-pakistans-two-nation-theory",
+    "explanation": "The architect of Pakistan's two-nation theory was Sir Muhammad Iqbal. He proposed the idea that Muslims and Hindus in South Asia are two distinct nations with their own customs, religion, and culture.",
+    "tags": ["Muhammad Iqbal", "two-nation theory", "Pakistan"],
+    "options": [
+      {
+        "text": "Sir Muhammad Iqbal",
+        "isCorrect": true
+      },
+      {
+        "text": "Allama Iqbal",
+        "isCorrect": true
+      },
+      {
+        "text": "Quaid-e-Azam Muhammad Ali Jinnah",
+        "isCorrect": false
+      },
+      {
+        "text": "Maulana Azad",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2132,
+    "question": "Who was Pakistan's first military ruler?",
+    "slug": "who-was-pakistans-first-military-ruler",
+    "explanation": "Pakistan's first military ruler was General Ayub Khan, who came to power after a military coup in 1958 and ruled until 1969.",
+    "tags": ["Ayub Khan", "military ruler", "Pakistan"],
+    "options": [
+      {
+        "text": "General Ayub Khan",
+        "isCorrect": true
+      },
+      {
+        "text": "General Zia-ul-Haq",
+        "isCorrect": false
+      },
+      {
+        "text": "General Pervez Musharraf",
+        "isCorrect": false
+      },
+      {
+        "text": "General Yahya Khan",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2133,
+    "question": "Who introduced the idea of a separate Muslim nation (Pakistan)?",
+    "slug": "who-introduced-the-idea-of-a-separate-muslim-nation-pakistan",
+    "explanation": "The idea of a separate Muslim nation, which led to the creation of Pakistan, was introduced by Muhammad Ali Jinnah, the founder of Pakistan, who advocated for the political and cultural rights of Muslims in British India.",
+    "tags": ["Muhammad Ali Jinnah", "Pakistan", "Muslim nation"],
+    "options": [
+      {
+        "text": "Muhammad Ali Jinnah",
+        "isCorrect": true
+      },
+      {
+        "text": "Sir Muhammad Iqbal",
+        "isCorrect": false
+      },
+      {
+        "text": "Allama Iqbal",
+        "isCorrect": false
+      },
+      {
+        "text": "Liaquat Ali Khan",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2134,
+    "question": "Who led the Pakistan People’s Party (PPP) before Benazir Bhutto?",
+    "slug": "who-led-the-pakistan-peoples-party-ppp-before-benazir-bhutto",
+    "explanation": "Before Benazir Bhutto, the Pakistan People’s Party (PPP) was led by her father, Zulfikar Ali Bhutto, who served as the Prime Minister of Pakistan and founded the party in 1967.",
+    "tags": ["Zulfikar Ali Bhutto", "PPP", "Pakistan"],
+    "options": [
+      {
+        "text": "Zulfikar Ali Bhutto",
+        "isCorrect": true
+      },
+      {
+        "text": "Benazir Bhutto",
+        "isCorrect": false
+      },
+      {
+        "text": "Asif Ali Zardari",
+        "isCorrect": false
+      },
+      {
+        "text": "Pervez Musharraf",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2135,
+    "question": "Who was the first Pakistani to receive an honorary doctorate from Harvard University?",
+    "slug": "who-was-the-first-pakistani-to-receive-an-honorary-doctorate-from-harvard-university",
+    "explanation": "The first Pakistani to receive an honorary doctorate from Harvard University was Dr. Abdus Salam, who was awarded the honor in recognition of his contributions to theoretical physics.",
+    "tags": ["Abdus Salam", "Harvard University", "Pakistan"],
+    "options": [
+      {
+        "text": "Dr. Abdus Salam",
+        "isCorrect": true
+      },
+      {
+        "text": "Malala Yousafzai",
+        "isCorrect": false
+      },
+      {
+        "text": "Benazir Bhutto",
+        "isCorrect": false
+      },
+      {
+        "text": "Nawaz Sharif",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2136,
+    "question": "Who is the first to be martyred in the Battle of Uhud?",
+    "slug": "who-is-the-first-to-be-martyred-in-the-battle-of-uhud",
+    "explanation": "The first to be martyred in the Battle of Uhud was Mus'ab ibn Umair, who was a companion of Prophet Muhammad (PBUH) and played a key role in the battle.",
+    "tags": ["Mus'ab ibn Umair", "Battle of Uhud", "martyr"],
+    "options": [
+      {
+        "text": "Mus'ab ibn Umair",
+        "isCorrect": true
+      },
+      {
+        "text": "Hamza ibn Abdul-Muttalib",
+        "isCorrect": false
+      },
+      {
+        "text": "Abu Bakr al-Siddiq",
+        "isCorrect": false
+      },
+      {
+        "text": "Ali ibn Abi Talib",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2137,
+    "question": "Who is known for spreading Islam to the people of Indonesia?",
+    "slug": "who-is-known-for-spreading-islam-to-the-people-of-indonesia",
+    "explanation": "Islam was spread to Indonesia primarily by traders and missionaries, but the most prominent figure known for this was Sheikh Ali Imam, who played a key role in converting the population in the 13th century.",
+    "tags": ["Sheikh Ali Imam", "Islam", "Indonesia"],
+    "options": [
+      {
+        "text": "Sheikh Ali Imam",
+        "isCorrect": true
+      },
+      {
+        "text": "Ibn Battuta",
+        "isCorrect": false
+      },
+      {
+        "text": "Zayd ibn Thabit",
+        "isCorrect": false
+      },
+      {
+        "text": "Al-Ghazali",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2138,
+    "question": "Who wrote the famous book 'Al-Muwatta'?",
+    "slug": "who-wrote-the-famous-book-al-muwatta",
+    "explanation": "'Al-Muwatta' was written by Imam Malik ibn Anas. It is one of the earliest and most respected books in Islamic jurisprudence.",
+    "tags": ["Imam Malik", "Al-Muwatta", "Islamic jurisprudence"],
+    "options": [
+      {
+        "text": "Imam Malik ibn Anas",
+        "isCorrect": true
+      },
+      {
+        "text": "Imam Bukhari",
+        "isCorrect": false
+      },
+      {
+        "text": "Imam Muslim",
+        "isCorrect": false
+      },
+      {
+        "text": "Imam Abu Hanifa",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2139,
+    "question": "Who was the first person to embrace Islam in Medina?",
+    "slug": "who-was-the-first-person-to-embrace-islam-in-medina",
+    "explanation": "The first person to embrace Islam in Medina was As'ad ibn Zurarah, who was among the first to accept Islam in the city and later became one of the early companions of Prophet Muhammad (PBUH).",
+    "tags": ["As'ad ibn Zurarah", "Medina", "Islam"],
+    "options": [
+      {
+        "text": "As'ad ibn Zurarah",
+        "isCorrect": true
+      },
+      {
+        "text": "Abu Bakr al-Siddiq",
+        "isCorrect": false
+      },
+      {
+        "text": "Umar ibn al-Khattab",
+        "isCorrect": false
+      },
+      {
+        "text": "Ali ibn Abi Talib",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2140,
+    "question": "Who is known as the 'Sword of Allah' for his military leadership?",
+    "slug": "who-is-known-as-the-sword-of-allah-for-his-military-leadership",
+    "explanation": "The title 'Sword of Allah' was given to Khalid ibn al-Walid due to his exceptional military leadership and victories in the early Islamic conquests.",
+    "tags": ["Khalid ibn al-Walid", "Sword of Allah", "Islamic leadership"],
+    "options": [
+      {
+        "text": "Khalid ibn al-Walid",
+        "isCorrect": true
+      },
+      {
+        "text": "Umar ibn al-Khattab",
+        "isCorrect": false
+      },
+      {
+        "text": "Ali ibn Abi Talib",
+        "isCorrect": false
+      },
+      {
+        "text": "Abu Bakr al-Siddiq",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2141,
+    "question": "Who is the founder of the Fatimid dynasty in Islam?",
+    "slug": "who-is-the-founder-of-the-fatimid-dynasty-in-islam",
+    "explanation": "The founder of the Fatimid dynasty in Islam was Al-Mahdi Billah, who established the dynasty in 909 CE in North Africa, claiming descent from Fatimah, the daughter of Prophet Muhammad (PBUH).",
+    "tags": ["Fatimid dynasty", "Al-Mahdi Billah", "Islamic history"],
+    "options": [
+      {
+        "text": "Al-Mahdi Billah",
+        "isCorrect": true
+      },
+      {
+        "text": "Abu Muslim",
+        "isCorrect": false
+      },
+      {
+        "text": "Al-Qaim",
+        "isCorrect": false
+      },
+      {
+        "text": "Ubayd Allah al-Mahdi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2142,
+    "question": "Who compiled the Hadiths of the Prophet Muhammad (PBUH)?",
+    "slug": "who-compiled-the-hadiths-of-the-prophet-muhammad-pbuh",
+    "explanation": "The Hadiths of the Prophet Muhammad (PBUH) were compiled by several scholars, with the most famous being Imam Bukhari, who compiled 'Sahih Bukhari', one of the most authoritative collections of Hadiths.",
+    "tags": ["Imam Bukhari", "Hadith", "Islamic scholarship"],
+    "options": [
+      {
+        "text": "Imam Bukhari",
+        "isCorrect": true
+      },
+      {
+        "text": "Imam Muslim",
+        "isCorrect": false
+      },
+      {
+        "text": "Imam Malik",
+        "isCorrect": false
+      },
+      {
+        "text": "Imam Abu Hanifa",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2143,
+    "question": "Who was the first caliph of the Abbasid dynasty?",
+    "slug": "who-was-the-first-caliph-of-the-abbasid-dynasty",
+    "explanation": "The first caliph of the Abbasid dynasty was Al-Saffah, who founded the dynasty in 750 CE after overthrowing the Umayyad caliphate.",
+    "tags": ["Abbasid dynasty", "Al-Saffah", "Islamic history"],
+    "options": [
+      {
+        "text": "Al-Saffah",
+        "isCorrect": true
+      },
+      {
+        "text": "Al-Mansur",
+        "isCorrect": false
+      },
+      {
+        "text": "Al-Mahdi",
+        "isCorrect": false
+      },
+      {
+        "text": "Al-Rashid",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2144,
+    "question": "Who was the first Muslim to perform Hajj?",
+    "slug": "who-was-the-first-muslim-to-perform-hajj",
+    "explanation": "The first Muslim to perform Hajj was Prophet Muhammad (PBUH) in 630 CE, after the conquest of Mecca. This event is known as the Farewell Pilgrimage.",
+    "tags": ["Prophet Muhammad", "Hajj", "Islamic history"],
+    "options": [
+      {
+        "text": "Prophet Muhammad (PBUH)",
+        "isCorrect": true
+      },
+      {
+        "text": "Abu Bakr al-Siddiq",
+        "isCorrect": false
+      },
+      {
+        "text": "Umar ibn al-Khattab",
+        "isCorrect": false
+      },
+      {
+        "text": "Ali ibn Abi Talib",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2145,
+    "question": "Who was the first to invent the Islamic way of the calendar?",
+    "slug": "who-was-the-first-to-invent-the-islamic-way-of-the-calendar",
+    "explanation": "The first to invent the Islamic calendar was Caliph Umar ibn al-Khattab, who established the lunar-based calendar in 638 CE to better align the Muslim community's activities and rituals.",
+    "tags": ["Umar ibn al-Khattab", "Islamic calendar", "history"],
+    "options": [
+      {
+        "text": "Umar ibn al-Khattab",
+        "isCorrect": true
+      },
+      {
+        "text": "Abu Bakr al-Siddiq",
+        "isCorrect": false
+      },
+      {
+        "text": "Ali ibn Abi Talib",
+        "isCorrect": false
+      },
+      {
+        "text": "Uthman ibn Affan",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2146,
+    "question": "Who wrote 'The Book of Knowledge' in Islamic tradition?",
+    "slug": "who-wrote-the-book-of-knowledge-in-islamic-tradition",
+    "explanation": "'The Book of Knowledge' (Kitab al-Ilm) was written by Imam Abu Hanifa, who was one of the greatest Islamic scholars and the founder of the Hanafi school of thought.",
+    "tags": ["Imam Abu Hanifa", "Islamic tradition", "knowledge"],
+    "options": [
+      {
+        "text": "Imam Abu Hanifa",
+        "isCorrect": true
+      },
+      {
+        "text": "Imam Malik",
+        "isCorrect": false
+      },
+      {
+        "text": "Imam Bukhari",
+        "isCorrect": false
+      },
+      {
+        "text": "Imam Shafi'i",
+        "isCorrect": false
+      }
+    ]
+  }
 ]

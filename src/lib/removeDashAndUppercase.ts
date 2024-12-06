@@ -1,7 +1,5 @@
 function removeDashAndUppercase(slug: string): string {
-    return slug.replace(/-/g, " ").toUpperCase();
+  return slug.replace(/-/g, " ").toUpperCase();
 }
 
-export {
-    removeDashAndUppercase
-}
+export { removeDashAndUppercase };

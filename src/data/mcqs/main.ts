@@ -6732,13 +6732,11 @@
 //             "id": 766
 //         },
 
-
-
-// give me this to above format and add more related that 
+// give me this to above format and add more related that
 
 // Google trends
-// keywordstools or keword shetter or google auto complete 
-// chatgpt asking about 
+// keywordstools or keword shetter or google auto complete
+// chatgpt asking about
 // Add Contextual Phrases
 // -- Informational Context
 // -- Visiting Context
@@ -6747,8 +6745,6 @@
 // -- Geographical Context
 // -- Historical Context
 // -- Miscellaneous Context
-
-
 
 // dam
 // mohmand dam
@@ -6763,12 +6759,11 @@
 // awan dam
 // duber khwar hydroelectric plant
 
-// river 
+// river
 // Kabul river
 // Indus river
 // Jhelum river
 // Swat river
-
 
 // Who started Mohmand Dam?
 // Who is funding Mohmand Dam?

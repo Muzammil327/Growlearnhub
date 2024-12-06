@@ -17,7 +17,7 @@ const data = {
   ],
   image: "/vu/vu_final_term_mcqs.webp",
   canonical: "/vu/final-mcqs/",
-  url: "https://growlearnhub.com/vu/final-mcqs/",
+  url: "https://www.growlearnhub.com/vu/final-mcqs/",
   index: true,
   follow: true,
 };

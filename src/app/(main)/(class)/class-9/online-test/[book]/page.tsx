@@ -1,47 +1,53 @@
-import React from "react"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import { removeDashAndUppercase } from "@/src/lib/removeDashAndUppercase"
-import ShowChapter from "@/src/app/(main)/mcqs-point/_components/ShowChapter"
+import React from "react";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import { removeDashAndUppercase } from "@/src/lib/removeDashAndUppercase";
+import ShowChapter from "@/src/app/(main)/mcqs-point/_components/ShowChapter";
 
 interface McqsBook {
-  book: string
+  book: string;
 }
 
 interface PageProps {
   params: Promise<McqsBook>;
 }
 
-let image = "/9th/class_9_online_test.webp"
+let image = "/9th/class_9_online_test.webp";
 
 export default async function page({ params }: PageProps) {
   const { book } = await params;
-  const slug = book
+  const slug = book;
   const SlugRemoveDashAndUppercase = removeDashAndUppercase(slug);
 
   return (
-    <SimpleWrapper data={{
-      title: "Class 9 " + SlugRemoveDashAndUppercase + " " + "Online Test",
-      canonical: `/class-9/online-test/${slug}`,
-      image: image,
-      url: `https://growlearnhub.com/class-9/online-test/${slug}`,
-    }}>
+    <SimpleWrapper
+      data={{
+        title: "Class 9 " + SlugRemoveDashAndUppercase + " " + "Online Test",
+        canonical: `/class-9/online-test/${slug}`,
+        image: image,
+        url: `https://www.growlearnhub.com/class-9/online-test/${slug}`,
+      }}
+    >
       <ShowChapter className="class-9" book={slug} />
     </SimpleWrapper>
-  )
+  );
 }
 
 export async function generateMetadata({ params }: PageProps) {
   const { book } = await params;
-  const slug = book
+  const slug = book;
   let url = `${process.env.NEXT_PUBLIC_SITE_URL}/class-9/online-test/${slug}/`;
   let canonical = `/class-9/online-test/${slug}/`;
 
   const SlugRemoveDashAndUppercase = removeDashAndUppercase(slug);
 
   try {
-
     let title = "Class 9 " + SlugRemoveDashAndUppercase + " " + "Online Test";
-    let description = "Class 9" + " " + SlugRemoveDashAndUppercase + " " + "Online Test page offering a wide range of practice questions, online tests, and detailed answers for thorough exam preparation.";
+    let description =
+      "Class 9" +
+      " " +
+      SlugRemoveDashAndUppercase +
+      " " +
+      "Online Test page offering a wide range of practice questions, online tests, and detailed answers for thorough exam preparation.";
     let keywords = [
       "class 9 biology online test",
       "class 9 chemistry online test",
@@ -49,7 +55,7 @@ export async function generateMetadata({ params }: PageProps) {
       "class 9 physics online test",
       "class 9 history online test",
       "class 9 geography online test",
-    ]
+    ];
 
     return {
       title: title,
@@ -101,7 +107,8 @@ export async function generateMetadata({ params }: PageProps) {
       openGraph: {
         title: "Error",
         description: "Unable to fetch product data",
-        url: url, images: [
+        url: url,
+        images: [
           {
             url: "/default-error-image.jpg",
             alt: "Error",

@@ -16,7 +16,7 @@ const data = {
     "class 10 ikhlaqiat book punjab board",
   ],
   canonical: "/class-10/books/punjab-board-ikhlaqiat/",
-  url: "https://growlearnhub.com/class-10/books/punjab-board-ikhlaqiat/",
+  url: "https://www.growlearnhub.com/class-10/books/punjab-board-ikhlaqiat/",
   index: true,
   follow: true,
   fileId_urdu: "1fwK6qscOFekmeFq0XIPVeN9Ww3eBg6jF",

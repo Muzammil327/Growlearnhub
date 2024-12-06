@@ -1,8 +1,7 @@
-import React from "react"
-import { Metadata } from "next"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import Link from "next/link"
-
+import React from "react";
+import { Metadata } from "next";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import Link from "next/link";
 
 const data = {
   title: "VU PAK302 Handouts Pdf Download",
@@ -12,21 +11,17 @@ const data = {
   index: true,
   follow: true,
   image: "/vu/handouts/pak302_handouts.webp",
-  url: "https://growlearnhub.com/vu/handouts/pak302/",
-  keywords: [
-  ]
-}
+  url: "https://www.growlearnhub.com/vu/handouts/pak302/",
+  keywords: [],
+};
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
       <p className="p5">
         Welcome to your one-stop source for <em>PAK302 Handouts</em> from
-        <Link href="https://www.vu.edu.pk/">
-          Virtual University (VU)
-        </Link>
-        . Download the handouts in PDF format for free and study at your own
-        pace.
+        <Link href="https://www.vu.edu.pk/">Virtual University (VU)</Link>.
+        Download the handouts in PDF format for free and study at your own pace.
       </p>
       <h3>Download VU Pak302 Handouts</h3>
       <p>
@@ -34,7 +29,7 @@ export default function Page() {
         book is officially published by Virtual University Of Pakistan.
       </p>
     </SimpleWrapper>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -48,27 +43,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

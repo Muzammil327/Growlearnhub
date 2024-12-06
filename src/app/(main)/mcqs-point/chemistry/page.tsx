@@ -13,7 +13,7 @@ const data = {
   index: true,
   follow: true,
   image: "/mcqs_point/chemistry_mcqs_point.png",
-  url: "https://growlearnhub.com/mcqs-point/chemistry/",
+  url: "https://www.growlearnhub.com/mcqs-point/chemistry/",
   keywords: ["mcqs", "quiz", "mcqs chemistry", "chemistry mcqs"],
 };
 

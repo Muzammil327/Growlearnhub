@@ -1,8 +1,8 @@
-import React from "react"
-import { Metadata } from "next"
-import Link from "next/link"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import PDFViewer from "@/src/components/elements/PDFViewer"
+import React from "react";
+import { Metadata } from "next";
+import Link from "next/link";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import PDFViewer from "@/src/components/elements/PDFViewer";
 
 const data = {
   title: "VU CS101 Handouts Pdf Download",
@@ -12,27 +12,24 @@ const data = {
   index: true,
   follow: true,
   image: "/vu/handouts/cs101_handouts.webp",
-  url: "https://growlearnhub.com/vu/handouts/cs101/",
+  url: "https://www.growlearnhub.com/vu/handouts/cs101/",
   keywords: [
     "growlearnhub",
     "vu cs101 handouts",
     "growlearnhub cs101 handouts",
     "cs101 handouts",
-    "virtual university cs101 handouts"
+    "virtual university cs101 handouts",
   ],
-  fileId: "18dIWS9OYq2p-k_8c019Wve5miBUj6yX8"
-}
+  fileId: "18dIWS9OYq2p-k_8c019Wve5miBUj6yX8",
+};
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
       <p className="p5">
         Welcome to your one-stop source for <em>CS101 Handouts</em> from
-        <Link href="https://www.vu.edu.pk/">
-          Virtual University (VU)
-        </Link>
-        . Download the handouts in PDF format for free and study at your own
-        pace.
+        <Link href="https://www.vu.edu.pk/">Virtual University (VU)</Link>.
+        Download the handouts in PDF format for free and study at your own pace.
       </p>
 
       <h3>Download VU CS101 Handouts</h3>
@@ -52,7 +49,7 @@ export default function Page() {
       </p>
       <PDFViewer pdfUrl={data.fileId} />
     </SimpleWrapper>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -66,27 +63,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

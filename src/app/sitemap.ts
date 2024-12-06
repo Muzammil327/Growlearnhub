@@ -4,13 +4,13 @@ type SitemapFile = {
   url: string;
   lastModified?: string | Date;
   changeFrequency?:
-  | "always"
-  | "daily"
-  | "hourly"
-  | "weekly"
-  | "monthly"
-  | "yearly"
-  | "never";
+    | "always"
+    | "daily"
+    | "hourly"
+    | "weekly"
+    | "monthly"
+    | "yearly"
+    | "never";
   priority?: number;
 };
 
@@ -18,7 +18,7 @@ const FRONTEND_URL = process.env.NEXT_PUBLIC_SITE_URL;
 
 export default async function sitemap(): Promise<SitemapFile[]> {
   // const response = await axios.get(`${FRONTEND_URL}/api/sitemaps`);
-  const response = await axios.get(`https://growlearnhub.com/api/sitemaps`);
+  const response = await axios.get(`https://www.growlearnhub.com/api/sitemaps`);
   const McqsSlug = response.data;
 
   try {
@@ -562,9 +562,9 @@ const vuroute = [
   "vu/handouts/cs411",
   "vu/handouts/cs432",
   "vu/handouts/cs435",
-  
+
   "vu/handouts/mgt211",
-  
+
   "vu/handouts/eng201",
 
   "vu/handouts/mth001",

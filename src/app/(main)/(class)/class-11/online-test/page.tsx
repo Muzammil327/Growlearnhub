@@ -18,7 +18,7 @@ const data = {
   ],
   image: "/11th/class_11_online_test.webp",
   canonical: "/class-11/online-test/",
-  url: "https://growlearnhub.com/class-11/online-test/",
+  url: "https://www.growlearnhub.com/class-11/online-test/",
   index: true,
   follow: true,
 };

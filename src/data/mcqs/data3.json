@@ -4,11 +4,7 @@
     "name": "What is the main function of the liver?",
     "slug": "what-is-the-main-function-of-the-liver",
     "explanation": "The liver plays a vital role in detoxifying the blood, metabolizing nutrients, and producing bile.",
-    "tags": [
-      "biology",
-      "human-body",
-      "health"
-    ],
+    "tags": ["biology", "human-body", "health"],
     "options": [
       {
         "text": "Detoxifies blood and produces bile",
@@ -33,11 +29,7 @@
     "name": "What is the most widely consumed beverage in the world?",
     "slug": "what-is-the-most-widely-consumed-beverage-in-the-world",
     "explanation": "Tea is the most widely consumed beverage in the world after water, enjoyed in many cultures globally.",
-    "tags": [
-      "beverage",
-      "food",
-      "culture"
-    ],
+    "tags": ["beverage", "food", "culture"],
     "options": [
       {
         "text": "Tea",
@@ -62,11 +54,7 @@
     "name": "Which famous landmark is located in Paris?",
     "slug": "which-famous-landmark-is-located-in-paris",
     "explanation": "The Eiffel Tower is a world-famous landmark located in Paris, France, and is one of the most recognizable structures globally.",
-    "tags": [
-      "landmark",
-      "Paris",
-      "travel"
-    ],
+    "tags": ["landmark", "Paris", "travel"],
     "options": [
       {
         "text": "Eiffel Tower",
@@ -91,11 +79,7 @@
     "name": "What is the primary function of the brain?",
     "slug": "what-is-the-primary-function-of-the-brain",
     "explanation": "The brain controls bodily functions, processes sensory information, and coordinates voluntary and involuntary actions.",
-    "tags": [
-      "biology",
-      "human-body",
-      "health"
-    ],
+    "tags": ["biology", "human-body", "health"],
     "options": [
       {
         "text": "Controls bodily functions and processes information",
@@ -120,11 +104,7 @@
     "name": "What is the primary ingredient in sushi?",
     "slug": "what-is-the-primary-ingredient-in-sushi",
     "explanation": "The primary ingredient in sushi is vinegared rice, which is combined with other ingredients like seafood and vegetables.",
-    "tags": [
-      "food",
-      "cuisine",
-      "sushi"
-    ],
+    "tags": ["food", "cuisine", "sushi"],
     "options": [
       {
         "text": "Rice",
@@ -149,11 +129,7 @@
     "name": "What is the largest land animal?",
     "slug": "what-is-the-largest-land-animal",
     "explanation": "The African elephant is the largest land animal, known for its size and weight, with males reaching up to 6,000 kilograms.",
-    "tags": [
-      "animal",
-      "biology",
-      "wildlife"
-    ],
+    "tags": ["animal", "biology", "wildlife"],
     "options": [
       {
         "text": "African Elephant",
@@ -178,11 +154,7 @@
     "name": "Which element has the atomic number 1?",
     "slug": "which-element-has-the-atomic-number-1",
     "explanation": "Hydrogen, the lightest and most abundant element in the universe, has the atomic number 1.",
-    "tags": [
-      "chemistry",
-      "science",
-      "elements"
-    ],
+    "tags": ["chemistry", "science", "elements"],
     "options": [
       {
         "text": "Hydrogen",
@@ -207,11 +179,7 @@
     "name": "What is the largest continent on Earth?",
     "slug": "what-is-the-largest-continent-on-earth",
     "explanation": "Asia is the largest continent, covering about 44.58 million square kilometers and housing the majority of the world's population.",
-    "tags": [
-      "geography",
-      "continents",
-      "world"
-    ],
+    "tags": ["geography", "continents", "world"],
     "options": [
       {
         "text": "Asia",
@@ -236,11 +204,7 @@
     "name": "Which is the deepest lake in the world?",
     "slug": "which-is-the-deepest-lake-in-the-world",
     "explanation": "Lake Baikal, located in Siberia, Russia, is the deepest lake in the world, with a depth of about 1,642 meters.",
-    "tags": [
-      "geography",
-      "lakes",
-      "world"
-    ],
+    "tags": ["geography", "lakes", "world"],
     "options": [
       {
         "text": "Lake Baikal",
@@ -265,11 +229,7 @@
     "name": "Which animal is known to have the longest lifespan?",
     "slug": "which-animal-is-known-to-have-the-longest-lifespan",
     "explanation": "The Greenland shark is known to have the longest lifespan among vertebrates, living up to 400 years.",
-    "tags": [
-      "biology",
-      "animal",
-      "lifespan"
-    ],
+    "tags": ["biology", "animal", "lifespan"],
     "options": [
       {
         "text": "Greenland Shark",
@@ -294,11 +254,7 @@
     "name": "What is the primary ingredient in bread?",
     "slug": "what-is-the-primary-ingredient-in-bread",
     "explanation": "Flour is the main ingredient used in making bread, providing its structure and texture.",
-    "tags": [
-      "food",
-      "cooking",
-      "ingredients"
-    ],
+    "tags": ["food", "cooking", "ingredients"],
     "options": [
       {
         "text": "Flour",
@@ -323,11 +279,7 @@
     "name": "Which gas is responsible for the greenhouse effect?",
     "slug": "which-gas-is-responsible-for-the-greenhouse-effect",
     "explanation": "Carbon dioxide is a major greenhouse gas, contributing to global warming.",
-    "tags": [
-      "environment",
-      "science",
-      "climate"
-    ],
+    "tags": ["environment", "science", "climate"],
     "options": [
       {
         "text": "Carbon dioxide",
@@ -352,11 +304,7 @@
     "name": "What is the main gas in the Earth's atmosphere?",
     "slug": "what-is-the-main-gas-in-the-earths-atmosphere",
     "explanation": "Nitrogen makes up about 78% of the Earth's atmosphere, making it the primary component.",
-    "tags": [
-      "science",
-      "atmosphere",
-      "earth"
-    ],
+    "tags": ["science", "atmosphere", "earth"],
     "options": [
       {
         "text": "Nitrogen",
@@ -381,11 +329,7 @@
     "name": "Which instrument measures temperature?",
     "slug": "which-instrument-measures-temperature",
     "explanation": "A thermometer is a device used to measure temperature, commonly in degrees Celsius or Fahrenheit.",
-    "tags": [
-      "science",
-      "instrument",
-      "temperature"
-    ],
+    "tags": ["science", "instrument", "temperature"],
     "options": [
       {
         "text": "Thermometer",
@@ -410,11 +354,7 @@
     "name": "What is the official language of China?",
     "slug": "what-is-the-official-language-of-china",
     "explanation": "Mandarin Chinese is the official language of China, also known as Putonghua.",
-    "tags": [
-      "language",
-      "geography",
-      "china"
-    ],
+    "tags": ["language", "geography", "china"],
     "options": [
       {
         "text": "Mandarin",
@@ -439,11 +379,7 @@
     "name": "Which element is represented by the symbol 'Na'?",
     "slug": "which-element-is-represented-by-the-symbol-na",
     "explanation": "Sodium is represented by the symbol 'Na' in the periodic table, derived from its Latin name, Natrium.",
-    "tags": [
-      "chemistry",
-      "elements",
-      "science"
-    ],
+    "tags": ["chemistry", "elements", "science"],
     "options": [
       {
         "text": "Sodium",
@@ -468,11 +404,7 @@
     "name": "What is the most populous country in the world?",
     "slug": "what-is-the-most-populous-country-in-the-world",
     "explanation": "China is the most populous country in the world, with over 1.4 billion people as of the latest estimates.",
-    "tags": [
-      "geography",
-      "population",
-      "world"
-    ],
+    "tags": ["geography", "population", "world"],
     "options": [
       {
         "text": "China",
@@ -497,11 +429,7 @@
     "name": "Which part of the plant conducts photosynthesis?",
     "slug": "which-part-of-the-plant-conducts-photosynthesis",
     "explanation": "The leaves are the primary site of photosynthesis in plants, where sunlight is converted into energy.",
-    "tags": [
-      "biology",
-      "plants",
-      "photosynthesis"
-    ],
+    "tags": ["biology", "plants", "photosynthesis"],
     "options": [
       {
         "text": "Leaves",
@@ -526,11 +454,7 @@
     "name": "Which is the smallest planet in our solar system?",
     "slug": "which-is-the-smallest-planet-in-our-solar-system",
     "explanation": "Mercury is the smallest planet in the solar system, with a diameter of about 4,880 kilometers.",
-    "tags": [
-      "astronomy",
-      "planets",
-      "solar system"
-    ],
+    "tags": ["astronomy", "planets", "solar system"],
     "options": [
       {
         "text": "Mercury",
@@ -555,11 +479,7 @@
     "name": "Human Rights Watch (HRW) was founded in 1978 as:",
     "slug": "human-rights-watch-hrw-was-founded-in-1978-as",
     "explanation": "Human Rights Watch was initially established as 'Helsinki Watch' to monitor the Soviet Union's compliance with the Helsinki Accords.",
-    "tags": [
-      "human rights",
-      "history",
-      "organizations"
-    ],
+    "tags": ["human rights", "history", "organizations"],
     "options": [
       {
         "text": "Helsinki Watch",
@@ -584,11 +504,7 @@
     "name": "What is the currency of Australia?",
     "slug": "what-is-the-currency-of-australia",
     "explanation": "The Australian Dollar (AUD) is the official currency of Australia.",
-    "tags": [
-      "geography",
-      "economy",
-      "currency"
-    ],
+    "tags": ["geography", "economy", "currency"],
     "options": [
       {
         "text": "Australian Dollar",
@@ -613,11 +529,7 @@
     "name": "What is the boiling point of water in Celsius?",
     "slug": "what-is-the-boiling-point-of-water-in-celsius",
     "explanation": "Water boils at 100 degrees Celsius under standard atmospheric pressure.",
-    "tags": [
-      "science",
-      "physics",
-      "temperature"
-    ],
+    "tags": ["science", "physics", "temperature"],
     "options": [
       {
         "text": "100°C",
@@ -642,11 +554,7 @@
     "name": "Which planet is the hottest in the solar system?",
     "slug": "which-planet-is-the-hottest-in-the-solar-system",
     "explanation": "Venus is the hottest planet in the solar system due to its thick atmosphere trapping heat through the greenhouse effect.",
-    "tags": [
-      "astronomy",
-      "planets",
-      "solar system"
-    ],
+    "tags": ["astronomy", "planets", "solar system"],
     "options": [
       {
         "text": "Venus",
@@ -671,11 +579,7 @@
     "name": "Which vitamin is produced when the skin is exposed to sunlight?",
     "slug": "which-vitamin-is-produced-when-the-skin-is-exposed-to-sunlight",
     "explanation": "Vitamin D is synthesized in the skin upon exposure to sunlight.",
-    "tags": [
-      "health",
-      "vitamins",
-      "biology"
-    ],
+    "tags": ["health", "vitamins", "biology"],
     "options": [
       {
         "text": "Vitamin D",
@@ -700,11 +604,7 @@
     "name": "What is the largest island in the world?",
     "slug": "what-is-the-largest-island-in-the-world",
     "explanation": "Greenland is the largest island in the world, located between the Arctic and Atlantic Oceans.",
-    "tags": [
-      "geography",
-      "island",
-      "world"
-    ],
+    "tags": ["geography", "island", "world"],
     "options": [
       {
         "text": "Greenland",
@@ -729,11 +629,7 @@
     "name": "What is the primary language spoken in Argentina?",
     "slug": "what-is-the-primary-language-spoken-in-argentina",
     "explanation": "Spanish is the official and primary language spoken in Argentina.",
-    "tags": [
-      "language",
-      "geography",
-      "argentina"
-    ],
+    "tags": ["language", "geography", "argentina"],
     "options": [
       {
         "text": "Spanish",
@@ -758,11 +654,7 @@
     "name": "Which animal is the largest land carnivore?",
     "slug": "which-animal-is-the-largest-land-carnivore",
     "explanation": "The polar bear is the largest land carnivore, weighing up to 1,500 pounds.",
-    "tags": [
-      "animals",
-      "biology",
-      "carnivores"
-    ],
+    "tags": ["animals", "biology", "carnivores"],
     "options": [
       {
         "text": "Polar Bear",
@@ -787,11 +679,7 @@
     "name": "Which chemical element has the symbol 'O'?",
     "slug": "which-chemical-element-has-the-symbol-o",
     "explanation": "Oxygen is represented by the symbol 'O' and is essential for life on Earth.",
-    "tags": [
-      "chemistry",
-      "elements",
-      "science"
-    ],
+    "tags": ["chemistry", "elements", "science"],
     "options": [
       {
         "text": "Oxygen",
@@ -816,11 +704,7 @@
     "name": "Who wrote 'Romeo and Juliet'?",
     "slug": "who-wrote-romeo-and-juliet",
     "explanation": "William Shakespeare wrote 'Romeo and Juliet,' one of the most famous tragic plays in literature.",
-    "tags": [
-      "literature",
-      "authors",
-      "classics"
-    ],
+    "tags": ["literature", "authors", "classics"],
     "options": [
       {
         "text": "William Shakespeare",
@@ -845,11 +729,7 @@
     "name": "Which continent is the Sahara Desert located in?",
     "slug": "which-continent-is-the-sahara-desert-located-in",
     "explanation": "The Sahara Desert, the largest hot desert in the world, is located in Africa.",
-    "tags": [
-      "geography",
-      "deserts",
-      "africa"
-    ],
+    "tags": ["geography", "deserts", "africa"],
     "options": [
       {
         "text": "Africa",
@@ -874,11 +754,7 @@
     "name": "Which ocean is located between Africa and Australia?",
     "slug": "which-ocean-is-located-between-africa-and-australia",
     "explanation": "The Indian Ocean lies between the continents of Africa and Australia.",
-    "tags": [
-      "geography",
-      "oceans",
-      "world"
-    ],
+    "tags": ["geography", "oceans", "world"],
     "options": [
       {
         "text": "Indian Ocean",
@@ -903,11 +779,7 @@
     "name": "Which country is known for the Eiffel Tower?",
     "slug": "which-country-is-known-for-the-eiffel-tower",
     "explanation": "The Eiffel Tower, one of the world's most iconic landmarks, is located in France.",
-    "tags": [
-      "geography",
-      "landmarks",
-      "france"
-    ],
+    "tags": ["geography", "landmarks", "france"],
     "options": [
       {
         "text": "France",
@@ -932,11 +804,7 @@
     "name": "What is the most common gas in the Earth's atmosphere?",
     "slug": "what-is-the-most-common-gas-in-the-earths-atmosphere",
     "explanation": "Nitrogen makes up about 78% of the Earth's atmosphere, making it the most abundant gas.",
-    "tags": [
-      "science",
-      "atmosphere",
-      "earth"
-    ],
+    "tags": ["science", "atmosphere", "earth"],
     "options": [
       {
         "text": "Nitrogen",
@@ -961,11 +829,7 @@
     "name": "What is the primary color of a banana?",
     "slug": "what-is-the-primary-color-of-a-banana",
     "explanation": "The peel of a ripe banana is yellow, which is its most recognizable color.",
-    "tags": [
-      "biology",
-      "food",
-      "fruits"
-    ],
+    "tags": ["biology", "food", "fruits"],
     "options": [
       {
         "text": "Yellow",
@@ -990,11 +854,7 @@
     "name": "The World Tourism Day is observed every year on?",
     "slug": "the-world-tourism-day-is-observed-every-year-on",
     "explanation": "World Tourism Day is observed on September 27th to raise awareness about the importance of tourism.",
-    "tags": [
-      "events",
-      "tourism",
-      "global"
-    ],
+    "tags": ["events", "tourism", "global"],
     "options": [
       {
         "text": "September 27",
@@ -1019,11 +879,7 @@
     "name": "What is the main ingredient of hummus?",
     "slug": "what-is-the-main-ingredient-of-hummus",
     "explanation": "Hummus is primarily made from chickpeas blended with tahini, olive oil, and seasonings.",
-    "tags": [
-      "food",
-      "cuisine",
-      "ingredients"
-    ],
+    "tags": ["food", "cuisine", "ingredients"],
     "options": [
       {
         "text": "Chickpeas",
@@ -1048,11 +904,7 @@
     "name": "Which country is famous for its pyramids?",
     "slug": "which-country-is-famous-for-its-pyramids",
     "explanation": "Egypt is renowned for its ancient pyramids, including the Great Pyramid of Giza.",
-    "tags": [
-      "geography",
-      "landmarks",
-      "egypt"
-    ],
+    "tags": ["geography", "landmarks", "egypt"],
     "options": [
       {
         "text": "Egypt",
@@ -1077,11 +929,7 @@
     "name": "What is the national flower of Japan?",
     "slug": "what-is-the-national-flower-of-japan",
     "explanation": "The cherry blossom, or 'Sakura,' is the national flower of Japan and a cultural symbol.",
-    "tags": [
-      "culture",
-      "japan",
-      "flowers"
-    ],
+    "tags": ["culture", "japan", "flowers"],
     "options": [
       {
         "text": "Cherry Blossom",
@@ -1106,11 +954,7 @@
     "name": "What is the primary diet of a panda?",
     "slug": "what-is-the-primary-diet-of-a-panda",
     "explanation": "Pandas primarily eat bamboo, which constitutes over 99% of their diet.",
-    "tags": [
-      "animals",
-      "pandas",
-      "diet"
-    ],
+    "tags": ["animals", "pandas", "diet"],
     "options": [
       {
         "text": "Bamboo",
@@ -1135,11 +979,7 @@
     "name": "What is the primary ingredient in a Margherita pizza?",
     "slug": "what-is-the-primary-ingredient-in-a-margherita-pizza",
     "explanation": "A Margherita pizza features mozzarella cheese, tomato sauce, and fresh basil.",
-    "tags": [
-      "food",
-      "pizza",
-      "ingredients"
-    ],
+    "tags": ["food", "pizza", "ingredients"],
     "options": [
       {
         "text": "Tomato Sauce",
@@ -1164,11 +1004,7 @@
     "name": "What is the freezing point of water in Celsius?",
     "slug": "what-is-the-freezing-point-of-water-in-celsius",
     "explanation": "Water freezes at 0°C, which is its standard freezing point.",
-    "tags": [
-      "science",
-      "temperature",
-      "water"
-    ],
+    "tags": ["science", "temperature", "water"],
     "options": [
       {
         "text": "0°C",
@@ -1193,11 +1029,7 @@
     "name": "What is the freezing point of water?",
     "slug": "what-is-the-freezing-point-of-water",
     "explanation": "Water freezes at 0 degrees Celsius under standard atmospheric conditions.",
-    "tags": [
-      "science",
-      "physics",
-      "temperature"
-    ],
+    "tags": ["science", "physics", "temperature"],
     "options": [
       {
         "text": "0°C",
@@ -1222,11 +1054,7 @@
     "name": "Which vitamin is known as ascorbic acid?",
     "slug": "which-vitamin-is-known-as-ascorbic-acid",
     "explanation": "Vitamin C, also known as ascorbic acid, is essential for the repair of tissues and the immune system.",
-    "tags": [
-      "health",
-      "vitamins",
-      "nutrition"
-    ],
+    "tags": ["health", "vitamins", "nutrition"],
     "options": [
       {
         "text": "Vitamin C",
@@ -1251,11 +1079,7 @@
     "name": "What is the chemical symbol for sodium?",
     "slug": "what-is-the-chemical-symbol-for-sodium",
     "explanation": "The chemical symbol for sodium is 'Na', derived from its Latin name 'Natrium'.",
-    "tags": [
-      "chemistry",
-      "elements",
-      "symbols"
-    ],
+    "tags": ["chemistry", "elements", "symbols"],
     "options": [
       {
         "text": "Na",
@@ -1280,11 +1104,7 @@
     "name": "Which ocean is the Bermuda Triangle located in?",
     "slug": "which-ocean-is-the-bermuda-triangle-located-in",
     "explanation": "The Bermuda Triangle is located in the Atlantic Ocean, known for its mysterious disappearances.",
-    "tags": [
-      "geography",
-      "oceans",
-      "mysteries"
-    ],
+    "tags": ["geography", "oceans", "mysteries"],
     "options": [
       {
         "text": "Atlantic Ocean",
@@ -1309,11 +1129,7 @@
     "name": "What is the main source of energy for the Earth?",
     "slug": "what-is-the-main-source-of-energy-for-the-earth",
     "explanation": "The Sun is the primary source of energy, providing light and heat essential for life on Earth.",
-    "tags": [
-      "science",
-      "energy",
-      "earth"
-    ],
+    "tags": ["science", "energy", "earth"],
     "options": [
       {
         "text": "The Sun",
@@ -1338,11 +1154,7 @@
     "name": "What is the main organ of the human circulatory system?",
     "slug": "what-is-the-main-organ-of-the-human-circulatory-system",
     "explanation": "The heart is the primary organ responsible for pumping blood throughout the body.",
-    "tags": [
-      "biology",
-      "human body",
-      "circulatory system"
-    ],
+    "tags": ["biology", "human body", "circulatory system"],
     "options": [
       {
         "text": "Heart",
@@ -1367,11 +1179,7 @@
     "name": "World Teachers’ Day is celebrated on?",
     "slug": "world-teachers-day-is-celebrated-on",
     "explanation": "World Teachers’ Day is celebrated on October 5 every year to honor teachers and their contributions to education.",
-    "tags": [
-      "education",
-      "celebration",
-      "teachers"
-    ],
+    "tags": ["education", "celebration", "teachers"],
     "options": [
       {
         "text": "October 5",
@@ -1396,11 +1204,7 @@
     "name": "World Environment Day is celebrated on?",
     "slug": "world-environment-day-is-celebrated-on",
     "explanation": "World Environment Day is celebrated on June 5 to encourage awareness and action for the protection of the environment.",
-    "tags": [
-      "environment",
-      "celebration",
-      "awareness"
-    ],
+    "tags": ["environment", "celebration", "awareness"],
     "options": [
       {
         "text": "June 5",
@@ -1425,11 +1229,7 @@
     "name": "International Women’s Day is celebrated on?",
     "slug": "international-womens-day-is-celebrated-on",
     "explanation": "International Women’s Day is celebrated on March 8 to honor the social, economic, cultural, and political achievements of women.",
-    "tags": [
-      "women",
-      "celebration",
-      "equality"
-    ],
+    "tags": ["women", "celebration", "equality"],
     "options": [
       {
         "text": "March 8",
@@ -1454,11 +1254,7 @@
     "name": "World Health Day is celebrated on?",
     "slug": "world-health-day-is-celebrated-on",
     "explanation": "World Health Day is celebrated on April 7 to highlight important health issues on a global scale.",
-    "tags": [
-      "health",
-      "celebration",
-      "awareness"
-    ],
+    "tags": ["health", "celebration", "awareness"],
     "options": [
       {
         "text": "April 7",
@@ -1483,11 +1279,7 @@
     "name": "World AIDS Day is celebrated on?",
     "slug": "world-aids-day-is-celebrated-on",
     "explanation": "World AIDS Day is observed on December 1 to raise awareness about HIV/AIDS and remember those who have died from it.",
-    "tags": [
-      "health",
-      "HIV/AIDS",
-      "awareness"
-    ],
+    "tags": ["health", "HIV/AIDS", "awareness"],
     "options": [
       {
         "text": "December 1",
@@ -1512,11 +1304,7 @@
     "name": "World Cancer Day is celebrated on?",
     "slug": "world-cancer-day-is-celebrated-on",
     "explanation": "World Cancer Day is celebrated on February 4 to raise awareness about cancer prevention, detection, and treatment.",
-    "tags": [
-      "health",
-      "cancer",
-      "awareness"
-    ],
+    "tags": ["health", "cancer", "awareness"],
     "options": [
       {
         "text": "February 4",
@@ -1541,11 +1329,7 @@
     "name": "World Water Day is celebrated on?",
     "slug": "world-water-day-is-celebrated-on",
     "explanation": "World Water Day is celebrated on March 22 to highlight the importance of freshwater and sustainable water resources management.",
-    "tags": [
-      "environment",
-      "water",
-      "awareness"
-    ],
+    "tags": ["environment", "water", "awareness"],
     "options": [
       {
         "text": "March 22",
@@ -1570,11 +1354,7 @@
     "name": "Earth Day is celebrated on?",
     "slug": "earth-day-is-celebrated-on",
     "explanation": "Earth Day is celebrated on April 22 to demonstrate support for environmental protection.",
-    "tags": [
-      "environment",
-      "earth",
-      "awareness"
-    ],
+    "tags": ["environment", "earth", "awareness"],
     "options": [
       {
         "text": "April 22",
@@ -1599,11 +1379,7 @@
     "name": "World Refugee Day is celebrated on?",
     "slug": "world-refugee-day-is-celebrated-on",
     "explanation": "World Refugee Day is celebrated on June 20 to honor the strength and courage of refugees worldwide.",
-    "tags": [
-      "refugees",
-      "humanitarian",
-      "awareness"
-    ],
+    "tags": ["refugees", "humanitarian", "awareness"],
     "options": [
       {
         "text": "June 20",
@@ -1628,11 +1404,7 @@
     "name": "World Tourism Day is celebrated on?",
     "slug": "world-tourism-day-is-celebrated-on",
     "explanation": "World Tourism Day is celebrated on September 27 to promote awareness of tourism's role in social, cultural, and economic development.",
-    "tags": [
-      "tourism",
-      "travel",
-      "awareness"
-    ],
+    "tags": ["tourism", "travel", "awareness"],
     "options": [
       {
         "text": "September 27",
@@ -1657,11 +1429,7 @@
     "name": "World Press Freedom Day is celebrated on?",
     "slug": "world-press-freedom-day-is-celebrated-on",
     "explanation": "World Press Freedom Day is celebrated on May 3 to raise awareness about the importance of press freedom and to remind governments of their duty to respect and uphold the right to freedom of expression.",
-    "tags": [
-      "press",
-      "freedom",
-      "awareness"
-    ],
+    "tags": ["press", "freedom", "awareness"],
     "options": [
       {
         "text": "May 3",
@@ -1686,11 +1454,7 @@
     "name": "World Red Cross Day is celebrated on?",
     "slug": "world-red-cross-day-is-celebrated-on",
     "explanation": "World Red Cross Day is celebrated on May 8 to commemorate the principles of the International Red Cross and Red Crescent Movement.",
-    "tags": [
-      "red cross",
-      "humanitarian",
-      "awareness"
-    ],
+    "tags": ["red cross", "humanitarian", "awareness"],
     "options": [
       {
         "text": "May 8",
@@ -1715,11 +1479,7 @@
     "name": "World Oceans Day is celebrated on?",
     "slug": "world-oceans-day-is-celebrated-on",
     "explanation": "World Oceans Day is celebrated on June 8 to raise awareness about the importance of the ocean and the need to protect marine ecosystems.",
-    "tags": [
-      "environment",
-      "oceans",
-      "awareness"
-    ],
+    "tags": ["environment", "oceans", "awareness"],
     "options": [
       {
         "text": "June 8",
@@ -1744,11 +1504,7 @@
     "name": "International Youth Day is celebrated on?",
     "slug": "international-youth-day-is-celebrated-on",
     "explanation": "International Youth Day is celebrated on August 12 to highlight the challenges faced by young people and to promote their active participation in global development.",
-    "tags": [
-      "youth",
-      "development",
-      "awareness"
-    ],
+    "tags": ["youth", "development", "awareness"],
     "options": [
       {
         "text": "August 12",
@@ -1773,11 +1529,7 @@
     "name": "International Literacy Day is celebrated on?",
     "slug": "international-literacy-day-is-celebrated-on",
     "explanation": "International Literacy Day is celebrated on September 8 to emphasize the importance of literacy as a matter of dignity and human rights.",
-    "tags": [
-      "literacy",
-      "education",
-      "awareness"
-    ],
+    "tags": ["literacy", "education", "awareness"],
     "options": [
       {
         "text": "September 8",
@@ -1802,11 +1554,7 @@
     "name": "World Diabetes Day is celebrated on?",
     "slug": "world-diabetes-day-is-celebrated-on",
     "explanation": "World Diabetes Day is celebrated on November 14 to raise awareness about diabetes and promote its prevention and management.",
-    "tags": [
-      "diabetes",
-      "health",
-      "awareness"
-    ],
+    "tags": ["diabetes", "health", "awareness"],
     "options": [
       {
         "text": "November 14",
@@ -1831,11 +1579,7 @@
     "name": "Human Rights Day is celebrated on?",
     "slug": "human-rights-day-is-celebrated-on",
     "explanation": "Human Rights Day is celebrated on December 10 to commemorate the adoption of the Universal Declaration of Human Rights.",
-    "tags": [
-      "human rights",
-      "equality",
-      "awareness"
-    ],
+    "tags": ["human rights", "equality", "awareness"],
     "options": [
       {
         "text": "December 10",
@@ -1860,11 +1604,7 @@
     "name": "What is the main ingredient in the dish 'omelette'?",
     "slug": "what-is-the-main-ingredient-in-the-dish-omelette",
     "explanation": "The main ingredient in an omelette is eggs, which are beaten and cooked with various fillings such as cheese, vegetables, and meats.",
-    "tags": [
-      "cooking",
-      "eggs",
-      "French cuisine"
-    ],
+    "tags": ["cooking", "eggs", "French cuisine"],
     "options": [
       {
         "text": "Eggs",
@@ -1889,11 +1629,7 @@
     "name": "What is the main ingredient in the dish 'quiche'?",
     "slug": "what-is-the-main-ingredient-in-the-dish-quiche",
     "explanation": "The main ingredient in a quiche is eggs, which are mixed with cream or milk and then baked in a pastry crust with vegetables, cheese, and meats.",
-    "tags": [
-      "cooking",
-      "eggs",
-      "French cuisine"
-    ],
+    "tags": ["cooking", "eggs", "French cuisine"],
     "options": [
       {
         "text": "Eggs",
@@ -1918,11 +1654,7 @@
     "name": "What is the main ingredient in the dish 'scrambled eggs'?",
     "slug": "what-is-the-main-ingredient-in-the-dish-scrambled-eggs",
     "explanation": "The main ingredient in scrambled eggs is eggs, which are whisked and cooked in a pan with butter or oil.",
-    "tags": [
-      "cooking",
-      "eggs",
-      "breakfast"
-    ],
+    "tags": ["cooking", "eggs", "breakfast"],
     "options": [
       {
         "text": "Eggs",
@@ -1947,11 +1679,7 @@
     "name": "What is the main ingredient in the dish 'frittelle'?",
     "slug": "what-is-the-main-ingredient-in-the-dish-frittelle",
     "explanation": "The main ingredient in frittelle is flour, which is mixed with other ingredients such as eggs, sugar, and sometimes fruit, and then deep-fried.",
-    "tags": [
-      "cooking",
-      "Italian cuisine",
-      "dessert"
-    ],
+    "tags": ["cooking", "Italian cuisine", "dessert"],
     "options": [
       {
         "text": "Flour",
@@ -1976,11 +1704,7 @@
     "name": "International Day of Peace is celebrated on?",
     "slug": "international-day-of-peace-is-celebrated-on",
     "explanation": "International Day of Peace is celebrated on September 21 to promote peace among nations and within societies.",
-    "tags": [
-      "peace",
-      "unity",
-      "awareness"
-    ],
+    "tags": ["peace", "unity", "awareness"],
     "options": [
       {
         "text": "September 21",
@@ -2005,11 +1729,7 @@
     "name": "World Habitat Day is celebrated on?",
     "slug": "world-habitat-day-is-celebrated-on",
     "explanation": "World Habitat Day is observed on the first Monday of October to reflect on the state of our towns and cities.",
-    "tags": [
-      "habitat",
-      "urban development",
-      "awareness"
-    ],
+    "tags": ["habitat", "urban development", "awareness"],
     "options": [
       {
         "text": "First Monday of October",
@@ -2034,11 +1754,7 @@
     "name": "World Mental Health Day is celebrated on?",
     "slug": "world-mental-health-day-is-celebrated-on",
     "explanation": "World Mental Health Day is celebrated on October 10 to raise awareness of mental health issues.",
-    "tags": [
-      "mental health",
-      "awareness",
-      "well-being"
-    ],
+    "tags": ["mental health", "awareness", "well-being"],
     "options": [
       {
         "text": "October 10",
@@ -2063,11 +1779,7 @@
     "name": "Universal Children's Day is celebrated on?",
     "slug": "universal-childrens-day-is-celebrated-on",
     "explanation": "Universal Children's Day is celebrated on November 20 to promote international togetherness and awareness among children worldwide.",
-    "tags": [
-      "children",
-      "rights",
-      "awareness"
-    ],
+    "tags": ["children", "rights", "awareness"],
     "options": [
       {
         "text": "November 20",
@@ -2092,11 +1804,7 @@
     "name": "World Wildlife Day is celebrated on?",
     "slug": "world-wildlife-day-is-celebrated-on",
     "explanation": "World Wildlife Day is celebrated on March 3 to raise awareness of the world's wild animals and plants.",
-    "tags": [
-      "wildlife",
-      "conservation",
-      "awareness"
-    ],
+    "tags": ["wildlife", "conservation", "awareness"],
     "options": [
       {
         "text": "March 3",
@@ -2121,11 +1829,7 @@
     "name": "What is the main ingredient in the dish 'lasagna'?",
     "slug": "what-is-the-main-ingredient-in-the-dish-lasagna",
     "explanation": "Lasagna is primarily made with pasta sheets, often layered with meat, cheese, and tomato sauce.",
-    "tags": [
-      "food",
-      "cooking",
-      "lasagna"
-    ],
+    "tags": ["food", "cooking", "lasagna"],
     "options": [
       {
         "text": "Pasta",
@@ -2150,11 +1854,7 @@
     "name": "Which country is known for its fashion?",
     "slug": "which-country-is-known-for-its-fashion",
     "explanation": "Italy is widely regarded as the global fashion capital, known for its luxury brands like Gucci, Prada, and Versace.",
-    "tags": [
-      "fashion",
-      "Italy",
-      "luxury brands"
-    ],
+    "tags": ["fashion", "Italy", "luxury brands"],
     "options": [
       {
         "text": "Italy",
@@ -2179,11 +1879,7 @@
     "name": "Which country is known for its street fashion?",
     "slug": "which-country-is-known-for-its-street-fashion",
     "explanation": "The United States, especially cities like New York and Los Angeles, is known for its diverse street fashion trends.",
-    "tags": [
-      "fashion",
-      "street fashion",
-      "United States"
-    ],
+    "tags": ["fashion", "street fashion", "United States"],
     "options": [
       {
         "text": "United States",
@@ -2208,11 +1904,7 @@
     "name": "Which country is known for its haute couture fashion?",
     "slug": "which-country-is-known-for-its-haute-couture-fashion",
     "explanation": "France, particularly Paris, is the heart of haute couture fashion, with designers like Chanel and Dior leading the industry.",
-    "tags": [
-      "fashion",
-      "haute couture",
-      "France"
-    ],
+    "tags": ["fashion", "haute couture", "France"],
     "options": [
       {
         "text": "France",
@@ -2237,11 +1929,7 @@
     "name": "Which country is known for its traditional clothing?",
     "slug": "which-country-is-known-for-its-traditional-clothing",
     "explanation": "India is known for its traditional clothing such as sarees, lehengas, and kurtas, reflecting its cultural heritage.",
-    "tags": [
-      "fashion",
-      "traditional clothing",
-      "India"
-    ],
+    "tags": ["fashion", "traditional clothing", "India"],
     "options": [
       {
         "text": "India",
@@ -2266,11 +1954,7 @@
     "name": "World Food Day is celebrated on?",
     "slug": "world-food-day-is-celebrated-on",
     "explanation": "World Food Day is celebrated on October 16 to highlight the importance of food security worldwide.",
-    "tags": [
-      "food",
-      "hunger",
-      "awareness"
-    ],
+    "tags": ["food", "hunger", "awareness"],
     "options": [
       {
         "text": "October 16",
@@ -2295,11 +1979,7 @@
     "name": "World Television Day is celebrated on?",
     "slug": "world-television-day-is-celebrated-on",
     "explanation": "World Television Day is celebrated on November 21 to recognize the impact of television on decision-making and global communication.",
-    "tags": [
-      "television",
-      "media",
-      "awareness"
-    ],
+    "tags": ["television", "media", "awareness"],
     "options": [
       {
         "text": "November 21",
@@ -2324,11 +2004,7 @@
     "name": "World Philosophy Day is celebrated on?",
     "slug": "world-philosophy-day-is-celebrated-on",
     "explanation": "World Philosophy Day is celebrated on the third Thursday of November each year to promote critical and independent thought.",
-    "tags": [
-      "philosophy",
-      "education",
-      "awareness"
-    ],
+    "tags": ["philosophy", "education", "awareness"],
     "options": [
       {
         "text": "Third Thursday of November",
@@ -2353,11 +2029,7 @@
     "name": "World Soil Day is celebrated on?",
     "slug": "world-soil-day-is-celebrated-on",
     "explanation": "World Soil Day is celebrated on December 5 to raise awareness about the importance of soil for sustainable development.",
-    "tags": [
-      "soil",
-      "environment",
-      "awareness"
-    ],
+    "tags": ["soil", "environment", "awareness"],
     "options": [
       {
         "text": "December 5",
@@ -2382,11 +2054,7 @@
     "name": "World Human Rights Day is celebrated on?",
     "slug": "world-human-rights-day-is-celebrated-on",
     "explanation": "World Human Rights Day is celebrated on December 10 to honor the adoption of the Universal Declaration of Human Rights in 1948.",
-    "tags": [
-      "human rights",
-      "justice",
-      "awareness"
-    ],
+    "tags": ["human rights", "justice", "awareness"],
     "options": [
       {
         "text": "December 10",
@@ -2411,11 +2079,7 @@
     "name": "World Braille Day is celebrated on?",
     "slug": "world-braille-day-is-celebrated-on",
     "explanation": "World Braille Day is celebrated on January 4 to recognize the importance of Braille as a means of communication for the visually impaired.",
-    "tags": [
-      "braille",
-      "accessibility",
-      "awareness"
-    ],
+    "tags": ["braille", "accessibility", "awareness"],
     "options": [
       {
         "text": "January 4",
@@ -2440,11 +2104,7 @@
     "name": "World Radio Day is celebrated on?",
     "slug": "world-radio-day-is-celebrated-on",
     "explanation": "World Radio Day is celebrated on February 13 to promote the importance of radio as a medium for information and communication.",
-    "tags": [
-      "radio",
-      "communication",
-      "awareness"
-    ],
+    "tags": ["radio", "communication", "awareness"],
     "options": [
       {
         "text": "February 13",
@@ -2469,11 +2129,7 @@
     "name": "International Day of Happiness is celebrated on?",
     "slug": "international-day-of-happiness-is-celebrated-on",
     "explanation": "International Day of Happiness is celebrated on March 20 to recognize the importance of happiness and well-being.",
-    "tags": [
-      "happiness",
-      "mental health",
-      "awareness"
-    ],
+    "tags": ["happiness", "mental health", "awareness"],
     "options": [
       {
         "text": "March 20",
@@ -2498,11 +2154,7 @@
     "name": "Which country is known for its historical sites?",
     "slug": "which-country-is-known-for-its-historical-sites",
     "explanation": "Egypt is renowned for its historical sites such as the Pyramids of Giza, the Sphinx, and ancient temples.",
-    "tags": [
-      "geography",
-      "history",
-      "tourism"
-    ],
+    "tags": ["geography", "history", "tourism"],
     "options": [
       {
         "text": "Italy",
@@ -2527,11 +2179,7 @@
     "name": "Which country is known for its avant-garde fashion?",
     "slug": "which-country-is-known-for-its-avant-garde-fashion",
     "explanation": "Japan is famous for its avant-garde fashion scene, particularly in Tokyo, with designers like Rei Kawakubo of Comme des Garçons.",
-    "tags": [
-      "fashion",
-      "avant-garde",
-      "Japan"
-    ],
+    "tags": ["fashion", "avant-garde", "Japan"],
     "options": [
       {
         "text": "Japan",
@@ -2556,11 +2204,7 @@
     "name": "What is the main ingredient in the dish 'frittata'?",
     "slug": "what-is-the-main-ingredient-in-the-dish-frittata",
     "explanation": "The main ingredient in a frittata is eggs, which are mixed with vegetables, cheese, and other ingredients before being cooked.",
-    "tags": [
-      "cooking",
-      "eggs",
-      "Italian cuisine"
-    ],
+    "tags": ["cooking", "eggs", "Italian cuisine"],
     "options": [
       {
         "text": "Eggs",
@@ -2585,11 +2229,7 @@
     "name": "Which country is famous for the Eiffel Tower?",
     "slug": "which-country-is-famous-for-the-eiffel-tower",
     "explanation": "France is famous for the Eiffel Tower, an iconic landmark located in its capital, Paris.",
-    "tags": [
-      "geography",
-      "landmarks",
-      "tourism"
-    ],
+    "tags": ["geography", "landmarks", "tourism"],
     "options": [
       {
         "text": "France",
@@ -2614,11 +2254,7 @@
     "name": "Which country is known for the Great Wall?",
     "slug": "which-country-is-known-for-the-great-wall",
     "explanation": "China is known for the Great Wall, a UNESCO World Heritage Site and a symbol of its rich history.",
-    "tags": [
-      "geography",
-      "history",
-      "landmarks"
-    ],
+    "tags": ["geography", "history", "landmarks"],
     "options": [
       {
         "text": "China",
@@ -2643,10 +2279,7 @@
     "name": "Which country is famous for its maple syrup?",
     "slug": "which-country-is-famous-for-its-maple-syrup",
     "explanation": "Canada is known for producing high-quality maple syrup, a staple of its culinary culture.",
-    "tags": [
-      "geography",
-      "food"
-    ],
+    "tags": ["geography", "food"],
     "options": [
       {
         "text": "Canada",
@@ -2671,11 +2304,7 @@
     "name": "Which country is known for its tulip fields?",
     "slug": "which-country-is-known-for-its-tulip-fields",
     "explanation": "The Netherlands is famous for its colorful tulip fields, especially during the spring season.",
-    "tags": [
-      "geography",
-      "nature",
-      "culture"
-    ],
+    "tags": ["geography", "nature", "culture"],
     "options": [
       {
         "text": "The Netherlands",
@@ -2700,10 +2329,7 @@
     "name": "Which country is famous for its kangaroos?",
     "slug": "which-country-is-famous-for-its-kangaroos",
     "explanation": "Australia is known for its unique wildlife, including kangaroos, which are native to the country.",
-    "tags": [
-      "geography",
-      "wildlife"
-    ],
+    "tags": ["geography", "wildlife"],
     "options": [
       {
         "text": "Australia",
@@ -2728,11 +2354,7 @@
     "name": "What is the main ingredient in the dish 'pesto'?",
     "slug": "what-is-the-main-ingredient-in-the-dish-pesto",
     "explanation": "Basil is the key ingredient in pesto, an Italian sauce traditionally made with basil, garlic, pine nuts, olive oil, and Parmesan cheese.",
-    "tags": [
-      "food",
-      "cooking",
-      "ingredients"
-    ],
+    "tags": ["food", "cooking", "ingredients"],
     "options": [
       {
         "text": "Basil",
@@ -2757,11 +2379,7 @@
     "name": "What is the main ingredient in guacamole?",
     "slug": "what-is-the-main-ingredient-in-guacamole",
     "explanation": "Avocado is the primary ingredient in guacamole, a traditional Mexican dip.",
-    "tags": [
-      "food",
-      "Mexican cuisine",
-      "ingredients"
-    ],
+    "tags": ["food", "Mexican cuisine", "ingredients"],
     "options": [
       {
         "text": "Avocado",
@@ -2786,11 +2404,7 @@
     "name": "What is the main ingredient in hummus?",
     "slug": "what-is-the-main-ingredient-in-hummus",
     "explanation": "Chickpeas are the primary ingredient in hummus, a popular Middle Eastern dip.",
-    "tags": [
-      "food",
-      "Middle Eastern cuisine",
-      "ingredients"
-    ],
+    "tags": ["food", "Middle Eastern cuisine", "ingredients"],
     "options": [
       {
         "text": "Chickpeas",
@@ -2815,11 +2429,7 @@
     "name": "What is the main ingredient in miso soup?",
     "slug": "what-is-the-main-ingredient-in-miso-soup",
     "explanation": "Miso, a fermented soybean paste, is the main ingredient in miso soup, a traditional Japanese dish.",
-    "tags": [
-      "food",
-      "Japanese cuisine",
-      "ingredients"
-    ],
+    "tags": ["food", "Japanese cuisine", "ingredients"],
     "options": [
       {
         "text": "Miso",
@@ -2844,11 +2454,7 @@
     "name": "What is the main ingredient in risotto?",
     "slug": "what-is-the-main-ingredient-in-risotto",
     "explanation": "Rice is the primary ingredient in risotto, an Italian dish known for its creamy texture.",
-    "tags": [
-      "food",
-      "Italian cuisine",
-      "ingredients"
-    ],
+    "tags": ["food", "Italian cuisine", "ingredients"],
     "options": [
       {
         "text": "Rice",
@@ -2873,11 +2479,7 @@
     "name": "What is the main ingredient in sushi?",
     "slug": "what-is-the-main-ingredient-in-sushi",
     "explanation": "Rice, specifically seasoned sushi rice, is the foundation of sushi, a traditional Japanese dish.",
-    "tags": [
-      "food",
-      "Japanese cuisine",
-      "ingredients"
-    ],
+    "tags": ["food", "Japanese cuisine", "ingredients"],
     "options": [
       {
         "text": "Rice",

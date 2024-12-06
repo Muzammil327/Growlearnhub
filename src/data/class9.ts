@@ -66,8 +66,8 @@ export const Class9BookData = [
         slug: "punjab-board-economics",
       },
       {
-        name: "Islamiat",
-        slug: "punjab-board-islamiat",
+        name: "Islamiyat",
+        slug: "punjab-board-islamiyat",
       },
       {
         name: "Ikhlaqiat",

@@ -1,8 +1,8 @@
-import React from "react"
-import { Metadata } from "next"
-import Link from "next/link"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import PDFViewer from "@/src/components/elements/PDFViewer"
+import React from "react";
+import { Metadata } from "next";
+import Link from "next/link";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import PDFViewer from "@/src/components/elements/PDFViewer";
 
 const data = {
   title: "VU MTH632 Handouts Pdf Download",
@@ -12,13 +12,13 @@ const data = {
   index: true,
   follow: true,
   image: "/vu/handouts/mth632_handouts.webp",
-  url: "https://growlearnhub.com/vu/handouts/mth632/",
+  url: "https://www.growlearnhub.com/vu/handouts/mth632/",
   keywords: [
     "mth632 handouts",
     "mth632 handouts pdf download",
     "vu mth632 handouts",
     "growlearnhub mth632 handouts",
-    "virtual university mth632 handouts"
+    "virtual university mth632 handouts",
   ],
   clist: [
     { name: "Handouts", slug: "/vu/handouts/" },
@@ -26,26 +26,23 @@ const data = {
     { name: "Final Term Mcqs", slug: "/vu/final-mcqs/" },
     { name: "Mid Mark Calculator", slug: "/vu/mid-mark-calculator/" },
     { name: "MTH632 Mid Term", slug: "/vu/handouts/mth632/" },
-    { name: "MTH632 Final Term", slug: "/vu/handouts/mth632/" }
+    { name: "MTH632 Final Term", slug: "/vu/handouts/mth632/" },
   ],
   fileId: "1BbmeMsqXQumZ3d8l2Mb43hRBMQ9iev7p",
   b1: "VU",
   b1Link: "/vu/",
   b2: "Handouts",
   b2Link: "/vu/handouts/",
-  b3: "MTH632"
-}
+  b3: "MTH632",
+};
 
 export default function Page() {
   return (
     <SimpleWrapper data={data}>
       <p className="p5">
         Welcome to your one-stop source for <em>MTH632 Handouts</em> from
-        <Link href="https://www.vu.edu.pk/">
-          Virtual University (VU)
-        </Link>
-        . Download the handouts in PDF format for free and study at your own
-        pace.
+        <Link href="https://www.vu.edu.pk/">Virtual University (VU)</Link>.
+        Download the handouts in PDF format for free and study at your own pace.
       </p>
       <h3>Download VU MTH632 Handouts</h3>
       <p>
@@ -67,7 +64,7 @@ export default function Page() {
         This book is officially published by Virtual University Of Pakistan.
       </p>
     </SimpleWrapper>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -81,27 +78,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

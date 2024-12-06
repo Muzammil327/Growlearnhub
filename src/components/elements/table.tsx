@@ -1,24 +1,24 @@
-import Link from "next/link"
+import Link from "next/link";
 
 interface Chapter {
-  id?: number
-  link?: string
+  id?: number;
+  link?: string;
 }
 
 interface TableElementProps {
-  content?: string
-  className?: string
+  content?: string;
+  className?: string;
 }
 
 interface TableProps {
-  chapterDATA?: Chapter[] // Optional chapter data
-  headingArray: string[] // Array for table headers
-  contentArray?: string[] // Optional array for custom content in <td>
-  chapterTitleArray?: string[] // Optional array for custom chapter titles
-  trProps?: TableElementProps[]
-  thProps?: TableElementProps[]
-  tdProps?: TableElementProps[]
-  headerTitle?: string // Prop for header title
+  chapterDATA?: Chapter[]; // Optional chapter data
+  headingArray: string[]; // Array for table headers
+  contentArray?: string[]; // Optional array for custom content in <td>
+  chapterTitleArray?: string[]; // Optional array for custom chapter titles
+  trProps?: TableElementProps[];
+  thProps?: TableElementProps[];
+  tdProps?: TableElementProps[];
+  headerTitle?: string; // Prop for header title
 }
 
 const Table: React.FC<TableProps> = ({
@@ -32,18 +32,25 @@ const Table: React.FC<TableProps> = ({
 }) => {
   // Determine if we should show data from chapterDATA or use chapterTitleArray and contentArray
   const hasChapterData = chapterDATA && chapterDATA.length > 0;
-  const rowCount = hasChapterData ? chapterDATA.length : Math.max(chapterTitleArray.length, contentArray.length);
+  const rowCount = hasChapterData
+    ? chapterDATA.length
+    : Math.max(chapterTitleArray.length, contentArray.length);
 
   return (
-    <table className="min-w-full border-collapse border border-gray-200 mb-5">
+    <table className="mb-5 min-w-full border-collapse border border-gray-200">
       <thead className="bg-gray-100">
         <tr
-          className={trProps[0]?.className || "bg-white border-b hover:bg-gray-50"}
+          className={
+            trProps[0]?.className || "border-b bg-white hover:bg-gray-50"
+          }
         >
           {headingArray.map((heading, index) => (
             <th
               key={index}
-              className={thProps[index]?.className || "px-6 py-4 text-left font-medium text-gray-700"}
+              className={
+                thProps[index]?.className ||
+                "px-6 py-4 text-left font-medium text-gray-700"
+              }
             >
               {heading}
             </th>
@@ -55,23 +62,34 @@ const Table: React.FC<TableProps> = ({
         {Array.from({ length: rowCount }).map((_, index) => (
           <tr
             key={index}
-            className={trProps[index + 1]?.className || "bg-white border-b hover:bg-gray-50"}
+            className={
+              trProps[index + 1]?.className ||
+              "border-b bg-white hover:bg-gray-50"
+            }
           >
             <th
               scope="row"
-              className={thProps[index + 1]?.className || "px-6 py-4 font-medium text-gray-900"}
+              className={
+                thProps[index + 1]?.className ||
+                "px-6 py-4 font-medium text-gray-900"
+              }
             >
               {hasChapterData
-                ? chapterTitleArray[index] || `Chapter ${chapterDATA[index]?.id}`
+                ? chapterTitleArray[index] ||
+                  `Chapter ${chapterDATA[index]?.id}`
                 : chapterTitleArray[index] || `Title ${index + 1}`}
             </th>
             <td className={tdProps[index + 1]?.className || "px-6 py-4"}>
               {hasChapterData ? (
                 <Link href={chapterDATA[index]?.link || "#"}>
-                  {contentArray[index] || tdProps[index + 1]?.content || "Download PDF English Medium"}
+                  {contentArray[index] ||
+                    tdProps[index + 1]?.content ||
+                    "Download PDF English Medium"}
                 </Link>
               ) : (
-                contentArray[index] || tdProps[index + 1]?.content || "No content available"
+                contentArray[index] ||
+                tdProps[index + 1]?.content ||
+                "No content available"
               )}
             </td>
           </tr>
@@ -79,6 +97,6 @@ const Table: React.FC<TableProps> = ({
       </tbody>
     </table>
   );
-}
+};
 
 export default Table;

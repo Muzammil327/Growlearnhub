@@ -36,7 +36,9 @@ export default function SimpleWrapper({ data, children }: Iprops) {
                 />
               )}
               {children}
-              <CommentForm url={`https://growlearnhub.com${data.canonical}`} />
+              <CommentForm
+                url={`https://www.growlearnhub.com${data.canonical}`}
+              />
             </div>
             <aside className="col-span-1 lg:col-span-3">
               {/* <Sidebar title={data.title} url={data.url} /> */}

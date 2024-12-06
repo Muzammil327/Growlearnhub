@@ -1,12 +1,12 @@
-import React from "react"
-import { Metadata } from "next"
-import Link from "@/src/components/ui/typography/Links/page"
-import PieChart from "@/src/components/elements/PieChart"
-import Table from "@/src/components/elements/table"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import UnorderedListLink from "@/src/components/elements/list/UnorderedListLink"
-import UnorderedList from "@/src/components/elements/list/UnorderedList"
-import Accordation from "@/src/components/elements/accordion"
+import React from "react";
+import { Metadata } from "next";
+import Link from "@/src/components/ui/typography/Links/page";
+import PieChart from "@/src/components/elements/PieChart";
+import Table from "@/src/components/elements/table";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import UnorderedListLink from "@/src/components/elements/list/UnorderedListLink";
+import UnorderedList from "@/src/components/elements/list/UnorderedList";
+import Accordation from "@/src/components/elements/accordion";
 
 const data = {
   title: "ENG201 Handouts Free PDF Download | VU Students",
@@ -16,22 +16,22 @@ const data = {
   index: true,
   follow: true,
   image: "/vu/handouts/eng201-handouts.webp",
-  url: "https://growlearnhub.com/vu/handouts/eng201/",
+  url: "https://www.growlearnhub.com/vu/handouts/eng201/",
   keywords: [
     "growlearnhub",
     "vu eng201 handouts",
     "growlearnhub eng201 handouts",
     "eng201 handouts",
-    "virtual university eng201 handouts"
-  ]
-}
+    "virtual university eng201 handouts",
+  ],
+};
 
 const combinedData = [
   {
     id: 1,
     link: "/",
     title: "Chapter 1",
-    content: "INTRODUCTION TO BUSINESS & TECHNICAL COMMUNICATION"
+    content: "INTRODUCTION TO BUSINESS & TECHNICAL COMMUNICATION",
   },
   { id: 2, link: "/", title: "Chapter 2", content: "ORAL COMMUNICATION" },
   { id: 3, link: "/", title: "Chapter 3", content: "READER-CENTERED WRITING" },
@@ -40,62 +40,62 @@ const combinedData = [
     id: 5,
     link: "/",
     title: "Chapter 5",
-    content: "EFFECTIVE COMMUNICATION DEFINING OBJECTIVES-I"
+    content: "EFFECTIVE COMMUNICATION DEFINING OBJECTIVES-I",
   },
   { id: 6, link: "/", title: "Chapter 6", content: "DEFINING OBJECTIVES-II" },
   {
     id: 7,
     link: "/",
     title: "Chapter 7",
-    content: "ACCURACY, CLARITY, CONCISENESS AND COHERENCE"
+    content: "ACCURACY, CLARITY, CONCISENESS AND COHERENCE",
   },
   {
     id: 8,
     link: "/",
     title: "Chapter 8",
-    content: "THE SEVEN C’S OF EFFECTIVE COMMUNICATION-I"
+    content: "THE SEVEN C’S OF EFFECTIVE COMMUNICATION-I",
   },
   {
     id: 9,
     link: "/",
     title: "Chapter 9",
-    content: "THE SEVEN C’S OF EFFECTIVE COMMUNICATION II"
+    content: "THE SEVEN C’S OF EFFECTIVE COMMUNICATION II",
   },
   {
     id: 10,
     link: "/",
     title: "Chapter 10",
-    content: "THE SEVEN C’S OF EFFECTIVE COMMUNICATION III"
+    content: "THE SEVEN C’S OF EFFECTIVE COMMUNICATION III",
   },
   {
     id: 11,
     link: "/",
     title: "Chapter 11",
-    content: "THE SEVEN C’S OF EFFECTIVE COMMUNICATION"
+    content: "THE SEVEN C’S OF EFFECTIVE COMMUNICATION",
   },
   {
     id: 12,
     link: "/",
     title: "Chapter 12",
-    content: "PLANNING BUSINESS MESSAGES"
+    content: "PLANNING BUSINESS MESSAGES",
   },
   {
     id: 13,
     link: "/",
     title: "Chapter 13",
-    content: "COMPOSING BUSINESS MESSAGES"
+    content: "COMPOSING BUSINESS MESSAGES",
   },
   {
     id: 14,
     link: "/",
     title: "Chapter 14",
-    content: "REVISING BUSINESS MESSAGES"
+    content: "REVISING BUSINESS MESSAGES",
   },
   {
     id: 15,
     link: "/",
     title: "Chapter 15",
-    content: "MEMORANDUMS, MEETING DOCUMENTS AND PROPOSALS"
+    content: "MEMORANDUMS, MEETING DOCUMENTS AND PROPOSALS",
   },
   { id: 16, link: "/", title: "Chapter 16", content: "LETTERS" }, // Continue as needed
   { id: 17, link: "/", title: "Chapter 17", content: "LETTERS II" },
@@ -103,25 +103,25 @@ const combinedData = [
     id: 18,
     link: "/",
     title: "Chapter 18",
-    content: "WRITING DIRECT REQUESTS"
+    content: "WRITING DIRECT REQUESTS",
   },
   {
     id: 19,
     link: "/",
     title: "Chapter 19",
-    content: "WRITING ROUTINE, GOOD-NEWS AND GOODWILL MESSAGES"
+    content: "WRITING ROUTINE, GOOD-NEWS AND GOODWILL MESSAGES",
   },
   {
     id: 20,
     link: "/",
     title: "Chapter 20",
-    content: "WRITING BAD-NEWS MESSAGES"
+    content: "WRITING BAD-NEWS MESSAGES",
   },
   {
     id: 21,
     link: "/",
     title: "Chapter 21",
-    content: "WRITING PERSUASIVE MESSAGES"
+    content: "WRITING PERSUASIVE MESSAGES",
   },
   { id: 22, link: "/", title: "Chapter 22", content: "WRITING SHORT REPORTS" },
   { id: 23, link: "/", title: "Chapter 23", content: "PLANNING LONG REPORTS" },
@@ -131,7 +131,7 @@ const combinedData = [
     id: 26,
     link: "/",
     title: "Chapter 26",
-    content: "EMPIRICAL RESEARCH REPORT"
+    content: "EMPIRICAL RESEARCH REPORT",
   },
   { id: 27, link: "/", title: "Chapter 27", content: "FEASIBILITY REPORTS" },
   { id: 28, link: "/", title: "Chapter 28", content: "PROGRESS REPORTS" },
@@ -142,77 +142,77 @@ const combinedData = [
     id: 32,
     link: "/",
     title: "Chapter 32",
-    content: "CREATING TWELVE TYPES OF VISUAL AIDS"
+    content: "CREATING TWELVE TYPES OF VISUAL AIDS",
   },
   {
     id: 33,
     link: "/",
     title: "Chapter 33",
-    content: "WRITING SPECIFICATIONS AND ANALYSIS REPORTS"
+    content: "WRITING SPECIFICATIONS AND ANALYSIS REPORTS",
   },
   {
     id: 34,
     link: "/",
     title: "Chapter 34",
-    content: "HOW TO AVOID COMMON WRITING PROBLEMS"
+    content: "HOW TO AVOID COMMON WRITING PROBLEMS",
   },
   { id: 35, link: "/", title: "Chapter 35", content: "LANGUAGE REVIEW" },
   {
     id: 36,
     link: "/",
     title: "Chapter 36",
-    content: "LANGUAGE REVIEW: SENTENCES"
+    content: "LANGUAGE REVIEW: SENTENCES",
   },
   {
     id: 37,
     link: "/",
     title: "Chapter 37",
-    content: "LANGUAGE REVIEW: SENTENCES II"
+    content: "LANGUAGE REVIEW: SENTENCES II",
   },
   { id: 38, link: "/", title: "Chapter 38", content: "LANGUAGE REVIEW" },
   {
     id: 39,
     link: "/",
     title: "Chapter 39",
-    content: "LANGUAGE REVIEW: PUNCTUATION II "
+    content: "LANGUAGE REVIEW: PUNCTUATION II ",
   },
   {
     id: 40,
     link: "/",
     title: "Chapter 40",
-    content: "LANGUAGE REVIEW: MECHANICS "
+    content: "LANGUAGE REVIEW: MECHANICS ",
   },
   {
     id: 41,
     link: "/",
     title: "Chapter 41",
-    content: "LISTENING AND INTERVIEWING"
+    content: "LISTENING AND INTERVIEWING",
   },
   {
     id: 42,
     link: "/",
     title: "Chapter 42",
-    content: "PLANNING INTERVIEWS AND CONDUCTING MEETINGS"
+    content: "PLANNING INTERVIEWS AND CONDUCTING MEETINGS",
   },
   {
     id: 43,
     link: "/",
     title: "Chapter 43",
-    content: "GIVING SPEECHES AND ORAL PRESENTATIONS II"
+    content: "GIVING SPEECHES AND ORAL PRESENTATIONS II",
   },
   {
     id: 44,
     link: "/",
     title: "Chapter 44",
-    content: "REVIEW WRITTEN COMMUNICATION"
+    content: "REVIEW WRITTEN COMMUNICATION",
   },
   {
     id: 45,
     link: "/",
     title: "Chapter 45",
-    content: "GIVING SPEECHES AND ORAL PRESENTATIONS I"
-  }
-]
+    content: "GIVING SPEECHES AND ORAL PRESENTATIONS I",
+  },
+];
 
 export default function Page() {
   return (
@@ -245,7 +245,7 @@ export default function Page() {
           "Total Pages",
           "Total Chapter",
           "Mid Exam Coverage",
-          "Final Exam Coverage"
+          "Final Exam Coverage",
         ]}
         contentArray={[
           "Business and Technical English",
@@ -255,7 +255,7 @@ export default function Page() {
           "245",
           "45",
           "1 to 21",
-          "22 to 45"
+          "22 to 45",
         ]}
         headingArray={["Course Title", "ENG201"]}
       />
@@ -265,26 +265,26 @@ export default function Page() {
         items={[
           {
             title: "Assignments (4%)",
-            description: ""
+            description: "",
           },
           {
             title: "Quizzes (4%)",
-            description: ""
+            description: "",
           },
           {
             title: "GDB (2%)",
             description:
-              "Ability to convey ideas clearly, and the effective use of oral communication strategies."
+              "Ability to convey ideas clearly, and the effective use of oral communication strategies.",
           },
           {
             title: "Mid Term (30%)",
             description:
-              "Exam will consist of multiple-choice questions, short-answer questions, and practical writing tasks."
+              "Exam will consist of multiple-choice questions, short-answer questions, and practical writing tasks.",
           },
           {
             title: "Mid Term (60%)",
-            description: ""
-          }
+            description: "",
+          },
         ]}
       />
 
@@ -302,16 +302,16 @@ export default function Page() {
         items={[
           {
             description:
-              "Identifying and addressing the communication needs of the audience."
+              "Identifying and addressing the communication needs of the audience.",
           },
           {
             description:
-              "Developing persuasive, clear, and concise written messages, reports, proposals, memos, and other business documents."
+              "Developing persuasive, clear, and concise written messages, reports, proposals, memos, and other business documents.",
           },
           {
             description:
-              "Understanding and implementing visual aids to support effective presentations."
-          }
+              "Understanding and implementing visual aids to support effective presentations.",
+          },
         ]}
       />
 
@@ -326,7 +326,7 @@ export default function Page() {
         contentArray={combinedData.map((item) => item.content)}
         chapterDATA={combinedData.map((item) => ({
           id: item.id,
-          link: item.link
+          link: item.link,
         }))}
         headingArray={["ENG201 Chapter", "ENG201 Topics"]}
       />
@@ -341,13 +341,13 @@ export default function Page() {
           {
             title: "Read Handouts Thoroughly",
             description:
-              "Go through each chapter and highlight key points. Make notes of important sections."
+              "Go through each chapter and highlight key points. Make notes of important sections.",
           },
           {
             title: "Practice Past Papers",
             description:
-              "Use the handouts to revise and then practice past papers for better retention."
-          }
+              "Use the handouts to revise and then practice past papers for better retention.",
+          },
         ]}
       />
 
@@ -357,21 +357,21 @@ export default function Page() {
         data={[
           {
             title: "Can I download ENG201 handouts for free?",
-            para: "Yes, you can download the ENG201 handouts in PDF format for free from this page."
+            para: "Yes, you can download the ENG201 handouts in PDF format for free from this page.",
           },
           {
             title: "Are these handouts enough to pass the exam?",
-            para: "The ENG201 handouts provide all the key material required for the exam. However, it’s recommended to also practice past papers and do additional reading to perform well."
+            para: "The ENG201 handouts provide all the key material required for the exam. However, it’s recommended to also practice past papers and do additional reading to perform well.",
           },
           {
             title:
               "How can I prepare for ENG201 final exams using these handouts?",
-            para: "For final exam preparation, go through each chapter in the handouts, take notes, and focus on key topics that are frequently covered in exams. Combine this with solving past papers to familiarize yourself with the exam pattern."
+            para: "For final exam preparation, go through each chapter in the handouts, take notes, and focus on key topics that are frequently covered in exams. Combine this with solving past papers to familiarize yourself with the exam pattern.",
           },
           {
             title: "Can I access these handouts on my mobile device?",
-            para: "Yes, the handouts are in PDF format and can be accessed on any device, including smartphones, tablets, and computers, for convenient study on the go."
-          }
+            para: "Yes, the handouts are in PDF format and can be accessed on any device, including smartphones, tablets, and computers, for convenient study on the go.",
+          },
         ]}
       />
 
@@ -385,36 +385,36 @@ export default function Page() {
         items={[
           {
             title: "ENG201 Highlight Handouts",
-            link: "/vu/highlight-handouts/eng201/"
+            link: "/vu/highlight-handouts/eng201/",
           },
           {
             title: "ENG201 Mid Term Solved Papers",
-            link: "/vu/handouts/eng201/"
+            link: "/vu/handouts/eng201/",
           },
           {
             title: "ENG201 Mid Term Mcqs",
-            link: "/vu/handouts/eng201/"
+            link: "/vu/handouts/eng201/",
           },
           {
             title: "ENG201 Mid Term Online Test",
-            link: "/vu/handouts/eng201/"
+            link: "/vu/handouts/eng201/",
           },
           {
             title: "ENG201 Final Term Solved Papers",
-            link: "/vu/handouts/eng201/"
+            link: "/vu/handouts/eng201/",
           },
           {
             title: "ENG201 Final Term Mcqs",
-            link: "/vu/handouts/eng201/"
+            link: "/vu/handouts/eng201/",
           },
           {
             title: "ENG201 Final Term Online Test",
-            link: "/vu/handouts/eng201/"
-          }
+            link: "/vu/handouts/eng201/",
+          },
         ]}
       />
     </SimpleWrapper>
-  )
+  );
 }
 
 export const metadata: Metadata = {
@@ -428,27 +428,27 @@ export const metadata: Metadata = {
     images: [
       {
         url: data.image,
-        alt: data.title
-      }
-    ]
+        alt: data.title,
+      },
+    ],
   },
   alternates: {
-    canonical: data.canonical
+    canonical: data.canonical,
   },
   robots: {
     index: data.index,
     follow: data.follow,
     googleBot: {
       index: data.index,
-      follow: data.follow
-    }
+      follow: data.follow,
+    },
   },
   twitter: {
     title: data.title,
     description: data.description,
     images: {
       url: data.image,
-      alt: data.title
-    }
-  }
-}
+      alt: data.title,
+    },
+  },
+};

@@ -12,7 +12,7 @@ const data = {
   keywords: ["growlearnhub", "growlearnhub past paper"],
   image: "/past-paper-all-classes-growlearnhub.webp",
   canonical: "/past-paper/",
-  url: "https://growlearnhub.com/past-paper/",
+  url: "https://www.growlearnhub.com/past-paper/",
   index: true,
   follow: true,
 };

@@ -13,7 +13,7 @@ const data = {
   index: true,
   follow: true,
   image: "/mcqs_point/physics_mcqs_point.png",
-  url: "https://growlearnhub.com/mcqs-point/physics/",
+  url: "https://www.growlearnhub.com/mcqs-point/physics/",
   keywords: ["mcqs", "quiz", "mcqs physics", "physics mcqs"],
 };
 

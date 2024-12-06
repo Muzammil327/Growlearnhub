@@ -1,49 +1,53 @@
-import React from "react"
-import SimpleWrapper from "@/src/components/elements/SimpleWrapper"
-import { removeDashAndUppercase } from "@/src/lib/removeDashAndUppercase"
-import ShowChapter from "@/src/app/(main)/mcqs-point/_components/ShowChapter"
+import React from "react";
+import SimpleWrapper from "@/src/components/elements/SimpleWrapper";
+import { removeDashAndUppercase } from "@/src/lib/removeDashAndUppercase";
+import ShowChapter from "@/src/app/(main)/mcqs-point/_components/ShowChapter";
 
 interface McqsBook {
-  book: string
+  book: string;
 }
 
 interface PageProps {
   params: Promise<McqsBook>;
 }
 
-let image = "/12th/class_12_mcqs.webp"
-
+let image = "/12th/class_12_mcqs.webp";
 
 export default async function page({ params }: PageProps) {
   const { book } = await params;
-  const slug = book
+  const slug = book;
   const SlugRemoveDashAndUppercase = removeDashAndUppercase(slug);
 
   return (
-    <SimpleWrapper data={{
-      title: "Class 12 " + SlugRemoveDashAndUppercase + " " + "Mcqs",
-      canonical: `/class-12/mcqs/${slug}`,
-      image: image,
-      url: `https://growlearnhub.com/class-12/mcqs/${slug}`,
-    }}>
-   <ShowChapter className="class-12" book={slug} />
+    <SimpleWrapper
+      data={{
+        title: "Class 12 " + SlugRemoveDashAndUppercase + " " + "Mcqs",
+        canonical: `/class-12/mcqs/${slug}`,
+        image: image,
+        url: `https://www.growlearnhub.com/class-12/mcqs/${slug}`,
+      }}
+    >
+      <ShowChapter className="class-12" book={slug} />
     </SimpleWrapper>
-  )
+  );
 }
 
 export async function generateMetadata({ params }: PageProps) {
   const { book } = await params;
-  const slug = book
+  const slug = book;
   let url = `${process.env.NEXT_PUBLIC_SITE_URL}/class-12/mcqs/${slug}/`;
   let canonical = `/class-12/mcqs/${slug}/`;
 
   const SlugRemoveDashAndUppercase = removeDashAndUppercase(slug);
 
-
   try {
-
     let title = "Class 12 " + SlugRemoveDashAndUppercase + " " + "Mcqs";
-    let description = "Class 12" + " " + SlugRemoveDashAndUppercase + " " + "MCQs page offering a wide range of practice questions, online tests, and detailed answers for thorough exam preparation.";
+    let description =
+      "Class 12" +
+      " " +
+      SlugRemoveDashAndUppercase +
+      " " +
+      "MCQs page offering a wide range of practice questions, online tests, and detailed answers for thorough exam preparation.";
     let keywords = [
       "class 12 biology mcqs",
       "class 12 chemistry mcqs",
@@ -51,7 +55,7 @@ export async function generateMetadata({ params }: PageProps) {
       "class 12 physics mcqs",
       "class 12 history mcqs",
       "class 12 geography mcqs",
-    ]
+    ];
 
     return {
       title: title,
@@ -103,7 +107,8 @@ export async function generateMetadata({ params }: PageProps) {
       openGraph: {
         title: "Error",
         description: "Unable to fetch product data",
-        url: url, images: [
+        url: url,
+        images: [
           {
             url: "/default-error-image.jpg",
             alt: "Error",

@@ -62,8 +62,8 @@ export const Class11BookData = [
         slug: "punjab-board-urdu",
       },
       {
-        name: "Islamiat",
-        slug: "punjab-board-islamiat",
+        name: "Islamiyat",
+        slug: "punjab-board-islamiyat",
       },
       {
         name: "Tarjuma Tul Quran",
