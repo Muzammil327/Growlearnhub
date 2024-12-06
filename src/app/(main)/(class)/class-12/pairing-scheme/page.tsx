@@ -19,7 +19,7 @@ const data = {
   ],
   image: "/12th/class_12_pairing_scheme.webp",
   canonical: "/class-12/pairing-scheme/",
-  url: "https://www.growlearnhub.com/class-12/pairing-scheme/",
+  url: "https://growlearnhub.com/class-12/pairing-scheme/",
   index: true,
   follow: true,
 };

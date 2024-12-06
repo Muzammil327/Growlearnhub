@@ -8,7 +8,7 @@ const data = {
   image: "/single/cookies_policy.webp",
   keywords: ["growlearnhub", "growlearnhub cookies policy", "cookies policy"],
   canonical: "/cookies-policy/",
-  url: "https://www.growlearnhub.com/cookies-policy/",
+  url: "https://growlearnhub.com/cookies-policy/",
   index: false,
   follow: false,
 };

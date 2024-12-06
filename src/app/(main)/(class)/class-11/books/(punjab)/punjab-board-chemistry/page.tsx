@@ -22,7 +22,7 @@ const data = {
     "chemistry 11th class book ",
   ],
   canonical: "/class-11/books/punjab-board-chemistry/",
-  url: "https://www.growlearnhub.com/class-11/books/punjab-board-chemistry/",
+  url: "https://growlearnhub.com/class-11/books/punjab-board-chemistry/",
   index: true,
   follow: true,
   fileId_english: "1LhWG65hJibow48tOzY7L_w9gWTWfeqvE",

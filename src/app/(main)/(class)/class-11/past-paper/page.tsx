@@ -19,7 +19,7 @@ const data = {
   ],
   image: "/11th/class_11_past_paper.webp",
   canonical: "/class-11/past-paper/",
-  url: "https://www.growlearnhub.com/class-11/past-paper/",
+  url: "https://growlearnhub.com/class-11/past-paper/",
   index: true,
   follow: true,
 };

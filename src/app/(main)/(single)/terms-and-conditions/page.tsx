@@ -12,7 +12,7 @@ const data = {
     "term and condition",
   ],
   canonical: "/terms-and-conditions/",
-  url: "https://www.growlearnhub.com/terms-and-conditions/",
+  url: "https://growlearnhub.com/terms-and-conditions/",
   index: true,
   follow: true,
 };

@@ -32,7 +32,7 @@ export default async function page({ params }: PageProps) {
           "Online Test",
         canonical: `/class-11/online-test/${slug1}/${slug2}`,
         image: image,
-        url: `https://www.growlearnhub.com/class-11/online-test/${slug1}/${slug2}`,
+        url: `https://growlearnhub.com/class-11/online-test/${slug1}/${slug2}`,
       }}
     ></SimpleWrapper>
   );

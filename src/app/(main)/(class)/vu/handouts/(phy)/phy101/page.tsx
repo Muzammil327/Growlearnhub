@@ -10,7 +10,7 @@ const data = {
   index: true,
   follow: true,
   image: "/vu/handouts/phy101_handouts.webp",
-  url: "https://www.growlearnhub.com/vu/handouts/phy101/",
+  url: "https://growlearnhub.com/vu/handouts/phy101/",
   keywords: [],
 };
 

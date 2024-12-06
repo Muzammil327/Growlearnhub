@@ -9,7 +9,7 @@ const data = {
   keywords: [],
   image: "/10th/book/punjab/class_10_physics_book_punjab_board.webp",
   canonical: "/class-10/books/punjab-board-physics/english-medium/",
-  url: "https://www.growlearnhub.com/class-10/books/punjab-board-physics/english-medium/",
+  url: "https://growlearnhub.com/class-10/books/punjab-board-physics/english-medium/",
   index: true,
   follow: true,
 };

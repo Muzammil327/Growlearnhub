@@ -17,7 +17,7 @@ const data = {
   ],
   image: "/vu/vu_handouts.webp",
   canonical: "/vu/handouts/",
-  url: "https://www.growlearnhub.com/vu/handouts/",
+  url: "https://growlearnhub.com/vu/handouts/",
   index: true,
   follow: true,
 };

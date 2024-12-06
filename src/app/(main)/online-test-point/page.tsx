@@ -15,7 +15,7 @@ const data = {
   image: "/online-test-point.webp",
   keywords: ["growlearnhub", "growlearnhub online test point"],
   canonical: "/online-test-point/",
-  url: "https://www.growlearnhub.com/online-test-point/",
+  url: "https://growlearnhub.com/online-test-point/",
   index: true,
   follow: true,
 };

@@ -12,7 +12,7 @@ const data = {
   image: "/result-all-classes-growlearnhub.webp",
   keywords: ["growlearnhub", "growlearnhub result"],
   canonical: "/result/",
-  url: "https://www.growlearnhub.com/result/",
+  url: "https://growlearnhub.com/result/",
   index: true,
   follow: true,
 };

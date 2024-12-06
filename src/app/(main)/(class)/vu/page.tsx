@@ -11,7 +11,7 @@ const data = {
   keywords: ["growlearnhub", "growlearnhub vu", "vu", "virtual university"],
   image: "/vu.webp",
   canonical: "/vu/",
-  url: "https://www.growlearnhub.com/vu/",
+  url: "https://growlearnhub.com/vu/",
   index: true,
   follow: true,
 };

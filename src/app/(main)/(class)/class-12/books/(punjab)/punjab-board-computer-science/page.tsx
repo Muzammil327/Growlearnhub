@@ -17,7 +17,7 @@ const data = {
     "class 12 computer science book punjab board",
   ],
   canonical: "/class-12/books/punjab-board-computer-science/",
-  url: "https://www.growlearnhub.com/class-12/books/punjab-board-computer-science/",
+  url: "https://growlearnhub.com/class-12/books/punjab-board-computer-science/",
   index: true,
   follow: true,
   fileId_english: "1o5fPLG7_lTK2sAs5smLAgJEopLTf8fsR",

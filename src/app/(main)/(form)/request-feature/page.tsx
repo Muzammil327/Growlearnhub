@@ -8,7 +8,7 @@ const data = {
   image: "/single/request_failure.webp",
   keywords: ["growlearnhub", "growlearnhub request failure", "request failure"],
   canonical: "/request-feature/",
-  url: "https://www.growlearnhub.com/request-feature/",
+  url: "https://growlearnhub.com/request-feature/",
   index: true,
   follow: true,
 };

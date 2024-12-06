@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "growlearnhub",
   },
-  metadataBase: new URL("https://www.growlearnhub.com"),
+  metadataBase: new URL("https://growlearnhub.com"),
   twitter: {
     title: "growlearnhub",
   },

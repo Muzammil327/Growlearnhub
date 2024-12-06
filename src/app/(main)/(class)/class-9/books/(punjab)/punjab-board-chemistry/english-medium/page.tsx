@@ -9,7 +9,7 @@ const data = {
   keywords: [],
   image: "/9th/book/punjab/class_9_chemistry_book_punjab_board.webp",
   canonical: "/class-9/books/punjab-board-chemistry/english-medium/",
-  url: "https://www.growlearnhub.com/class-9/books/punjab-board-chemistry/english-medium/",
+  url: "https://growlearnhub.com/class-9/books/punjab-board-chemistry/english-medium/",
   index: true,
   follow: true,
 };

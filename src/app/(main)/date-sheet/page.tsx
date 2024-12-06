@@ -12,7 +12,7 @@ const data = {
   keywords: ["growlearnhub", "growlearnhub date-sheet"],
   image: "/date-sheet-all-classes-growlearnhub.webp",
   canonical: "/date-sheet/",
-  url: "https://www.growlearnhub.com/date-sheet/",
+  url: "https://growlearnhub.com/date-sheet/",
   index: true,
   follow: true,
 };

@@ -9,7 +9,7 @@ const data = {
   keywords: [],
   image: "/9th/book/punjab/class_9_general-math_book_punjab_board.webp",
   canonical: "/class-9/books/punjab-board-general-math/urdu-medium/",
-  url: "https://www.growlearnhub.com/class-9/books/punjab-board-general-math/urdu-medium/",
+  url: "https://growlearnhub.com/class-9/books/punjab-board-general-math/urdu-medium/",
   index: true,
   follow: true,
 };

@@ -12,7 +12,7 @@ const data = {
   index: true,
   follow: true,
   image: "/vu/handouts/mth401_handouts.webp",
-  url: "https://www.growlearnhub.com/vu/handouts/mth401/",
+  url: "https://growlearnhub.com/vu/handouts/mth401/",
   keywords: [
     "growlearnhub",
     "vu mth401 handouts",
@@ -39,7 +39,7 @@ export default function Page() {
     <SimpleWrapper data={data}>
       <p className="p5">
         Welcome to your one-stop source for <em>MTH401 Handouts</em> from
-        <Link href="https://www.vu.edu.pk/">Virtual University (VU)</Link>.
+        <Link href="https://vu.edu.pk/">Virtual University (VU)</Link>.
         Download the handouts in PDF format for free and study at your own pace.
       </p>
       <h3>Download VU MTH401 Handouts</h3>

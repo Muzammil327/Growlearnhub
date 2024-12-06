@@ -27,22 +27,22 @@ export const McqsSubjectData: SmallCardProps[] = [
   {
     id: 0,
     title: "Physics",
-    link: "/mcqs-point/physics",
+    link: "/mcqs-point/physics/",
   },
   {
     id: 1,
     title: "Chemistry",
-    link: "/mcqs-point/chemistry",
+    link: "/mcqs-point/chemistry/",
   },
   {
     id: 2,
     title: "Biology",
-    link: "/mcqs-point/biology",
+    link: "/mcqs-point/biology/",
   },
   {
     id: 3,
     title: "General Knowledge",
-    link: "/mcqs-point/general-knowledge",
+    link: "/mcqs-point/general-knowledge/",
   },
 ];
 
@@ -50,27 +50,27 @@ export const PhysicsMcqsSubjectData: SmallCardProps[] = [
   {
     id: 0,
     title: "",
-    link: "",
+    link: "#",
   },
 ];
 export const ChemistryMcqsSubjectData: SmallCardProps[] = [
   {
     id: 0,
     title: "",
-    link: "",
+    link: "#",
   },
 ];
 export const BiologyMcqsSubjectData: SmallCardProps[] = [
   {
     id: 0,
     title: "",
-    link: "",
+    link: "#",
   },
 ];
 export const GKMcqsSubjectData: SmallCardProps[] = [
   {
     id: 0,
     title: "",
-    link: "",
+    link: "#",
   },
 ];

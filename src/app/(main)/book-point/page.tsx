@@ -12,7 +12,7 @@ const data = {
   image: "/book_point.webp",
   keywords: ["growlearnhub", "growlearnhub book point"],
   canonical: "/book-point/",
-  url: "https://www.growlearnhub.com/book-point/",
+  url: "https://growlearnhub.com/book-point/",
   index: true,
   follow: true,
 };

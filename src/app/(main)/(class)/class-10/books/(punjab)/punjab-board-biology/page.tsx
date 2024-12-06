@@ -18,7 +18,7 @@ const data = {
   ],
   image: "/10th/book/punjab/class_10_biology_book_punjab_board.webp",
   canonical: "/class-10/books/punjab-board-biology/",
-  url: "https://www.growlearnhub.com/class-10/books/punjab-board-biology/",
+  url: "https://growlearnhub.com/class-10/books/punjab-board-biology/",
   index: true,
   follow: true,
   fileId_english: "1MFRZ5yO0SrrfTkAM_ewXBp_Pec4zTOA-",

@@ -17,7 +17,7 @@ const data = {
     "virtual university highlight handouts",
   ],
   canonical: "/vu/highlight-handouts/",
-  url: "https://www.growlearnhub.com/vu/highlight-handouts/",
+  url: "https://growlearnhub.com/vu/highlight-handouts/",
   index: true,
   follow: true,
 };

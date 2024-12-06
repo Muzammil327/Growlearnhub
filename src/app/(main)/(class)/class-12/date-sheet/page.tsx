@@ -18,7 +18,7 @@ const data = {
   ],
   image: "/12th/class_12_date_sheet.webp",
   canonical: "/class-12/date-sheet/",
-  url: "https://www.growlearnhub.com/class-12/date-sheet/",
+  url: "https://growlearnhub.com/class-12/date-sheet/",
   index: true,
   follow: true,
 };

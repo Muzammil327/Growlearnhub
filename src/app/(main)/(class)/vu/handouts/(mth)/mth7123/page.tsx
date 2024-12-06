@@ -12,7 +12,7 @@ const data = {
   index: true,
   follow: true,
   image: "/vu/handouts/mth7123_handouts.webp",
-  url: "https://www.growlearnhub.com/vu/handouts/mth7123/",
+  url: "https://growlearnhub.com/vu/handouts/mth7123/",
   keywords: [
     "growlearnhub",
     "vu mth7123 handouts",
@@ -39,7 +39,7 @@ export default function Page() {
     <SimpleWrapper data={data}>
       <p className="p5">
         Welcome to your one-stop source for <em>MTH7123 Handouts</em> from
-        <Link href="https://www.vu.edu.pk/">Virtual University (VU)</Link>.
+        <Link href="https://vu.edu.pk/">Virtual University (VU)</Link>.
         Download the handouts in PDF format for free and study at your own pace.
       </p>
       <h3>Download VU MTH7123 Handouts</h3>

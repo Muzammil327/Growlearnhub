@@ -24,7 +24,7 @@ export default async function page({ params }: PageProps) {
         title: "Class 9 " + SlugRemoveDashAndUppercase + " " + "Online Test",
         canonical: `/class-9/online-test/${slug}`,
         image: image,
-        url: `https://www.growlearnhub.com/class-9/online-test/${slug}`,
+        url: `https://growlearnhub.com/class-9/online-test/${slug}`,
       }}
     >
       <ShowChapter className="class-9" book={slug} />

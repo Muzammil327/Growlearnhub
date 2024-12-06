@@ -8,7 +8,7 @@ const data = {
   image: "/single/user_experience.webp",
   keywords: ["growlearnhub", "growlearnhub user experience", "user experience"],
   canonical: "/user-experience/",
-  url: "https://www.growlearnhub.com/user-experience/",
+  url: "https://growlearnhub.com/user-experience/",
   index: true,
   follow: true,
 };

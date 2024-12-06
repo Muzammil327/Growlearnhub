@@ -16,7 +16,7 @@ const data = {
     "class 10 economics book punjab board",
   ],
   canonical: "/class-10/books/punjab-board-economics/",
-  url: "https://www.growlearnhub.com/class-10/books/punjab-board-economics/",
+  url: "https://growlearnhub.com/class-10/books/punjab-board-economics/",
   index: true,
   follow: true,
   fileId_urdu: "1JIhmsCKh20DfmqwWuHtwBWa1cZdsu7B1",

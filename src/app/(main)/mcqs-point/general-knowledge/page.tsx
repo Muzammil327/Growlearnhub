@@ -12,7 +12,7 @@ const data = {
   canonical: "/mcqs-point/general-knowledge/",
   index: true,
   follow: true,
-  url: "https://www.growlearnhub.com/mcqs-point/general-knowledge/",
+  url: "https://growlearnhub.com/mcqs-point/general-knowledge/",
   image: "/mcqs-point/general-knowledge/general-knowledge-mcqs-point.png",
   keywords: [
     "mcqs",

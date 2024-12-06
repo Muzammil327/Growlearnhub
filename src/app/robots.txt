@@ -7,4 +7,4 @@ Allow: /
 User-agent: AhrefsBot
 Allow: /
 
-Sitemap: https://www.growlearnhub.com/sitemap.xml
+Sitemap: https://growlearnhub.com/sitemap.xml

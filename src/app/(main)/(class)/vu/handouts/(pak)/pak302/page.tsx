@@ -11,7 +11,7 @@ const data = {
   index: true,
   follow: true,
   image: "/vu/handouts/pak302_handouts.webp",
-  url: "https://www.growlearnhub.com/vu/handouts/pak302/",
+  url: "https://growlearnhub.com/vu/handouts/pak302/",
   keywords: [],
 };
 
@@ -20,7 +20,7 @@ export default function Page() {
     <SimpleWrapper data={data}>
       <p className="p5">
         Welcome to your one-stop source for <em>PAK302 Handouts</em> from
-        <Link href="https://www.vu.edu.pk/">Virtual University (VU)</Link>.
+        <Link href="https://vu.edu.pk/">Virtual University (VU)</Link>.
         Download the handouts in PDF format for free and study at your own pace.
       </p>
       <h3>Download VU Pak302 Handouts</h3>

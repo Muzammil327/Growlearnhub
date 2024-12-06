@@ -12,7 +12,7 @@ const data = {
     "jobs opportunities",
   ],
   canonical: "/jobs-opportunities/",
-  url: "https://www.growlearnhub.com/jobs-opportunities/",
+  url: "https://growlearnhub.com/jobs-opportunities/",
   index: true,
   follow: true,
 };

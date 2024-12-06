@@ -8,7 +8,7 @@ const data = {
   image: "/single/success_stories.webp",
   keywords: ["growlearnhub", "growlearnhub success stories", "success stories"],
   canonical: "/success-stories/",
-  url: "https://www.growlearnhub.com/success-stories/",
+  url: "https://growlearnhub.com/success-stories/",
   index: true,
   follow: true,
 };

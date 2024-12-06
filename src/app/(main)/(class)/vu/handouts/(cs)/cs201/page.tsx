@@ -12,7 +12,7 @@ const data = {
   index: true,
   follow: true,
   image: "/vu/handouts/cs201_handouts.webp",
-  url: "https://www.growlearnhub.com/vu/handouts/cs201/",
+  url: "https://growlearnhub.com/vu/handouts/cs201/",
   keywords: [
     "growlearnhub",
     "vu cs201 handouts",
@@ -28,7 +28,7 @@ export default function Page() {
     <SimpleWrapper data={data}>
       <p className="p5">
         Welcome to your one-stop source for <em>CS201 Handouts</em> from
-        <Link href="https://www.vu.edu.pk/">Virtual University (VU)</Link>.
+        <Link href="https://vu.edu.pk/">Virtual University (VU)</Link>.
         Download the handouts in PDF format for free and study at your own pace.
       </p>
 
