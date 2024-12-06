@@ -5,19 +5,17 @@ const nextConfig = {
   images: {
     domains: ["rainbowthemes.net"],
   },
-  async redirects() {
-    return [
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "www.growlearnhub.com" }], // Check for non-www domain
-        destination: "https://growlearnhub.com/:path*", // Redirect to www version
-        permanent: true,
-      },
-    ];
-  },  
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: "/:path*",
+  //       has: [{ type: "host", value: "www.growlearnhub.com" }], // Check for non-www domain
+  //       destination: "https://growlearnhub.com/:path*", // Redirect to www version
+  //       permanent: true,
+  //     },
+  //   ];
+  // },  
   trailingSlash: true,
-  reactStrictMode: true,
-  swcMinify: true,
 };
 
 export default nextConfig;
